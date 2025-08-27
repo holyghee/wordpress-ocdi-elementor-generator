@@ -43,15 +43,26 @@ Transform the Cholot retirement theme WordPress XML to RIMAN GmbH environmental 
 5. **Baubiologische Beratung** - Building biology consulting
 6. **Mediation & Konfliktmanagement** - Project mediation
 
-### 3. Image Resources (SEO-optimized German names)
-Available at: http://localhost:8082/
+### 3. Image Server Resources (SEO-optimized German names)
+**Image Server Running at:** http://localhost:8082/
+**Location:** /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/seo-images/
+
+**Available Professional RIMAN Images (24 total):**
 - schadstoffsanierung-industrieanlage-riman-gmbh.jpg
-- rueckbaumanagement-abriss-professionell.jpg
+- rueckbaumanagement-abriss-professionell.jpg  
 - altlastensanierung-bodenaushub-fachgerecht.jpg
 - sicherheitskoordination-baustelle-riman.jpg
 - gefahrstoff-management-asbest-sanierung.jpg
 - baubiologische-beratung-gesundes-bauen.jpg
-(24 total images with German SEO slugs)
+- asbest-sanierung-schutzausruestung-fachpersonal.jpg
+- industrierueckbau-kran-demolierung-sicher.jpg
+- schadstoffanalyse-labor-untersuchung-probe.jpg
+- baustellen-sicherheit-helm-koordination.jpg
+- And 14 more with German SEO-friendly names...
+
+**Important:** Replace all Cholot theme image URLs with these RIMAN images
+- Original: https://theme.winnertheme.com/cholot/wp-content/uploads/...
+- Replace with: http://localhost:8082/[seo-image-name].jpg
 
 ## Transformation Rules
 
