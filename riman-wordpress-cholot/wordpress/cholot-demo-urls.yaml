@@ -1,0 +1,28 @@
+# Cholot Homepage with Working Demo Image URLs
+site:
+  title: "Cholot Theme Demo"
+  description: "Using working demo.ridianur.com image URLs"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+pages:
+  - title: "Cholot Home (Demo Images)"
+    slug: "home"
+    status: "publish"
+    post_id: 1482
+    template: "elementor_canvas"
+    
+    # Use the elementor data with demo URLs
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/elementor-content-demo-urls.json"
+    
+    # Meta fields
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+    
+    # Optional content
+    content: |
+      <!-- wp:paragraph -->
+      <p>This page uses Cholot theme demo images from demo.ridianur.com</p>
+      <!-- /wp:paragraph -->

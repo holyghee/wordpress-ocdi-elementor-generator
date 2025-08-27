@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Generated WordPress XML using Cholot Theme Generator -->
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+    <title>RIMAN GmbH</title>
+    <link>http://localhost:8082</link>
+    <description>Professionelle Schadstoffsanierung seit 1998</description>
+    <pubDate>Wed, 27 Aug 2025 23:29:00 </pubDate>
+    <language>de-DE</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>http://localhost:8082</wp:base_site_url>
+    <wp:base_blog_url>http://localhost:8082</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login><![CDATA[admin]]></wp:author_login>
+        <wp:author_email><![CDATA[admin@example.com]]></wp:author_email>
+        <wp:author_display_name><![CDATA[Administrator]]></wp:author_display_name>
+        <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+        <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+    </wp:author>
+
+    
+    <wp:category>
+        <wp:term_id>1</wp:term_id>
+        <wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
+        <wp:category_parent><![CDATA[]]></wp:category_parent>
+        <wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
+    </wp:category>
+    
+    <wp:term>
+        <wp:term_id><![CDATA[2]]></wp:term_id>
+        <wp:term_taxonomy><![CDATA[elementor_library_type]]></wp:term_taxonomy>
+        <wp:term_slug><![CDATA[page]]></wp:term_slug>
+        <wp:term_parent><![CDATA[]]></wp:term_parent>
+        <wp:term_name><![CDATA[page]]></wp:term_name>
+    </wp:term>
+    
+    
+    <item>
+        <title>RIMAN GmbH - Startseite</title>
+        <link>http://localhost:8082/home/</link>
+        <pubDate>Wed, 27 Aug 2025 23:29:00 </pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost:8082/?page_id=1</guid>
+        <description></description>
+        <content:encoded><![CDATA[ ]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>1</wp:post_id>
+        <wp:post_date><![CDATA[2025-08-27 23:29:00]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2025-08-27 23:29:00]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[home]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+            <wp:meta_value><![CDATA[builder]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+            <wp:meta_value><![CDATA[page]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2.6.2]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[blank-builder.php]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+            <wp:meta_value><![CDATA[[{"id":"b5l9emz","elType":"section","settings":{"gap":"extended","structure":"100","background_background":"classic","background_color":"#232323"},"elements":[{"id":"8k6icbl","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"j05vvsl","elType":"widget","settings":{"title":"RIMAN GmbH - Ihr Partner f\u00fcr <span>professionelle</span> Schadstoffsanierung","header_size":"h1","desc_typography_typography":"custom","desc_typography_font_size":{"unit":"px","size":20,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"align":"center"},"elements":[],"widgetType":"cholot-title"},{"id":"31h0qgz","elType":"widget","settings":{"title":"Sicherheit und Kompetenz","selected_icon":{"value":"fas fa-shield-alt","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":24,"sizes":[]},"title_typography_line_height":{"unit":"em","size":1,"sizes":[]},"title_color":"#ffffff","subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":13,"sizes":[]},"subtitle_typography_font_weight":"700","subtitle_typography_text_transform":"uppercase","subtitle_typography_letter_spacing":{"unit":"px","size":1,"sizes":[]},"subtitle_color":"#b68c2f","icon_size":{"unit":"px","size":15,"sizes":[]},"icon_bg_size":{"unit":"px","size":35,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"text_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"icon_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"subtitle":"Seit 1998","text":"<p><p>Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verf\u00fcgung.</p></p>","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":13,"sizes":[]},"text_typography_font_weight":"normal","text_typography_text_transform":"uppercase","text_typography_line_height":{"unit":"em","size":1,"sizes":[]},"text_color":"#b68c2f"},"elements":[],"widgetType":"cholot-texticon"}],"isInner":false}],"isInner":false},{"id":"qm35c6a","elType":"section","settings":{"gap":"extended","structure":"33"},"elements":[{"id":"c2jue3j","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"v82dytx","elType":"widget","settings":{"title":"Schadstoffsanierung","selected_icon":{"value":"fas fa-shield-alt","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":24,"sizes":[]},"title_typography_line_height":{"unit":"em","size":1,"sizes":[]},"title_color":"#ffffff","subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":13,"sizes":[]},"subtitle_typography_font_weight":"700","subtitle_typography_text_transform":"uppercase","subtitle_typography_letter_spacing":{"unit":"px","size":1,"sizes":[]},"subtitle_color":"#b68c2f","icon_size":{"unit":"px","size":15,"sizes":[]},"icon_bg_size":{"unit":"px","size":35,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"text_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"icon_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"subtitle":"Professionell","text":"<p><p>Fachgerechte Sanierung von Schadstoffen in Geb\u00e4uden und Anlagen.</p></p>","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":13,"sizes":[]},"text_typography_font_weight":"normal","text_typography_text_transform":"uppercase","text_typography_line_height":{"unit":"em","size":1,"sizes":[]},"text_color":"#b68c2f"},"elements":[],"widgetType":"cholot-texticon"}],"isInner":false},{"id":"fr5gotl","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"uaom42l","elType":"widget","settings":{"title":"R\u00fcckbaumanagement","selected_icon":{"value":"fas fa-building","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":24,"sizes":[]},"title_typography_line_height":{"unit":"em","size":1,"sizes":[]},"title_color":"#ffffff","subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":13,"sizes":[]},"subtitle_typography_font_weight":"700","subtitle_typography_text_transform":"uppercase","subtitle_typography_letter_spacing":{"unit":"px","size":1,"sizes":[]},"subtitle_color":"#b68c2f","icon_size":{"unit":"px","size":15,"sizes":[]},"icon_bg_size":{"unit":"px","size":35,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"text_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"icon_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"subtitle":"Wirtschaftlich","text":"<p><p>Professionelle Planung und Durchf\u00fchrung von R\u00fcckbauprojekten.</p></p>","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":13,"sizes":[]},"text_typography_font_weight":"normal","text_typography_text_transform":"uppercase","text_typography_line_height":{"unit":"em","size":1,"sizes":[]},"text_color":"#b68c2f"},"elements":[],"widgetType":"cholot-texticon"}],"isInner":false},{"id":"ikllkp1","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"c0ssveb","elType":"widget","settings":{"title":"Altlastensanierung","selected_icon":{"value":"fas fa-recycle","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":24,"sizes":[]},"title_typography_line_height":{"unit":"em","size":1,"sizes":[]},"title_color":"#ffffff","subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":13,"sizes":[]},"subtitle_typography_font_weight":"700","subtitle_typography_text_transform":"uppercase","subtitle_typography_letter_spacing":{"unit":"px","size":1,"sizes":[]},"subtitle_color":"#b68c2f","icon_size":{"unit":"px","size":15,"sizes":[]},"icon_bg_size":{"unit":"px","size":35,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"text_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"icon_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"subtitle":"Nachhaltig","text":"<p><p>Umfassende Sanierung kontaminierter Standorte und B\u00f6den.</p></p>","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":13,"sizes":[]},"text_typography_font_weight":"normal","text_typography_text_transform":"uppercase","text_typography_line_height":{"unit":"em","size":1,"sizes":[]},"text_color":"#b68c2f"},"elements":[],"widgetType":"cholot-texticon"}],"isInner":false}],"isInner":false},{"id":"5orptqd","elType":"section","settings":{"gap":"extended","structure":"100","background_background":"classic","background_color":"#f4f4f4"},"elements":[{"id":"67id6nc","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"q98zfha","elType":"widget","settings":{"title":"\u00dcber <span>RIMAN</span>","header_size":"h2","desc_typography_typography":"custom","desc_typography_font_size":{"unit":"px","size":20,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"align":"center"},"elements":[],"widgetType":"cholot-title"},{"id":"17i92uh","elType":"widget","settings":{"title":"25 Jahre Erfahrung","subtitle":"Kompetenz und Zuverl\u00e4ssigkeit","line":"80","line_height":"2","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":28,"sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":14,"sizes":[]},"subtitle_typography_font_weight":"bold","subtitle_typography_text_transform":"uppercase","subtitle_typography_letter_spacing":{"unit":"px","size":0,"sizes":[]},"subtitle_color":"#b68c2f","line_color_hover":"#b68c2f","_background_background":"classic","_background_color":"#f4f4f4","title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"sb_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"text_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"wline_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"wline_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-text-line"}],"isInner":false}],"isInner":false},{"id":"jat88z6","elType":"section","settings":{"gap":"extended","structure":"100"},"elements":[{"id":"c778egg","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"thwy78a","elType":"widget","settings":{"btn_text":"Click Here","link":{"url":"#","is_external":""},"btn_typography_typography":"custom","btn_typography_font_size":{"unit":"px","size":18,"sizes":[]},"btn_typography_font_weight":"700","btn_typography_line_height":{"unit":"em","size":1,"sizes":[]},"btn_typography_text_transform":"uppercase","btn_color":"#ffffff","btn_color_hover":"#ffffff","btn_bg":"#b68c2f","btn_bg_hover":"#000000","btn_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-button-text"}],"isInner":false}],"isInner":false},{"id":"oppuvjf","elType":"section","settings":{"gap":"extended","structure":"100","background_background":"classic","background_color":"#232323"},"elements":[{"id":"cdmppvj","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[],"isInner":false}],"isInner":false},{"id":"w1ksy5x","elType":"section","settings":{"gap":"extended","structure":"50"},"elements":[{"id":"fwh4h3u","elType":"column","settings":{"_column_size":50,"_inline_size":null},"elements":[{"id":"xoqq5g2","elType":"widget","settings":{"title":"Holger M\u00fcller","text":"Gesch\u00e4ftsf\u00fchrer","image":{"url":"","id":359},"team_height":"420px","content_align":"left","hover_animation":"shrink","title_cl":"#000000","txt_cl":"#b68c2f","bg_content":"#1f1f1f","mask_color":"#000000","mask_color_opacity":{"unit":"px","size":0.8,"sizes":[]},"cport_typography_typography":"custom","cport_typography_font_size":{"unit":"px","size":18,"sizes":[]},"cport_typography_line_height":{"unit":"em","size":1,"sizes":[]},"cport_typography_text_transform":"capitalize","ctext_typography_typography":"custom","ctext_typography_font_size":{"unit":"px","size":15,"sizes":[]},"ctext_typography_font_weight":"normal","ctext_typography_line_height":{"unit":"em","size":1,"sizes":[]},"titlep_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"titlep_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"tx_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"tx_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"port_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-team"}],"isInner":false},{"id":"boqqnzl","elType":"column","settings":{"_column_size":50,"_inline_size":null},"elements":[{"id":"mb8cp8s","elType":"widget","settings":{"shortcode":"[contact-form-7 id=\"1\" title=\"Kontaktformular\"]","btn_typography_typography":"custom","btn_typography_font_size":{"unit":"px","size":14,"sizes":[]},"btn_typography_font_weight":"700","btn_typography_text_transform":"uppercase","btn_typography_letter_spacing":{"unit":"px","size":0,"sizes":[]},"btn_color":"#ffffff","btn_color_hover":"#ffffff","btn_bg":"rgba(0,0,0,0)","btn_bg_hover":"#b68c2f","btn_border_color":"#b68c2f","form_placeholder":"#ffffff","form_bg":"rgba(0,0,0,0)","form_border_color":"#ffffff","form_border_color_active":"#b68c2f","form_text":"#ffffff","btn_width":"100%","btn_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"btn_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"btn_border":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"btn_border_radius":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-contact"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_elements_usage]]></wp:meta_key>
+            <wp:meta_value><![CDATA[a:8:{s:7:"section";i:6s:6:"column";i:9s:12:"cholot-title";i:2s:15:"cholot-texticon";i:4s:16:"cholot-text-line";i:1s:18:"cholot-button-text";i:1s:11:"cholot-team";i:1s:14:"cholot-contact";i:1}]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+
+</channel>
+</rss>

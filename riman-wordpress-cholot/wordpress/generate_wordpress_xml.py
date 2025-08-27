@@ -746,18 +746,25 @@ class InputFormatParser:
             except json.JSONDecodeError:
                 pass
         
-        # Try YAML
-        if ':' in content and not content.startswith('---'):
+        # Check if it's pure YAML (starts with --- and has yaml structure)
+        if content.startswith('---'):
+            # Try as pure YAML first
             try:
                 return cls.parse_yaml(content)
             except yaml.YAMLError:
                 pass
-        
-        # Try Markdown with frontmatter
-        if content.startswith('---') or '---' in content:
+            
+            # Then try as Markdown with frontmatter
             try:
                 return cls.parse_markdown(content)
             except Exception:
+                pass
+        
+        # Try YAML for other patterns
+        if ':' in content:
+            try:
+                return cls.parse_yaml(content)
+            except yaml.YAMLError:
                 pass
         
         # Default to plain text as Markdown
@@ -869,14 +876,27 @@ class WordPressXMLGenerator:
         <wp:term_slug><![CDATA[page]]></wp:term_slug>
         <wp:term_parent><![CDATA[]]></wp:term_parent>
         <wp:term_name><![CDATA[page]]></wp:term_name>
+    </wp:term>
+    
+    <wp:term>
+        <wp:term_id><![CDATA[3]]></wp:term_id>
+        <wp:term_taxonomy><![CDATA[elementor_library_type]]></wp:term_taxonomy>
+        <wp:term_slug><![CDATA[kit]]></wp:term_slug>
+        <wp:term_parent><![CDATA[]]></wp:term_parent>
+        <wp:term_name><![CDATA[kit]]></wp:term_name>
     </wp:term>'''
     
     def _generate_pages(self, pages_data: List[Dict]) -> str:
         """Generate page items from data."""
         pages_xml = []
         
+        # First, generate the Elementor Kit
+        kit_xml = self._generate_elementor_kit()
+        pages_xml.append(kit_xml)
+        
+        # Then generate regular pages
         for i, page_data in enumerate(pages_data, 1):
-            page_xml = self._generate_single_page(page_data, i)
+            page_xml = self._generate_single_page(page_data, i + 100)  # Start page IDs at 101
             pages_xml.append(page_xml)
         
         return '\n'.join(pages_xml)
@@ -888,23 +908,53 @@ class WordPressXMLGenerator:
         slug = page_data.get('slug', f'page-{page_id}')
         status = page_data.get('status', 'publish')
         
-        # Generate Elementor data
-        elementor_data = self._generate_elementor_data(page_data.get('sections', []))
-        elementor_json = json.dumps(elementor_data, separators=(',', ':'))
+        # Use custom post_id if provided
+        if 'post_id' in page_data:
+            page_id = page_data['post_id']
         
-        # Generate elements usage
-        elements_usage = self._calculate_elements_usage(elementor_data)
+        # Handle raw elementor_data or generate from sections
+        if 'elementor_data_file' in page_data:
+            # Load elementor data from file
+            with open(page_data['elementor_data_file'], 'r') as f:
+                elementor_data = json.load(f)
+            elementor_json = json.dumps(elementor_data, separators=(',', ':'))
+            elements_usage = self._calculate_elements_usage(elementor_data)
+        elif 'elementor_data' in page_data:
+            # Use raw elementor data exactly as provided
+            elementor_json = page_data['elementor_data']
+            # Try to parse and calculate elements usage
+            try:
+                elementor_data = json.loads(elementor_json)
+                elements_usage = self._calculate_elements_usage(elementor_data)
+            except:
+                elements_usage = {}
+        else:
+            # Generate Elementor data from sections (legacy support)
+            elementor_data = self._generate_elementor_data(page_data.get('sections', []))
+            elementor_json = json.dumps(elementor_data, separators=(',', ':'))
+            elements_usage = self._calculate_elements_usage(elementor_data)
+        
         elements_usage_serialized = self._php_serialize_array(elements_usage)
+        
+        # Handle custom content
+        content = page_data.get('content', ' ')
+        
+        # Handle custom template
+        template = page_data.get('template', 'blank-builder.php')
+        
+        # Generate meta fields
+        meta_fields = page_data.get('meta_fields', {})
+        additional_meta = page_data.get('additional_meta', {})
         
         page_xml = f'''
     <item>
         <title>{html.escape(title)}</title>
         <link>{self.base_url}/{slug}/</link>
-        <pubDate>{datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>
+        <pubDate>{datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">{self.base_url}/?page_id={page_id}</guid>
         <description></description>
-        <content:encoded><![CDATA[ ]]></content:encoded>
+        <content:encoded><![CDATA[{content}]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>{page_id}</wp:post_id>
         <wp:post_date><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_date>
@@ -921,31 +971,106 @@ class WordPressXMLGenerator:
         
         <wp:postmeta>
             <wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{meta_fields.get('_elementor_edit_mode', 'builder')}]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{meta_fields.get('_elementor_template_type', 'post')}]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{meta_fields.get('_elementor_version', '2.6.2')}]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{meta_fields.get('_wp_page_template', template)}]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{elementor_json}]]></wp:meta_value>
+        </wp:postmeta>'''
+
+        # Add additional meta fields
+        for key, value in additional_meta.items():
+            page_xml += f'''
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[{key}]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{value}]]></wp:meta_value>
+        </wp:postmeta>'''
+
+        page_xml += '''
+    </item>'''
+        
+        return page_xml
+    
+    def _generate_elementor_kit(self) -> str:
+        """Generate Elementor Kit post."""
+        kit_settings = {
+            "system_colors": [
+                {"_id": "primary", "title": "Primary", "color": "#b68c2f"},
+                {"_id": "secondary", "title": "Secondary", "color": "#232323"},
+                {"_id": "text", "title": "Text", "color": "#7A7A7A"},
+                {"_id": "accent", "title": "Accent", "color": "#61CE70"}
+            ],
+            "custom_colors": [],
+            "system_typography": [
+                {"_id": "primary", "title": "Primary", "typography_typography": "custom"},
+                {"_id": "secondary", "title": "Secondary", "typography_typography": "custom"},
+                {"_id": "text", "title": "Text", "typography_typography": "custom"},
+                {"_id": "accent", "title": "Accent", "typography_typography": "custom"}
+            ],
+            "custom_typography": [],
+            "default_generic_fonts": "Sans-serif",
+            "site_name": self.site_title,
+            "site_description": self.site_description,
+            "container_width": {"size": 1140, "unit": "px"},
+            "space_between_widgets": {"size": 20, "unit": "px"}
+        }
+        
+        kit_json = json.dumps(kit_settings, separators=(',', ':'))
+        
+        return f'''    <item>
+        <title>Default Kit</title>
+        <link>{self.base_url}/?elementor_library=default-kit</link>
+        <pubDate>{datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">{self.base_url}/?post_type=elementor_library&#038;p=99</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>99</wp:post_id>
+        <wp:post_date><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[default-kit]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[elementor_library]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="elementor_library_type" nicename="kit"><![CDATA[kit]]></category>
+        
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
             <wp:meta_value><![CDATA[builder]]></wp:meta_value>
         </wp:postmeta>
         <wp:postmeta>
             <wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
-            <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            <wp:meta_value><![CDATA[kit]]></wp:meta_value>
         </wp:postmeta>
         <wp:postmeta>
             <wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-            <wp:meta_value><![CDATA[2.6.2]]></wp:meta_value>
+            <wp:meta_value><![CDATA[3.15.0]]></wp:meta_value>
         </wp:postmeta>
         <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[blank-builder.php]]></wp:meta_value>
-        </wp:postmeta>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-            <wp:meta_value><![CDATA[{html.escape(elementor_json)}]]></wp:meta_value>
-        </wp:postmeta>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_elementor_elements_usage]]></wp:meta_key>
-            <wp:meta_value><![CDATA[{elements_usage_serialized}]]></wp:meta_value>
+            <wp:meta_key><![CDATA[_elementor_page_settings]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{kit_json}]]></wp:meta_value>
         </wp:postmeta>
     </item>'''
-        
-        return page_xml
     
     def _generate_elementor_data(self, sections_data: List[Dict]) -> List[Dict]:
         """Generate Elementor data structure from sections."""
@@ -1055,83 +1180,19 @@ class WordPressXMLGenerator:
 
 
 def main():
-    """Example usage and testing."""
+    """Main function for CLI usage."""
+    import argparse
     
-    # Example YAML input
-    yaml_input = """
-site:
-  title: "My Cholot Site"
-  description: "A beautiful WordPress site using Cholot theme"
-  base_url: "http://localhost:8082"
-  language: "en-US"
-
-pages:
-  - title: "Home Page"
-    slug: "home"
-    sections:
-      - structure: "100"
-        columns:
-          - width: 100
-            widgets:
-              - type: "texticon"
-                title: "Welcome to Our Site"
-                subtitle: "Professional Services"
-                icon: "fas fa-crown"
-                text: "We provide excellent service"
-              
-              - type: "title"
-                title: "About Us<span>.</span>"
-                header_size: "h2"
-                align: "center"
-      
-      - structure: "50"
-        settings:
-          background:
-            background_background: "classic"
-            background_color: "#f4f4f4"
-        columns:
-          - width: 50
-            widgets:
-              - type: "team"
-                name: "John Doe"
-                position: "CEO"
-                image_url: "http://localhost:8082/team1.jpg"
-                social_links:
-                  - icon: "fab fa-facebook-f"
-                    url: "#"
-                  - icon: "fab fa-twitter"
-                    url: "#"
-          
-          - width: 50
-            widgets:
-              - type: "contact"
-                shortcode: '[contact-form-7 id="1" title="Contact form"]'
-                button_width: "100%"
-  
-  - title: "Services"
-    slug: "services" 
-    sections:
-      - structure: "33"
-        columns:
-          - width: 33
-            widgets:
-              - type: "text-line"
-                title: "Service 1"
-                subtitle: "Professional"
-                line_width: 50
-          - width: 33
-            widgets:
-              - type: "text-line"
-                title: "Service 2"
-                subtitle: "Reliable"
-                line_width: 50
-          - width: 33
-            widgets:
-              - type: "text-line" 
-                title: "Service 3"
-                subtitle: "Affordable"
-                line_width: 50
-    """
+    # Setup argument parser
+    parser = argparse.ArgumentParser(description='Generate WordPress XML from YAML/JSON/Markdown')
+    parser.add_argument('-i', '--input', required=True, help='Input file path')
+    parser.add_argument('-o', '--output', required=True, help='Output XML file path')
+    
+    args = parser.parse_args()
+    
+    # Read input file
+    with open(args.input, 'r', encoding='utf-8') as f:
+        yaml_input = f.read()
     
     # Create generator and generate XML
     generator = WordPressXMLGenerator()
@@ -1144,7 +1205,7 @@ pages:
     xml_output = generator.generate_xml(yaml_input, site_config)
     
     # Save to file
-    output_path = Path(__file__).parent / "generated_cholot_site.xml"
+    output_path = Path(args.output).resolve()
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(xml_output)
     

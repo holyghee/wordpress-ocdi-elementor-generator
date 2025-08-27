@@ -1,0 +1,22 @@
+# Cholot Homepage with Fixed Image URLs
+site:
+  title: "Cholot Theme Test"
+  description: "Testing with fixed image URLs"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+pages:
+  - title: "Cholot Home (Fixed URLs)"
+    slug: "home"
+    status: "publish"
+    post_id: 1482
+    template: "elementor_canvas"
+    
+    # Use the fixed elementor data
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/elementor-content-fixed-urls.json"
+    
+    # Meta fields
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"

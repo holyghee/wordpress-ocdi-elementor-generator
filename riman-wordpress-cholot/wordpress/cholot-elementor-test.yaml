@@ -1,0 +1,29 @@
+# Cholot Homepage Test with real Elementor Export Data
+# This uses the exact Elementor data structure from a working export
+
+site:
+  title: "Cholot Theme Test"
+  description: "Testing with real Elementor data"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+pages:
+  - title: "Cholot Home (from Export)"
+    slug: "cholot-home-test"
+    status: "publish"
+    post_id: 1482
+    template: "elementor_canvas"
+    
+    # Content from the page
+    content: |
+      <!-- wp:paragraph -->
+      <p>This page was created with Elementor</p>
+      <!-- /wp:paragraph -->
+    
+    # Meta fields
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      
+    # Use the elementor_data from the actual JSON file
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/elementor-content-only.json"

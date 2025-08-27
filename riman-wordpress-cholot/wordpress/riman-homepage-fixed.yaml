@@ -1,0 +1,146 @@
+# RIMAN Homepage Configuration - Fixed Format
+# Dies wird in WordPress XML konvertiert mit Cholot Theme Widgets
+
+site:
+  title: "RIMAN GmbH"
+  description: "Professionelle Schadstoffsanierung seit 1998"
+  base_url: "http://localhost:8082"
+  language: "de-DE"
+
+pages:
+  - title: "RIMAN GmbH - Startseite"
+    slug: "home"
+    sections:
+      # Hero Section - Dark Background
+      - structure: "100"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#232323"
+        columns:
+          - width: 100
+            widgets:
+              - type: "title"
+                title: "RIMAN GmbH - Ihr Partner für <span>professionelle</span> Schadstoffsanierung"
+                header_size: "h1"
+                align: "center"
+                title_color: "#ffffff"
+                
+              - type: "texticon"
+                title: "Sicherheit und Kompetenz"
+                subtitle: "Seit 1998"
+                icon: "fas fa-shield-alt"
+                text: "<p>Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung.</p>"
+      
+      # Service Boxes - 3 Spalten
+      - structure: "33"
+        columns:
+          - width: 33
+            widgets:
+              - type: "texticon"
+                title: "Schadstoffsanierung"
+                subtitle: "Professionell"
+                icon: "fas fa-shield-alt"
+                text: "<p>Fachgerechte Sanierung von Schadstoffen in Gebäuden und Anlagen.</p>"
+                
+          - width: 33
+            widgets:
+              - type: "texticon"
+                title: "Rückbaumanagement"
+                subtitle: "Wirtschaftlich"
+                icon: "fas fa-building"
+                text: "<p>Professionelle Planung und Durchführung von Rückbauprojekten.</p>"
+                
+          - width: 33
+            widgets:
+              - type: "texticon"
+                title: "Altlastensanierung"
+                subtitle: "Nachhaltig"
+                icon: "fas fa-recycle"
+                text: "<p>Umfassende Sanierung kontaminierter Standorte und Böden.</p>"
+      
+      # About Section mit Text Line
+      - structure: "100"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#f4f4f4"
+        columns:
+          - width: 100
+            widgets:
+              - type: "title"
+                title: "Über <span>RIMAN</span>"
+                header_size: "h2"
+                align: "center"
+                
+              - type: "text-line"
+                title: "25 Jahre Erfahrung"
+                subtitle: "Kompetenz und Zuverlässigkeit"
+                line_width: 80
+      
+      # CTA Button Section
+      - structure: "100"
+        columns:
+          - width: 100
+            widgets:
+              - type: "button-text"
+                btn_text: "Kostenlose Beratung"
+                btn_sub: "Jetzt anfragen"
+                link:
+                  url: "/kontakt"
+                  is_external: ""
+                selected_icon:
+                  value: "fas fa-arrow-right"
+                  library: "fa-solid"
+                icon_align: "right"
+      
+      # Testimonials Section
+      - structure: "100"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#232323"
+        columns:
+          - width: 100
+            widgets:
+              - type: "testimonial-two"
+                show_desktop: "2"
+                testi_list:
+                  - _id: "test1"
+                    name: "Johann Müller"
+                    position: "Projektleiter, Bauunternehmen XY"
+                    testimonial: "Die RIMAN GmbH hat unser Sanierungsprojekt professionell durchgeführt."
+                    image:
+                      url: "http://localhost:8082/testimonials/mueller.jpg"
+                      id: 101
+                    rating: 5
+                  - _id: "test2"
+                    name: "Maria Schmidt"
+                    position: "Facility Manager"
+                    testimonial: "Kompetente Beratung und zuverlässige Umsetzung. Sehr empfehlenswert!"
+                    image:
+                      url: "http://localhost:8082/testimonials/schmidt.jpg"
+                      id: 102
+                    rating: 5
+      
+      # Footer/Contact Section
+      - structure: "50"
+        columns:
+          - width: 50
+            widgets:
+              - type: "team"
+                name: "Holger Müller"
+                position: "Geschäftsführer"
+                image:
+                  url: "http://localhost:8082/team/mueller.jpg"
+                  id: 200
+                social_icon_list:
+                  - _id: "social1"
+                    social_icon: "fab fa-linkedin-in"
+                    social_link: "https://linkedin.com"
+          
+          - width: 50
+            widgets:
+              - type: "contact"
+                shortcode: '[contact-form-7 id="1" title="Kontaktformular"]'
+                button_width: "100%"

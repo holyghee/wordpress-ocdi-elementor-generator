@@ -1,0 +1,213 @@
+---
+# Cholot Theme Demo Reproduction - Home Page
+# Reverse-engineered from demo-data-fixed.xml to create exact reproduction
+
+pages:
+  - title: "Home"
+    slug: "home"
+    post_id: 6
+    status: "publish"
+    template: "blank-builder.php"
+    meta_fields:
+      _wp_page_template: "blank-builder.php"
+      _elementor_edit_mode: "builder"
+      _elementor_template_type: "post"
+      _elementor_version: "2.6.2"
+    
+    content: |
+      <p data-animation="fadeIn" data-delay="1.5s">
+                              for best and worst                    </p>
+                              <h3 data-animation="fadeInUp" data-delay="0.8s">
+                                  Discover the best community that fit your needs.</h3>
+                          <!--/.slider-hidden-->
+                                              <p data-animation="fadeInDown" data-delay="1s">
+                              Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. <i><u>Maecenas tempus</u></i>, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.                    </p>
+                              <a href="#">                        
+                              View More                        </a>
+                          <!--/.btn-relative-->
+                      <!--/.slider-content-->
+                  <!--/.slider-box-->
+              <!--/.caption-box-->
+          <!--/.slide-->
+                                              <p data-animation="fadeIn" data-delay="1.5s">
+                              diverse and inclusive                    </p>
+                              <h3 data-animation="fadeInUp" data-delay="0.8s">
+                                  The senior living experience that is tailored to you.</h3>
+                          <!--/.slider-hidden-->
+                                              <p data-animation="fadeInDown" data-delay="1s">
+                              Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit <u>amet adipiscing sem</u> neque sed ipsum.                    </p>
+                              <a href="#">                        
+                              View More                        </a>
+                          <!--/.btn-relative-->
+                      <!--/.slider-content-->
+                  <!--/.slider-box-->
+              <!--/.caption-box-->
+          <!--/.slide-->
+                              <img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+              <p>Exciting</p>
+          <h3>Healthly life</h3>
+          <p>It's a great way for you to make use of all the benefits of being a part.</p>
+      <!--/.box-small-icon-->
+              https://www.youtube.com/watch?v=jGZDNK6ul5s		
+              <p>retired</p>
+          <h3>Improving life</h3>
+          <p>It's a great way for you to make use of all the benefits of being a part.</p>
+      <!--/.box-small-icon-->
+                              <img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+              <p>residents </p>
+          <h3>Relationship</h3>
+          <p>It's a great way for you to make use of all the benefits of being a part.</p>
+      <!--/.box-small-icon-->
+              <p>ullamcorper matti pulvinar</p>		
+                  <h2>Thinking about retirement?<br>Let us be your guide. </h2>		
+              <p>Building with our residents is something we keep close to our heart. Getting to know their personal stories and celebrating them together is what makes the care we provide truly personalized.</p>		
+              <p>spiritual</p>
+          <h3>Healthly life</h3>
+          <p>It's a great way for you to make use of all the benefits of being a part.</p>
+      <!--/.box-small-icon-->
+              <p>community</p>
+          <h3>Counseling</h3>
+          <p>The enrichment programs aimed at keeping our residents healthy.</p>
+      <!--/.box-small-icon-->
+              <p>everyday</p>
+          <h3>Stay active.</h3>
+          <p>Give yourself a break and let us do the cooking and the cleaning.</p>
+      <!--/.box-small-icon-->
+              <p>event date</p>
+          <h3>Meet regularly</h3>
+          <p>Let our residents live their life independently and enjoy their life.</p>
+      <!--/.box-small-icon-->
+                              <img width="657" height="812" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png 657w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5-243x300.png 243w" sizes="(max-width: 657px) 100vw, 657px" />											
+                  <h3 >Indah Levi</h3>
+                  <p >Director of Health</p>
+                  <ul>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Facebook-f
+                                                  </a>
+                      </li>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Twitter
+                                                  </a>
+                      </li>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Dribbble
+                                                  </a>
+                      </li>
+                  </ul>
+                  <h3 >Adriana Yue</h3>
+                  <p >Director of Resource</p>
+                  <ul>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Facebook-f
+                                                  </a>
+                      </li>
+                                      <li>
+                          <a href="" target="_blank" rel="noopener noreferrer">
+                              Pinterest
+                                                  </a>
+                      </li>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Twitter
+                                                  </a>
+                      </li>
+                  </ul>
+                  <h3 >Brenda Wong</h3>
+                  <p >Director of Enviroment</p>
+                  <ul>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Linkedin-in
+                                                  </a>
+                      </li>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Twitter
+                                                  </a>
+                      </li>
+                                      <li>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                              Dribbble
+                                                  </a>
+                      </li>
+                  </ul>
+                  <h2>From our lovely <br>community, family &amp; friends.</h2>		
+              <p>ullamcorper matulvinar</p>		
+              <p>
+                  My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
+                      <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                  <h3>Irgan Rogan</h3>
+                  <p>Member</p>
+              <p>
+                  My children and I couldn't be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
+                      <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                  <h3>Peggy Brim</h3>
+                  <p>Member</p>
+              <p>
+                  We have lived here for five years and the quality, responsiveness and friendliness of the staff can't be beat. Our overall everyday experiences living makes us happy.        </p>
+                      <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                  <h3>Dhea Marisa</h3>
+                  <p>Member</p>
+              <p>
+                  The Senior living restaurant offers excellent variety, quality and presentation.  It's very, very tasteful.  The choices you are given are remarkable!        </p>
+                      <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                  <h3>Thyo Septian</h3>
+                  <p>Member</p>
+      <!--/.testimonial-->
+              <p>the services we provide</p>		
+                  <h2>We're able to create a family-like atmosphere <br>for our residents as well.</h2>		
+              <p>Once you experience our culture, you're sure to understand what makes us so special.  It's a great way for you to make use of all the wonderful benefits of being a part of our communities.</p>		
+                                      <a href="#" data-elementor-open-lightbox="">
+                                  <img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+              <p>till the end    </p>
+          <h3>Retirement funds and planning.</h3>
+      <!--/.box-small-icon-->
+                                      <a href="#" data-elementor-open-lightbox="">
+                                  <img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+              <p>bring the people    </p>
+          <h3>Hospital living with proffesional.</h3>
+      <!--/.box-small-icon-->
+                                      <a href="#" data-elementor-open-lightbox="">
+                                  <img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+              <p>The assited living    </p>
+          <h3>The personal counseling.</h3>
+      <!--/.box-small-icon-->
+              <p>fringilla vela aliquet</p>		
+                  <h2>Contact us for more info <br>about our excellent community.</h2>		
+              <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>		
+      <form action="/cholot/wp-admin/admin-ajax.php#wpcf7-f5-o1" method="post" novalidate="novalidate">
+      <input type="hidden" name="_wpcf7" value="5" />
+      <input type="hidden" name="_wpcf7_version" value="5.1.3" />
+      <input type="hidden" name="_wpcf7_locale" value="en_US" />
+      <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1" />
+      <input type="hidden" name="_wpcf7_container_post" value="0" />
+      <input type="text" name="your-name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Your Name..." />
+      <input type="email" name="your-email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Your Email..." />
+      <input type="tel" name="your-phone" value="" size="40" aria-invalid="false" placeholder="Your Phone..." />
+      <select name="people-list" aria-required="true" aria-invalid="false"><option value="1 People">1 People</option><option value="2 People">2 People</option><option value="3 People">3 People</option><option value="Family">Family</option></select>
+      <input type="text" name="book-hour" value="" size="40" aria-invalid="false" placeholder="8.00 AM - 8.00 PM" />
+      <input type="text" name="book-date" value="" size="40" aria-invalid="false" placeholder="20 July 2019" />
+      <p><textarea name="your-message" cols="40" rows="6" aria-invalid="false" placeholder="Your Note..."></textarea></p>
+      <p><input type="submit" value="Schedule a Visit" /></p>
+      </form>
+    
+    # CRITICAL: This is the exact _elementor_data from the original demo
+    # This JSON structure MUST be preserved exactly as it appears in the original
+    elementor_data: '[{"id":"d4cd8f3","elType":"section","settings":{"gap":"extended","background_background":"classic","background_color":"#f4f4f4","padding":{"unit":"px","top":"60","right":"0","bottom":"60","left":"0","isLinked":false},"background_overlay_image":{"id":237,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/07\/2.jpg"},"background_overlay_position":"center left","background_overlay_size":"cover","background_overlay_opacity":{"unit":"px","size":0.02},"background_position":"center right","background_attachment":"scroll","background_repeat":"no-repeat","background_size":"initial","structure":"40","background_bg_width":{"unit":"%","size":14,"sizes":[]},"shape_divider_bottom_color":"#b68c2f","shape_divider_bottom_width":{"unit":"%","size":179,"sizes":[]},"shape_divider_bottom_height":{"unit":"px","size":7,"sizes":[]}},"elements":[{"id":"eb87b14","elType":"column","settings":{"_column_size":25,"padding":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false},"_inline_size_tablet":50},"elements":[{"id":"061a0f9","elType":"section","settings":{"height_inner":"min-height","custom_height_inner":{"unit":"px","size":250,"sizes":[]},"background_background":"classic","background_image":{"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/07\/5.jpg","id":350},"background_position":"center center","background_size":"cover","background_overlay_background":"classic","background_overlay_color":"#000000","background_overlay_opacity":{"unit":"px","size":0.61,"sizes":[]},"background_overlay_hover_background":"classic","background_overlay_hover_color":"#000000","background_overlay_hover_opacity":{"unit":"px","size":0.88,"sizes":[]}},"elements":[{"id":"d3c23e5","elType":"column","settings":{"_column_size":100,"_inline_size":null,"content_position":"center","background_background":"classic","background_size":"cover","padding":{"unit":"px","top":"30","right":"30","bottom":"30","left":"30","isLinked":true},"background_position":"center center","background_overlay_color":"#000000","background_overlay_opacity":{"unit":"px","size":0.66,"sizes":[]},"_inline_size_tablet":100,"border_width":{"unit":"px","top":"2","right":"2","bottom":"2","left":"2","isLinked":true},"border_color":"#b68c2f","border_border":"solid","margin":{"unit":"px","top":"15","right":"15","bottom":"15","left":"15","isLinked":true},"align":"center"},"elements":[{"id":"3518186","elType":"widget","settings":{"icon":"fa fa-child","title_text_margin":{"unit":"px","size":50,"sizes":[]},"title":"Cholot ","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":24,"sizes":[]},"title_color":"#ffffff","title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":13,"sizes":[]},"subtitle_typography_font_weight":"700","subtitle_typography_text_transform":"uppercase","subtitle_typography_letter_spacing":{"unit":"px","size":1,"sizes":[]},"sb_padding":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false},"sb_margin":{"unit":"px","top":"0","right":"0","bottom":"5","left":"0","isLinked":false},"subtitle_color":"#b68c2f","icon_size":{"unit":"px","size":15,"sizes":[]},"icon_bg_size":{"unit":"px","size":35,"sizes":[]},"icon_margin_left":{"unit":"px","top":"2","right":"0","bottom":"0","left":"0","isLinked":false},"selected_icon":{"value":"fas fa-crown","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true},"title_typography_line_height":{"unit":"em","size":1,"sizes":[]},"text_color":"#b68c2f","text_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":false},"_margin_mobile":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"text":"<p>Retirement Community<\/p>","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":13,"sizes":[]},"text_typography_font_weight":"normal","text_typography_text_transform":"uppercase","text_typography_line_height":{"unit":"em","size":1,"sizes":[]},"text_typography_letter_spacing":{"unit":"px","size":0,"sizes":[]},"icon_margin":{"unit":"px","top":"0","right":0,"bottom":"-10","left":0,"isLinked":false}},"elements":[],"widgetType":"cholot-texticon"}],"isInner":true}],"isInner":true}],"isInner":false},{"id":"7d290cb","elType":"column","settings":{"_column_size":25,"_inline_size":null,"background_background":"classic","_inline_size_tablet":50,"padding_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false}},"elements":[{"id":"44657a2","elType":"widget","settings":{"title":"About us<span>.<\/span>","header_size":"h3","align_tablet":"left","title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"desc_typography_typography":"custom","desc_typography_font_size":{"unit":"px","size":20,"sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-15","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-title"},{"id":"80e7cce","elType":"widget","settings":{"color":"#b68c2f","width":{"unit":"px","size":25,"sizes":[]},"align":"left","gap":{"unit":"px","size":0,"sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"divider"},{"id":"ca6883d","elType":"widget","settings":{"editor":"<p>Building with our residents is something we keep close to our heart.<\/p><p>Let us help you celebrate your loved one\u2019s story by creating a new chapter that\u2019s worth sharing.<\/p>","typography_font_size":{"unit":"px","size":""},"_margin":{"unit":"px","top":"-15","right":"0","bottom":"-30","left":"0","isLinked":false},"_margin_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false}},"elements":[],"widgetType":"text-editor"},{"id":"474aad5","elType":"widget","settings":{"editor":"","typography_font_size":{"unit":"px","size":""},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":false},"_margin_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false}},"elements":[],"widgetType":"text-editor"}],"isInner":false},{"id":"b83540a","elType":"column","settings":{"_column_size":25,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"f1c856a","elType":"widget","settings":{"title":"Recent post<span>.<\/span>","header_size":"h3","align_tablet":"left","title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"desc_typography_typography":"custom","desc_typography_font_size":{"unit":"px","size":20,"sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-15","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-title"},{"id":"cc8c0fc","elType":"widget","settings":{"color":"#b68c2f","width":{"unit":"px","size":25,"sizes":[]},"align":"left","gap":{"unit":"px","size":0,"sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"divider"},{"id":"42e411e","elType":"widget","settings":{"blog_post":2,"sort_cat":"yes","blog_cat":["8"],"show_excerpt":"","excerpt_after":"...","blog_column":"one","button":"Read More","cat_show":"","image_width":{"unit":"px","size":30,"sizes":[]},"title_typo_typography":"custom","title_typo_font_size":{"unit":"px","size":14,"sizes":[]},"title_color_hover":"rgba(0,0,0,0.61)","meta_typo_typography":"custom","meta_typo_font_size":{"unit":"px","size":14,"sizes":[]},"meta_typo_font_style":"normal","meta_color":"#b68c2f","meta_link":"#b68c2f","meta_link_hover":"#d8d8d8","meta_icon":"#b68c2f","image_width_mobile":{"unit":"px","size":100,"sizes":[]},"content_width_mobile":{"unit":"px","size":100,"sizes":[]},"title_margin":{"unit":"px","top":"0","right":"0","bottom":"15","left":"0","isLinked":false},"title_margin_mobile":{"unit":"px","top":"15","right":"0","bottom":"15","left":"0","isLinked":false},"image_border_width":{"unit":"px","top":"3","right":"3","bottom":"3","left":"3","isLinked":true},"image_border_color":"#b68c2f","img_hover_border":"#ffffff","_margin":{"unit":"px","top":"-15","right":"0","bottom":"-30","left":"0","isLinked":false},"title_typo_font_weight":"600","meta_margin":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false},"cat_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"cat_padding":{"unit":"px","top":"0","right":"5","bottom":"0","left":"0","isLinked":false},"cat_typo_typography":"custom","cat_typo_text_transform":"lowercase","cat_typo_font_style":"normal","cat_color":"#b68c2f","cat_bg":"#ffffff","pagi_border_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"pagi_border_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"excerpt_padding_box":{"unit":"px","top":"0","right":"0","bottom":"0","left":"15","isLinked":false},"boxbutton_shadow_box_shadow":{"horizontal":0,"vertical":0,"blur":0,"spread":1,"color":"rgba(0,0,0,0.18)"},"excerpt_pmargin_box":{"unit":"px","top":"0","right":"0","bottom":"15","left":"0","isLinked":false},"_margin_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false}},"elements":[],"widgetType":"cholot-post-three"}],"isInner":false},{"id":"58d67b6","elType":"column","settings":{"_column_size":25,"_inline_size":null,"_inline_size_tablet":50,"margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":false},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true},"padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":false}},"elements":[{"id":"610c559","elType":"widget","settings":{"title":"Gallery<span>.<\/span>","header_size":"h3","align_tablet":"left","title_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"desc_typography_typography":"custom","desc_typography_font_size":{"unit":"px","size":20,"sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-15","left":"0","isLinked":false}},"elements":[],"widgetType":"cholot-title"},{"id":"2ffe3d0","elType":"widget","settings":{"color":"#b68c2f","width":{"unit":"px","size":25,"sizes":[]},"gap":{"unit":"px","size":0,"sizes":[]},"_margin":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false},"align_tablet":"center"},"elements":[],"widgetType":"divider"},{"id":"e52a892","elType":"widget","settings":{"gallery":[{"id":50,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/06\/matteo-vistocco-537858-unsplash.jpg"},{"id":51,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/06\/val-vesa-410839-unsplash.jpg"},{"id":48,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/06\/josh-appel-423804-unsplash.jpg"},{"id":47,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/06\/damir-bosnjak-366766-unsplash.jpg"},{"id":11,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/06\/huy-phan-100866-unsplash.jpg"},{"id":52,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/06\/vlad-sargu-479334-unsplash.jpg"}],"port_column":"col-md-4","gallery_height":{"unit":"px","size":50,"sizes":[]},"gallery_margin":{"unit":"px","size":7.5,"sizes":[]},"title_show":"","caption_show":"","gallery_height_tablet":{"unit":"px","size":30,"sizes":[]},"gallery_margin_tablet":{"unit":"px","size":3,"sizes":[]},"_margin":{"unit":"px","top":"-22.5","right":"0","bottom":"-30","left":"0","isLinked":false},"_margin_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false}},"elements":[],"widgetType":"cholot-gallery"}],"isInner":false}],"isInner":false},{"id":"e1da326","elType":"section","settings":{"gap":"extended","content_position":"middle","background_background":"classic","background_color":"#232323","background_position":"center center","background_attachment":"fixed","background_repeat":"no-repeat","background_size":"cover","background_overlay_image":{"id":236,"url":"https:\/\/theme.winnertheme.com\/cholot\/wp-content\/uploadz\/2019\/07\/1.jpg"},"background_overlay_position":"top center","background_overlay_size":"cover","background_overlay_opacity":{"unit":"px","size":0.02},"border_width":{"unit":"px","top":"1","right":"0","bottom":"0","left":"0","isLinked":false},"border_color":"rgba(255,255,255,0.06)","padding":{"unit":"px","top":"15","right":"0","bottom":"15","left":"0","isLinked":false},"structure":"33","background_overlay_background":"classic"},"elements":[{"id":"a7f5ad1","elType":"column","settings":{"_column_size":25,"_inline_size":null,"_inline_size_tablet":100},"elements":[{"id":"11c68ff","elType":"widget","settings":{"editor":"<p>Design by ridianur 2019 with alot of Coffee.<\/p>","text_color":"#ffffff","typography_typography":"custom","typography_font_size":{"unit":"px","size":14},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":false},"align_tablet":"center","align_mobile":"center","_margin_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false},"align":"left","typography_font_weight":"normal"},"elements":[],"widgetType":"text-editor"}],"isInner":false},{"id":"55a2bbd","elType":"column","settings":{"_column_size":50,"_inline_size":null,"_inline_size_tablet":100},"elements":[{"id":"863bc0f","elType":"widget","settings":{"icon_list":[{"text":"Buah Batu Street 886 - ID","icon":"fa fa-building","_id":"c550c84","link":{"url":"","is_external":"","nofollow":""},"selected_icon":{"value":"fas fa-house-damage","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true}},{"text":"+122 - 000 - 000","icon":"fa fa-phone-square","_id":"888ffcd","link":{"url":"","is_external":"","nofollow":""},"selected_icon":{"value":"fas fa-phone-square-alt","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true}},{"text":"email@email.com","icon":"fa fa-envelope","_id":"e175b88","link":{"url":"#","is_external":"","nofollow":""},"selected_icon":{"value":"fas fa-envelope-open-text","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true}}],"space_between":{"unit":"px","size":20},"divider_color":"rgba(255,255,255,0.06)","icon_color":"#b68c2f","icon_size":{"unit":"px","size":12},"text_indent":{"unit":"px","size":10},"icon_typography_typography":"custom","icon_typography_font_size":{"unit":"px","size":14},"icon_align_tablet":"center","divider_width":{"unit":"%","size":100,"sizes":[]},"icon_self_align":"center","_margin":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":false},"text_color":"#ffffff","view":"inline","icon_align":"center"},"elements":[],"widgetType":"icon-list"}],"isInner":false},{"id":"920b2c1","elType":"column","settings":{"_column_size":25,"_inline_size":null,"_inline_size_tablet":100},"elements":[{"id":"a25343a","elType":"widget","settings":{"social_icon_list":[{"social":"fa fa-facebook","_id":"1d31f36","link":{"url":"","is_external":"true","nofollow":""},"social_icon":{"value":"fab fa-facebook-f","library":"fa-brands"},"item_icon_color":"default","item_icon_primary_color":"","item_icon_secondary_color":"","__fa4_migrated":{"social_icon":true}},{"social":"fa fa-twitter","_id":"cf0166d","link":{"url":"","is_external":"true","nofollow":""},"social_icon":{"value":"fab fa-twitter","library":"fa-brands"},"item_icon_color":"default","item_icon_primary_color":"","item_icon_secondary_color":"","__fa4_migrated":{"social_icon":true}},{"social":"fa fa-linkedin","_id":"6390618","link":{"url":"","is_external":"true","nofollow":""},"social_icon":{"value":"fab fa-dribbble","library":"fa-brands"},"item_icon_color":"default","item_icon_primary_color":"","item_icon_secondary_color":"","__fa4_migrated":{"social_icon":true}},{"social":"fa fa-linkedin","_id":"ae6a1d4","link":{"url":"","is_external":"true","nofollow":""},"social_icon":{"value":"fab fa-pinterest-p","library":"fa-brands"},"item_icon_color":"default","item_icon_primary_color":"","item_icon_secondary_color":"","__fa4_migrated":{"social_icon":true}},{"social":"fa fa-linkedin","_id":"7161faa","link":{"url":"","is_external":"true","nofollow":""},"social_icon":{"value":"fab fa-foursquare","library":"fa-brands"},"item_icon_color":"default","item_icon_primary_color":"","item_icon_secondary_color":"","__fa4_migrated":{"social_icon":true}},{"social":"fa fa-instagram","_id":"1b3884b","link":{"url":"","is_external":"true","nofollow":""},"social_icon":{"value":"fab fa-instagram","library":"fa-brands"},"item_icon_color":"default","item_icon_primary_color":"","item_icon_secondary_color":"","__fa4_migrated":{"social_icon":true}}],"align":"right","icon_color":"custom","icon_primary_color":"#b68c2f","icon_secondary_color":"#ffffff","icon_size":{"unit":"px","size":13},"border_radius":{"unit":"px","top":"100","right":"100","bottom":"100","left":"100","isLinked":true},"hover_primary_color":"#ffffff","hover_secondary_color":"#b68c2f","hover_animation":"shrink","align_tablet":"center","align_mobile":"center"},"elements":[],"widgetType":"social-icons"}],"isInner":false}],"isInner":false}]'
+
+# Additional meta fields that should be included
+additional_meta:
+  _elementor_elements_usage: 'a:10:{s:15:"cholot-texticon";i:1;s:6:"column";i:8;s:7:"section";i:3;s:12:"cholot-title";i:3;s:7:"divider";i:3;s:11:"text-editor";i:3;s:17:"cholot-post-three";i:1;s:14:"cholot-gallery";i:1;s:9:"icon-list";i:1;s:12:"social-icons";i:1;}'
+
+# WordPress export settings
+export_settings:
+  site_url: "https://demo.ridianur.com/cholot"
+  blog_name: "Cholot"
+  blog_description: "Retirement Community"
+  pubdate_format: "Thu, 27 Jun 2019 07:25:14 +0000"
+  wp_version: "5.2.2"
+  elementor_version: "2.6.2"

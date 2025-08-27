@@ -75,7 +75,7 @@ class CholotPlugin
         });
         //slider script
         add_action('elementor/frontend/after_register_scripts', function () {
-            wp_register_script('jquery-slick', CHOLOT_URL . 'widgets/js/slick.min.js', array('jquery'), null, true);
+            wp_register_script('jquery-slick', CHOLOT_URL . 'widgets/js/slick.min.js.js', array('jquery'), null, true);
         });
         add_action('elementor/frontend/after_register_scripts', function () {
             wp_register_script('cholot-animation', CHOLOT_URL . 'widgets/js/slick-animation.js', array('jquery'), null, true);

@@ -1,0 +1,86 @@
+# Cholot Theme - Complete Site Import
+# All pages with fixed image URLs
+
+site:
+  title: "Cholot Retirement Community"
+  description: "Complete Cholot Theme Import"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+pages:
+  - title: "Home Page"
+    slug: "home-page"
+    status: "publish"
+    post_id: 1482
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/home-page.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+
+  - title: "Service Page"
+    slug: "service-page"
+    status: "publish"
+    post_id: 1483
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/service-page.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+
+  - title: "Single Service 1"
+    slug: "single-service-1"
+    status: "publish"
+    post_id: 1484
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/single-service-1.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+
+  - title: "Single Service 2"
+    slug: "single-service-2"
+    status: "publish"
+    post_id: 1485
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/single-service-2.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+
+  - title: "Blog Page"
+    slug: "blog-page"
+    status: "publish"
+    post_id: 1486
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/blog-page.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+
+  - title: "About Page"
+    slug: "about-page"
+    status: "publish"
+    post_id: 1487
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/about-page.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
+
+  - title: "Contact Page"
+    slug: "contact-page"
+    status: "publish"
+    post_id: 1488
+    template: "elementor_canvas"
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/contact-page.json"
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"

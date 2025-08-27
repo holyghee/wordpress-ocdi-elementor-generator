@@ -1,0 +1,21 @@
+# Single Service 2 - Cholot Theme Template
+site:
+  title: "Cholot Theme"
+  description: "Retirement Community WordPress Theme"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+pages:
+  - title: "Single Service 2"
+    slug: "single-service-2"
+    status: "publish"
+    template: "elementor_canvas"
+    
+    # Elementor data from template
+    elementor_data_file: "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/templates/single-service-2.json"
+    
+    # Meta fields
+    meta_fields:
+      _elementor_template_type: "page"
+      _elementor_version: "3.15.0"
+      _wp_page_template: "elementor_canvas"
