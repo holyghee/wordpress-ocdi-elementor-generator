@@ -22,3 +22,7 @@
 5. matteo-vistocco-537858-unsplash (Schadstoffsanierung)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308769362.png
    Target: wp-content/uploads/2025/08/matteo-vistocco-537858-unsplash.jpg
+
+6. val-vesa-410839-unsplash (Rückbaumanagement)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308848918.png
+   Target: wp-content/uploads/2025/08/val-vesa-410839-unsplash.jpg
