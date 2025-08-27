@@ -1,0 +1,81 @@
+# RIMAN Homepage Configuration
+# Dies wird in WordPress XML konvertiert mit Cholot Theme Widgets
+
+title: RIMAN GmbH - Startseite
+slug: home
+template: elementor_canvas
+
+components:
+  # Hero Section mit Slider
+  - type: cholot_slider
+    slides:
+      - title: "RIMAN GmbH - Ihr Partner für <span>professionelle</span> Schadstoffsanierung"
+        subtitle: "Sicherheit und Kompetenz seit 1998"
+        text: "Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung."
+        image: "http://localhost:8082/schadstoffsanierung-industrieanlage-riman-gmbh.jpg"
+        button_text: "Mehr erfahren"
+        button_link: "#services"
+      
+      - title: "Professionelles <span>Rückbaumanagement</span> für Ihre Projekte"
+        subtitle: "Wirtschaftlich und sicher"
+        text: "Wir bieten Ihnen die notwendige Hilfe und Expertise für komplexe Rückbauprojekte."
+        image: "http://localhost:8082/rueckbaumanagement-industrieanlage-professionell.jpg"
+        button_text: "Unsere Leistungen"
+        button_link: "#rueckbau"
+
+  # Service Boxes (3 Spalten)
+  - type: cholot_texticon_row
+    columns: 3
+    items:
+      - title: "Schadstoffsanierung"
+        subtitle: "Professionell"
+        icon: "fas fa-shield-alt"
+        text: "Fachgerechte Sanierung von Schadstoffen in Gebäuden und Anlagen."
+        
+      - title: "Rückbaumanagement" 
+        subtitle: "Wirtschaftlich"
+        icon: "fas fa-building"
+        text: "Professionelle Planung und Durchführung von Rückbauprojekten."
+        
+      - title: "Altlastensanierung"
+        subtitle: "Nachhaltig"
+        icon: "fas fa-recycle"
+        text: "Umfassende Sanierung kontaminierter Standorte und Böden."
+
+  # About Section
+  - type: cholot_title_text
+    title: "Über <span>RIMAN</span>"
+    subtitle: "25 Jahre Erfahrung"
+    text: |
+      Nach unseren langjährigen Erfahrungen können komplexe Abläufe nur dann effektiv ablaufen, 
+      wenn sie als umfassendes Gesamtkonzept durchgängig geplant werden. Unsere Lösung: 
+      Fachbereiche übergreifend verbinden und praxisorientierte Lösungen suchen.
+
+  # CTA Button
+  - type: cholot_button_text
+    button_text: "Kostenlose Beratung"
+    button_subtitle: "Jetzt anfragen"
+    link: "/kontakt"
+    icon: "fas fa-arrow-right"
+
+  # Testimonials
+  - type: cholot_testimonial
+    items:
+      - name: "Johann Müller"
+        position: "Projektleiter, Bauunternehmen XY"
+        text: "Die RIMAN GmbH hat unser Sanierungsprojekt professionell durchgeführt."
+        image: "http://localhost:8082/testimonials/mueller.jpg"
+        rating: 5
+        
+      - name: "Maria Schmidt"
+        position: "Facility Manager"
+        text: "Kompetente Beratung und zuverlässige Umsetzung. Sehr empfehlenswert!"
+        image: "http://localhost:8082/testimonials/schmidt.jpg"
+        rating: 5
+
+# Styling
+styles:
+  primary_color: "#b68c2f"
+  secondary_color: "#232323"
+  font_family: "Playfair Display"
+  container_width: 1170
