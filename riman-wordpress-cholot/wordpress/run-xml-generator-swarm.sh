@@ -27,6 +27,7 @@ npx claude-flow@alpha swarm "TASK: Build production-ready Elementor JSON generat
 
 AVAILABLE FILES:
 - Working: generate_wordpress_xml.py (1164 lines, converts YAML→WordPress XML)
+- Original: /Users/holgerbrandt/Downloads/cholot-retirement-community-wordpress-theme11/documentation/sample_data/demo-data-fixed.xml (REFERENCE - shows correct XML format)
 - Templates: elementor-templates/*.json (7 real Cholot theme exports)
 - Prototypes: adaptive-layout-engine.py, content-design-separator.py, block-library-system.py
 - Analysis: fixed-code-vs-llm-analysis.py, realistic-solution.md
@@ -34,11 +35,13 @@ AVAILABLE FILES:
 GEMINI RECOMMENDATION: Hybrid approach - Fixed code generates JSON structure with placeholders, LLM fills content. This ensures 100% valid JSON while maintaining creative flexibility.
 
 DELIVERABLE: 
-1. Analyze all 13 Cholot widgets from templates
-2. Create widget generator functions for each
-3. Implement placeholder system for content
-4. Build working prototype that generates valid Elementor JSON
-5. Test with real use cases (3 services vs 6 services)
+1. Study demo-data-fixed.xml to understand correct XML structure
+2. Analyze all 13 Cholot widgets from templates and XML
+3. Create widget generator functions for each
+4. Implement placeholder system for content injection
+5. Build working prototype that generates valid Elementor JSON
+6. Test with real use cases (3 services vs 6 services)
+7. Ensure output matches demo-data-fixed.xml format exactly
 
 FOCUS: Don't theorize - build actual working code based on our existing systems." \
   --strategy research \
