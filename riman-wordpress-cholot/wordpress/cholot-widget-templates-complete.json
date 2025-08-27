@@ -1,0 +1,1033 @@
+{
+  "metadata": {
+    "description": "Real Cholot widget templates extracted from actual Elementor exports",
+    "source": "elementor-templates/*.json",
+    "complete_structure": true
+  },
+  "widgets": {
+    "cholot-texticon": {
+      "template": {
+        "id": "692d9229",
+        "settings": {
+          "icon": "fa fa-child",
+          "title_text_margin": {
+            "unit": "px",
+            "size": 50,
+            "sizes": []
+          },
+          "title": "Healthly life",
+          "title_typography_typography": "custom",
+          "title_typography_font_size": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+          },
+          "title_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "15",
+            "left": "0",
+            "isLinked": false
+          },
+          "subtitle_typography_typography": "custom",
+          "subtitle_typography_font_size": {
+            "unit": "px",
+            "size": 13,
+            "sizes": []
+          },
+          "subtitle_typography_font_weight": "700",
+          "subtitle_typography_text_transform": "uppercase",
+          "subtitle_typography_letter_spacing": {
+            "unit": "px",
+            "size": 1,
+            "sizes": []
+          },
+          "sb_padding": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": false
+          },
+          "sb_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "-15",
+            "left": "0",
+            "isLinked": false
+          },
+          "subtitle_color": "#b68c2f",
+          "icon_size": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+          },
+          "icon_bg_size": {
+            "unit": "px",
+            "size": 72,
+            "sizes": []
+          },
+          "icon_margin_left": {
+            "unit": "%",
+            "top": "1",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "selected_icon": {
+            "value": "fas fa-parachute-box",
+            "library": "fa-solid"
+          },
+          "__fa4_migrated": {
+            "selected_icon": true
+          },
+          "text": "<p>It\u2019s a great way for you to make use of all the benefits of being a part.</p>",
+          "text_typography_font_size": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "text_typography_font_style": "italic",
+          "text_margin": {
+            "unit": "px",
+            "top": "15",
+            "right": "0",
+            "bottom": "-30",
+            "left": "0",
+            "isLinked": false
+          },
+          "icon_color": "#ffffff",
+          "iconbg_color": "#b68c2f",
+          "icon_bordering_border": "solid",
+          "icon_bordering_color": "#fafafa",
+          "_padding": {
+            "unit": "px",
+            "top": "30",
+            "right": "30",
+            "bottom": "30",
+            "left": "30",
+            "isLinked": true
+          },
+          "_border_width": {
+            "unit": "px",
+            "top": "0",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": false
+          },
+          "_border_color": "#b68c2f",
+          "_border_border": "dashed",
+          "icon_margin": {
+            "unit": "px",
+            "top": "-27",
+            "right": 0,
+            "bottom": "0",
+            "left": 0,
+            "isLinked": false
+          },
+          "icon_bordering_width": {
+            "unit": "px",
+            "top": "7",
+            "right": "7",
+            "bottom": "7",
+            "left": "7",
+            "isLinked": true
+          },
+          "subtitle": "Exciting",
+          "btn_margin": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": false
+          },
+          "icon_lheight": {
+            "unit": "px",
+            "size": 58,
+            "sizes": []
+          }
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "cholot-texticon",
+        "elType": "widget"
+      },
+      "instances_found": 7,
+      "content_fields": [
+        "title_text_margin",
+        "title",
+        "title_margin",
+        "text",
+        "text_margin",
+        "subtitle"
+      ],
+      "structure": {
+        "has_id": true,
+        "has_elements": true,
+        "settings_count": 36,
+        "is_inner": false
+      }
+    },
+    "cholot-title": {
+      "template": {
+        "id": "7801ff38",
+        "settings": {
+          "title": "Thinking about <span>retirement?</span><br>Let us be your guide. ",
+          "desc_typography_typography": "custom",
+          "desc_typography_font_size": {
+            "unit": "px",
+            "size": 35,
+            "sizes": []
+          },
+          "desc_typography_font_weight": "700",
+          "desc_typography_line_height": {
+            "unit": "em",
+            "size": 1.1,
+            "sizes": []
+          },
+          "_z_index": 1,
+          "align": "left",
+          "desc_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 25,
+            "sizes": []
+          },
+          "title_color": "#000000",
+          "title_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "desc_typography_font_family": "Playfair Display",
+          "_margin": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": false
+          },
+          "span_title_typo_typography": "custom",
+          "span_title_typo_font_weight": "400",
+          "span_title_typo_font_style": "italic",
+          "span_title_color": "#000000"
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "cholot-title",
+        "elType": "widget"
+      },
+      "instances_found": 4,
+      "content_fields": [
+        "title",
+        "title_margin",
+        "span_title_typo_font_weight",
+        "span_title_typo_font_style"
+      ],
+      "structure": {
+        "has_id": true,
+        "has_elements": true,
+        "settings_count": 16,
+        "is_inner": false
+      }
+    },
+    "cholot-team": {
+      "template": {
+        "id": "2473e36c",
+        "settings": {
+          "title": "Indah Levi",
+          "text": "Director of Health",
+          "image": {
+            "url": "http://localhost:8080/wp-content/uploads/2019/07/team2-1.jpg",
+            "id": 359,
+            "alt": "",
+            "source": "library",
+            "size": ""
+          },
+          "team_height": {
+            "unit": "px",
+            "size": 420,
+            "sizes": []
+          },
+          "team_icon": [
+            {
+              "icon": "fa fa-facebook",
+              "_id": "1dbd354"
+            }
+          ],
+          "content_align": "left",
+          "titlep_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "5",
+            "left": "0",
+            "isLinked": false
+          },
+          "txt_cl": "#b68c2f",
+          "icon_color": "#23a455",
+          "icon_opacity": {
+            "unit": "px",
+            "size": 1,
+            "sizes": []
+          },
+          "icon_radius": {
+            "unit": "%",
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100",
+            "isLinked": true
+          },
+          "icon_size": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "icon_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "icon_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "3",
+            "bottom": "0",
+            "left": "3",
+            "isLinked": false
+          },
+          "cport_typography_typography": "custom",
+          "cport_typography_text_transform": "capitalize",
+          "mask_color": "#000000",
+          "mask_color_opacity": {
+            "unit": "px",
+            "size": 0.8,
+            "sizes": []
+          },
+          "ctext_typography_typography": "custom",
+          "port_padding": {
+            "unit": "px",
+            "top": "30",
+            "right": "30",
+            "bottom": "30",
+            "left": "30",
+            "isLinked": true
+          },
+          "ctext_typography_font_size": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "ctext_typography_font_weight": "normal",
+          "port_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "icon_bg": "#651f7a",
+          "social_icon_list": [
+            {
+              "social_icon": {
+                "value": "fab fa-facebook-f",
+                "library": "fa-brands"
+              },
+              "_id": "e17bdfd",
+              "link": {
+                "url": "#",
+                "is_external": "true",
+                "nofollow": ""
+              },
+              "item_icon_color": "custom",
+              "item_icon_primary_color": "rgba(0,0,0,0)",
+              "item_icon_secondary_color": "#000000"
+            },
+            {
+              "social_icon": {
+                "value": "fab fa-twitter",
+                "library": "fa-brands"
+              },
+              "_id": "5e080cb",
+              "link": {
+                "url": "#",
+                "is_external": "true",
+                "nofollow": ""
+              },
+              "item_icon_color": "custom",
+              "item_icon_primary_color": "rgba(0,0,0,0)",
+              "item_icon_secondary_color": "#000000"
+            },
+            {
+              "social_icon": {
+                "value": "fab fa-dribbble",
+                "library": "fa-brands"
+              },
+              "_id": "87a75f5",
+              "link": {
+                "url": "#",
+                "is_external": "true",
+                "nofollow": ""
+              },
+              "item_icon_color": "custom",
+              "item_icon_primary_color": "rgba(0,0,0,0)",
+              "item_icon_secondary_color": "#000000"
+            }
+          ],
+          "hover_animation": "shrink",
+          "port_content": {
+            "unit": "px",
+            "top": "-80",
+            "right": "15",
+            "bottom": "0",
+            "left": "15",
+            "isLinked": false
+          },
+          "cport_typography_line_height": {
+            "unit": "em",
+            "size": 1,
+            "sizes": []
+          },
+          "titlep_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "ctext_typography_line_height": {
+            "unit": "em",
+            "size": 1,
+            "sizes": []
+          },
+          "tx_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "tx_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "bg_content": "#1f1f1f",
+          "title_cl": "#000000",
+          "cport_typography_font_size": {
+            "unit": "px",
+            "size": 18,
+            "sizes": []
+          },
+          "icon_hcolor": "#000000",
+          "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "selected_icon": {
+            "value": "fas fa-feather-alt",
+            "library": "fa-solid"
+          },
+          "bg_icon_color": "#b68c2f",
+          "bg_icon_size": {
+            "unit": "px",
+            "size": 110,
+            "sizes": []
+          },
+          "bg_icon_rotate": {
+            "unit": "px",
+            "size": 10,
+            "sizes": []
+          },
+          "image_position_tablet": "center center",
+          "port_content_hover": {
+            "unit": "px",
+            "top": "-80",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "box_shadow_box_shadow": {
+            "horizontal": 0,
+            "vertical": 8,
+            "blur": 14,
+            "spread": 4,
+            "color": "rgba(175,175,175,0.27)"
+          },
+          "box_shadow_hover_box_shadow_type": "yes",
+          "box_shadow_hover_box_shadow": {
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 0,
+            "spread": 0,
+            "color": "rgba(0,0,0,0)"
+          },
+          "background_background": "classic",
+          "background_color": "#f4f4f4",
+          "background_position": "center left",
+          "background_repeat": "no-repeat",
+          "background_size": "cover",
+          "background_bg_width": {
+            "unit": "px",
+            "size": 60,
+            "sizes": []
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "port_border_border": "solid",
+          "port_border_color": "#b68c2f"
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "cholot-team",
+        "elType": "widget"
+      },
+      "instances_found": 3,
+      "content_fields": [
+        "title",
+        "text",
+        "titlep_margin",
+        "port_content",
+        "titlep_padding",
+        "bg_content",
+        "title_cl",
+        "image_position_tablet",
+        "port_content_hover",
+        "background_position"
+      ],
+      "structure": {
+        "has_id": true,
+        "has_elements": true,
+        "settings_count": 55,
+        "is_inner": false
+      }
+    },
+    "cholot-testimonial-two": {
+      "template": {
+        "id": "72642213",
+        "settings": {
+          "show_desktop": 3,
+          "testi_list": [
+            {
+              "title": "Irgan Rogan",
+              "position": "Member",
+              "text": "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!",
+              "_id": "165689e",
+              "image": {
+                "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+                "id": 50
+              },
+              "image2_size": "thumbnail"
+            },
+            {
+              "title": "Peggy Brim",
+              "position": "Member",
+              "text": "My children and I couldn\u2019t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.",
+              "_id": "ed77bef",
+              "image": {
+                "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/anthony-metcalfe-580436-unsplash.jpg",
+                "id": 53
+              },
+              "image2_size": "thumbnail"
+            },
+            {
+              "title": "Dhea Marisa",
+              "position": "Member",
+              "text": "We have lived here for five years and the quality, responsiveness and friendliness of the staff can\u2019t be beat. Our overall everyday experiences living makes us happy.",
+              "_id": "3084f46",
+              "image": {
+                "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg",
+                "id": 47
+              },
+              "image2_size": "thumbnail"
+            },
+            {
+              "title": "Thyo Septian",
+              "position": "Member",
+              "text": "The Senior living restaurant offers excellent variety, quality and presentation.  It\u2019s very, very tasteful.  The choices you are given are remarkable!",
+              "_id": "322f914",
+              "image": {
+                "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg",
+                "id": 9
+              },
+              "image2_size": "thumbnail"
+            }
+          ],
+          "title_typography_typography": "custom",
+          "title_typography_font_size": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+          },
+          "title_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "title_typography_line_height": {
+            "unit": "em",
+            "size": 1.6,
+            "sizes": []
+          },
+          "name_color": "#ffffff",
+          "name_typography_typography": "custom",
+          "name_typography_font_family": "Source Sans Pro",
+          "name_typography_font_size": {
+            "unit": "px",
+            "size": 17,
+            "sizes": []
+          },
+          "name_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+          },
+          "name_typography_font_weight": "700",
+          "name_typography_text_transform": "uppercase",
+          "post_color": "#b68c2f",
+          "post_typography_typography": "custom",
+          "post_typography_font_size": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+          },
+          "post_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 12,
+            "sizes": []
+          },
+          "post_typography_font_weight": "400",
+          "post_typography_font_style": "normal",
+          "image_border_border": "solid",
+          "image_border_width": {
+            "unit": "px",
+            "top": "3",
+            "right": "3",
+            "bottom": "3",
+            "left": "3",
+            "isLinked": true
+          },
+          "image_border_width_mobile": {
+            "unit": "px",
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2",
+            "isLinked": true
+          },
+          "image_border_color": "#ffffff",
+          "img_size": {
+            "unit": "px",
+            "size": 50,
+            "sizes": []
+          },
+          "img_size_mobile": {
+            "unit": "px",
+            "size": 40,
+            "sizes": []
+          },
+          "img_radius": {
+            "unit": "px",
+            "top": "200",
+            "right": "200",
+            "bottom": "200",
+            "left": "200",
+            "isLinked": true
+          },
+          "_margin": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+          },
+          "content-align": "center",
+          "post_typography_text_transform": "none",
+          "testi_box_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "testi_box_border_color": "#b68c2f",
+          "testi_box_bg": "rgba(255,255,255,0)",
+          "icon_fsize": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "icon_size": {
+            "unit": "px",
+            "size": 40,
+            "sizes": []
+          },
+          "icon_lheight": {
+            "unit": "px",
+            "size": 40,
+            "sizes": []
+          },
+          "text_bgcolor": "rgba(255,255,255,0.08)",
+          "textbox_padding": {
+            "unit": "px",
+            "top": "30",
+            "right": "30",
+            "bottom": "30",
+            "left": "30",
+            "isLinked": true
+          },
+          "text_radius": {
+            "unit": "px",
+            "top": "10",
+            "right": "10",
+            "bottom": "10",
+            "left": "10",
+            "isLinked": true
+          },
+          "testi_icon_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "textbox_margin": {
+            "unit": "px",
+            "top": "-20",
+            "right": "0",
+            "bottom": "30",
+            "left": "0",
+            "isLinked": false
+          },
+          "title_color": "#ffffff",
+          "testi_box_margin": {
+            "unit": "px",
+            "top": "15",
+            "right": "15",
+            "bottom": "15",
+            "left": "15",
+            "isLinked": true
+          },
+          "testi_box_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "cholot-testimonial-two",
+        "elType": "widget"
+      },
+      "instances_found": 1,
+      "content_fields": [
+        "content-align",
+        "text_bgcolor",
+        "textbox_padding",
+        "text_radius",
+        "textbox_margin"
+      ],
+      "structure": {
+        "has_id": true,
+        "has_elements": true,
+        "settings_count": 43,
+        "is_inner": false
+      }
+    },
+    "cholot-text-line": {
+      "template": {
+        "id": "63d2ac1e",
+        "settings": {
+          "title": "Retirement funds and planning.",
+          "subtitle": "till the end",
+          "line": {
+            "unit": "px",
+            "size": 50,
+            "sizes": []
+          },
+          "line_height": {
+            "unit": "px",
+            "size": 2,
+            "sizes": []
+          },
+          "bg_img": {
+            "url": "",
+            "id": ""
+          },
+          "title_typography_typography": "custom",
+          "title_typography_font_size": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+          },
+          "title_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "30",
+            "left": "0",
+            "isLinked": false
+          },
+          "subtitle_typography_typography": "custom",
+          "subtitle_typography_font_size": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+          },
+          "subtitle_typography_font_weight": "bold",
+          "subtitle_typography_text_transform": "uppercase",
+          "subtitle_typography_letter_spacing": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          },
+          "sb_padding": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": false
+          },
+          "sb_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "10",
+            "left": "0",
+            "isLinked": false
+          },
+          "subtitle_color": "#b68c2f",
+          "text_margin": {
+            "unit": "px",
+            "top": "30",
+            "right": "0",
+            "bottom": "-30",
+            "left": "0",
+            "isLinked": false
+          },
+          "line_color_hover": "#b68c2f",
+          "btn_margin": {
+            "unit": "px",
+            "top": "30",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "icon_bordering_border": "solid",
+          "icon_bordering_color": "#b68c2f",
+          "btn_border_hover": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "btn_border_color_hover": "#b68c2f",
+          "wline_padding": {
+            "unit": "px",
+            "top": "30",
+            "right": "30",
+            "bottom": "30",
+            "left": "30",
+            "isLinked": true
+          },
+          "port_border_border": "solid",
+          "port_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "port_border_color": "rgba(182,140,47,0)",
+          "ct_border_color_hover": "#b68c2f",
+          "wline_margin": {
+            "unit": "px",
+            "top": "15",
+            "right": "15",
+            "bottom": "15",
+            "left": "15",
+            "isLinked": true
+          },
+          "_margin": {
+            "unit": "px",
+            "top": "-50",
+            "right": "20",
+            "bottom": "0",
+            "left": "20",
+            "isLinked": false
+          },
+          "_background_background": "classic",
+          "_background_color": "#fafafa",
+          "_box_shadow_box_shadow_type": "yes",
+          "_box_shadow_box_shadow": {
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 7,
+            "spread": 0,
+            "color": "rgba(204,204,204,0.43)"
+          },
+          "_box_shadow_hover_box_shadow_type": "yes",
+          "_box_shadow_hover_box_shadow": {
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 0,
+            "spread": 0,
+            "color": "rgba(0,0,0,0)"
+          },
+          "_background_image": {
+            "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/bg-ab.png",
+            "id": 1025
+          },
+          "_background_position": "initial",
+          "_background_ypos": {
+            "unit": "px",
+            "size": 112,
+            "sizes": []
+          },
+          "_background_repeat": "no-repeat",
+          "_background_size": "initial",
+          "_background_xpos": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+          },
+          "_background_bg_width": {
+            "unit": "px",
+            "size": 168,
+            "sizes": []
+          }
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "cholot-text-line",
+        "elType": "widget"
+      },
+      "instances_found": 3,
+      "content_fields": [
+        "title",
+        "subtitle",
+        "title_margin",
+        "text_margin",
+        "_background_position"
+      ],
+      "structure": {
+        "has_id": true,
+        "has_elements": true,
+        "settings_count": 43,
+        "is_inner": false
+      }
+    },
+    "cholot-contact": {
+      "template": {
+        "id": "24ed971",
+        "settings": {
+          "shortcode": "[contact-form-7 id=\"5\" title=\"Contact form\"]",
+          "btn_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "-30",
+            "left": "0",
+            "isLinked": false
+          },
+          "btn_padding": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+          },
+          "btn_typography_typography": "custom",
+          "btn_typography_font_weight": "700",
+          "btn_typography_text_transform": "uppercase",
+          "btn_border_radius": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+          },
+          "btn_typography_font_size": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+          },
+          "btn_color": "#ffffff",
+          "btn_color_hover": "#ffffff",
+          "btn_bg": "rgba(0,0,0,0)",
+          "btn_bg_hover": "#b68c2f",
+          "btn_border": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "btn_border_color": "#b68c2f",
+          "btn_width": "100%",
+          "form_placeholder": "#ffffff",
+          "form_bg": "rgba(0,0,0,0)",
+          "form_border_color": "#ffffff",
+          "form_border_color_active": "#b68c2f",
+          "btn_typography_letter_spacing": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          },
+          "form_text": "#ffffff"
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "cholot-contact",
+        "elType": "widget"
+      },
+      "instances_found": 1,
+      "content_fields": [
+        "form_text"
+      ],
+      "structure": {
+        "has_id": true,
+        "has_elements": true,
+        "settings_count": 21,
+        "is_inner": false
+      }
+    }
+  }
+}
