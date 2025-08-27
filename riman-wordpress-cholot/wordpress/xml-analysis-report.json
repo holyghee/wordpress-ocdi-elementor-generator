@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "file_name": "demo-data-fixed.xml",
+    "file_path": "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/demo-data-fixed.xml",
+    "file_size": "814.1KB",
+    "analysis_date": "2025-08-27",
+    "wordpress_version": "5.2.2",
+    "elementor_version": "2.6.2",
+    "site_title": "Cholot",
+    "site_url": "https://theme.winnertheme.com/cholot",
+    "site_description": "Just another WordPress site",
+    "language": "en-US"
+  },
+  "xml_structure": {
+    "root_element": "rss",
+    "channel_data": {
+      "title": "Cholot",
+      "link": "https://theme.winnertheme.com/cholot",
+      "description": "Just another WordPress site",
+      "language": "en-US",
+      "base_site_url": "https://theme.winnertheme.com/cholot",
+      "wxr_version": "1.2"
+    },
+    "namespaces": [
+      "xmlns:excerpt=\"http://wordpress.org/export/1.2/excerpt/\"",
+      "xmlns:content=\"http://purl.org/rss/1.0/modules/content/\"", 
+      "xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"",
+      "xmlns:dc=\"http://purl.org/dc/elements/1.1/\"",
+      "xmlns:wp=\"http://wordpress.org/export/1.2/\""
+    ]
+  },
+  "post_types_analysis": {
+    "total_items": 65,
+    "post_types": {
+      "attachment": {
+        "count": 20,
+        "description": "Image and media files",
+        "key_features": [
+          "Image metadata with multiple size variations",
+          "Custom cholot-related-post image size (500x300)",
+          "Standard WordPress image sizes (thumbnail, medium, large, etc.)"
+        ]
+      },
+      "page": {
+        "count": 6,
+        "description": "Main website pages",
+        "key_pages": ["Home", "About", "Service", "Contact"],
+        "template": "blank-builder.php (Elementor)"
+      },
+      "nav_menu_item": {
+        "count": 8,
+        "description": "Navigation menu items",
+        "menu_structure": ["Home", "About", "Service", "Contact", "Gallery"]
+      },
+      "elementor_library": {
+        "count": 7,
+        "description": "Elementor templates and sections",
+        "types": ["header", "footer", "section"]
+      },
+      "header": {
+        "count": 2,
+        "description": "Custom header templates"
+      },
+      "footer": {
+        "count": 1,
+        "description": "Custom footer template"
+      }
+    }
+  },
+  "categories_and_tags": {
+    "categories": [
+      {"id": 10, "name": "Life", "slug": "life"},
+      {"id": 8, "name": "People", "slug": "people"}, 
+      {"id": 1, "name": "Uncategorized", "slug": "uncategorized"}
+    ],
+    "tags": [
+      {"id": 12, "name": "humming", "slug": "humming"},
+      {"id": 6, "name": "liquid", "slug": "liquid"},
+      {"id": 13, "name": "magic", "slug": "magic"},
+      {"id": 11, "name": "movie", "slug": "movie"},
+      {"id": 9, "name": "technology", "slug": "technology"},
+      {"id": 5, "name": "travel", "slug": "travel"},
+      {"id": 7, "name": "wildfire", "slug": "wildfire"}
+    ],
+    "custom_taxonomy": {
+      "elementor_library_type": [
+        {"id": 2, "name": "page", "slug": "page"}
+      ]
+    }
+  },
+  "cholot_specific_elements": {
+    "theme_name": "Cholot",
+    "color_scheme": {
+      "primary_color": "#b68c2f",
+      "background_colors": ["#f4f4f4", "#232323", "#fafafa"],
+      "text_colors": ["#ffffff", "#000000", "rgba(255,255,255,0.89)"]
+    },
+    "custom_image_sizes": {
+      "cholot-related-post": {
+        "width": 500,
+        "height": 300,
+        "crop": true
+      }
+    },
+    "custom_meta_fields": [
+      "cholot_header_option",
+      "cholot_default_header", 
+      "cholot_meta_choose_header",
+      "cholot_footer_option",
+      "cholot_meta_choose_footer"
+    ]
+  },
+  "elementor_widgets_analysis": {
+    "custom_cholot_widgets": {
+      "cholot-texticon": {
+        "usage_count": 7,
+        "description": "Icon with text content widget",
+        "key_properties": [
+          "icon (Font Awesome)",
+          "title",
+          "subtitle", 
+          "text content",
+          "typography settings",
+          "color settings",
+          "spacing/margin controls"
+        ],
+        "sample_content": {
+          "titles": ["Cholot", "Healthly life", "Improving life", "Relationship"],
+          "subtitles": ["Retirement Community", "Exciting", "retired", "residents"],
+          "text": "It's a great way for you to make use of all the benefits of being a part."
+        }
+      },
+      "cholot-title": {
+        "usage_count": 4,
+        "description": "Custom title widget with styling",
+        "key_properties": [
+          "title text with HTML support",
+          "header size (h1-h6)",
+          "typography controls",
+          "alignment options",
+          "margin/spacing"
+        ],
+        "sample_content": {
+          "titles": ["About us.", "Recent post.", "Gallery."]
+        }
+      },
+      "cholot-team": {
+        "usage_count": 3,
+        "description": "Team member display widget",
+        "key_properties": [
+          "team member image",
+          "name",
+          "position/role",
+          "styling options"
+        ]
+      },
+      "cholot-testimonial-two": {
+        "usage_count": 1,
+        "description": "Testimonials display widget",
+        "key_properties": [
+          "testimonial content",
+          "author information",
+          "styling and layout options"
+        ]
+      },
+      "cholot-contact": {
+        "usage_count": 1,
+        "description": "Contact form or contact information widget"
+      },
+      "cholot-post-three": {
+        "usage_count": 1,
+        "description": "Blog post display widget",
+        "key_properties": [
+          "post count",
+          "category filtering",
+          "column layout",
+          "excerpt settings",
+          "image dimensions"
+        ]
+      },
+      "cholot-gallery": {
+        "usage_count": 1,
+        "description": "Image gallery widget",
+        "key_properties": [
+          "gallery images array",
+          "column layout (col-md-4)",
+          "image dimensions",
+          "spacing controls"
+        ]
+      },
+      "cholot-menu": {
+        "usage_count": 1,
+        "description": "Custom navigation menu widget",
+        "key_properties": [
+          "menu selection",
+          "alignment options",
+          "responsive settings",
+          "typography controls"
+        ]
+      },
+      "cholot-logo": {
+        "usage_count": 1,
+        "description": "Logo display widget",
+        "key_properties": [
+          "logo image",
+          "height controls",
+          "alignment options"
+        ]
+      },
+      "cholot-text-line": {
+        "usage_count": 3,
+        "description": "Text with line decoration widget"
+      }
+    },
+    "standard_elementor_widgets": {
+      "rdn-slider": {
+        "usage_count": 1,
+        "description": "Hero slider widget",
+        "key_content": {
+          "slide_1": {
+            "title": "Discover the best community that fit your needs.",
+            "subtitle": "for best and worst",
+            "text": "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.",
+            "button_text": "View More",
+            "image": "esther-town-492626-unsplash.jpg"
+          },
+          "slide_2": {
+            "title": "The senior living experience that is tailored to you.",
+            "subtitle": "diverse and inclusive", 
+            "text": "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.",
+            "button_text": "View More",
+            "image": "huy-phan-100866-unsplash.jpg"
+          }
+        }
+      },
+      "text-editor": {
+        "usage_count": 7,
+        "key_content": [
+          "Building with our residents is something we keep close to our heart. Let us help you celebrate your loved one's story by creating a new chapter that's worth sharing.",
+          "ullamcorper matti pulvinar",
+          "Design by ridianur 2019 with alot of Coffee."
+        ]
+      },
+      "video": {
+        "usage_count": 1,
+        "youtube_url": "https://www.youtube.com/watch?v=jGZDNK6ul5s"
+      },
+      "image": {
+        "usage_count": 6
+      },
+      "icon": {
+        "usage_count": 3
+      },
+      "divider": {
+        "usage_count": 4
+      }
+    }
+  },
+  "content_sections_mapping": {
+    "hero_section": {
+      "widget_type": "rdn-slider",
+      "location": "Home page top",
+      "content_to_replace": {
+        "slide_titles": [
+          "Discover the best community that fit your needs.",
+          "The senior living experience that is tailored to you."
+        ],
+        "slide_subtitles": [
+          "for best and worst",
+          "diverse and inclusive"
+        ],
+        "slide_descriptions": [
+          "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.",
+          "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+        ]
+      },
+      "preserve_exactly": {
+        "widget_structure": "rdn-slider element with slider_list array",
+        "image_references": "image.url and image.id fields",
+        "styling_properties": "All typography, color, and spacing settings"
+      }
+    },
+    "services_section": {
+      "widget_type": "cholot-texticon",
+      "location": "Home page middle",
+      "services": [
+        {
+          "title": "Healthly life",
+          "subtitle": "Exciting",
+          "description": "It's a great way for you to make use of all the benefits of being a part.",
+          "icon": "fas fa-parachute-box"
+        },
+        {
+          "title": "Improving life", 
+          "subtitle": "retired",
+          "description": "It's a great way for you to make use of all the benefits of being a part.",
+          "icon": "fas fa-pallet"
+        },
+        {
+          "title": "Relationship",
+          "subtitle": "residents",
+          "description": "It's a great way for you to make use of all the benefits of being a part.",
+          "icon": "fas fa-igloo"
+        }
+      ],
+      "preserve_exactly": {
+        "widget_structure": "cholot-texticon with all style properties",
+        "icon_settings": "icon_size, icon_bg_size, icon_color, iconbg_color",
+        "typography_settings": "All title_typography_* and text_typography_* properties",
+        "spacing_settings": "All margin, padding, and positioning values"
+      }
+    },
+    "about_section": {
+      "widget_types": ["cholot-title", "text-editor"],
+      "location": "Footer area of Home page",
+      "content_to_replace": {
+        "section_title": "About us.",
+        "main_content": "Building with our residents is something we keep close to our heart. Let us help you celebrate your loved one's story by creating a new chapter that's worth sharing."
+      }
+    },
+    "call_to_action": {
+      "widget_type": "cholot-title",
+      "location": "Various sections", 
+      "content_to_replace": {
+        "titles": [
+          "Thinking about retirement? Let us be your guide.",
+          "What you will get from us after you join the community.",
+          "Contact us for more info about our excellent community."
+        ]
+      }
+    },
+    "testimonials": {
+      "widget_type": "cholot-testimonial-two",
+      "location": "About/Home page",
+      "sample_content": {
+        "text": "The Senior living restaurant offers excellent variety, quality and presentation. It's very, very tasteful. The choices you are given are remarkable!",
+        "author": "Thyo Septian",
+        "role": "Member"
+      }
+    },
+    "contact_form": {
+      "widget_type": "Contact Form 7",
+      "location": "Service page",
+      "form_fields": [
+        "your-name (Your Name...)",
+        "your-email (Your Email...)",
+        "your-phone (Your Phone...)",
+        "people-list (dropdown: 1 People, 2 People, 3 People, Family)",
+        "book-hour (8.00 AM - 8.00 PM)",
+        "book-date (20 July 2019)",
+        "your-message (Your Note...)"
+      ],
+      "submit_text": "Schedule a Visit"
+    },
+    "gallery_section": {
+      "widget_type": "cholot-gallery",
+      "location": "Footer area",
+      "images": [
+        "matteo-vistocco-537858-unsplash.jpg",
+        "val-vesa-410839-unsplash.jpg", 
+        "josh-appel-423804-unsplash.jpg",
+        "damir-bosnjak-366766-unsplash.jpg",
+        "huy-phan-100866-unsplash.jpg",
+        "vlad-sargu-479334-unsplash.jpg"
+      ]
+    },
+    "recent_posts": {
+      "widget_type": "cholot-post-three",
+      "location": "Footer area",
+      "settings": {
+        "blog_post": 2,
+        "blog_cat": ["8"],
+        "blog_column": "one",
+        "button": "Read More"
+      }
+    }
+  },
+  "cdata_sections": {
+    "description": "Critical CDATA sections that must be preserved exactly",
+    "locations": [
+      "wp:author_login, wp:author_email, wp:author_display_name",
+      "wp:category_nicename, wp:cat_name",
+      "wp:tag_slug, wp:tag_name", 
+      "content:encoded (main page/post content)",
+      "wp:meta_key, wp:meta_value (all metadata)",
+      "_elementor_data (complete Elementor JSON structure)"
+    ],
+    "critical_meta_keys": [
+      "_wp_page_template",
+      "_elementor_edit_mode", 
+      "_elementor_template_type",
+      "_elementor_version",
+      "_elementor_data",
+      "_elementor_elements_usage",
+      "cholot_header_option",
+      "cholot_footer_option"
+    ]
+  },
+  "structural_preservation": {
+    "xml_declaration": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>",
+    "wordpress_comments": "All WordPress export comments must be preserved",
+    "rss_attributes": "version, xmlns declarations",
+    "item_structure": {
+      "required_fields": [
+        "title",
+        "link", 
+        "pubDate",
+        "dc:creator",
+        "guid",
+        "description",
+        "content:encoded",
+        "excerpt:encoded",
+        "wp:post_id",
+        "wp:post_date",
+        "wp:post_date_gmt",
+        "wp:comment_status",
+        "wp:ping_status", 
+        "wp:post_name",
+        "wp:status",
+        "wp:post_parent",
+        "wp:menu_order",
+        "wp:post_type",
+        "wp:post_password",
+        "wp:is_sticky"
+      ],
+      "conditional_fields": [
+        "wp:attachment_url (for attachments)",
+        "wp:postmeta (metadata)"
+      ]
+    },
+    "id_relationships": {
+      "post_parent": "Must maintain parent-child relationships",
+      "attachment_parent": "Images must reference correct post IDs",
+      "menu_item_object_id": "Menu items must reference correct page IDs"
+    }
+  },
+  "text_replacement_targets": {
+    "brand_name": {
+      "current": "Cholot",
+      "locations": [
+        "Channel title",
+        "Site URLs", 
+        "Widget titles",
+        "Logo references"
+      ]
+    },
+    "business_type": {
+      "current": "Retirement Community / Senior Living",
+      "locations": [
+        "Hero section subtitles",
+        "Service descriptions",
+        "About content"
+      ]
+    },
+    "contact_information": {
+      "address": "Buah Batu Street 886 - ID",
+      "phone": "+122 - 000 - 000",
+      "email": "email@email.com",
+      "locations": [
+        "Footer contact widget",
+        "Contact forms",
+        "Header contact info"
+      ]
+    },
+    "service_descriptions": {
+      "current_services": [
+        "Healthly life - It's a great way for you to make use of all the benefits of being a part.",
+        "Improving life - It's a great way for you to make use of all the benefits of being a part.", 
+        "Relationship - It's a great way for you to make use of all the benefits of being a part.",
+        "Retirement funds and planning",
+        "Hospital living with professional",
+        "The personal counseling"
+      ]
+    },
+    "hero_messages": {
+      "primary_headlines": [
+        "Discover the best community that fit your needs.",
+        "The senior living experience that is tailored to you.",
+        "Thinking about retirement? Let us be your guide."
+      ],
+      "supporting_text": [
+        "Building with our residents is something we keep close to our heart.",
+        "Let us help you celebrate your loved one's story by creating a new chapter that's worth sharing."
+      ]
+    }
+  },
+  "media_files": {
+    "total_attachments": 20,
+    "image_types": ["jpg", "png"],
+    "key_images": [
+      "esther-town-492626-unsplash.jpg (Hero slide 1)",
+      "huy-phan-100866-unsplash.jpg (Hero slide 2)",
+      "logo-white-1.png (Header logo)",
+      "logo-1.png (Alternative logo)",
+      "team1.jpg (Team member)",
+      "1.jpg through 7.jpg (Gallery and content images)"
+    ],
+    "image_url_pattern": "https://theme.winnertheme.com/cholot/wp-content/uploadz/"
+  },
+  "critical_warnings": {
+    "elementor_data_complexity": "Extremely complex nested JSON structures - any modification must preserve exact formatting",
+    "id_dependencies": "Post IDs, attachment IDs, and category IDs are interconnected - changes require careful mapping",
+    "cdata_sensitivity": "All CDATA sections are sensitive to encoding and special characters",
+    "url_consistency": "All URLs must be consistently updated across multiple locations",
+    "widget_dependencies": "Custom cholot-* widgets depend on theme functionality"
+  }
+}
