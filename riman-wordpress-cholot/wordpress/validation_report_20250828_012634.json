@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "total_tests": 10,
+    "passed": 7,
+    "failed": 3,
+    "success_rate": 70.0,
+    "total_time": 0.014
+  },
+  "performance_metrics": {
+    "pages_generated": 5,
+    "total_widgets": 80,
+    "processing_time": 0.0014710426330566406,
+    "output_size": 159537,
+    "widgets_per_second": 54383.196110210694
+  },
+  "errors": [],
+  "timestamp": "2025-08-28T01:26:34.524877",
+  "verdict": "FAIL"
+}
