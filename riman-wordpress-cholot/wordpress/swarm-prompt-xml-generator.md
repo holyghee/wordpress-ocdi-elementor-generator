@@ -166,7 +166,45 @@ class CholotComponentFactory:
    - Handle responsive settings
    - Manage dependencies
 
+## Frontend Analysis Requirements
+
+### Visual-to-XML Correlation:
+1. **Navigate to http://localhost:8080/**
+2. **For each visual section, identify:**
+   - The rendered HTML structure
+   - The corresponding XML widget in demo-data-fixed.xml
+   - The Elementor settings that control appearance
+   - Required vs optional parameters
+
+3. **Document Component Behavior:**
+   ```javascript
+   // Run in browser console at http://localhost:8080/
+   const components = {
+     sliders: document.querySelectorAll('.cholot-slider'),
+     services: document.querySelectorAll('.cholot-texticon'),
+     sections: document.querySelectorAll('.elementor-section')
+   };
+   
+   console.log('Found components:', {
+     sliders: components.sliders.length,
+     services: components.services.length,
+     sections: components.sections.length
+   });
+   ```
+
+4. **Critical Observations:**
+   - How does `widgetType:"cholot-slider"` render?
+   - What HTML is generated from `cholot-texticon`?
+   - How do Elementor columns affect layout?
+   - Which settings control animations?
+
 ## Testing Strategy
+
+### Validation Workflow:
+1. **Generate XML from your system**
+2. **Import to test site (localhost:8081)**
+3. **Compare with original (localhost:8080)**
+4. **Verify identical rendering**
 
 ### Test Cases:
 1. **Single Page Generation:**
