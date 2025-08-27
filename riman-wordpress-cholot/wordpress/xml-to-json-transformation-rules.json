@@ -1,0 +1,255 @@
+{
+  "transformation_guide": {
+    "title": "XML to JSON Transformation Rules for Cholot Widgets",
+    "version": "1.0",
+    "date": "2025-08-27",
+    "purpose": "Complete guide for converting WordPress XML exports to clean JSON templates"
+  },
+
+  "extraction_process": {
+    "step_1_xml_parsing": {
+      "action": "Parse WordPress XML Export",
+      "target_elements": [
+        "wp:post_type[elementor_library]",
+        "wp:meta_key[_elementor_data]",
+        "wp:meta_value containing JSON data"
+      ],
+      "method": "XML DOM parsing to locate Elementor data",
+      "output": "Raw JSON strings wrapped in CDATA"
+    },
+    
+    "step_2_data_extraction": {
+      "action": "Extract JSON from CDATA",
+      "process": [
+        "Remove CDATA wrapper tags",
+        "Unescape HTML entities", 
+        "Decode JSON string to object"
+      ],
+      "handling_errors": [
+        "Validate JSON structure",
+        "Handle malformed JSON",
+        "Report parsing errors"
+      ]
+    },
+
+    "step_3_structure_validation": {
+      "action": "Validate Elementor Structure", 
+      "required_properties": {
+        "root_level": ["id", "elType", "settings", "elements"],
+        "section_level": ["id", "elType", "settings", "elements", "isInner"],
+        "column_level": ["id", "elType", "settings", "elements", "isInner"], 
+        "widget_level": ["id", "elType", "settings", "elements", "widgetType"]
+      },
+      "validation_rules": [
+        "elType must be 'section', 'column', or 'widget'",
+        "widgets must have widgetType property",
+        "elements array must exist (empty for widgets)",
+        "settings object must exist"
+      ]
+    }
+  },
+
+  "transformation_rules": {
+    "url_transformations": {
+      "image_urls": {
+        "pattern": "https://theme.winnertheme.com/cholot/wp-content/uploadz/",
+        "replacement_options": [
+          "Local: /wp-content/uploads/",
+          "CDN: https://cdn.example.com/images/",
+          "Placeholder: https://picsum.photos/800/600"
+        ],
+        "method": "String replacement with validation"
+      },
+      "link_urls": {
+        "internal_links": "Convert to relative URLs or update domain",
+        "external_links": "Validate and maintain",
+        "placeholder_links": "Replace # with actual URLs"
+      }
+    },
+
+    "content_transformations": {
+      "text_content": {
+        "html_cleaning": [
+          "Remove or replace specific HTML entities",
+          "Standardize quote characters",
+          "Clean up malformed HTML"
+        ],
+        "placeholder_replacement": [
+          "Replace demo text with context-appropriate content",
+          "Maintain HTML structure",
+          "Preserve formatting tags"
+        ]
+      },
+      "font_awesome_migration": {
+        "old_format": "icon: 'fa fa-child'",
+        "new_format": {
+          "selected_icon": {
+            "value": "fas fa-child",
+            "library": "fa-solid"
+          },
+          "__fa4_migrated": {
+            "selected_icon": true
+          }
+        }
+      }
+    },
+
+    "responsive_transformations": {
+      "breakpoint_consistency": {
+        "desktop": "Default values (no suffix)",
+        "tablet": "_tablet suffix",
+        "mobile": "_mobile suffix"
+      },
+      "unit_object_validation": {
+        "required_properties": ["unit", "size"],
+        "optional_properties": ["sizes", "top", "right", "bottom", "left", "isLinked"],
+        "valid_units": ["px", "%", "em", "rem", "vh", "vw"]
+      }
+    }
+  },
+
+  "widget_specific_transformations": {
+    "cholot-texticon": {
+      "icon_migration": "Convert fa4 icons to fa5+ format",
+      "content_updates": [
+        "Update retirement-specific language",
+        "Maintain icon-text relationships",
+        "Preserve styling hierarchy"
+      ]
+    },
+    
+    "cholot-team": {
+      "image_handling": "Update profile image URLs and validate dimensions",
+      "social_links": [
+        "Validate social media URLs",
+        "Update icon references",
+        "Maintain link structure"
+      ]
+    },
+
+    "cholot-testimonial-two": {
+      "content_structure": "Maintain testimonial array structure",
+      "image_updates": "Update customer photo URLs",
+      "text_improvements": "Enhance testimonial content for context"
+    },
+
+    "cholot-gallery": {
+      "image_array": "Update all gallery image URLs",
+      "layout_preservation": "Maintain grid column classes",
+      "responsive_sizing": "Preserve breakpoint-specific dimensions"
+    },
+
+    "cholot-contact": {
+      "form_integration": "Update Contact Form 7 shortcodes",
+      "styling_preservation": "Maintain form field styling"
+    },
+
+    "cholot-post-three": {
+      "category_references": "Update blog category IDs",
+      "post_count": "Adjust for available content",
+      "meta_styling": "Preserve post meta appearance"
+    }
+  },
+
+  "content_generation_rules": {
+    "text_content": {
+      "retirement_theme": {
+        "keywords": ["retirement", "senior living", "community", "care", "assisted living"],
+        "tone": "warm, professional, caring",
+        "length_guidelines": {
+          "titles": "3-8 words",
+          "subtitles": "1-3 words",
+          "descriptions": "15-50 words",
+          "testimonials": "20-80 words"
+        }
+      }
+    },
+    
+    "placeholder_system": {
+      "text_placeholders": {
+        "{{COMMUNITY_NAME}}": "Retirement community name",
+        "{{SERVICE_NAME}}": "Specific service or feature",
+        "{{TESTIMONIAL_NAME}}": "Customer testimonial name",
+        "{{STAFF_NAME}}": "Team member name",
+        "{{STAFF_ROLE}}": "Team member position"
+      },
+      "image_placeholders": {
+        "{{HERO_IMAGE}}": "Main banner/hero images",
+        "{{SERVICE_IMAGE}}": "Service feature images", 
+        "{{TEAM_IMAGE}}": "Staff profile photos",
+        "{{TESTIMONIAL_IMAGE}}": "Customer photos",
+        "{{GALLERY_IMAGE}}": "Gallery/facility photos"
+      }
+    }
+  },
+
+  "validation_checklist": {
+    "json_structure": [
+      "Valid JSON syntax",
+      "Required properties present",
+      "Proper data types",
+      "No undefined values"
+    ],
+    
+    "elementor_compatibility": [
+      "Widget types exist in theme",
+      "Settings properties are valid",
+      "Responsive breakpoints correct",
+      "Color values properly formatted"
+    ],
+    
+    "content_quality": [
+      "Text content appropriate for context",
+      "Image URLs accessible",
+      "Links functional",
+      "No placeholder content remaining"
+    ],
+    
+    "responsive_behavior": [
+      "Breakpoint-specific settings present",
+      "Mobile-optimized spacing",
+      "Typography scales appropriately",
+      "Images responsive"
+    ]
+  },
+
+  "automation_recommendations": {
+    "batch_processing": {
+      "file_organization": "Process multiple XML files systematically",
+      "error_logging": "Track and report transformation issues",
+      "progress_tracking": "Monitor conversion status"
+    },
+    
+    "quality_assurance": {
+      "automated_validation": "Script-based JSON validation",
+      "content_review": "Human review of generated content",
+      "test_imports": "Validate in actual WordPress/Elementor environment"
+    },
+    
+    "optimization": {
+      "image_optimization": "Compress and optimize referenced images",
+      "code_minification": "Minimize JSON file sizes",
+      "caching_strategy": "Implement efficient template caching"
+    }
+  },
+
+  "common_issues_solutions": {
+    "parsing_errors": {
+      "malformed_json": "Use lenient JSON parser with error recovery",
+      "encoding_issues": "Handle UTF-8 encoding properly",
+      "nested_quotes": "Escape quotes correctly in string values"
+    },
+    
+    "content_issues": {
+      "broken_images": "Implement fallback image system",
+      "missing_fonts": "Provide font fallbacks",
+      "invalid_colors": "Validate and correct color values"
+    },
+    
+    "compatibility_issues": {
+      "version_differences": "Handle Elementor version compatibility",
+      "plugin_dependencies": "Check required plugin availability",
+      "theme_compatibility": "Ensure widget availability in target theme"
+    }
+  }
+}
