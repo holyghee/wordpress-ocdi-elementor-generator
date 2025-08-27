@@ -4393,7 +4393,7 @@ Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Cholot (http://localhost:8082)
+Diese E-Mail wurde von einem Kontaktformular auf RIMAN GmbH gesendet (http://localhost:8082)
 Reply-To: [your-email]
 
 
@@ -4406,7 +4406,7 @@ Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Cholot (http://localhost:8082)
+Diese E-Mail wurde von einem Kontaktformular auf RIMAN GmbH gesendet (http://localhost:8082)
 Reply-To: ridianur@yahoo.com
 
 
@@ -4490,7 +4490,7 @@ Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Cholot (http://localhost:8082)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+Diese E-Mail wurde von einem Kontaktformular auf RIMAN GmbH gesendet (http://localhost:8082)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
@@ -4498,7 +4498,7 @@ This e-mail was sent from a contact form on Cholot (http://localhost:8082)";s:18
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Cholot (http://localhost:8082)";s:18:"additional_headers";s:28:"Reply-To: ridianur@yahoo.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+Diese E-Mail wurde von einem Kontaktformular auf RIMAN GmbH gesendet (http://localhost:8082)";s:18:"additional_headers";s:28:"Reply-To: ridianur@yahoo.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
