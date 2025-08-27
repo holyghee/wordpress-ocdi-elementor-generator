@@ -1,0 +1,83 @@
+# RIMAN GmbH - Midjourney Image Generation Prompts
+
+## Hero/Background Images
+
+### esther-town-492626-unsplash (Hero Background)
+"Industrial decontamination facility with modern safety equipment and clean geometric architecture. Soft morning light illuminating advanced hazardous material processing units, with professional technicians in pristine white protective suits. Glass facades reflecting blue sky, stainless steel surfaces creating patterns of precision and safety. Environmental protection meets cutting-edge technology. SafetyCore, PrecisionCore, CleanCore Camera: Phase One XF, Schneider 80mm lens, architectural precision photography. --s 250 --ar 16:9 --v 7.0"
+
+### huy-phan-100866-unsplash (About Section)
+"Professional environmental engineer analyzing soil samples in a state-of-the-art laboratory. Soft blue-white lighting creates clean, scientific atmosphere. Modern testing equipment arranged in precise geometric patterns, with digital displays showing contamination analysis data. Glass containers with soil samples, precision instruments, and safety protocols visible. Scientific excellence in environmental protection. ScienceCore, AnalyticsCore, PrecisionCore Camera: Phase One XF, Schneider 80mm lens, scientific documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### damir-bosnjak-366766-unsplash (Services Overview)
+"Massive construction site with selective demolition in progress, showcasing sustainable deconstruction management. Heavy machinery carefully dismantling industrial building while separating materials for recycling. Dust control systems creating geometric patterns, with safety barriers and environmental protection measures clearly visible. Professional project management in action. ConstructionCore, SustainabilityCore, SafetyCore Camera: Phase One XF, Schneider 80mm lens, industrial documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### josh-appel-423804-unsplash (Technology Focus)
+"Advanced BIM visualization display showing 3D building deconstruction planning. Multiple monitors displaying digital twin technology for hazardous material mapping. Clean, modern office environment with engineers analyzing data. Holographic projections of building structures with contamination heat maps. Future of construction mediation technology. TechCore, DigitalCore, InnovationCore Camera: Phase One XF, Schneider 80mm lens, technology visualization photography. --s 250 --ar 16:9 --v 7.0"
+
+## Service-Specific Images
+
+### matteo-vistocco-537858-unsplash (Schadstoffsanierung)
+"Asbestos removal specialists in full protective gear working in contained environment. Advanced negative pressure systems creating geometric patterns of safety barriers. Professional equipment for safe material handling, with warning signs and containment protocols clearly visible. Red hazard tape creating strong visual boundaries. Safety-first approach to hazardous material remediation. HazmatCore, SafetyCore, ContainmentCore Camera: Phase One XF, Schneider 80mm lens, safety documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### val-vesa-410839-unsplash (Rückbaumanagement)
+"Systematic building deconstruction with materials being carefully sorted for recycling. Modern excavators with precision attachments working methodically. Color-coded material separation areas creating organized patterns. Sustainability signage and circular economy principles in action. Professional project coordination visible. RecyclingCore, SustainabilityCore, EfficiencyCore Camera: Phase One XF, Schneider 80mm lens, sustainability documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### vlad-sargu-479334-unsplash (Altlastensanierung)
+"Groundwater remediation site with advanced soil treatment systems. Geometric patterns of extraction wells and monitoring equipment across contaminated landscape. Environmental engineers in protective gear overseeing remediation process. Clean technology meeting environmental restoration. Blue sky contrasting with earth tones of remediation work. EnvironmentalCore, RestorationCore, TechCore Camera: Phase One XF, Schneider 80mm lens, environmental documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### anthony-metcalfe-580436-unsplash (Mediation Services)
+"Professional mediation meeting in modern conference room with construction project stakeholders. Clean, minimalist interior with large windows showing construction site in background. Digital displays showing project timelines and resolution frameworks. Handshakes and collaborative atmosphere. Professional dispute resolution in action. MediationCore, ProfessionalCore, CollaborationCore Camera: Phase One XF, Schneider 80mm lens, corporate photography. --s 250 --ar 16:9 --v 7.0"
+
+## Process/Step Images (1-8)
+
+### 1.jpg (Assessment)
+"Environmental assessment specialist with tablet documenting contaminated site. Professional wearing safety vest and helmet, with testing equipment in background. Site analysis tools creating geometric patterns. Scientific precision meets field work. AssessmentCore, DocumentationCore, PrecisionCore Camera: Phase One XF, Schneider 80mm lens, field documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 2.jpg (Planning)
+"BIM planning session with 3D holographic building model showing contamination zones. Multiple engineers collaborating around interactive display table. Digital twin technology visualizing deconstruction sequence. Modern planning office environment. PlanningCore, TechCore, CollaborationCore Camera: Phase One XF, Schneider 80mm lens, planning documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 3.jpg (Safety Preparation)
+"Safety equipment preparation area with protective suits, respirators, and monitoring devices arranged in precise geometric patterns. Quality control inspection of safety gear. Professional preparation meets rigorous standards. SafetyCore, PreparationCore, QualityCore Camera: Phase One XF, Schneider 80mm lens, safety preparation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 4.jpg (Execution)
+"Active hazardous material removal with containment systems and negative pressure equipment creating geometric safety barriers. Professional execution of remediation protocols. Controlled environment with precise safety measures. ExecutionCore, SafetyCore, ProfessionalCore Camera: Phase One XF, Schneider 80mm lens, execution documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 5.jpg (Monitoring)
+"Real-time air quality monitoring with digital displays showing contamination levels. Environmental sensors creating patterns of safety verification. Continuous monitoring ensures worker and public safety. MonitoringCore, SafetyCore, TechCore Camera: Phase One XF, Schneider 80mm lens, monitoring documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 6.jpg (Material Processing)
+"Specialized waste processing facility with contaminated materials being safely treated. Advanced treatment systems creating geometric patterns of environmental protection. Proper disposal meets regulatory compliance. ProcessingCore, ComplianceCore, EnvironmentalCore Camera: Phase One XF, Schneider 80mm lens, processing documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 7.jpg (Quality Control)
+"Final inspection and quality verification with certified inspectors documenting completed remediation work. Clean, restored environment meeting all safety standards. Quality assurance protocols in action. QualityCore, CertificationCore, CompletionCore Camera: Phase One XF, Schneider 80mm lens, quality documentation photography. --s 250 --ar 16:9 --v 7.0"
+
+### 8.jpg (Certification)
+"Official certification ceremony with regulatory compliance documents and environmental clearance certificates. Professional achievement meets regulatory approval. Successful project completion. CertificationCore, ComplianceCore, SuccessCore Camera: Phase One XF, Schneider 80mm lens, certification photography. --s 250 --ar 16:9 --v 7.0"
+
+## Team Images
+
+### team1.jpg (Dr. Michael Riman - Geschäftsführer)
+"Professional portrait of distinguished male executive in modern office environment, wearing dark business suit. Confident leadership pose with environmental engineering diplomas and certifications visible in background. Clean, corporate photography style. LeadershipCore, ProfessionalCore, AuthorityCore Camera: Phase One XF, Schneider 80mm lens, executive portrait photography. --s 250 --ar 4:5 --v 7.0"
+
+### team2.jpg (Sabine Weber - Projektleitung)
+"Professional female project manager in safety vest and hard hat at construction site, holding tablet with project plans. Confident, competent leadership in field environment. Strong professional woman in STEM field. ProjectCore, LeadershipCore, WomenInSTEMCore Camera: Phase One XF, Schneider 80mm lens, professional portrait photography. --s 250 --ar 4:5 --v 7.0"
+
+### team3.jpg (Thomas Müller - Technische Leitung)
+"Senior male technical specialist in laboratory coat examining hazardous material samples. Experienced professional with advanced testing equipment in background. Technical expertise meets scientific precision. TechnicalCore, ExpertiseCore, ScienceCore Camera: Phase One XF, Schneider 80mm lens, technical portrait photography. --s 250 --ar 4:5 --v 7.0"
+
+## Brand Elements
+
+### logo.jpg (RIMAN Main Logo)
+"Clean, modern environmental technology company logo design featuring geometric patterns suggesting safety, precision, and environmental protection. Professional blue and green color scheme with subtle geometric elements representing molecular structures and safety barriers. Corporate excellence in environmental services. BrandCore, EnvironmentalCore, ProfessionalCore Camera: Phase One XF, Schneider 80mm lens, brand photography. --s 250 --ar 4:3 --v 7.0"
+
+### logo-white.jpg (RIMAN White Logo)
+"Same professional logo design optimized for dark backgrounds, featuring white and light blue elements with enhanced visibility. Clean geometric design representing environmental safety and technical precision. Professional brand identity. BrandCore, EnvironmentalCore, CleanCore Camera: Phase One XF, Schneider 80mm lens, brand photography. --s 250 --ar 4:3 --v 7.0"
+
+### sign.jpg (Company Signage)
+"Professional building signage for RIMAN GmbH environmental services company. Modern, clean design with company logo prominently displayed on contemporary office building facade. Professional corporate presence meets environmental responsibility. SignageCore, CorporateCore, ProfessionalCore Camera: Phase One XF, Schneider 80mm lens, architectural signage photography. --s 250 --ar 16:9 --v 7.0"
+
+### bg-ab.jpg (About Background)
+"Abstract geometric pattern representing environmental protection and safety protocols. Clean blue and white color scheme with molecular structure patterns suggesting scientific precision and environmental care. Professional background design for corporate communications. AbstractCore, EnvironmentalCore, ProfessionalCore Camera: Phase One XF, Schneider 80mm lens, abstract pattern photography. --s 250 --ar 16:9 --v 7.0"
+
+### cropped-matteo-vistocco-537858-unsplash.jpg (Cropped Version)
+"Close-up detail of advanced hazardous material containment equipment with safety protocols visible. Professional equipment photography showing precision instruments and safety systems. Technical excellence in environmental protection. DetailCore, SafetyCore, PrecisionCore Camera: Phase One XF, Schneider 80mm lens, technical detail photography. --s 250 --ar 16:9 --v 7.0"
