@@ -1,0 +1,558 @@
+{
+  "site": {
+    "title": "Professional Services Corp",
+    "description": "Comprehensive professional services with multiple locations",
+    "base_url": "http://localhost:8082", 
+    "language": "en-US"
+  },
+  "pages": [
+    {
+      "title": "Home",
+      "slug": "home",
+      "status": "publish",
+      "sections": [
+        {
+          "structure": "100",
+          "settings": {
+            "background": {
+              "background_background": "gradient",
+              "background_color": "#232323",
+              "background_color_b": "#b68c2f"
+            }
+          },
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "texticon",
+                  "title": "Professional Services Corporation",
+                  "subtitle": "Excellence • Innovation • Results",
+                  "icon": "fas fa-building",
+                  "text": "Leading provider of professional services across multiple industries",
+                  "custom_settings": {
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 42,
+                      "sizes": []
+                    },
+                    "text_typography_font_size": {
+                      "unit": "px", 
+                      "size": 16,
+                      "sizes": []
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "structure": "25",
+          "columns": [
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "texticon",
+                  "title": "Legal Services",
+                  "subtitle": "Expert Legal Counsel",
+                  "icon": "fas fa-gavel",
+                  "text": "Comprehensive legal support for businesses and individuals"
+                }
+              ]
+            },
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "texticon",
+                  "title": "Financial Advisory",
+                  "subtitle": "Strategic Planning",
+                  "icon": "fas fa-chart-line",
+                  "text": "Financial planning and investment advisory services"
+                }
+              ]
+            },
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "texticon",
+                  "title": "Technology Solutions",
+                  "subtitle": "Digital Innovation",
+                  "icon": "fas fa-laptop-code",
+                  "text": "Cutting-edge technology solutions for modern businesses"
+                }
+              ]
+            },
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "texticon",
+                  "title": "Management Consulting",
+                  "subtitle": "Operational Excellence", 
+                  "icon": "fas fa-users-cog",
+                  "text": "Strategic management consulting and process optimization"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "status": "publish",
+      "sections": [
+        {
+          "structure": "100",
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "title",
+                  "title": "Our Comprehensive Services<span>.</span>",
+                  "header_size": "h1",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "structure": "33",
+          "columns": [
+            {
+              "width": 33,
+              "widgets": [
+                {
+                  "type": "text-line",
+                  "title": "Legal & Compliance",
+                  "subtitle": "Expert Legal Services",
+                  "line_width": 80,
+                  "line_height": 2,
+                  "background_color": "#ffffff"
+                },
+                {
+                  "type": "post-four",
+                  "post_count": 2,
+                  "column": "one",
+                  "categories": ["legal"],
+                  "show_excerpt": "yes",
+                  "button_text": "Learn More"
+                }
+              ]
+            },
+            {
+              "width": 33,
+              "widgets": [
+                {
+                  "type": "text-line",
+                  "title": "Financial Advisory",
+                  "subtitle": "Strategic Financial Planning",
+                  "line_width": 80,
+                  "line_height": 2,
+                  "background_color": "#ffffff"
+                },
+                {
+                  "type": "post-four",
+                  "post_count": 2,
+                  "column": "one", 
+                  "categories": ["finance"],
+                  "show_excerpt": "yes",
+                  "button_text": "Learn More"
+                }
+              ]
+            },
+            {
+              "width": 33,
+              "widgets": [
+                {
+                  "type": "text-line",
+                  "title": "Technology Solutions",
+                  "subtitle": "Digital Transformation",
+                  "line_width": 80,
+                  "line_height": 2,
+                  "background_color": "#ffffff"
+                },
+                {
+                  "type": "post-four",
+                  "post_count": 2,
+                  "column": "one",
+                  "categories": ["technology"],
+                  "show_excerpt": "yes",
+                  "button_text": "Learn More"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "status": "publish",
+      "sections": [
+        {
+          "structure": "100",
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "title", 
+                  "title": "Meet Our Expert Team<span>.</span>",
+                  "header_size": "h1",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "structure": "25",
+          "columns": [
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "team",
+                  "name": "Michael Thompson",
+                  "position": "Chief Executive Officer",
+                  "image_url": "http://localhost:8082/team/ceo.jpg",
+                  "image_id": 301,
+                  "height": "450px",
+                  "social_links": [
+                    {
+                      "icon": "fab fa-linkedin-in",
+                      "url": "https://linkedin.com/in/michaelthompson"
+                    },
+                    {
+                      "icon": "fab fa-twitter",
+                      "url": "https://twitter.com/mthompson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "team",
+                  "name": "Sarah Chen",
+                  "position": "Chief Financial Officer",
+                  "image_url": "http://localhost:8082/team/cfo.jpg",
+                  "image_id": 302,
+                  "height": "450px",
+                  "social_links": [
+                    {
+                      "icon": "fab fa-linkedin-in",
+                      "url": "https://linkedin.com/in/sarahchen"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "team",
+                  "name": "David Rodriguez", 
+                  "position": "Chief Technology Officer",
+                  "image_url": "http://localhost:8082/team/cto.jpg",
+                  "image_id": 303,
+                  "height": "450px",
+                  "social_links": [
+                    {
+                      "icon": "fab fa-github",
+                      "url": "https://github.com/drodriguez"
+                    },
+                    {
+                      "icon": "fab fa-linkedin-in", 
+                      "url": "https://linkedin.com/in/davidrodriguez"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "width": 25,
+              "widgets": [
+                {
+                  "type": "team",
+                  "name": "Emily Johnson",
+                  "position": "Chief Operating Officer",
+                  "image_url": "http://localhost:8082/team/coo.jpg",
+                  "image_id": 304,
+                  "height": "450px",
+                  "social_links": [
+                    {
+                      "icon": "fab fa-linkedin-in",
+                      "url": "https://linkedin.com/in/emilyjohnson"
+                    },
+                    {
+                      "icon": "fab fa-instagram",
+                      "url": "https://instagram.com/ejohnson"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "structure": "100",
+          "settings": {
+            "background": {
+              "background_background": "classic",
+              "background_color": "#f4f4f4"
+            }
+          },
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "testimonial",
+                  "columns": 3,
+                  "align": "center",
+                  "testimonials": [
+                    {
+                      "_id": "test001",
+                      "name": "John Smith",
+                      "position": "CEO, TechCorp",
+                      "image": {
+                        "url": "http://localhost:8082/testimonials/client1.jpg",
+                        "id": 401
+                      },
+                      "testimonial": "Professional Services Corp exceeded our expectations in every way. Their expertise and dedication are unmatched.",
+                      "rating": 5
+                    },
+                    {
+                      "_id": "test002", 
+                      "name": "Lisa Wong",
+                      "position": "Director, Global Industries",
+                      "image": {
+                        "url": "http://localhost:8082/testimonials/client2.jpg",
+                        "id": 402
+                      },
+                      "testimonial": "The team's strategic approach and attention to detail helped us achieve remarkable growth.",
+                      "rating": 5
+                    },
+                    {
+                      "_id": "test003",
+                      "name": "Robert Kim",
+                      "position": "Founder, StartupXYZ",
+                      "image": {
+                        "url": "http://localhost:8082/testimonials/client3.jpg",
+                        "id": 403
+                      },
+                      "testimonial": "From concept to execution, they guided us through every step with professionalism and expertise.",
+                      "rating": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gallery",
+      "slug": "gallery",
+      "status": "publish",
+      "sections": [
+        {
+          "structure": "100",
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "title",
+                  "title": "Our Work Gallery<span>.</span>",
+                  "header_size": "h1",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "structure": "100",
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "gallery",
+                  "columns": "col-md-4",
+                  "height": 200,
+                  "margin": 10,
+                  "show_title": "",
+                  "show_caption": "",
+                  "images": [
+                    {
+                      "id": 501,
+                      "url": "http://localhost:8082/gallery/project1.jpg"
+                    },
+                    {
+                      "id": 502,
+                      "url": "http://localhost:8082/gallery/project2.jpg"
+                    },
+                    {
+                      "id": 503,
+                      "url": "http://localhost:8082/gallery/project3.jpg"
+                    },
+                    {
+                      "id": 504,
+                      "url": "http://localhost:8082/gallery/project4.jpg"
+                    },
+                    {
+                      "id": 505,
+                      "url": "http://localhost:8082/gallery/project5.jpg"
+                    },
+                    {
+                      "id": 506,
+                      "url": "http://localhost:8082/gallery/project6.jpg"
+                    },
+                    {
+                      "id": 507,
+                      "url": "http://localhost:8082/gallery/project7.jpg"
+                    },
+                    {
+                      "id": 508,
+                      "url": "http://localhost:8082/gallery/project8.jpg"
+                    },
+                    {
+                      "id": 509,
+                      "url": "http://localhost:8082/gallery/project9.jpg"
+                    }
+                  ],
+                  "responsive": {
+                    "tablet": {
+                      "height": 150,
+                      "margin": 5
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "status": "publish",
+      "sections": [
+        {
+          "structure": "100",
+          "settings": {
+            "background": {
+              "background_background": "classic",
+              "background_color": "#232323",
+              "background_image": {
+                "url": "http://localhost:8082/contact-bg.jpg",
+                "id": 600
+              },
+              "background_position": "center center",
+              "background_size": "cover",
+              "background_overlay_background": "classic",
+              "background_overlay_color": "#000000",
+              "background_overlay_opacity": {
+                "unit": "px",
+                "size": 0.7,
+                "sizes": []
+              }
+            }
+          },
+          "columns": [
+            {
+              "width": 100,
+              "widgets": [
+                {
+                  "type": "title",
+                  "title": "Contact Our Expert Team<span>.</span>",
+                  "header_size": "h1",
+                  "align": "center",
+                  "custom_settings": {
+                    "title_color": "#ffffff"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "structure": "50",
+          "settings": {
+            "background": {
+              "background_background": "classic",
+              "background_color": "#ffffff"
+            }
+          },
+          "columns": [
+            {
+              "width": 50,
+              "widgets": [
+                {
+                  "type": "text-line",
+                  "title": "Get in Touch Today",
+                  "subtitle": "We're Here to Help",
+                  "line_width": 60,
+                  "line_height": 3
+                },
+                {
+                  "type": "contact",
+                  "shortcode": "[contact-form-7 id=\"1\" title=\"Main Contact Form\"]",
+                  "button_width": "250px",
+                  "custom_settings": {
+                    "btn_bg": "#b68c2f",
+                    "btn_color": "#ffffff",
+                    "btn_bg_hover": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "width": 50,
+              "widgets": [
+                {
+                  "type": "texticon",
+                  "title": "Visit Our Office",
+                  "subtitle": "Main Location",
+                  "icon": "fas fa-map-marker-alt",
+                  "text": "123 Business Avenue, Suite 500<br>Professional District<br>Business City, BC 12345"
+                },
+                {
+                  "type": "texticon",
+                  "title": "Call Us Today",
+                  "subtitle": "Direct Line",
+                  "icon": "fas fa-phone",
+                  "text": "+1 (555) 123-4567<br>Mon-Fri: 9:00 AM - 6:00 PM<br>Emergency: 24/7 Support"
+                },
+                {
+                  "type": "texticon",
+                  "title": "Email Us",
+                  "subtitle": "Quick Response",
+                  "icon": "fas fa-envelope",
+                  "text": "info@professionalservices.com<br>support@professionalservices.com<br>careers@professionalservices.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

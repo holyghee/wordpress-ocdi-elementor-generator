@@ -1,0 +1,17 @@
+# Cholot WordPress XML Generator Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+PyYAML>=6.0            # YAML parsing support
+markdown>=3.4          # Markdown processing  
+python-frontmatter>=1.0 # Frontmatter extraction from markdown
+
+# Optional dependencies for enhanced features
+lxml>=4.6              # Alternative XML processing (faster)
+Pillow>=8.0            # Image processing (if needed)
+requests>=2.25         # HTTP requests (for URL validation)
+
+# Development dependencies (optional)
+pytest>=6.0            # Testing framework
+black>=21.0            # Code formatting
+flake8>=3.8            # Code linting
