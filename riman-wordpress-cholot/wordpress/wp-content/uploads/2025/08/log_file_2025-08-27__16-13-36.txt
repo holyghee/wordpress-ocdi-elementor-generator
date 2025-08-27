@@ -38,3 +38,8 @@ New AJAX call!
 New AJAX call!
 [ERROR] Failed to import "bim-planung-digitalisierung-baumanagement" (Medien)
 
+
+------
+New AJAX call!
+[ERROR] Failed to import "asbestsanierung-schutzausruestung-fachpersonal" (Medien)
+
