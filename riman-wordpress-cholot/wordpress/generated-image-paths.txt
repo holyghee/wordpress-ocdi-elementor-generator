@@ -30,3 +30,7 @@
 7. vlad-sargu-479334-unsplash (Altlastensanierung)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308931737.png
    Target: wp-content/uploads/2025/08/vlad-sargu-479334-unsplash.jpg
+
+8. anthony-metcalfe-580436-unsplash (Mediation Services)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309023055.png
+   Target: wp-content/uploads/2025/08/anthony-metcalfe-580436-unsplash.jpg
