@@ -33,7 +33,7 @@ def load_riman_content() -> Dict:
 
 def load_xml_file() -> str:
     """Load the existing WordPress XML file."""
-    xml_file = Path('wordpress-mediation-platform/wordpress/riman-content-transformed-seo.xml')
+    xml_file = Path('riman-content-transformed-seo.xml')
     if not xml_file.exists():
         print(f"❌ Error: {xml_file} not found!")
         sys.exit(1)
