@@ -9,22 +9,45 @@ echo ""
 # Single comprehensive SPARC command for rapid prototyping
 npx claude-flow sparc run code "Build minimal viable Elementor JSON generator prototype. 
 
-CONTEXT: We have 7 working Elementor templates in elementor-templates/*.json and a working XML generator (generate_wordpress_xml.py). We need to generate valid Elementor JSON from simple input.
+WORKING DIRECTORY: /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress
+
+CRITICAL FILES TO ANALYZE:
+- /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/elementor-templates/home-page.json (52KB, real Cholot template)
+- /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/elementor-templates/service-page.json (real service widgets)
+- /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/generate_wordpress_xml.py (line 74-400: CholotComponentFactory with 13 widgets)
+- /Users/holgerbrandt/Downloads/cholot-retirement-community-wordpress-theme11/documentation/sample_data/demo-data-fixed.xml (reference XML structure)
+
+EXISTING PROTOTYPES TO LEVERAGE:
+- adaptive-layout-engine.py (line 57-89: calculate_layout function for responsive grids)
+- content-design-separator.py (line 40-52: shows placeholder concept)
+- block-library-system.py (line 48-79: extract_section_block method)
+
+KNOWN WIDGET STRUCTURE (from templates):
+{
+  'id': '7-char-id',
+  'elType': 'widget',
+  'widgetType': 'cholot-texticon',
+  'settings': {
+    'title': 'TEXT_HERE',
+    'selected_icon': {'value': 'fas fa-crown'},
+    'title_typography_font_size': {'unit': 'px', 'size': 24},
+    // 40+ more parameters with specific structure
+  }
+}
 
 IMMEDIATE TASKS:
-1. Extract and analyze patterns from elementor-templates/home-page.json
-2. Create ElementorGenerator class with 3 core widgets: cholot-hero, cholot-texticon, cholot-services
-3. Implement simple content injection: replace {{TITLE}}, {{TEXT}} placeholders
-4. Build test function that generates JSON for 'RIMAN GmbH with 3 services'
-5. Validate output matches structure from templates
+1. Load and parse /wordpress/elementor-templates/home-page.json
+2. Extract cholot-hero, cholot-texticon, cholot-services widget patterns
+3. Create ElementorGenerator class that generates valid JSON matching the structure
+4. Test with: company='RIMAN GmbH', services=['Asbestsanierung', 'PCB-Sanierung', 'Schimmelsanierung']
+5. Output must match exact structure from templates (all nested objects, units, etc.)
 
-DELIVERABLE: Single Python file 'elementor_json_generator.py' that:
-- Takes input: company_name, services_list
-- Returns: Valid Elementor JSON
-- Works with existing generate_wordpress_xml.py
+DELIVERABLE: elementor_json_generator.py that:
+- Generates JSON identical to template structure
+- Integrates with generate_wordpress_xml.py workflow
+- Handles the 400+ parameters correctly
 
-Skip complex features - just make it work for basic use case.
-Time limit: 60 minutes."
+VALIDATION: Generated JSON must import successfully when wrapped in XML by generate_wordpress_xml.py"
 
 echo ""
 echo "🏁 Quick prototype will be ready at: elementor_json_generator.py"
