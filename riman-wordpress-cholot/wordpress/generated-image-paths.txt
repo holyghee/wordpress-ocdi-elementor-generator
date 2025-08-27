@@ -56,3 +56,7 @@
 13. 5.jpg (Monitoring)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309602530.png
    Target: wp-content/uploads/2025/08/5.jpg
+
+14. 6.jpg (Material Processing)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309683117.png
+   Target: wp-content/uploads/2025/08/6.jpg
