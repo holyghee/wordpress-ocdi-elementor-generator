@@ -1,0 +1,12 @@
+# Generated Image Paths for RIMAN WordPress Import
+# Copy these files to your WordPress uploads when importing XML
+
+## Generated Images:
+
+1. esther-town-492626-unsplash (Hero Background)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308379995.png
+   Target: wp-content/uploads/2025/08/esther-town-492626-unsplash.jpg
+
+2. huy-phan-100866-unsplash (About Section)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308481881.png
+   Target: wp-content/uploads/2025/08/huy-phan-100866-unsplash.jpg
