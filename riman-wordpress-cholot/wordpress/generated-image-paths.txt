@@ -40,3 +40,7 @@
 9. 1.jpg (Assessment)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309240187.png
    Target: wp-content/uploads/2025/08/1.jpg
+
+10. 2.jpg (Planning)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309322397.png
+   Target: wp-content/uploads/2025/08/2.jpg
