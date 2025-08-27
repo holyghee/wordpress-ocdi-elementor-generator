@@ -47,18 +47,27 @@ Transform the Cholot retirement theme WordPress XML to RIMAN GmbH environmental 
 **Image Server Running at:** http://localhost:8082/
 **Location:** /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/seo-images/
 
-**Available Professional RIMAN Images (24 total):**
+**Available Professional RIMAN Images (24 images, 3 sizes each):**
+Full resolution images:
+- altlastensanierung-grundwasser-bodenschutz.jpg
+- asbestsanierung-schutzausruestung-fachpersonal.jpg
+- baumediation-konfliktloesung-projektmanagement.jpg
+- bim-planung-digitalisierung-baumanagement.jpg
+- dr-michael-riman-geschaeftsfuehrer.jpg
+- luftqualitaet-monitoring-echtzeitdaten-schritt-5.jpg
+- materialverarbeitung-entsorgung-vorschriften-schritt-6.jpg
+- messgeraete-kalibrierung-inspektion-schritt-4.jpg
+- projektplanung-fortschritt-transparenz-schritt-2.jpg
+- qualitaetssicherung-nachhaltig-sanierung-letzter-schritt.jpg
+- riman-gmbh-team-expertise-vertrauen.jpg
+- risikobewertung-analyse-umweltpruefung-schritt-1.jpg
+- rueckbaumanagement-industrieanlage-professionell.jpg
+- sanierung-vorbereitung-grundlagen-schritt-3.jpg
 - schadstoffsanierung-industrieanlage-riman-gmbh.jpg
-- rueckbaumanagement-abriss-professionell.jpg  
-- altlastensanierung-bodenaushub-fachgerecht.jpg
-- sicherheitskoordination-baustelle-riman.jpg
-- gefahrstoff-management-asbest-sanierung.jpg
-- baubiologische-beratung-gesundes-bauen.jpg
-- asbest-sanierung-schutzausruestung-fachpersonal.jpg
-- industrierueckbau-kran-demolierung-sicher.jpg
-- schadstoffanalyse-labor-untersuchung-probe.jpg
-- baustellen-sicherheit-helm-koordination.jpg
-- And 14 more with German SEO-friendly names...
+- sicherheitskoordination-baustelle-management.jpg
+- umweltschutz-nachhaltigkeit-expertise.jpg
+
+Each image available in 3 sizes: original, -768x768.jpg, -300x300.jpg
 
 **Important:** Replace all Cholot theme image URLs with these RIMAN images
 - Original: https://theme.winnertheme.com/cholot/wp-content/uploads/...
