@@ -286,8 +286,8 @@ templates/
 
 ## Swarm Command
 ```bash
-npx claude-flow@alpha swarm "Analyze Cholot theme XML structure as a component system. Create an intelligent generator that transforms simple content definitions (Markdown/YAML/JSON) into valid WordPress XML. Extract all widgets, patterns, and rules from demo-data-fixed.xml. Design a flexible system that preserves theme compatibility while enabling dynamic page creation. Provide working code and examples." \
-  --strategy engineering \
+npx claude-flow@alpha swarm "CRITICAL: First analyze the LIVE Cholot theme at http://localhost:8080/ to understand how XML elements render as HTML. Use browser DevTools to inspect components. Then correlate with demo-data-fixed.xml to create a complete mapping. Build an intelligent generator that transforms simple content definitions into valid WordPress XML. The generator must produce XML that renders IDENTICALLY to the original theme. Test by comparing localhost:8080 (original) with localhost:8081 (generated). Provide working code with component library." \
+  --strategy content-transformation \
   --neural-patterns enabled \
   --memory-compression high \
   --agents 6
@@ -295,9 +295,10 @@ npx claude-flow@alpha swarm "Analyze Cholot theme XML structure as a component s
 
 ## Alternative: Let AI Decide
 ```bash
-npx claude-flow@alpha swarm "Study the Cholot WordPress theme in demo-data-fixed.xml and devise the best method to generate valid WordPress/Elementor XML from simple content inputs. You decide the optimal approach - whether Markdown, JSON, YAML, or something else. Create a working generator that maintains 100% theme compatibility while allowing flexible content structures. Surprise me with an elegant solution." \
+npx claude-flow@alpha swarm "Analyze the working Cholot theme at http://localhost:8080/ using browser inspection. Understand how each visual element maps to XML in demo-data-fixed.xml. Then devise the best method to generate valid WordPress/Elementor XML from simple content inputs. Your solution must produce pixel-perfect results compared to the original. Test your generator by importing to localhost:8081 and comparing rendering. Surprise me with an elegant solution that makes page creation 10x faster." \
   --strategy creative-engineering \
-  --neural-patterns enabled
+  --neural-patterns enabled \
+  --memory-compression high
 ```
 
 ## Test Content for Validation
