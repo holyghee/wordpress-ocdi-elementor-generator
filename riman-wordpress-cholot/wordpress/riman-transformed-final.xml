@@ -676,8 +676,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>team1</title>
-		<link>https://demo.ridianur.com/cholot/about/team1/</link>
+		<title>dr-michael-riman-geschaeftsfuehrer</title>
+		<link>http://localhost:8082/about/dr-michael-riman-geschaeftsfuehrer/</link>
 		<pubDate>Wed, 03 Jul 2019 16:40:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/dr-michael-riman-geschaeftsfuehrer.jpg</guid>
@@ -689,7 +689,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:40:48]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[team1]]></wp:post_name>
+		<wp:post_name><![CDATA[dr-michael-riman-geschaeftsfuehrer]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>179</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -707,8 +707,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>team2</title>
-		<link>https://demo.ridianur.com/cholot/about/team2/</link>
+		<title>sabine-weber-projektleitung</title>
+		<link>http://localhost:8082/about/sabine-weber-projektleitung/</link>
 		<pubDate>Wed, 03 Jul 2019 16:40:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/sabine-weber-projektleitung.jpg</guid>
@@ -720,7 +720,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:40:49]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[team2]]></wp:post_name>
+		<wp:post_name><![CDATA[sabine-weber-projektleitung]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>179</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1121,8 +1121,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>team3</title>
-		<link>https://demo.ridianur.com/cholot/about/team3/</link>
+		<title>thomas-mueller-technische-leitung</title>
+		<link>http://localhost:8082/about/thomas-mueller-technische-leitung/</link>
 		<pubDate>Wed, 03 Jul 2019 16:40:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/thomas-mueller-technische-leitung.jpg</guid>
@@ -1134,7 +1134,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:40:50]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[team3]]></wp:post_name>
+		<wp:post_name><![CDATA[thomas-mueller-technische-leitung]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>179</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1152,8 +1152,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>8</title>
-		<link>https://demo.ridianur.com/cholot/single-service/attachment/8/</link>
+		<title>zertifizierung-dokumentation-abschluss-schritt-8</title>
+		<link>http://localhost:8082/single-service/zertifizierung-dokumentation-abschluss-schritt-8/</link>
 		<pubDate>Wed, 03 Jul 2019 16:51:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/zertifizierung-dokumentation-abschluss-schritt-8.jpg</guid>
@@ -1165,7 +1165,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:51:47]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[8]]></wp:post_name>
+		<wp:post_name><![CDATA[zertifizierung-dokumentation-abschluss-schritt-8]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>365</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
