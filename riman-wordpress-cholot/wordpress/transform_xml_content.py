@@ -76,7 +76,7 @@ def transform_elementor_widget_content(content, mapping):
         old_text = testimonial_update.get('old_text', '')
         new_text = testimonial_update.get('new_text', '')
         old_author = testimonial_update.get('old_author', '')
-        new_author = testimonor_update.get('new_author', '')
+        new_author = testimonial_update.get('new_author', '')
         
         if old_text and new_text:
             content = content.replace(old_text, new_text)
