@@ -12,9 +12,11 @@ Transform the Cholot retirement theme WordPress XML to RIMAN GmbH environmental 
 
 ## Available Resources
 
-### 1. Live Reference Site
-- **Original Cholot Theme**: http://localhost:8080/
-- View the working theme structure and design that CEO loves
+### 1. Live Reference Sites
+- **Original Cholot Theme (Local)**: http://localhost:8080/
+- **RIMAN Current Website**: http://riman.de
+- View the Cholot theme structure that CEO loves (localhost:8080)
+- Extract real RIMAN content from official website (riman.de)
 - Study the exact layout and content areas to preserve
 
 ### 2. Original XML Structure
