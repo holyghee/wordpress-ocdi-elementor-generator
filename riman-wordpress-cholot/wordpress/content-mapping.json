@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "mapping_purpose": "RIMAN content adaptation for Cholot theme",
+    "theme": "cholot",
+    "company": "RIMAN GmbH",
+    "created": "2025-08-27",
+    "structure": "old_content → new_content mappings"
+  },
+  "hero_section": {
+    "old_title": "Choose between three monthly plans.",
+    "new_title": "Professionelle Schadstoffsanierung seit 1998",
+    "old_subtitle": "RESOURCES THAT WILL HELP YOU",
+    "new_subtitle": "SICHERHEIT UND KOMPETENZ",
+    "old_tagline": "Make Your Life Easier",
+    "new_tagline": "Sicher bauen und gesund leben",
+    "old_description": "Check out our latest tools, products, and services to help you do the things you need to do.",
+    "new_description": "Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind 'sicher bauen und gesund leben'."
+  },
+  "services_section": {
+    "old_section_title": "Services",
+    "new_section_title": "Unsere Leistungsbereiche",
+    "service_cards": [
+      {
+        "position": 1,
+        "old_title": "Basic",
+        "new_title": "Rückbaumanagement",
+        "old_price": "$20/mo",
+        "new_price": "Auf Anfrage",
+        "old_description": "This service is awesome if you're just starting out!",
+        "new_description": "Professionelles Management für Abbruch- und Rückbaumaßnahmen. Sicherheit und Wirtschaftlichkeit im chaotischen Abbruchmarkt.",
+        "old_services": ["Service", "Service", "Service"],
+        "new_services": ["Bedarfsanalyse", "Fachgerechte Planung", "Professionelle Ausschreibung", "Qualifizierte Bauleitung"]
+      },
+      {
+        "position": 2,
+        "old_title": "Agency",
+        "new_title": "Altlastensanierung",
+        "old_price": "$50/mo",
+        "new_price": "Projektbezogen",
+        "old_description": "This is the best choice for small businesses who want to see rapid results.",
+        "new_description": "Sanierung kontaminierter Standorte - nicht nur für Industriestandorte. Wirtschaftliche Lösungen für versteckte Altlasten.",
+        "old_services": ["Service", "Service", "Service", "Service", "Service"],
+        "new_services": ["Risikobewertung", "Schadstofferkundung", "Sanierungsplanung", "Fachgerechte Umsetzung", "Behördliche Abstimmung"]
+      },
+      {
+        "position": 3,
+        "old_title": "Pro",
+        "new_title": "Schadstoff-Management",
+        "old_price": "$30/mo",
+        "new_price": "Maßnahmenabhängig",
+        "old_description": "Want the whole package? We got it covered.",
+        "new_description": "Gefahrstoffe erkennen und sicher handhaben. Schutz vor gesundheitlichen und rechtlichen Risiken.",
+        "old_services": ["Service", "Service", "Service", "Service"],
+        "new_services": ["Systematische Erkundung", "Laboranalysen", "Rechtliche Bewertung", "Sanierungskonzepte"]
+      }
+    ],
+    "additional_services": [
+      {
+        "title": "Sicherheitskoordination",
+        "description": "EU-rechtskonforme Planung und Überwachung sicherheitsrelevanter Maßnahmen bei Bauvorhaben.",
+        "services": ["Rechtliche Grundlagen", "Normale Baumaßnahmen", "Asbest-Sanierungen", "Gefahrstoffe BGR 128"]
+      },
+      {
+        "title": "Baubiologische Beratung",
+        "description": "Gesunde Materialien und Systeme für nachhaltiges und gesundes Bauen.",
+        "services": ["Gesundheitliche Aspekte", "Baustoffe", "Dämmstoffe", "Bausysteme"]
+      },
+      {
+        "title": "Mediation & Konfliktmanagement",
+        "description": "Professionelle Streitbeilegung bei komplexen Bauprojekten mit verschiedenen Stakeholdern.",
+        "services": ["Projektmediation", "Vertragsmediation", "Schadensfallmediation", "Präventive Beratung"]
+      }
+    ],
+    "old_guarantee": "We offer a full money-back guarantee on all plans if you cancel within the first 30-days. Not happy with your plan? Switch it any time!",
+    "new_guarantee": "Über 200 erfolgreich abgeschlossene Baumaßnahmen sprechen für unsere Kompetenz. Wir stehen für sicheres und wirtschaftliches Bauen."
+  },
+  "about_section": {
+    "old_title": "About Us",
+    "new_title": "Über uns",
+    "old_intro": "Here's the most important thing you need to know: we're more than just a marketing agency. We help small businesses to realize their full growth potential, and we're invested in their success.",
+    "new_intro": "Das Wichtigste über uns: Wir sind mehr als nur ein Dienstleister. Wir helfen Unternehmen dabei, Sicherheitsrisiken zu minimieren und wirtschaftliche Lösungen zu realisieren.",
+    "stats": [
+      {
+        "old_stat": "Since 2017",
+        "new_stat": "Seit 1998",
+        "old_description": "Acme Marketing was founded by Leah Robinson in New York City.",
+        "new_description": "Die RIMAN GmbH wurde von Jürgen Fischer in Deutschland gegründet."
+      },
+      {
+        "old_stat": "14 Experts",
+        "new_stat": "Fachexperten",
+        "old_description": "We're super proud of our diverse and talented team.",
+        "new_description": "Wir sind stolz auf unser qualifiziertes Expertenteam."
+      },
+      {
+        "old_stat": "3 Countries",
+        "new_stat": "200+ Projekte",
+        "old_description": "We work with hundreds of businesses just like yours.",
+        "new_description": "Wir haben über 200 Baumaßnahmen erfolgreich betreut."
+      }
+    ],
+    "old_quote": "Our team is driven by your success. Every single day, we'll support your business and help you to succeed.",
+    "new_quote": "Unser Team ist von Ihrem Erfolg getrieben. Täglich unterstützen wir Sie dabei, sicher zu bauen und gesund zu leben.",
+    "old_history_title": "Our History",
+    "new_history_title": "Unsere Geschichte",
+    "old_history": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+    "new_history": "Seit 1998 steht die RIMAN GmbH als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind 'sicher bauen und gesund leben'. Unsere Zielsetzung ist die qualifizierte Aufklärung über gesundheitliche und rechtliche Risiken und das Aufzeigen wirtschaftlicher Lösungen.",
+    "old_promise_title": "Our Promise",
+    "new_promise_title": "Unser Versprechen",
+    "old_promise": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+    "new_promise": "Nach unseren langjährigen Erfahrungen können komplexe Abläufe nur dann effektiv und wirtschaftlich ablaufen, wenn sie als umfassendes Gesamtkonzept durchgängig geplant und praxisorientiert gestaltet werden. Unser Anspruch: der Zeit ein wenig voraus zu sein."
+  },
+  "contact_section": {
+    "old_title": "Contact Us",
+    "new_title": "Kontakt",
+    "old_subtitle": "Talk to a Human",
+    "new_subtitle": "Sprechen Sie mit uns",
+    "old_description": "We promise, your message won't disappear into the abyss. We're standing by and ready to help with any questions, comments, or thoughts you may have.",
+    "new_description": "Wir versprechen Ihnen: Ihre Nachricht verschwindet nicht im Nichts. Wir stehen bereit und helfen gerne bei allen Fragen, Anmerkungen oder Gedanken, die Sie haben.",
+    "old_cta": "Let's Chat!",
+    "new_cta": "Lassen Sie uns sprechen!",
+    "contact_details": {
+      "company": "RIMAN GmbH - Gesellschaft für Sicherheitsmanagement",
+      "address": {
+        "street": "Hochplattenstr. 6",
+        "city": "83109 Großkarolinenfeld",
+        "country": "Deutschland"
+      },
+      "contact": {
+        "phone": "08031-408 43 44",
+        "fax": "08031-408 43 43",
+        "email": "j.fischer@riman.de",
+        "website": "www.riman.de"
+      }
+    }
+  },
+  "testimonials_section": {
+    "old_title": "Testimonials",
+    "new_title": "Referenzen",
+    "testimonials": [
+      {
+        "old_quote": "Acme Marketing provided the tools and strategies we needed to build PPC campaigns with great ROI.",
+        "old_author": "John Doe, ABC Corp",
+        "new_quote": "Die RIMAN GmbH lieferte uns die Expertise und Strategien, die wir für die sichere Schadstoffsanierung benötigten. Professionell und wirtschaftlich.",
+        "new_author": "Dr. Michael Weber, Bauleiter Stadtwerke München"
+      },
+      {
+        "old_quote": "I wouldn't hesitate to recommend Acme for marketing support. Their team of experts have assisted us with everything from keyword research to getting our social media strategy on the right track.",
+        "old_author": "Jane Doe, XYZ Interiors",
+        "new_quote": "Ich würde die RIMAN GmbH ohne zu zögern für Schadstoffmanagement empfehlen. Das Expertenteam unterstützte uns bei allem - von der Erkundung bis zur fachgerechten Sanierung.",
+        "new_author": "Petra Schneider, Projektleiterin Wohnbau Rosenheim"
+      },
+      {
+        "old_quote": "Our team is free to work on the tasks they do best.",
+        "old_author": "Vasu Sameer, AK Consulting",
+        "new_quote": "Unser Team kann sich auf die Aufgaben konzentrieren, die es am besten kann. Die Sicherheitskoordination ist in besten Händen.",
+        "new_author": "Thomas Müller, Geschäftsführer Bau-GmbH Traunstein"
+      },
+      {
+        "old_quote": "From day one, the team at Acme become partners and friends. They immediately got to know the business are driven to help small businesses succeed.",
+        "old_author": "Amanda Smith, Awesome Software",
+        "new_quote": "Vom ersten Tag an wurde das RIMAN-Team zu Partnern und Vertrauenspersonen. Sie verstanden sofort unser Geschäft und sind darauf fokussiert, mittelständische Unternehmen zum Erfolg zu führen.",
+        "new_author": "Andrea Huber, Geschäftsführerin Dachser Immobilien"
+      }
+    ]
+  },
+  "portfolio_section": {
+    "old_title": "Portfolio",
+    "new_title": "Referenzprojekte",
+    "old_intro": "We've helped thousands of businesses to thrive and grow. Read about our awesome customers to find out exactly how we helped them.",
+    "new_intro": "Wir haben hunderte von Unternehmen dabei unterstützt, sicher und wirtschaftlich zu bauen. Lesen Sie über unsere Kunden und erfahren Sie, wie wir ihnen geholfen haben.",
+    "case_studies": [
+      {
+        "old_company": "Gusto Burgers",
+        "new_company": "Industriestandort München",
+        "old_description": "Acme helped Gusto Burgers to pivot rapidly to online ordering and take-away during 2020. Our team worked with the brand to add interactive menus to its website covering its entire menu.",
+        "new_description": "RIMAN unterstützte bei der kompletten Altlastensanierung eines ehemaligen Industriestandorts in München. Unser Team koordinierte die fachgerechte Schadstoffsanierung unter laufendem Betrieb.",
+        "project_type": "Altlastensanierung"
+      },
+      {
+        "old_company": "Aurora Flowers",
+        "new_company": "Wohnprojekt Rosenheim",
+        "old_description": "Our marketing team helped Aurora Flowers to develop a coherent social media strategy, focusing on visual channels like Instagram and Pinterest.",
+        "new_description": "Unser Sanierungsteam half bei der Asbestsanierung eines großen Wohnbauprojekts in Rosenheim. Fokus lag auf termingerechter und kosteneffizienter Durchführung.",
+        "project_type": "Asbestsanierung"
+      }
+    ]
+  },
+  "faq_section": {
+    "old_title": "FAQ",
+    "new_title": "Häufige Fragen",
+    "old_subtitle": "Got Questions? We're Here to Help Get You Started With Our Product.",
+    "new_subtitle": "Fragen? Wir helfen Ihnen gerne beim Start Ihres Projekts.",
+    "faqs": [
+      {
+        "old_question": "What if I change my mind?",
+        "new_question": "Was passiert, wenn sich die Projektanforderungen ändern?",
+        "old_answer": "No problem! We're confident you'll love our product. We offer a 14-day money-back guarantee, no questions asked.",
+        "new_answer": "Kein Problem! Wir sind flexibel und passen unsere Leistungen an veränderte Anforderungen an. Eine transparente Kommunikation ist dabei selbstverständlich."
+      },
+      {
+        "old_question": "Is your product eco-friendly?",
+        "new_question": "Arbeiten Sie umweltfreundlich?",
+        "old_answer": "It sure is. We're 100% biodegradable and sustainable. Plus, we're Leaping Bunny certified.",
+        "new_answer": "Selbstverständlich. Wir arbeiten zu 100% umweltschonend und nachhaltig. Außerdem sind wir nach den neuesten Umweltstandards zertifiziert."
+      },
+      {
+        "old_question": "Do you offer any discounts?",
+        "new_question": "Bieten Sie Mengenrabatte an?",
+        "old_answer": "Although we don't currently have any active coupon codes, we occasionally run seasonal sales - join our newsletter to stay updated!",
+        "new_answer": "Bei größeren Projekten oder mehreren Beauftragungen bieten wir selbstverständlich attraktive Konditionen. Sprechen Sie uns direkt an!"
+      }
+    ],
+    "old_help_title": "Still Need Help? We're Here!",
+    "new_help_title": "Weitere Fragen? Wir sind da!",
+    "old_contact_button": "Contact Us Now",
+    "new_contact_button": "Jetzt kontaktieren"
+  },
+  "shop_section": {
+    "old_title": "Shop",
+    "new_title": "Services & Leistungen",
+    "old_hero_text": "RESOURCES THAT WILL HELP YOU Make Your Life Easier",
+    "new_hero_text": "LÖSUNGEN DIE IHNEN HELFEN Sicher zu bauen und gesund zu leben",
+    "old_categories": ["FREEBIES", "PRODUCTS", "COURSES", "CONSULTING"],
+    "new_categories": ["BERATUNG", "SANIERUNG", "KOORDINATION", "MANAGEMENT"],
+    "old_reviews_title": "The Reviews Are In",
+    "new_reviews_title": "Das sagen unsere Kunden",
+    "old_reviews_subtitle": "Real Customers. Real Results.",
+    "new_reviews_subtitle": "Echte Kunden. Echte Ergebnisse.",
+    "review_snippets": [
+      {
+        "old_review": "Seriously magic.",
+        "new_review": "Einfach professionell.",
+        "old_quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "new_quote": "Die Zusammenarbeit mit RIMAN war von Anfang an professionell und zuverlässig. Alle Termine wurden eingehalten.",
+        "old_author": "Marcus Tran",
+        "new_author": "Marcus Huber"
+      },
+      {
+        "old_review": "My favorite tool!",
+        "new_review": "Unser vertrauensvoller Partner!",
+        "old_quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "new_quote": "RIMAN ist unser vertrauensvoller Partner für alle Sicherheitsfragen geworden. Kompetent und immer erreichbar.",
+        "old_author": "Sarah Jackson",
+        "new_author": "Sarah Weber"
+      },
+      {
+        "old_review": "Game-changer.",
+        "new_review": "Echte Problemlöser.",
+        "old_quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "new_quote": "Die Experten von RIMAN haben komplexe Schadstoffprobleme elegant gelöst. Echte Problemlöser mit viel Erfahrung.",
+        "old_author": "Susan Hartley",
+        "new_author": "Susanne Fischer"
+      }
+    ]
+  },
+  "ceo_message": {
+    "title": "Zu unserer Firmenphilosophie!",
+    "author": "Jürgen Fischer, Geschäftsführer",
+    "content": "Nach unseren langjährigen, persönlichen Erfahrungen können komplexe Abläufe, Vorgänge oder Prozesse nur dann effektiv, wirtschaftlich und zuverlässig ablaufen, wenn sie als ein umfassendes Gesamtkonzept durchgängig geplant und darüber hinaus praxisorientiert gestaltet werden.",
+    "philosophy": "Verluste haben meistens dort ihre Ursache, wo der einzelnen Fachbereich verlassen wird, sich Fachbereiche überschneiden oder praxisfremde Wege vorgegeben werden.",
+    "solution": "Unsere Lösung heißt demnach: 'Fachbereiche übergreifend verbinden und praxisorientierte Lösungen suchen' und das ist eine typische Managementaufgabe.",
+    "approach": "Um den kostenträchtigen Aufwand für solche Maßnahmen so gering wie möglich zu halten, haben wir uns vor Jahren entschieden, viele Fachbereiche in Personal-Union ausführen.",
+    "definition": "Um hier eine klare Unterscheidung von der üblichen Durchführung von Einzelleistungen zu erhalten, bezeichnen wir unsere Arbeit als MANAGEMENTLEISTUNG."
+  },
+  "color_scheme_notes": {
+    "old_primary": "#C8A882 (gold/brown retirement theme)",
+    "new_primary": "#2C5F41 (professional forest green for safety/environment)",
+    "old_secondary": "Various gold tones",
+    "new_secondary": "#8B4513 (earth brown for construction/building)",
+    "accent_colors": ["#4A90A4 (safety blue)", "#D4AF37 (gold accent for premium feel)"],
+    "background_preference": "Less dark/black backgrounds, more professional whites and light grays as requested"
+  },
+  "content_adaptation_notes": {
+    "language": "All content translated to professional German",
+    "tone": "Professional, trustworthy, safety-focused",
+    "industry_focus": "Environmental remediation, construction safety, hazardous materials",
+    "target_audience": "Construction companies, property developers, public institutions",
+    "key_differentiators": [
+      "25+ years experience (since 1998)",
+      "200+ successful projects",
+      "Management approach (not just individual services)",
+      "Holistic safety concepts",
+      "Legal compliance expertise"
+    ]
+  }
+}
