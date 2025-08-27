@@ -1,0 +1,52 @@
+{
+  "name": "Multi-Language Test",
+  "description": "Tests handling of multi-language content",
+  "data": {
+    "pages": [
+      {
+        "title": "Multilingual Site - Mehrsprachige Website",
+        "slug": "multilingual",
+        "sections": [
+          {
+            "structure": "50",
+            "columns": [
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "English Services",
+                    "icon": "fas fa-flag-usa",
+                    "subtitle": "Professional Services",
+                    "text": "We provide professional services in English for international clients."
+                  }
+                ]
+              },
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Deutsche Dienstleistungen",
+                    "icon": "fas fa-flag-germany",
+                    "subtitle": "Professionelle Services",
+                    "text": "Wir bieten professionelle Dienstleistungen auf Deutsch für unsere Kunden."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Multilingual Business",
+    "description": "International business services in multiple languages",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-texticon"
+  ],
+  "expected_pages": 1
+}

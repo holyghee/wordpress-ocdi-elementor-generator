@@ -1,0 +1,101 @@
+{
+  "name": "Portfolio Template",
+  "description": "Creative portfolio website template",
+  "data": {
+    "pages": [
+      {
+        "title": "Creative Portfolio",
+        "slug": "portfolio",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Creative Portfolio<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  },
+                  {
+                    "type": "text-line",
+                    "title": "Showcasing Creative Excellence",
+                    "subtitle": "Design • Development • Innovation",
+                    "line_width": 80
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "50",
+            "columns": [
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "gallery",
+                    "images": [
+                      "http://localhost:8082/portfolio-1.jpg",
+                      "http://localhost:8082/portfolio-2.jpg",
+                      "http://localhost:8082/portfolio-3.jpg",
+                      "http://localhost:8082/portfolio-4.jpg"
+                    ],
+                    "columns": "col-md-6",
+                    "height": 300
+                  }
+                ]
+              },
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "team",
+                    "name": "Alex Designer",
+                    "position": "Creative Director",
+                    "image_url": "http://localhost:8082/alex-portrait.jpg",
+                    "social_links": [
+                      {
+                        "icon": "fab fa-behance",
+                        "url": "https://behance.net/alex"
+                      },
+                      {
+                        "icon": "fab fa-dribbble",
+                        "url": "https://dribbble.com/alex"
+                      },
+                      {
+                        "icon": "fab fa-instagram",
+                        "url": "https://instagram.com/alex"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "button-text",
+                    "text": "View Full Portfolio",
+                    "url": "https://portfolio.example.com",
+                    "subtitle": "See All Projects"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Alex Designer Portfolio",
+    "description": "Creative design portfolio showcasing innovative work",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-text-line",
+    "cholot-gallery",
+    "cholot-team",
+    "cholot-button-text"
+  ],
+  "expected_pages": 1
+}

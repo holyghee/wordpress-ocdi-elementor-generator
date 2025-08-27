@@ -1,0 +1,89 @@
+{
+  "name": "Business Template",
+  "description": "Realistic business website template",
+  "data": {
+    "pages": [
+      {
+        "title": "Home - Business Solutions",
+        "slug": "home",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Professional Business Solutions<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  },
+                  {
+                    "type": "texticon",
+                    "title": "Excellence in Service",
+                    "icon": "fas fa-award",
+                    "subtitle": "Trusted Partner",
+                    "text": "We deliver professional excellence and innovative solutions to help your business thrive in today's competitive market."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Strategic Consulting",
+                    "icon": "fas fa-lightbulb",
+                    "subtitle": "Expert Guidance",
+                    "text": "Strategic business consulting to optimize operations and drive growth."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Technology Solutions",
+                    "icon": "fas fa-laptop-code",
+                    "subtitle": "Modern Tech",
+                    "text": "Cutting-edge technology solutions tailored to your business needs."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "24/7 Support",
+                    "icon": "fas fa-headset",
+                    "subtitle": "Always Available",
+                    "text": "Round-the-clock support to ensure your business operations run smoothly."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Business Solutions Inc.",
+    "description": "Professional business solutions and consulting services",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon"
+  ],
+  "expected_texticon_count": 4,
+  "expected_pages": 1
+}

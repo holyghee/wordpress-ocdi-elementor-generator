@@ -1,0 +1,123 @@
+{
+  "name": "6-Service Page",
+  "description": "Services page with 6 service offerings in 2 rows",
+  "data": {
+    "pages": [
+      {
+        "title": "Complete Services",
+        "slug": "complete-services",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Complete Digital Solutions<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Web Development",
+                    "icon": "fas fa-code",
+                    "subtitle": "Full Stack",
+                    "text": "Complete web development solutions from frontend to backend."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Mobile Apps",
+                    "icon": "fas fa-mobile-alt",
+                    "subtitle": "Native & Hybrid",
+                    "text": "Mobile applications for iOS and Android with great performance."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "UI/UX Design",
+                    "icon": "fas fa-paint-brush",
+                    "subtitle": "User Focused",
+                    "text": "Design that prioritizes user experience and conversion optimization."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Digital Marketing",
+                    "icon": "fas fa-bullhorn",
+                    "subtitle": "Growth Driven",
+                    "text": "Strategic digital marketing campaigns to grow your business online."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Cloud Solutions",
+                    "icon": "fas fa-cloud",
+                    "subtitle": "Scalable Infrastructure",
+                    "text": "Reliable and scalable cloud infrastructure solutions for modern businesses."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Data Analytics",
+                    "icon": "fas fa-chart-line",
+                    "subtitle": "Business Intelligence",
+                    "text": "Transform your data into actionable business insights and strategies."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Full Service Agency",
+    "description": "Complete digital solutions provider",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon"
+  ],
+  "expected_texticon_count": 6,
+  "expected_pages": 1
+}

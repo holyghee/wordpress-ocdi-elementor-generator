@@ -1,0 +1,144 @@
+{
+  "name": "Responsive Layout Test",
+  "description": "Tests various responsive column layouts",
+  "data": {
+    "pages": [
+      {
+        "title": "Responsive Layout",
+        "slug": "responsive",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "100% Width Layout",
+                    "header_size": "h2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "50",
+            "columns": [
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "50% Column 1",
+                    "icon": "fas fa-left"
+                  }
+                ]
+              },
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "50% Column 2",
+                    "icon": "fas fa-right"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "33% Column 1",
+                    "icon": "fas fa-1"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "33% Column 2",
+                    "icon": "fas fa-2"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "33% Column 3",
+                    "icon": "fas fa-3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "25",
+            "columns": [
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "25% Col 1",
+                    "icon": "fas fa-star"
+                  }
+                ]
+              },
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "25% Col 2",
+                    "icon": "fas fa-star"
+                  }
+                ]
+              },
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "25% Col 3",
+                    "icon": "fas fa-star"
+                  }
+                ]
+              },
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "25% Col 4",
+                    "icon": "fas fa-star"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Responsive Test Site",
+    "description": "Testing responsive layouts",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon"
+  ],
+  "expected_pages": 1
+}

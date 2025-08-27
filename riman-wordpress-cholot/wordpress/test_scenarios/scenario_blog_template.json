@@ -1,0 +1,90 @@
+{
+  "name": "Blog Template",
+  "description": "Blog website template with post listings",
+  "data": {
+    "pages": [
+      {
+        "title": "Tech Blog",
+        "slug": "blog",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Technology Blog<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "66",
+            "columns": [
+              {
+                "width": 66.67,
+                "widgets": [
+                  {
+                    "type": "post-four",
+                    "post_count": 4,
+                    "column": "two",
+                    "button_text": "Read Full Article",
+                    "categories": [
+                      "technology",
+                      "innovation",
+                      "tutorials"
+                    ]
+                  },
+                  {
+                    "type": "post-three",
+                    "post_count": 3,
+                    "column": "one",
+                    "button_text": "Continue Reading",
+                    "categories": [
+                      "news",
+                      "updates"
+                    ]
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "sidebar",
+                    "width": "320px"
+                  },
+                  {
+                    "type": "texticon",
+                    "title": "About This Blog",
+                    "icon": "fas fa-info-circle",
+                    "subtitle": "Tech Insights",
+                    "text": "Stay updated with the latest technology trends, tutorials, and industry insights."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Tech Insights Blog",
+    "description": "Technology news, tutorials, and industry insights",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-post-four",
+    "cholot-post-three",
+    "cholot-sidebar",
+    "cholot-texticon"
+  ],
+  "expected_pages": 1
+}

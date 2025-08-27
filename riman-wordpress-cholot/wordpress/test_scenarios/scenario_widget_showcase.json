@@ -1,0 +1,223 @@
+{
+  "name": "Widget Showcase",
+  "description": "Demonstrates all 13 Cholot widget types",
+  "data": {
+    "pages": [
+      {
+        "title": "Widget Showcase",
+        "slug": "showcase",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Widget Showcase<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "TextIcon Widget",
+                    "icon": "fas fa-star",
+                    "subtitle": "Feature Rich",
+                    "text": "Versatile widget for displaying icons with text content."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "gallery",
+                    "images": [
+                      "http://localhost:8082/gallery-1.jpg",
+                      "http://localhost:8082/gallery-2.jpg",
+                      "http://localhost:8082/gallery-3.jpg"
+                    ],
+                    "columns": "col-md-4",
+                    "height": 200
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "logo",
+                    "url": "http://localhost:8082/company-logo.svg",
+                    "height": "80px",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "post-three",
+                    "post_count": 3,
+                    "column": "one",
+                    "button_text": "Read More"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "post-four",
+                    "post_count": 4,
+                    "column": "two",
+                    "categories": [
+                      "news",
+                      "blog"
+                    ]
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "menu",
+                    "menu_name": "main-navigation",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "button-text",
+                    "text": "Call to Action",
+                    "url": "https://example.com/cta",
+                    "subtitle": "Get Started Today"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "team",
+                    "name": "Sarah Johnson",
+                    "position": "Lead Designer",
+                    "image_url": "http://localhost:8082/team-sarah.jpg",
+                    "social_links": [
+                      {
+                        "icon": "fab fa-linkedin",
+                        "url": "https://linkedin.com/in/sarah"
+                      },
+                      {
+                        "icon": "fab fa-behance",
+                        "url": "https://behance.net/sarah"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "testimonial",
+                    "columns": 1,
+                    "testimonials": [
+                      {
+                        "_id": "testimonial_showcase",
+                        "name": "Happy Client",
+                        "position": "Business Owner",
+                        "testimonial": "Excellent service and outstanding results!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "text-line",
+                    "title": "Text Line Widget",
+                    "subtitle": "Styled Text Display",
+                    "line_width": 50
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "contact",
+                    "shortcode": "[contact-form-7 id=\"showcase\" title=\"Showcase Contact Form\"]"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "sidebar",
+                    "width": "300px"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Widget Showcase Site",
+    "description": "Demonstration of all Cholot widgets",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon",
+    "cholot-gallery",
+    "cholot-logo",
+    "cholot-post-three",
+    "cholot-post-four",
+    "cholot-menu",
+    "cholot-button-text",
+    "cholot-team",
+    "cholot-testimonial",
+    "cholot-text-line",
+    "cholot-contact",
+    "cholot-sidebar"
+  ],
+  "expected_pages": 1,
+  "expected_total_widgets": 13
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Full Website",
+  "description": "Complete multi-page website with all common pages",
+  "data": {
+    "pages": [
+      {
+        "title": "Home",
+        "slug": "home",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Welcome to Our Company<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  },
+                  {
+                    "type": "texticon",
+                    "title": "Professional Excellence",
+                    "icon": "fas fa-star",
+                    "subtitle": "Quality Service",
+                    "text": "We deliver professional excellence in everything we do."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "About Us",
+        "slug": "about",
+        "sections": [
+          {
+            "structure": "50",
+            "columns": [
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "About Our Company",
+                    "header_size": "h2"
+                  }
+                ]
+              },
+              {
+                "width": 50,
+                "widgets": [
+                  {
+                    "type": "team",
+                    "name": "John Smith",
+                    "position": "CEO & Founder",
+                    "image_url": "http://localhost:8082/team-ceo.jpg"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "slug": "services",
+        "sections": [
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Consulting",
+                    "icon": "fas fa-lightbulb"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Development",
+                    "icon": "fas fa-code"
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Support",
+                    "icon": "fas fa-headset"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "slug": "contact",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Get In Touch<span>.</span>",
+                    "header_size": "h2",
+                    "align": "center"
+                  },
+                  {
+                    "type": "contact",
+                    "shortcode": "[contact-form-7 id=\"1\" title=\"Contact form\"]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Full Website Demo",
+    "description": "Complete business website demonstration",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon",
+    "cholot-team",
+    "cholot-contact"
+  ],
+  "expected_pages": 4
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Minimal Test",
+  "description": "Absolute minimal test with just one widget",
+  "data": {
+    "pages": [
+      {
+        "title": "Minimal",
+        "slug": "minimal",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Minimal Test"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Minimal Site",
+    "description": "Minimal test site",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title"
+  ],
+  "expected_pages": 1
+}

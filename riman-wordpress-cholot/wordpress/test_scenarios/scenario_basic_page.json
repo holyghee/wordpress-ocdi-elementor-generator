@@ -1,0 +1,47 @@
+{
+  "name": "Basic Single Page",
+  "description": "Simple page with title and text content",
+  "data": {
+    "pages": [
+      {
+        "title": "Welcome",
+        "slug": "welcome",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Welcome to Our Website<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  },
+                  {
+                    "type": "texticon",
+                    "title": "Professional Services",
+                    "icon": "fas fa-star",
+                    "subtitle": "Quality First",
+                    "text": "We provide high-quality professional services to help your business grow."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Basic Test Site",
+    "description": "A simple test website",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon"
+  ],
+  "expected_pages": 1
+}

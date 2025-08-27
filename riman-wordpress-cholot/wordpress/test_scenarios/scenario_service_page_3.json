@@ -1,0 +1,82 @@
+{
+  "name": "3-Service Page",
+  "description": "Services page with exactly 3 service offerings",
+  "data": {
+    "pages": [
+      {
+        "title": "Our Services",
+        "slug": "services",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Our Professional Services<span>.</span>",
+                    "header_size": "h1",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "33",
+            "columns": [
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Web Development",
+                    "icon": "fas fa-code",
+                    "subtitle": "Custom Solutions",
+                    "text": "Professional web development with modern technologies and best practices."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Mobile Applications",
+                    "icon": "fas fa-mobile-alt",
+                    "subtitle": "Cross Platform",
+                    "text": "Native and cross-platform mobile apps for iOS and Android platforms."
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "UI/UX Design",
+                    "icon": "fas fa-paint-brush",
+                    "subtitle": "User Centered",
+                    "text": "Beautiful and intuitive user interfaces designed for optimal user experience."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "3-Service Company",
+    "description": "Professional services company",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon"
+  ],
+  "expected_texticon_count": 3,
+  "expected_pages": 1
+}

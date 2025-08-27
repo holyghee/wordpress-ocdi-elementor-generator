@@ -1,0 +1,154 @@
+{
+  "name": "Complex Hierarchy",
+  "description": "Complex nested structure with multiple sections and widgets",
+  "data": {
+    "pages": [
+      {
+        "title": "Complex Structure",
+        "slug": "complex",
+        "sections": [
+          {
+            "structure": "100",
+            "columns": [
+              {
+                "width": 100,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Complex Hierarchy Test<span>.</span>",
+                    "header_size": "h1"
+                  },
+                  {
+                    "type": "texticon",
+                    "title": "Introduction",
+                    "icon": "fas fa-info-circle",
+                    "text": "This page demonstrates complex nested structures."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "66",
+            "columns": [
+              {
+                "width": 66.67,
+                "widgets": [
+                  {
+                    "type": "title",
+                    "title": "Main Content Area",
+                    "header_size": "h2"
+                  },
+                  {
+                    "type": "gallery",
+                    "images": [
+                      "http://localhost:8082/gallery-1.jpg",
+                      "http://localhost:8082/gallery-2.jpg",
+                      "http://localhost:8082/gallery-3.jpg",
+                      "http://localhost:8082/gallery-4.jpg"
+                    ]
+                  },
+                  {
+                    "type": "testimonial",
+                    "columns": 2,
+                    "testimonials": [
+                      {
+                        "_id": "test1",
+                        "name": "Client 1",
+                        "testimonial": "Great work!"
+                      },
+                      {
+                        "_id": "test2",
+                        "name": "Client 2",
+                        "testimonial": "Excellent service!"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "width": 33.33,
+                "widgets": [
+                  {
+                    "type": "sidebar",
+                    "width": "300px"
+                  },
+                  {
+                    "type": "team",
+                    "name": "Team Lead",
+                    "position": "Project Manager"
+                  },
+                  {
+                    "type": "button-text",
+                    "text": "Contact Us",
+                    "url": "contact.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "structure": "25",
+            "columns": [
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Service 1",
+                    "icon": "fas fa-cog"
+                  }
+                ]
+              },
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Service 2",
+                    "icon": "fas fa-star"
+                  }
+                ]
+              },
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Service 3",
+                    "icon": "fas fa-crown"
+                  }
+                ]
+              },
+              {
+                "width": 25,
+                "widgets": [
+                  {
+                    "type": "texticon",
+                    "title": "Service 4",
+                    "icon": "fas fa-gem"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "site_config": {
+    "title": "Complex Site",
+    "description": "Complex hierarchy demonstration",
+    "base_url": "http://localhost:8082"
+  },
+  "expected_widgets": [
+    "cholot-title",
+    "cholot-texticon",
+    "cholot-gallery",
+    "cholot-testimonial",
+    "cholot-sidebar",
+    "cholot-team",
+    "cholot-button-text"
+  ],
+  "expected_pages": 1
+}
