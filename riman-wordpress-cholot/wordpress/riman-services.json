@@ -1,0 +1,95 @@
+{
+  "title": "RIMAN Services",
+  "slug": "dienstleistungen",
+  "template": "elementor_canvas",
+  
+  "components": [
+    {
+      "type": "cholot_title_text",
+      "title": "Unsere <span>Dienstleistungen</span>",
+      "subtitle": "Professionell und zuverlässig",
+      "text": "Die RIMAN GmbH bietet Ihnen ein umfassendes Spektrum an Sanierungsdienstleistungen mit höchsten Qualitätsstandards."
+    },
+    
+    {
+      "type": "cholot_servicepostitem_row",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Asbestsanierung",
+          "content": "Fachgerechte Entfernung und Entsorgung von Asbest in Gebäuden. Unsere zertifizierten Mitarbeiter gewährleisten sichere Arbeitsabläufe nach TRGS 519.",
+          "image": "http://localhost:8082/asbestsanierung-fachgerecht-riman.jpg",
+          "link_text": "Mehr erfahren",
+          "link_url": "/asbestsanierung"
+        },
+        {
+          "title": "PCB-Sanierung",
+          "content": "Professionelle Sanierung von PCB-belasteten Baustoffen. Wir führen Schadstoffmessungen durch und erstellen maßgeschneiderte Sanierungskonzepte.",
+          "image": "http://localhost:8082/pcb-sanierung-professionell.jpg",
+          "link_text": "Details ansehen",
+          "link_url": "/pcb-sanierung"
+        },
+        {
+          "title": "Schimmelpilzsanierung",
+          "content": "Nachhaltige Beseitigung von Schimmelpilzbefall. Von der Ursachenanalyse über die Sanierung bis zur Erfolgskontrolle.",
+          "image": "http://localhost:8082/schimmelpilzsanierung-nachhaltig.jpg",
+          "link_text": "Informieren",
+          "link_url": "/schimmelpilz"
+        },
+        {
+          "title": "Brandschadensanierung",
+          "content": "Schnelle und effiziente Sanierung nach Brandschäden. Reinigung, Geruchsneutralisation und Wiederaufbau aus einer Hand.",
+          "image": "http://localhost:8082/brandschadensanierung-schnell.jpg",
+          "link_text": "Anfragen",
+          "link_url": "/brandschaden"
+        }
+      ]
+    },
+    
+    {
+      "type": "cholot_cta",
+      "title": "Benötigen Sie eine professionelle Sanierung?",
+      "subtitle": "Wir beraten Sie gerne",
+      "button_text": "Kostenlose Erstberatung",
+      "button_url": "/kontakt",
+      "background_color": "#b68c2f"
+    },
+    
+    {
+      "type": "cholot_processbox_row",
+      "columns": 4,
+      "items": [
+        {
+          "step": "01",
+          "title": "Analyse",
+          "subtitle": "Bestandsaufnahme",
+          "content": "Umfassende Schadstoffanalyse und Gefährdungsbeurteilung"
+        },
+        {
+          "step": "02", 
+          "title": "Planung",
+          "subtitle": "Konzepterstellung",
+          "content": "Entwicklung eines maßgeschneiderten Sanierungskonzepts"
+        },
+        {
+          "step": "03",
+          "title": "Durchführung",
+          "subtitle": "Sanierung",
+          "content": "Fachgerechte Ausführung unter Einhaltung aller Vorschriften"
+        },
+        {
+          "step": "04",
+          "title": "Kontrolle",
+          "subtitle": "Qualitätssicherung",
+          "content": "Abschließende Freimessung und Dokumentation"
+        }
+      ]
+    }
+  ],
+  
+  "styles": {
+    "primary_color": "#b68c2f",
+    "secondary_color": "#232323",
+    "font_family": "Playfair Display"
+  }
+}
