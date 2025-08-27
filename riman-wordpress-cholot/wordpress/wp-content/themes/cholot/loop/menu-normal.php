@@ -9,11 +9,11 @@
             <div class="container-fluid">
                 <div class="logo-clean">
                     <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <img alt="<?php esc_attr_e('Logo', 'cholot'); ?>" class="logo1" src="
-                        <?php if (class_exists('Kirki') && get_theme_mod('cholot_logo_image')) {
-                            echo esc_url(get_theme_mod('cholot_logo_image'));
-                        } else {
-                            echo get_template_directory_uri(); ?>/images/logo-white.png <?php } ?>">
+                        <?php if (class_exists('Kirki') && get_theme_mod('cholot_logo_image')) { ?>
+                            <img alt="<?php esc_attr_e('Logo', 'cholot'); ?>" class="logo1" src="<?php echo esc_url(get_theme_mod('cholot_logo_image')); ?>">
+                        <?php } else { ?>
+                            <h2 style="color: white; margin: 10px 0;">RIMAN GmbH</h2>
+                        <?php } ?>
                     </a>
                 </div>
                 <!--/.logo-clean-->
