@@ -503,7 +503,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-01 17:56:23]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[4-2]]></wp:post_name>
+		<wp:post_name><![CDATA[sanierung-durchfuehrung-fachgerecht-schritt-4]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>179</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -521,8 +521,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>5</title>
-		<link>https://demo.ridianur.com/cholot/home/attachment/5/</link>
+		<title>luftqualitaet-monitoring-echtzeitdaten-schritt-5</title>
+		<link>http://localhost:8082/home/luftqualitaet-monitoring-echtzeitdaten-schritt-5/</link>
 		<pubDate>Wed, 03 Jul 2019 16:02:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/luftqualitaet-monitoring-echtzeitdaten-schritt-5.jpg</guid>
@@ -534,7 +534,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:02:20]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[5]]></wp:post_name>
+		<wp:post_name><![CDATA[luftqualitaet-monitoring-echtzeitdaten-schritt-5]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>6</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -552,8 +552,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>7</title>
-		<link>https://demo.ridianur.com/cholot/home/attachment/7/</link>
+		<title>qualitaetskontrolle-abnahme-pruefung-schritt-7</title>
+		<link>http://localhost:8082/home/qualitaetskontrolle-abnahme-pruefung-schritt-7/</link>
 		<pubDate>Wed, 03 Jul 2019 16:06:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/qualitaetskontrolle-abnahme-pruefung-schritt-7.jpg</guid>
@@ -565,7 +565,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:06:42]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[7]]></wp:post_name>
+		<wp:post_name><![CDATA[qualitaetskontrolle-abnahme-pruefung-schritt-7]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>6</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -614,8 +614,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>6</title>
-		<link>https://demo.ridianur.com/cholot/home/attachment/6/</link>
+		<title>materialverarbeitung-entsorgung-vorschriften-schritt-6</title>
+		<link>http://localhost:8082/home/materialverarbeitung-entsorgung-vorschriften-schritt-6/</link>
 		<pubDate>Wed, 03 Jul 2019 16:06:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/materialverarbeitung-entsorgung-vorschriften-schritt-6.jpg</guid>
@@ -627,7 +627,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 16:06:44]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[6]]></wp:post_name>
+		<wp:post_name><![CDATA[materialverarbeitung-entsorgung-vorschriften-schritt-6]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>6</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
