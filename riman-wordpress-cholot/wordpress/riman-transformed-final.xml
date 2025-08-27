@@ -1183,8 +1183,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>logo</title>
-		<link>https://demo.ridianur.com/cholot/header/custom-menu-1/logo/</link>
+		<title>riman-gmbh-logo</title>
+		<link>http://localhost:8082/header/custom-menu-1/riman-gmbh-logo/</link>
 		<pubDate>Wed, 03 Jul 2019 17:53:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/riman-gmbh-logo.png</guid>
@@ -1196,7 +1196,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 17:53:37]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[logo]]></wp:post_name>
+		<wp:post_name><![CDATA[riman-gmbh-logo]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>205</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1214,8 +1214,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>logo</title>
-		<link>https://demo.ridianur.com/cholot/header/custom-menu-1/logo-2/</link>
+		<title>riman-gmbh-logo</title>
+		<link>http://localhost:8082/header/custom-menu-1/riman-gmbh-logo-2/</link>
 		<pubDate>Wed, 03 Jul 2019 17:54:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/riman-gmbh-logo.png</guid>
@@ -1227,7 +1227,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-03 17:54:18]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[logo-2]]></wp:post_name>
+		<wp:post_name><![CDATA[riman-gmbh-logo-2]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>205</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1245,8 +1245,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>logo-white</title>
-		<link>https://demo.ridianur.com/cholot/header/custom-menu-1/logo-white/</link>
+		<title>riman-gmbh-logo-weiss</title>
+		<link>http://localhost:8082/header/custom-menu-1/riman-gmbh-logo-weiss/</link>
 		<pubDate>Tue, 09 Jul 2019 10:03:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8082/riman-gmbh-logo-weiss.png</guid>
@@ -1258,7 +1258,7 @@
 		<wp:post_date_gmt><![CDATA[2019-07-09 10:03:52]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[logo-white]]></wp:post_name>
+		<wp:post_name><![CDATA[riman-gmbh-logo-weiss]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>205</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
