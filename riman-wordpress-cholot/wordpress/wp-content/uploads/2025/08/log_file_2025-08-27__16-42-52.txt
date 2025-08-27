@@ -1,3 +1,0 @@
-
----Downloaded files---
-An error occurred while fetching file from: <strong>http://localhost:8081/wp-content/plugins/cholot_plugin/inc/demo-data/cholot.xml</strong>!<br>Reason: http_request_failed - cURL error 28: Operation timed out after 20002 milliseconds with 0 bytes received.<br>
