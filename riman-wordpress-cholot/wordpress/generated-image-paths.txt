@@ -68,3 +68,23 @@
 16. 8.jpg (Certification)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309862567.png
    Target: wp-content/uploads/2025/08/8.jpg
+
+## Team Images:
+
+17. team1.jpg (Dr. Michael Riman - Geschäftsführer)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310036850.png
+   Target: wp-content/uploads/2025/08/team1.jpg
+
+18. team2.jpg (Sabine Weber - Projektleitung)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310052257.png
+   Target: wp-content/uploads/2025/08/team2.jpg
+
+19. team3.jpg (Thomas Müller - Technische Leitung)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310073197.png
+   Target: wp-content/uploads/2025/08/team3.jpg
+
+## Brand Elements:
+
+20. logo.jpg (RIMAN Main Logo)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310088407.png
+   Target: wp-content/uploads/2025/08/logo.jpg
