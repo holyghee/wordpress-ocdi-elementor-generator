@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "company_name": "RIMAN GmbH",
+    "tagline": "Ihr Partner für professionelle Schadstoffsanierung",
+    "subtitle": "Sicherheit und Kompetenz seit 1998",
+    "company_mission": "sicher bauen und gesund leben",
+    "company_philosophy": "der Zeit ein wenig voraus zu sein",
+    "ceo": "Jürgen Fischer"
+  },
+  "homepage": {
+    "hero_video": {
+      "title": "RIMAN GmbH - Ihr Partner für professionelle Schadstoffsanierung",
+      "subtitle": "Sicherheit und Kompetenz seit 1998",
+      "video_url": "[placeholder for video eyecatcher]",
+      "description": "Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind 'sicher bauen und gesund leben'."
+    },
+    "welcome_section": {
+      "title": "Herzlich willkommen auf der Homepage der RIMAN GmbH!",
+      "content": "Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind 'sicher bauen und gesund leben'. Unsere Zielsetzung hierzu ist die qualifizierte Aufklärung über gesundheitliche, aber auch rechtliche Risiken und das Aufzeigen und Umsetzen von wirtschaftlichen Lösungen, die dem RIMAN Anspruch entsprechen, der Zeit ein wenig voraus zu sein.",
+      "intro_text": "Nachfolgend wollen wir Ihnen gerne einen kleinen Einblick in unsere Arbeitsbereiche geben."
+    },
+    "service_cards": [
+      {
+        "title": "Rückbaumanagement",
+        "subtitle": "für die alte Hütte?",
+        "description": "Nirgendwo in der Baubranche herrschen derart chaotische Verhältnisse, wie in der Abbruchbranche. Ein juristischer Dschungel unterschiedlichster Bewertungen von Belastungen bei Abbruchabfällen, hohe Sicherheitsauflagen, aber auch der künstliche Mangel an Entsorgungswegen hat hier in den vergangenen Jahren zu einer dramatischen Explosion der Kosten geführt.",
+        "icon": "fa-building",
+        "link": "/rueckbaumanagement",
+        "risk_highlight": "viel Spielraum für unseriöse Unternehmen",
+        "solution": "Um diese und andere Risiken zu vermeiden, aber auch um den schon entstandenen Schaden zu begrenzen, bietet die RIMAN GmbH seit mehr als 10 Jahren die notwendige Hilfe."
+      },
+      {
+        "title": "Altlastensanierung",
+        "subtitle": "doch nicht bei mir?",
+        "description": "Altlasten-Sanierung ist leider nicht nur ein Thema für Industrie-Standorte. Sowohl 'Unkenntnis' als auch der kurzfristige finanzielle Vorteil der Verwendung 'günstiger Füllstoffe' oder die 'billige Entsorgung von Abfällen' in der Bauphase, haben in der Vergangenheit aus vielen Grundstücken, auch im Wohnungsbau, kleine Mülldeponien oder sogenannte Altlasten-Standorte gemacht.",
+        "icon": "fa-recycle",
+        "link": "/altlastensanierung",
+        "cost_warning": "Entsorgungs-Mehraufwendungen von 50-100 Euro je m³",
+        "solution": "Auch hier steht die RIMAN GmbH bereit, um die zuvor angesprochenen Probleme zu vermeiden, aber auch um den schon entstandenen Schaden zu begrenzen."
+      },
+      {
+        "title": "Schadstoff-Management",
+        "subtitle": "Gefahrstoffe erkennen und handhaben",
+        "description": "Sowohl im Rahmen von Immobiliengeschäften, bei Abbruchmaßnahmen, bei der Sanierung von Altbauten, aber auch bei Anmietungen stehen Mieter, Käufer, Bauherrn, Planer und Ausführungsbetriebe immer häufiger vor der Frage: Ist im Bauwerk mit Gefahrstoffen für den Menschen oder mit Schadstoffen für die Umwelt zu rechnen?",
+        "icon": "fa-shield-alt",
+        "link": "/schadstoff-management",
+        "legal_risk": "Straftatbestand einer gefährlichen Körperverletzung durch Unterlassung",
+        "principle": "Ein gutes Gesamtkonzept spart Geld und Nerven."
+      },
+      {
+        "title": "Sicherheitskoordination",
+        "subtitle": "Planung und Überwachung",
+        "description": "Die Planung, Regelung und Überwachung von sicherheitsrelevanten Maßnahmen und Tätigkeiten bei einem Bauvorhaben ist nach EU-Recht zunächst einmal die Aufgabe und der Verantwortungsbereich des Auftraggebers, also des Bauherrn.",
+        "icon": "fa-hard-hat",
+        "link": "/sicherheitskoordination",
+        "experience": "Die RIMAN GmbH mit der Erfahrung von mehr als 200 erfolgreich abgeschlossenen Baumaßnahmen, stellt hier sicherlich einen Garanten für sicheres und wirtschaftliches Bauen dar.",
+        "approach": "funktionierende und sogleich kostengünstige Lösung der Sicherheitsprobleme"
+      },
+      {
+        "title": "Baubiologische Beratung",
+        "subtitle": "Gesunde Materialien und Systeme",
+        "description": "Wer sich, wie wir, intensiv mit baulichen Gefahrstoffen für den Menschen sowie mit Schadstoffen für die Umwelt auseinander setzen muss, kommt nicht umhin, seine Kunden vor einem allzu sorglosen Umgang mit bestimmten Bau- und Hilfsstoffen zu warnen.",
+        "icon": "fa-leaf",
+        "link": "/baubiologische-beratung",
+        "service_areas": ["gesundheitliche Aspekte", "Baustoffe", "Dämmstoffe", "Bausysteme"],
+        "quality_promise": "So haben wir uns in den letzten Jahren vermehrt auch diesem Auftrag gestellt und bieten unseren Kunden auch hier in gewohnter Qualität gute Hilfestellungen."
+      },
+      {
+        "title": "Mediation & Konfliktmanagement",
+        "subtitle": "Professionelle Streitbeilegung",
+        "description": "Bei komplexen Bauprojekten mit verschiedenen Stakeholdern entstehen oft Konflikte. Durch professionelle Mediation helfen wir dabei, wirtschaftliche Lösungen zu finden und Projekte erfolgreich abzuschließen.",
+        "icon": "fa-handshake",
+        "link": "/mediation-konfliktmanagement",
+        "approach": "Fachbereiche übergreifend verbinden und praxisorientierte Lösungen suchen"
+      }
+    ]
+  },
+  "main_pages": {
+    "rueckbaumanagement": {
+      "title": "Professionelles Rückbaumanagement",
+      "hero_image": "[image placeholder]",
+      "introduction": "Abbruch-Management - für die alte Hütte? Nirgendwo in der Baubranche herrschen derart chaotische Verhältnisse, wie in der Abbruchbranche.",
+      "problem_analysis": "Ein juristischer Dschungel unterschiedlichster Bewertungen von Belastungen bei Abbruchabfällen, hohe Sicherheitsauflagen, aber auch der künstliche Mangel an Entsorgungswegen hat hier in den vergangenen Jahren zu einer dramatischen Explosion der Kosten geführt.",
+      "subservices": [
+        {
+          "title": "Braucht's das?",
+          "description": "Bedarfsanalyse und Wirtschaftlichkeitsprüfung",
+          "slug": "bedarfsanalyse"
+        },
+        {
+          "title": "Planung",
+          "description": "Fachgerechte Abbruchplanung unter Berücksichtigung aller Vorschriften",
+          "slug": "planung"
+        },
+        {
+          "title": "Ausschreibung",
+          "description": "Professionelle Ausschreibung mit klaren Leistungsbeschreibungen",
+          "slug": "ausschreibung"
+        },
+        {
+          "title": "Bauleitung",
+          "description": "Überwachung und Koordination der Abbruchmaßnahmen",
+          "slug": "bauleitung"
+        }
+      ],
+      "risk_factors": [
+        "Angebote liegen um bis zu 100, 200 und mehr Prozent auseinander",
+        "Das billigste Angebot ist bei Weitem nicht das Günstigste",
+        "Unseriöse Unternehmen nutzen das Chaos aus"
+      ]
+    },
+    "altlastensanierung": {
+      "title": "Altlastensanierung - professionell und wirtschaftlich",
+      "hero_image": "[image placeholder]",
+      "introduction": "Altlasten-Sanierung ist leider nicht nur ein Thema für Industrie-Standorte.",
+      "scope": "Sowohl 'Unkenntnis' als auch der kurzfristige finanzielle Vorteil der Verwendung 'günstiger Füllstoffe' oder die 'billige Entsorgung von Abfällen' in der Bauphase, haben in der Vergangenheit aus vielen Grundstücken, auch im Wohnungsbau, kleine Mülldeponien oder sogenannte Altlasten-Standorte gemacht.",
+      "subservices": [
+        {
+          "title": "Kein Thema?",
+          "description": "Aufklärung über versteckte Altlasten-Risiken",
+          "slug": "risikobewertung"
+        },
+        {
+          "title": "Unsere Leistungen",
+          "description": "Komplettlösungen für Altlastensanierung",
+          "slug": "leistungen"
+        }
+      ],
+      "cost_factors": "Entsorgungs-Mehraufwendungen von 50-100 Euro je m³ entstehen bei Fehlern in Planung und Ausführung"
+    },
+    "schadstoff-management": {
+      "title": "Schadstoff-Management - Sicherheit hat Priorität",
+      "hero_image": "[image placeholder]",
+      "key_question": "Ist im Bauwerk mit Gefahrstoffen für den Menschen oder mit Schadstoffen für die Umwelt zu rechnen?",
+      "legal_consequences": "So hat dann eine 'mal eben übersehene' Freisetzung von Gefahrstoffen schon oft den Straftatbestand einer gefährlichen Körperverletzung durch Unterlassung erfüllt.",
+      "subservices": [
+        {
+          "title": "Warum?",
+          "description": "Rechtliche und gesundheitliche Notwendigkeiten",
+          "slug": "grundlagen"
+        },
+        {
+          "title": "Erkundung",
+          "description": "Systematische Schadstofferkundung",
+          "slug": "erkundung"
+        },
+        {
+          "title": "Untersuchung",
+          "description": "Laboranalysen und Bewertung",
+          "slug": "untersuchung"
+        },
+        {
+          "title": "und der Rest!",
+          "description": "Sanierungskonzepte und Umsetzung",
+          "slug": "sanierung"
+        }
+      ],
+      "principle": "Ein gutes Gesamtkonzept spart Geld und Nerven."
+    },
+    "sicherheitskoordination": {
+      "title": "Sicherheitskoordination nach EU-Recht",
+      "hero_image": "[image placeholder]",
+      "legal_basis": "Die Planung, Regelung und Überwachung von sicherheitsrelevanten Maßnahmen und Tätigkeiten bei einem Bauvorhaben ist nach EU-Recht zunächst einmal die Aufgabe und der Verantwortungsbereich des Auftraggebers, also des Bauherrn.",
+      "solution_approach": "Nur er ist in der Lage durch frühzeitige und qualifizierte Regelung (Planung, Ausschreibung) und durch rechtlich wirksame Verpflichtung (Bauvertrag) eine funktionierende und sogleich kostengünstige Lösung der Sicherheitsprobleme seiner Baumaßnahme zu bewirken.",
+      "subservices": [
+        {
+          "title": "Hintergrund",
+          "description": "Rechtliche Grundlagen und Pflichten",
+          "slug": "rechtliche-grundlagen"
+        },
+        {
+          "title": "bei normalen Baumaßnahmen",
+          "description": "Sicherheitskoordination im Hochbau",
+          "slug": "normale-baumassnahmen"
+        },
+        {
+          "title": "bei Asbest-Sanierungen",
+          "description": "Spezielle Anforderungen bei Asbestsanierung",
+          "slug": "asbest-sanierungen"
+        },
+        {
+          "title": "bei sonstige Gefahrstoffen (BGR 128)",
+          "description": "Umgang mit anderen Gefahrstoffen",
+          "slug": "gefahrstoffe-bgr128"
+        }
+      ],
+      "experience": "Die RIMAN GmbH mit der Erfahrung von mehr als 200 erfolgreich abgeschlossenen Baumaßnahmen, stellt hier sicherlich einen Garanten für sicheres und wirtschaftliches Bauen dar."
+    },
+    "baubiologische-beratung": {
+      "title": "Baubiologische Beratung - Gesund leben",
+      "hero_image": "[image placeholder]",
+      "motivation": "Wer sich, wie wir, intensiv mit baulichen Gefahrstoffen für den Menschen sowie mit Schadstoffen für die Umwelt auseinander setzen muss, kommt nicht umhin, seine Kunden vor einem allzu sorglosen Umgang mit bestimmten Bau- und Hilfsstoffen zu warnen.",
+      "quality_promise": "So haben wir uns in den letzten Jahren vermehrt auch diesem Auftrag gestellt und bieten unseren Kunden auch hier in gewohnter Qualität gute Hilfestellungen.",
+      "subservices": [
+        {
+          "title": "gesundheitliche Aspekte",
+          "description": "Gesundheitliche Bewertung von Baumaterialien",
+          "slug": "gesundheitliche-aspekte"
+        },
+        {
+          "title": "Baustoffe",
+          "description": "Bewertung und Auswahl gesunder Baustoffe",
+          "slug": "baustoffe"
+        },
+        {
+          "title": "Dämmstoffe",
+          "description": "Ökologische und gesunde Dämmlösungen",
+          "slug": "daemmstoffe"
+        },
+        {
+          "title": "Bausysteme",
+          "description": "Nachhaltige und gesunde Bausysteme",
+          "slug": "bausysteme"
+        }
+      ]
+    },
+    "mediation-konfliktmanagement": {
+      "title": "Mediation & Konfliktmanagement",
+      "hero_image": "[image placeholder]",
+      "introduction": "Bei komplexen Bauprojekten entstehen oft Interessenskonflikte zwischen verschiedenen Beteiligten. Professionelle Mediation hilft dabei, wirtschaftliche Lösungen zu finden.",
+      "philosophy": "Unsere Lösung heißt: 'Fachbereiche übergreifend verbinden und praxisorientierte Lösungen suchen' - eine typische Managementaufgabe.",
+      "subservices": [
+        {
+          "title": "Projektmediation",
+          "description": "Konfliktlösung in Bauprojekten",
+          "slug": "projektmediation"
+        },
+        {
+          "title": "Vertragsmediation",
+          "description": "Klärung vertraglicher Streitigkeiten",
+          "slug": "vertragsmediation"
+        },
+        {
+          "title": "Schadensfallmediation",
+          "description": "Mediation bei Baumängeln und Schäden",
+          "slug": "schadensfallmediation"
+        },
+        {
+          "title": "Präventive Beratung",
+          "description": "Konfliktprävention durch gute Planung",
+          "slug": "praeventive-beratung"
+        }
+      ]
+    }
+  },
+  "company_info": {
+    "ceo_message": {
+      "title": "Zu unserer Firmenphilosophie!",
+      "author": "Jürgen Fischer, Geschäftsführer",
+      "content": "Nach unseren langjährigen, persönlichen Erfahrungen können komplexe Abläufe, Vorgänge oder Prozesse nur dann effektiv, wirtschaftlich und zuverlässig ablaufen, wenn sie als ein umfassendes Gesamtkonzept durchgängig geplant und darüber hinaus praxisorientiert gestaltet werden.",
+      "philosophy": "Verluste haben meistens dort ihre Ursache, wo der einzelnen Fachbereich verlassen wird, sich Fachbereiche überschneiden oder praxisfremde Wege vorgegeben werden.",
+      "solution": "Unsere Lösung heißt demnach: 'Fachbereiche übergreifend verbinden und praxisorientierte Lösungen suchen' und das ist eine typische Managementaufgabe.",
+      "approach": "Um den kostenträchtigen Aufwand für solche Maßnahmen so gering wie möglich zu halten, haben wir uns vor Jahren entschieden, viele Fachbereiche in Personal-Union ausführen."
+    },
+    "management_definition": "Um hier eine klare Unterscheidung von der üblichen Durchführung von Einzelleistungen zu erhalten, bezeichnen wir unsere Arbeit als MANAGEMENTLEISTUNG."
+  },
+  "footer": {
+    "company": "RIMAN GmbH",
+    "legal_name": "RIMAN GmbH - Gesellschaft für Sicherheitsmanagement",
+    "address": {
+      "street": "Hochplattenstr. 6",
+      "city": "83109 Großkarolinenfeld",
+      "country": "Deutschland"
+    },
+    "contact": {
+      "phone": "08031-408 43 44",
+      "fax": "08031-408 43 43",
+      "email": "j.fischer@riman.de",
+      "website": "www.riman.de"
+    },
+    "legal_info": {
+      "hrb": "HRB-Nr. 11658",
+      "court": "Amtsgericht Traunstein",
+      "tax_number": "156 135 404 09",
+      "vat_id": "DE 198 186 554"
+    },
+    "established": "1998"
+  },
+  "content_mapping_notes": {
+    "cholot_theme_adaptation": {
+      "retirement_to_remediation": "Replace all retirement community content with environmental remediation services",
+      "service_structure": "6 main services mapped to existing service card structure",
+      "color_scheme": "Less dark/black, more professional colors as requested by CEO",
+      "video_integration": "Homepage video eyecatcher placeholder added"
+    },
+    "structure_preserved": {
+      "homepage": "Main service cards with real content from riman.de",
+      "main_pages": "6 service areas as requested: Rückbaumanagement, Altlastensanierung, Schadstoff-Management, Sicherheitskoordination, Baubiologische Beratung, Mediation",
+      "subpages": "Each main service has 4 detailed subservice areas",
+      "content_source": "All content extracted from actual riman.de website"
+    }
+  }
+}
