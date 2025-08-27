@@ -88,3 +88,19 @@
 20. logo.jpg (RIMAN Main Logo)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310088407.png
    Target: wp-content/uploads/2025/08/logo.jpg
+
+21. logo-white.jpg (RIMAN White Logo)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310121399.png
+   Target: wp-content/uploads/2025/08/logo-white.jpg
+
+22. sign.jpg (Company Signage)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310155296.png
+   Target: wp-content/uploads/2025/08/sign.jpg
+
+23. bg-ab.jpg (About Background)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310173757.png
+   Target: wp-content/uploads/2025/08/bg-ab.jpg
+
+24. cropped-matteo-vistocco-537858-unsplash.jpg (Cropped Detail)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756310193524.png
+   Target: wp-content/uploads/2025/08/cropped-matteo-vistocco-537858-unsplash.jpg
