@@ -1,0 +1,211 @@
+{
+  "company_info": {
+    "name": "RIMAN GmbH",
+    "full_name": "RIMAN GmbH - Gesellschaft für Sicherheitsmanagement",
+    "founded": "1998",
+    "ceo": "Jürgen Fischer",
+    "tagline": "sicher bauen und gesund leben",
+    "mission": "Der Zeit ein wenig voraus zu sein",
+    "expertise": "mehr als 200 erfolgreich abgeschlossene Baumaßnahmen"
+  },
+  
+  "hero_slider": {
+    "slide_1": {
+      "title": "Professionelle Schadstoffsanierung für <span>Ihre Sicherheit</span>",
+      "subtitle": "SEIT 1998 IHR PARTNER",
+      "description": "Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind 'sicher bauen und gesund leben'.",
+      "button_text": "Mehr erfahren"
+    },
+    "slide_2": {
+      "title": "Umweltsanierung nach <span>höchsten Standards</span>",
+      "subtitle": "FACHÜBERGREIFENDE KOMPETENZ",
+      "description": "Qualifizierte Aufklärung über gesundheitliche und rechtliche Risiken sowie das Aufzeigen und Umsetzen wirtschaftlicher Lösungen - dem RIMAN Anspruch entsprechend, der Zeit ein wenig voraus zu sein.",
+      "button_text": "Kontakt aufnehmen"
+    }
+  },
+
+  "service_boxes": [
+    {
+      "icon": "fa-hard-hat",
+      "title": "Abbruch-Management",
+      "subtitle": "PROFESSIONELL",
+      "description": "Komplette Projektbetreuung von der Planung bis zur Ausführung. Vermeidung chaotischer Verhältnisse und Kostenexplosionen durch fachübergreifende Expertise."
+    },
+    {
+      "icon": "fa-leaf",
+      "title": "Altlasten-Sanierung", 
+      "subtitle": "UMWELTSCHONEND",
+      "description": "Ordnungsgemäße Sanierung kontaminierter Grundstücke. Vermeidung von Entsorgungs-Mehraufwendungen durch qualifizierte Planung und Ausführung."
+    },
+    {
+      "icon": "fa-shield-alt",
+      "title": "Schadstoff-Management",
+      "subtitle": "SICHER",
+      "description": "Erkundung, Untersuchung und fachgerechte Sanierung von Gefahrstoffen. Schutz vor gefährlicher Körperverletzung durch Unterlassung und hohen Folgekosten."
+    }
+  ],
+
+  "process_steps": [
+    {
+      "number": "1",
+      "title": "Bestandsaufnahme",
+      "description": "Umfassende Erkundung und Bewertung der Gebäudesubstanz auf Schadstoffe und Gefahrstoffe"
+    },
+    {
+      "number": "2", 
+      "title": "Risikoanalyse",
+      "description": "Qualifizierte Aufklärung über gesundheitliche und rechtliche Risiken der identifizierten Schadstoffe"
+    },
+    {
+      "number": "3",
+      "title": "Konzepterstellung",
+      "description": "Entwicklung eines umfassenden Gesamtkonzepts zur wirtschaftlichen und sicheren Problemlösung"
+    },
+    {
+      "number": "4",
+      "title": "Planung",
+      "description": "Fachübergreifende Planung unter Berücksichtigung aller Arbeitsschutz- und Umweltauflagen"
+    },
+    {
+      "number": "5",
+      "title": "Ausschreibung",
+      "description": "Qualifizierte Ausschreibung zur Vermeidung unseriöser Angebote und Kostenexplosionen"
+    },
+    {
+      "number": "6",
+      "title": "Koordination",
+      "description": "Sicherheits-Koordination nach EU-Recht für alle sicherheitsrelevanten Maßnahmen"
+    },
+    {
+      "number": "7", 
+      "title": "Bauleitung",
+      "description": "Professionelle Überwachung der Ausführung zur Sicherstellung höchster Qualitätsstandards"
+    },
+    {
+      "number": "8",
+      "title": "Qualitätssicherung", 
+      "description": "Abschließende Kontrolle und Dokumentation der ordnungsgemäßen Sanierungsmaßnahmen"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "text": "Die RIMAN GmbH mit der Erfahrung von mehr als 200 erfolgreich abgeschlossenen Baumaßnahmen stellt sicherlich einen Garanten für sicheres und wirtschaftliches Bauen dar.",
+      "author": "Projektreferenz - Sicherheits-Koordination"
+    }
+  ],
+
+  "about_content": {
+    "title": "Über RIMAN GmbH",
+    "subtitle": "Gesellschaft für Sicherheitsmanagement",
+    "description": "Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind 'sicher bauen und gesund leben'. Komplexe Abläufe können nur dann effektiv, wirtschaftlich und zuverlässig ablaufen, wenn sie als umfassendes Gesamtkonzept durchgängig geplant und praxisorientiert gestaltet werden.",
+    "philosophy": "Fachbereiche übergreifend verbinden und praxisorientierte Lösungen suchen - das ist eine typische Managementaufgabe. Verluste haben meistens dort ihre Ursache, wo einzelne Fachbereiche verlassen werden, sich Fachbereiche überschneiden oder praxisfremde Wege vorgegeben werden."
+  },
+
+  "services_detailed": {
+    "abbruch_management": {
+      "title": "Abbruch-Management",
+      "subtitle": "für die alte Hütte?",
+      "description": "Nirgendwo in der Baubranche herrschen derart chaotische Verhältnisse wie in der Abbruchbranche. Ein juristischer Dschungel unterschiedlichster Bewertungen von Belastungen bei Abbruchabfällen, hohe Sicherheitsauflagen, aber auch der künstliche Mangel an Entsorgungswegen hat zu einer dramatischen Explosion der Kosten geführt.",
+      "problem": "Diese Mischung aus Chaos und hohen Kosten bietet viel Spielraum für unseriöse Unternehmen. Angebote können um bis zu 100, 200 und mehr Prozent auseinander liegen.",
+      "solution": "Die RIMAN GmbH bietet seit mehr als 10 Jahren die notwendige Hilfe, um Risiken zu vermeiden und Schäden zu begrenzen."
+    },
+    "altlasten_sanierung": {
+      "title": "Altlasten-Sanierung",
+      "subtitle": "doch nicht bei mir?", 
+      "description": "Altlasten-Sanierung ist nicht nur ein Thema für Industrie-Standorte. Sowohl Unkenntnis als auch der kurzfristige finanzielle Vorteil günstiger Füllstoffe oder die billige Entsorgung von Abfällen haben aus vielen Grundstücken kleine Mülldeponien gemacht.",
+      "costs": "Fehler bei Planung und Ausführung können leicht Entsorgungs-Mehraufwendungen von 50-100 Euro je m³ verursachen.",
+      "solution": "Die RIMAN GmbH steht bereit, um Probleme zu vermeiden und entstandene Schäden zu begrenzen."
+    },
+    "schadstoff_management": {
+      "title": "Schadstoff-Management", 
+      "description": "Bei Immobiliengeschäften, Abbruchmaßnahmen, Altbau-Sanierungen und Anmietungen stellt sich die Frage: Ist im Bauwerk mit Gefahrstoffen für den Menschen oder Schadstoffen für die Umwelt zu rechnen?",
+      "risks": "Eine mal eben übersehene Freisetzung von Gefahrstoffen kann den Straftatbestand einer gefährlichen Körperverletzung durch Unterlassung erfüllen.",
+      "principle": "Ein gutes Gesamtkonzept spart Geld und Nerven."
+    },
+    "sicherheits_koordination": {
+      "title": "Sicherheits-Koordination",
+      "description": "Die Planung, Regelung und Überwachung von sicherheitsrelevanten Maßnahmen bei einem Bauvorhaben ist nach EU-Recht die Aufgabe des Auftraggebers.",
+      "approach": "Nur durch frühzeitige und qualifizierte Regelung sowie rechtlich wirksame Verpflichtung kann eine funktionierende und kostengünstige Lösung erreicht werden."
+    },
+    "baubiologische_beratung": {
+      "title": "Baubiologische Beratung",
+      "description": "Wer sich intensiv mit baulichen Gefahrstoffen auseinander setzen muss, kommt nicht umhin, vor einem allzu sorglosen Umgang mit bestimmten Bau- und Hilfsstoffen zu warnen.",
+      "service": "Alternative Lösungsvorschläge und qualifizierte Hilfestellungen bei gesundheitlichen Aspekten, Baustoffen, Dämmstoffen und Bausystemen."
+    }
+  },
+
+  "footer": {
+    "address": "Hochplattenstr. 6, 83109 Großkarolinenfeld",
+    "phone": "08031- 408 43 44",
+    "fax": "08031- 408 43 43", 
+    "email": "j.fischer@riman.de",
+    "website": "www.riman.de",
+    "registration": "HRB-Nr. 11658 Amtsgericht Traunstein",
+    "tax_number": "156 135 404 09",
+    "vat_id": "DE 198 186 554"
+  },
+
+  "elementor_widget_updates": {
+    "hero_slider": {
+      "widget_type": "rdn-slider",
+      "fields_to_update": [
+        "slider_list[0].title",
+        "slider_list[0].subtitle", 
+        "slider_list[0].text",
+        "slider_list[1].title",
+        "slider_list[1].subtitle",
+        "slider_list[1].text"
+      ]
+    },
+    "service_boxes": {
+      "widget_type": "riman-texticon", 
+      "fields_to_update": [
+        "title",
+        "subtitle",
+        "text",
+        "selected_icon"
+      ]
+    },
+    "testimonial": {
+      "widget_type": "testimonial",
+      "old_text": "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my Projekt. Absolutely stunning!",
+      "new_text": "Die RIMAN GmbH mit der Erfahrung von mehr als 200 erfolgreich abgeschlossenen Baumaßnahmen stellt sicherlich einen Garanten für sicheres und wirtschaftliches Bauen dar.",
+      "old_author": "Irgan Rogan",
+      "new_author": "Projektreferenz"
+    }
+  },
+
+  "content_replacements": {
+    "placeholder_titles": {
+      "old": "Discover the best Auftraggeber that fit your needs",
+      "new": "Professionelle Schadstoffsanierung für Ihre Sicherheit"
+    },
+    "service_titles": {
+      "Healthy life": "Schadstoff-Management",
+      "Improving life": "Altlasten-Sanierung", 
+      "Relationship": "Abbruch-Management"
+    },
+    "generic_descriptions": {
+      "old": "It's a great way for you to make use of all the benefits of being a part.",
+      "new_schadstoff": "Erkundung, Untersuchung und fachgerechte Sanierung von Gefahrstoffen zum Schutz von Mensch und Umwelt.",
+      "new_altlasten": "Ordnungsgemäße Sanierung kontaminierter Grundstücke mit qualifizierter Planung und Ausführung.",
+      "new_abbruch": "Komplette Projektbetreuung von der Planung bis zur Ausführung mit fachübergreifender Expertise."
+    }
+  },
+
+  "seo_keywords": [
+    "Schadstoffsanierung",
+    "Asbestsanierung", 
+    "Altlastensanierung",
+    "Abbruchmanagement",
+    "Rückbau", 
+    "Gefahrstoffsanierung",
+    "Sicherheitskoordination",
+    "Baubiologie",
+    "Umweltsanierung",
+    "Deutschland",
+    "Bayern",
+    "Großkarolinenfeld"
+  ]
+}
