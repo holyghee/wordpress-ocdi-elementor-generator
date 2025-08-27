@@ -64,3 +64,7 @@
 15. 7.jpg (Quality Control)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309776542.png
    Target: wp-content/uploads/2025/08/7.jpg
+
+16. 8.jpg (Certification)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309862567.png
+   Target: wp-content/uploads/2025/08/8.jpg
