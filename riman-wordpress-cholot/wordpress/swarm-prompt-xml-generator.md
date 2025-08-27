@@ -6,7 +6,43 @@ Create an intelligent system that understands the Cholot theme's XML/Elementor s
 ## Core Challenge
 Transform the Cholot theme from a static demo into a dynamic component library that can generate any page structure while maintaining theme compatibility.
 
+## Critical Resources
+- **Live Frontend**: http://localhost:8080/ - Working Cholot theme to analyze HTML rendering
+- **XML Source**: `demo-data-fixed.xml` - The source XML that generates the frontend
+- **Content Data**: `riman-content-structure.json` - RIMAN content to integrate
+
 ## Analysis Tasks
+
+### Phase 0: Frontend-to-XML Mapping (CRITICAL)
+**Analyze http://localhost:8080/ to understand rendering:**
+
+1. **Visual Component Identification:**
+   - Open http://localhost:8080/ in browser
+   - Use browser DevTools to inspect HTML structure
+   - Map each visual component to its XML counterpart
+   - Document CSS classes and HTML structure patterns
+
+2. **Component Rendering Analysis:**
+   ```javascript
+   // Example inspection script
+   document.querySelectorAll('[class*="cholot"]').forEach(el => {
+     console.log('Component:', el.className, 'Structure:', el.outerHTML.substring(0,200))
+   })
+   ```
+
+3. **Create Mapping Table:**
+   ```
+   Visual Element → HTML Structure → XML Widget Type
+   ─────────────────────────────────────────────────
+   Hero Slider → div.cholot-slider → widgetType:"cholot-slider"
+   Service Box → div.cholot-texticon → widgetType:"cholot-texticon"  
+   Video Section → div.elementor-video → widgetType:"video"
+   ```
+
+4. **Responsive Behavior:**
+   - Test at different viewport sizes (mobile/tablet/desktop)
+   - Note how XML responsive settings affect HTML
+   - Document breakpoint behaviors
 
 ### Phase 1: Component Discovery
 1. **Parse `demo-data-fixed.xml`** and identify:
