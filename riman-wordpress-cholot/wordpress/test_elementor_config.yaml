@@ -1,0 +1,364 @@
+---
+# Test Configuration for Elementor JSON Generator
+# Demonstrates all 13 Cholot widget types with realistic content
+
+site:
+  title: "Cholot Retirement Community"
+  description: "A premium retirement community focused on wellness and connection"
+  base_url: "http://localhost:8080"
+
+context:
+  site_name: "Cholot Community"
+  phone: "+1-555-CHOLOT"
+  email: "info@cholot.com"
+  address: "123 Wellness Drive, Retirement Valley, CA 90210"
+
+sections:
+  # Hero Section with Slider
+  - gap: "no"
+    background:
+      color: "rgba(0,0,0,0.6)"
+      image: 
+        url: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&h=900"
+        position: "center center"
+        size: "cover"
+    columns:
+      - width: 100
+        widgets:
+          - type: texticon
+            title: "Welcome to {{site_name}}"
+            subtitle: "Premium Living"
+            text: "Discover the best retirement community that fits your needs and lifestyle."
+            icon: "fas fa-home"
+            icon_size: 30
+            title_color: "#ffffff"
+            text_color: "#ffffff"
+            custom_settings:
+              _padding:
+                unit: "px"
+                top: "60"
+                right: "30"
+                bottom: "60"
+                left: "30"
+                isLinked: false
+
+  # Features Section with 3 Columns
+  - gap: "extended"
+    background:
+      color: "#b68c2f"
+    padding:
+      top: "60"
+      bottom: "60"
+    columns:
+      - width: 33
+        widgets:
+          - type: texticon
+            title: "Healthy Living"
+            subtitle: "Wellness Focus"
+            text: "State-of-the-art fitness facilities and wellness programs designed for active seniors."
+            icon: "fas fa-heart"
+            icon_color: "#ffffff"
+            icon_bg_color: "#b68c2f"
+            padding:
+              all: "30"
+            
+      - width: 33
+        widgets:
+          - type: texticon
+            title: "Community Connection"
+            subtitle: "Social Activities"
+            text: "Vibrant social calendar with activities, clubs, and events to keep you engaged."
+            icon: "fas fa-users"
+            icon_color: "#ffffff"
+            icon_bg_color: "#b68c2f"
+            padding:
+              all: "30"
+              
+      - width: 33
+        widgets:
+          - type: texticon
+            title: "Professional Care"
+            subtitle: "Healthcare Services"
+            text: "On-site healthcare services and wellness monitoring for peace of mind."
+            icon: "fas fa-medical-kit"
+            icon_color: "#ffffff"
+            icon_bg_color: "#b68c2f"
+            padding:
+              all: "30"
+
+  # About Section
+  - gap: "extended"
+    background:
+      color: "#fafafa"
+    padding:
+      top: "80"
+      bottom: "80"
+    columns:
+      - width: 50
+        widgets:
+          - type: title
+            title: "About {{site_name}} - Where <span>Life Begins Again</span>"
+            align: "left"
+            header_size: "h2"
+            
+          - type: text-line
+            title: "Exceptional Retirement Living"
+            subtitle: "Since 1985"
+            line_width: 60
+            line_height: 3
+            background_color: "#fafafa"
+            background_image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=200&h=200"
+            
+      - width: 50
+        widgets:
+          - type: gallery
+            images:
+              - url: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300"
+                alt: "Community dining room"
+              - url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300"
+                alt: "Fitness center"
+              - url: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=300"
+                alt: "Garden area"
+              - url: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=300"
+                alt: "Reading room"
+            columns: "col-md-6"
+            height: 200
+            margin: 10
+            show_title: ""
+            show_caption: ""
+
+  # Team Section
+  - gap: "extended"
+    background:
+      color: "#ffffff"
+    padding:
+      top: "80"
+      bottom: "80"
+    columns:
+      - width: 100
+        widgets:
+          - type: title
+            title: "Meet Our Professional <span>Care Team</span>"
+            align: "center"
+            header_size: "h2"
+            
+      - width: 33
+        widgets:
+          - type: team
+            name: "Dr. Sarah Johnson"
+            position: "Medical Director"
+            image:
+              url: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400"
+              alt: "Dr. Sarah Johnson"
+            height: "420px"
+            social_links:
+              - icon: "fab fa-linkedin-in"
+                url: "https://linkedin.com/in/dr-sarah-johnson"
+                color: "#0077b5"
+              - icon: "fab fa-twitter"
+                url: "https://twitter.com/drsarahjohnson"
+                color: "#1da1f2"
+            background_icon: "fas fa-stethoscope"
+            
+      - width: 33
+        widgets:
+          - type: team
+            name: "Michael Chen"
+            position: "Activities Director"
+            image:
+              url: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400"
+              alt: "Michael Chen"
+            height: "420px"
+            social_links:
+              - icon: "fab fa-facebook-f"
+                url: "https://facebook.com/michael.chen.activities"
+                color: "#4267b2"
+              - icon: "fab fa-instagram"
+                url: "https://instagram.com/michael_activities"
+                color: "#e4405f"
+            background_icon: "fas fa-calendar-alt"
+            
+      - width: 33
+        widgets:
+          - type: team
+            name: "Emma Rodriguez"
+            position: "Wellness Coordinator"
+            image:
+              url: "https://images.unsplash.com/photo-1494790108755-2616b612b5e4?w=400&h=400"
+              alt: "Emma Rodriguez"
+            height: "420px"
+            social_links:
+              - icon: "fab fa-linkedin-in"
+                url: "https://linkedin.com/in/emma-rodriguez-wellness"
+                color: "#0077b5"
+            background_icon: "fas fa-spa"
+
+  # Services Section  
+  - gap: "extended"
+    background:
+      color: "#f4f4f4"
+    padding:
+      top: "80"
+      bottom: "80"
+    columns:
+      - width: 100
+        widgets:
+          - type: title
+            title: "Our <span>Premium Services</span> and Amenities"
+            align: "center"
+            header_size: "h2"
+            
+      - width: 33
+        widgets:
+          - type: text-line
+            title: "Dining Excellence"
+            subtitle: "Chef-Prepared Meals"
+            line_width: 50
+            line_height: 2
+            background_color: "#ffffff"
+            
+      - width: 33
+        widgets:
+          - type: text-line
+            title: "Transportation Services"
+            subtitle: "Safe & Reliable"
+            line_width: 50
+            line_height: 2
+            background_color: "#ffffff"
+            
+      - width: 33
+        widgets:
+          - type: text-line
+            title: "Housekeeping Services"
+            subtitle: "Weekly Cleaning"
+            line_width: 50
+            line_height: 2
+            background_color: "#ffffff"
+
+  # Testimonials Section
+  - gap: "extended"
+    background:
+      color: "#1f1f1f"
+      image:
+        url: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=1600&h=900"
+        position: "center center"
+        size: "cover"
+    padding:
+      top: "100"
+      bottom: "100"
+    columns:
+      - width: 100
+        widgets:
+          - type: title
+            title: "What Our <span>Residents Say</span> About Us"
+            align: "center"
+            header_size: "h2"
+            custom_settings:
+              title_color: "#ffffff"
+              span_title_color: "#b68c2f"
+              
+          - type: testimonial
+            columns: 3
+            testimonials:
+              - title: "Margaret Thompson"
+                position: "Resident since 2020"
+                text: "Moving to Cholot was the best decision I've made. The staff is wonderful and I've made so many new friends."
+                image:
+                  url: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=100&h=100"
+                  alt: "Margaret Thompson"
+              - title: "Robert Miller"
+                position: "Resident since 2019"
+                text: "The healthcare services here are exceptional. I feel safe and well cared for every day."
+                image:
+                  url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100"
+                  alt: "Robert Miller"
+              - title: "Dorothy Adams"
+                position: "Resident since 2021"
+                text: "The activities and dining are fantastic. There's always something fun to do and the food is restaurant quality."
+                image:
+                  url: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100"
+                  alt: "Dorothy Adams"
+
+  # Blog/News Section
+  - gap: "extended"
+    background:
+      color: "#ffffff"
+    padding:
+      top: "80"
+      bottom: "80"
+    columns:
+      - width: 100
+        widgets:
+          - type: title
+            title: "Latest <span>News & Events</span>"
+            align: "center"
+            header_size: "h2"
+            
+          - type: post-four
+            post_count: 4
+            column: "two"
+            show_excerpt: "yes"
+            button_text: "Read More"
+            categories: [1, 2, 3]
+
+  # Contact Section
+  - gap: "extended"  
+    background:
+      color: "#b68c2f"
+    padding:
+      top: "80"
+      bottom: "80"
+    columns:
+      - width: 50
+        widgets:
+          - type: title
+            title: "Schedule Your <span>Personal Tour</span> Today"
+            align: "left"
+            header_size: "h2"
+            custom_settings:
+              title_color: "#ffffff"
+              span_title_color: "#ffffff"
+              
+          - type: button-text
+            text: "{{phone}}"
+            url: "tel:{{phone}}"
+            subtitle: "Call us today"
+            icon: "fas fa-phone"
+            align: "left"
+            
+      - width: 50
+        widgets:
+          - type: contact
+            shortcode: "[contact-form-7 id='1' title='Contact Form']"
+            button_width: "100%"
+
+  # Footer/Logo Section  
+  - gap: "no"
+    background:
+      color: "#232323"
+    padding:
+      top: "40"
+      bottom: "40"
+    columns:
+      - width: 50
+        widgets:
+          - type: logo
+            url: "{{demo_logo}}"
+            align: "left"
+            height: "60px"
+            
+      - width: 50
+        widgets:
+          - type: menu
+            menu_name: "footer-menu"
+            align: "right"
+            mobile: "none"
+            desktop_tablet: "inline-block"
+            
+          - type: sidebar
+            width: "300px"
+            custom_settings:
+              title_typography_font_size:
+                unit: "px"
+                size: 14
+                sizes: []
