@@ -1,0 +1,35 @@
+Zusätzliche Hinweise und Installation
+
+Hier sind die Schritte, um dein Theme zu verwenden:
+
+    Ordner erstellen: Erstelle auf deinem Computer einen Ordner namens wp-blank-modern.
+
+    Dateien erstellen: Kopiere den Inhalt aus jedem der oben stehenden Code-Blöcke und speichere ihn als Datei mit dem entsprechenden Namen (z.B. style.css, index.php usw.) in dem wp-blank-modern Ordner.
+
+    screenshot.png (Optional):
+
+        WordPress zeigt im Admin-Bereich eine Vorschau des Themes an. Dafür wird eine Datei namens screenshot.png im Hauptverzeichnis des Themes verwendet.
+
+        Die empfohlene Größe ist 1200x900 Pixel.
+
+        Erstelle ein Bild, das dein Theme repräsentiert, und speichere es als screenshot.png im Ordner wp-blank-modern. Wenn du diese Datei nicht hinzufügst, wird einfach eine Standard-Vorschau angezeigt.
+
+    Ordner zippen:
+
+        Windows: Rechtsklicke auf den Ordner wp-blank-modern, wähle "Senden an" und dann "ZIP-komprimierter Ordner".
+
+        Mac: Rechtsklicke auf den Ordner wp-blank-modern und wähle "Komprimieren".
+
+        Du erhältst eine Datei namens wp-blank-modern.zip.
+
+    In WordPress hochladen:
+
+        Gehe in deinem WordPress-Dashboard zu Design > Themes.
+
+        Klicke oben auf Theme hinzufügen und dann auf Theme hochladen.
+
+        Wähle die wp-blank-modern.zip-Datei aus, die du gerade erstellt hast, und klicke auf Jetzt installieren.
+
+    Theme aktivieren: Nachdem die Installation abgeschlossen ist, klicke auf Aktivieren.
+
+Dein "WP Blank Modern" Theme ist jetzt einsatzbereit!

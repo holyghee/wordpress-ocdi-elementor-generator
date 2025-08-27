@@ -1,0 +1,222 @@
+/**
+ * Editor styles for RIMAN Modern Theme
+ * Makes the block editor look more like the frontend
+ */
+
+/* Editor Width */
+.editor-styles-wrapper .wp-block {
+    max-width: 1200px;
+}
+
+/* Typography */
+.editor-styles-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* Links */
+.editor-styles-wrapper a {
+    color: #C8A882;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.editor-styles-wrapper a:hover {
+    color: #333;
+}
+
+/* Button Block */
+.editor-styles-wrapper .wp-block-button__link {
+    padding: 15px 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: 2px solid #C8A882;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+.editor-styles-wrapper .wp-block-button.is-style-fill .wp-block-button__link {
+    background: #C8A882;
+    color: white;
+}
+
+.editor-styles-wrapper .wp-block-button.is-style-outline .wp-block-button__link {
+    background: transparent;
+    color: #C8A882;
+}
+
+/* Service Card Pattern */
+.editor-styles-wrapper .service-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Cover Block */
+.editor-styles-wrapper .wp-block-cover {
+    min-height: 400px;
+}
+
+.editor-styles-wrapper .wp-block-cover.hero-section {
+    min-height: 100vh;
+}
+
+/* Hero Section Video in Editor */
+.editor-styles-wrapper .hero-section-video {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 60px 20px;
+    position: relative;
+    min-height: 400px;
+}
+
+.editor-styles-wrapper .hero-video-content {
+    position: relative;
+}
+
+.editor-styles-wrapper .hero-video-content h1,
+.editor-styles-wrapper .hero-video-content p,
+.editor-styles-wrapper .hero-title,
+.editor-styles-wrapper .hero-subtitle {
+    color: #333 !important; /* Dark text for editor visibility */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+    max-width: fit-content;
+}
+
+.editor-styles-wrapper .hero-video-background {
+    display: none; /* Hide video in editor for better performance */
+}
+
+.editor-styles-wrapper .hero-section-video::before {
+    content: "🎬 Video Background (visible on frontend)";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #C8A882;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 10;
+}
+
+/* Columns */
+.editor-styles-wrapper .wp-block-columns {
+    gap: 30px;
+}
+
+/* Group Block */
+.editor-styles-wrapper .wp-block-group.services-section {
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+/* Service Media Cover in Editor */
+.editor-styles-wrapper .service-media-cover {
+    background: #C8A882;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editor-styles-wrapper .service-media-cover .wp-block-cover__inner-container p {
+    color: white !important;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Cover Block Empty State */
+.editor-styles-wrapper .wp-block-cover:not(.has-background) {
+    background: linear-gradient(135deg, #C8A882 0%, #a08968 100%);
+}
+
+.editor-styles-wrapper .wp-block-cover .components-placeholder__label {
+    color: white !important;
+}
+
+/* Quote */
+.editor-styles-wrapper .wp-block-quote {
+    border-left: 4px solid #C8A882;
+    padding-left: 30px;
+    margin: 40px 0;
+    font-style: italic;
+}
+
+/* Separator */
+.editor-styles-wrapper .wp-block-separator {
+    border-color: #C8A882;
+    margin: 40px auto;
+}
+
+/* Table */
+.editor-styles-wrapper .wp-block-table th {
+    background: #C8A882;
+    color: white;
+    padding: 15px;
+}
+
+.editor-styles-wrapper .wp-block-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Color Palette Preview */
+.editor-styles-wrapper .has-primary-color {
+    color: #C8A882;
+}
+
+.editor-styles-wrapper .has-primary-background-color {
+    background-color: #C8A882;
+}
+
+.editor-styles-wrapper .has-secondary-color {
+    color: #1a1a1a;
+}
+
+.editor-styles-wrapper .has-secondary-background-color {
+    background-color: #1a1a1a;
+}
+
+.editor-styles-wrapper .has-base-color {
+    color: #ffffff;
+}
+
+.editor-styles-wrapper .has-base-background-color {
+    background-color: #ffffff;
+}
+
+.editor-styles-wrapper .has-contrast-color {
+    color: #333333;
+}
+
+.editor-styles-wrapper .has-contrast-background-color {
+    background-color: #333333;
+}
+
+.editor-styles-wrapper .has-muted-color {
+    color: #666666;
+}
+
+.editor-styles-wrapper .has-muted-background-color {
+    background-color: #666666;
+}

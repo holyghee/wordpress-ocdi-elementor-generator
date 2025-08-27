@@ -1,0 +1,441 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cholot\n"
+"POT-Creation-Date: 2019-07-26 15:51+0700\n"
+"PO-Revision-Date: 2017-04-17 20:45+0700\n"
+"Last-Translator: \n"
+"Language-Team: ridianur\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_html__;esc_attr;esc_attr_e;"
+"esc_attr__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:31
+msgid "Page not found"
+msgstr ""
+
+#: ../404.php:44
+msgid "404"
+msgstr ""
+
+#: ../404.php:47
+msgid "Oops.."
+msgstr ""
+
+#: ../404.php:48
+msgid "Page not found!"
+msgstr ""
+
+#: ../404.php:49
+msgid ""
+"We could not find that page. If you entered a web address please check it "
+"was correct."
+msgstr ""
+
+#: ../404.php:52
+msgid "Back to Homepage"
+msgstr ""
+
+#: ../comments.php:10
+msgid "Leave a comment "
+msgstr ""
+
+#: ../functions.php:103
+msgid "Menu that display in All page"
+msgstr ""
+
+#: ../functions.php:122
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../functions.php:124
+msgid "Appears as the sidebar on blog and pages"
+msgstr ""
+
+#: ../functions.php:136
+msgid "Search and hit enter..."
+msgstr ""
+
+#: ../functions.php:148
+msgid "Name"
+msgstr ""
+
+#: ../functions.php:150
+msgid "Your Name ..."
+msgstr ""
+
+#: ../functions.php:154
+msgid "Email"
+msgstr ""
+
+#: ../functions.php:156
+msgid "Your Email ..."
+msgstr ""
+
+#: ../functions.php:180
+msgid "Comment"
+msgstr ""
+
+#: ../functions.php:181
+msgid "Enter comment here..."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:393
+#: ../inc/class-tgm-plugin-activation.php:920
+#: ../inc/class-tgm-plugin-activation.php:2626
+#: ../inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:394
+#: ../inc/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:615
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:616
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1027
+#: ../inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3602
+#: ../inc/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s done."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/comment-template.php:52
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../index.php:35
+msgid "Home"
+msgstr ""
+
+#: ../index.php:37
+msgid "Archive by category: "
+msgstr ""
+
+#: ../index.php:39
+msgid "Posts tagged: "
+msgstr ""
+
+#: ../index.php:63
+msgid "Previous Page"
+msgstr ""
+
+#: ../index.php:64
+msgid "Next Page"
+msgstr ""
+
+#: ../loop/bottom-footer.php:13 ../loop/menu-normal.php:12 ../loop/menu.php:19
+#: ../loop/menu.php:25
+msgid "Logo"
+msgstr ""
+
+#: ../loop/loop-post.php:107
+msgid "Read More"
+msgstr ""
+
+#: ../loop/related-post-two.php:13 ../loop/related-post.php:13
+msgid "You may also like"
+msgstr ""
+
+#: ../loop/related-post-two.php:15 ../loop/related-post.php:15
+msgid "Other related posts"
+msgstr ""
+
+#: ../search.php:32
+msgid "Search results for: "
+msgstr ""
+
+#: ../search.php:60
+msgid "Sorry, no results found, try a different search. "
+msgstr ""
+
+#: ../single.php:230
+msgid "Previous post"
+msgstr ""
+
+#: ../single.php:240
+msgid "Next post"
+msgstr ""
