@@ -60,3 +60,7 @@
 14. 6.jpg (Material Processing)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309683117.png
    Target: wp-content/uploads/2025/08/6.jpg
+
+15. 7.jpg (Quality Control)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756309776542.png
+   Target: wp-content/uploads/2025/08/7.jpg
