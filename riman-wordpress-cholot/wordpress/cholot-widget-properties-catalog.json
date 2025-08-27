@@ -1,0 +1,402 @@
+{
+  "catalog_metadata": {
+    "title": "Cholot Theme Widget Properties Catalog",
+    "version": "1.0",
+    "date": "2025-08-27",
+    "description": "Comprehensive catalog of all Cholot theme widget properties and configurations"
+  },
+
+  "widget_properties": {
+    "cholot-texticon": {
+      "description": "Icon and text combination widget for feature displays",
+      "core_properties": {
+        "icon": "FontAwesome icon class (deprecated format)",
+        "selected_icon": {
+          "value": "FontAwesome icon class (new format)",
+          "library": "Icon library (fa-solid, fa-brands, fa-regular)"
+        },
+        "title": "Main heading text",
+        "subtitle": "Secondary text above title",
+        "text": "HTML content description"
+      },
+      "typography_settings": {
+        "title_typography_*": "Title font settings",
+        "subtitle_typography_*": "Subtitle font settings", 
+        "text_typography_*": "Content text font settings"
+      },
+      "styling_properties": {
+        "icon_size": "Icon font size in px",
+        "icon_bg_size": "Icon background circle size",
+        "icon_color": "Icon color (hex/rgba)",
+        "iconbg_color": "Icon background color",
+        "icon_bordering_*": "Icon border properties",
+        "title_color": "Title text color",
+        "subtitle_color": "Subtitle text color",
+        "text_color": "Content text color"
+      },
+      "spacing_controls": {
+        "icon_margin": "Icon spacing from container",
+        "title_margin": "Title spacing",
+        "subtitle_margin": "Subtitle spacing", 
+        "text_margin": "Content text spacing",
+        "_padding": "Widget internal padding"
+      },
+      "example_configuration": {
+        "title": "Healthly life",
+        "subtitle": "spiritual",
+        "selected_icon": {"value": "fas fa-procedures", "library": "fa-solid"},
+        "text": "<p>It's a great way for you to make use of all the benefits of being a part.</p>",
+        "icon_color": "#ffffff",
+        "iconbg_color": "#b68c2f",
+        "title_typography_font_size": {"unit": "px", "size": 20}
+      }
+    },
+
+    "cholot-title": {
+      "description": "Enhanced heading widget with span styling support",
+      "core_properties": {
+        "title": "Main heading text with HTML support",
+        "header_size": "HTML heading level (h1-h6)",
+        "align": "Text alignment (left, center, right)"
+      },
+      "typography_settings": {
+        "desc_typography_*": "Main title typography controls",
+        "span_title_typo_*": "Styling for <span> elements within title"
+      },
+      "styling_properties": {
+        "title_color": "Main title color",
+        "span_title_color": "Color for span elements"
+      },
+      "spacing_controls": {
+        "title_margin": "Title spacing",
+        "_margin": "Widget margin"
+      },
+      "example_configuration": {
+        "title": "Thinking about <span>retirement?</span><br>Let us be your guide.",
+        "header_size": "h2",
+        "align": "left",
+        "desc_typography_font_size": {"unit": "px", "size": 35},
+        "span_title_typo_font_style": "italic"
+      }
+    },
+
+    "cholot-team": {
+      "description": "Team member profile cards with social links",
+      "core_properties": {
+        "title": "Team member name", 
+        "text": "Job title or role",
+        "image": "Profile photo object with URL and ID"
+      },
+      "social_media": {
+        "social_icon_list": "Array of social media links",
+        "social_icon_structure": {
+          "social_icon": "FontAwesome icon object",
+          "link": "URL object with external/nofollow flags",
+          "item_icon_color": "Individual icon color override"
+        }
+      },
+      "styling_properties": {
+        "team_height": "Card height in px",
+        "content_align": "Content alignment",
+        "cport_typography_*": "Name typography",
+        "ctext_typography_*": "Role typography",
+        "title_cl": "Name color",
+        "txt_cl": "Role color",
+        "bg_content": "Card background color"
+      },
+      "layout_controls": {
+        "port_padding": "Card internal padding",
+        "port_content": "Content positioning within card",
+        "titlep_margin": "Name spacing",
+        "tx_margin": "Role text spacing"
+      },
+      "example_configuration": {
+        "title": "Indah Levi",
+        "text": "Director of Health", 
+        "image": {"url": "team2-1.jpg", "id": 359},
+        "team_height": {"unit": "px", "size": 420},
+        "social_icon_list": [
+          {
+            "social_icon": {"value": "fab fa-facebook-f", "library": "fa-brands"},
+            "link": {"url": "#", "is_external": "true"}
+          }
+        ]
+      }
+    },
+
+    "cholot-testimonial-two": {
+      "description": "Customer testimonials carousel widget",
+      "core_properties": {
+        "show_desktop": "Number of testimonials visible on desktop",
+        "testi_list": "Array of testimonial objects"
+      },
+      "testimonial_structure": {
+        "title": "Customer name",
+        "position": "Customer role/title", 
+        "text": "Testimonial content",
+        "image": "Customer photo object",
+        "_id": "Unique testimonial identifier"
+      },
+      "typography_controls": {
+        "title_typography_*": "Customer name typography",
+        "name_typography_*": "Name display settings",
+        "post_typography_*": "Position/role typography"
+      },
+      "styling_properties": {
+        "name_color": "Customer name color",
+        "post_color": "Position text color", 
+        "title_color": "Testimonial text color",
+        "text_bgcolor": "Testimonial background color",
+        "testi_box_bg": "Overall box background"
+      },
+      "layout_controls": {
+        "img_size": "Profile image size",
+        "img_radius": "Profile image border radius",
+        "textbox_padding": "Testimonial text padding",
+        "testi_box_margin": "Overall testimonial spacing"
+      },
+      "example_configuration": {
+        "show_desktop": 3,
+        "testi_list": [
+          {
+            "title": "Irgan Rogan",
+            "position": "Member",
+            "text": "My daughter took me to visit senior communities eight years ago...",
+            "image": {"url": "testimonial1.jpg", "id": 50}
+          }
+        ]
+      }
+    },
+
+    "cholot-text-line": {
+      "description": "Text content with decorative line elements",
+      "core_properties": {
+        "title": "Main heading text",
+        "subtitle": "Secondary text",
+        "line": "Decorative line width",
+        "line_height": "Line thickness"
+      },
+      "typography_controls": {
+        "title_typography_*": "Title typography settings",
+        "subtitle_typography_*": "Subtitle typography settings"
+      },
+      "styling_properties": {
+        "subtitle_color": "Subtitle text color",
+        "line_color_hover": "Line color on hover",
+        "_background_color": "Widget background",
+        "_border_color": "Border color"
+      },
+      "spacing_controls": {
+        "title_margin": "Title spacing",
+        "text_margin": "Text content spacing",
+        "wline_padding": "Widget internal padding",
+        "wline_margin": "Widget external margin"
+      },
+      "example_configuration": {
+        "title": "Retirement funds and planning.",
+        "subtitle": "till the end",
+        "line": {"unit": "px", "size": 50},
+        "line_height": {"unit": "px", "size": 2},
+        "subtitle_color": "#b68c2f"
+      }
+    },
+
+    "cholot-gallery": {
+      "description": "Custom image gallery with grid layouts",
+      "core_properties": {
+        "gallery": "Array of image objects",
+        "port_column": "Column layout class (col-md-4, etc)",
+        "gallery_height": "Image height",
+        "gallery_margin": "Spacing between images"
+      },
+      "image_structure": {
+        "id": "Image attachment ID",
+        "url": "Image URL"
+      },
+      "display_controls": {
+        "title_show": "Show/hide image titles",
+        "caption_show": "Show/hide image captions"
+      },
+      "responsive_settings": {
+        "gallery_height_tablet": "Tablet image height",
+        "gallery_margin_tablet": "Tablet spacing",
+        "gallery_height_mobile": "Mobile image height",
+        "gallery_margin_mobile": "Mobile spacing"
+      },
+      "example_configuration": {
+        "gallery": [
+          {"id": 50, "url": "gallery1.jpg"},
+          {"id": 51, "url": "gallery2.jpg"}
+        ],
+        "port_column": "col-md-4",
+        "gallery_height": {"unit": "px", "size": 50}
+      }
+    },
+
+    "cholot-contact": {
+      "description": "Contact form widget with Contact Form 7 integration",
+      "core_properties": {
+        "shortcode": "Contact Form 7 shortcode"
+      },
+      "button_styling": {
+        "btn_typography_*": "Button typography",
+        "btn_color": "Button text color",
+        "btn_bg": "Button background",
+        "btn_border": "Button border width",
+        "btn_border_color": "Button border color"
+      },
+      "form_styling": {
+        "form_placeholder": "Placeholder text color",
+        "form_bg": "Form field background",
+        "form_border_color": "Field border color",
+        "form_text": "Form text color"
+      },
+      "spacing_controls": {
+        "btn_margin": "Button spacing",
+        "btn_padding": "Button internal padding"
+      },
+      "example_configuration": {
+        "shortcode": "[contact-form-7 id=\"5\" title=\"Contact form\"]",
+        "btn_color": "#ffffff",
+        "btn_bg": "rgba(0,0,0,0)",
+        "btn_border_color": "#b68c2f"
+      }
+    },
+
+    "cholot-post-three": {
+      "description": "Blog post display widget with 3-column layout",
+      "core_properties": {
+        "blog_post": "Number of posts to display",
+        "sort_cat": "Enable category sorting",
+        "blog_cat": "Array of category IDs",
+        "blog_column": "Layout type (one, two, three)",
+        "button": "Read more button text"
+      },
+      "content_controls": {
+        "show_excerpt": "Show post excerpts",
+        "excerpt_after": "Excerpt ending text",
+        "cat_show": "Show category labels"
+      },
+      "typography_settings": {
+        "title_typo_*": "Post title typography",
+        "meta_typo_*": "Post meta typography",
+        "cat_typo_*": "Category label typography"
+      },
+      "styling_properties": {
+        "title_color_hover": "Title hover color",
+        "meta_color": "Meta text color",
+        "meta_link": "Meta link color",
+        "cat_color": "Category text color",
+        "image_border_*": "Featured image border"
+      },
+      "example_configuration": {
+        "blog_post": 2,
+        "blog_cat": ["8"],
+        "button": "Read More",
+        "title_typo_font_size": {"unit": "px", "size": 14}
+      }
+    },
+
+    "cholot-logo": {
+      "description": "Site logo display widget",
+      "core_properties": {
+        "logo_img": "Logo image object",
+        "align": "Logo alignment",
+        "height": "Logo display height"
+      },
+      "example_configuration": {
+        "logo_img": {"url": "logo-white.png", "id": 659},
+        "align": "left",
+        "height": {"unit": "px", "size": 70}
+      }
+    },
+
+    "cholot-menu": {
+      "description": "Navigation menu widget",
+      "core_properties": {
+        "cholot_menu": "Menu location identifier",
+        "align": "Menu alignment"
+      },
+      "responsive_controls": {
+        "desktop_menu_tablet": "Desktop menu display on tablet",
+        "mobile_menu": "Mobile menu display",
+        "mobile_menu_tablet": "Mobile menu display on tablet"
+      },
+      "styling_properties": {
+        "menu_color": "Menu text color",
+        "menu_color_hover": "Menu hover color",
+        "hamb_color": "Hamburger icon color"
+      },
+      "typography_settings": {
+        "menu_typo_*": "Menu typography controls"
+      },
+      "example_configuration": {
+        "cholot_menu": "default-menu",
+        "align": "right",
+        "menu_color": "#ffffff",
+        "menu_color_hover": "#b68c2f"
+      }
+    },
+
+    "cholot-button-text": {
+      "description": "Custom button with text and styling options",
+      "core_properties": {
+        "btn_text": "Button text",
+        "btn_sub": "Button subtitle text",
+        "link": "Button URL object",
+        "selected_icon": "Button icon"
+      },
+      "typography_controls": {
+        "btn_typography_*": "Button text typography"
+      },
+      "styling_properties": {
+        "btn_color": "Button text color",
+        "btn_bg": "Button background",
+        "btn_border": "Button border"
+      },
+      "example_configuration": {
+        "btn_text": "+122-000-000",
+        "btn_sub": "Schedule a visit",
+        "selected_icon": {"value": "fas fa-chair", "library": "fa-solid"}
+      }
+    }
+  },
+
+  "common_patterns": {
+    "responsive_properties": {
+      "naming_convention": "{property}_{breakpoint}",
+      "breakpoints": ["tablet", "mobile"],
+      "example": "title_typography_font_size_mobile"
+    },
+    "unit_objects": {
+      "structure": {
+        "unit": "Measurement unit (px, %, em, rem)",
+        "size": "Numeric value",
+        "sizes": "Array for multiple values"
+      },
+      "spacing_objects": {
+        "unit": "Measurement unit",
+        "top": "Top spacing",
+        "right": "Right spacing", 
+        "bottom": "Bottom spacing",
+        "left": "Left spacing",
+        "isLinked": "Whether all sides use same value"
+      }
+    },
+    "color_formats": [
+      "Hex: #b68c2f",
+      "RGBA: rgba(182,140,47,0.8)", 
+      "RGB: rgb(182,140,47)",
+      "Transparent: rgba(0,0,0,0)"
+    ],
+    "typography_properties": [
+      "typography_typography: 'custom'",
+      "typography_font_family",
+      "typography_font_size",
+      "typography_font_weight",
+      "typography_line_height", 
+      "typography_letter_spacing",
+      "typography_text_transform"
+    ]
+  }
+}
