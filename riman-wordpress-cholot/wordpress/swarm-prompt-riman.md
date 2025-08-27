@@ -12,7 +12,12 @@ Transform the Cholot retirement theme WordPress XML to RIMAN GmbH environmental 
 
 ## Available Resources
 
-### 1. Original XML Structure
+### 1. Live Reference Site
+- **Original Cholot Theme**: http://localhost:8080/
+- View the working theme structure and design that CEO loves
+- Study the exact layout and content areas to preserve
+
+### 2. Original XML Structure
 - File: `demo-data-fixed.xml` (Cholot theme original)
 - Structure: WordPress WXR format with Elementor page builder data
 - Critical: ALL widget names must remain as "cholot-*" (NOT "riman-*")
