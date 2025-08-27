@@ -14,3 +14,7 @@
 3. damir-bosnjak-366766-unsplash (Services Overview)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308562681.png
    Target: wp-content/uploads/2025/08/damir-bosnjak-366766-unsplash.jpg
+
+4. josh-appel-423804-unsplash (Technology Focus)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308647568.png
+   Target: wp-content/uploads/2025/08/josh-appel-423804-unsplash.jpg
