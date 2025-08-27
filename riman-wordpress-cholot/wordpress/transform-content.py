@@ -76,7 +76,7 @@ def create_content_replacements(riman_content: Dict) -> List[Tuple[str, str]]:
          'Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, unsere Kernthemen sind "sicher bauen und gesund leben".'),
         
         # Service descriptions
-        ('It's a great way for you to make use of all the benefits of being a part.', 
+        ("It's a great way for you to make use of all the benefits of being a part.", 
          'Professionelle Schadstoffsanierung für sichere und gesunde Bauprojekte.'),
         
         # Testimonial replacement
