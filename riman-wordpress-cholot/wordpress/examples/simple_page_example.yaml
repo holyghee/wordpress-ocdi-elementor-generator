@@ -1,0 +1,124 @@
+# Simple Page Example - YAML Format
+# This demonstrates basic page creation with common widgets
+
+site:
+  title: "My Business Website"
+  description: "Professional business website using Cholot theme"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+pages:
+  - title: "Home"
+    slug: "home"
+    status: "publish"
+    sections:
+      # Hero Section
+      - structure: "100"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#232323"
+            background_image:
+              url: "http://localhost:8082/hero-bg.jpg"
+              id: 100
+            background_position: "center center"
+            background_size: "cover"
+        columns:
+          - width: 100
+            widgets:
+              - type: "texticon"
+                title: "Welcome to Our Company"
+                subtitle: "Excellence in Service"
+                icon: "fas fa-crown"
+                text: "Your trusted partner for professional solutions"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 36
+                    sizes: []
+      
+      # About Section  
+      - structure: "50"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#f4f4f4"
+        columns:
+          - width: 50
+            widgets:
+              - type: "title"
+                title: "About Us<span>.</span>"
+                header_size: "h2"
+                align: "left"
+              
+              - type: "text-line"
+                title: "Professional Excellence Since 2010"
+                subtitle: "Our Mission"
+                line_width: 60
+                line_height: 3
+                background_color: "#ffffff"
+          
+          - width: 50
+            widgets:
+              - type: "team"
+                name: "Sarah Johnson"
+                position: "CEO & Founder"
+                image_url: "http://localhost:8082/team-ceo.jpg"
+                image_id: 200
+                height: "400px"
+                align: "center"
+                social_links:
+                  - icon: "fab fa-linkedin-in"
+                    url: "https://linkedin.com/in/sarahjohnson"
+                  - icon: "fab fa-twitter"
+                    url: "https://twitter.com/sarahjohnson"
+      
+      # Services Section
+      - structure: "33"
+        columns:
+          - width: 33
+            widgets:
+              - type: "texticon"
+                title: "Consulting"
+                subtitle: "Expert Advice"
+                icon: "fas fa-lightbulb"
+                text: "Strategic consulting for your business growth"
+          
+          - width: 33
+            widgets:
+              - type: "texticon"
+                title: "Implementation"
+                subtitle: "Hands-on Support"
+                icon: "fas fa-cogs"
+                text: "Complete implementation of solutions"
+          
+          - width: 33
+            widgets:
+              - type: "texticon"
+                title: "Support"
+                subtitle: "24/7 Assistance"
+                icon: "fas fa-headset"
+                text: "Round-the-clock support for your peace of mind"
+      
+      # Contact Section
+      - structure: "100"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#232323"
+        columns:
+          - width: 100
+            widgets:
+              - type: "title"
+                title: "Get In Touch<span>.</span>"
+                header_size: "h2"
+                align: "center"
+                custom_settings:
+                  title_color: "#ffffff"
+              
+              - type: "contact"
+                shortcode: '[contact-form-7 id="1" title="Contact form"]'
+                button_width: "200px"
+                custom_settings:
+                  btn_width: "200px"
+                  form_bg: "rgba(255,255,255,0.1)"
