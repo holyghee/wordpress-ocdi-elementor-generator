@@ -22,55 +22,61 @@ def load_json_file(filepath):
 
 def replace_image_urls(content, seo_mapping):
     """Replace all image URLs with SEO-optimized versions."""
+    
     # Create mapping from original filenames to SEO names
-    url_mapping = {}
+    filename_to_seo = {}
     
     for img in seo_mapping.get('images', []):
         original = img['original']
         seo_name = img['seo_name']
         format_ext = img['format']
-        
-        # Map various URL patterns to SEO name
-        url_mapping[original] = f"http://localhost:8082/{seo_name}.{format_ext}"
-        
-        # Also handle uploaded file patterns
-        if original.endswith('-unsplash') or original.isdigit() or original.startswith('team') or original in ['logo', 'logo-white', 'sign', 'bg-ab']:
-            # Handle different URL patterns that might appear
-            url_patterns = [
-                f"https://theme.winnertheme.com/cholot/wp-content/uploads/2019/07/{original}",
-                f"https://theme.winnertheme.com/cholot/wp-content/uploads/2019/06/{original}",
-                f"https://theme.winnertheme.com/cholot/wp-content/uploads/{original}",
-                f"wp-content/uploads/2019/07/{original}",
-                f"wp-content/uploads/2019/06/{original}",
-                f"wp-content/uploads/{original}",
-            ]
-            
-            for pattern in url_patterns:
-                for ext in ['.jpg', '.jpeg', '.png', '.webp', '-300x300.jpg', '-768x768.jpg', '-1024x1024.jpg']:
-                    url_mapping[f"{pattern}{ext}"] = f"http://localhost:8082/{seo_name}.{format_ext}"
-                    url_mapping[f"{pattern.replace('https://theme.winnertheme.com/cholot/', '')}{ext}"] = f"http://localhost:8082/{seo_name}.{format_ext}"
+        filename_to_seo[original] = f"{seo_name}.{format_ext}"
     
     # Replace URLs in content
     modified_content = content
     
-    # Replace all winnertheme.com URLs
+    # First, fix any malformed URLs that might exist
     modified_content = re.sub(
-        r'https://theme\.winnertheme\.com/cholot/wp-content/uploads/[^"\'>\s]+',
-        lambda m: url_mapping.get(m.group(0), m.group(0)),
+        r'https://[^/]+/cholot/http://localhost:8082/',
+        'http://localhost:8082/',
         modified_content
     )
     
-    # Replace relative wp-content URLs
+    # Replace specific image URLs with SEO versions
+    def replace_image_url(match):
+        full_url = match.group(0)
+        
+        # Extract filename from URL
+        filename_match = re.search(r'/([^/]+?)(?:-\d+x\d+)?\.(?:jpg|jpeg|png|webp)$', full_url)
+        if filename_match:
+            filename = filename_match.group(1)
+            
+            # Check if we have a SEO mapping for this filename
+            if filename in filename_to_seo:
+                return f"http://localhost:8082/{filename_to_seo[filename]}"
+    
+        # If no specific mapping, use generic localhost replacement
+        return full_url.replace('https://theme.winnertheme.com/cholot', 'http://localhost:8082')
+    
+    # Replace all image URLs
     modified_content = re.sub(
-        r'wp-content/uploads/[^"\'>\s]+',
-        lambda m: url_mapping.get(m.group(0), f"http://localhost:8082/{m.group(0)}"),
+        r'https://[^/]+/[^/]*/wp-content/uploads/[^"\'>\s]*\.(?:jpg|jpeg|png|webp)',
+        replace_image_url,
         modified_content
     )
     
-    # Generic replacement for any remaining winnertheme URLs
-    modified_content = modified_content.replace(
-        'https://theme.winnertheme.com/cholot',
-        'http://localhost:8082'
+    # Replace any remaining winnertheme.com URLs
+    modified_content = re.sub(
+        r'https://theme\.winnertheme\.com/cholot([^"\'>\s]*)',
+        r'http://localhost:8082\1',
+        modified_content
+    )
+    
+    # Replace demo.ridianur.com URLs
+    modified_content = re.sub(
+        r'https://demo\.ridianur\.com/cholot',
+        'http://localhost:8082',
+        modified_content
     )
     
     return modified_content
