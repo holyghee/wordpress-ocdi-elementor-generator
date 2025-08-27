@@ -1,24 +1,60 @@
 #!/bin/bash
 
-# XML Generator Swarm Runner
-# Referenziert die detaillierte Prompt-Datei
+echo "🔬 Elementor XML Generator Research Swarm"
+echo "=========================================="
+echo ""
 
-echo "🚀 Starting Cholot XML Generator Swarm..."
+# Set working directory
+cd /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress
 
-# Option 1: Datei direkt einlesen und als Prompt übergeben (EMPFOHLEN)
-npx claude-flow@alpha swarm "$(cat swarm-prompt-xml-generator.md)" \
-  --strategy content-transformation \
+echo "📂 Working Directory:"
+echo "   $(pwd)"
+echo ""
+
+echo "📋 Available Resources:"
+echo "   ✅ generate_wordpress_xml.py (working generator)"
+echo "   ✅ 7 Elementor JSON templates in elementor-templates/"
+echo "   ✅ Multiple prototype implementations"
+echo "   ✅ Gemini's analysis (Hybrid approach recommended)"
+echo ""
+
+echo "🚀 Starting Research Swarm..."
+echo "================================"
+echo ""
+
+# Run swarm with all context
+npx claude-flow@alpha swarm "TASK: Build production-ready Elementor JSON generator using HYBRID approach (Fixed Code for structure + LLM for content).
+
+AVAILABLE FILES:
+- Working: generate_wordpress_xml.py (1164 lines, converts YAML→WordPress XML)
+- Templates: elementor-templates/*.json (7 real Cholot theme exports)
+- Prototypes: adaptive-layout-engine.py, content-design-separator.py, block-library-system.py
+- Analysis: fixed-code-vs-llm-analysis.py, realistic-solution.md
+
+GEMINI RECOMMENDATION: Hybrid approach - Fixed code generates JSON structure with placeholders, LLM fills content. This ensures 100% valid JSON while maintaining creative flexibility.
+
+DELIVERABLE: 
+1. Analyze all 13 Cholot widgets from templates
+2. Create widget generator functions for each
+3. Implement placeholder system for content
+4. Build working prototype that generates valid Elementor JSON
+5. Test with real use cases (3 services vs 6 services)
+
+FOCUS: Don't theorize - build actual working code based on our existing systems." \
+  --strategy research \
   --neural-patterns enabled \
-  --memory-compression high
+  --memory-compression high \
+  --agents 4 \
+  --topology hierarchical \
+  --max-time 600 \
+  --output-format detailed \
+  --verbose
 
-# Option 2: Kurzer Prompt mit Dateiverweis
-# npx claude-flow@alpha swarm "Read and execute the detailed instructions in swarm-prompt-xml-generator.md. This file contains the complete specification for creating an intelligent WordPress XML generator from Cholot theme components. Follow all phases: Component Discovery, Pattern Recognition, and Generator Design. The main files to analyze are demo-data-fixed.xml and riman-content-structure.json in the current directory." \
-#   --strategy content-transformation \
-#   --neural-patterns enabled \
-#   --memory-compression high
-
-# Option 3: Kombination - Zusammenfassung + Details
-# npx claude-flow@alpha swarm "Create an intelligent WordPress XML generator that understands Cholot theme components. IMPORTANT: Read swarm-prompt-xml-generator.md for complete specifications. Key tasks: 1) Parse demo-data-fixed.xml to extract all Elementor widgets as reusable components, 2) Design a system that accepts Markdown/YAML/JSON input, 3) Generate valid WordPress XML maintaining 100% Cholot theme compatibility. Use the detailed implementation strategy in the markdown file." \
-#   --strategy content-transformation \
-#   --neural-patterns enabled \
-#   --memory-compression high
+echo ""
+echo "✅ Swarm Complete!"
+echo ""
+echo "📊 Next Steps:"
+echo "1. Review swarm recommendations"
+echo "2. Implement hybrid generator system"
+echo "3. Test with Cholot theme imports"
+echo "4. Refine based on results"

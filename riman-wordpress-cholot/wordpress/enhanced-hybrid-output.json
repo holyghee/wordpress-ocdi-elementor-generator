@@ -1,0 +1,197 @@
+{
+  "strategy": {
+    "website_type": "service_business",
+    "primary_goal": "generate_leads",
+    "content_sections": [
+      "hero",
+      "services",
+      "certifications",
+      "about",
+      "testimonials",
+      "contact"
+    ],
+    "tone": "professional",
+    "layout_preference": "3_column",
+    "key_messages": [
+      "25+ years of certified expertise",
+      "Safe and environmentally responsible",
+      "Comprehensive sanitation services"
+    ],
+    "target_audience": "Property owners and facility managers needing professional hazardous material removal",
+    "keywords": [
+      "years",
+      "certified",
+      "expertise",
+      "safe",
+      "environmentally",
+      "responsible",
+      "comprehensive",
+      "sanitation",
+      "services",
+      "property",
+      "owners",
+      "facility",
+      "managers",
+      "needing",
+      "professional",
+      "hazardous",
+      "material",
+      "removal"
+    ]
+  },
+  "blocks_used": [
+    "hero_section",
+    "services_3col"
+  ],
+  "generated_content": {
+    "hero_section": {
+      "TITLE": "RIMAN GmbH - Ihre Experten für professionelle Schadstoffsanierung",
+      "SUBTITLE": "Seit über 25 Jahren sorgen wir für sichere Sanierung von Asbest, PCB, Schimmel und weiteren Schadstoffen"
+    },
+    "services_3col": {
+      "SERVICE_1_TITLE": "Asbestsanierung",
+      "SERVICE_1_TEXT": "Zertifizierte Asbestentfernung nach TRGS 519 mit modernster Sicherheitstechnik",
+      "SERVICE_2_TITLE": "PCB-Sanierung",
+      "SERVICE_2_TEXT": "Umweltgerechte PCB-Sanierung in Gebäuden und Anlagen",
+      "SERVICE_3_TITLE": "Schimmelsanierung",
+      "SERVICE_3_TEXT": "Professionelle Schimmelpilzbeseitigung mit Ursachenanalyse"
+    }
+  },
+  "elementor_json": [
+    {
+      "id": "2wjjaiqb",
+      "elType": "section",
+      "settings": {
+        "structure": "100",
+        "background_background": "classic",
+        "background_color": "#f8f9fa",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "elements": [
+        {
+          "id": "rjn7plkf",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "oo49cq6u",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "RIMAN GmbH - Ihre Experten für professionelle Schadstoffsanierung",
+                "size": "xl",
+                "align": "center"
+              }
+            },
+            {
+              "id": "alrhz3n2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-size: 18px;'>Seit über 25 Jahren sorgen wir für sichere Sanierung von Asbest, PCB, Schimmel und weiteren Schadstoffen</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h73p786i",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "2qdjodhg",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "mmk5wyqh",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Asbestsanierung",
+                "description_text": "Zertifizierte Asbestentfernung nach TRGS 519 mit modernster Sicherheitstechnik",
+                "selected_icon": {
+                  "value": "fas fa-shield-alt"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "4lnxaixo",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "bxksojyr",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "PCB-Sanierung",
+                "description_text": "Umweltgerechte PCB-Sanierung in Gebäuden und Anlagen",
+                "selected_icon": {
+                  "value": "fas fa-flask"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "k0yjti2r",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "lw6ne9d7",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Schimmelsanierung",
+                "description_text": "Professionelle Schimmelpilzbeseitigung mit Ursachenanalyse",
+                "selected_icon": {
+                  "value": "fas fa-home"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "performance": {
+    "total_time": 0.0,
+    "analysis_time": 0.0,
+    "selection_time": 0.0,
+    "content_time": 0.0,
+    "assembly_time": 0.0,
+    "gemini_calls": 2,
+    "cache_hits": 0
+  },
+  "stats": {
+    "total_sections": 2,
+    "total_elements": 5,
+    "content_words": 45
+  }
+}

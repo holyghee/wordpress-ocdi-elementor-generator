@@ -1,0 +1,172 @@
+{
+  "strategy": {
+    "website_type": "service_business",
+    "primary_goal": "generate_leads",
+    "content_sections": [
+      "hero",
+      "services",
+      "about",
+      "contact"
+    ],
+    "tone": "professional_trustworthy",
+    "keywords": [
+      "sanierung",
+      "GmbH",
+      "PAK-Sanierung",
+      "Asbestsanierung",
+      "Schimmelsanierung",
+      "schadstoff",
+      "sicherheit",
+      "KMF-Sanierung",
+      "PCB-Sanierung",
+      "umwelt",
+      "RIMAN"
+    ],
+    "layout_preference": "2x3_grid"
+  },
+  "blocks_used": [
+    "hero_section",
+    "services_3col"
+  ],
+  "generated_content": {
+    "hero_section": {
+      "TITLE": "RIMAN GmbH - Professionelle Schadstoffsanierung",
+      "SUBTITLE": "Seit 1998 Ihr zuverlässiger Partner für sichere Sanierungsarbeiten"
+    },
+    "services_3col": {
+      "SERVICE_1_TITLE": "Asbestsanierung",
+      "SERVICE_1_TEXT": "Sichere und zertifizierte Entfernung von Asbest durch geschulte Fachkräfte",
+      "SERVICE_2_TITLE": "PCB-Sanierung",
+      "SERVICE_2_TEXT": "Umweltgerechte Entsorgung von PCB-belasteten Materialien",
+      "SERVICE_3_TITLE": "Schimmelsanierung",
+      "SERVICE_3_TEXT": "Nachhaltige Beseitigung von Schimmelpilzen und Ursachenbehebung"
+    }
+  },
+  "elementor_json": [
+    {
+      "id": "xwacut5i",
+      "elType": "section",
+      "settings": {
+        "structure": "100",
+        "background_background": "classic",
+        "background_color": "#f8f9fa",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "elements": [
+        {
+          "id": "cif3mpqd",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ry8yb778",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "RIMAN GmbH - Professionelle Schadstoffsanierung",
+                "size": "xl",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ana2cnc3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-size: 18px;'>Seit 1998 Ihr zuverlässiger Partner für sichere Sanierungsarbeiten</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yoa43vei",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "rfgjbzgx",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "f7u1q07s",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Asbestsanierung",
+                "description_text": "Sichere und zertifizierte Entfernung von Asbest durch geschulte Fachkräfte",
+                "selected_icon": {
+                  "value": "fas fa-shield-alt"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "myaz94lu",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "zjbzgkw6",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "PCB-Sanierung",
+                "description_text": "Umweltgerechte Entsorgung von PCB-belasteten Materialien",
+                "selected_icon": {
+                  "value": "fas fa-flask"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "6rz8ljcg",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "rti25oh1",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Schimmelsanierung",
+                "description_text": "Nachhaltige Beseitigung von Schimmelpilzen und Ursachenbehebung",
+                "selected_icon": {
+                  "value": "fas fa-home"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_sections": 2,
+    "total_elements": 5
+  }
+}

@@ -1,0 +1,8 @@
+company: "RIMAN GmbH"
+industry: "sanierung"
+services:
+  - "Asbest"
+  - "PCB"
+  - "Schimmel"
+base_url: "https://riman-gmbh.de"
+language: "de-DE"
