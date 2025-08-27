@@ -1,0 +1,22 @@
+Agent commands:
+  spawn <type> [--name <name>]     Create new agent
+  list [--verbose]                 List active agents
+  terminate <id>                   Stop specific agent
+  info <id>                        Show agent details
+  hierarchy <create|show>          Manage agent hierarchies
+  network <topology|metrics>       Agent network operations
+  ecosystem <status|optimize>      Ecosystem management
+  provision <count>                Auto-provision agents
+
+Agent Types:
+  researcher    Research and information gathering
+  coder         Code development and analysis
+  analyst       Data analysis and insights
+  coordinator   Task coordination and management
+  general       Multi-purpose agent
+
+Examples:
+  claude-flow agent spawn researcher --name "DataBot"
+  claude-flow agent list --verbose
+  claude-flow agent hierarchy create enterprise
+  claude-flow agent ecosystem status
