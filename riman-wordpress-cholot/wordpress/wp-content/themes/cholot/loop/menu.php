@@ -15,21 +15,15 @@
             <div class="container-fluid">
                 <div class="logo-clean">
                     <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <?php if (is_singular() && class_exists('Kirki') && get_post_meta(get_the_ID(), 'cholot_default_header', true) != 'head_standard') { ?>
-                        <img alt="<?php esc_attr_e('Logo', 'cholot'); ?>" class="logo1"
-                            src="
-                                                            <?php if (class_exists('Kirki') && get_theme_mod('cholot_logo_image')) {
-                                                                echo esc_url(get_theme_mod('cholot_logo_image'));
-                                                            } else {
-                                                                echo get_template_directory_uri(); ?>/images/logo-white.png <?php } ?>">
+                        <?php if (class_exists('Kirki') && (get_theme_mod('cholot_logo_image') || get_theme_mod('cholot_logo_image_white'))) { ?>
+                            <?php if (is_singular() && get_post_meta(get_the_ID(), 'cholot_default_header', true) != 'head_standard') { ?>
+                                <img alt="<?php esc_attr_e('Logo', 'cholot'); ?>" class="logo1" src="<?php echo esc_url(get_theme_mod('cholot_logo_image')); ?>">
+                            <?php } else { ?>
+                                <img alt="<?php esc_attr_e('Logo', 'cholot'); ?>" class="logo1" src="<?php echo esc_url(get_theme_mod('cholot_logo_image_white')); ?>">
+                            <?php } ?>
                         <?php } else { ?>
-                        <img alt="<?php esc_attr_e('Logo', 'cholot'); ?>" class="logo1"
-                            src="
-                                                            <?php if (is_singular() && class_exists('Kirki') && get_theme_mod('cholot_logo_image_white')) {
-                                                                echo esc_url(get_theme_mod('cholot_logo_image_white'));
-                                                            } else {
-                                                                echo get_template_directory_uri(); ?>/images/logo.png <?php } ?>">
-                        <?php  } ?>
+                            <h2 style="color: white; margin: 10px 0;">RIMAN GmbH</h2>
+                        <?php } ?>
                     </a>
                 </div>
                 <!--/.logo-clean-->
