@@ -26,3 +26,7 @@
 6. val-vesa-410839-unsplash (Rückbaumanagement)
    Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308848918.png
    Target: wp-content/uploads/2025/08/val-vesa-410839-unsplash.jpg
+
+7. vlad-sargu-479334-unsplash (Altlastensanierung)
+   Source: /Users/holgerbrandt/dev/claude-code/tools/midjourney-mcp-server/midjourney-images/midjourney_upscaled_1756308931737.png
+   Target: wp-content/uploads/2025/08/vlad-sargu-479334-unsplash.jpg
