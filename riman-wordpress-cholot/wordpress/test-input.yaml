@@ -1,0 +1,11 @@
+company: "TechPro Solutions"
+industry: "beratung"
+services:
+  - "IT-Strategie"
+  - "Digital Transformation"
+  - "Cloud Migration"
+  - "Cybersecurity"
+  - "Data Analytics"
+  - "Process Automation"
+base_url: "https://techpro.de"
+language: "de-DE"
