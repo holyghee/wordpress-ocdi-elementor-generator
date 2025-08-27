@@ -110,7 +110,7 @@
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 
 <image>
-	<url>https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/cropped-matteo-vistocco-537858-unsplash-32x32.jpg</url>
+	<url>http://localhost:8082/06/cropped-matteo-vistocco-537858-unsplash-32x32.jpg</url>
 	<title>Cholot</title>
 	<link>https://theme.winnertheme.com/cholot</link>
 	<width>32</width>
@@ -122,7 +122,7 @@
 		<link>https://demo.ridianur.com/cholot/home/esther-town-492626-unsplash/</link>
 		<pubDate>Thu, 27 Jun 2019 07:27:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/esther-town-492626-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -138,7 +138,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/esther-town-492626-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/esther-town-492626-unsplash.jpg]]></wp:meta_value>
@@ -153,7 +153,7 @@
 		<link>https://demo.ridianur.com/cholot/home/huy-phan-100866-unsplash/</link>
 		<pubDate>Thu, 27 Jun 2019 07:33:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/huy-phan-100866-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/huy-phan-100866-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -169,7 +169,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/huy-phan-100866-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/huy-phan-100866-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/huy-phan-100866-unsplash.jpg]]></wp:meta_value>
@@ -184,7 +184,7 @@
 		<link>https://demo.ridianur.com/cholot/home/damir-bosnjak-366766-unsplash/</link>
 		<pubDate>Fri, 28 Jun 2019 10:49:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -200,7 +200,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/damir-bosnjak-366766-unsplash.jpg]]></wp:meta_value>
@@ -215,7 +215,7 @@
 		<link>https://demo.ridianur.com/cholot/home/josh-appel-423804-unsplash/</link>
 		<pubDate>Fri, 28 Jun 2019 10:49:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/josh-appel-423804-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/josh-appel-423804-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -231,7 +231,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/josh-appel-423804-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/josh-appel-423804-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/josh-appel-423804-unsplash.jpg]]></wp:meta_value>
@@ -246,7 +246,7 @@
 		<link>https://demo.ridianur.com/cholot/home/matteo-vistocco-537858-unsplash/</link>
 		<pubDate>Fri, 28 Jun 2019 10:49:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/matteo-vistocco-537858-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -262,7 +262,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/matteo-vistocco-537858-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/matteo-vistocco-537858-unsplash.jpg]]></wp:meta_value>
@@ -277,7 +277,7 @@
 		<link>https://demo.ridianur.com/cholot/home/val-vesa-410839-unsplash/</link>
 		<pubDate>Fri, 28 Jun 2019 10:49:26 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/val-vesa-410839-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -293,7 +293,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/val-vesa-410839-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/val-vesa-410839-unsplash.jpg]]></wp:meta_value>
@@ -308,7 +308,7 @@
 		<link>https://demo.ridianur.com/cholot/home/vlad-sargu-479334-unsplash/</link>
 		<pubDate>Fri, 28 Jun 2019 10:49:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/vlad-sargu-479334-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/vlad-sargu-479334-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -324,7 +324,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/vlad-sargu-479334-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/vlad-sargu-479334-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/vlad-sargu-479334-unsplash.jpg]]></wp:meta_value>
@@ -339,7 +339,7 @@
 		<link>https://demo.ridianur.com/cholot/home/anthony-metcalfe-580436-unsplash/</link>
 		<pubDate>Fri, 28 Jun 2019 10:49:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/anthony-metcalfe-580436-unsplash.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -355,7 +355,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/anthony-metcalfe-580436-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/anthony-metcalfe-580436-unsplash.jpg]]></wp:meta_value>
@@ -370,7 +370,7 @@
 		<link>https://demo.ridianur.com/cholot/home/sign/</link>
 		<pubDate>Sat, 29 Jun 2019 16:53:32 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/sign.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -386,7 +386,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/sign.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/sign.png]]></wp:meta_value>
@@ -401,7 +401,7 @@
 		<link>https://demo.ridianur.com/cholot/home/attachment/1/</link>
 		<pubDate>Mon, 01 Jul 2019 17:53:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -417,7 +417,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/1.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/1.jpg]]></wp:meta_value>
@@ -432,7 +432,7 @@
 		<link>https://demo.ridianur.com/cholot/home/attachment/2/</link>
 		<pubDate>Mon, 01 Jul 2019 17:54:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -448,7 +448,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/2.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/2.jpg]]></wp:meta_value>
@@ -463,7 +463,7 @@
 		<link>https://demo.ridianur.com/cholot/about/attachment/3/</link>
 		<pubDate>Mon, 01 Jul 2019 17:56:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -479,7 +479,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/3.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/3.jpg]]></wp:meta_value>
@@ -494,7 +494,7 @@
 		<link>https://demo.ridianur.com/cholot/about/4-2/</link>
 		<pubDate>Mon, 01 Jul 2019 17:56:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/4.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -510,7 +510,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/4.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/4.jpg]]></wp:meta_value>
@@ -525,7 +525,7 @@
 		<link>https://demo.ridianur.com/cholot/home/attachment/5/</link>
 		<pubDate>Wed, 03 Jul 2019 16:02:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/5.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -541,7 +541,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/5.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/5.png]]></wp:meta_value>
@@ -556,7 +556,7 @@
 		<link>https://demo.ridianur.com/cholot/home/attachment/7/</link>
 		<pubDate>Wed, 03 Jul 2019 16:06:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/7.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -572,7 +572,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/7.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/7.jpg]]></wp:meta_value>
@@ -587,7 +587,7 @@
 		<link>https://demo.ridianur.com/cholot/home/5-2/</link>
 		<pubDate>Wed, 03 Jul 2019 16:06:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/5.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -603,7 +603,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/5.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/5.jpg]]></wp:meta_value>
@@ -618,7 +618,7 @@
 		<link>https://demo.ridianur.com/cholot/home/attachment/6/</link>
 		<pubDate>Wed, 03 Jul 2019 16:06:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/6.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -634,7 +634,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/6.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/6.jpg]]></wp:meta_value>
@@ -649,7 +649,7 @@
 		<link>https://demo.ridianur.com/cholot/about/6-2/</link>
 		<pubDate>Wed, 03 Jul 2019 16:37:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/6.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -665,7 +665,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/6.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/6.png]]></wp:meta_value>
@@ -680,7 +680,7 @@
 		<link>https://demo.ridianur.com/cholot/about/team1/</link>
 		<pubDate>Wed, 03 Jul 2019 16:40:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team1.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/team1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -696,7 +696,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team1.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/team1.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/team1.jpg]]></wp:meta_value>
@@ -711,7 +711,7 @@
 		<link>https://demo.ridianur.com/cholot/about/team2/</link>
 		<pubDate>Wed, 03 Jul 2019 16:40:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team2.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/team2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -727,7 +727,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team2.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/team2.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/team2.jpg]]></wp:meta_value>
@@ -751,7 +751,7 @@
 		<p>Building with our residents is something we keep close to our heart.</p><p>Let us help you celebrate your loved one’s story by creating a new chapter that’s worth sharing.</p>		
 			<h3>Recent post.</h3>		
                         <a href="https://demo.ridianur.com/cholot/venenatis-faucibus-nullam-quis-ante/"
-                style="background-image:url(https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg)">
+                style="background-image:url(http://localhost:8082/07/4.jpg)">
             </a>
                 <a href="https://demo.ridianur.com/cholot/venenatis-faucibus-nullam-quis-ante/">
                     <h3>Venenatis faucibus nullam quisenean</h3>
@@ -761,7 +761,7 @@
                     <li> July 4, 2019</li>
                 </ul>
                         <a href="https://demo.ridianur.com/cholot/duis-arcu-tortor-suscipit-egetro/"
-                style="background-image:url(https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg)">
+                style="background-image:url(http://localhost:8082/07/7.jpg)">
             </a>
                 <a href="https://demo.ridianur.com/cholot/duis-arcu-tortor-suscipit-egetro/">
                     <h3>Duis arcu tortor  suscipit egetro etante</h3>
@@ -772,27 +772,27 @@
                 </ul>
 <!--pagination-->
 			<h3>Gallery.</h3>		
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/matteo-vistocco-537858-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/val-vesa-410839-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/josh-appel-423804-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/josh-appel-423804-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/huy-phan-100866-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/huy-phan-100866-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/vlad-sargu-479334-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/vlad-sargu-479334-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
@@ -987,7 +987,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/?post_type=header&#038;p=205</guid>
 		<description></description>
-		<content:encoded><![CDATA[<a href="https://demo.ridianur.com/cholot/"><img alt="logo" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo-white-1.png" /></a>
+		<content:encoded><![CDATA[<a href="https://demo.ridianur.com/cholot/"><img alt="logo" src="http://localhost:8082/07/logo-white-1.png" /></a>
 <!--HEADER START-->
         <ul id="menu-default-menu"><li id="menu-item-172"><a href="https://demo.ridianur.com/cholot/">Home</a></li>
 <li id="menu-item-191"><a href="https://demo.ridianur.com/cholot/about/">About</a></li>
@@ -1125,7 +1125,7 @@
 		<link>https://demo.ridianur.com/cholot/about/team3/</link>
 		<pubDate>Wed, 03 Jul 2019 16:40:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team3.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/team3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1141,7 +1141,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team3.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/team3.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/team3.jpg]]></wp:meta_value>
@@ -1156,7 +1156,7 @@
 		<link>https://demo.ridianur.com/cholot/single-service/attachment/8/</link>
 		<pubDate>Wed, 03 Jul 2019 16:51:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/8.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/8.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1172,7 +1172,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/8.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/8.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/8.jpg]]></wp:meta_value>
@@ -1187,7 +1187,7 @@
 		<link>https://demo.ridianur.com/cholot/header/custom-menu-1/logo/</link>
 		<pubDate>Wed, 03 Jul 2019 17:53:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/logo.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1203,7 +1203,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/logo.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/logo.png]]></wp:meta_value>
@@ -1218,7 +1218,7 @@
 		<link>https://demo.ridianur.com/cholot/header/custom-menu-1/logo-2/</link>
 		<pubDate>Wed, 03 Jul 2019 17:54:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo-1.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/logo-1.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1234,7 +1234,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/logo-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/logo-1.png]]></wp:meta_value>
@@ -1249,7 +1249,7 @@
 		<link>https://demo.ridianur.com/cholot/header/custom-menu-1/logo-white/</link>
 		<pubDate>Tue, 09 Jul 2019 10:03:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo-white-1.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/logo-white-1.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1265,7 +1265,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo-white-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/logo-white-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/logo-white-1.png]]></wp:meta_value>
@@ -1280,9 +1280,9 @@
 		<link>https://demo.ridianur.com/cholot/cropped-matteo-vistocco-537858-unsplash-jpg/</link>
 		<pubDate>Wed, 10 Jul 2019 00:54:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/cropped-matteo-vistocco-537858-unsplash.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8082/06/cropped-matteo-vistocco-537858-unsplash.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/cropped-matteo-vistocco-537858-unsplash.jpg]]></content:encoded>
+		<content:encoded><![CDATA[http://localhost:8082/06/cropped-matteo-vistocco-537858-unsplash.jpg]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>883</wp:post_id>
 		<wp:post_date><![CDATA[2019-07-10 00:54:12]]></wp:post_date>
@@ -1296,7 +1296,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/cropped-matteo-vistocco-537858-unsplash.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/06/cropped-matteo-vistocco-537858-unsplash.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/06/cropped-matteo-vistocco-537858-unsplash.jpg]]></wp:meta_value>
@@ -1317,7 +1317,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/?post_type=header&#038;p=910</guid>
 		<description></description>
-		<content:encoded><![CDATA[<a href="https://demo.ridianur.com/cholot/"><img alt="logo" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/logo-1.png" /></a>
+		<content:encoded><![CDATA[<a href="https://demo.ridianur.com/cholot/"><img alt="logo" src="http://localhost:8082/07/logo-1.png" /></a>
 <!--HEADER START-->
         <ul id="menu-default-menu"><li id="menu-item-172"><a href="https://demo.ridianur.com/cholot/">Home</a></li>
 <li id="menu-item-191"><a href="https://demo.ridianur.com/cholot/about/">About</a></li>
@@ -1400,7 +1400,7 @@
 		<link>https://demo.ridianur.com/cholot/home/bg-ab/</link>
 		<pubDate>Thu, 11 Jul 2019 22:58:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/bg-ab.png</guid>
+		<guid isPermaLink="false">http://localhost:8082/07/bg-ab.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1416,7 +1416,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/bg-ab.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost:8082/07/bg-ab.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2019/07/bg-ab.png]]></wp:meta_value>
@@ -1461,7 +1461,7 @@
             <!--/.slider-box-->
         <!--/.caption-box-->
     <!--/.slide-->
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/val-vesa-410839-unsplash-300x200.jpg 300w, http://localhost:8082/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>Exciting</p>
     <h3>Rückbaumanagement</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -1471,7 +1471,7 @@
     <h3>Altlastensanierung</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
 <!--/.box-small-icon-->
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>residents </p>
     <h3>Schadstoff-Management</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -1495,7 +1495,7 @@
     <h3>Meet regularly</h3>
     <p>Let our residents live their life independently and enjoy their life.</p>
 <!--/.box-small-icon-->
-										<img width="657" height="812" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png 657w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5-243x300.png 243w" sizes="(max-width: 657px) 100vw, 657px" />											
+										<img width="657" height="812" src="http://localhost:8082/07/5.png" alt="" srcset="http://localhost:8082/07/5.png 657w, http://localhost:8082/07/5-243x300.png 243w" sizes="(max-width: 657px) 100vw, 657px" />											
             <h3 >Indah Levi</h3>
             <p >Director of Health</p>
             <ul>
@@ -1557,22 +1557,22 @@
 		<p>ullamcorper matulvinar</p>		
         <p>
             My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
             <h3>Irgan Rogan</h3>
             <p>Member</p>
         <p>
             My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
             <h3>Peggy Brim</h3>
             <p>Member</p>
         <p>
             We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
             <h3>Dhea Marisa</h3>
             <p>Member</p>
         <p>
             The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
             <h3>Thyo Septian</h3>
             <p>Member</p>
 <!--/.testimonial-->
@@ -1580,17 +1580,17 @@
 			<h2>We’re able to create a family-like atmosphere <br>for our residents as well.</h2>		
 		<p>Once you experience our culture, you’re sure to understand what makes us so special.  It’s a great way for you to make use of all the wonderful benefits of being a part of our communities.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -1660,7 +1660,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<p>about our community.</p>		
 			<h2>Who we are &amp;<br>what we are capable.</h2>		
-										<img width="657" height="849" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.png 657w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-232x300.png 232w" sizes="(max-width: 657px) 100vw, 657px" />											
+										<img width="657" height="849" src="http://localhost:8082/07/6.png" alt="" srcset="http://localhost:8082/07/6.png 657w, http://localhost:8082/07/6-232x300.png 232w" sizes="(max-width: 657px) 100vw, 657px" />											
 		<p>ullamcorper matti pulvinar.</p>		
 			<h2>Some beautiful words<br>from our founder.</h2>		
 <a
@@ -1674,7 +1674,7 @@
     Send an email
 </a>
 		<p>Our love, support and appreciation for one another shines through in the care we provide our residents each day. We take pride in caring for you/your parents, and we want to be your first–and only–choice for patient-centered care.</p><p>Building with our residents is something we keep close to our heart. Getting to know their personal stories and celebrating them together is what makes the care we provide truly personalized.</p>		
-										<img width="339" height="125" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign.png 339w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign-300x111.png 300w" sizes="(max-width: 339px) 100vw, 339px" />											
+										<img width="339" height="125" src="http://localhost:8082/06/sign.png" alt="" srcset="http://localhost:8082/06/sign.png 339w, http://localhost:8082/06/sign-300x111.png 300w" sizes="(max-width: 339px) 100vw, 339px" />											
 		<p>Jane Michele Doe</p><p>tempor sapien gravida.</p>		
 			<h2>Dedicated to delivering <br>the finest senior living experience.</h2>		
 		<p>Once you experience our culture, you’re sure to understand what makes us so special.</p>		
@@ -1739,22 +1739,22 @@
 		<p>ullamcorper matulvinar</p>		
         <p>
             My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
             <h3>Irgan Rogan</h3>
             <p>Member</p>
         <p>
             My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
             <h3>Peggy Brim</h3>
             <p>Member</p>
         <p>
             We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
             <h3>Dhea Marisa</h3>
             <p>Member</p>
         <p>
             The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
             <h3>Thyo Septian</h3>
             <p>Member</p>
 <!--/.testimonial-->]]></content:encoded>
@@ -1806,7 +1806,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<p>the services we had.</p>		
 			<h2>What we provide &amp; what we <br>build for  the community.</h2>		
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/val-vesa-410839-unsplash-300x200.jpg 300w, http://localhost:8082/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>Exciting</p>
     <h3>Rückbaumanagement</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -1816,7 +1816,7 @@
     <h3>Altlastensanierung</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
 <!--/.box-small-icon-->
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>residents </p>
     <h3>Schadstoff-Management</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -1825,17 +1825,17 @@
 			<h2>What you will get from us <br>after you join the community.</h2>		
 		<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -1933,17 +1933,17 @@
 			<h2>Assited living amenities &amp; services.</h2>		
 		<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor integer congue magna at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -1951,22 +1951,22 @@
 		<p>ullamcorper matulvinar</p>		
         <p>
             My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
             <h3>Irgan Rogan</h3>
             <p>Member</p>
         <p>
             My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
             <h3>Peggy Brim</h3>
             <p>Member</p>
         <p>
             We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
             <h3>Dhea Marisa</h3>
             <p>Member</p>
         <p>
             The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
             <h3>Thyo Septian</h3>
             <p>Member</p>
 <!--/.testimonial-->]]></content:encoded>
@@ -2018,19 +2018,19 @@
 		<description></description>
 		<content:encoded><![CDATA[<p>what we proved to you.</p>		
 			<h2>The independent living.</h2>		
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/vlad-sargu-479334-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/vlad-sargu-479334-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/8.jpg" ></a>
+                    <a href="http://localhost:8082/07/8.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/val-vesa-410839-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
@@ -2062,17 +2062,17 @@
 			<h2>Assited living amenities &amp; services.</h2>		
 		<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor integer congue magna at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -2269,7 +2269,7 @@
                                         <li> July 4, 2019</li>
                                     </ul>
             <!--if post is standard-->
-                                    <img width="1200" height="800" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />            <!--if post is gallery-->
+                                    <img width="1200" height="800" src="http://localhost:8082/07/7.jpg" alt="" srcset="http://localhost:8082/07/7.jpg 1200w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7-1024x683.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />            <!--if post is gallery-->
                 <a href="https://demo.ridianur.com/cholot/duis-arcu-tortor-suscipit-egetro/">
                     <h3>Duis arcu tortor  suscipit egetro etante</h3>
                 </a>
@@ -2380,7 +2380,7 @@
             <!--/.slider-box-->
         <!--/.caption-box-->
     <!--/.slide-->
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/val-vesa-410839-unsplash-300x200.jpg 300w, http://localhost:8082/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>Exciting</p>
     <h3>Rückbaumanagement</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -2390,7 +2390,7 @@
     <h3>Altlastensanierung</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
 <!--/.box-small-icon-->
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>residents </p>
     <h3>Schadstoff-Management</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -2414,7 +2414,7 @@
     <h3>Meet regularly</h3>
     <p>Let our residents live their life independently and enjoy their life.</p>
 <!--/.box-small-icon-->
-										<img width="657" height="812" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.png 657w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5-243x300.png 243w" sizes="(max-width: 657px) 100vw, 657px" />											
+										<img width="657" height="812" src="http://localhost:8082/07/5.png" alt="" srcset="http://localhost:8082/07/5.png 657w, http://localhost:8082/07/5-243x300.png 243w" sizes="(max-width: 657px) 100vw, 657px" />											
             <h3 >Indah Levi</h3>
             <p >Director of Health</p>
             <ul>
@@ -2476,22 +2476,22 @@
 		<p>ullamcorper matulvinar</p>		
         <p>
             My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
             <h3>Irgan Rogan</h3>
             <p>Member</p>
         <p>
             My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
             <h3>Peggy Brim</h3>
             <p>Member</p>
         <p>
             We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
             <h3>Dhea Marisa</h3>
             <p>Member</p>
         <p>
             The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
             <h3>Thyo Septian</h3>
             <p>Member</p>
 <!--/.testimonial-->
@@ -2499,17 +2499,17 @@
 			<h2>We’re able to create a family-like atmosphere <br>for our residents as well.</h2>		
 		<p>Once you experience our culture, you’re sure to understand what makes us so special.  It’s a great way for you to make use of all the wonderful benefits of being a part of our communities.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -2626,7 +2626,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<p>about our community.</p>		
 			<h2>Who we are &amp;<br>what we are capable.</h2>		
-										<img width="657" height="849" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.png 657w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-232x300.png 232w" sizes="(max-width: 657px) 100vw, 657px" />											
+										<img width="657" height="849" src="http://localhost:8082/07/6.png" alt="" srcset="http://localhost:8082/07/6.png 657w, http://localhost:8082/07/6-232x300.png 232w" sizes="(max-width: 657px) 100vw, 657px" />											
 		<p>ullamcorper matti pulvinar.</p>		
 			<h2>Some beautiful words<br>from our founder.</h2>		
 <a
@@ -2640,7 +2640,7 @@
     Send an email
 </a>
 		<p>Our love, support and appreciation for one another shines through in the care we provide our residents each day. We take pride in caring for you/your parents, and we want to be your first–and only–choice for patient-centered care.</p><p>Building with our residents is something we keep close to our heart. Getting to know their personal stories and celebrating them together is what makes the care we provide truly personalized.</p>		
-										<img width="339" height="125" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign.png" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign.png 339w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/sign-300x111.png 300w" sizes="(max-width: 339px) 100vw, 339px" />											
+										<img width="339" height="125" src="http://localhost:8082/06/sign.png" alt="" srcset="http://localhost:8082/06/sign.png 339w, http://localhost:8082/06/sign-300x111.png 300w" sizes="(max-width: 339px) 100vw, 339px" />											
 		<p>Jane Michele Doe</p><p>tempor sapien gravida.</p>		
 			<h2>Dedicated to delivering <br>the finest senior living experience.</h2>		
 		<p>Once you experience our culture, you’re sure to understand what makes us so special.</p>		
@@ -2705,22 +2705,22 @@
 		<p>ullamcorper matulvinar</p>		
         <p>
             My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
             <h3>Irgan Rogan</h3>
             <p>Member</p>
         <p>
             My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
             <h3>Peggy Brim</h3>
             <p>Member</p>
         <p>
             We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
             <h3>Dhea Marisa</h3>
             <p>Member</p>
         <p>
             The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
             <h3>Thyo Septian</h3>
             <p>Member</p>
 <!--/.testimonial-->]]></content:encoded>
@@ -2795,7 +2795,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<p>the services we had.</p>		
 			<h2>What we provide &amp; what we <br>build for  the community.</h2>		
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/val-vesa-410839-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/val-vesa-410839-unsplash-300x200.jpg 300w, http://localhost:8082/06/val-vesa-410839-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>Exciting</p>
     <h3>Rückbaumanagement</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -2805,7 +2805,7 @@
     <h3>Altlastensanierung</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
 <!--/.box-small-icon-->
-										<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="683" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/matteo-vistocco-537858-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-300x200.jpg 300w, http://localhost:8082/06/matteo-vistocco-537858-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
         <p>residents </p>
     <h3>Schadstoff-Management</h3>
     <p>It’s a great way for you to make use of all the benefits of being a part.</p>
@@ -2814,17 +2814,17 @@
 			<h2>What you will get from us <br>after you join the community.</h2>		
 		<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -3028,19 +3028,19 @@
 		<description></description>
 		<content:encoded><![CDATA[<p>what we proved to you.</p>		
 			<h2>The independent living.</h2>		
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/vlad-sargu-479334-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/vlad-sargu-479334-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/8.jpg" ></a>
+                    <a href="http://localhost:8082/07/8.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
-                    <a href="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash.jpg" ></a>
+                    <a href="http://localhost:8082/06/val-vesa-410839-unsplash.jpg" ></a>
                     <!--/.port-dbox-->
                 <!--/.port-inner-->
             <!--.port-item-->
@@ -3072,17 +3072,17 @@
 			<h2>Assited living amenities &amp; services.</h2>		
 		<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor integer congue magna at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -3258,17 +3258,17 @@
 			<h2>Assited living amenities &amp; services.</h2>		
 		<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor integer congue magna at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>		
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/6-1024x683.jpg" alt="" srcset="http://localhost:8082/07/6-1024x683.jpg 1024w, http://localhost:8082/07/6-300x200.jpg 300w, http://localhost:8082/07/6-768x512.jpg 768w, http://localhost:8082/07/6.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>till the end    </p>
     <h3>Retirement funds and planning.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg" alt="" srcset="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-1024x683.jpg 1024w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-300x200.jpg 300w, http://localhost:8082/06/anthony-metcalfe-580436-unsplash-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>bring the people    </p>
     <h3>Hospital living with proffesional.</h3>
 <!--/.box-small-icon-->
 											<a href="#" data-elementor-open-lightbox="">
-							<img width="1024" height="683" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+							<img width="1024" height="683" src="http://localhost:8082/07/7-1024x683.jpg" alt="" srcset="http://localhost:8082/07/7-1024x683.jpg 1024w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
         <p>The assited living    </p>
     <h3>The personal counseling.</h3>
 <!--/.box-small-icon-->
@@ -3276,22 +3276,22 @@
 		<p>ullamcorper matulvinar</p>		
         <p>
             My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/matteo-vistocco-537858-unsplash-150x150.jpg" alt="" />            
             <h3>Irgan Rogan</h3>
             <p>Member</p>
         <p>
             My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/anthony-metcalfe-580436-unsplash-150x150.jpg" alt="" />            
             <h3>Peggy Brim</h3>
             <p>Member</p>
         <p>
             We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/damir-bosnjak-366766-unsplash-150x150.jpg" alt="" />            
             <h3>Dhea Marisa</h3>
             <p>Member</p>
         <p>
             The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!        </p>
-                <img width="150" height="150" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
+                <img width="150" height="150" src="http://localhost:8082/06/esther-town-492626-unsplash-150x150.jpg" alt="" />            
             <h3>Thyo Septian</h3>
             <p>Member</p>
 <!--/.testimonial-->]]></content:encoded>
@@ -3546,7 +3546,7 @@
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/?p=411</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p><blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deep v exercitation schlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote><p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>411</wp:post_id>
@@ -3624,7 +3624,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[post_gallery_setting]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{i:50;s:99:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash.jpg";i:52;s:94:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/vlad-sargu-479334-unsplash.jpg";i:51;s:92:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/val-vesa-410839-unsplash.jpg";i:349;s:69:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg";i:350;s:69:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/5.jpg";i:47;s:97:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg";}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:6:{i:50;s:99:"http://localhost:8082/06/matteo-vistocco-537858-unsplash.jpg";i:52;s:94:"http://localhost:8082/06/vlad-sargu-479334-unsplash.jpg";i:51;s:92:"http://localhost:8082/06/val-vesa-410839-unsplash.jpg";i:349;s:69:"http://localhost:8082/07/7.jpg";i:350;s:69:"http://localhost:8082/07/5.jpg";i:47;s:97:"http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg";}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_elements_usage]]></wp:meta_key>
@@ -3639,9 +3639,9 @@
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/?p=417</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p>		
-										<img width="1024" height="680" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-1024x680.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-1024x680.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-300x199.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-768x510.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="680" src="http://localhost:8082/07/2-1024x680.jpg" alt="" srcset="http://localhost:8082/07/2-1024x680.jpg 1024w, http://localhost:8082/07/2-300x199.jpg 300w, http://localhost:8082/07/2-768x510.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
 		<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>417</wp:post_id>
@@ -3729,9 +3729,9 @@
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/interest-humble-brag-air-plant-copy/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p>		
-										<img width="1024" height="680" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-1024x680.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-1024x680.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-300x199.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-768x510.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="680" src="http://localhost:8082/07/2-1024x680.jpg" alt="" srcset="http://localhost:8082/07/2-1024x680.jpg 1024w, http://localhost:8082/07/2-300x199.jpg 300w, http://localhost:8082/07/2-768x510.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
 		<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>424</wp:post_id>
@@ -3831,7 +3831,7 @@
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/every-carry-ready-the-quinoa-copy/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p><blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deep v exercitation schlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote><p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>425</wp:post_id>
@@ -3916,7 +3916,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[post_slider_setting]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:2:{i:236;s:69:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg";i:237;s:69:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2.jpg";}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:2:{i:236;s:69:"http://localhost:8082/07/1.jpg";i:237;s:69:"http://localhost:8082/07/2.jpg";}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_elements_usage]]></wp:meta_key>
@@ -3979,7 +3979,7 @@
                                         <li> July 4, 2019</li>
                                     </ul>
             <!--if post is standard-->
-                                    <img width="1200" height="800" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7.jpg 1200w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-300x200.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-768x512.jpg 768w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/7-1024x683.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />            <!--if post is gallery-->
+                                    <img width="1200" height="800" src="http://localhost:8082/07/7.jpg" alt="" srcset="http://localhost:8082/07/7.jpg 1200w, http://localhost:8082/07/7-300x200.jpg 300w, http://localhost:8082/07/7-768x512.jpg 768w, http://localhost:8082/07/7-1024x683.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />            <!--if post is gallery-->
                 <a href="https://demo.ridianur.com/cholot/duis-arcu-tortor-suscipit-egetro/">
                     <h3>Duis arcu tortor  suscipit egetro etante</h3>
                 </a>
@@ -4521,9 +4521,9 @@ This e-mail was sent from a contact form on Cholot (https://theme.winnertheme.co
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/interest-humble-brag-air-plant-copy-2/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p>		
-										<img width="1024" height="680" src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-1024x680.jpg" alt="" srcset="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-1024x680.jpg 1024w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-300x199.jpg 300w, https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/2-768x510.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
+										<img width="1024" height="680" src="http://localhost:8082/07/2-1024x680.jpg" alt="" srcset="http://localhost:8082/07/2-1024x680.jpg 1024w, http://localhost:8082/07/2-300x199.jpg 300w, http://localhost:8082/07/2-768x510.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											
 		<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>426</wp:post_id>
@@ -4619,7 +4619,7 @@ This e-mail was sent from a contact form on Cholot (https://theme.winnertheme.co
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/every-carry-ready-the-quinoa-copy-2/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p><blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deep v exercitation schlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote><p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>427</wp:post_id>
@@ -4720,7 +4720,7 @@ This e-mail was sent from a contact form on Cholot (https://theme.winnertheme.co
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/interest-humble-brag-air-plant-copy-3/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p><p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>428</wp:post_id>
@@ -4820,7 +4820,7 @@ This e-mail was sent from a contact form on Cholot (https://theme.winnertheme.co
 		<guid isPermaLink="false">https://demo.ridianur.com/cholot/every-carry-ready-the-quinoa-copy-2-copy/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p><p>Lomo neutra actually man braid williamsburg, snackwave franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>		
-				<figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/1.jpg" alt="1" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/4.jpg" alt="4" /></figure><figure><img src="https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/3.jpg" alt="3" /></figure>			
+				<figure><img src="http://localhost:8082/07/1.jpg" alt="1" /></figure><figure><img src="http://localhost:8082/07/4.jpg" alt="4" /></figure><figure><img src="http://localhost:8082/07/3.jpg" alt="3" /></figure>			
 		<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href="#" target="_blank" rel="noopener noreferrer">knausgaard</a>.</p><blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before they sold out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deepschlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote><p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>436</wp:post_id>
@@ -4909,7 +4909,7 @@ This e-mail was sent from a contact form on Cholot (https://theme.winnertheme.co
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[post_slider_setting]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:2:{i:47;s:97:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg";i:50;s:99:"https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash.jpg";}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:2:{i:47;s:97:"http://localhost:8082/06/damir-bosnjak-366766-unsplash.jpg";i:50;s:99:"http://localhost:8082/06/matteo-vistocco-537858-unsplash.jpg";}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_elements_usage]]></wp:meta_key>
