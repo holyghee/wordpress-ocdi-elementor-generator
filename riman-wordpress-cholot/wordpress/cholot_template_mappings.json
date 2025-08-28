@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "created": "2025-08-28",
+    "version": "1.0",
+    "description": "Cholot template mappings for exact replication",
+    "total_pages": 8,
+    "total_templates": 19,
+    "total_blocks": 8
+  },
+  "page_mappings": {
+    "home": "home-page",
+    "about": "about-page",
+    "service": "single-service-2",
+    "contact": "contact-page",
+    "single-service": "single-service-2",
+    "single-service-2": "single-service-2",
+    "blog": "blog-page",
+    "page-with-custom-header-custom-footer": "about-page"
+  },
+  "section_mappings": {
+    "hero": [
+      "elementor-hero-home-1656-2025-08-28"
+    ],
+    "service_cards": [
+      "elementor-service-cards-home-1659-2025-08-28"
+    ],
+    "overview": [
+      "elementor-overview-home-1663-2025-08-28"
+    ],
+    "team": [
+      "elementor-team-home-1666-2025-08-28"
+    ],
+    "testimonials": [
+      "elementor-testemonials-home-1672-2025-08-28"
+    ],
+    "posts": [
+      "elementor-block-posts-home-1678-2025-08-28"
+    ],
+    "contact": [
+      "elementor-contact-box-home-1681-2025-08-28"
+    ],
+    "service_hero": [
+      "elementor-service-hero-services-1684-2025-08-28"
+    ],
+    "header": [
+      "elementor-heading-section-home-1675-2025-08-28"
+    ]
+  },
+  "widget_mappings": {
+    "cholot-texticon": {
+      "purpose": "Icon with text content blocks",
+      "usage": "Service descriptions, feature highlights",
+      "template_files": [
+        "cholot-texticon.template.json"
+      ]
+    },
+    "cholot-team": {
+      "purpose": "Team member display",
+      "usage": "About page team sections",
+      "template_files": [
+        "cholot-team.template.json"
+      ]
+    },
+    "cholot-testimonial-two": {
+      "purpose": "Customer testimonials carousel",
+      "usage": "Social proof sections",
+      "template_files": [
+        "cholot-testimonial-two.template.json"
+      ]
+    },
+    "cholot-title": {
+      "purpose": "Styled page titles and headings",
+      "usage": "Section headers across all pages",
+      "template_files": [
+        "cholot-title.template.json"
+      ]
+    },
+    "cholot-contact": {
+      "purpose": "Contact forms integration",
+      "usage": "Contact page, lead generation",
+      "template_files": [
+        "cholot-contact.template.json"
+      ]
+    },
+    "cholot-text-line": {
+      "purpose": "Text with decorative line elements",
+      "usage": "Service descriptions, content sections",
+      "template_files": [
+        "cholot-text-line.template.json"
+      ]
+    },
+    "rdn-slider": {
+      "purpose": "Hero image sliders",
+      "usage": "Homepage hero sections",
+      "template_files": [
+        "rdn-slider.template.json"
+      ]
+    },
+    "image": {
+      "purpose": "Image display with various styling options",
+      "usage": "All pages for visual content",
+      "template_files": [
+        "image.template.json"
+      ]
+    },
+    "video": {
+      "purpose": "Video content embedding",
+      "usage": "Homepage, service pages",
+      "template_files": [
+        "video.template.json"
+      ]
+    },
+    "text-editor": {
+      "purpose": "Rich text content",
+      "usage": "All pages for text content",
+      "template_files": [
+        "text-editor.template.json"
+      ]
+    },
+    "divider": {
+      "purpose": "Visual section separators",
+      "usage": "All pages for content separation",
+      "template_files": [
+        "divider.template.json"
+      ]
+    },
+    "icon": {
+      "purpose": "Standalone icons",
+      "usage": "Service sections, feature highlights",
+      "template_files": [
+        "icon.template.json"
+      ]
+    }
+  },
+  "templates_analysis": {
+    "cholot-texticon.template": {
+      "file": "templates/cholot-texticon.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "cholot-texticon"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "video.template": {
+      "file": "templates/video.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "video"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "cholot-testimonial-two.template": {
+      "file": "templates/cholot-testimonial-two.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "cholot-testimonial-two"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "about-page": {
+      "file": "templates/about-page.json",
+      "type": "about_page",
+      "widgets": [
+        "image",
+        "text-editor",
+        "cholot-button-text",
+        "cholot-team",
+        "divider",
+        "cholot-title",
+        "cholot-testimonial-two"
+      ],
+      "sections": 8,
+      "complexity": "medium"
+    },
+    "contact-page": {
+      "file": "templates/contact-page.json",
+      "type": "contact_page",
+      "widgets": [
+        "text-editor",
+        "cholot-contact",
+        "google_maps",
+        "divider",
+        "cholot-title",
+        "icon-list"
+      ],
+      "sections": 3,
+      "complexity": "medium"
+    },
+    "divider.template": {
+      "file": "templates/divider.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "divider"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "home-page": {
+      "file": "templates/home-page.json",
+      "type": "homepage",
+      "widgets": [
+        "image",
+        "text-editor",
+        "cholot-contact",
+        "cholot-text-line",
+        "rdn-slider",
+        "icon",
+        "cholot-team",
+        "divider",
+        "cholot-texticon",
+        "cholot-title",
+        "cholot-testimonial-two",
+        "video"
+      ],
+      "sections": 17,
+      "complexity": "high"
+    },
+    "text-editor.template": {
+      "file": "templates/text-editor.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "text-editor"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "single-service-2": {
+      "file": "templates/single-service-2.json",
+      "type": "service_page",
+      "widgets": [
+        "image",
+        "text-editor",
+        "cholot-button-text",
+        "cholot-contact",
+        "cholot-text-line",
+        "icon",
+        "cholot-gallery",
+        "divider",
+        "cholot-texticon",
+        "cholot-title"
+      ],
+      "sections": 6,
+      "complexity": "medium"
+    },
+    "cholot-contact.template": {
+      "file": "templates/cholot-contact.template.json",
+      "type": "contact_page",
+      "widgets": [
+        "cholot-contact"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "service-page": {
+      "file": "templates/service-page.json",
+      "type": "service_page",
+      "widgets": [
+        "image",
+        "text-editor",
+        "cholot-contact",
+        "cholot-text-line",
+        "icon",
+        "divider",
+        "cholot-texticon",
+        "cholot-title",
+        "video"
+      ],
+      "sections": 11,
+      "complexity": "high"
+    },
+    "cholot-team.template": {
+      "file": "templates/cholot-team.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "cholot-team"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "rdn-slider.template": {
+      "file": "templates/rdn-slider.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "rdn-slider"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "cholot-text-line.template": {
+      "file": "templates/cholot-text-line.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "cholot-text-line"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "single-service-1": {
+      "file": "templates/single-service-1.json",
+      "type": "service_page",
+      "widgets": [
+        "image",
+        "text-editor",
+        "cholot-button-text",
+        "cholot-text-line",
+        "icon",
+        "divider",
+        "cholot-texticon",
+        "cholot-title",
+        "cholot-testimonial-two",
+        "video"
+      ],
+      "sections": 8,
+      "complexity": "medium"
+    },
+    "blog-page": {
+      "file": "templates/blog-page.json",
+      "type": "blog_page",
+      "widgets": [
+        "text-editor",
+        "cholot-sidebar",
+        "cholot-title",
+        "divider",
+        "cholot-post-four"
+      ],
+      "sections": 2,
+      "complexity": "low"
+    },
+    "icon.template": {
+      "file": "templates/icon.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "icon"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "cholot-title.template": {
+      "file": "templates/cholot-title.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "cholot-title"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    },
+    "image.template": {
+      "file": "templates/image.template.json",
+      "type": "generic_page",
+      "widgets": [
+        "image"
+      ],
+      "sections": 0,
+      "complexity": "low"
+    }
+  },
+  "blocks_analysis": {
+    "elementor-block-posts-home-1678-2025-08-28": {
+      "file": "elemetor blocks/elementor-block-posts-home-1678-2025-08-28.json",
+      "type": "posts_section",
+      "widgets": [],
+      "purpose": "Blog posts or news display",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-service-cards-home-1659-2025-08-28": {
+      "file": "elemetor blocks/elementor-service-cards-home-1659-2025-08-28.json",
+      "type": "service_section",
+      "widgets": [],
+      "purpose": "Service offerings display with icons and descriptions",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-service-hero-services-1684-2025-08-28": {
+      "file": "elemetor blocks/elementor-service-hero-services-1684-2025-08-28.json",
+      "type": "hero_section",
+      "widgets": [],
+      "purpose": "Landing section with large image/video and call-to-action",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-testemonials-home-1672-2025-08-28": {
+      "file": "elemetor blocks/elementor-testemonials-home-1672-2025-08-28.json",
+      "type": "content_section",
+      "widgets": [],
+      "purpose": "General content section",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-contact-box-home-1681-2025-08-28": {
+      "file": "elemetor blocks/elementor-contact-box-home-1681-2025-08-28.json",
+      "type": "contact_section",
+      "widgets": [],
+      "purpose": "Contact forms and information display",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-overview-home-1663-2025-08-28": {
+      "file": "elemetor blocks/elementor-overview-home-1663-2025-08-28.json",
+      "type": "overview_section",
+      "widgets": [],
+      "purpose": "Content overview with statistics or highlights",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-heading-section-home-1675-2025-08-28": {
+      "file": "elemetor blocks/elementor-heading-section-home-1675-2025-08-28.json",
+      "type": "header_section",
+      "widgets": [],
+      "purpose": "General content section",
+      "compatibility": [
+        "any"
+      ]
+    },
+    "elementor-hero-home-1656-2025-08-28": {
+      "file": "elemetor blocks/elementor-hero-home-1656-2025-08-28.json",
+      "type": "hero_section",
+      "widgets": [],
+      "purpose": "Landing section with large image/video and call-to-action",
+      "compatibility": [
+        "any"
+      ]
+    }
+  },
+  "replication_strategy": {
+    "approach": "exact_match",
+    "priority_order": [
+      "home",
+      "about",
+      "service",
+      "contact"
+    ],
+    "fallback_templates": {
+      "home": "home-page",
+      "about": "about-page",
+      "service": "service-page",
+      "contact": "contact-page",
+      "default": "home-page"
+    }
+  }
+}
