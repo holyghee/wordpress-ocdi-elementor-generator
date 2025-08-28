@@ -9,6 +9,11 @@ define('SHORTINIT', false);
 require_once(__DIR__ . '/wp-config.php');
 require_once(ABSPATH . 'wp-admin/includes/import.php');
 
+// Check if we have the base WP_Importer class
+if (!class_exists('WP_Importer')) {
+    require_once(ABSPATH . 'wp-admin/includes/class-wp-importer.php');
+}
+
 // Load WordPress Importer components
 require_once(ABSPATH . 'wp-content/plugins/wordpress-importer/parsers.php');
 require_once(ABSPATH . 'wp-content/plugins/wordpress-importer/class-wp-import.php');
