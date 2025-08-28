@@ -67,7 +67,7 @@ class RealCholotGenerator:
     
     def create_cholot_title(self, title_text, subtitle=""):
         """
-        Erstellt cholot-title Widget (aus Original-Template)
+        Erstellt cholot-title Widget (exakt wie Original-Template)
         """
         return {
             "id": f"title_{title_text.lower().replace(' ', '_')}",
@@ -75,19 +75,21 @@ class RealCholotGenerator:
             "widgetType": "cholot-title",
             "settings": {
                 "title": title_text,
-                "subtitle": subtitle,
-                "title_color": "#232323",
-                "subtitle_color": "#666666",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Playfair Display",
-                "title_typography_font_size": {"unit": "px", "size": 48},
-                "title_typography_font_weight": "700",
-                "title_typography_line_height": {"unit": "em", "size": 1.2},
-                "subtitle_typography_typography": "custom", 
-                "subtitle_typography_font_size": {"unit": "px", "size": 18},
-                "subtitle_typography_line_height": {"unit": "em", "size": 1.5},
-                "alignment": "center",
-                "title_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 20, "left": 0}
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {"unit": "px", "size": 35, "sizes": []},
+                "desc_typography_font_weight": "700", 
+                "desc_typography_line_height": {"unit": "em", "size": 1.1, "sizes": []},
+                "desc_typography_font_family": "Playfair Display",
+                "_z_index": 1,
+                "align": "center",
+                "desc_typography_font_size_mobile": {"unit": "px", "size": 25, "sizes": []},
+                "title_color": "#000000",
+                "title_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": False},
+                "_margin": {"unit": "%", "top": "", "right": "", "bottom": "", "left": "", "isLinked": False},
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic", 
+                "span_title_color": "#000000"
             }
         }
     
