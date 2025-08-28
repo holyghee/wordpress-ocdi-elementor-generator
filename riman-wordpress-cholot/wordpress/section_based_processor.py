@@ -331,12 +331,39 @@ class SectionBasedProcessor:
         }
     
     def _create_testimonials_section(self, config: Dict) -> Dict:
-        """Create testimonials section"""
+        """Create testimonials section with all testimonials"""
         testimonials = config.get('testimonials', [])
         if not testimonials:
             return None
         
-        testimonial = testimonials[0]  # Use first testimonial
+        # Create columns for testimonials (max 3 in one row)
+        columns = []
+        for testimonial in testimonials[:3]:  # Max 3 testimonials
+            column = {
+                "id": self.generate_unique_id(),
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33.33 if len(testimonials) >= 3 else 50 if len(testimonials) == 2 else 100
+                },
+                "elements": [{
+                    "id": self.generate_unique_id(),
+                    "elType": "widget",
+                    "widgetType": "testimonial",
+                    "settings": {
+                        "testimonial_content": testimonial.get('text', ''),
+                        "testimonial_name": testimonial.get('name', ''),
+                        "testimonial_job": testimonial.get('position', ''),
+                        "testimonial_image": {"url": testimonial.get('image', '')},
+                        "testimonial_alignment": "center",
+                        "testimonial_image_size": "custom",
+                        "testimonial_image_custom_dimension": {"width": 80, "height": 80},
+                        "testimonial_name_color": "#232323",
+                        "testimonial_job_color": "#666666",
+                        "testimonial_content_color": "#333333"
+                    }
+                }]
+            }
+            columns.append(column)
         
         return {
             "id": self.generate_unique_id(),
@@ -365,16 +392,13 @@ class SectionBasedProcessor:
                 }, {
                     "id": self.generate_unique_id(),
                     "elType": "widget",
-                    "widgetType": "testimonial",
+                    "widgetType": "text-editor",
                     "settings": {
-                        "testimonial_content": testimonial.get('text', ''),
-                        "testimonial_name": testimonial.get('name', ''),
-                        "testimonial_job": testimonial.get('position', ''),
-                        "testimonial_image": {"url": testimonial.get('image', '')},
-                        "testimonial_alignment": "center"
+                        "editor": f"<p style='text-align: center;'>{config.get('subtitle', '')}</p>",
+                        "text_color": "#666666"
                     }
                 }]
-            }]
+            }] + columns
         }
     
     def _create_services_grid_section(self, config: Dict) -> Dict:
