@@ -1,0 +1,1114 @@
+# XL WordPress Site Configuration - RIMAN GmbH Complete Website
+# Umfangreiche Unternehmenswebsite mit vielen Seiten, Posts und Medien
+
+site:
+  title: "RIMAN GmbH - Sanierungsexperten"
+  description: "Professionelle Sanierungsdienstleistungen seit über 20 Jahren"
+  base_url: "https://riman-sanierung.de"
+  language: "de-DE"
+
+# Autoren
+authors:
+  - id: 1
+    login: admin
+    email: admin@riman-sanierung.de
+    display_name: RIMAN Admin
+  - id: 2
+    login: michael.ritter
+    email: m.ritter@riman-sanierung.de
+    display_name: Michael Ritter
+  - id: 3
+    login: sandra.mann
+    email: s.mann@riman-sanierung.de
+    display_name: Sandra Mann
+  - id: 4
+    login: thomas.weber
+    email: t.weber@riman-sanierung.de
+    display_name: Thomas Weber
+
+# Kategorien für Blog
+categories:
+  - id: 1
+    slug: uncategorized
+    name: Allgemein
+  - id: 2
+    slug: sanierung
+    name: Sanierung
+  - id: 3
+    slug: asbestsanierung
+    name: Asbestsanierung
+  - id: 4
+    slug: schimmelsanierung
+    name: Schimmelsanierung
+  - id: 5
+    slug: brandsanierung
+    name: Brandschadensanierung
+  - id: 6
+    slug: pcb-sanierung
+    name: PCB-Sanierung
+  - id: 7
+    slug: ratgeber
+    name: Ratgeber
+  - id: 8
+    slug: gesetzgebung
+    name: Gesetzgebung
+  - id: 9
+    slug: fallstudien
+    name: Fallstudien
+  - id: 10
+    slug: nachhaltigkeit
+    name: Nachhaltigkeit
+
+# Tags
+tags:
+  - id: 10
+    slug: trgs-519
+    name: TRGS 519
+  - id: 11
+    slug: umweltschutz
+    name: Umweltschutz
+  - id: 12
+    slug: sicherheit
+    name: Sicherheit
+  - id: 13
+    slug: zertifizierung
+    name: Zertifizierung
+  - id: 14
+    slug: notdienst
+    name: Notdienst
+  - id: 15
+    slug: praevention
+    name: Prävention
+  - id: 16
+    slug: gesundheit
+    name: Gesundheit
+  - id: 17
+    slug: berlin
+    name: Berlin
+  - id: 18
+    slug: brandenburg
+    name: Brandenburg
+  - id: 19
+    slug: grossprojecte
+    name: Großprojekte
+  - id: 20
+    slug: wohngebaeude
+    name: Wohngebäude
+  - id: 21
+    slug: gewerbeimmobilien
+    name: Gewerbeimmobilien
+  - id: 22
+    slug: oeffentliche-gebaeude
+    name: Öffentliche Gebäude
+
+# Hauptmenü mit umfangreicher Struktur
+menus:
+  - id: 30
+    slug: hauptmenu
+    name: Hauptmenü
+    items:
+      # Home
+      - title: Startseite
+        url: "/"
+        type: custom
+        
+      # Leistungen mit Untermenü
+      - title: Leistungen
+        url: "/leistungen"
+        type: post_type
+        object: page
+        object_id: 200
+      - title: Asbestsanierung
+        url: "/leistungen/asbestsanierung"
+        type: post_type
+        object: page
+        parent: 2
+      - title: PCB-Sanierung
+        url: "/leistungen/pcb-sanierung"
+        type: post_type
+        object: page
+        parent: 2
+      - title: Schimmelsanierung
+        url: "/leistungen/schimmelsanierung"
+        type: post_type
+        object: page
+        parent: 2
+      - title: Brandschadensanierung
+        url: "/leistungen/brandschadensanierung"
+        type: post_type
+        object: page
+        parent: 2
+      - title: Schadstoffgutachten
+        url: "/leistungen/schadstoffgutachten"
+        type: post_type
+        object: page
+        parent: 2
+      - title: Rückbau & Entsorgung
+        url: "/leistungen/rueckbau-entsorgung"
+        type: post_type
+        object: page
+        parent: 2
+        
+      # Über uns mit Untermenü
+      - title: Über uns
+        url: "/ueber-uns"
+        type: post_type
+        object: page
+      - title: Unternehmen
+        url: "/ueber-uns/unternehmen"
+        type: post_type
+        object: page
+        parent: 9
+      - title: Team
+        url: "/ueber-uns/team"
+        type: post_type
+        object: page
+        parent: 9
+      - title: Zertifizierungen
+        url: "/ueber-uns/zertifizierungen"
+        type: post_type
+        object: page
+        parent: 9
+      - title: Partner
+        url: "/ueber-uns/partner"
+        type: post_type
+        object: page
+        parent: 9
+      - title: Karriere
+        url: "/ueber-uns/karriere"
+        type: post_type
+        object: page
+        parent: 9
+        
+      # Referenzen
+      - title: Referenzen
+        url: "/referenzen"
+        type: post_type
+        object: page
+        
+      # Blog/News
+      - title: Aktuelles
+        url: "/aktuelles"
+        type: post_type
+        object: page
+        
+      # Kontakt
+      - title: Kontakt
+        url: "/kontakt"
+        type: post_type
+        object: page
+        
+      # Notdienst (hervorgehoben)
+      - title: 24/7 Notdienst
+        url: "tel:+493012345678"
+        type: custom
+        classes: ["menu-highlight", "emergency"]
+
+# Media Attachments
+media:
+  # Hero Images
+  - url: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+    title: "Sanierungsarbeiten Hero"
+  - url: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&q=80"
+    title: "Asbestsanierung Hero"
+  - url: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+    title: "PCB Sanierung"
+  - url: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1920&q=80"
+    title: "Schimmelbeseitigung"
+  - url: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1920&q=80"
+    title: "Brandschaden"
+  # Team Bilder
+  - url: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+    title: "Michael Ritter CEO"
+  - url: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+    title: "Sandra Mann Projektleitung"
+  - url: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80"
+    title: "Thomas Weber Technischer Direktor"
+  - url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+    title: "Klaus Müller Bauleiter"
+  - url: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&q=80"
+    title: "Anna Schmidt Kundenbetreuung"
+  # Referenzprojekte
+  - url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
+    title: "Bürogebäude Sanierung Berlin"
+  - url: "https://images.unsplash.com/photo-1565538420870-da08ff96a207?w=1200&q=80"
+    title: "Wohnanlage Komplettsanierung"
+  - url: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80"
+    title: "Industriehalle Asbestentfernung"
+  # Zertifikate
+  - url: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    title: "TRGS 519 Zertifikat"
+  - url: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80"
+    title: "ISO 9001 Zertifizierung"
+
+# Umfangreiche Seitenstruktur
+pages:
+  # STARTSEITE mit Elementor
+  - title: "RIMAN GmbH - Ihre Sanierungsexperten"
+    slug: "startseite"
+    status: "publish"
+    template: "elementor_canvas"
+    featured_image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+    sections:
+      - type: "hero_slider"
+        slides:
+          - title: "RIMAN GmbH - Ihre <span>Experten</span> für Sanierung"
+            subtitle: "Seit über 20 Jahren"
+            text: "Professionelle Asbest-, PCB- und Schimmelsanierung nach höchsten Sicherheitsstandards."
+            button_text: "Kostenlose Beratung"
+            button_link: "#contact"
+            image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+          - title: "Zertifizierte <span>Asbestsanierung</span>"
+            subtitle: "Nach TRGS 519"
+            text: "Sichere und fachgerechte Entfernung von Asbest mit modernster Ausrüstung."
+            button_text: "Mehr erfahren"
+            button_link: "/leistungen/asbestsanierung"
+            image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&q=80"
+          - title: "<span>24/7</span> Notdienst"
+            subtitle: "Immer erreichbar"
+            text: "Bei Schadensfällen sind wir rund um die Uhr für Sie da."
+            button_text: "Notdienst anrufen"
+            button_link: "tel:+493012345678"
+            image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1920&q=80"
+      
+      - type: "service_cards"
+        title: "Unsere Kernkompetenzen"
+        subtitle: "Zertifiziert & Professionell"
+        services:
+          - title: "Asbestsanierung"
+            subtitle: "TRGS 519 zertifiziert"
+            text: "Fachgerechte Entfernung und Entsorgung von Asbest in Gebäuden aller Art."
+            icon: "fas fa-shield-alt"
+            image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=800&q=80"
+          - title: "PCB-Sanierung"
+            subtitle: "Umweltgerecht"
+            text: "Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien."
+            icon: "fas fa-biohazard"
+            image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+          - title: "Schimmelsanierung"
+            subtitle: "Nachhaltig"
+            text: "Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Prävention."
+            icon: "fas fa-spray-can"
+            image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80"
+          - title: "Brandschadensanierung"
+            subtitle: "24/7 Notdienst"
+            text: "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden."
+            icon: "fas fa-fire-extinguisher"
+            image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=800&q=80"
+      
+      - type: "about"
+        title: "Über <span>RIMAN GmbH</span>"
+        subtitle: "Ihre Sanierungsexperten seit 2000"
+        content: |
+          Mit über 20 Jahren Erfahrung sind wir Ihr zuverlässiger Partner für alle 
+          Sanierungsarbeiten. Unser Team aus über 50 zertifizierten Experten garantiert 
+          höchste Qualität und Sicherheit bei jedem Projekt.
+          
+          Wir sind spezialisiert auf die Sanierung von Schadstoffen und verfügen über 
+          modernste Ausrüstung sowie alle erforderlichen Zertifizierungen. Von der 
+          Analyse über die Durchführung bis zur Dokumentation - alles aus einer Hand.
+        image: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+        features:
+          - icon: "fas fa-certificate"
+            title: "Zertifiziert"
+            text: "Nach TRGS 519 und allen relevanten Standards"
+          - icon: "fas fa-users"
+            title: "50+ Experten"
+            text: "Erfahrenes Team von Sanierungsspezialisten"
+          - icon: "fas fa-clock"
+            title: "24/7 Service"
+            text: "Notdienst rund um die Uhr verfügbar"
+          - icon: "fas fa-shield-alt"
+            title: "Versichert"
+            text: "Umfassende Haftpflichtversicherung"
+      
+      - type: "testimonials"
+        title: "Das sagen unsere <span>Kunden</span>"
+        subtitle: "Über 1000 erfolgreiche Projekte"
+        background_image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+        testimonials:
+          - name: "Hausverwaltung Berlin-Mitte GmbH"
+            position: "Klaus Hoffmann, Geschäftsführer"
+            text: "RIMAN GmbH hat die Asbestsanierung in unserem 12-stöckigen Bürogebäude absolut professionell durchgeführt. Termintreu, sauber und mit höchster Kompetenz. Sehr empfehlenswert!"
+            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+            rating: 5
+          - name: "Meyer Immobilien GmbH"
+            position: "Andrea Meyer, Inhaberin"
+            text: "Bei einem Wasserschaden mit Schimmelbefall war RIMAN sofort zur Stelle. Die schnelle und gründliche Sanierung hat weitere Schäden verhindert. Top Service!"
+            image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80"
+            rating: 5
+          - name: "Architekturbüro Schmidt & Partner"
+            position: "Peter Schmidt, Senior Architekt"
+            text: "Seit Jahren unser zuverlässiger Partner für alle Sanierungsarbeiten. Klare Kommunikation, transparente Preise und erstklassige Ausführung."
+            image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+            rating: 5
+      
+      - type: "contact"
+        title: "Kostenlose Erstberatung"
+        subtitle: "Wir sind für Sie da"
+        text: "Kontaktieren Sie uns für eine unverbindliche Beratung zu Ihrem Sanierungsprojekt."
+        background_color: "#1f1f1f"
+        info:
+          - icon: "fas fa-phone"
+            label: "24/7 Notdienst"
+            value: "+49 (0) 30 123456789"
+          - icon: "fas fa-envelope"
+            label: "E-Mail"
+            value: "info@riman-sanierung.de"
+          - icon: "fas fa-map-marker-alt"
+            label: "Hauptsitz"
+            value: "Industriestraße 45, 13407 Berlin"
+          - icon: "fas fa-clock"
+            label: "Bürozeiten"
+            value: "Mo-Fr 7:00-18:00, Sa 8:00-14:00"
+
+  # LEISTUNGEN - Hauptseite
+  - title: "Unsere Leistungen"
+    slug: "leistungen"
+    status: "publish"
+    parent: 0
+    featured_image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&q=80"
+    content: |
+      <h2>Professionelle Sanierungsdienstleistungen</h2>
+      <p>Die RIMAN GmbH bietet Ihnen das komplette Spektrum professioneller Sanierungsdienstleistungen. 
+      Mit über 20 Jahren Erfahrung und modernster Ausrüstung sind wir Ihr kompetenter Partner für alle 
+      Arten von Schadstoffsanierungen.</p>
+      
+      <h3>Unsere Kernkompetenzen</h3>
+      <ul>
+        <li><strong>Asbestsanierung</strong> - Zertifiziert nach TRGS 519</li>
+        <li><strong>PCB-Sanierung</strong> - Umweltgerechte Entsorgung</li>
+        <li><strong>Schimmelsanierung</strong> - Mit Ursachenanalyse</li>
+        <li><strong>Brandschadensanierung</strong> - 24/7 Notdienst</li>
+        <li><strong>Schadstoffgutachten</strong> - Akkreditierte Analysen</li>
+        <li><strong>Rückbau & Entsorgung</strong> - Fachgerecht und dokumentiert</li>
+      </ul>
+      
+      <p>Alle unsere Leistungen werden nach höchsten Sicherheitsstandards und unter Einhaltung 
+      aller gesetzlichen Vorschriften durchgeführt.</p>
+
+  # LEISTUNGEN - Asbestsanierung
+  - title: "Asbestsanierung nach TRGS 519"
+    slug: "leistungen/asbestsanierung"
+    status: "publish"
+    parent: 200
+    featured_image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&q=80"
+    content: |
+      <h2>Professionelle Asbestsanierung</h2>
+      <p>Als TRGS 519 zertifiziertes Unternehmen führen wir Asbestsanierungen in allen Gebäudetypen durch - 
+      von Wohnhäusern über Bürogebäude bis hin zu Industrieanlagen.</p>
+      
+      <h3>Unser Leistungsspektrum</h3>
+      <ul>
+        <li>Asbestanalyse und Gefährdungsbeurteilung</li>
+        <li>Erstellung von Sanierungskonzepten</li>
+        <li>Einrichtung von Schwarzbereichen</li>
+        <li>Fachgerechte Asbestentfernung</li>
+        <li>Luftmessungen und Freigabemessungen</li>
+        <li>Entsorgung und Dokumentation</li>
+      </ul>
+      
+      <h3>Typische Asbestquellen</h3>
+      <ul>
+        <li>Asbestzementplatten (Eternit)</li>
+        <li>Spritzasbest</li>
+        <li>Asbesthaltige Bodenbeläge (Floor-Flex, Cushion-Vinyl)</li>
+        <li>Nachtspeicheröfen</li>
+        <li>Rohrisolierungen</li>
+        <li>Brandschutzplatten</li>
+      </ul>
+      
+      <h3>Sicherheit hat oberste Priorität</h3>
+      <p>Wir arbeiten ausschließlich mit geschultem Personal und modernster Sicherheitstechnik. 
+      Alle Arbeiten werden unter Unterdruck durchgeführt und kontinuierlich überwacht.</p>
+
+  # LEISTUNGEN - PCB-Sanierung
+  - title: "PCB-Sanierung"
+    slug: "leistungen/pcb-sanierung"
+    status: "publish"
+    parent: 200
+    featured_image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"
+    content: |
+      <h2>Fachgerechte PCB-Sanierung</h2>
+      <p>PCB (Polychlorierte Biphenyle) wurden bis 1989 in vielen Baumaterialien verwendet und 
+      stellen heute eine erhebliche Gesundheitsgefahr dar. Wir sanieren PCB-belastete Gebäude 
+      nach den aktuellen Richtlinien.</p>
+      
+      <h3>PCB-Quellen im Gebäude</h3>
+      <ul>
+        <li>Dauerelastische Fugendichtungen</li>
+        <li>Kondensatoren in alten Leuchtstofflampen</li>
+        <li>Klebstoffe und Anstriche</li>
+        <li>Weichmacher in Kunststoffen</li>
+      </ul>
+      
+      <h3>Unser Sanierungsverfahren</h3>
+      <ol>
+        <li>Raumluftmessung und Materialproben</li>
+        <li>Erstellung eines Sanierungskonzepts</li>
+        <li>Abschottung und Unterdruckhaltung</li>
+        <li>Entfernung belasteter Materialien</li>
+        <li>Dekontamination von Oberflächen</li>
+        <li>Kontrollmessungen und Freigabe</li>
+      </ol>
+
+  # LEISTUNGEN - Schimmelsanierung
+  - title: "Schimmelsanierung"
+    slug: "leistungen/schimmelsanierung"
+    status: "publish"
+    parent: 200
+    featured_image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&q=80"
+    content: |
+      <h2>Nachhaltige Schimmelsanierung</h2>
+      <p>Schimmelbefall in Gebäuden ist nicht nur ein ästhetisches Problem, sondern kann zu 
+      erheblichen Gesundheitsrisiken führen. Wir beseitigen Schimmel nachhaltig und beheben 
+      die Ursachen.</p>
+      
+      <h3>Ursachen für Schimmelbildung</h3>
+      <ul>
+        <li>Wasserschäden und Leckagen</li>
+        <li>Kondensation durch Wärmebrücken</li>
+        <li>Unzureichende Lüftung</li>
+        <li>Bauliche Mängel</li>
+        <li>Falsches Heiz- und Lüftungsverhalten</li>
+      </ul>
+      
+      <h3>Unser Sanierungskonzept</h3>
+      <ol>
+        <li><strong>Analyse:</strong> Bestimmung der Schimmelart und Ursachenforschung</li>
+        <li><strong>Abschottung:</strong> Verhinderung der Sporenausbreitung</li>
+        <li><strong>Entfernung:</strong> Fachgerechte Beseitigung des Befalls</li>
+        <li><strong>Desinfektion:</strong> Behandlung betroffener Bereiche</li>
+        <li><strong>Trocknung:</strong> Professionelle Bautrocknung</li>
+        <li><strong>Prävention:</strong> Maßnahmen gegen Neubefall</li>
+      </ol>
+
+  # LEISTUNGEN - Brandschadensanierung
+  - title: "Brandschadensanierung"
+    slug: "leistungen/brandschadensanierung"
+    status: "publish"
+    parent: 200
+    featured_image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1200&q=80"
+    content: |
+      <h2>Brandschadensanierung - Schnell und professionell</h2>
+      <p>Nach einem Brand zählt jede Minute. Unser 24/7 Notdienst ist sofort für Sie da, 
+      um Folgeschäden zu minimieren und die Sanierung einzuleiten.</p>
+      
+      <h3>Sofortmaßnahmen nach einem Brand</h3>
+      <ul>
+        <li>Sicherung der Brandstelle</li>
+        <li>Dokumentation für Versicherungen</li>
+        <li>Notsicherung von Gebäudeteilen</li>
+        <li>Bergung von Inventar</li>
+        <li>Geruchsneutralisation</li>
+      </ul>
+      
+      <h3>Sanierungsleistungen</h3>
+      <ul>
+        <li>Rußentfernung und Reinigung</li>
+        <li>Schadstoffmessungen</li>
+        <li>Trocknung von Löschwasserschäden</li>
+        <li>Entfernung kontaminierter Materialien</li>
+        <li>Wiederherstellung der Bausubstanz</li>
+        <li>Komplettsanierung bis zur Bezugsfertigkeit</li>
+      </ul>
+
+  # ÜBER UNS - Hauptseite
+  - title: "Über RIMAN GmbH"
+    slug: "ueber-uns"
+    status: "publish"
+    featured_image: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=1200&q=80"
+    content: |
+      <h2>RIMAN GmbH - Ihr Partner für professionelle Sanierung</h2>
+      <p>Seit unserer Gründung im Jahr 2000 haben wir uns zu einem der führenden Sanierungsunternehmen 
+      in Berlin und Brandenburg entwickelt. Mit über 50 Mitarbeitern und modernster Ausrüstung 
+      realisieren wir Projekte jeder Größenordnung.</p>
+
+  # ÜBER UNS - Unternehmen
+  - title: "Das Unternehmen"
+    slug: "ueber-uns/unternehmen"
+    status: "publish"
+    parent: 300
+    content: |
+      <h2>Die RIMAN GmbH im Detail</h2>
+      
+      <h3>Unsere Geschichte</h3>
+      <p>2000 gegründet als kleiner Handwerksbetrieb, hat sich die RIMAN GmbH kontinuierlich 
+      zu einem mittelständischen Unternehmen mit über 50 Mitarbeitern entwickelt. Heute sind 
+      wir einer der führenden Anbieter für Schadstoffsanierungen in der Region.</p>
+      
+      <h3>Unternehmenszahlen</h3>
+      <ul>
+        <li>Über 50 festangestellte Mitarbeiter</li>
+        <li>3 Standorte in Berlin und Brandenburg</li>
+        <li>Über 1000 erfolgreich abgeschlossene Projekte</li>
+        <li>24/7 Notdienst an 365 Tagen im Jahr</li>
+        <li>Modernster Fuhrpark mit 25 Spezialfahrzeugen</li>
+      </ul>
+      
+      <h3>Unsere Werte</h3>
+      <ul>
+        <li><strong>Sicherheit:</strong> Höchste Sicherheitsstandards für Mitarbeiter und Kunden</li>
+        <li><strong>Qualität:</strong> Zertifizierte Verfahren und kontinuierliche Weiterbildung</li>
+        <li><strong>Zuverlässigkeit:</strong> Termintreue und transparente Kommunikation</li>
+        <li><strong>Nachhaltigkeit:</strong> Umweltgerechte Entsorgung und Ressourcenschonung</li>
+      </ul>
+
+  # ÜBER UNS - Team (mit Elementor)
+  - title: "Unser Team"
+    slug: "ueber-uns/team"
+    status: "publish"
+    parent: 300
+    template: "elementor_canvas"
+    sections:
+      - type: "team"
+        title: "Die Menschen hinter RIMAN"
+        subtitle: "Über 50 Experten für Ihre Sicherheit"
+        members:
+          - name: "Michael Ritter"
+            position: "Geschäftsführer & Gründer"
+            image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+            bio: "Über 25 Jahre Erfahrung in der Sanierungsbranche. Gründete RIMAN im Jahr 2000."
+            social:
+              linkedin: "https://linkedin.com/in/michael-ritter"
+              xing: "https://xing.com/profile/michael-ritter"
+          - name: "Sandra Mann"
+            position: "Leiterin Projektmanagement"
+            image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+            bio: "Zertifizierte Projektmanagerin mit Fokus auf Großprojekte und Koordination."
+            social:
+              linkedin: "https://linkedin.com/in/sandra-mann"
+          - name: "Thomas Weber"
+            position: "Technischer Direktor"
+            image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80"
+            bio: "Spezialist für Asbestsanierung und technische Planung. TRGS 519 Sachkundiger."
+            social:
+              linkedin: "https://linkedin.com/in/thomas-weber"
+
+  # ÜBER UNS - Zertifizierungen
+  - title: "Zertifizierungen & Qualifikationen"
+    slug: "ueber-uns/zertifizierungen"
+    status: "publish"
+    parent: 300
+    featured_image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    content: |
+      <h2>Unsere Zertifizierungen</h2>
+      <p>Qualität und Sicherheit stehen bei uns an erster Stelle. Alle unsere Verfahren sind 
+      zertifiziert und werden regelmäßig überprüft.</p>
+      
+      <h3>Zertifikate und Nachweise</h3>
+      <ul>
+        <li><strong>TRGS 519:</strong> Zertifizierung für Asbestsanierung</li>
+        <li><strong>ISO 9001:2015:</strong> Qualitätsmanagementsystem</li>
+        <li><strong>ISO 14001:</strong> Umweltmanagementsystem</li>
+        <li><strong>SCC**:</strong> Sicherheits-Certifikat-Contraktoren</li>
+        <li><strong>DGUV:</strong> Arbeitsschutz und Unfallverhütung</li>
+        <li><strong>Entsorgungsfachbetrieb:</strong> Zertifizierung nach KrWG</li>
+      </ul>
+      
+      <h3>Mitgliedschaften</h3>
+      <ul>
+        <li>Bundesverband Schimmelpilzsanierung e.V.</li>
+        <li>Gesamtverband Schadstoffsanierung e.V.</li>
+        <li>Handwerkskammer Berlin</li>
+        <li>IHK Berlin</li>
+      </ul>
+
+  # REFERENZEN
+  - title: "Referenzen"
+    slug: "referenzen"
+    status: "publish"
+    featured_image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
+    content: |
+      <h2>Unsere Referenzprojekte</h2>
+      <p>Mit über 1000 erfolgreich abgeschlossenen Projekten haben wir umfangreiche Erfahrung 
+      in allen Bereichen der Schadstoffsanierung.</p>
+      
+      <h3>Ausgewählte Großprojekte</h3>
+      
+      <h4>Asbestsanierung Bürokomplex Berlin-Mitte (2023)</h4>
+      <ul>
+        <li>12-stöckiges Bürogebäude, 15.000 m²</li>
+        <li>Komplette Asbestentfernung während laufendem Betrieb</li>
+        <li>Projektdauer: 6 Monate</li>
+      </ul>
+      
+      <h4>PCB-Sanierung Schulgebäude Brandenburg (2023)</h4>
+      <ul>
+        <li>Grundschule mit 800 Schülern</li>
+        <li>Sanierung während der Sommerferien</li>
+        <li>Projektdauer: 6 Wochen</li>
+      </ul>
+      
+      <h4>Brandschadensanierung Wohnanlage Potsdam (2022)</h4>
+      <ul>
+        <li>48 Wohneinheiten nach Großbrand</li>
+        <li>Komplettsanierung inkl. Wiederaufbau</li>
+        <li>Projektdauer: 9 Monate</li>
+      </ul>
+
+  # AKTUELLES/BLOG
+  - title: "Aktuelles & Wissenswertes"
+    slug: "aktuelles"
+    status: "publish"
+    template: "default"
+    content: |
+      <h2>News, Ratgeber und Fachwissen</h2>
+      <p>Bleiben Sie informiert über aktuelle Entwicklungen, gesetzliche Änderungen und 
+      wichtige Informationen rund um das Thema Schadstoffsanierung.</p>
+
+  # KONTAKT mit Elementor
+  - title: "Kontakt"
+    slug: "kontakt"
+    status: "publish"
+    template: "elementor_canvas"
+    sections:
+      - type: "contact"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Wir sind für Sie da"
+        text: "Vereinbaren Sie eine kostenlose Erstberatung oder nutzen Sie unseren 24/7 Notdienst."
+        background_color: "#1f1f1f"
+        info:
+          - icon: "fas fa-phone"
+            label: "24/7 Notdienst"
+            value: "+49 (0) 30 123456789"
+          - icon: "fas fa-phone"
+            label: "Büro Berlin"
+            value: "+49 (0) 30 987654321"
+          - icon: "fas fa-envelope"
+            label: "E-Mail"
+            value: "info@riman-sanierung.de"
+          - icon: "fas fa-map-marker-alt"
+            label: "Hauptsitz Berlin"
+            value: "Industriestraße 45, 13407 Berlin"
+          - icon: "fas fa-map-marker-alt"
+            label: "Niederlassung Potsdam"
+            value: "Gewerbepark 12, 14482 Potsdam"
+          - icon: "fas fa-clock"
+            label: "Bürozeiten"
+            value: "Mo-Fr 7:00-18:00, Sa 8:00-14:00"
+
+  # Weitere Seiten
+  - title: "Impressum"
+    slug: "impressum"
+    status: "publish"
+    content: |
+      <h2>Impressum</h2>
+      <p><strong>RIMAN GmbH</strong><br>
+      Sanierungsdienstleistungen<br>
+      Industriestraße 45<br>
+      13407 Berlin</p>
+      
+      <p>Telefon: +49 (0) 30 123456789<br>
+      E-Mail: info@riman-sanierung.de</p>
+      
+      <p>Geschäftsführer: Michael Ritter<br>
+      Registergericht: Amtsgericht Berlin-Charlottenburg<br>
+      Registernummer: HRB 123456 B<br>
+      USt-IdNr.: DE123456789</p>
+
+  - title: "Datenschutz"
+    slug: "datenschutz"
+    status: "publish"
+    content: |
+      <h2>Datenschutzerklärung</h2>
+      <p>Datenschutz hat für die RIMAN GmbH einen hohen Stellenwert...</p>
+
+# Umfangreiche Blog-Posts
+posts:
+  # Aktuelle News
+  - title: "RIMAN erhält Großauftrag für Asbestsanierung am Alexanderplatz"
+    slug: "grossauftrag-alexanderplatz-2024"
+    author: "michael.ritter"
+    status: "publish"
+    sticky: true
+    featured_image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
+    categories: ["sanierung", "asbestsanierung"]
+    tags: ["berlin", "grossprojecte", "trgs-519"]
+    excerpt: "Wir freuen uns bekannt zu geben, dass RIMAN den Zuschlag für die Asbestsanierung eines großen Bürokomplexes am Alexanderplatz erhalten hat."
+    content: |
+      <p>Die RIMAN GmbH hat den Zuschlag für eines der größten Sanierungsprojekte Berlins erhalten. 
+      Der historische Bürokomplex am Alexanderplatz wird in den kommenden 12 Monaten vollständig 
+      von Asbest befreit.</p>
+      
+      <h3>Projektdetails</h3>
+      <ul>
+        <li>Gebäudefläche: 25.000 m² auf 15 Etagen</li>
+        <li>Projektdauer: 12 Monate</li>
+        <li>Team: 30 Sanierungsspezialisten</li>
+        <li>Investitionsvolumen: 8,5 Millionen Euro</li>
+      </ul>
+      
+      <p>Die besondere Herausforderung besteht darin, die Sanierung bei laufendem Betrieb 
+      durchzuführen. Hierfür haben wir ein innovatives Etappen-Konzept entwickelt.</p>
+
+  - title: "Neue TRGS 519 Anforderungen ab 2024 - Was ändert sich?"
+    slug: "trgs-519-aenderungen-2024"
+    author: "thomas.weber"
+    status: "publish"
+    categories: ["gesetzgebung", "asbestsanierung"]
+    tags: ["trgs-519", "zertifizierung", "sicherheit"]
+    excerpt: "Die technischen Regeln für Gefahrstoffe wurden überarbeitet. Wir erklären die wichtigsten Änderungen."
+    content: |
+      <p>Ab Januar 2024 gelten verschärfte Anforderungen für die Asbestsanierung. Die RIMAN GmbH 
+      ist bereits vollständig auf die neuen Regelungen vorbereitet.</p>
+      
+      <h3>Die wichtigsten Änderungen</h3>
+      <ol>
+        <li><strong>Erweiterte Dokumentationspflicht:</strong> Alle Arbeitsschritte müssen 
+        lückenlos digital dokumentiert werden.</li>
+        <li><strong>Verschärfte Grenzwerte:</strong> Die zulässige Asbestfaserkonzentration 
+        wurde weiter reduziert.</li>
+        <li><strong>Neue Schulungsanforderungen:</strong> Mitarbeiter müssen quartalsweise 
+        geschult werden.</li>
+      </ol>
+      
+      <p>Unsere Teams sind bereits nach den neuen Standards geschult und zertifiziert.</p>
+
+  - title: "Schimmel in der Wohnung - Erste Hilfe Maßnahmen"
+    slug: "schimmel-erste-hilfe"
+    author: "sandra.mann"
+    status: "publish"
+    categories: ["ratgeber", "schimmelsanierung"]
+    tags: ["praevention", "gesundheit", "wohngebaeude"]
+    excerpt: "Schimmelbefall kann gesundheitsgefährdend sein. Wir zeigen Ihnen, was Sie sofort tun können."
+    content: |
+      <p>Schimmel in Wohnräumen ist nicht nur unschön, sondern kann auch ernsthafte 
+      Gesundheitsprobleme verursachen. Hier unsere Erste-Hilfe-Tipps.</p>
+      
+      <h3>Sofortmaßnahmen bei Schimmelbefall</h3>
+      <ol>
+        <li><strong>Nicht berühren:</strong> Vermeiden Sie direkten Kontakt mit dem Schimmel.</li>
+        <li><strong>Lüften:</strong> Sorgen Sie für gute Durchlüftung, aber verhindern Sie 
+        die Ausbreitung von Sporen in andere Räume.</li>
+        <li><strong>Dokumentieren:</strong> Fotografieren Sie den Befall für Versicherung 
+        und Vermieter.</li>
+        <li><strong>Feuchtigkeit stoppen:</strong> Identifizieren und beseitigen Sie die 
+        Feuchtigkeitsquelle.</li>
+        <li><strong>Experten rufen:</strong> Bei größerem Befall (>0,5m²) sollten Sie 
+        Fachleute hinzuziehen.</li>
+      </ol>
+      
+      <h3>Gesundheitsrisiken</h3>
+      <p>Schimmelsporen können Allergien, Atemwegserkrankungen und bei immungeschwächten 
+      Personen ernsthafte Infektionen auslösen.</p>
+
+  - title: "PCB in Gebäuden - Eine unterschätzte Gefahr"
+    slug: "pcb-gebaeude-gefahr"
+    author: "thomas.weber"
+    status: "publish"
+    categories: ["ratgeber", "pcb-sanierung"]
+    tags: ["gesundheit", "umweltschutz", "gewerbeimmobilien"]
+    excerpt: "PCB wurde bis 1989 verbaut und findet sich noch heute in vielen Gebäuden. Eine Übersicht über Risiken und Sanierungspflicht."
+    content: |
+      <p>Polychlorierte Biphenyle (PCB) wurden wegen ihrer technischen Eigenschaften jahrzehntelang 
+      in Baumaterialien eingesetzt. Heute wissen wir um ihre Gefährlichkeit.</p>
+      
+      <h3>Wo wurde PCB eingesetzt?</h3>
+      <ul>
+        <li>Fugendichtungen in Betonbauten (1960-1975)</li>
+        <li>Kondensatoren in alten Leuchtstofflampen</li>
+        <li>Klebstoffe und Anstriche</li>
+        <li>Weichmacher in Kunststoffen</li>
+      </ul>
+      
+      <h3>Gesundheitsgefahren</h3>
+      <p>PCB reichert sich im Körper an und kann zu:</p>
+      <ul>
+        <li>Hautveränderungen (Chlorakne)</li>
+        <li>Leberschäden</li>
+        <li>Störungen des Immunsystems</li>
+        <li>Entwicklungsstörungen bei Kindern</li>
+      </ul>
+      
+      <h3>Sanierungspflicht</h3>
+      <p>Bei Raumluftkonzentrationen über 300 ng/m³ besteht Sanierungspflicht. 
+      Wir führen akkreditierte Messungen durch.</p>
+
+  - title: "Erfolgreiche Schulsanierung in Potsdam abgeschlossen"
+    slug: "schulsanierung-potsdam-erfolg"
+    author: "sandra.mann"
+    status: "publish"
+    categories: ["fallstudien", "sanierung"]
+    tags: ["brandenburg", "oeffentliche-gebaeude", "pcb-sanierung"]
+    excerpt: "Nach 8 Wochen intensiver Arbeit wurde die Komplettsanierung der Grundschule Potsdam-West erfolgreich abgeschlossen."
+    content: |
+      <p>Pünktlich zum Schuljahresbeginn konnten wir die umfassende PCB- und Asbestsanierung 
+      der Grundschule Potsdam-West erfolgreich abschließen.</p>
+      
+      <h3>Projektumfang</h3>
+      <ul>
+        <li>Entfernung von 2.500 m² asbesthaltiger Bodenbeläge</li>
+        <li>PCB-Sanierung von 180 Fensterfugen</li>
+        <li>Austausch von 250 PCB-belasteten Leuchtstofflampen</li>
+        <li>Komplettreinigung und Dekontamination</li>
+      </ul>
+      
+      <h3>Besondere Herausforderungen</h3>
+      <p>Die Sanierung musste innerhalb der 8-wöchigen Sommerferien abgeschlossen werden. 
+      Durch den Einsatz von zwei Schichtteams und optimierter Logistik konnten wir den 
+      straffen Zeitplan einhalten.</p>
+      
+      <blockquote>
+        <p>"Die Zusammenarbeit mit RIMAN war vorbildlich. Trotz des enormen Zeitdrucks 
+        wurde sauber und professionell gearbeitet." - Schulleiter Müller</p>
+      </blockquote>
+
+  - title: "Brandschaden - Die ersten 48 Stunden sind entscheidend"
+    slug: "brandschaden-erste-48-stunden"
+    author: "michael.ritter"
+    status: "publish"
+    categories: ["ratgeber", "brandsanierung"]
+    tags: ["notdienst", "sicherheit"]
+    excerpt: "Nach einem Brand entstehen oft größere Folgeschäden als der Brand selbst. Schnelles Handeln ist entscheidend."
+    content: |
+      <p>Ein Brand ist für Betroffene immer ein Schock. Doch nach den Löscharbeiten beginnt 
+      ein Wettlauf gegen die Zeit, um Folgeschäden zu minimieren.</p>
+      
+      <h3>Warum sind die ersten 48 Stunden so wichtig?</h3>
+      <ul>
+        <li><strong>Korrosion:</strong> Ruß und Rauchgase sind hochkorrosiv und greifen 
+        Metalle und Elektronik an.</li>
+        <li><strong>Geruchsbildung:</strong> Je länger Ruß einwirkt, desto tiefer dringen 
+        Gerüche in Materialien ein.</li>
+        <li><strong>Schimmelbildung:</strong> Löschwasser kann binnen 48 Stunden zu 
+        Schimmelwachstum führen.</li>
+      </ul>
+      
+      <h3>Unser 24-Stunden-Notfallplan</h3>
+      <ol>
+        <li>Sofortige Schadenaufnahme und Dokumentation</li>
+        <li>Notsicherung und Abschottung</li>
+        <li>Bergung von Inventar und wichtigen Unterlagen</li>
+        <li>Erste Trocknungsmaßnahmen</li>
+        <li>Geruchsneutralisation</li>
+      </ol>
+
+  - title: "Nachhaltigkeit in der Sanierung - Unser Beitrag zum Umweltschutz"
+    slug: "nachhaltigkeit-sanierung-umweltschutz"
+    author: "michael.ritter"
+    status: "publish"
+    categories: ["nachhaltigkeit", "sanierung"]
+    tags: ["umweltschutz", "zertifizierung"]
+    excerpt: "Sanierung und Umweltschutz müssen kein Widerspruch sein. Wie wir nachhaltig arbeiten."
+    content: |
+      <p>Als Sanierungsunternehmen tragen wir eine besondere Verantwortung für die Umwelt. 
+      Schadstoffe müssen nicht nur entfernt, sondern auch umweltgerecht entsorgt werden.</p>
+      
+      <h3>Unsere Nachhaltigkeitsstrategie</h3>
+      <ul>
+        <li><strong>Recycling:</strong> 85% der anfallenden Materialien werden recycelt</li>
+        <li><strong>Energieeffizienz:</strong> Moderne Elektrofahrzeuge im Fuhrpark</li>
+        <li><strong>Ressourcenschonung:</strong> Wiederverwendbare Abschottungssysteme</li>
+        <li><strong>CO2-Reduktion:</strong> Klimaneutralität bis 2030 angestrebt</li>
+      </ul>
+
+  - title: "Asbest erkennen - Eine Anleitung für Hausbesitzer"
+    slug: "asbest-erkennen-hausbesitzer"
+    author: "thomas.weber"
+    status: "publish"
+    categories: ["ratgeber", "asbestsanierung"]
+    tags: ["praevention", "wohngebaeude", "sicherheit"]
+    excerpt: "Asbest wurde bis 1993 verbaut. Wir zeigen Ihnen, wo Sie in Ihrem Haus Asbest vermuten müssen."
+    content: |
+      <p>In Gebäuden, die vor 1993 gebaut oder saniert wurden, kann Asbest in verschiedenen 
+      Baumaterialien enthalten sein. Eine Übersicht für Hausbesitzer.</p>
+      
+      <h3>Typische Asbestquellen nach Baujahr</h3>
+      
+      <h4>1960-1970</h4>
+      <ul>
+        <li>Spritzasbest zur Brandschutzisolierung</li>
+        <li>Asbesthaltige Bodenbeläge (Floor-Flex)</li>
+        <li>Nachtspeicheröfen</li>
+      </ul>
+      
+      <h4>1970-1980</h4>
+      <ul>
+        <li>Asbestzementplatten (Eternit) an Fassaden</li>
+        <li>Wellasbestplatten auf Dächern</li>
+        <li>Asbesthaltige Klebstoffe</li>
+      </ul>
+      
+      <h4>1980-1993</h4>
+      <ul>
+        <li>Asbesthaltige Fugenmassen</li>
+        <li>Brandschutzplatten</li>
+        <li>Rohrisolierungen</li>
+      </ul>
+      
+      <h3>Wichtig: Keine Eigeninitiative!</h3>
+      <p>Brechen, Bohren oder Schleifen Sie niemals verdächtige Materialien. 
+      Lassen Sie eine Probe von Fachleuten entnehmen.</p>
+
+  - title: "Förderungen für Schadstoffsanierung - Diese Zuschüsse gibt es"
+    slug: "foerderungen-schadstoffsanierung-2024"
+    author: "sandra.mann"
+    status: "publish"
+    categories: ["ratgeber", "gesetzgebung"]
+    tags: ["berlin", "brandenburg"]
+    excerpt: "Viele Sanierungsmaßnahmen werden staatlich gefördert. Ein Überblick über aktuelle Förderprogramme."
+    content: |
+      <p>Die Kosten einer Schadstoffsanierung können erheblich sein. Verschiedene Förderprogramme 
+      können die finanzielle Belastung deutlich reduzieren.</p>
+      
+      <h3>Bundesweite Förderungen</h3>
+      <ul>
+        <li><strong>KfW-Programm 151/152:</strong> Bis zu 120.000 Euro für energetische 
+        Sanierung inkl. Schadstoffbeseitigung</li>
+        <li><strong>BAFA-Förderung:</strong> Zuschüsse für Einzelmaßnahmen</li>
+      </ul>
+      
+      <h3>Förderungen in Berlin</h3>
+      <ul>
+        <li><strong>IBB-Förderprogramm:</strong> Zinsgünstige Darlehen für Sanierung</li>
+        <li><strong>Berliner Programm für Nachhaltige Entwicklung:</strong> Bis zu 50% 
+        Förderung für umweltgerechte Sanierung</li>
+      </ul>
+      
+      <h3>Förderungen in Brandenburg</h3>
+      <ul>
+        <li><strong>ILB-Brandenburg:</strong> Förderkredite für Wohnraumsanierung</li>
+        <li><strong>Stadtumbau Ost:</strong> Zuschüsse für Sanierung in bestimmten Gebieten</li>
+      </ul>
+
+  - title: "Interview: 20 Jahre RIMAN - Ein Rückblick mit Gründer Michael Ritter"
+    slug: "interview-20-jahre-riman"
+    author: "admin"
+    status: "publish"
+    categories: ["sanierung"]
+    tags: ["team"]
+    excerpt: "Zum 20-jährigen Jubiläum blickt Firmengründer Michael Ritter auf die Entwicklung von RIMAN zurück."
+    content: |
+      <p><strong>Herr Ritter, vor 20 Jahren haben Sie RIMAN gegründet. Wie hat alles angefangen?</strong></p>
+      
+      <p>Als gelernter Bauingenieur habe ich früh die Bedeutung der Schadstoffsanierung erkannt. 
+      2000 startete ich mit zwei Mitarbeitern und einem gemieteten Transporter. Heute haben 
+      wir über 50 Angestellte und einen modernen Fuhrpark.</p>
+      
+      <p><strong>Was waren die größten Herausforderungen?</strong></p>
+      
+      <p>Die ständig wechselnden gesetzlichen Anforderungen und der Aufbau eines qualifizierten 
+      Teams. Schadstoffsanierung erfordert hochspezialisiertes Wissen und kontinuierliche 
+      Weiterbildung.</p>
+      
+      <p><strong>Worauf sind Sie besonders stolz?</strong></p>
+      
+      <p>Dass wir in 20 Jahren keinen einzigen schweren Arbeitsunfall hatten. Sicherheit 
+      steht bei uns an erster Stelle - für unsere Mitarbeiter und unsere Kunden.</p>
+      
+      <p><strong>Wie sehen Sie die Zukunft der Branche?</strong></p>
+      
+      <p>Die Nachfrage wird weiter steigen. Viele Gebäude aus den 60er und 70er Jahren 
+      müssen saniert werden. Gleichzeitig werden die Umweltauflagen strenger. Wir sind 
+      darauf vorbereitet.</p>
+
+# Header Template
+header:
+  title: "RIMAN Header"
+  content: |
+    <header class="site-header">
+      <div class="header-top">
+        <div class="container">
+          <div class="emergency-bar">
+            <span>24/7 Notdienst: <a href="tel:+493012345678">+49 30 123 456 78</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="header-main">
+        <div class="container">
+          <div class="logo">
+            <img src="/logo-riman.png" alt="RIMAN GmbH">
+          </div>
+          <nav class="main-navigation">
+            <!-- Hauptmenü wird hier eingefügt -->
+          </nav>
+        </div>
+      </div>
+    </header>
+
+# Footer Template
+footer:
+  title: "RIMAN Footer"
+  content: |
+    <footer class="site-footer">
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="widget">
+              <h3>RIMAN GmbH</h3>
+              <p>Ihre Experten für professionelle Sanierung seit über 20 Jahren. 
+              Zertifiziert nach TRGS 519 und ISO 9001.</p>
+              <div class="certifications">
+                <img src="/cert-trgs519.png" alt="TRGS 519">
+                <img src="/cert-iso9001.png" alt="ISO 9001">
+              </div>
+            </div>
+            <div class="widget">
+              <h3>Leistungen</h3>
+              <ul>
+                <li><a href="/leistungen/asbestsanierung">Asbestsanierung</a></li>
+                <li><a href="/leistungen/pcb-sanierung">PCB-Sanierung</a></li>
+                <li><a href="/leistungen/schimmelsanierung">Schimmelsanierung</a></li>
+                <li><a href="/leistungen/brandschadensanierung">Brandschadensanierung</a></li>
+                <li><a href="/leistungen/schadstoffgutachten">Schadstoffgutachten</a></li>
+              </ul>
+            </div>
+            <div class="widget">
+              <h3>Kontakt</h3>
+              <p>
+                <strong>24/7 Notdienst:</strong><br>
+                <a href="tel:+493012345678">+49 30 123 456 78</a><br><br>
+                <strong>Hauptsitz Berlin:</strong><br>
+                Industriestraße 45<br>
+                13407 Berlin<br>
+                info@riman-sanierung.de
+              </p>
+            </div>
+            <div class="widget">
+              <h3>Standorte</h3>
+              <p>
+                <strong>Berlin</strong><br>
+                Industriestraße 45, 13407 Berlin<br><br>
+                <strong>Potsdam</strong><br>
+                Gewerbepark 12, 14482 Potsdam<br><br>
+                <strong>Brandenburg</strong><br>
+                Am Hafen 8, 14776 Brandenburg
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2024 RIMAN GmbH. Alle Rechte vorbehalten. | 
+          <a href="/impressum">Impressum</a> | 
+          <a href="/datenschutz">Datenschutz</a> | 
+          <a href="/agb">AGB</a></p>
+        </div>
+      </div>
+    </footer>
+
+# Contact Forms
+forms:
+  - title: "Kontaktformular"
+    content: |
+      [text* your-name placeholder "Ihr Name"]
+      [email* your-email placeholder "Ihre E-Mail"]
+      [tel your-phone placeholder "Telefonnummer"]
+      [select sanierungsart "Bitte wählen" "Asbestsanierung" "PCB-Sanierung" "Schimmelsanierung" "Brandschadensanierung" "Schadstoffgutachten" "Sonstiges"]
+      [text your-address placeholder "Objektadresse"]
+      [select objekttyp "Objekttyp" "Wohngebäude" "Gewerbeimmobilie" "Öffentliches Gebäude" "Industrieanlage"]
+      [textarea* your-message placeholder "Beschreiben Sie Ihr Anliegen..."]
+      [checkbox* datenschutz "Ich habe die Datenschutzerklärung gelesen und akzeptiert"]
+      [submit "Anfrage senden"]
+  
+  - title: "Notdienst-Formular"
+    content: |
+      [text* your-name placeholder "Ihr Name*"]
+      [tel* your-phone placeholder "Telefonnummer für Rückruf*"]
+      [select* notfall-art "Art des Notfalls*" "Brandschaden" "Wasserschaden" "Asbestfund" "Schimmelbefall" "Sonstiger Notfall"]
+      [text* your-address placeholder "Adresse des Schadenorts*"]
+      [textarea your-description placeholder "Kurze Beschreibung des Notfalls"]
+      [checkbox sofort-kontakt "Bitte rufen Sie mich sofort zurück"]
+      [submit "NOTDIENST ANFORDERN"]
