@@ -1,0 +1,3552 @@
+{
+  "summary": {
+    "total_unique_widget_types": 12,
+    "total_widget_instances": 41,
+    "max_nesting_depth": 4
+  },
+  "widget_frequency": {
+    "cholot-texticon": 7,
+    "text-editor": 7,
+    "image": 6,
+    "cholot-title": 4,
+    "divider": 4,
+    "cholot-team": 3,
+    "icon": 3,
+    "cholot-text-line": 3,
+    "rdn-slider": 1,
+    "video": 1,
+    "cholot-testimonial-two": 1,
+    "cholot-contact": 1
+  },
+  "most_complex_widgets": {
+    "rdn-slider": {
+      "unique_parameters": 60,
+      "total_parameter_uses": 60,
+      "top_parameters": {
+        "slider_list": 1,
+        "align": 1,
+        "title_typo_typography": 1,
+        "title_typo_font_size": 1,
+        "title_typo_font_weight": 1
+      }
+    },
+    "image": {
+      "unique_parameters": 15,
+      "total_parameter_uses": 37,
+      "top_parameters": {
+        "image": 6,
+        "link_to": 3,
+        "link": 3,
+        "css_filters_hover_css_filter": 3,
+        "css_filters_hover_brightness": 3
+      }
+    },
+    "cholot-texticon": {
+      "unique_parameters": 38,
+      "total_parameter_uses": 243,
+      "top_parameters": {
+        "icon": 7,
+        "title_text_margin": 7,
+        "title": 7,
+        "title_typography_typography": 7,
+        "title_typography_font_size": 7
+      }
+    },
+    "video": {
+      "unique_parameters": 10,
+      "total_parameter_uses": 10,
+      "top_parameters": {
+        "youtube_url": 1,
+        "vimeo_url": 1,
+        "dailymotion_url": 1,
+        "show_image_overlay": 1,
+        "image_overlay": 1
+      }
+    },
+    "text-editor": {
+      "unique_parameters": 16,
+      "total_parameter_uses": 64,
+      "top_parameters": {
+        "editor": 7,
+        "_margin": 7,
+        "typography_font_weight": 7,
+        "text_color": 5,
+        "typography_typography": 5
+      }
+    },
+    "cholot-title": {
+      "unique_parameters": 16,
+      "total_parameter_uses": 64,
+      "top_parameters": {
+        "title": 4,
+        "desc_typography_typography": 4,
+        "desc_typography_font_size": 4,
+        "desc_typography_font_weight": 4,
+        "desc_typography_line_height": 4
+      }
+    },
+    "divider": {
+      "unique_parameters": 6,
+      "total_parameter_uses": 24,
+      "top_parameters": {
+        "weight": 4,
+        "color": 4,
+        "width": 4,
+        "align": 4,
+        "gap": 4
+      }
+    },
+    "cholot-team": {
+      "unique_parameters": 55,
+      "total_parameter_uses": 165,
+      "top_parameters": {
+        "title": 3,
+        "text": 3,
+        "image": 3,
+        "team_height": 3,
+        "team_icon": 3
+      }
+    },
+    "cholot-testimonial-two": {
+      "unique_parameters": 43,
+      "total_parameter_uses": 43,
+      "top_parameters": {
+        "show_desktop": 1,
+        "testi_list": 1,
+        "title_typography_typography": 1,
+        "title_typography_font_size": 1,
+        "title_typography_font_size_mobile": 1
+      }
+    },
+    "icon": {
+      "unique_parameters": 11,
+      "total_parameter_uses": 33,
+      "top_parameters": {
+        "selected_icon": 3,
+        "view": 3,
+        "primary_color": 3,
+        "secondary_color": 3,
+        "size": 3
+      }
+    },
+    "cholot-text-line": {
+      "unique_parameters": 43,
+      "total_parameter_uses": 129,
+      "top_parameters": {
+        "title": 3,
+        "subtitle": 3,
+        "line": 3,
+        "line_height": 3,
+        "bg_img": 3
+      }
+    },
+    "cholot-contact": {
+      "unique_parameters": 21,
+      "total_parameter_uses": 21,
+      "top_parameters": {
+        "shortcode": 1,
+        "btn_margin": 1,
+        "btn_padding": 1,
+        "btn_typography_typography": 1,
+        "btn_typography_font_weight": 1
+      }
+    }
+  },
+  "parameter_patterns": {
+    "rdn-slider.slider_list": [
+      [
+        {
+          "title": "Discover the best community that fit <span>your needs</span>.",
+          "subtitle": "for best and worst",
+          "text": "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. <i><u>Maecenas tempus</u></i>, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.",
+          "_id": "fd5b5ec",
+          "btn_text": "View More",
+          "btn_link": {
+            "url": "#"
+          },
+          "image": {
+            "url": "http://localhost:8080/wp-content/uploads/2019/06/esther-town-492626-unsplash-1.jpg",
+            "id": 9,
+            "alt": "",
+            "source": "library",
+            "size": ""
+          }
+        },
+        {
+          "title": "The senior living experience that is <span>tailored</span> to you.",
+          "subtitle": "diverse and inclusive",
+          "text": "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit <u>amet adipiscing sem</u> neque sed ipsum.",
+          "_id": "cbaf2ca",
+          "btn_text": "View More",
+          "btn_link": {
+            "url": "#"
+          },
+          "image": {
+            "url": "http://localhost:8080/wp-content/uploads/2019/06/huy-phan-100866-unsplash-1.jpg",
+            "id": 1559,
+            "alt": "",
+            "source": "library",
+            "size": ""
+          }
+        }
+      ]
+    ],
+    "rdn-slider.align": [
+      "left"
+    ],
+    "rdn-slider.title_typo_typography": [
+      "custom"
+    ],
+    "rdn-slider.title_typo_font_size": [
+      {
+        "unit": "px",
+        "size": 45,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.title_typo_font_weight": [
+      "700"
+    ],
+    "rdn-slider.subtitle_typo_typography": [
+      "custom"
+    ],
+    "rdn-slider.subtitle_typo_font_weight": [
+      "700"
+    ],
+    "rdn-slider.icon_align": [
+      "right"
+    ],
+    "rdn-slider.btn_typography_typography": [
+      "custom"
+    ],
+    "rdn-slider.btn_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.btn_typography_font_weight": [
+      "700"
+    ],
+    "rdn-slider.btn_border_radius": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      }
+    ],
+    "rdn-slider.slider_width": [
+      {
+        "unit": "px",
+        "size": 1170,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.arrow_width": [
+      {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.slider_content": [
+      {
+        "unit": "px",
+        "size": 675,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.title_typo_text_transform": [
+      "none"
+    ],
+    "rdn-slider.subtitle_typo_font_size": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.subtitle_typo_letter_spacing": [
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.text_typo_typography": [
+      "custom"
+    ],
+    "rdn-slider.text_typo_font_size": [
+      {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+      }
+    ],
+    "rdn-slider.line_width": [
+      {
+        "unit": "px",
+        "size": 80,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.line_height": [
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.linecolor": [
+      "#b68c2f"
+    ],
+    "rdn-slider.slider_mask": [
+      "rgba(0,0,0,0.85)"
+    ],
+    "rdn-slider.title_typo_font_size_mobile": [
+      {
+        "unit": "px",
+        "size": 25,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.subtitle_typo_letter_spacing_mobile": [
+      {
+        "unit": "px",
+        "size": 0.3,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.text_type_mobile": [
+      "none"
+    ],
+    "rdn-slider.slider_speed": [
+      8000
+    ],
+    "rdn-slider.arrow_color_hover": [
+      "#ffffff"
+    ],
+    "rdn-slider.text_color": [
+      "rgba(255,255,255,0.89)"
+    ],
+    "rdn-slider.slider_width_tablet": [
+      {
+        "unit": "px",
+        "size": 700,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.arrow_bg_color_hover": [
+      "#b68c2f"
+    ],
+    "rdn-slider.title_typo_font_family": [
+      "Playfair Display"
+    ],
+    "rdn-slider.title_typo_line_height": [
+      {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.subtitle_typo_text_transform": [
+      "uppercase"
+    ],
+    "rdn-slider.subtitle_typo_line_height": [
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.subtitle_color": [
+      "#b68c2f"
+    ],
+    "rdn-slider.btn_color": [
+      "#ffffff"
+    ],
+    "rdn-slider.btn_color_hover": [
+      "#ffffff"
+    ],
+    "rdn-slider.btn_bg": [
+      "rgba(96,22,174,0)"
+    ],
+    "rdn-slider.btn_bg_hover": [
+      "#b68c2f"
+    ],
+    "rdn-slider.btn_border": [
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      }
+    ],
+    "rdn-slider.btn_border_hover": [
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      }
+    ],
+    "rdn-slider.btn_border_color": [
+      "#b68c2f"
+    ],
+    "rdn-slider.btn_border_color_hover": [
+      "#b68c2f"
+    ],
+    "rdn-slider.title_color": [
+      "#ffffff"
+    ],
+    "rdn-slider.subtitle_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "rdn-slider.arrow_color": [
+      "#ffffff"
+    ],
+    "rdn-slider.arrow_bg_color": [
+      "rgba(0,0,0,0)"
+    ],
+    "rdn-slider.btn_typography_letter_spacing": [
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.slider_height": [
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.slider_height_bottom": [
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.span_title_typo_typography": [
+      "custom"
+    ],
+    "rdn-slider.span_title_typo_font_weight": [
+      "200"
+    ],
+    "rdn-slider.span_title_typo_font_style": [
+      "italic"
+    ],
+    "rdn-slider.span_title_color": [
+      "#ffffff"
+    ],
+    "rdn-slider.slider_height_tablet": [
+      {
+        "unit": "px",
+        "size": 21,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.slider_height_mobile": [
+      {
+        "unit": "px",
+        "size": 42,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.slider_height_bottom_tablet": [
+      {
+        "unit": "px",
+        "size": 19,
+        "sizes": []
+      }
+    ],
+    "rdn-slider.slider_height_bottom_mobile": [
+      {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+      }
+    ],
+    "image.image": [
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg",
+        "id": 51
+      },
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+        "id": 50
+      },
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.png",
+        "id": 346
+      }
+    ],
+    "image.opacity": [
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "image._border_width": [
+      {
+        "unit": "px",
+        "top": "4",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "image._border_color": [
+      "#b68c2f"
+    ],
+    "cholot-texticon.icon": [
+      "fa fa-child",
+      "fa fa-child",
+      "fa fa-child"
+    ],
+    "cholot-texticon.title_text_margin": [
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.title": [
+      "Healthly life",
+      "Improving life",
+      "Relationship"
+    ],
+    "cholot-texticon.title_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-texticon.title_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.title_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "15",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "15",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "15",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.subtitle_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-texticon.subtitle_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 13,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 13,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 13,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.subtitle_typography_font_weight": [
+      "700",
+      "700",
+      "700"
+    ],
+    "cholot-texticon.subtitle_typography_text_transform": [
+      "uppercase",
+      "uppercase",
+      "uppercase"
+    ],
+    "cholot-texticon.subtitle_typography_letter_spacing": [
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.sb_padding": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.sb_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-15",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-15",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-15",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.subtitle_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-texticon.icon_size": [
+      {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.icon_bg_size": [
+      {
+        "unit": "px",
+        "size": 72,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 72,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 72,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.icon_margin_left": [
+      {
+        "unit": "%",
+        "top": "1",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "1",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "1",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.selected_icon": [
+      {
+        "value": "fas fa-parachute-box",
+        "library": "fa-solid"
+      },
+      {
+        "value": "fas fa-pallet",
+        "library": "fa-solid"
+      },
+      {
+        "value": "fas fa-igloo",
+        "library": "fa-solid"
+      }
+    ],
+    "cholot-texticon.__fa4_migrated": [
+      {
+        "selected_icon": true
+      },
+      {
+        "selected_icon": true
+      },
+      {
+        "selected_icon": true
+      }
+    ],
+    "cholot-texticon.text": [
+      "<p>It\u2019s a great way for you to make use of all the benefits of being a part.</p>",
+      "<p>It\u2019s a great way for you to make use of all the benefits of being a part.</p>",
+      "<p>It\u2019s a great way for you to make use of all the benefits of being a part.</p>"
+    ],
+    "cholot-texticon.text_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.text_typography_font_style": [
+      "italic",
+      "italic",
+      "italic"
+    ],
+    "cholot-texticon.text_margin": [
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.icon_color": [
+      "#ffffff",
+      "#ffffff",
+      "#ffffff"
+    ],
+    "cholot-texticon.iconbg_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-texticon.icon_bordering_border": [
+      "solid",
+      "solid",
+      "solid"
+    ],
+    "cholot-texticon.icon_bordering_color": [
+      "#fafafa",
+      "#fafafa",
+      "#fafafa"
+    ],
+    "cholot-texticon._padding": [
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      }
+    ],
+    "cholot-texticon._border_width": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon._border_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-texticon._border_border": [
+      "dashed",
+      "dashed",
+      "dashed"
+    ],
+    "cholot-texticon.icon_margin": [
+      {
+        "unit": "px",
+        "top": "-27",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-27",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-27",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.icon_bordering_width": [
+      {
+        "unit": "px",
+        "top": "7",
+        "right": "7",
+        "bottom": "7",
+        "left": "7",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "7",
+        "right": "7",
+        "bottom": "7",
+        "left": "7",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "7",
+        "right": "7",
+        "bottom": "7",
+        "left": "7",
+        "isLinked": true
+      }
+    ],
+    "cholot-texticon.subtitle": [
+      "Exciting",
+      "retired",
+      "residents "
+    ],
+    "cholot-texticon.btn_margin": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      }
+    ],
+    "cholot-texticon.icon_lheight": [
+      {
+        "unit": "px",
+        "size": 58,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 58,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 58,
+        "sizes": []
+      }
+    ],
+    "video.youtube_url": [
+      "https://www.youtube.com/watch?v=jGZDNK6ul5s"
+    ],
+    "video.vimeo_url": [
+      "https://vimeo.com/235215203"
+    ],
+    "video.dailymotion_url": [
+      "https://www.dailymotion.com/video/x6tqhqb"
+    ],
+    "video.show_image_overlay": [
+      "yes"
+    ],
+    "video.image_overlay": [
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg",
+        "id": 350
+      }
+    ],
+    "video.lightbox": [
+      "yes"
+    ],
+    "video.play_icon_color": [
+      "#ffffff"
+    ],
+    "video.play_icon_size": [
+      {
+        "unit": "px",
+        "size": 40,
+        "sizes": []
+      }
+    ],
+    "video.lightbox_content_animation": [
+      "zoomIn"
+    ],
+    "video.videopress_url": [
+      "https://videopress.com/v/ZCAOzTNk"
+    ],
+    "text-editor.editor": [
+      "<p>ullamcorper matti pulvinar</p>",
+      "<p>Building with our residents is something we keep close to our heart. Getting to know their personal stories and celebrating them together is what makes the care we provide truly personalized.</p>",
+      "<p>ullamcorper matulvinar</p>"
+    ],
+    "text-editor.text_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "text-editor.typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "text-editor.typography_text_transform": [
+      "uppercase",
+      "uppercase",
+      "uppercase"
+    ],
+    "text-editor.typography_font_style": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "text-editor._margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "text-editor.typography_font_size": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "text-editor.typography_line_height": [
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "text-editor.typography_font_weight": [
+      "700",
+      "normal",
+      "700"
+    ],
+    "text-editor.typography_letter_spacing": [
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      }
+    ],
+    "cholot-title.title": [
+      "Thinking about <span>retirement?</span><br>Let us be your guide. ",
+      "From our <span>lovely</span> <br>community, family &amp; friends.",
+      "We\u2019re able to create a <span>family-like</span> atmosphere <br>for our residents as well."
+    ],
+    "cholot-title.desc_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-title.desc_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 35,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 35,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 35,
+        "sizes": []
+      }
+    ],
+    "cholot-title.desc_typography_font_weight": [
+      "700",
+      "700",
+      "700"
+    ],
+    "cholot-title.desc_typography_line_height": [
+      {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+      }
+    ],
+    "cholot-title._z_index": [
+      1,
+      1,
+      1
+    ],
+    "cholot-title.align": [
+      "left",
+      "center",
+      "center"
+    ],
+    "cholot-title.desc_typography_font_size_mobile": [
+      {
+        "unit": "px",
+        "size": 25,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 25,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 25,
+        "sizes": []
+      }
+    ],
+    "cholot-title.title_color": [
+      "#000000",
+      "#ffffff",
+      "#000000"
+    ],
+    "cholot-title.title_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-title.desc_typography_font_family": [
+      "Playfair Display",
+      "Playfair Display",
+      "Playfair Display"
+    ],
+    "cholot-title._margin": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      }
+    ],
+    "cholot-title.span_title_typo_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-title.span_title_typo_font_weight": [
+      "400",
+      "400",
+      "400"
+    ],
+    "cholot-title.span_title_typo_font_style": [
+      "italic",
+      "italic",
+      "italic"
+    ],
+    "cholot-title.span_title_color": [
+      "#000000",
+      "#ffffff",
+      "#000000"
+    ],
+    "divider.weight": [
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      }
+    ],
+    "divider.color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "divider.width": [
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      }
+    ],
+    "divider.align": [
+      "left",
+      "center",
+      "center"
+    ],
+    "divider.gap": [
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      }
+    ],
+    "divider.text": [
+      "Divider",
+      "Divider",
+      "Divider"
+    ],
+    "text-editor.drop_cap_primary_color": [
+      "#262626",
+      "#262626"
+    ],
+    "text-editor.drop_cap_typography_typography": [
+      "custom",
+      "custom"
+    ],
+    "text-editor.drop_cap_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 70,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 70,
+        "sizes": []
+      }
+    ],
+    "text-editor.drop_cap_typography_font_weight": [
+      "700",
+      "700"
+    ],
+    "text-editor.drop_cap_typography_line_height": [
+      {
+        "unit": "em",
+        "size": 0.8,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 0.8,
+        "sizes": []
+      }
+    ],
+    "cholot-texticon.icon_style": [
+      "left",
+      "left",
+      "left"
+    ],
+    "cholot-texticon.btn_text": [
+      "More info",
+      "More info",
+      "More info"
+    ],
+    "image.image_size": [
+      "full"
+    ],
+    "image._animation": [
+      "fadeInUp"
+    ],
+    "image.animation_duration": [
+      "fast"
+    ],
+    "cholot-team.title": [
+      "Indah Levi",
+      "Adriana Yue",
+      "Brenda Wong"
+    ],
+    "cholot-team.text": [
+      "Director of Health",
+      "Director of Resource",
+      "Director of Enviroment"
+    ],
+    "cholot-team.image": [
+      {
+        "url": "http://localhost:8080/wp-content/uploads/2019/07/team2-1.jpg",
+        "id": 359,
+        "alt": "",
+        "source": "library",
+        "size": ""
+      },
+      {
+        "url": "http://localhost:8080/wp-content/uploads/2019/07/team3-1.jpg",
+        "id": 360,
+        "alt": "",
+        "source": "library",
+        "size": ""
+      },
+      {
+        "url": "http://localhost:8080/wp-content/uploads/2019/07/team1-1.jpg",
+        "id": 358,
+        "alt": "",
+        "source": "library",
+        "size": ""
+      }
+    ],
+    "cholot-team.team_height": [
+      {
+        "unit": "px",
+        "size": 420,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 420,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 420,
+        "sizes": []
+      }
+    ],
+    "cholot-team.team_icon": [
+      [
+        {
+          "icon": "fa fa-facebook",
+          "_id": "1dbd354"
+        }
+      ],
+      [
+        {
+          "icon": "fa fa-facebook",
+          "_id": "1dbd354"
+        }
+      ],
+      [
+        {
+          "icon": "fa fa-facebook",
+          "_id": "1dbd354"
+        }
+      ]
+    ],
+    "cholot-team.content_align": [
+      "left",
+      "left",
+      "left"
+    ],
+    "cholot-team.titlep_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "5",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "5",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "5",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-team.txt_cl": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-team.icon_color": [
+      "#23a455",
+      "#23a455",
+      "#23a455"
+    ],
+    "cholot-team.icon_opacity": [
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "cholot-team.icon_radius": [
+      {
+        "unit": "%",
+        "top": "100",
+        "right": "100",
+        "bottom": "100",
+        "left": "100",
+        "isLinked": true
+      },
+      {
+        "unit": "%",
+        "top": "100",
+        "right": "100",
+        "bottom": "100",
+        "left": "100",
+        "isLinked": true
+      },
+      {
+        "unit": "%",
+        "top": "100",
+        "right": "100",
+        "bottom": "100",
+        "left": "100",
+        "isLinked": true
+      }
+    ],
+    "cholot-team.icon_size": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "cholot-team.icon_padding": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      }
+    ],
+    "cholot-team.icon_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "3",
+        "bottom": "0",
+        "left": "3",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "3",
+        "bottom": "0",
+        "left": "3",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "3",
+        "bottom": "0",
+        "left": "3",
+        "isLinked": false
+      }
+    ],
+    "cholot-team.cport_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-team.cport_typography_text_transform": [
+      "capitalize",
+      "capitalize",
+      "capitalize"
+    ],
+    "cholot-team.mask_color": [
+      "#000000",
+      "#000000",
+      "#000000"
+    ],
+    "cholot-team.mask_color_opacity": [
+      {
+        "unit": "px",
+        "size": 0.8,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0.8,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0.8,
+        "sizes": []
+      }
+    ],
+    "cholot-team.ctext_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-team.port_padding": [
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      }
+    ],
+    "cholot-team.ctext_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "cholot-team.ctext_typography_font_weight": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "cholot-team.port_border_width": [
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      }
+    ],
+    "cholot-team.icon_bg": [
+      "#651f7a",
+      "#651f7a",
+      "#651f7a"
+    ],
+    "cholot-team.social_icon_list": [
+      [
+        {
+          "social_icon": {
+            "value": "fab fa-facebook-f",
+            "library": "fa-brands"
+          },
+          "_id": "e17bdfd",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(0,0,0,0)",
+          "item_icon_secondary_color": "#000000"
+        },
+        {
+          "social_icon": {
+            "value": "fab fa-twitter",
+            "library": "fa-brands"
+          },
+          "_id": "5e080cb",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(0,0,0,0)",
+          "item_icon_secondary_color": "#000000"
+        },
+        {
+          "social_icon": {
+            "value": "fab fa-dribbble",
+            "library": "fa-brands"
+          },
+          "_id": "87a75f5",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(0,0,0,0)",
+          "item_icon_secondary_color": "#000000"
+        }
+      ],
+      [
+        {
+          "social_icon": {
+            "value": "fab fa-facebook-f",
+            "library": "fa-brands"
+          },
+          "_id": "e17bdfd",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(182,140,47,0)",
+          "item_icon_secondary_color": "#000000"
+        },
+        {
+          "social_icon": {
+            "value": "fab fa-pinterest",
+            "library": "fa-brands"
+          },
+          "link": {
+            "url": "",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(255,255,255,0)",
+          "item_icon_secondary_color": "#000000",
+          "_id": "4b06e47"
+        },
+        {
+          "social_icon": {
+            "value": "fab fa-twitter",
+            "library": "fa-brands"
+          },
+          "_id": "5e080cb",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(182,140,47,0)",
+          "item_icon_secondary_color": "#000000"
+        }
+      ],
+      [
+        {
+          "social_icon": {
+            "value": "fab fa-linkedin-in",
+            "library": "fa-brands"
+          },
+          "_id": "e17bdfd",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(182,140,47,0)",
+          "item_icon_secondary_color": "#000000"
+        },
+        {
+          "social_icon": {
+            "value": "fab fa-twitter",
+            "library": "fa-brands"
+          },
+          "_id": "5e080cb",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(182,140,47,0)",
+          "item_icon_secondary_color": "#000000"
+        },
+        {
+          "social_icon": {
+            "value": "fab fa-dribbble",
+            "library": "fa-brands"
+          },
+          "_id": "87a75f5",
+          "link": {
+            "url": "#",
+            "is_external": "true",
+            "nofollow": ""
+          },
+          "item_icon_color": "custom",
+          "item_icon_primary_color": "rgba(182,140,47,0)",
+          "item_icon_secondary_color": "#000000"
+        }
+      ]
+    ],
+    "cholot-team.hover_animation": [
+      "shrink",
+      "shrink",
+      "shrink"
+    ],
+    "cholot-team.port_content": [
+      {
+        "unit": "px",
+        "top": "-80",
+        "right": "15",
+        "bottom": "0",
+        "left": "15",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-80",
+        "right": "15",
+        "bottom": "0",
+        "left": "15",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-80",
+        "right": "15",
+        "bottom": "0",
+        "left": "15",
+        "isLinked": false
+      }
+    ],
+    "cholot-team.cport_typography_line_height": [
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "cholot-team.titlep_padding": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      }
+    ],
+    "cholot-team.ctext_typography_line_height": [
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      },
+      {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+      }
+    ],
+    "cholot-team.tx_padding": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-team.tx_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-team.bg_content": [
+      "#1f1f1f",
+      "#1f1f1f",
+      "#1f1f1f"
+    ],
+    "cholot-team.title_cl": [
+      "#000000",
+      "#000000",
+      "#000000"
+    ],
+    "cholot-team.cport_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 18,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 18,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 18,
+        "sizes": []
+      }
+    ],
+    "cholot-team.icon_hcolor": [
+      "#000000",
+      "#000000",
+      "#000000"
+    ],
+    "cholot-team._margin": [
+      {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      }
+    ],
+    "cholot-team.selected_icon": [
+      {
+        "value": "fas fa-feather-alt",
+        "library": "fa-solid"
+      },
+      {
+        "value": "fas fa-fingerprint",
+        "library": "fa-solid"
+      },
+      {
+        "value": "fas fa-dna",
+        "library": "fa-solid"
+      }
+    ],
+    "cholot-team.bg_icon_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-team.bg_icon_size": [
+      {
+        "unit": "px",
+        "size": 110,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 110,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 110,
+        "sizes": []
+      }
+    ],
+    "cholot-team.bg_icon_rotate": [
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      }
+    ],
+    "cholot-team.image_position_tablet": [
+      "center center",
+      "center center",
+      "center center"
+    ],
+    "cholot-team.port_content_hover": [
+      {
+        "unit": "px",
+        "top": "-80",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-80",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-80",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-team.box_shadow_box_shadow": [
+      {
+        "horizontal": 0,
+        "vertical": 8,
+        "blur": 14,
+        "spread": 4,
+        "color": "rgba(175,175,175,0.27)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 8,
+        "blur": 14,
+        "spread": 4,
+        "color": "rgba(175,175,175,0.27)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 8,
+        "blur": 14,
+        "spread": 4,
+        "color": "rgba(175,175,175,0.27)"
+      }
+    ],
+    "cholot-team.box_shadow_hover_box_shadow_type": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "cholot-team.box_shadow_hover_box_shadow": [
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "rgba(0,0,0,0)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "rgba(0,0,0,0)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "rgba(0,0,0,0)"
+      }
+    ],
+    "cholot-team.background_background": [
+      "classic",
+      "classic",
+      "classic"
+    ],
+    "cholot-team.background_color": [
+      "#f4f4f4",
+      "#f4f4f4",
+      "#f4f4f4"
+    ],
+    "cholot-team.background_position": [
+      "center left",
+      "center left",
+      "center left"
+    ],
+    "cholot-team.background_repeat": [
+      "no-repeat",
+      "no-repeat",
+      "no-repeat"
+    ],
+    "cholot-team.background_size": [
+      "cover",
+      "cover",
+      "cover"
+    ],
+    "cholot-team.background_bg_width": [
+      {
+        "unit": "px",
+        "size": 60,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 60,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 60,
+        "sizes": []
+      }
+    ],
+    "cholot-team.box_shadow_box_shadow_type": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "cholot-team.port_border_border": [
+      "solid",
+      "solid",
+      "solid"
+    ],
+    "cholot-team.port_border_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "text-editor.align": [
+      "center",
+      "center",
+      "center"
+    ],
+    "cholot-testimonial-two.show_desktop": [
+      3
+    ],
+    "cholot-testimonial-two.testi_list": [
+      [
+        {
+          "title": "Irgan Rogan",
+          "position": "Member",
+          "text": "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!",
+          "_id": "165689e",
+          "image": {
+            "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+            "id": 50
+          },
+          "image2_size": "thumbnail"
+        },
+        {
+          "title": "Peggy Brim",
+          "position": "Member",
+          "text": "My children and I couldn\u2019t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.",
+          "_id": "ed77bef",
+          "image": {
+            "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/anthony-metcalfe-580436-unsplash.jpg",
+            "id": 53
+          },
+          "image2_size": "thumbnail"
+        },
+        {
+          "title": "Dhea Marisa",
+          "position": "Member",
+          "text": "We have lived here for five years and the quality, responsiveness and friendliness of the staff can\u2019t be beat. Our overall everyday experiences living makes us happy.",
+          "_id": "3084f46",
+          "image": {
+            "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg",
+            "id": 47
+          },
+          "image2_size": "thumbnail"
+        },
+        {
+          "title": "Thyo Septian",
+          "position": "Member",
+          "text": "The Senior living restaurant offers excellent variety, quality and presentation.  It\u2019s very, very tasteful.  The choices you are given are remarkable!",
+          "_id": "322f914",
+          "image": {
+            "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg",
+            "id": 9
+          },
+          "image2_size": "thumbnail"
+        }
+      ]
+    ],
+    "cholot-testimonial-two.title_typography_typography": [
+      "custom"
+    ],
+    "cholot-testimonial-two.title_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 16,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.title_typography_font_size_mobile": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.title_typography_line_height": [
+      {
+        "unit": "em",
+        "size": 1.6,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.name_color": [
+      "#ffffff"
+    ],
+    "cholot-testimonial-two.name_typography_typography": [
+      "custom"
+    ],
+    "cholot-testimonial-two.name_typography_font_family": [
+      "Source Sans Pro"
+    ],
+    "cholot-testimonial-two.name_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 17,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.name_typography_font_size_mobile": [
+      {
+        "unit": "px",
+        "size": 16,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.name_typography_font_weight": [
+      "700"
+    ],
+    "cholot-testimonial-two.name_typography_text_transform": [
+      "uppercase"
+    ],
+    "cholot-testimonial-two.post_color": [
+      "#b68c2f"
+    ],
+    "cholot-testimonial-two.post_typography_typography": [
+      "custom"
+    ],
+    "cholot-testimonial-two.post_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.post_typography_font_size_mobile": [
+      {
+        "unit": "px",
+        "size": 12,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.post_typography_font_weight": [
+      "400"
+    ],
+    "cholot-testimonial-two.post_typography_font_style": [
+      "normal"
+    ],
+    "cholot-testimonial-two.image_border_border": [
+      "solid"
+    ],
+    "cholot-testimonial-two.image_border_width": [
+      {
+        "unit": "px",
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.image_border_width_mobile": [
+      {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.image_border_color": [
+      "#ffffff"
+    ],
+    "cholot-testimonial-two.img_size": [
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.img_size_mobile": [
+      {
+        "unit": "px",
+        "size": 40,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.img_radius": [
+      {
+        "unit": "px",
+        "top": "200",
+        "right": "200",
+        "bottom": "200",
+        "left": "200",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two._margin": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.content-align": [
+      "center"
+    ],
+    "cholot-testimonial-two.post_typography_text_transform": [
+      "none"
+    ],
+    "cholot-testimonial-two.testi_box_border_width": [
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.testi_box_border_color": [
+      "#b68c2f"
+    ],
+    "cholot-testimonial-two.testi_box_bg": [
+      "rgba(255,255,255,0)"
+    ],
+    "cholot-testimonial-two.icon_fsize": [
+      {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.icon_size": [
+      {
+        "unit": "px",
+        "size": 40,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.icon_lheight": [
+      {
+        "unit": "px",
+        "size": 40,
+        "sizes": []
+      }
+    ],
+    "cholot-testimonial-two.text_bgcolor": [
+      "rgba(255,255,255,0.08)"
+    ],
+    "cholot-testimonial-two.textbox_padding": [
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.text_radius": [
+      {
+        "unit": "px",
+        "top": "10",
+        "right": "10",
+        "bottom": "10",
+        "left": "10",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.testi_icon_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-testimonial-two.textbox_margin": [
+      {
+        "unit": "px",
+        "top": "-20",
+        "right": "0",
+        "bottom": "30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-testimonial-two.title_color": [
+      "#ffffff"
+    ],
+    "cholot-testimonial-two.testi_box_margin": [
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "15",
+        "bottom": "15",
+        "left": "15",
+        "isLinked": true
+      }
+    ],
+    "cholot-testimonial-two.testi_box_padding": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "icon.selected_icon": [
+      {
+        "value": "fas fa-seedling",
+        "library": "fa-solid"
+      },
+      {
+        "value": "fas fa-ribbon",
+        "library": "fa-solid"
+      },
+      {
+        "value": "fas fa-spray-can",
+        "library": "fa-solid"
+      }
+    ],
+    "icon.view": [
+      "stacked",
+      "stacked",
+      "stacked"
+    ],
+    "icon.primary_color": [
+      "#ffffff",
+      "#ffffff",
+      "#ffffff"
+    ],
+    "icon.secondary_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "icon.size": [
+      {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+      }
+    ],
+    "icon.icon_padding": [
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+      }
+    ],
+    "icon.border_width": [
+      {
+        "unit": "px",
+        "top": "5",
+        "right": "5",
+        "bottom": "5",
+        "left": "5",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "5",
+        "right": "5",
+        "bottom": "5",
+        "left": "5",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "5",
+        "right": "5",
+        "bottom": "5",
+        "left": "5",
+        "isLinked": true
+      }
+    ],
+    "icon._margin": [
+      {
+        "unit": "px",
+        "top": "21",
+        "right": "20",
+        "bottom": "-49",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "21",
+        "right": "20",
+        "bottom": "-49",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "21",
+        "right": "20",
+        "bottom": "-49",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "icon._z_index": [
+      5,
+      5,
+      5
+    ],
+    "icon.shape": [
+      "square",
+      "square",
+      "square"
+    ],
+    "icon.align": [
+      "right",
+      "right",
+      "right"
+    ],
+    "image.link_to": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "image.link": [
+      {
+        "url": "#",
+        "is_external": "",
+        "nofollow": ""
+      },
+      {
+        "url": "#",
+        "is_external": "",
+        "nofollow": ""
+      },
+      {
+        "url": "#",
+        "is_external": "",
+        "nofollow": ""
+      }
+    ],
+    "image.css_filters_hover_css_filter": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "image.css_filters_hover_brightness": [
+      {
+        "unit": "px",
+        "size": 52,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 52,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 52,
+        "sizes": []
+      }
+    ],
+    "image.background_hover_transition": [
+      {
+        "unit": "px",
+        "size": 0.5,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0.5,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0.5,
+        "sizes": []
+      }
+    ],
+    "image.image_border_width": [
+      {
+        "unit": "px",
+        "top": "5",
+        "right": "5",
+        "bottom": "5",
+        "left": "5",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "5",
+        "right": "5",
+        "bottom": "5",
+        "left": "5",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "5",
+        "right": "5",
+        "bottom": "5",
+        "left": "5",
+        "isLinked": true
+      }
+    ],
+    "image.image_border_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "image._margin": [
+      {
+        "unit": "px",
+        "top": "-50",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-50",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-50",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.title": [
+      "Retirement funds and planning.",
+      "Hospital living with proffesional.",
+      "The personal counseling."
+    ],
+    "cholot-text-line.subtitle": [
+      "till the end",
+      "bring the people",
+      "The assited living"
+    ],
+    "cholot-text-line.line": [
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 50,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line.line_height": [
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 2,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line.bg_img": [
+      {
+        "url": "",
+        "id": ""
+      },
+      {
+        "url": "",
+        "id": ""
+      },
+      {
+        "url": "",
+        "id": ""
+      }
+    ],
+    "cholot-text-line.title_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-text-line.title_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line.title_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.subtitle_typography_typography": [
+      "custom",
+      "custom",
+      "custom"
+    ],
+    "cholot-text-line.subtitle_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line.subtitle_typography_font_weight": [
+      "bold",
+      "bold",
+      "bold"
+    ],
+    "cholot-text-line.subtitle_typography_text_transform": [
+      "uppercase",
+      "uppercase",
+      "uppercase"
+    ],
+    "cholot-text-line.subtitle_typography_letter_spacing": [
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line.sb_padding": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      },
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.sb_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "10",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "10",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "10",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.subtitle_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-text-line.text_margin": [
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.line_color_hover": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-text-line.btn_margin": [
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.icon_bordering_border": [
+      "solid",
+      "solid",
+      "solid"
+    ],
+    "cholot-text-line.icon_bordering_color": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-text-line.btn_border_hover": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line.btn_border_color_hover": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-text-line.wline_padding": [
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "30",
+        "right": "30",
+        "bottom": "30",
+        "left": "30",
+        "isLinked": true
+      }
+    ],
+    "cholot-text-line.port_border_border": [
+      "solid",
+      "solid",
+      "solid"
+    ],
+    "cholot-text-line.port_border_width": [
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      }
+    ],
+    "cholot-text-line.port_border_color": [
+      "rgba(182,140,47,0)",
+      "rgba(182,140,47,0)",
+      "rgba(182,140,47,0)"
+    ],
+    "cholot-text-line.ct_border_color_hover": [
+      "#b68c2f",
+      "#b68c2f",
+      "#b68c2f"
+    ],
+    "cholot-text-line.wline_margin": [
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "15",
+        "bottom": "15",
+        "left": "15",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "15",
+        "bottom": "15",
+        "left": "15",
+        "isLinked": true
+      },
+      {
+        "unit": "px",
+        "top": "15",
+        "right": "15",
+        "bottom": "15",
+        "left": "15",
+        "isLinked": true
+      }
+    ],
+    "cholot-text-line._margin": [
+      {
+        "unit": "px",
+        "top": "-50",
+        "right": "20",
+        "bottom": "0",
+        "left": "20",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-50",
+        "right": "20",
+        "bottom": "0",
+        "left": "20",
+        "isLinked": false
+      },
+      {
+        "unit": "px",
+        "top": "-50",
+        "right": "20",
+        "bottom": "0",
+        "left": "20",
+        "isLinked": false
+      }
+    ],
+    "cholot-text-line._background_background": [
+      "classic",
+      "classic",
+      "classic"
+    ],
+    "cholot-text-line._background_color": [
+      "#fafafa",
+      "#fafafa",
+      "#fafafa"
+    ],
+    "cholot-text-line._box_shadow_box_shadow_type": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "cholot-text-line._box_shadow_box_shadow": [
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 7,
+        "spread": 0,
+        "color": "rgba(204,204,204,0.43)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 7,
+        "spread": 0,
+        "color": "rgba(204,204,204,0.43)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 7,
+        "spread": 0,
+        "color": "rgba(204,204,204,0.43)"
+      }
+    ],
+    "cholot-text-line._box_shadow_hover_box_shadow_type": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "cholot-text-line._box_shadow_hover_box_shadow": [
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "rgba(0,0,0,0)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "rgba(0,0,0,0)"
+      },
+      {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "rgba(0,0,0,0)"
+      }
+    ],
+    "cholot-text-line._background_image": [
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/bg-ab.png",
+        "id": 1025
+      },
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/bg-ab.png",
+        "id": 1025
+      },
+      {
+        "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/bg-ab.png",
+        "id": 1025
+      }
+    ],
+    "cholot-text-line._background_position": [
+      "initial",
+      "initial",
+      "initial"
+    ],
+    "cholot-text-line._background_ypos": [
+      {
+        "unit": "px",
+        "size": 112,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 112,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 112,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line._background_repeat": [
+      "no-repeat",
+      "no-repeat",
+      "no-repeat"
+    ],
+    "cholot-text-line._background_size": [
+      "initial",
+      "initial",
+      "initial"
+    ],
+    "cholot-text-line._background_xpos": [
+      {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+      },
+      {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+      },
+      {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+      }
+    ],
+    "cholot-text-line._background_bg_width": [
+      {
+        "unit": "px",
+        "size": 168,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 168,
+        "sizes": []
+      },
+      {
+        "unit": "px",
+        "size": 168,
+        "sizes": []
+      }
+    ],
+    "cholot-contact.shortcode": [
+      "[contact-form-7 id=\"5\" title=\"Contact form\"]"
+    ],
+    "cholot-contact.btn_margin": [
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "-30",
+        "left": "0",
+        "isLinked": false
+      }
+    ],
+    "cholot-contact.btn_padding": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+      }
+    ],
+    "cholot-contact.btn_typography_typography": [
+      "custom"
+    ],
+    "cholot-contact.btn_typography_font_weight": [
+      "700"
+    ],
+    "cholot-contact.btn_typography_text_transform": [
+      "uppercase"
+    ],
+    "cholot-contact.btn_border_radius": [
+      {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+      }
+    ],
+    "cholot-contact.btn_typography_font_size": [
+      {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+      }
+    ],
+    "cholot-contact.btn_color": [
+      "#ffffff"
+    ],
+    "cholot-contact.btn_color_hover": [
+      "#ffffff"
+    ],
+    "cholot-contact.btn_bg": [
+      "rgba(0,0,0,0)"
+    ],
+    "cholot-contact.btn_bg_hover": [
+      "#b68c2f"
+    ],
+    "cholot-contact.btn_border": [
+      {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+      }
+    ],
+    "cholot-contact.btn_border_color": [
+      "#b68c2f"
+    ],
+    "cholot-contact.btn_width": [
+      "100%"
+    ],
+    "cholot-contact.form_placeholder": [
+      "#ffffff"
+    ],
+    "cholot-contact.form_bg": [
+      "rgba(0,0,0,0)"
+    ],
+    "cholot-contact.form_border_color": [
+      "#ffffff"
+    ],
+    "cholot-contact.form_border_color_active": [
+      "#b68c2f"
+    ],
+    "cholot-contact.btn_typography_letter_spacing": [
+      {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      }
+    ],
+    "cholot-contact.form_text": [
+      "#ffffff"
+    ]
+  }
+}
