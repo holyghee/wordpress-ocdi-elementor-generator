@@ -37,23 +37,24 @@ function riman_ocdi_after_import_setup() {
     $main_menu = get_term_by( 'slug', 'default-menu', 'nav_menu' );
     
     if ( $main_menu ) {
-        $locations = get_theme_mod( 'nav_menu_locations' );
+        // Get registered menu locations
+        $registered_locations = get_registered_nav_menus();
         
-        // Try different common menu location names
-        $possible_locations = array( 'primary', 'main', 'main-menu', 'header', 'top' );
-        
-        foreach ( $possible_locations as $location ) {
-            if ( array_key_exists( $location, $locations ) ) {
-                $locations[ $location ] = $main_menu->term_id;
-                set_theme_mod( 'nav_menu_locations', $locations );
-                break;
+        if ( ! empty( $registered_locations ) ) {
+            $locations = get_theme_mod( 'nav_menu_locations', array() );
+            
+            // For Cholot theme, use the specific location
+            if ( array_key_exists( 'ridianur-homepage-menu', $registered_locations ) ) {
+                $locations['ridianur-homepage-menu'] = $main_menu->term_id;
+            } else {
+                // Fallback: assign to first available location
+                $first_location = key( $registered_locations );
+                $locations[ $first_location ] = $main_menu->term_id;
             }
-        }
-        
-        // If no location found, just set to primary
-        if ( ! in_array( $main_menu->term_id, $locations ) ) {
-            $locations['primary'] = $main_menu->term_id;
+            
             set_theme_mod( 'nav_menu_locations', $locations );
+            
+            error_log( 'OCDI: Menu "' . $main_menu->name . '" assigned to location(s): ' . implode( ', ', array_keys( $locations ) ) );
         }
     }
 
