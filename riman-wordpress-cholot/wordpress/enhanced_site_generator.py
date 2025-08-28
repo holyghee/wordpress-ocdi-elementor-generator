@@ -470,9 +470,9 @@ class EnhancedSiteGenerator:
             
             # Add menu items
             for menu_item in menu.get('items', []):
-                self._add_menu_item(channel, menu_item, menu_id)
+                self._add_menu_item(channel, menu_item, menu_id, menu)
     
-    def _add_menu_item(self, channel: ET.Element, menu_item: Dict, menu_id: int):
+    def _add_menu_item(self, channel: ET.Element, menu_item: Dict, menu_id: int, menu: Dict):
         """Add individual menu item"""
         item_id = menu_item.get('id', self.get_next_id())
         
