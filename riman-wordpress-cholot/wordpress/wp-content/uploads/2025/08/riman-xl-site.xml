@@ -1,0 +1,2913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:wp="http://wordpress.org/export/1.2/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+    <channel>
+        <title>RIMAN GmbH - Sanierungsexperten</title>
+        <link>https://riman-sanierung.de</link>
+        <description>Professionelle Sanierungsdienstleistungen seit über 20 Jahren</description>
+        <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+        <language>de-DE</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>https://riman-sanierung.de</wp:base_site_url>
+        <wp:base_blog_url>https://riman-sanierung.de</wp:base_blog_url>
+        <generator>https://wordpress.org/?v=6.3</generator>
+        <wp:author>
+            <wp:author_id>1</wp:author_id>
+            <wp:author_login>admin</wp:author_login>
+            <wp:author_email>admin@riman-sanierung.de</wp:author_email>
+            <wp:author_display_name>RIMAN Admin</wp:author_display_name>
+        </wp:author>
+        <wp:author>
+            <wp:author_id>2</wp:author_id>
+            <wp:author_login>michael.ritter</wp:author_login>
+            <wp:author_email>m.ritter@riman-sanierung.de</wp:author_email>
+            <wp:author_display_name>Michael Ritter</wp:author_display_name>
+        </wp:author>
+        <wp:author>
+            <wp:author_id>3</wp:author_id>
+            <wp:author_login>sandra.mann</wp:author_login>
+            <wp:author_email>s.mann@riman-sanierung.de</wp:author_email>
+            <wp:author_display_name>Sandra Mann</wp:author_display_name>
+        </wp:author>
+        <wp:author>
+            <wp:author_id>4</wp:author_id>
+            <wp:author_login>thomas.weber</wp:author_login>
+            <wp:author_email>t.weber@riman-sanierung.de</wp:author_email>
+            <wp:author_display_name>Thomas Weber</wp:author_display_name>
+        </wp:author>
+        <wp:category>
+            <wp:term_id>1</wp:term_id>
+            <wp:category_nicename>uncategorized</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Allgemein</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>2</wp:term_id>
+            <wp:category_nicename>sanierung</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Sanierung</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>3</wp:term_id>
+            <wp:category_nicename>asbestsanierung</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Asbestsanierung</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>4</wp:term_id>
+            <wp:category_nicename>schimmelsanierung</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Schimmelsanierung</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>5</wp:term_id>
+            <wp:category_nicename>brandsanierung</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Brandschadensanierung</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>6</wp:term_id>
+            <wp:category_nicename>pcb-sanierung</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>PCB-Sanierung</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>7</wp:term_id>
+            <wp:category_nicename>ratgeber</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Ratgeber</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>8</wp:term_id>
+            <wp:category_nicename>gesetzgebung</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Gesetzgebung</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>9</wp:term_id>
+            <wp:category_nicename>fallstudien</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Fallstudien</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>10</wp:term_id>
+            <wp:category_nicename>nachhaltigkeit</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Nachhaltigkeit</wp:cat_name>
+        </wp:category>
+        <wp:tag>
+            <wp:term_id>10</wp:term_id>
+            <wp:tag_slug>trgs-519</wp:tag_slug>
+            <wp:tag_name>TRGS 519</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>11</wp:term_id>
+            <wp:tag_slug>umweltschutz</wp:tag_slug>
+            <wp:tag_name>Umweltschutz</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>12</wp:term_id>
+            <wp:tag_slug>sicherheit</wp:tag_slug>
+            <wp:tag_name>Sicherheit</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>13</wp:term_id>
+            <wp:tag_slug>zertifizierung</wp:tag_slug>
+            <wp:tag_name>Zertifizierung</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>14</wp:term_id>
+            <wp:tag_slug>notdienst</wp:tag_slug>
+            <wp:tag_name>Notdienst</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>15</wp:term_id>
+            <wp:tag_slug>praevention</wp:tag_slug>
+            <wp:tag_name>Prävention</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>16</wp:term_id>
+            <wp:tag_slug>gesundheit</wp:tag_slug>
+            <wp:tag_name>Gesundheit</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>17</wp:term_id>
+            <wp:tag_slug>berlin</wp:tag_slug>
+            <wp:tag_name>Berlin</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>18</wp:term_id>
+            <wp:tag_slug>brandenburg</wp:tag_slug>
+            <wp:tag_name>Brandenburg</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>19</wp:term_id>
+            <wp:tag_slug>grossprojecte</wp:tag_slug>
+            <wp:tag_name>Großprojekte</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>20</wp:term_id>
+            <wp:tag_slug>wohngebaeude</wp:tag_slug>
+            <wp:tag_name>Wohngebäude</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>21</wp:term_id>
+            <wp:tag_slug>gewerbeimmobilien</wp:tag_slug>
+            <wp:tag_name>Gewerbeimmobilien</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>22</wp:term_id>
+            <wp:tag_slug>oeffentliche-gebaeude</wp:tag_slug>
+            <wp:tag_name>Öffentliche Gebäude</wp:tag_name>
+        </wp:tag>
+        <wp:term>
+            <wp:term_id>30</wp:term_id>
+            <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+            <wp:term_slug>hauptmenu</wp:term_slug>
+            <wp:term_name>Hauptmenü</wp:term_name>
+        </wp:term>
+        <item>
+            <title>Sanierungsarbeiten Hero</title>
+            <link>https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>101</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>sanierungsarbeiten-hero</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1504917595217-d4dc5ebe6122?w=1920&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Asbestsanierung Hero</title>
+            <link>https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>102</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>asbestsanierung-hero</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1581094794329-c8112a50cc0d7?w=1920&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>PCB Sanierung</title>
+            <link>https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>103</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>pcb-sanierung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1558618666-fcd25c85cd64?w=1920&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Schimmelbeseitigung</title>
+            <link>https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1920&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1920&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>104</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>schimmelbeseitigung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1920&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1563453392212-326f5e854473?w=1920&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Brandschaden</title>
+            <link>https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1920&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1920&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>105</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>brandschaden</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1920&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1555854877-bab0e564788d?w=1920&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Michael Ritter CEO</title>
+            <link>https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>106</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>michael-ritter-ceo</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1560250097-0b93528c311a?w=600&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Sandra Mann Projektleitung</title>
+            <link>https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>107</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>sandra-mann-projektleitung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1573496359142-b8d87734a5a2?w=600&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Thomas Weber Technischer Direktor</title>
+            <link>https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>108</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>thomas-weber-technischer-direktor</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1519085360753-af0119f7cbe7?w=600&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Klaus Müller Bauleiter</title>
+            <link>https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>109</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>klaus-müller-bauleiter</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1507003211169-0a1dd7228f2d?w=600&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Anna Schmidt Kundenbetreuung</title>
+            <link>https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>110</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>anna-schmidt-kundenbetreuung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1594744803329-e58b31de8bf5?w=600&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Bürogebäude Sanierung Berlin</title>
+            <link>https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>111</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>bürogebäude-sanierung-berlin</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1486406146926-c627a92ad1ab?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Wohnanlage Komplettsanierung</title>
+            <link>https://images.unsplash.com/photo-1565538420870-da08ff96a207?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1565538420870-da08ff96a207?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>112</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>wohnanlage-komplettsanierung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1565538420870-da08ff96a207?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1565538420870-da08ff96a207?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Industriehalle Asbestentfernung</title>
+            <link>https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>113</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>industriehalle-asbestentfernung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1545324418-cc1a3fa10c00?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>TRGS 519 Zertifikat</title>
+            <link>https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>114</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>trgs-519-zertifikat</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1450101499163-c8848c66ca85?w=800&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>ISO 9001 Zertifizierung</title>
+            <link>https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>115</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>iso-9001-zertifizierung</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1554224155-6726b3ff858f?w=800&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Unsere Leistungen Featured Image</title>
+            <link>https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>116</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>unsere-leistungen-featured-image</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1581094794329-c8112a50cc0d7?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>PCB-Sanierung Featured Image</title>
+            <link>https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>117</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>pcb-sanierung-featured-image</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1558618666-fcd25c85cd64?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Schimmelsanierung Featured Image</title>
+            <link>https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>118</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>schimmelsanierung-featured-image</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1563453392212-326f5e854473?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Brandschadensanierung Featured Image</title>
+            <link>https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>119</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>brandschadensanierung-featured-image</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1555854877-bab0e564788d?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Über RIMAN GmbH Featured Image</title>
+            <link>https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=1200&amp;q=80</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=1200&amp;q=80</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>120</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>über-riman-gmbh-featured-image</wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value>2024/photo-1581094271901-8022df4466f9?w=1200&amp;q=80</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>RIMAN GmbH - Ihre Sanierungsexperten</title>
+            <link>https://riman-sanierung.de/startseite</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=121</guid>
+            <description/>
+            <content:encoded>&lt;!-- wp:html --&gt;&lt;!-- /wp:html --&gt;</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>121</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>startseite</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_data</wp:meta_key>
+                <wp:meta_value>[{"id":"9cca650","elType":"section","settings":{"height":"min-height","custom_height":{"unit":"vh","size":100},"background_background":"classic","background_image":{"url":"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&amp;q=80"},"background_position":"center center","background_repeat":"no-repeat","background_size":"cover","background_overlay_background":"classic","background_overlay_color":"rgba(0,0,0,0.4)","content_position":"middle","align":"center"},"elements":[{"id":"e43c8ba","elType":"column","settings":{"_column_size":100},"elements":[{"id":"3703cb4","elType":"widget","widgetType":"heading","settings":{"title":"RIMAN GmbH - Ihre &lt;span&gt;Experten&lt;/span&gt; f\u00fcr Sanierung","size":"xxl","align":"center","typography_typography":"custom","typography_font_size":{"unit":"px","size":60},"typography_font_weight":"700","title_color":"#ffffff"}},{"id":"58543dc","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Professionelle Asbest-, PCB- und Schimmelsanierung nach h\u00f6chsten Sicherheitsstandards.&lt;/p&gt;","text_color":"#ffffff"}},{"id":"eaf15ff","elType":"widget","widgetType":"button","settings":{"text":"Kostenlose Beratung","link":{"url":"#contact"},"align":"center","size":"lg","button_background_color":"#b68c2f","border_radius":{"unit":"px","size":5}}}]}]},{"id":"b99e5b1","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":80,"bottom":40},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"6120566","elType":"column","settings":{"_column_size":100},"elements":[{"id":"e60314b","elType":"widget","widgetType":"heading","settings":{"title":"Unsere Kernkompetenzen","size":"xl","align":"center","title_color":"#232323"}},{"id":"8bb4360","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Zertifiziert &amp; Professionell&lt;/p&gt;","text_color":"#666666"}}]}]},{"id":"7890442","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":0,"bottom":80},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"4733ee0","elType":"column","settings":{"_column_size":25},"elements":[{"id":"d16cc99","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-shield-alt","library":"fa-solid"},"title_text":"Asbestsanierung","description_text":"&lt;strong&gt;TRGS 519 zertifiziert&lt;/strong&gt;&lt;br&gt;Fachgerechte Entfernung und Entsorgung von Asbest in Geb\u00e4uden aller Art.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"c2cdffa","elType":"column","settings":{"_column_size":25},"elements":[{"id":"648157a","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-biohazard","library":"fa-solid"},"title_text":"PCB-Sanierung","description_text":"&lt;strong&gt;Umweltgerecht&lt;/strong&gt;&lt;br&gt;Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"56ece30","elType":"column","settings":{"_column_size":25},"elements":[{"id":"a162e6f","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-spray-can","library":"fa-solid"},"title_text":"Schimmelsanierung","description_text":"&lt;strong&gt;Nachhaltig&lt;/strong&gt;&lt;br&gt;Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Pr\u00e4vention.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"9a01e44","elType":"column","settings":{"_column_size":25},"elements":[{"id":"b44dec4","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-fire-extinguisher","library":"fa-solid"},"title_text":"Brandschadensanierung","description_text":"&lt;strong&gt;24/7 Notdienst&lt;/strong&gt;&lt;br&gt;Schnelle und professionelle Sanierung nach Brand- und Wassersch\u00e4den.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]}]},{"id":"fca4ee6","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":80}},"elements":[{"id":"10aca6b","elType":"column","settings":{"_column_size":50},"elements":[{"id":"8d1fd2e","elType":"widget","widgetType":"heading","settings":{"title":"\u00dcber &lt;span&gt;RIMAN GmbH&lt;/span&gt;","size":"xl","title_color":"#232323"}},{"id":"ef4e161","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p&gt;Mit \u00fcber 20 Jahren Erfahrung sind wir Ihr zuverl\u00e4ssiger Partner f\u00fcr alle \nSanierungsarbeiten. Unser Team aus \u00fcber 50 zertifizierten Experten garantiert \nh\u00f6chste Qualit\u00e4t und Sicherheit bei jedem Projekt.\n\nWir sind spezialisiert auf die Sanierung von Schadstoffen und verf\u00fcgen \u00fcber \nmodernste Ausr\u00fcstung sowie alle erforderlichen Zertifizierungen. Von der \nAnalyse \u00fcber die Durchf\u00fchrung bis zur Dokumentation - alles aus einer Hand.\n&lt;/p&gt;","text_color":"#666666"}}]},{"id":"e431e40","elType":"column","settings":{"_column_size":50},"elements":[{"id":"1bdd837","elType":"widget","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&amp;q=80"},"image_size":"large","border_radius":{"unit":"px","size":8}}}]}]},{"id":"1d8c6d7","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40},"background_background":"classic","background_color":"#f8f9fa","padding":{"unit":"px","top":60,"bottom":20}},"elements":[{"id":"5f2c920","elType":"column","settings":{"_column_size":100},"elements":[{"id":"d0a28f7","elType":"widget","widgetType":"heading","settings":{"title":"Das sagen unsere &lt;span&gt;Kunden&lt;/span&gt;","size":"xl","align":"center","title_color":"#232323"}},{"id":"8c7f6c0","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;\u00dcber 1000 erfolgreiche Projekte&lt;/p&gt;","text_color":"#666666"}}]}]},{"id":"c7ab4f3","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80},"background_background":"classic","background_color":"#f8f9fa","padding":{"unit":"px","top":20,"bottom":60}},"elements":[{"id":"4bc0af9","elType":"column","settings":{"_column_size":33.33},"elements":[{"id":"0424d90","elType":"widget","widgetType":"testimonial","settings":{"testimonial_content":"RIMAN GmbH hat die Asbestsanierung in unserem 12-st\u00f6ckigen B\u00fcrogeb\u00e4ude absolut professionell durchgef\u00fchrt. Termintreu, sauber und mit h\u00f6chster Kompetenz. Sehr empfehlenswert!","testimonial_name":"Hausverwaltung Berlin-Mitte GmbH","testimonial_job":"Klaus Hoffmann, Gesch\u00e4ftsf\u00fchrer","testimonial_image":{"url":"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&amp;q=80"},"testimonial_alignment":"center","testimonial_image_size":"custom","testimonial_image_custom_dimension":{"width":80,"height":80},"testimonial_name_color":"#232323","testimonial_job_color":"#666666","testimonial_content_color":"#333333"}}]},{"id":"ffe1a31","elType":"column","settings":{"_column_size":33.33},"elements":[{"id":"a549ece","elType":"widget","widgetType":"testimonial","settings":{"testimonial_content":"Bei einem Wasserschaden mit Schimmelbefall war RIMAN sofort zur Stelle. Die schnelle und gr\u00fcndliche Sanierung hat weitere Sch\u00e4den verhindert. Top Service!","testimonial_name":"Meyer Immobilien GmbH","testimonial_job":"Andrea Meyer, Inhaberin","testimonial_image":{"url":"https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&amp;q=80"},"testimonial_alignment":"center","testimonial_image_size":"custom","testimonial_image_custom_dimension":{"width":80,"height":80},"testimonial_name_color":"#232323","testimonial_job_color":"#666666","testimonial_content_color":"#333333"}}]},{"id":"591f316","elType":"column","settings":{"_column_size":33.33},"elements":[{"id":"e97787c","elType":"widget","widgetType":"testimonial","settings":{"testimonial_content":"Seit Jahren unser zuverl\u00e4ssiger Partner f\u00fcr alle Sanierungsarbeiten. Klare Kommunikation, transparente Preise und erstklassige Ausf\u00fchrung.","testimonial_name":"Architekturb\u00fcro Schmidt &amp; Partner","testimonial_job":"Peter Schmidt, Senior Architekt","testimonial_image":{"url":"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&amp;q=80"},"testimonial_alignment":"center","testimonial_image_size":"custom","testimonial_image_custom_dimension":{"width":80,"height":80},"testimonial_name_color":"#232323","testimonial_job_color":"#666666","testimonial_content_color":"#333333"}}]}]},{"id":"c67ff87","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":80,"bottom":20}},"elements":[{"id":"9ea1d9f","elType":"column","settings":{"_column_size":100},"elements":[{"id":"e2a3788","elType":"widget","widgetType":"heading","settings":{"title":"Kostenlose Erstberatung","size":"xl","align":"center","title_color":"#ffffff"}},{"id":"1b98f17","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Kontaktieren Sie uns f\u00fcr eine unverbindliche Beratung zu Ihrem Sanierungsprojekt.&lt;/p&gt;","text_color":"#cccccc"}}]}]},{"id":"2c74b5d","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":20,"bottom":80}},"elements":[{"id":"69d0a26","elType":"column","settings":{"_column_size":100},"elements":[{"id":"c2ef084","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-phone","library":"fa-solid"},"title_text":"24/7 Notdienst","description_text":"+49 (0) 30 123456789","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"a731afa","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-envelope","library":"fa-solid"},"title_text":"E-Mail","description_text":"info@riman-sanierung.de","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"aff0795","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-map-marker-alt","library":"fa-solid"},"title_text":"Hauptsitz","description_text":"Industriestra\u00dfe 45, 13407 Berlin","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"a9e6cd4","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-clock","library":"fa-solid"},"title_text":"B\u00fcrozeiten","description_text":"Mo-Fr 7:00-18:00, Sa 8:00-14:00","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}}]}]}]</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_edit_mode</wp:meta_key>
+                <wp:meta_value>builder</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_template_type</wp:meta_key>
+                <wp:meta_value>wp-page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value>elementor_canvas</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>101</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Unsere Leistungen</title>
+            <link>https://riman-sanierung.de/leistungen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=122</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Professionelle Sanierungsdienstleistungen&lt;/h2&gt;
+&lt;p&gt;Die RIMAN GmbH bietet Ihnen das komplette Spektrum professioneller Sanierungsdienstleistungen. 
+Mit über 20 Jahren Erfahrung und modernster Ausrüstung sind wir Ihr kompetenter Partner für alle 
+Arten von Schadstoffsanierungen.&lt;/p&gt;
+&lt;h3&gt;Unsere Kernkompetenzen&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Asbestsanierung&lt;/strong&gt; - Zertifiziert nach TRGS 519&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PCB-Sanierung&lt;/strong&gt; - Umweltgerechte Entsorgung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Schimmelsanierung&lt;/strong&gt; - Mit Ursachenanalyse&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Brandschadensanierung&lt;/strong&gt; - 24/7 Notdienst&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Schadstoffgutachten&lt;/strong&gt; - Akkreditierte Analysen&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rückbau &amp; Entsorgung&lt;/strong&gt; - Fachgerecht und dokumentiert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alle unsere Leistungen werden nach höchsten Sicherheitsstandards und unter Einhaltung 
+aller gesetzlichen Vorschriften durchgeführt.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>122</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>leistungen</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>116</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Asbestsanierung nach TRGS 519</title>
+            <link>https://riman-sanierung.de/leistungen/asbestsanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=123</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Professionelle Asbestsanierung&lt;/h2&gt;
+&lt;p&gt;Als TRGS 519 zertifiziertes Unternehmen führen wir Asbestsanierungen in allen Gebäudetypen durch - 
+von Wohnhäusern über Bürogebäude bis hin zu Industrieanlagen.&lt;/p&gt;
+&lt;h3&gt;Unser Leistungsspektrum&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Asbestanalyse und Gefährdungsbeurteilung&lt;/li&gt;
+  &lt;li&gt;Erstellung von Sanierungskonzepten&lt;/li&gt;
+  &lt;li&gt;Einrichtung von Schwarzbereichen&lt;/li&gt;
+  &lt;li&gt;Fachgerechte Asbestentfernung&lt;/li&gt;
+  &lt;li&gt;Luftmessungen und Freigabemessungen&lt;/li&gt;
+  &lt;li&gt;Entsorgung und Dokumentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Typische Asbestquellen&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Asbestzementplatten (Eternit)&lt;/li&gt;
+  &lt;li&gt;Spritzasbest&lt;/li&gt;
+  &lt;li&gt;Asbesthaltige Bodenbeläge (Floor-Flex, Cushion-Vinyl)&lt;/li&gt;
+  &lt;li&gt;Nachtspeicheröfen&lt;/li&gt;
+  &lt;li&gt;Rohrisolierungen&lt;/li&gt;
+  &lt;li&gt;Brandschutzplatten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sicherheit hat oberste Priorität&lt;/h3&gt;
+&lt;p&gt;Wir arbeiten ausschließlich mit geschultem Personal und modernster Sicherheitstechnik. 
+Alle Arbeiten werden unter Unterdruck durchgeführt und kontinuierlich überwacht.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>123</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>leistungen/asbestsanierung</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>200</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>116</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>PCB-Sanierung</title>
+            <link>https://riman-sanierung.de/leistungen/pcb-sanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=124</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Fachgerechte PCB-Sanierung&lt;/h2&gt;
+&lt;p&gt;PCB (Polychlorierte Biphenyle) wurden bis 1989 in vielen Baumaterialien verwendet und 
+stellen heute eine erhebliche Gesundheitsgefahr dar. Wir sanieren PCB-belastete Gebäude 
+nach den aktuellen Richtlinien.&lt;/p&gt;
+&lt;h3&gt;PCB-Quellen im Gebäude&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dauerelastische Fugendichtungen&lt;/li&gt;
+  &lt;li&gt;Kondensatoren in alten Leuchtstofflampen&lt;/li&gt;
+  &lt;li&gt;Klebstoffe und Anstriche&lt;/li&gt;
+  &lt;li&gt;Weichmacher in Kunststoffen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unser Sanierungsverfahren&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Raumluftmessung und Materialproben&lt;/li&gt;
+  &lt;li&gt;Erstellung eines Sanierungskonzepts&lt;/li&gt;
+  &lt;li&gt;Abschottung und Unterdruckhaltung&lt;/li&gt;
+  &lt;li&gt;Entfernung belasteter Materialien&lt;/li&gt;
+  &lt;li&gt;Dekontamination von Oberflächen&lt;/li&gt;
+  &lt;li&gt;Kontrollmessungen und Freigabe&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>124</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>leistungen/pcb-sanierung</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>200</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>117</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Schimmelsanierung</title>
+            <link>https://riman-sanierung.de/leistungen/schimmelsanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=125</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Nachhaltige Schimmelsanierung&lt;/h2&gt;
+&lt;p&gt;Schimmelbefall in Gebäuden ist nicht nur ein ästhetisches Problem, sondern kann zu 
+erheblichen Gesundheitsrisiken führen. Wir beseitigen Schimmel nachhaltig und beheben 
+die Ursachen.&lt;/p&gt;
+&lt;h3&gt;Ursachen für Schimmelbildung&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wasserschäden und Leckagen&lt;/li&gt;
+  &lt;li&gt;Kondensation durch Wärmebrücken&lt;/li&gt;
+  &lt;li&gt;Unzureichende Lüftung&lt;/li&gt;
+  &lt;li&gt;Bauliche Mängel&lt;/li&gt;
+  &lt;li&gt;Falsches Heiz- und Lüftungsverhalten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unser Sanierungskonzept&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Analyse:&lt;/strong&gt; Bestimmung der Schimmelart und Ursachenforschung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Abschottung:&lt;/strong&gt; Verhinderung der Sporenausbreitung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Entfernung:&lt;/strong&gt; Fachgerechte Beseitigung des Befalls&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desinfektion:&lt;/strong&gt; Behandlung betroffener Bereiche&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Trocknung:&lt;/strong&gt; Professionelle Bautrocknung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prävention:&lt;/strong&gt; Maßnahmen gegen Neubefall&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>125</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>leistungen/schimmelsanierung</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>200</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>118</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Brandschadensanierung</title>
+            <link>https://riman-sanierung.de/leistungen/brandschadensanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=126</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Brandschadensanierung - Schnell und professionell&lt;/h2&gt;
+&lt;p&gt;Nach einem Brand zählt jede Minute. Unser 24/7 Notdienst ist sofort für Sie da, 
+um Folgeschäden zu minimieren und die Sanierung einzuleiten.&lt;/p&gt;
+&lt;h3&gt;Sofortmaßnahmen nach einem Brand&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sicherung der Brandstelle&lt;/li&gt;
+  &lt;li&gt;Dokumentation für Versicherungen&lt;/li&gt;
+  &lt;li&gt;Notsicherung von Gebäudeteilen&lt;/li&gt;
+  &lt;li&gt;Bergung von Inventar&lt;/li&gt;
+  &lt;li&gt;Geruchsneutralisation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sanierungsleistungen&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rußentfernung und Reinigung&lt;/li&gt;
+  &lt;li&gt;Schadstoffmessungen&lt;/li&gt;
+  &lt;li&gt;Trocknung von Löschwasserschäden&lt;/li&gt;
+  &lt;li&gt;Entfernung kontaminierter Materialien&lt;/li&gt;
+  &lt;li&gt;Wiederherstellung der Bausubstanz&lt;/li&gt;
+  &lt;li&gt;Komplettsanierung bis zur Bezugsfertigkeit&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>126</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>leistungen/brandschadensanierung</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>200</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>119</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Über RIMAN GmbH</title>
+            <link>https://riman-sanierung.de/ueber-uns</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=127</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;RIMAN GmbH - Ihr Partner für professionelle Sanierung&lt;/h2&gt;
+&lt;p&gt;Seit unserer Gründung im Jahr 2000 haben wir uns zu einem der führenden Sanierungsunternehmen 
+in Berlin und Brandenburg entwickelt. Mit über 50 Mitarbeitern und modernster Ausrüstung 
+realisieren wir Projekte jeder Größenordnung.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>127</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>ueber-uns</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>120</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Das Unternehmen</title>
+            <link>https://riman-sanierung.de/ueber-uns/unternehmen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=128</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Die RIMAN GmbH im Detail&lt;/h2&gt;
+&lt;h3&gt;Unsere Geschichte&lt;/h3&gt;
+&lt;p&gt;2000 gegründet als kleiner Handwerksbetrieb, hat sich die RIMAN GmbH kontinuierlich 
+zu einem mittelständischen Unternehmen mit über 50 Mitarbeitern entwickelt. Heute sind 
+wir einer der führenden Anbieter für Schadstoffsanierungen in der Region.&lt;/p&gt;
+&lt;h3&gt;Unternehmenszahlen&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Über 50 festangestellte Mitarbeiter&lt;/li&gt;
+  &lt;li&gt;3 Standorte in Berlin und Brandenburg&lt;/li&gt;
+  &lt;li&gt;Über 1000 erfolgreich abgeschlossene Projekte&lt;/li&gt;
+  &lt;li&gt;24/7 Notdienst an 365 Tagen im Jahr&lt;/li&gt;
+  &lt;li&gt;Modernster Fuhrpark mit 25 Spezialfahrzeugen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unsere Werte&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Sicherheit:&lt;/strong&gt; Höchste Sicherheitsstandards für Mitarbeiter und Kunden&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Qualität:&lt;/strong&gt; Zertifizierte Verfahren und kontinuierliche Weiterbildung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zuverlässigkeit:&lt;/strong&gt; Termintreue und transparente Kommunikation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nachhaltigkeit:&lt;/strong&gt; Umweltgerechte Entsorgung und Ressourcenschonung&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>128</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>ueber-uns/unternehmen</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>300</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title>Unser Team</title>
+            <link>https://riman-sanierung.de/ueber-uns/team</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=129</guid>
+            <description/>
+            <content:encoded>&lt;!-- wp:html --&gt;&lt;!-- /wp:html --&gt;</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>129</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>ueber-uns/team</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>300</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_data</wp:meta_key>
+                <wp:meta_value>[{"id":"6dfbd81","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40}},"elements":[{"id":"22d9924","elType":"column","settings":{"_column_size":100},"elements":[{"id":"ced6f61","elType":"widget","widgetType":"heading","settings":{"title":"Die Menschen hinter RIMAN","size":"xl","align":"center","title_color":"#232323"}}]}]},{"id":"230cd05","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80}},"elements":[{"id":"921fbe2","elType":"column","settings":{"_column_size":33.33},"elements":[{"id":"594b351","elType":"widget","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&amp;q=80"},"image_size":"medium","align":"center","border_radius":{"unit":"%","size":50}}},{"id":"57c99da","elType":"widget","widgetType":"heading","settings":{"title":"Michael Ritter","size":"medium","align":"center","title_color":"#232323"}},{"id":"bce866a","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;&lt;em&gt;Gesch\u00e4ftsf\u00fchrer &amp; Gr\u00fcnder&lt;/em&gt;&lt;/p&gt;&lt;p style='text-align: center;'&gt;\u00dcber 25 Jahre Erfahrung in der Sanierungsbranche. Gr\u00fcndete RIMAN im Jahr 2000.&lt;/p&gt;","text_color":"#666666"}}]},{"id":"2071ef7","elType":"column","settings":{"_column_size":33.33},"elements":[{"id":"4d52ce5","elType":"widget","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&amp;q=80"},"image_size":"medium","align":"center","border_radius":{"unit":"%","size":50}}},{"id":"9d2af54","elType":"widget","widgetType":"heading","settings":{"title":"Sandra Mann","size":"medium","align":"center","title_color":"#232323"}},{"id":"1e1268c","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;&lt;em&gt;Leiterin Projektmanagement&lt;/em&gt;&lt;/p&gt;&lt;p style='text-align: center;'&gt;Zertifizierte Projektmanagerin mit Fokus auf Gro\u00dfprojekte und Koordination.&lt;/p&gt;","text_color":"#666666"}}]},{"id":"1371349","elType":"column","settings":{"_column_size":33.33},"elements":[{"id":"c2d3b84","elType":"widget","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&amp;q=80"},"image_size":"medium","align":"center","border_radius":{"unit":"%","size":50}}},{"id":"d5a8a4c","elType":"widget","widgetType":"heading","settings":{"title":"Thomas Weber","size":"medium","align":"center","title_color":"#232323"}},{"id":"258e336","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;&lt;em&gt;Technischer Direktor&lt;/em&gt;&lt;/p&gt;&lt;p style='text-align: center;'&gt;Spezialist f\u00fcr Asbestsanierung und technische Planung. TRGS 519 Sachkundiger.&lt;/p&gt;","text_color":"#666666"}}]}]}]</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_edit_mode</wp:meta_key>
+                <wp:meta_value>builder</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_template_type</wp:meta_key>
+                <wp:meta_value>wp-page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value>elementor_canvas</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Zertifizierungen &amp; Qualifikationen</title>
+            <link>https://riman-sanierung.de/ueber-uns/zertifizierungen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=130</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Unsere Zertifizierungen&lt;/h2&gt;
+&lt;p&gt;Qualität und Sicherheit stehen bei uns an erster Stelle. Alle unsere Verfahren sind 
+zertifiziert und werden regelmäßig überprüft.&lt;/p&gt;
+&lt;h3&gt;Zertifikate und Nachweise&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;TRGS 519:&lt;/strong&gt; Zertifizierung für Asbestsanierung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ISO 9001:2015:&lt;/strong&gt; Qualitätsmanagementsystem&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ISO 14001:&lt;/strong&gt; Umweltmanagementsystem&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SCC**:&lt;/strong&gt; Sicherheits-Certifikat-Contraktoren&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DGUV:&lt;/strong&gt; Arbeitsschutz und Unfallverhütung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Entsorgungsfachbetrieb:&lt;/strong&gt; Zertifizierung nach KrWG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mitgliedschaften&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bundesverband Schimmelpilzsanierung e.V.&lt;/li&gt;
+  &lt;li&gt;Gesamtverband Schadstoffsanierung e.V.&lt;/li&gt;
+  &lt;li&gt;Handwerkskammer Berlin&lt;/li&gt;
+  &lt;li&gt;IHK Berlin&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>130</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>ueber-uns/zertifizierungen</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>300</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>114</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Referenzen</title>
+            <link>https://riman-sanierung.de/referenzen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=131</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Unsere Referenzprojekte&lt;/h2&gt;
+&lt;p&gt;Mit über 1000 erfolgreich abgeschlossenen Projekten haben wir umfangreiche Erfahrung 
+in allen Bereichen der Schadstoffsanierung.&lt;/p&gt;
+&lt;h3&gt;Ausgewählte Großprojekte&lt;/h3&gt;
+&lt;h4&gt;Asbestsanierung Bürokomplex Berlin-Mitte (2023)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;12-stöckiges Bürogebäude, 15.000 m²&lt;/li&gt;
+  &lt;li&gt;Komplette Asbestentfernung während laufendem Betrieb&lt;/li&gt;
+  &lt;li&gt;Projektdauer: 6 Monate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;PCB-Sanierung Schulgebäude Brandenburg (2023)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Grundschule mit 800 Schülern&lt;/li&gt;
+  &lt;li&gt;Sanierung während der Sommerferien&lt;/li&gt;
+  &lt;li&gt;Projektdauer: 6 Wochen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Brandschadensanierung Wohnanlage Potsdam (2022)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;48 Wohneinheiten nach Großbrand&lt;/li&gt;
+  &lt;li&gt;Komplettsanierung inkl. Wiederaufbau&lt;/li&gt;
+  &lt;li&gt;Projektdauer: 9 Monate&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>131</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>referenzen</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>111</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Aktuelles &amp; Wissenswertes</title>
+            <link>https://riman-sanierung.de/aktuelles</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=132</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;News, Ratgeber und Fachwissen&lt;/h2&gt;
+&lt;p&gt;Bleiben Sie informiert über aktuelle Entwicklungen, gesetzliche Änderungen und 
+wichtige Informationen rund um das Thema Schadstoffsanierung.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>132</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>aktuelles</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title>Kontakt</title>
+            <link>https://riman-sanierung.de/kontakt</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=133</guid>
+            <description/>
+            <content:encoded>&lt;!-- wp:html --&gt;&lt;!-- /wp:html --&gt;</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>133</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>kontakt</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_data</wp:meta_key>
+                <wp:meta_value>[{"id":"dfd99b3","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":80,"bottom":20}},"elements":[{"id":"62a8f7f","elType":"column","settings":{"_column_size":100},"elements":[{"id":"de77360","elType":"widget","widgetType":"heading","settings":{"title":"Kontaktieren Sie uns","size":"xl","align":"center","title_color":"#ffffff"}},{"id":"5aef760","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Vereinbaren Sie eine kostenlose Erstberatung oder nutzen Sie unseren 24/7 Notdienst.&lt;/p&gt;","text_color":"#cccccc"}}]}]},{"id":"dec94d6","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":20,"bottom":80}},"elements":[{"id":"9173321","elType":"column","settings":{"_column_size":100},"elements":[{"id":"bdfadcb","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-phone","library":"fa-solid"},"title_text":"24/7 Notdienst","description_text":"+49 (0) 30 123456789","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"bec4dcc","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-phone","library":"fa-solid"},"title_text":"B\u00fcro Berlin","description_text":"+49 (0) 30 987654321","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"8392e81","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-envelope","library":"fa-solid"},"title_text":"E-Mail","description_text":"info@riman-sanierung.de","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"0609d2e","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-map-marker-alt","library":"fa-solid"},"title_text":"Hauptsitz Berlin","description_text":"Industriestra\u00dfe 45, 13407 Berlin","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"a0f7d62","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-map-marker-alt","library":"fa-solid"},"title_text":"Niederlassung Potsdam","description_text":"Gewerbepark 12, 14482 Potsdam","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"7311143","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-clock","library":"fa-solid"},"title_text":"B\u00fcrozeiten","description_text":"Mo-Fr 7:00-18:00, Sa 8:00-14:00","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}}]}]}]</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_edit_mode</wp:meta_key>
+                <wp:meta_value>builder</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_template_type</wp:meta_key>
+                <wp:meta_value>wp-page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value>elementor_canvas</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Impressum</title>
+            <link>https://riman-sanierung.de/impressum</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=134</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Impressum&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RIMAN GmbH&lt;/strong&gt;&lt;br&gt;
+Sanierungsdienstleistungen&lt;br&gt;
+Industriestraße 45&lt;br&gt;
+13407 Berlin&lt;/p&gt;
+&lt;p&gt;Telefon: +49 (0) 30 123456789&lt;br&gt;
+E-Mail: info@riman-sanierung.de&lt;/p&gt;
+&lt;p&gt;Geschäftsführer: Michael Ritter&lt;br&gt;
+Registergericht: Amtsgericht Berlin-Charlottenburg&lt;br&gt;
+Registernummer: HRB 123456 B&lt;br&gt;
+USt-IdNr.: DE123456789&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>134</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>impressum</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title>Datenschutz</title>
+            <link>https://riman-sanierung.de/datenschutz</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?page_id=135</guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Datenschutzerklärung&lt;/h2&gt;
+&lt;p&gt;Datenschutz hat für die RIMAN GmbH einen hohen Stellenwert...&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>135</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>datenschutz</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title>RIMAN erhält Großauftrag für Asbestsanierung am Alexanderplatz</title>
+            <link>https://riman-sanierung.de/grossauftrag-alexanderplatz-2024</link>
+            <pubDate>Tue, 29 Jul 2025 12:45:56 +0000</pubDate>
+            <dc:creator>michael.ritter</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=136</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Die RIMAN GmbH hat den Zuschlag für eines der größten Sanierungsprojekte Berlins erhalten. 
+Der historische Bürokomplex am Alexanderplatz wird in den kommenden 12 Monaten vollständig 
+von Asbest befreit.&lt;/p&gt;
+&lt;h3&gt;Projektdetails&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gebäudefläche: 25.000 m² auf 15 Etagen&lt;/li&gt;
+  &lt;li&gt;Projektdauer: 12 Monate&lt;/li&gt;
+  &lt;li&gt;Team: 30 Sanierungsspezialisten&lt;/li&gt;
+  &lt;li&gt;Investitionsvolumen: 8,5 Millionen Euro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Die besondere Herausforderung besteht darin, die Sanierung bei laufendem Betrieb 
+durchzuführen. Hierfür haben wir ein innovatives Etappen-Konzept entwickelt.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>Wir freuen uns bekannt zu geben, dass RIMAN den Zuschlag für die Asbestsanierung eines großen Bürokomplexes am Alexanderplatz erhalten hat.</excerpt:encoded>
+            <wp:post_id>136</wp:post_id>
+            <wp:post_date>2025-07-29 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-07-29 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>grossauftrag-alexanderplatz-2024</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>1</wp:is_sticky>
+            <category domain="category" nicename="sanierung">Sanierung</category>
+            <category domain="category" nicename="asbestsanierung">Asbestsanierung</category>
+            <category domain="post_tag" nicename="berlin">Berlin</category>
+            <category domain="post_tag" nicename="grossprojecte">Grossprojecte</category>
+            <category domain="post_tag" nicename="trgs-519">Trgs 519</category>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>111</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Neue TRGS 519 Anforderungen ab 2024 - Was ändert sich?</title>
+            <link>https://riman-sanierung.de/trgs-519-aenderungen-2024</link>
+            <pubDate>Fri, 01 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>thomas.weber</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=137</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Ab Januar 2024 gelten verschärfte Anforderungen für die Asbestsanierung. Die RIMAN GmbH 
+ist bereits vollständig auf die neuen Regelungen vorbereitet.&lt;/p&gt;
+&lt;h3&gt;Die wichtigsten Änderungen&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Erweiterte Dokumentationspflicht:&lt;/strong&gt; Alle Arbeitsschritte müssen 
+  lückenlos digital dokumentiert werden.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Verschärfte Grenzwerte:&lt;/strong&gt; Die zulässige Asbestfaserkonzentration 
+  wurde weiter reduziert.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Neue Schulungsanforderungen:&lt;/strong&gt; Mitarbeiter müssen quartalsweise 
+  geschult werden.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unsere Teams sind bereits nach den neuen Standards geschult und zertifiziert.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>Die technischen Regeln für Gefahrstoffe wurden überarbeitet. Wir erklären die wichtigsten Änderungen.</excerpt:encoded>
+            <wp:post_id>137</wp:post_id>
+            <wp:post_date>2025-08-01 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-01 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>trgs-519-aenderungen-2024</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="gesetzgebung">Gesetzgebung</category>
+            <category domain="category" nicename="asbestsanierung">Asbestsanierung</category>
+            <category domain="post_tag" nicename="trgs-519">Trgs 519</category>
+            <category domain="post_tag" nicename="zertifizierung">Zertifizierung</category>
+            <category domain="post_tag" nicename="sicherheit">Sicherheit</category>
+        </item>
+        <item>
+            <title>Schimmel in der Wohnung - Erste Hilfe Maßnahmen</title>
+            <link>https://riman-sanierung.de/schimmel-erste-hilfe</link>
+            <pubDate>Mon, 04 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>sandra.mann</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=138</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Schimmel in Wohnräumen ist nicht nur unschön, sondern kann auch ernsthafte 
+Gesundheitsprobleme verursachen. Hier unsere Erste-Hilfe-Tipps.&lt;/p&gt;
+&lt;h3&gt;Sofortmaßnahmen bei Schimmelbefall&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Nicht berühren:&lt;/strong&gt; Vermeiden Sie direkten Kontakt mit dem Schimmel.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lüften:&lt;/strong&gt; Sorgen Sie für gute Durchlüftung, aber verhindern Sie 
+  die Ausbreitung von Sporen in andere Räume.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dokumentieren:&lt;/strong&gt; Fotografieren Sie den Befall für Versicherung 
+  und Vermieter.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Feuchtigkeit stoppen:&lt;/strong&gt; Identifizieren und beseitigen Sie die 
+  Feuchtigkeitsquelle.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Experten rufen:&lt;/strong&gt; Bei größerem Befall (&gt;0,5m²) sollten Sie 
+  Fachleute hinzuziehen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Gesundheitsrisiken&lt;/h3&gt;
+&lt;p&gt;Schimmelsporen können Allergien, Atemwegserkrankungen und bei immungeschwächten 
+Personen ernsthafte Infektionen auslösen.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>Schimmelbefall kann gesundheitsgefährdend sein. Wir zeigen Ihnen, was Sie sofort tun können.</excerpt:encoded>
+            <wp:post_id>138</wp:post_id>
+            <wp:post_date>2025-08-04 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-04 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>schimmel-erste-hilfe</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="ratgeber">Ratgeber</category>
+            <category domain="category" nicename="schimmelsanierung">Schimmelsanierung</category>
+            <category domain="post_tag" nicename="praevention">Praevention</category>
+            <category domain="post_tag" nicename="gesundheit">Gesundheit</category>
+            <category domain="post_tag" nicename="wohngebaeude">Wohngebaeude</category>
+        </item>
+        <item>
+            <title>PCB in Gebäuden - Eine unterschätzte Gefahr</title>
+            <link>https://riman-sanierung.de/pcb-gebaeude-gefahr</link>
+            <pubDate>Thu, 07 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>thomas.weber</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=139</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Polychlorierte Biphenyle (PCB) wurden wegen ihrer technischen Eigenschaften jahrzehntelang 
+in Baumaterialien eingesetzt. Heute wissen wir um ihre Gefährlichkeit.&lt;/p&gt;
+&lt;h3&gt;Wo wurde PCB eingesetzt?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fugendichtungen in Betonbauten (1960-1975)&lt;/li&gt;
+  &lt;li&gt;Kondensatoren in alten Leuchtstofflampen&lt;/li&gt;
+  &lt;li&gt;Klebstoffe und Anstriche&lt;/li&gt;
+  &lt;li&gt;Weichmacher in Kunststoffen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Gesundheitsgefahren&lt;/h3&gt;
+&lt;p&gt;PCB reichert sich im Körper an und kann zu:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hautveränderungen (Chlorakne)&lt;/li&gt;
+  &lt;li&gt;Leberschäden&lt;/li&gt;
+  &lt;li&gt;Störungen des Immunsystems&lt;/li&gt;
+  &lt;li&gt;Entwicklungsstörungen bei Kindern&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sanierungspflicht&lt;/h3&gt;
+&lt;p&gt;Bei Raumluftkonzentrationen über 300 ng/m³ besteht Sanierungspflicht. 
+Wir führen akkreditierte Messungen durch.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>PCB wurde bis 1989 verbaut und findet sich noch heute in vielen Gebäuden. Eine Übersicht über Risiken und Sanierungspflicht.</excerpt:encoded>
+            <wp:post_id>139</wp:post_id>
+            <wp:post_date>2025-08-07 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-07 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>pcb-gebaeude-gefahr</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="ratgeber">Ratgeber</category>
+            <category domain="category" nicename="pcb-sanierung">Pcb Sanierung</category>
+            <category domain="post_tag" nicename="gesundheit">Gesundheit</category>
+            <category domain="post_tag" nicename="umweltschutz">Umweltschutz</category>
+            <category domain="post_tag" nicename="gewerbeimmobilien">Gewerbeimmobilien</category>
+        </item>
+        <item>
+            <title>Erfolgreiche Schulsanierung in Potsdam abgeschlossen</title>
+            <link>https://riman-sanierung.de/schulsanierung-potsdam-erfolg</link>
+            <pubDate>Sun, 10 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>sandra.mann</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=140</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Pünktlich zum Schuljahresbeginn konnten wir die umfassende PCB- und Asbestsanierung 
+der Grundschule Potsdam-West erfolgreich abschließen.&lt;/p&gt;
+&lt;h3&gt;Projektumfang&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Entfernung von 2.500 m² asbesthaltiger Bodenbeläge&lt;/li&gt;
+  &lt;li&gt;PCB-Sanierung von 180 Fensterfugen&lt;/li&gt;
+  &lt;li&gt;Austausch von 250 PCB-belasteten Leuchtstofflampen&lt;/li&gt;
+  &lt;li&gt;Komplettreinigung und Dekontamination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Besondere Herausforderungen&lt;/h3&gt;
+&lt;p&gt;Die Sanierung musste innerhalb der 8-wöchigen Sommerferien abgeschlossen werden. 
+Durch den Einsatz von zwei Schichtteams und optimierter Logistik konnten wir den 
+straffen Zeitplan einhalten.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;"Die Zusammenarbeit mit RIMAN war vorbildlich. Trotz des enormen Zeitdrucks 
+  wurde sauber und professionell gearbeitet." - Schulleiter Müller&lt;/p&gt;
+&lt;/blockquote&gt;
+</content:encoded>
+            <excerpt:encoded>Nach 8 Wochen intensiver Arbeit wurde die Komplettsanierung der Grundschule Potsdam-West erfolgreich abgeschlossen.</excerpt:encoded>
+            <wp:post_id>140</wp:post_id>
+            <wp:post_date>2025-08-10 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-10 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>schulsanierung-potsdam-erfolg</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="fallstudien">Fallstudien</category>
+            <category domain="category" nicename="sanierung">Sanierung</category>
+            <category domain="post_tag" nicename="brandenburg">Brandenburg</category>
+            <category domain="post_tag" nicename="oeffentliche-gebaeude">Oeffentliche Gebaeude</category>
+            <category domain="post_tag" nicename="pcb-sanierung">Pcb Sanierung</category>
+        </item>
+        <item>
+            <title>Brandschaden - Die ersten 48 Stunden sind entscheidend</title>
+            <link>https://riman-sanierung.de/brandschaden-erste-48-stunden</link>
+            <pubDate>Wed, 13 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>michael.ritter</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=141</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Ein Brand ist für Betroffene immer ein Schock. Doch nach den Löscharbeiten beginnt 
+ein Wettlauf gegen die Zeit, um Folgeschäden zu minimieren.&lt;/p&gt;
+&lt;h3&gt;Warum sind die ersten 48 Stunden so wichtig?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Korrosion:&lt;/strong&gt; Ruß und Rauchgase sind hochkorrosiv und greifen 
+  Metalle und Elektronik an.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Geruchsbildung:&lt;/strong&gt; Je länger Ruß einwirkt, desto tiefer dringen 
+  Gerüche in Materialien ein.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Schimmelbildung:&lt;/strong&gt; Löschwasser kann binnen 48 Stunden zu 
+  Schimmelwachstum führen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unser 24-Stunden-Notfallplan&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Sofortige Schadenaufnahme und Dokumentation&lt;/li&gt;
+  &lt;li&gt;Notsicherung und Abschottung&lt;/li&gt;
+  &lt;li&gt;Bergung von Inventar und wichtigen Unterlagen&lt;/li&gt;
+  &lt;li&gt;Erste Trocknungsmaßnahmen&lt;/li&gt;
+  &lt;li&gt;Geruchsneutralisation&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+            <excerpt:encoded>Nach einem Brand entstehen oft größere Folgeschäden als der Brand selbst. Schnelles Handeln ist entscheidend.</excerpt:encoded>
+            <wp:post_id>141</wp:post_id>
+            <wp:post_date>2025-08-13 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-13 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>brandschaden-erste-48-stunden</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="ratgeber">Ratgeber</category>
+            <category domain="category" nicename="brandsanierung">Brandsanierung</category>
+            <category domain="post_tag" nicename="notdienst">Notdienst</category>
+            <category domain="post_tag" nicename="sicherheit">Sicherheit</category>
+        </item>
+        <item>
+            <title>Nachhaltigkeit in der Sanierung - Unser Beitrag zum Umweltschutz</title>
+            <link>https://riman-sanierung.de/nachhaltigkeit-sanierung-umweltschutz</link>
+            <pubDate>Sat, 16 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>michael.ritter</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=142</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Als Sanierungsunternehmen tragen wir eine besondere Verantwortung für die Umwelt. 
+Schadstoffe müssen nicht nur entfernt, sondern auch umweltgerecht entsorgt werden.&lt;/p&gt;
+&lt;h3&gt;Unsere Nachhaltigkeitsstrategie&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Recycling:&lt;/strong&gt; 85% der anfallenden Materialien werden recycelt&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Energieeffizienz:&lt;/strong&gt; Moderne Elektrofahrzeuge im Fuhrpark&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ressourcenschonung:&lt;/strong&gt; Wiederverwendbare Abschottungssysteme&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CO2-Reduktion:&lt;/strong&gt; Klimaneutralität bis 2030 angestrebt&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded>Sanierung und Umweltschutz müssen kein Widerspruch sein. Wie wir nachhaltig arbeiten.</excerpt:encoded>
+            <wp:post_id>142</wp:post_id>
+            <wp:post_date>2025-08-16 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-16 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>nachhaltigkeit-sanierung-umweltschutz</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="nachhaltigkeit">Nachhaltigkeit</category>
+            <category domain="category" nicename="sanierung">Sanierung</category>
+            <category domain="post_tag" nicename="umweltschutz">Umweltschutz</category>
+            <category domain="post_tag" nicename="zertifizierung">Zertifizierung</category>
+        </item>
+        <item>
+            <title>Asbest erkennen - Eine Anleitung für Hausbesitzer</title>
+            <link>https://riman-sanierung.de/asbest-erkennen-hausbesitzer</link>
+            <pubDate>Tue, 19 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>thomas.weber</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=143</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;In Gebäuden, die vor 1993 gebaut oder saniert wurden, kann Asbest in verschiedenen 
+Baumaterialien enthalten sein. Eine Übersicht für Hausbesitzer.&lt;/p&gt;
+&lt;h3&gt;Typische Asbestquellen nach Baujahr&lt;/h3&gt;
+&lt;h4&gt;1960-1970&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spritzasbest zur Brandschutzisolierung&lt;/li&gt;
+  &lt;li&gt;Asbesthaltige Bodenbeläge (Floor-Flex)&lt;/li&gt;
+  &lt;li&gt;Nachtspeicheröfen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;1970-1980&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Asbestzementplatten (Eternit) an Fassaden&lt;/li&gt;
+  &lt;li&gt;Wellasbestplatten auf Dächern&lt;/li&gt;
+  &lt;li&gt;Asbesthaltige Klebstoffe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;1980-1993&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Asbesthaltige Fugenmassen&lt;/li&gt;
+  &lt;li&gt;Brandschutzplatten&lt;/li&gt;
+  &lt;li&gt;Rohrisolierungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Wichtig: Keine Eigeninitiative!&lt;/h3&gt;
+&lt;p&gt;Brechen, Bohren oder Schleifen Sie niemals verdächtige Materialien. 
+Lassen Sie eine Probe von Fachleuten entnehmen.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>Asbest wurde bis 1993 verbaut. Wir zeigen Ihnen, wo Sie in Ihrem Haus Asbest vermuten müssen.</excerpt:encoded>
+            <wp:post_id>143</wp:post_id>
+            <wp:post_date>2025-08-19 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-19 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>asbest-erkennen-hausbesitzer</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="ratgeber">Ratgeber</category>
+            <category domain="category" nicename="asbestsanierung">Asbestsanierung</category>
+            <category domain="post_tag" nicename="praevention">Praevention</category>
+            <category domain="post_tag" nicename="wohngebaeude">Wohngebaeude</category>
+            <category domain="post_tag" nicename="sicherheit">Sicherheit</category>
+        </item>
+        <item>
+            <title>Förderungen für Schadstoffsanierung - Diese Zuschüsse gibt es</title>
+            <link>https://riman-sanierung.de/foerderungen-schadstoffsanierung-2024</link>
+            <pubDate>Fri, 22 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>sandra.mann</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=144</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Die Kosten einer Schadstoffsanierung können erheblich sein. Verschiedene Förderprogramme 
+können die finanzielle Belastung deutlich reduzieren.&lt;/p&gt;
+&lt;h3&gt;Bundesweite Förderungen&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;KfW-Programm 151/152:&lt;/strong&gt; Bis zu 120.000 Euro für energetische 
+  Sanierung inkl. Schadstoffbeseitigung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;BAFA-Förderung:&lt;/strong&gt; Zuschüsse für Einzelmaßnahmen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Förderungen in Berlin&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;IBB-Förderprogramm:&lt;/strong&gt; Zinsgünstige Darlehen für Sanierung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Berliner Programm für Nachhaltige Entwicklung:&lt;/strong&gt; Bis zu 50% 
+  Förderung für umweltgerechte Sanierung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Förderungen in Brandenburg&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ILB-Brandenburg:&lt;/strong&gt; Förderkredite für Wohnraumsanierung&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stadtumbau Ost:&lt;/strong&gt; Zuschüsse für Sanierung in bestimmten Gebieten&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded>Viele Sanierungsmaßnahmen werden staatlich gefördert. Ein Überblick über aktuelle Förderprogramme.</excerpt:encoded>
+            <wp:post_id>144</wp:post_id>
+            <wp:post_date>2025-08-22 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-22 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>foerderungen-schadstoffsanierung-2024</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="ratgeber">Ratgeber</category>
+            <category domain="category" nicename="gesetzgebung">Gesetzgebung</category>
+            <category domain="post_tag" nicename="berlin">Berlin</category>
+            <category domain="post_tag" nicename="brandenburg">Brandenburg</category>
+        </item>
+        <item>
+            <title>Interview: 20 Jahre RIMAN - Ein Rückblick mit Gründer Michael Ritter</title>
+            <link>https://riman-sanierung.de/interview-20-jahre-riman</link>
+            <pubDate>Mon, 25 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">https://riman-sanierung.de/?p=145</guid>
+            <description/>
+            <content:encoded>&lt;p&gt;&lt;strong&gt;Herr Ritter, vor 20 Jahren haben Sie RIMAN gegründet. Wie hat alles angefangen?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Als gelernter Bauingenieur habe ich früh die Bedeutung der Schadstoffsanierung erkannt. 
+2000 startete ich mit zwei Mitarbeitern und einem gemieteten Transporter. Heute haben 
+wir über 50 Angestellte und einen modernen Fuhrpark.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Was waren die größten Herausforderungen?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Die ständig wechselnden gesetzlichen Anforderungen und der Aufbau eines qualifizierten 
+Teams. Schadstoffsanierung erfordert hochspezialisiertes Wissen und kontinuierliche 
+Weiterbildung.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worauf sind Sie besonders stolz?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dass wir in 20 Jahren keinen einzigen schweren Arbeitsunfall hatten. Sicherheit 
+steht bei uns an erster Stelle - für unsere Mitarbeiter und unsere Kunden.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wie sehen Sie die Zukunft der Branche?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Die Nachfrage wird weiter steigen. Viele Gebäude aus den 60er und 70er Jahren 
+müssen saniert werden. Gleichzeitig werden die Umweltauflagen strenger. Wir sind 
+darauf vorbereitet.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>Zum 20-jährigen Jubiläum blickt Firmengründer Michael Ritter auf die Entwicklung von RIMAN zurück.</excerpt:encoded>
+            <wp:post_id>145</wp:post_id>
+            <wp:post_date>2025-08-25 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-25 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>interview-20-jahre-riman</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="sanierung">Sanierung</category>
+            <category domain="post_tag" nicename="team">Team</category>
+        </item>
+        <item>
+            <title>Startseite</title>
+            <link>/</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=146</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>146</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>146</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>1</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>custom</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>custom</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>146</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Leistungen</title>
+            <link>/leistungen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=147</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>147</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>147</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>2</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>200</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Asbestsanierung</title>
+            <link>/leistungen/asbestsanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=148</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>148</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>148</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>3</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>2</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>148</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen/asbestsanierung</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>PCB-Sanierung</title>
+            <link>/leistungen/pcb-sanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=149</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>149</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>149</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>4</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>2</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>149</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen/pcb-sanierung</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Schimmelsanierung</title>
+            <link>/leistungen/schimmelsanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=150</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>150</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>150</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>5</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>2</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>150</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen/schimmelsanierung</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Brandschadensanierung</title>
+            <link>/leistungen/brandschadensanierung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=151</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>151</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>151</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>6</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>2</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>151</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen/brandschadensanierung</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Schadstoffgutachten</title>
+            <link>/leistungen/schadstoffgutachten</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=152</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>152</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>152</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>7</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>2</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>152</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen/schadstoffgutachten</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Rückbau &amp; Entsorgung</title>
+            <link>/leistungen/rueckbau-entsorgung</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=153</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>153</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>153</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>8</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>2</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>153</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/leistungen/rueckbau-entsorgung</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Über uns</title>
+            <link>/ueber-uns</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=154</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>154</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>154</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>9</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>154</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/ueber-uns</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Unternehmen</title>
+            <link>/ueber-uns/unternehmen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=155</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>155</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>155</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>10</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>9</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>155</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/ueber-uns/unternehmen</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Team</title>
+            <link>/ueber-uns/team</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=156</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>156</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>156</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>11</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>9</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>156</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/ueber-uns/team</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Zertifizierungen</title>
+            <link>/ueber-uns/zertifizierungen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=157</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>157</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>157</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>12</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>9</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>157</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/ueber-uns/zertifizierungen</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Partner</title>
+            <link>/ueber-uns/partner</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=158</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>158</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>158</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>13</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>9</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>158</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/ueber-uns/partner</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Karriere</title>
+            <link>/ueber-uns/karriere</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=159</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>159</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>159</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>14</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>9</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>159</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/ueber-uns/karriere</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Referenzen</title>
+            <link>/referenzen</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=160</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>160</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>160</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>15</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>160</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/referenzen</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Aktuelles</title>
+            <link>/aktuelles</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=161</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>161</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>161</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>16</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>161</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/aktuelles</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Kontakt</title>
+            <link>/kontakt</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=162</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>162</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>162</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>17</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>post_type</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>page</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>162</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>/kontakt</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>24/7 Notdienst</title>
+            <link>tel:+493012345678</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=163</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>163</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>163</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>18</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="hauptmenu">Hauptmenü</category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value>custom</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value>0</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value>custom</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value>163</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value>menu-highlight emergency</wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value>tel:+493012345678</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>RIMAN Header</title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=164</guid>
+            <description/>
+            <content:encoded>&lt;header class="site-header"&gt;
+  &lt;div class="header-top"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="emergency-bar"&gt;
+        &lt;span&gt;24/7 Notdienst: &lt;a href="tel:+493012345678"&gt;+49 30 123 456 78&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="header-main"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="logo"&gt;
+        &lt;img src="/logo-riman.png" alt="RIMAN GmbH"&gt;
+      &lt;/div&gt;
+      &lt;nav class="main-navigation"&gt;
+        &lt;!-- Hauptmenü wird hier eingefügt --&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>164</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>riman-header</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>header</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title>RIMAN Footer</title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?p=165</guid>
+            <description/>
+            <content:encoded>&lt;footer class="site-footer"&gt;
+  &lt;div class="footer-widgets"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="widget"&gt;
+          &lt;h3&gt;RIMAN GmbH&lt;/h3&gt;
+          &lt;p&gt;Ihre Experten für professionelle Sanierung seit über 20 Jahren. 
+          Zertifiziert nach TRGS 519 und ISO 9001.&lt;/p&gt;
+          &lt;div class="certifications"&gt;
+            &lt;img src="/cert-trgs519.png" alt="TRGS 519"&gt;
+            &lt;img src="/cert-iso9001.png" alt="ISO 9001"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="widget"&gt;
+          &lt;h3&gt;Leistungen&lt;/h3&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href="/leistungen/asbestsanierung"&gt;Asbestsanierung&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="/leistungen/pcb-sanierung"&gt;PCB-Sanierung&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="/leistungen/schimmelsanierung"&gt;Schimmelsanierung&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="/leistungen/brandschadensanierung"&gt;Brandschadensanierung&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="/leistungen/schadstoffgutachten"&gt;Schadstoffgutachten&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="widget"&gt;
+          &lt;h3&gt;Kontakt&lt;/h3&gt;
+          &lt;p&gt;
+            &lt;strong&gt;24/7 Notdienst:&lt;/strong&gt;&lt;br&gt;
+            &lt;a href="tel:+493012345678"&gt;+49 30 123 456 78&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+            &lt;strong&gt;Hauptsitz Berlin:&lt;/strong&gt;&lt;br&gt;
+            Industriestraße 45&lt;br&gt;
+            13407 Berlin&lt;br&gt;
+            info@riman-sanierung.de
+          &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="widget"&gt;
+          &lt;h3&gt;Standorte&lt;/h3&gt;
+          &lt;p&gt;
+            &lt;strong&gt;Berlin&lt;/strong&gt;&lt;br&gt;
+            Industriestraße 45, 13407 Berlin&lt;br&gt;&lt;br&gt;
+            &lt;strong&gt;Potsdam&lt;/strong&gt;&lt;br&gt;
+            Gewerbepark 12, 14482 Potsdam&lt;br&gt;&lt;br&gt;
+            &lt;strong&gt;Brandenburg&lt;/strong&gt;&lt;br&gt;
+            Am Hafen 8, 14776 Brandenburg
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="footer-bottom"&gt;
+    &lt;div class="container"&gt;
+      &lt;p&gt;&amp;copy; 2024 RIMAN GmbH. Alle Rechte vorbehalten. | 
+      &lt;a href="/impressum"&gt;Impressum&lt;/a&gt; | 
+      &lt;a href="/datenschutz"&gt;Datenschutz&lt;/a&gt; | 
+      &lt;a href="/agb"&gt;AGB&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>165</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>riman-footer</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>footer</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title>Kontaktformular</title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?post_type=wpcf7_contact_form&amp;#038;p=166</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>166</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>kontaktformular</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>wpcf7_contact_form</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_form</wp:meta_key>
+                <wp:meta_value>[text* your-name placeholder "Ihr Name"]
+[email* your-email placeholder "Ihre E-Mail"]
+[tel your-phone placeholder "Telefonnummer"]
+[select sanierungsart "Bitte wählen" "Asbestsanierung" "PCB-Sanierung" "Schimmelsanierung" "Brandschadensanierung" "Schadstoffgutachten" "Sonstiges"]
+[text your-address placeholder "Objektadresse"]
+[select objekttyp "Objekttyp" "Wohngebäude" "Gewerbeimmobilie" "Öffentliches Gebäude" "Industrieanlage"]
+[textarea* your-message placeholder "Beschreiben Sie Ihr Anliegen..."]
+[checkbox* datenschutz "Ich habe die Datenschutzerklärung gelesen und akzeptiert"]
+[submit "Anfrage senden"]
+</wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Notdienst-Formular</title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 12:45:56 +0000</pubDate>
+            <dc:creator>admin</dc:creator>
+            <guid isPermaLink="false">http://localhost/?post_type=wpcf7_contact_form&amp;#038;p=167</guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>167</wp:post_id>
+            <wp:post_date>2025-08-28 12:45:56</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 12:45:56</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>notdienst-formular</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>wpcf7_contact_form</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_form</wp:meta_key>
+                <wp:meta_value>[text* your-name placeholder "Ihr Name*"]
+[tel* your-phone placeholder "Telefonnummer für Rückruf*"]
+[select* notfall-art "Art des Notfalls*" "Brandschaden" "Wasserschaden" "Asbestfund" "Schimmelbefall" "Sonstiger Notfall"]
+[text* your-address placeholder "Adresse des Schadenorts*"]
+[textarea your-description placeholder "Kurze Beschreibung des Notfalls"]
+[checkbox sofort-kontakt "Bitte rufen Sie mich sofort zurück"]
+[submit "NOTDIENST ANFORDERN"]</wp:meta_value>
+            </wp:postmeta>
+        </item>
+    </channel>
+</rss>
