@@ -550,9 +550,39 @@ class FullSiteGenerator:
         return text.strip('-')
     
     def generate_wordpress_xml(self, config: Dict, rss: ET.Element, output_path: str) -> str:
-        """Generate WordPress XML file"""
+        """Generate WordPress XML file with proper CDATA wrapping"""
         # Format and save XML
         xml_string = ET.tostring(rss, encoding='unicode')
+        
+        # Wrap nav_menu terms and categories properly in CDATA
+        import re
+        
+        # Wrap nav_menu term values in CDATA
+        xml_string = re.sub(
+            r'<wp:term_slug>([^<]*)</wp:term_slug>',
+            lambda m: f'<wp:term_slug><![CDATA[{m.group(1)}]]></wp:term_slug>' if m.group(1) and not m.group(1).startswith('<![CDATA[') else m.group(0),
+            xml_string
+        )
+        xml_string = re.sub(
+            r'<wp:term_name>([^<]*)</wp:term_name>',
+            lambda m: f'<wp:term_name><![CDATA[{m.group(1)}]]></wp:term_name>' if m.group(1) and not m.group(1).startswith('<![CDATA[') else m.group(0),
+            xml_string
+        )
+        
+        # Wrap nav_menu category names in CDATA
+        xml_string = re.sub(
+            r'<category domain="nav_menu"([^>]*)>([^<]*)</category>',
+            lambda m: f'<category domain="nav_menu"{m.group(1)}><![CDATA[{m.group(2)}]]></category>' if m.group(2) and not m.group(2).startswith('<![CDATA[') else m.group(0),
+            xml_string
+        )
+        
+        # Wrap other important fields in CDATA
+        for tag in ['title', 'wp:post_name', 'guid', 'dc:creator', 'wp:meta_value']:
+            xml_string = re.sub(
+                f'<{tag}([^>]*)>([^<]+)</{tag}>',
+                lambda m: f'<{tag}{m.group(1)}><![CDATA[{m.group(2)}]]></{tag}>' if not m.group(2).startswith('<![CDATA[') else m.group(0),
+                xml_string
+            )
         
         try:
             dom = minidom.parseString(xml_string)
