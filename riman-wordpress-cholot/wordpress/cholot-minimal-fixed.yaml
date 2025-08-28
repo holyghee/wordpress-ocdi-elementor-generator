@@ -1,0 +1,88 @@
+site:
+  title: "Cholot – Retirement Community WordPress Theme"
+  url: "http://localhost:8082"
+  description: "A retirement community theme with Elementor integration"
+  
+# WordPress Configuration
+wordpress:
+  admin_user: "admin"
+  admin_email: "admin@cholot.local"
+  theme: "cholot"
+  plugins:
+    - "elementor"
+    - "cholot-core"
+
+# Essential Pages for MVP Testing - Fixed file paths
+pages:
+  - id: 6
+    title: "Home"
+    slug: ""
+    template: "elementor_canvas"
+    elementor_file: "page_6_Home.json"
+    is_front_page: true
+    
+  - id: 179
+    title: "About"
+    slug: "about"
+    template: "elementor_canvas"
+    elementor_file: "page_179_About.json"
+    
+  - id: 289
+    title: "Contact"
+    slug: "contact"
+    template: "elementor_canvas"
+    elementor_file: "page_289_Contact.json"
+
+# Main Navigation Menu
+menus:
+  primary:
+    name: "Default Menu"
+    items:
+      - title: "Home"
+        url: "/"
+        page_id: 6
+        
+      - title: "About"
+        url: "/about"
+        page_id: 179
+        
+      - title: "Services"
+        url: "#"
+        children:
+          - title: "Independent living"
+            url: "/independent-living"
+            page_id: 365
+          - title: "Assisted living"
+            url: "/assisted-living"
+            page_id: 374
+            
+      - title: "Contact"
+        url: "/contact"
+        page_id: 289
+
+# Theme Settings
+theme_settings:
+  brand_color: "#b68c2f"
+  typography:
+    heading_font: "Playfair Display"
+    body_font: "Open Sans"
+  
+# Elementor Configuration
+elementor:
+  version: "2.6.2"
+  widgets:
+    - "rdn-slider"
+    - "cholot-texticon"
+    - "cholot-title"
+    - "cholot-team"
+    - "cholot-testimonial-two"
+    - "cholot-contact"
+    - "cholot-gallery"
+
+# Import Settings
+import:
+  strategy: "minimal"
+  include_media: true
+  include_widgets: true
+  process_elementor: true
+  validate_structure: true
