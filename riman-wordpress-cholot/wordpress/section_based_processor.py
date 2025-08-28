@@ -365,14 +365,51 @@ class SectionBasedProcessor:
             }]
         }
     
-    def _create_testimonials_section(self, config: Dict) -> Dict:
-        """Create testimonials section with all testimonials"""
+    def _create_testimonials_section(self, config: Dict) -> List[Dict]:
+        """Create testimonials section - returns TWO sections: title section + testimonials section"""
         testimonials = config.get('testimonials', [])
         if not testimonials:
-            return None
+            return []
         
-        # Create columns for testimonials (max 3 in one row)
-        columns = []
+        # Section 1: Title and subtitle (separate section)
+        title_section = {
+            "id": self.generate_unique_id(),
+            "elType": "section",
+            "settings": {
+                "layout": "boxed",
+                "margin": {"unit": "px", "top": 80, "bottom": 40},
+                "background_background": "classic",
+                "background_color": "#f8f9fa",
+                "padding": {"unit": "px", "top": 60, "bottom": 20}
+            },
+            "elements": [{
+                "id": self.generate_unique_id(),
+                "elType": "column",
+                "settings": {"_column_size": 100},
+                "elements": [{
+                    "id": self.generate_unique_id(),
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": config.get('title', 'What Our Clients Say'),
+                        "size": "xl",
+                        "align": "center",
+                        "title_color": "#232323"
+                    }
+                }, {
+                    "id": self.generate_unique_id(),
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": f"<p style='text-align: center;'>{config.get('subtitle', '')}</p>",
+                        "text_color": "#666666"
+                    }
+                }]
+            }]
+        }
+        
+        # Section 2: Testimonial cards (separate section)
+        testimonial_columns = []
         for testimonial in testimonials[:3]:  # Max 3 testimonials
             column = {
                 "id": self.generate_unique_id(),
@@ -398,20 +435,23 @@ class SectionBasedProcessor:
                     }
                 }]
             }
-            columns.append(column)
+            testimonial_columns.append(column)
         
-        return {
+        testimonials_section = {
             "id": self.generate_unique_id(),
             "elType": "section",
             "settings": {
                 "layout": "boxed",
-                "margin": {"unit": "px", "top": 80, "bottom": 80},
+                "margin": {"unit": "px", "top": 0, "bottom": 80},
                 "background_background": "classic",
                 "background_color": "#f8f9fa",
-                "padding": {"unit": "px", "top": 60, "bottom": 60}
+                "padding": {"unit": "px", "top": 20, "bottom": 60}
             },
-            "elements": columns
+            "elements": testimonial_columns
         }
+        
+        # Return both sections
+        return [title_section, testimonials_section]
     
     def _create_services_grid_section(self, config: Dict) -> Dict:
         """Create additional services grid"""
