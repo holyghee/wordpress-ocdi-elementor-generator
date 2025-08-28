@@ -56,7 +56,8 @@ class CompletePageProcessor:
         elementor_data = data['elementor_data']
         
         # Create XML structure
-        rss = ET.Element('rss', version='2.0')
+        rss = ET.Element('rss')
+        rss.set('version', '2.0')
         
         # Add namespaces
         rss.set('xmlns:excerpt', 'http://wordpress.org/export/1.2/excerpt/')
