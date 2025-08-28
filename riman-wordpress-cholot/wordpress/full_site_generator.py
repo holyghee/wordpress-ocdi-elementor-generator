@@ -540,7 +540,7 @@ class FullSiteGenerator:
         # Post details
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
         # Use a date in the past
-        past_date = datetime.now() - timedelta(days=7)
+        past_date = datetime(2024, 8, 21, 14, 29, 21)
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
@@ -576,7 +576,7 @@ class FullSiteGenerator:
         # Post details
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
         # Use a date in the past
-        past_date = datetime.now() - timedelta(days=7)
+        past_date = datetime(2024, 8, 21, 14, 29, 21)
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
