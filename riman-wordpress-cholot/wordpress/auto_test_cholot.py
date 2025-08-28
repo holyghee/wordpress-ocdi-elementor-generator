@@ -195,11 +195,22 @@ class AutoTestCholot:
             returncode, stdout, stderr = self.run_command("php check-imported.php", "Check imported content")
             
             if returncode == 0:
-                # Parse verification output
-                verification_result['pages_imported'] = 'pages found' in stdout.lower()
-                verification_result['elementor_data_preserved'] = 'elementor' in stdout.lower()
-                verification_result['menu_structure_created'] = 'menu' in stdout.lower()
-                verification_result['custom_post_types_present'] = 'post types' in stdout.lower()
+                # Parse verification output with improved detection
+                stdout_lower = stdout.lower()
+                
+                # Check for pages (look for page post type with count > 0)
+                import re
+                page_match = re.search(r'📄 page \((\d+)\)', stdout)
+                verification_result['pages_imported'] = page_match and int(page_match.group(1)) > 0
+                
+                # Check for Elementor data
+                verification_result['elementor_data_preserved'] = 'elementor' in stdout_lower or 'has elementor data' in stdout_lower
+                
+                # Check for menus
+                verification_result['menu_structure_created'] = 'menu' in stdout_lower and ('assignments' in stdout_lower or 'nav_menu_item' in stdout_lower)
+                
+                # Check for custom post types (headers/footers/etc)
+                verification_result['custom_post_types_present'] = 'header' in stdout_lower or 'footer' in stdout_lower or 'custom post' in stdout_lower
                 
                 self.log(f"Verification results: {verification_result}")
             else:
