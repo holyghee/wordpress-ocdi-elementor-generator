@@ -88,7 +88,7 @@ class IntegratedWordPressGenerator:
             try:
                 subprocess.run([
                     sys.executable, 'generate_wordpress_xml.py',
-                    json_file, xml_file
+                    '-i', json_file, '-o', xml_file
                 ], check=True)
                 print(f"✅ WordPress XML generated: {xml_file}")
             except subprocess.CalledProcessError as e:
