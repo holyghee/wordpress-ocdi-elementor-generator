@@ -50,7 +50,7 @@ class SectionBasedProcessor:
         
         return elementor_sections
     
-    def _create_section(self, config: Dict) -> Dict:
+    def _create_section(self, config: Dict):
         """Create a section with columns"""
         section_type = config.get('type')
         
