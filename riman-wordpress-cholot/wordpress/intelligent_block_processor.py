@@ -118,12 +118,41 @@ class IntelligentBlockProcessor:
         """Fülle Block-Template mit Inhalten aus Config"""
         filled = copy.deepcopy(template)
         
+        # Erstelle Content-Map aus verschiedenen Config-Feldern
+        content_map = {}
+        
+        # Map für verschiedene Block-Typen
+        if config.get('type') == 'hero-slider' and 'slides' in config:
+            for i, slide in enumerate(config['slides'][:2]):  # Max 2 slides
+                content_map[f'SLIDE_{i}_TITLE'] = slide.get('title', '')
+                content_map[f'SLIDE_{i}_SUBTITLE'] = slide.get('subtitle', '')
+                content_map[f'SLIDE_{i}_BUTTON'] = slide.get('button_text', 'Learn More')
+                
+        elif config.get('type') == 'service-cards' and 'services' in config:
+            # Generische Service-Platzhalter
+            if config['services']:
+                content_map['SERVICE_TITLE'] = config['services'][0].get('title', '')
+                content_map['SERVICE_TEXT'] = config['services'][0].get('text', '')
+                content_map['SERVICE_ICON'] = config['services'][0].get('icon', 'fa fa-check')
+                
+        elif config.get('type') == 'title-section':
+            content_map['TITLE'] = config.get('title', '')
+            content_map['SUBTITLE'] = config.get('subtitle', '')
+            
+        # Allgemeine Inhalte
+        if 'title' in config:
+            content_map['TITLE'] = config['title']
+        if 'subtitle' in config:
+            content_map['SUBTITLE'] = config['subtitle']
+        if 'content' in config:
+            content_map.update(config['content'])
+        
         # Rekursive Funktion zum Ersetzen von Platzhaltern
         def replace_placeholders(element: Any, content: Dict) -> Any:
             if isinstance(element, str):
                 # Ersetze Platzhalter
                 for key, value in content.items():
-                    placeholder = f"{{{{{key.upper()}}}}}"
+                    placeholder = f"{{{{{key}}}}}"
                     if placeholder in element:
                         element = element.replace(placeholder, str(value))
                 return element
@@ -143,8 +172,7 @@ class IntelligentBlockProcessor:
                 return element
         
         # Ersetze Platzhalter mit Inhalten
-        if 'content' in config:
-            filled = replace_placeholders(filled, config['content'])
+        filled = replace_placeholders(filled, content_map)
         
         # Handle spezielle Konfigurationen
         if 'settings' in config:

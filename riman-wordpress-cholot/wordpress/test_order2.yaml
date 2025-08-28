@@ -1,0 +1,9 @@
+pages:
+- blocks:
+  - type: testimonials
+  - type: hero-slider
+  - type: service-cards
+  title: Test Page 2
+site:
+  title: Test
+  url: http://test
