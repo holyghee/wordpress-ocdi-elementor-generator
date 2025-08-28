@@ -1,0 +1,103 @@
+[2025-08-28 19:18:28] [INFO] 🚀 Cholot Iterative Generator initialized
+[2025-08-28 19:18:28] [INFO] 📁 Working directory: .
+[2025-08-28 19:18:28] [INFO] 📋 Config file: cholot-minimal.yaml
+[2025-08-28 19:18:28] [INFO] 🚀 Starting iterative generation process...
+[2025-08-28 19:18:28] [INFO] 🎯 Target: Generate successful WordPress XML with Elementor content
+[2025-08-28 19:18:28] [INFO] 🔄 Max iterations: 2
+[2025-08-28 19:18:28] [INFO] ✅ Config loaded successfully from cholot-minimal.yaml
+[2025-08-28 19:18:28] [INFO] 📊 Config contains: 3 pages, 0 posts
+[2025-08-28 19:18:28] [INFO] ✅ Loaded 25 Elementor structures
+[2025-08-28 19:18:28] [INFO] 
+============================================================
+[2025-08-28 19:18:28] [INFO] 🔄 ITERATION 1/2
+[2025-08-28 19:18:28] [INFO] ============================================================
+[2025-08-28 19:18:28] [INFO] 📝 Step 1: Generating WordPress XML...
+[2025-08-28 19:18:28] [INFO] 🔨 Generating complete WordPress XML...
+[2025-08-28 19:18:28] [INFO] 📄 Processing 3 pages...
+[2025-08-28 19:18:28] [WARNING] ⚠️ Elementor file not found for Home: elementor_structures/Home.json
+[2025-08-28 19:18:28] [WARNING] ⚠️ Elementor file not found for About: elementor_structures/About.json
+[2025-08-28 19:18:28] [WARNING] ⚠️ Elementor file not found for Contact: elementor_structures/Contact.json
+[2025-08-28 19:18:28] [INFO] 🧭 Processing navigation menus...
+[2025-08-28 19:18:28] [INFO] ✅ XML generation completed
+[2025-08-28 19:18:28] [INFO] 💾 XML saved to: generated/cholot-generated-iter-1.xml
+[2025-08-28 19:18:28] [INFO] 🔍 Validating XML structure...
+[2025-08-28 19:18:28] [INFO] ✅ XML is well-formed
+[2025-08-28 19:18:28] [WARNING] ⚠️ No Elementor data found in XML
+[2025-08-28 19:18:28] [INFO] ✅ XML validation passed
+[2025-08-28 19:18:28] [INFO] 🧪 Running import simulation tests...
+[2025-08-28 19:18:28] [INFO] ✅ XML file exists and has content (12751 bytes)
+[2025-08-28 19:18:28] [INFO] 🔍 Validating XML structure...
+[2025-08-28 19:18:28] [INFO] ✅ XML is well-formed
+[2025-08-28 19:18:28] [WARNING] ⚠️ No Elementor data found in XML
+[2025-08-28 19:18:28] [INFO] ✅ XML validation passed
+[2025-08-28 19:18:28] [WARNING] ⚠️ No Elementor data blocks found
+[2025-08-28 19:18:28] [INFO] ✅ Expected 3 pages, found 3
+[2025-08-28 19:18:28] [INFO] ✅ Import simulation passed
+[2025-08-28 19:18:28] [INFO] 🔧 Running validation script: validate-elementor.py
+[2025-08-28 19:18:28] [ERROR] ❌ validate-elementor.py validation failed: 
+[2025-08-28 19:18:28] [INFO] 🔧 Running validation script: test-import.sh
+[2025-08-28 19:18:29] [INFO] ✅ test-import.sh validation passed
+[2025-08-28 19:18:29] [INFO] 🔧 Running validation script: compare-xml.py
+[2025-08-28 19:18:30] [ERROR] ❌ compare-xml.py validation failed: 
+[2025-08-28 19:18:30] [ERROR] ❌ External validation failed (1/3)
+[2025-08-28 19:18:30] [ERROR] ❌ External validation failed
+[2025-08-28 19:18:30] [INFO] 
+🔍 Iteration failed, analyzing and fixing...
+[2025-08-28 19:18:30] [INFO] 🔍 Analyzing errors and suggesting fixes...
+[2025-08-28 19:18:30] [INFO] 🔧 Applying automatic fixes...
+[2025-08-28 19:18:30] [INFO] 🔧 Attempting to fix Elementor file mappings...
+[2025-08-28 19:18:30] [INFO] ✅ Fixed mapping for Home: page_365_Independent_living
+[2025-08-28 19:18:30] [INFO] ✅ Fixed mapping for About: elementor_library_1485_About_Page
+[2025-08-28 19:18:30] [INFO] ✅ Fixed mapping for Contact: elementor_library_1497_Contact_Page
+[2025-08-28 19:18:30] [INFO] ✅ Applied 3 automatic fixes
+[2025-08-28 19:18:30] [INFO] 🔧 Applied automatic fixes, retrying...
+[2025-08-28 19:18:31] [INFO] 
+============================================================
+[2025-08-28 19:18:31] [INFO] 🔄 ITERATION 2/2
+[2025-08-28 19:18:31] [INFO] ============================================================
+[2025-08-28 19:18:31] [INFO] 📝 Step 1: Generating WordPress XML...
+[2025-08-28 19:18:31] [INFO] 🔨 Generating complete WordPress XML...
+[2025-08-28 19:18:31] [INFO] 📄 Processing 3 pages...
+[2025-08-28 19:18:31] [WARNING] ⚠️ Elementor file not found for Home: elementor_structures/Home.json
+[2025-08-28 19:18:31] [WARNING] ⚠️ Elementor file not found for About: elementor_structures/About.json
+[2025-08-28 19:18:31] [WARNING] ⚠️ Elementor file not found for Contact: elementor_structures/Contact.json
+[2025-08-28 19:18:31] [INFO] 🧭 Processing navigation menus...
+[2025-08-28 19:18:31] [INFO] ✅ XML generation completed
+[2025-08-28 19:18:31] [INFO] 💾 XML saved to: generated/cholot-generated-iter-2.xml
+[2025-08-28 19:18:31] [INFO] 🔍 Validating XML structure...
+[2025-08-28 19:18:31] [INFO] ✅ XML is well-formed
+[2025-08-28 19:18:31] [WARNING] ⚠️ No Elementor data found in XML
+[2025-08-28 19:18:31] [INFO] ✅ XML validation passed
+[2025-08-28 19:18:31] [INFO] 🧪 Running import simulation tests...
+[2025-08-28 19:18:31] [INFO] ✅ XML file exists and has content (12751 bytes)
+[2025-08-28 19:18:31] [INFO] 🔍 Validating XML structure...
+[2025-08-28 19:18:31] [INFO] ✅ XML is well-formed
+[2025-08-28 19:18:31] [WARNING] ⚠️ No Elementor data found in XML
+[2025-08-28 19:18:31] [INFO] ✅ XML validation passed
+[2025-08-28 19:18:31] [WARNING] ⚠️ No Elementor data blocks found
+[2025-08-28 19:18:31] [INFO] ✅ Expected 3 pages, found 3
+[2025-08-28 19:18:31] [INFO] ✅ Import simulation passed
+[2025-08-28 19:18:31] [INFO] 🔧 Running validation script: validate-elementor.py
+[2025-08-28 19:18:31] [ERROR] ❌ validate-elementor.py validation failed: 
+[2025-08-28 19:18:31] [INFO] 🔧 Running validation script: test-import.sh
+[2025-08-28 19:18:31] [INFO] ✅ test-import.sh validation passed
+[2025-08-28 19:18:31] [INFO] 🔧 Running validation script: compare-xml.py
+[2025-08-28 19:18:32] [ERROR] ❌ compare-xml.py validation failed: 
+[2025-08-28 19:18:32] [ERROR] ❌ External validation failed (1/3)
+[2025-08-28 19:18:32] [ERROR] ❌ External validation failed
+[2025-08-28 19:18:32] [INFO] 
+🔍 Iteration failed, analyzing and fixing...
+[2025-08-28 19:18:32] [INFO] 🔍 Analyzing errors and suggesting fixes...
+[2025-08-28 19:18:32] [INFO] 🔧 Applying automatic fixes...
+[2025-08-28 19:18:32] [INFO] 🔧 Attempting to fix Elementor file mappings...
+[2025-08-28 19:18:32] [INFO] ✅ Fixed mapping for Home: page_365_Independent_living
+[2025-08-28 19:18:32] [INFO] ✅ Fixed mapping for About: elementor_library_1485_About_Page
+[2025-08-28 19:18:32] [INFO] ✅ Fixed mapping for Contact: elementor_library_1497_Contact_Page
+[2025-08-28 19:18:32] [INFO] ✅ Applied 3 automatic fixes
+[2025-08-28 19:18:32] [INFO] 🔧 Applied automatic fixes, retrying...
+[2025-08-28 19:18:33] [INFO] 
+❌ MAXIMUM ITERATIONS REACHED (2)
+[2025-08-28 19:18:33] [INFO] 🔍 Final error analysis:
+[2025-08-28 19:18:33] [INFO] 🔍 Analyzing errors and suggesting fixes...
+[2025-08-28 19:18:33] [INFO] 💾 Storing memory: generator/failure
+[2025-08-28 19:18:33] [INFO] 📊 Final report saved: generated/cholot-generator-report.md

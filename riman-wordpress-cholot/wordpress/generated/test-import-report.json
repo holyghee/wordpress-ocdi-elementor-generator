@@ -1,0 +1,20 @@
+{
+    "test_date": "2025-08-28T19:18:31+02:00",
+    "xml_file": "generated/cholot-generated-iter-2.xml",
+    "test_result": "PASS",
+    "file_size": 12751,
+    "statistics": {
+        "total_items": 7,
+        "pages": 3,
+        "posts": 0
+0,
+        "menu_items": 4,
+        "elementor_blocks": 0
+0
+    },
+    "validations": {
+        "xml_syntax": true,
+        "has_elementor_data": false,
+        "has_required_elements": true
+    }
+}
