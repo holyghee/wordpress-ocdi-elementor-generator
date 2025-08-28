@@ -20,7 +20,7 @@ class SectionBasedProcessor:
         """Generate unique Elementor element ID"""
         return uuid.uuid4().hex[:7]
     
-    def process_yaml_to_elementor(self, yaml_path: str) -> tuple[Dict, List]:
+    def process_yaml_to_elementor(self, yaml_path: str) -> tuple:
         """Convert YAML to classic Section/Column Elementor structure"""
         # Load YAML config
         with open(yaml_path, 'r', encoding='utf-8') as f:
