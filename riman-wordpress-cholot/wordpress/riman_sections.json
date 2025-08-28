@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "0b249c6",
+      "id": "02a465d",
       "elType": "section",
       "settings": {
         "height": "min-height",
@@ -23,14 +23,14 @@
       },
       "elements": [
         {
-          "id": "f0a8f85",
+          "id": "7f23cd0",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "9803e51",
+              "id": "5264def",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -47,7 +47,7 @@
               }
             },
             {
-              "id": "e5a840f",
+              "id": "49ffc63",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -56,7 +56,7 @@
               }
             },
             {
-              "id": "0eb4535",
+              "id": "07db3e1",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "id": "a1c2fe5",
+      "id": "c003fe9",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -99,14 +99,14 @@
       },
       "elements": [
         {
-          "id": "bc10ca7",
+          "id": "5ce0a7b",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "bae4feb",
+              "id": "9f76d6c",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -117,7 +117,7 @@
               }
             },
             {
-              "id": "9531735",
+              "id": "217d41c",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -128,14 +128,14 @@
           ]
         },
         {
-          "id": "255e810",
+          "id": "e6be560",
           "elType": "column",
           "settings": {
             "_column_size": 25
           },
           "elements": [
             {
-              "id": "d057a58",
+              "id": "52aaf30",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -159,14 +159,14 @@
           ]
         },
         {
-          "id": "acd7e60",
+          "id": "43322b0",
           "elType": "column",
           "settings": {
             "_column_size": 25
           },
           "elements": [
             {
-              "id": "6ea36a8",
+              "id": "6b36213",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -190,14 +190,14 @@
           ]
         },
         {
-          "id": "3e803fc",
+          "id": "b07e0dc",
           "elType": "column",
           "settings": {
             "_column_size": 25
           },
           "elements": [
             {
-              "id": "fee63fc",
+              "id": "234ef66",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -221,14 +221,14 @@
           ]
         },
         {
-          "id": "094cf2b",
+          "id": "29ceabf",
           "elType": "column",
           "settings": {
             "_column_size": 25
           },
           "elements": [
             {
-              "id": "cb026f5",
+              "id": "17cd3f6",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": "5c68dbb",
+      "id": "8602315",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -266,14 +266,14 @@
       },
       "elements": [
         {
-          "id": "3f2233f",
+          "id": "5ec0729",
           "elType": "column",
           "settings": {
             "_column_size": 50
           },
           "elements": [
             {
-              "id": "924fdb6",
+              "id": "01d28e1",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -283,7 +283,7 @@
               }
             },
             {
-              "id": "67800fd",
+              "id": "e099160",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -294,14 +294,14 @@
           ]
         },
         {
-          "id": "38680b6",
+          "id": "50fa6cc",
           "elType": "column",
           "settings": {
             "_column_size": 50
           },
           "elements": [
             {
-              "id": "4ae0ba1",
+              "id": "946c426",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -320,7 +320,7 @@
       ]
     },
     {
-      "id": "5e468bc",
+      "id": "fa8379f",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -332,14 +332,14 @@
       },
       "elements": [
         {
-          "id": "9e0b503",
+          "id": "328d457",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "d3539d6",
+              "id": "22ce1ff",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -352,14 +352,14 @@
           ]
         },
         {
-          "id": "c4dcad2",
+          "id": "ae4a7d7",
           "elType": "column",
           "settings": {
             "_column_size": 33.33
           },
           "elements": [
             {
-              "id": "2c4d624",
+              "id": "a2ff471",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -375,7 +375,7 @@
               }
             },
             {
-              "id": "53c616b",
+              "id": "22f58a7",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -386,7 +386,7 @@
               }
             },
             {
-              "id": "0f18005",
+              "id": "57e343a",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -397,14 +397,14 @@
           ]
         },
         {
-          "id": "cc8a931",
+          "id": "8b56b7c",
           "elType": "column",
           "settings": {
             "_column_size": 33.33
           },
           "elements": [
             {
-              "id": "5d25891",
+              "id": "e7d915f",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -420,7 +420,7 @@
               }
             },
             {
-              "id": "301507b",
+              "id": "a48e149",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -431,7 +431,7 @@
               }
             },
             {
-              "id": "71d945c",
+              "id": "250c60b",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -442,14 +442,14 @@
           ]
         },
         {
-          "id": "a914eb6",
+          "id": "c065974",
           "elType": "column",
           "settings": {
             "_column_size": 33.33
           },
           "elements": [
             {
-              "id": "81c2443",
+              "id": "ca8cfbb",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -465,7 +465,7 @@
               }
             },
             {
-              "id": "0c6c63b",
+              "id": "38c990c",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -476,7 +476,7 @@
               }
             },
             {
-              "id": "6c37204",
+              "id": "ea005c5",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "id": "1bc2880",
+      "id": "7bb4a21",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -508,14 +508,14 @@
       },
       "elements": [
         {
-          "id": "7d5ac8d",
+          "id": "9cd659c",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "6262dcd",
+              "id": "2d1eaed",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -526,7 +526,25 @@
               }
             },
             {
-              "id": "7712749",
+              "id": "5c0d84e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'>Referenzen</p>",
+                "text_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9255ae",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "0a7d3d6",
               "elType": "widget",
               "widgetType": "testimonial",
               "settings": {
@@ -536,7 +554,77 @@
                 "testimonial_image": {
                   "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
                 },
-                "testimonial_alignment": "center"
+                "testimonial_alignment": "center",
+                "testimonial_image_size": "custom",
+                "testimonial_image_custom_dimension": {
+                  "width": 80,
+                  "height": 80
+                },
+                "testimonial_name_color": "#232323",
+                "testimonial_job_color": "#666666",
+                "testimonial_content_color": "#333333"
+              }
+            }
+          ]
+        },
+        {
+          "id": "54fad8e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "85dd186",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "Schnelle und saubere Arbeit bei der Schimmelsanierung. Das Team war sehr kompetent und freundlich.",
+                "testimonial_name": "Andrea Meyer",
+                "testimonial_job": "Meyer Immobilien GmbH",
+                "testimonial_image": {
+                  "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80"
+                },
+                "testimonial_alignment": "center",
+                "testimonial_image_size": "custom",
+                "testimonial_image_custom_dimension": {
+                  "width": 80,
+                  "height": 80
+                },
+                "testimonial_name_color": "#232323",
+                "testimonial_job_color": "#666666",
+                "testimonial_content_color": "#333333"
+              }
+            }
+          ]
+        },
+        {
+          "id": "a6b2994",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "a1b604e",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "Zuverl\u00e4ssiger Partner f\u00fcr alle Sanierungsarbeiten. Klare Kommunikation und faire Preise.",
+                "testimonial_name": "Peter Schmidt",
+                "testimonial_job": "Architekturb\u00fcro Schmidt",
+                "testimonial_image": {
+                  "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+                },
+                "testimonial_alignment": "center",
+                "testimonial_image_size": "custom",
+                "testimonial_image_custom_dimension": {
+                  "width": 80,
+                  "height": 80
+                },
+                "testimonial_name_color": "#232323",
+                "testimonial_job_color": "#666666",
+                "testimonial_content_color": "#333333"
               }
             }
           ]
@@ -544,7 +632,7 @@
       ]
     },
     {
-      "id": "8d22c24",
+      "id": "bf3df53",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -556,14 +644,14 @@
       },
       "elements": [
         {
-          "id": "5941f1f",
+          "id": "869901e",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "f292c36",
+              "id": "fc37553",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -574,13 +662,13 @@
               }
             },
             {
-              "id": "fae462b",
+              "id": "3761b23",
               "elType": "widget",
               "widgetType": "icon-list",
               "settings": {
                 "icon_list": [
                   {
-                    "_id": "b8806ad",
+                    "_id": "5c4a89b",
                     "text": "Schadstoffgutachten",
                     "selected_icon": {
                       "value": "fas fa-clipboard-check",
@@ -588,7 +676,7 @@
                     }
                   },
                   {
-                    "_id": "3c33973",
+                    "_id": "19cd834",
                     "text": "R\u00fcckbau & Entsorgung",
                     "selected_icon": {
                       "value": "fas fa-truck",
@@ -596,7 +684,7 @@
                     }
                   },
                   {
-                    "_id": "390671d",
+                    "_id": "5f744a3",
                     "text": "Luftmessungen",
                     "selected_icon": {
                       "value": "fas fa-wind",
@@ -604,7 +692,7 @@
                     }
                   },
                   {
-                    "_id": "7aca706",
+                    "_id": "f279bde",
                     "text": "Beratung & Planung",
                     "selected_icon": {
                       "value": "fas fa-project-diagram",
@@ -632,7 +720,7 @@
       ]
     },
     {
-      "id": "68d1475",
+      "id": "16373ef",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -651,14 +739,14 @@
       },
       "elements": [
         {
-          "id": "09262f9",
+          "id": "8595b5c",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "d628e44",
+              "id": "f1141f2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -669,7 +757,7 @@
               }
             },
             {
-              "id": "4a427b5",
+              "id": "86dad18",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -678,7 +766,7 @@
               }
             },
             {
-              "id": "859fe53",
+              "id": "e3560e2",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -695,7 +783,7 @@
               }
             },
             {
-              "id": "4569a23",
+              "id": "b5a5f5f",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -712,7 +800,7 @@
               }
             },
             {
-              "id": "5387faa",
+              "id": "e303602",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
