@@ -1,0 +1,5 @@
+site:
+  title: "Test Site"
+pages:
+  - title: "Test Page"
+    content: "Test Content"
