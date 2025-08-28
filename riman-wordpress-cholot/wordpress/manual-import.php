@@ -9,8 +9,9 @@ define('SHORTINIT', false);
 require_once(__DIR__ . '/wp-config.php');
 require_once(ABSPATH . 'wp-admin/includes/import.php');
 
-// Load WordPress Importer
-require_once(ABSPATH . 'wp-content/plugins/wordpress-importer/wordpress-importer.php');
+// Load WordPress Importer components
+require_once(ABSPATH . 'wp-content/plugins/wordpress-importer/parsers.php');
+require_once(ABSPATH . 'wp-content/plugins/wordpress-importer/class-wp-import.php');
 
 if (!class_exists('WP_Import')) {
     die('WordPress Importer class could not be loaded.');
