@@ -546,19 +546,26 @@ class FullSiteGenerator:
 
 def main():
     """Example usage"""
+    import sys
+    import os
+    
     print("🚀 Full WordPress Site Generator")
     print("=" * 60)
     
     generator = FullSiteGenerator()
     
+    # Get YAML file from command line or use default
+    yaml_file = sys.argv[1] if len(sys.argv) > 1 else 'full-site.yaml'
+    print(f"📖 Loading configuration: {yaml_file}")
+    
     # Load configuration
-    config, rss = generator.process_yaml_to_wordpress('full_site_config.yaml')
+    config, rss = generator.process_yaml_to_wordpress(yaml_file)
     
     # Generate XML
-    output_path = generator.generate_wordpress_xml(config, rss, 'generated/full_site.xml')
+    output_name = yaml_file.replace('.yaml', '.xml').replace('.yml', '.xml')
+    output_path = generator.generate_wordpress_xml(config, rss, output_name)
     
     # Statistics
-    import os
     file_size = os.path.getsize(output_path)
     print(f"📄 XML file size: {file_size / 1024:.1f} KB")
     print(f"✅ Complete WordPress site generated: {output_path}")
