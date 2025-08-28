@@ -1,0 +1,155 @@
+# Intelligente YAML-Config für Block-Assembly
+# Diese Config definiert die STRUKTUR der Seite, nicht nur Texte
+
+site:
+  title: "Intelligente Test-Seite"
+  url: "http://localhost:8081"
+  description: "Dynamisch assembliert aus Block-Library"
+  language: "de-DE"
+
+# Globale Design-Einstellungen
+design:
+  primary_color: "#FF6B35"  # Orange statt Gold
+  secondary_color: "#004E89"
+  font_family: "Roboto"
+  spacing: "large"
+
+# Seiten-Definitionen mit Block-Struktur
+pages:
+  - id: 500
+    title: "Dynamische Homepage"
+    slug: ""  # Homepage
+    template: "elementor_canvas"
+    
+    # HIER ist die Magie: Wir definieren die STRUKTUR
+    blocks:
+      # Block 1: Hero Slider
+      - type: "hero-slider"
+        slides:
+          - title: "Willkommen zur intelligenten Seite"
+            subtitle: "Dynamisch assembliert"
+            text: "Diese Seite wurde aus Komponenten zusammengebaut"
+            button_text: "Mehr erfahren"
+            button_link: "#services"
+            image: "default.jpg"
+          
+          - title: "Zweiter Slide"
+            subtitle: "Flexibel konfigurierbar"
+            text: "Reihenfolge und Inhalte über YAML steuerbar"
+            button_text: "Kontakt"
+            button_link: "#contact"
+            image: "slide2.jpg"
+      
+      # Block 2: Service Cards (3 Spalten)
+      - type: "service-cards"
+        columns: 3
+        services:
+          - icon: "fas fa-rocket"
+            title: "Schnelle Entwicklung"
+            text: "Assembliere Seiten in Minuten statt Stunden"
+          
+          - icon: "fas fa-puzzle-piece"
+            title: "Modularer Aufbau"
+            text: "Wiederverwendbare Komponenten aus der Library"
+          
+          - icon: "fas fa-paint-brush"
+            title: "Design-Konsistenz"
+            text: "Globale Styles automatisch angewendet"
+      
+      # Block 3: Titel-Section
+      - type: "title-section"
+        content:
+          title: "Unsere Vision"
+          subtitle: "Die Zukunft des Web-Designs"
+          text: "Mit diesem System können Designer und Entwickler gemeinsam arbeiten"
+      
+      # Block 4: Team Section
+      - type: "team-section"
+        team_members:
+          - name: "Max Mustermann"
+            position: "Lead Developer"
+            bio: "Experte für modulare Systeme"
+            image: "team1.jpg"
+            social:
+              twitter: "maxmuster"
+              linkedin: "maxmustermann"
+          
+          - name: "Erika Beispiel"
+            position: "Design Lead"
+            bio: "Kreative Köpfin hinter dem Design-System"
+            image: "team2.jpg"
+            social:
+              twitter: "erikab"
+              linkedin: "erikabeispiel"
+      
+      # Block 5: Testimonials
+      - type: "testimonials"
+        items:
+          - name: "Zufriedener Kunde"
+            company: "Tech GmbH"
+            text: "Dieses System hat unsere Entwicklungszeit halbiert!"
+            rating: 5
+          
+          - name: "Begeisterte Nutzerin"
+            company: "Design Studio"
+            text: "Endlich können wir schnell iterieren ohne Code zu brechen"
+            rating: 5
+      
+      # Block 6: Contact Form
+      - type: "contact-form"
+        content:
+          title: "Kontaktieren Sie uns"
+          subtitle: "Wir helfen gerne"
+          fields:
+            - name
+            - email
+            - message
+          button_text: "Nachricht senden"
+
+  # Zweite Seite mit anderer Block-Reihenfolge
+  - id: 501
+    title: "Über uns"
+    slug: "ueber-uns"
+    template: "elementor_canvas"
+    
+    blocks:
+      # Andere Reihenfolge demonstriert Flexibilität
+      - type: "title-section"
+        content:
+          title: "Über unser System"
+          subtitle: "Innovation trifft Praxis"
+      
+      - type: "text-content"
+        content:
+          text: |
+            Dieses intelligente System wurde entwickelt, um die Lücke zwischen
+            Design und Entwicklung zu schließen. Durch die Verwendung einer
+            Block-Library und YAML-Konfiguration können Teams schneller und
+            konsistenter arbeiten.
+      
+      - type: "service-cards"
+        columns: 2
+        services:
+          - icon: "fas fa-code"
+            title: "Entwickler-freundlich"
+            text: "Versionskontrolle und CI/CD ready"
+          
+          - icon: "fas fa-palette"
+            title: "Designer-freundlich"
+            text: "Visuelle Komponenten bleiben konsistent"
+
+# Navigation
+navigation:
+  - name: "Hauptmenü"
+    items:
+      - title: "Home"
+        page_id: 500
+      - title: "Über uns"
+        page_id: 501
+      - title: "Services"
+        url: "#services"
+      - title: "Kontakt"
+        url: "#contact"
+
+# Output-Datei
+output: "intelligent-assembled.xml"
