@@ -27,14 +27,16 @@ function import_cholot_xml($xml_file, $label = 'Test') {
     if (!class_exists('WP_Import')) {
         // Lade alle benötigten Dateien
         $importer_files = [
-            WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php',
             WP_PLUGIN_DIR . '/wordpress-importer/parsers.php',
-            WP_PLUGIN_DIR . '/wordpress-importer/compat.php'
+            WP_PLUGIN_DIR . '/wordpress-importer/compat.php',
+            WP_PLUGIN_DIR . '/wordpress-importer/class-wp-import.php'
         ];
         
         foreach($importer_files as $file) {
             if (file_exists($file)) {
                 require_once $file;
+            } else {
+                echo "⚠️ Datei nicht gefunden: $file\n";
             }
         }
         
