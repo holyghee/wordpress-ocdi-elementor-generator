@@ -303,8 +303,10 @@ class FullSiteGenerator:
             
             # Post details
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
-            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            # Use a date in the past to ensure pages are published, not scheduled
+            past_date = datetime.now() - timedelta(days=7)
+            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
+            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}ping_status').text = 'closed'
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_name').text = page_config.get('slug', 'page')
@@ -434,8 +436,10 @@ class FullSiteGenerator:
             
             # Post details
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
-            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            # Use a date in the past to ensure pages are published, not scheduled
+            past_date = datetime.now() - timedelta(days=7)
+            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
+            ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}ping_status').text = 'closed'
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_name').text = str(item_id)
@@ -533,8 +537,10 @@ class FullSiteGenerator:
         
         # Post details
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        # Use a date in the past
+        past_date = datetime.now() - timedelta(days=7)
+        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
+        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}ping_status').text = 'closed'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_name').text = self._slugify(title)
@@ -567,8 +573,10 @@ class FullSiteGenerator:
         
         # Post details
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        # Use a date in the past
+        past_date = datetime.now() - timedelta(days=7)
+        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
+        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = past_date.strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}ping_status').text = 'closed'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_name').text = self._slugify(title)
