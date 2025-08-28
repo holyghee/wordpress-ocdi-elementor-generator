@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+    <title>RIMAN GmbH</title>
+    <link>https://riman-gmbh.de</link>
+    <language>de-DE</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    
+    <!-- IMAGE ATTACHMENTS -->
+    
+    <item>
+        <title><![CDATA[Hero Background RIMAN GmbH]]></title>
+        <link>https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=200</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>200</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-200.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-200.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Hero Background RIMAN GmbH]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN GmbH Logo]]></title>
+        <link>https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&w=200&h=100&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=201</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>201</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-201.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-201.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN GmbH Logo]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN Asbestsanierung Service]]></title>
+        <link>https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&w=400&h=300&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=202</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>202</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-202.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-202.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN Asbestsanierung Service]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN PCB-Sanierung Service]]></title>
+        <link>https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-4.0.3&w=400&h=300&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=203</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>203</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-203.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-203.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN PCB-Sanierung Service]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN Schimmelsanierung Service]]></title>
+        <link>https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&w=400&h=300&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=204</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>204</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-204.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-204.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN Schimmelsanierung Service]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN Team - Thomas Schmidt]]></title>
+        <link>https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=300&h=300&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=205</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>205</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-205.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-205.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN Team - Thomas Schmidt]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN Team - Maria Weber]]></title>
+        <link>https://images.unsplash.com/photo-1494790108755-2616b332c67c?ixlib=rb-4.0.3&w=300&h=300&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=206</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>206</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-206.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-206.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN Team - Maria Weber]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[RIMAN Team - Stefan Mueller]]></title>
+        <link>https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&w=300&h=300&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=207</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>207</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-207.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-207.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[RIMAN Team - Stefan Mueller]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Asbestsanierung Bürogebäude Berlin-Mitte]]></title>
+        <link>https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&w=600&h=400&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=208</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>208</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-208.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-208.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Asbestsanierung Bürogebäude Berlin-Mitte]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[PCB-Sanierung Industriehalle]]></title>
+        <link>https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&w=600&h=400&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=209</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>209</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-209.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-209.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[PCB-Sanierung Industriehalle]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Schimmelsanierung Wohnkomplex]]></title>
+        <link>https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&w=600&h=400&fit=crop&auto=format</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">?attachment_id=210</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>210</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[riman-image-210.jpg]]></wp:post_name>
+        <wp:status><![CDATA[inherit]]></wp:status>
+        <wp:post_type><![CDATA[attachment]]></wp:post_type>
+        <wp:post_mime_type>image/jpeg</wp:post_mime_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2025/08/riman-image-210.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Schimmelsanierung Wohnkomplex]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    
+    <!-- MAIN PAGE -->
+    <item>
+        <title>RIMAN GmbH - Schadstoffsanierung Berlin</title>
+        <link>https://riman-gmbh.de/</link>
+        <pubDate>Thu, 28 Aug 2025 03:53:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://riman-gmbh.de/?page_id=100</guid>
+        <description>Seit 1998 Ihr zuverlässiger Partner</description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>100</wp:post_id>
+        <wp:post_date>2025-08-28 03:53:11</wp:post_date>
+        <wp:post_name><![CDATA[home]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+            <wp:meta_value><![CDATA[builder]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+            <wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+            <wp:meta_value><![CDATA[3.17.0]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+            <wp:meta_value><![CDATA[[{"id":"hero_section","elType":"section","settings":{"layout":"full_width","min_height":{"unit":"px","size":600},"background_background":"classic","background_color":"#232323","padding":{"unit":"px","top":"100","bottom":"100"},"background_image":{"url":"https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80","id":200},"background_overlay_background":"classic","background_overlay_color":"rgba(0,0,0,0.6)"},"elements":[{"id":"hero_column","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"hero_title","elType":"widget","widgetType":"cholot-title","settings":{"title":"Professionelle Schadstoffsanierung in Berlin","align":"center","title_color":"#ffffff","desc_typography_font_size":{"unit":"px","size":48}}},{"id":"hero_subtitle","elType":"widget","widgetType":"text-editor","settings":{"editor":"<p style='color: white; text-align: center; font-size: 20px;'>Seit 1998 Ihr zuverl\u00e4ssiger Partner</p>"}}]}]},{"id":"services_section","elType":"section","settings":{"layout":"boxed","padding":{"unit":"px","top":"80","bottom":"80"}},"elements":[{"id":"service_col_0","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"service_widget_0","elType":"widget","widgetType":"cholot-texticon","settings":{"title":"Asbestsanierung","text":"<p>Sichere und zertifizierte Asbestentfernung nach TRGS 519</p>","icon":"fa fa-shield","icon_color":"#e74c3c","title_color":"#232323","text_color":"#666666","icon_size":{"size":60,"unit":"px"},"image":{"url":"https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&w=400&h=300&fit=crop&auto=format","id":202}}}]},{"id":"service_col_1","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"service_widget_1","elType":"widget","widgetType":"cholot-texticon","settings":{"title":"PCB-Sanierung","text":"<p>Fachgerechte PCB-Sanierung nach aktuellen Umweltstandards</p>","icon":"fa fa-flask","icon_color":"#3498db","title_color":"#232323","text_color":"#666666","icon_size":{"size":60,"unit":"px"},"image":{"url":"https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-4.0.3&w=400&h=300&fit=crop&auto=format","id":203}}}]},{"id":"service_col_2","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"service_widget_2","elType":"widget","widgetType":"cholot-texticon","settings":{"title":"Schimmelsanierung","text":"<p>Nachhaltige Schimmelbeseitigung und -pr\u00e4vention</p>","icon":"fa fa-home","icon_color":"#2ecc71","title_color":"#232323","text_color":"#666666","icon_size":{"size":60,"unit":"px"},"image":{"url":"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&w=400&h=300&fit=crop&auto=format","id":204}}}]}]},{"id":"team_section","elType":"section","settings":{"layout":"boxed","background_color":"#f8f9fa","padding":{"unit":"px","top":"80","bottom":"80"}},"elements":[{"id":"team_title_col","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"team_title","elType":"widget","widgetType":"heading","settings":{"title":"Unser Team","header_size":"h2","align":"center"}}]},{"id":"team_col_0","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"team_widget_0","elType":"widget","widgetType":"cholot-team","settings":{"title":"Thomas Schmidt","text":"Gesch\u00e4ftsf\u00fchrer","description":"25 Jahre Erfahrung in der Schadstoffsanierung","image":{"url":"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=300&h=300&fit=crop&auto=format","id":205}}}]},{"id":"team_col_1","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"team_widget_1","elType":"widget","widgetType":"cholot-team","settings":{"title":"Maria Weber","text":"Projektleiterin","description":"Expertin f\u00fcr komplexe Sanierungsprojekte","image":{"url":"https://images.unsplash.com/photo-1494790108755-2616b332c67c?ixlib=rb-4.0.3&w=300&h=300&fit=crop&auto=format","id":206}}}]},{"id":"team_col_2","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"team_widget_2","elType":"widget","widgetType":"cholot-team","settings":{"title":"Stefan Mueller","text":"Technischer Leiter","description":"Spezialist f\u00fcr innovative Sanierungsverfahren","image":{"url":"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&w=300&h=300&fit=crop&auto=format","id":207}}}]}]},{"id":"gallery_section","elType":"section","settings":{"layout":"boxed","padding":{"unit":"px","top":"80","bottom":"80"}},"elements":[{"id":"gallery_column","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"gallery_title","elType":"widget","widgetType":"heading","settings":{"title":"Unsere Projekte","header_size":"h2","align":"center"}},{"id":"gallery_widget","elType":"widget","widgetType":"gallery","settings":{"gallery":[{"id":208,"url":"https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&w=600&h=400&fit=crop&auto=format"},{"id":209,"url":"https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&w=600&h=400&fit=crop&auto=format"},{"id":210,"url":"https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&w=600&h=400&fit=crop&auto=format"}],"columns":3,"columns_mobile":1,"columns_tablet":2,"image_size":"medium","gap":{"size":20,"unit":"px"}}}]}]},{"id":"contact_section","elType":"section","settings":{"layout":"boxed","background_color":"#232323","padding":{"unit":"px","top":"60","bottom":"60"}},"elements":[{"id":"contact_column","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"contact_title","elType":"widget","widgetType":"heading","settings":{"title":"Kontakt","header_size":"h2","align":"center","title_color":"#ffffff"}},{"id":"contact_info","elType":"widget","widgetType":"text-editor","settings":{"editor":"<p style='color: white; text-align: center;'>\n                            \ud83d\udce7 info@riman-gmbh.de<br>\n                            \ud83d\udcde 030-12345678<br>\n                            \ud83d\udccd Musterstra\u00dfe 123, 10115 Berlin\n                            </p>"}}]}]}]]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[elementor_header_footer]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+</channel>
+</rss>
