@@ -248,7 +248,7 @@ pages:
     slug: "startseite"
     status: "publish"
     template: "elementor_canvas"
-    featured_image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     sections:
       - type: "hero_slider"
         slides:
@@ -257,19 +257,19 @@ pages:
             text: "Professionelle Asbest-, PCB- und Schimmelsanierung nach höchsten Sicherheitsstandards."
             button_text: "Kostenlose Beratung"
             button_link: "#contact"
-            image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
           - title: "Zertifizierte <span>Asbestsanierung</span>"
             subtitle: "Nach TRGS 519"
             text: "Sichere und fachgerechte Entfernung von Asbest mit modernster Ausrüstung."
             button_text: "Mehr erfahren"
             button_link: "/leistungen/asbestsanierung"
-            image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
           - title: "<span>24/7</span> Notdienst"
             subtitle: "Immer erreichbar"
             text: "Bei Schadensfällen sind wir rund um die Uhr für Sie da."
             button_text: "Notdienst anrufen"
             button_link: "tel:+493012345678"
-            image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1920&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
       
       - type: "service_cards"
         title: "Unsere Kernkompetenzen"
@@ -279,22 +279,22 @@ pages:
             subtitle: "TRGS 519 zertifiziert"
             text: "Fachgerechte Entfernung und Entsorgung von Asbest in Gebäuden aller Art."
             icon: "fas fa-shield-alt"
-            image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=800&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
           - title: "PCB-Sanierung"
             subtitle: "Umweltgerecht"
             text: "Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien."
             icon: "fas fa-biohazard"
-            image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
           - title: "Schimmelsanierung"
             subtitle: "Nachhaltig"
             text: "Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Prävention."
             icon: "fas fa-spray-can"
-            image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
           - title: "Brandschadensanierung"
             subtitle: "24/7 Notdienst"
             text: "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden."
             icon: "fas fa-fire-extinguisher"
-            image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=800&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
       
       - type: "about"
         title: "Über <span>RIMAN GmbH</span>"
@@ -307,7 +307,7 @@ pages:
           Wir sind spezialisiert auf die Sanierung von Schadstoffen und verfügen über 
           modernste Ausrüstung sowie alle erforderlichen Zertifizierungen. Von der 
           Analyse über die Durchführung bis zur Dokumentation - alles aus einer Hand.
-        image: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+        image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
         features:
           - icon: "fas fa-certificate"
             title: "Zertifiziert"
@@ -325,22 +325,22 @@ pages:
       - type: "testimonials"
         title: "Das sagen unsere <span>Kunden</span>"
         subtitle: "Über 1000 erfolgreiche Projekte"
-        background_image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+        background_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
         testimonials:
           - name: "Hausverwaltung Berlin-Mitte GmbH"
             position: "Klaus Hoffmann, Geschäftsführer"
             text: "RIMAN GmbH hat die Asbestsanierung in unserem 12-stöckigen Bürogebäude absolut professionell durchgeführt. Termintreu, sauber und mit höchster Kompetenz. Sehr empfehlenswert!"
-            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
             rating: 5
           - name: "Meyer Immobilien GmbH"
             position: "Andrea Meyer, Inhaberin"
             text: "Bei einem Wasserschaden mit Schimmelbefall war RIMAN sofort zur Stelle. Die schnelle und gründliche Sanierung hat weitere Schäden verhindert. Top Service!"
-            image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
             rating: 5
           - name: "Architekturbüro Schmidt & Partner"
             position: "Peter Schmidt, Senior Architekt"
             text: "Seit Jahren unser zuverlässiger Partner für alle Sanierungsarbeiten. Klare Kommunikation, transparente Preise und erstklassige Ausführung."
-            image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
             rating: 5
       
       - type: "contact"
@@ -367,7 +367,7 @@ pages:
     slug: "leistungen"
     status: "publish"
     parent: 0
-    featured_image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Professionelle Sanierungsdienstleistungen</h2>
       <p>Die RIMAN GmbH bietet Ihnen das komplette Spektrum professioneller Sanierungsdienstleistungen. 
@@ -392,7 +392,7 @@ pages:
     slug: "leistungen/asbestsanierung"
     status: "publish"
     parent: 200
-    featured_image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Professionelle Asbestsanierung</h2>
       <p>Als TRGS 519 zertifiziertes Unternehmen führen wir Asbestsanierungen in allen Gebäudetypen durch - 
@@ -427,7 +427,7 @@ pages:
     slug: "leistungen/pcb-sanierung"
     status: "publish"
     parent: 200
-    featured_image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Fachgerechte PCB-Sanierung</h2>
       <p>PCB (Polychlorierte Biphenyle) wurden bis 1989 in vielen Baumaterialien verwendet und 
@@ -457,7 +457,7 @@ pages:
     slug: "leistungen/schimmelsanierung"
     status: "publish"
     parent: 200
-    featured_image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Nachhaltige Schimmelsanierung</h2>
       <p>Schimmelbefall in Gebäuden ist nicht nur ein ästhetisches Problem, sondern kann zu 
@@ -488,7 +488,7 @@ pages:
     slug: "leistungen/brandschadensanierung"
     status: "publish"
     parent: 200
-    featured_image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Brandschadensanierung - Schnell und professionell</h2>
       <p>Nach einem Brand zählt jede Minute. Unser 24/7 Notdienst ist sofort für Sie da, 
@@ -517,7 +517,7 @@ pages:
   - title: "Über RIMAN GmbH"
     slug: "ueber-uns"
     status: "publish"
-    featured_image: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>RIMAN GmbH - Ihr Partner für professionelle Sanierung</h2>
       <p>Seit unserer Gründung im Jahr 2000 haben wir uns zu einem der führenden Sanierungsunternehmen 
@@ -567,20 +567,20 @@ pages:
         members:
           - name: "Michael Ritter"
             position: "Geschäftsführer & Gründer"
-            image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
             bio: "Über 25 Jahre Erfahrung in der Sanierungsbranche. Gründete RIMAN im Jahr 2000."
             social:
               linkedin: "https://linkedin.com/in/michael-ritter"
               xing: "https://xing.com/profile/michael-ritter"
           - name: "Sandra Mann"
             position: "Leiterin Projektmanagement"
-            image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
             bio: "Zertifizierte Projektmanagerin mit Fokus auf Großprojekte und Koordination."
             social:
               linkedin: "https://linkedin.com/in/sandra-mann"
           - name: "Thomas Weber"
             position: "Technischer Direktor"
-            image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
             bio: "Spezialist für Asbestsanierung und technische Planung. TRGS 519 Sachkundiger."
             social:
               linkedin: "https://linkedin.com/in/thomas-weber"
@@ -590,7 +590,7 @@ pages:
     slug: "ueber-uns/zertifizierungen"
     status: "publish"
     parent: 300
-    featured_image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Unsere Zertifizierungen</h2>
       <p>Qualität und Sicherheit stehen bei uns an erster Stelle. Alle unsere Verfahren sind 
@@ -618,7 +618,7 @@ pages:
   - title: "Referenzen"
     slug: "referenzen"
     status: "publish"
-    featured_image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     content: |
       <h2>Unsere Referenzprojekte</h2>
       <p>Mit über 1000 erfolgreich abgeschlossenen Projekten haben wir umfangreiche Erfahrung 
@@ -722,7 +722,7 @@ posts:
     author: "michael.ritter"
     status: "publish"
     sticky: true
-    featured_image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
+    featured_image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
     categories: ["sanierung", "asbestsanierung"]
     tags: ["berlin", "grossprojecte", "trgs-519"]
     excerpt: "Wir freuen uns bekannt zu geben, dass RIMAN den Zuschlag für die Asbestsanierung eines großen Bürokomplexes am Alexanderplatz erhalten hat."
