@@ -43,9 +43,9 @@ tags:
 
 # Navigation Menu - WICHTIG: term_id muss eindeutig sein
 menus:
-  - id: 100  # Höhere ID um Konflikte zu vermeiden
-    slug: hauptmenu
-    name: Hauptmenü
+  - id: 4  # Gleiche ID wie im funktionierenden Beispiel
+    slug: default-menu
+    name: Default Menu
     items:
       - title: Startseite
         url: "/"
