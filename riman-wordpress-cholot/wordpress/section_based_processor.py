@@ -410,30 +410,7 @@ class SectionBasedProcessor:
                 "background_color": "#f8f9fa",
                 "padding": {"unit": "px", "top": 60, "bottom": 60}
             },
-            "elements": [{
-                "id": self.generate_unique_id(),
-                "elType": "column",
-                "settings": {"_column_size": 100},
-                "elements": [{
-                    "id": self.generate_unique_id(),
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                        "title": config.get('title', 'What Our Clients Say'),
-                        "size": "xl",
-                        "align": "center",
-                        "title_color": "#232323"
-                    }
-                }, {
-                    "id": self.generate_unique_id(),
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                        "editor": f"<p style='text-align: center;'>{config.get('subtitle', '')}</p>",
-                        "text_color": "#666666"
-                    }
-                }]
-            }] + columns
+            "elements": columns
         }
     
     def _create_services_grid_section(self, config: Dict) -> Dict:
