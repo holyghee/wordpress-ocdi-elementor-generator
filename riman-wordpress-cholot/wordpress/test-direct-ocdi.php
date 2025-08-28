@@ -6,6 +6,13 @@
 define( 'WP_USE_THEMES', false );
 require( 'wp-load.php' );
 
+// Define WP_Importer base class if not exists
+if ( ! class_exists( 'WP_Importer' ) ) {
+    class WP_Importer {
+        public function __construct() {}
+    }
+}
+
 // Load OCDI plugin
 require_once WP_PLUGIN_DIR . '/one-click-demo-import/vendor/autoload.php';
 
