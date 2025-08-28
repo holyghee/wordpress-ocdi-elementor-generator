@@ -1,0 +1,102 @@
+# Basic Website Configuration
+# Einfache Website-Konfiguration für den Einstieg
+
+site:
+  title: "Meine Website"
+  description: "Eine einfache Website mit Elementor"
+  base_url: "https://meine-website.de"
+  language: "de-DE"
+
+company:
+  name: "Mein Unternehmen"
+  tagline: "Ihr zuverlässiger Partner"
+  logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&q=80"
+  phone: "+49 (0) 123 456789"
+  email: "info@meine-website.de"
+  address: "Musterstraße 123, 12345 Musterstadt"
+
+pages:
+  - title: "Willkommen - Meine Website"
+    slug: "startseite"
+    status: "publish"
+    template: "elementor_canvas"
+    
+    sections:
+      # Hero Section
+      - type: "hero_slider"
+        slides:
+          - title: "Willkommen bei <span>Mein Unternehmen</span>"
+            subtitle: "Ihr zuverlässiger Partner"
+            text: "Wir bieten Ihnen professionelle Dienstleistungen und kompetente Beratung."
+            button_text: "Mehr erfahren"
+            button_link: "#services"
+            image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1920&q=80"
+      
+      # Services Section
+      - type: "service_cards"
+        title: "Unsere Leistungen"
+        subtitle: "Professionell & Zuverlässig"
+        services:
+          - title: "Beratung"
+            subtitle: "Kompetent"
+            text: "Professionelle Beratung für Ihr Projekt."
+            icon: "fas fa-comments"
+            
+          - title: "Service"
+            subtitle: "Zuverlässig"
+            text: "Hochwertiger Service mit Qualitätsgarantie."
+            icon: "fas fa-tools"
+            
+          - title: "Support"
+            subtitle: "24/7"
+            text: "Rund um die Uhr für Sie da."
+            icon: "fas fa-headset"
+      
+      # About Section
+      - type: "about"
+        title: "Über <span>uns</span>"
+        subtitle: "Unser Unternehmen"
+        content: |
+          Seit vielen Jahren sind wir Ihr zuverlässiger Partner für 
+          professionelle Dienstleistungen. Mit einem erfahrenen Team 
+          garantieren wir höchste Qualität bei jedem Projekt.
+          
+          Vertrauen Sie auf unsere Expertise und lassen Sie sich 
+          von unserem Service überzeugen.
+        image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
+      
+      # Contact Section
+      - type: "contact"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Wir freuen uns auf Sie"
+        text: "Nehmen Sie unverbindlich Kontakt zu uns auf."
+        info:
+          - icon: "fas fa-phone"
+            label: "Telefon"
+            value: "+49 (0) 123 456789"
+          - icon: "fas fa-envelope"
+            label: "E-Mail"
+            value: "info@meine-website.de"
+          - icon: "fas fa-map-marker-alt"
+            label: "Adresse"
+            value: "Musterstraße 123, 12345 Musterstadt"
+        background_color: "#2c3e50"
+    
+    # Elementor-Einstellungen
+    elementor_settings:
+      primary_color: "#3498db"
+      secondary_color: "#2c3e50"
+      text_color: "#333333"
+      font_primary: "Open Sans"
+      font_secondary: "Lato"
+      container_width: 1170
+      
+    # SEO-Einstellungen
+    seo:
+      meta_title: "Meine Website - Willkommen"
+      meta_description: "Professionelle Dienstleistungen und kompetente Beratung - Ihr zuverlässiger Partner"
+      keywords:
+        - "Dienstleistung"
+        - "Beratung"
+        - "Service"
+        - "Unternehmen"
