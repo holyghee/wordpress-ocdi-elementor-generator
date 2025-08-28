@@ -99,6 +99,9 @@ class CompletePageProcessor:
         # Format and save XML
         xml_string = ET.tostring(rss, encoding='unicode')
         
+        # Debug: Check for duplicate attributes
+        print(f"XML string first 500 chars: {xml_string[:500]}")
+        
         # Pretty print
         dom = minidom.parseString(xml_string)
         pretty_xml = dom.toprettyxml(indent='    ', encoding='UTF-8')
