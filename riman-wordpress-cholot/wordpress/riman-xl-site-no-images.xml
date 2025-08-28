@@ -4,7 +4,7 @@
         <title><![CDATA[RIMAN GmbH - Sanierungsexperten]]></title>
         <link>http://localhost:8082</link>
         <description>Professionelle Sanierungsdienstleistungen seit über 20 Jahren</description>
-        <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+        <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
         <language>de-DE</language>
         <wp:wxr_version>1.2</wp:wxr_version>
         <wp:base_site_url>http://localhost:8082</wp:base_site_url>
@@ -64,15 +64,15 @@
         <item>
             <title><![CDATA[RIMAN GmbH - Ihre Sanierungsexperten]]></title>
             <link>http://localhost:8082/startseite</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?page_id=101]]></guid>
             <description/>
             <content:encoded>&lt;!-- wp:html --&gt;&lt;!-- /wp:html --&gt;</content:encoded>
             <excerpt:encoded/>
             <wp:post_id>101</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -84,7 +84,7 @@
             <wp:is_sticky>0</wp:is_sticky>
             <wp:postmeta>
                 <wp:meta_key>_elementor_data</wp:meta_key>
-                <wp:meta_value><![CDATA[[{"id":"cad002e","elType":"section","settings":{"height":"min-height","custom_height":{"unit":"vh","size":100},"background_background":"classic","background_image":{"url":""},"background_position":"center center","background_repeat":"no-repeat","background_size":"cover","background_overlay_background":"classic","background_overlay_color":"rgba(0,0,0,0.4)","content_position":"middle","align":"center"},"elements":[{"id":"72601d3","elType":"column","settings":{"_column_size":100},"elements":[{"id":"ac7c763","elType":"widget","widgetType":"heading","settings":{"title":"RIMAN GmbH - Ihre &lt;span&gt;Experten&lt;/span&gt; f\u00fcr Sanierung","size":"xxl","align":"center","typography_typography":"custom","typography_font_size":{"unit":"px","size":60},"typography_font_weight":"700","title_color":"#ffffff"}},{"id":"638fb02","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Professionelle Asbest-, PCB- und Schimmelsanierung nach h\u00f6chsten Sicherheitsstandards.&lt;/p&gt;","text_color":"#ffffff"}},{"id":"fa5c96a","elType":"widget","widgetType":"button","settings":{"text":"Kostenlose Beratung","link":{"url":"#contact"},"align":"center","size":"lg","button_background_color":"#b68c2f","border_radius":{"unit":"px","size":5}}}]}]},{"id":"a4e305d","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":80,"bottom":40},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"3aab026","elType":"column","settings":{"_column_size":100},"elements":[{"id":"0ad7bfe","elType":"widget","widgetType":"heading","settings":{"title":"Unsere Kernkompetenzen","size":"xl","align":"center","title_color":"#232323"}},{"id":"b325f31","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Zertifiziert &amp; Professionell&lt;/p&gt;","text_color":"#666666"}}]}]},{"id":"1aaa187","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":0,"bottom":80},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"0112c78","elType":"column","settings":{"_column_size":25},"elements":[{"id":"6550819","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-shield-alt","library":"fa-solid"},"title_text":"Asbestsanierung","description_text":"&lt;strong&gt;TRGS 519 zertifiziert&lt;/strong&gt;&lt;br&gt;Fachgerechte Entfernung und Entsorgung von Asbest in Geb\u00e4uden aller Art.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"c6daa5e","elType":"column","settings":{"_column_size":25},"elements":[{"id":"1b9b831","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-biohazard","library":"fa-solid"},"title_text":"PCB-Sanierung","description_text":"&lt;strong&gt;Umweltgerecht&lt;/strong&gt;&lt;br&gt;Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"cd08275","elType":"column","settings":{"_column_size":25},"elements":[{"id":"73c3fa1","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-spray-can","library":"fa-solid"},"title_text":"Schimmelsanierung","description_text":"&lt;strong&gt;Nachhaltig&lt;/strong&gt;&lt;br&gt;Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Pr\u00e4vention.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"055ae9a","elType":"column","settings":{"_column_size":25},"elements":[{"id":"703f52a","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-fire-extinguisher","library":"fa-solid"},"title_text":"Brandschadensanierung","description_text":"&lt;strong&gt;24/7 Notdienst&lt;/strong&gt;&lt;br&gt;Schnelle und professionelle Sanierung nach Brand- und Wassersch\u00e4den.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]}]},{"id":"0794911","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":80}},"elements":[{"id":"9367319","elType":"column","settings":{"_column_size":50},"elements":[{"id":"43af881","elType":"widget","widgetType":"heading","settings":{"title":"\u00dcber &lt;span&gt;RIMAN GmbH&lt;/span&gt;","size":"xl","title_color":"#232323"}},{"id":"95a21cd","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p&gt;Mit \u00fcber 20 Jahren Erfahrung sind wir Ihr zuverl\u00e4ssiger Partner f\u00fcr alle \nSanierungsarbeiten. Unser Team aus \u00fcber 50 zertifizierten Experten garantiert \nh\u00f6chste Qualit\u00e4t und Sicherheit bei jedem Projekt.\n\nWir sind spezialisiert auf die Sanierung von Schadstoffen und verf\u00fcgen \u00fcber \nmodernste Ausr\u00fcstung sowie alle erforderlichen Zertifizierungen.\n&lt;/p&gt;","text_color":"#666666"}}]},{"id":"5f82b07","elType":"column","settings":{"_column_size":50},"elements":[{"id":"92076b6","elType":"widget","widgetType":"image","settings":{"image":{"url":""},"image_size":"large","border_radius":{"unit":"px","size":8}}}]}]},{"id":"6bb705c","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":80,"bottom":20}},"elements":[{"id":"f70f4d1","elType":"column","settings":{"_column_size":100},"elements":[{"id":"8ec1509","elType":"widget","widgetType":"heading","settings":{"title":"Kostenlose Erstberatung","size":"xl","align":"center","title_color":"#ffffff"}},{"id":"220e798","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Kontaktieren Sie uns f\u00fcr eine unverbindliche Beratung zu Ihrem Sanierungsprojekt.&lt;/p&gt;","text_color":"#cccccc"}}]}]},{"id":"bcd2db4","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":20,"bottom":80}},"elements":[{"id":"8aa3fc7","elType":"column","settings":{"_column_size":100},"elements":[{"id":"8a6ec27","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-phone","library":"fa-solid"},"title_text":"24/7 Notdienst","description_text":"+49 (0) 30 123456789","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"fc5b64b","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-envelope","library":"fa-solid"},"title_text":"E-Mail","description_text":"info@riman-sanierung.de","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"2a56a1f","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-map-marker-alt","library":"fa-solid"},"title_text":"Hauptsitz","description_text":"Industriestra\u00dfe 45, 13407 Berlin","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}}]}]}]]]></wp:meta_value>
+                <wp:meta_value><![CDATA[[{"id":"5f20d66","elType":"section","settings":{"height":"min-height","custom_height":{"unit":"vh","size":100},"background_background":"classic","background_image":{"url":""},"background_position":"center center","background_repeat":"no-repeat","background_size":"cover","background_overlay_background":"classic","background_overlay_color":"rgba(0,0,0,0.4)","content_position":"middle","align":"center"},"elements":[{"id":"72a6e28","elType":"column","settings":{"_column_size":100},"elements":[{"id":"c662e53","elType":"widget","widgetType":"heading","settings":{"title":"RIMAN GmbH - Ihre &lt;span&gt;Experten&lt;/span&gt; f\u00fcr Sanierung","size":"xxl","align":"center","typography_typography":"custom","typography_font_size":{"unit":"px","size":60},"typography_font_weight":"700","title_color":"#ffffff"}},{"id":"b7e1299","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Professionelle Asbest-, PCB- und Schimmelsanierung nach h\u00f6chsten Sicherheitsstandards.&lt;/p&gt;","text_color":"#ffffff"}},{"id":"a3e6cd9","elType":"widget","widgetType":"button","settings":{"text":"Kostenlose Beratung","link":{"url":"#contact"},"align":"center","size":"lg","button_background_color":"#b68c2f","border_radius":{"unit":"px","size":5}}}]}]},{"id":"717b32b","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":80,"bottom":40},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"f121e8a","elType":"column","settings":{"_column_size":100},"elements":[{"id":"5a9e9aa","elType":"widget","widgetType":"heading","settings":{"title":"Unsere Kernkompetenzen","size":"xl","align":"center","title_color":"#232323"}},{"id":"fce3252","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Zertifiziert &amp; Professionell&lt;/p&gt;","text_color":"#666666"}}]}]},{"id":"6447bd3","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":0,"bottom":80},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"29038f8","elType":"column","settings":{"_column_size":25},"elements":[{"id":"a3c53c0","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-shield-alt","library":"fa-solid"},"title_text":"Asbestsanierung","description_text":"&lt;strong&gt;TRGS 519 zertifiziert&lt;/strong&gt;&lt;br&gt;Fachgerechte Entfernung und Entsorgung von Asbest in Geb\u00e4uden aller Art.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"2c1730e","elType":"column","settings":{"_column_size":25},"elements":[{"id":"f2dad61","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-biohazard","library":"fa-solid"},"title_text":"PCB-Sanierung","description_text":"&lt;strong&gt;Umweltgerecht&lt;/strong&gt;&lt;br&gt;Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"64367e8","elType":"column","settings":{"_column_size":25},"elements":[{"id":"8faa36c","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-spray-can","library":"fa-solid"},"title_text":"Schimmelsanierung","description_text":"&lt;strong&gt;Nachhaltig&lt;/strong&gt;&lt;br&gt;Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Pr\u00e4vention.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"4ecc916","elType":"column","settings":{"_column_size":25},"elements":[{"id":"9b6034d","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-fire-extinguisher","library":"fa-solid"},"title_text":"Brandschadensanierung","description_text":"&lt;strong&gt;24/7 Notdienst&lt;/strong&gt;&lt;br&gt;Schnelle und professionelle Sanierung nach Brand- und Wassersch\u00e4den.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]}]},{"id":"4d7b940","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":80}},"elements":[{"id":"c0049e9","elType":"column","settings":{"_column_size":50},"elements":[{"id":"f7a74fe","elType":"widget","widgetType":"heading","settings":{"title":"\u00dcber &lt;span&gt;RIMAN GmbH&lt;/span&gt;","size":"xl","title_color":"#232323"}},{"id":"9717faf","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p&gt;Mit \u00fcber 20 Jahren Erfahrung sind wir Ihr zuverl\u00e4ssiger Partner f\u00fcr alle \nSanierungsarbeiten. Unser Team aus \u00fcber 50 zertifizierten Experten garantiert \nh\u00f6chste Qualit\u00e4t und Sicherheit bei jedem Projekt.\n\nWir sind spezialisiert auf die Sanierung von Schadstoffen und verf\u00fcgen \u00fcber \nmodernste Ausr\u00fcstung sowie alle erforderlichen Zertifizierungen.\n&lt;/p&gt;","text_color":"#666666"}}]},{"id":"2d69923","elType":"column","settings":{"_column_size":50},"elements":[{"id":"d4d07be","elType":"widget","widgetType":"image","settings":{"image":{"url":""},"image_size":"large","border_radius":{"unit":"px","size":8}}}]}]},{"id":"7c15b93","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":80,"bottom":20}},"elements":[{"id":"623f3ca","elType":"column","settings":{"_column_size":100},"elements":[{"id":"1e4d975","elType":"widget","widgetType":"heading","settings":{"title":"Kostenlose Erstberatung","size":"xl","align":"center","title_color":"#ffffff"}},{"id":"cceb0e6","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Kontaktieren Sie uns f\u00fcr eine unverbindliche Beratung zu Ihrem Sanierungsprojekt.&lt;/p&gt;","text_color":"#cccccc"}}]}]},{"id":"0b78e91","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80},"background_background":"classic","background_color":"#1f1f1f","padding":{"unit":"px","top":20,"bottom":80}},"elements":[{"id":"bea7523","elType":"column","settings":{"_column_size":100},"elements":[{"id":"7878fd8","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-phone","library":"fa-solid"},"title_text":"24/7 Notdienst","description_text":"+49 (0) 30 123456789","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"e8bf9bd","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-envelope","library":"fa-solid"},"title_text":"E-Mail","description_text":"info@riman-sanierung.de","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"9fbb0ee","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-map-marker-alt","library":"fa-solid"},"title_text":"Hauptsitz","description_text":"Industriestra\u00dfe 45, 13407 Berlin","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}}]}]}]]]></wp:meta_value>
             </wp:postmeta>
             <wp:postmeta>
                 <wp:meta_key>_elementor_edit_mode</wp:meta_key>
@@ -102,7 +102,7 @@
         <item>
             <title><![CDATA[Unsere Leistungen]]></title>
             <link>http://localhost:8082/leistungen</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?page_id=102]]></guid>
             <description/>
@@ -120,8 +120,8 @@ Arten von Schadstoffsanierungen.&lt;/p&gt;
 </content:encoded>
             <excerpt:encoded/>
             <wp:post_id>102</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[leistungen]]></wp:post_name>
@@ -135,7 +135,7 @@ Arten von Schadstoffsanierungen.&lt;/p&gt;
         <item>
             <title><![CDATA[Asbestsanierung nach TRGS 519]]></title>
             <link>http://localhost:8082/leistungen/asbestsanierung</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?page_id=103]]></guid>
             <description/>
@@ -160,8 +160,8 @@ Arten von Schadstoffsanierungen.&lt;/p&gt;
 </content:encoded>
             <excerpt:encoded/>
             <wp:post_id>103</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[leistungen/asbestsanierung]]></wp:post_name>
@@ -175,7 +175,7 @@ Arten von Schadstoffsanierungen.&lt;/p&gt;
         <item>
             <title><![CDATA[PCB-Sanierung]]></title>
             <link>http://localhost:8082/leistungen/pcb-sanierung</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?page_id=104]]></guid>
             <description/>
@@ -190,8 +190,8 @@ Arten von Schadstoffsanierungen.&lt;/p&gt;
 </content:encoded>
             <excerpt:encoded/>
             <wp:post_id>104</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[leistungen/pcb-sanierung]]></wp:post_name>
@@ -205,7 +205,7 @@ Arten von Schadstoffsanierungen.&lt;/p&gt;
         <item>
             <title><![CDATA[Über RIMAN GmbH]]></title>
             <link>http://localhost:8082/ueber-uns</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?page_id=105]]></guid>
             <description/>
@@ -222,8 +222,8 @@ in Berlin und Brandenburg entwickelt.&lt;/p&gt;
 </content:encoded>
             <excerpt:encoded/>
             <wp:post_id>105</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[ueber-uns]]></wp:post_name>
@@ -237,7 +237,7 @@ in Berlin und Brandenburg entwickelt.&lt;/p&gt;
         <item>
             <title><![CDATA[Kontakt]]></title>
             <link>http://localhost:8082/kontakt</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?page_id=106]]></guid>
             <description/>
@@ -257,8 +257,8 @@ Industriestraße 45&lt;br&gt;
 </content:encoded>
             <excerpt:encoded/>
             <wp:post_id>106</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[kontakt]]></wp:post_name>
@@ -272,7 +272,7 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[RIMAN erhält Großauftrag für Asbestsanierung]]></title>
             <link>http://localhost:8082/grossauftrag-asbestsanierung</link>
-            <pubDate>Tue, 29 Jul 2025 14:29:21 +0000</pubDate>
+            <pubDate>Tue, 29 Jul 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?p=107]]></guid>
             <description/>
@@ -286,8 +286,8 @@ Industriestraße 45&lt;br&gt;
 </content:encoded>
             <excerpt:encoded>Wir freuen uns über den Zuschlag für ein Großprojekt.</excerpt:encoded>
             <wp:post_id>107</wp:post_id>
-            <wp:post_date>2025-07-29 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-07-29 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2025-07-29 15:10:04</wp:post_date>
+            <wp:post_date_gmt>2025-07-29 15:10:04</wp:post_date_gmt>
             <wp:comment_status>open</wp:comment_status>
             <wp:ping_status>open</wp:ping_status>
             <wp:post_name><![CDATA[grossauftrag-asbestsanierung]]></wp:post_name>
@@ -305,7 +305,7 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[Schimmel in der Wohnung - Erste Hilfe]]></title>
             <link>http://localhost:8082/schimmel-erste-hilfe</link>
-            <pubDate>Fri, 01 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Fri, 01 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost:8082/?p=108]]></guid>
             <description/>
@@ -320,8 +320,8 @@ Industriestraße 45&lt;br&gt;
 </content:encoded>
             <excerpt:encoded>Was tun bei Schimmelbefall? Unsere Tipps.</excerpt:encoded>
             <wp:post_id>108</wp:post_id>
-            <wp:post_date>2025-08-01 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-01 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2025-08-01 15:10:04</wp:post_date>
+            <wp:post_date_gmt>2025-08-01 15:10:04</wp:post_date_gmt>
             <wp:comment_status>open</wp:comment_status>
             <wp:ping_status>open</wp:ping_status>
             <wp:post_name><![CDATA[schimmel-erste-hilfe]]></wp:post_name>
@@ -337,15 +337,15 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[Startseite]]></title>
             <link>/</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=109]]></guid>
             <description/>
             <content:encoded/>
             <excerpt:encoded/>
             <wp:post_id>109</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[109]]></wp:post_name>
@@ -392,15 +392,15 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[Leistungen]]></title>
             <link>/leistungen</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=110]]></guid>
             <description/>
             <content:encoded/>
             <excerpt:encoded/>
             <wp:post_id>110</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[110]]></wp:post_name>
@@ -447,15 +447,15 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[Asbestsanierung]]></title>
             <link>/leistungen/asbestsanierung</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=111]]></guid>
             <description/>
             <content:encoded/>
             <excerpt:encoded/>
             <wp:post_id>111</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[111]]></wp:post_name>
@@ -502,15 +502,15 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[PCB-Sanierung]]></title>
             <link>/leistungen/pcb-sanierung</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=112]]></guid>
             <description/>
             <content:encoded/>
             <excerpt:encoded/>
             <wp:post_id>112</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[112]]></wp:post_name>
@@ -557,15 +557,15 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[Über uns]]></title>
             <link>/ueber-uns</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=113]]></guid>
             <description/>
             <content:encoded/>
             <excerpt:encoded/>
             <wp:post_id>113</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[113]]></wp:post_name>
@@ -612,15 +612,15 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[Kontakt]]></title>
             <link>/kontakt</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=114]]></guid>
             <description/>
             <content:encoded/>
             <excerpt:encoded/>
             <wp:post_id>114</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[114]]></wp:post_name>
@@ -667,20 +667,20 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[RIMAN Header]]></title>
             <link>#</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=115]]></guid>
             <description/>
             <content:encoded>&lt;header&gt;
-  &lt;div class="emergency-bar"&gt;
-    &lt;span&gt;24/7 Notdienst: &lt;a href="tel:+493012345678"&gt;+49 30 123 456 78&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;emergency-bar&quot;&gt;
+    &lt;span&gt;24/7 Notdienst: &lt;a href=&quot;tel:+493012345678&quot;&gt;+49 30 123 456 78&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/header&gt;
 </content:encoded>
             <excerpt:encoded/>
             <wp:post_id>115</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[riman-header]]></wp:post_name>
@@ -694,7 +694,7 @@ Industriestraße 45&lt;br&gt;
         <item>
             <title><![CDATA[RIMAN Footer]]></title>
             <link>#</link>
-            <pubDate>Thu, 28 Aug 2025 14:29:21 +0000</pubDate>
+            <pubDate>Thu, 28 Aug 2025 15:10:04 +0000</pubDate>
             <dc:creator><![CDATA[admin]]></dc:creator>
             <guid isPermaLink="false"><![CDATA[http://localhost/?p=116]]></guid>
             <description/>
@@ -704,8 +704,8 @@ Industriestraße 45&lt;br&gt;
 &lt;/footer&gt;</content:encoded>
             <excerpt:encoded/>
             <wp:post_id>116</wp:post_id>
-            <wp:post_date>2025-08-28 14:29:21</wp:post_date>
-            <wp:post_date_gmt>2025-08-28 14:29:21</wp:post_date_gmt>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
             <wp:comment_status>closed</wp:comment_status>
             <wp:ping_status>closed</wp:ping_status>
             <wp:post_name><![CDATA[riman-footer]]></wp:post_name>
