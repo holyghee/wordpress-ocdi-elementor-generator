@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:wp="http://wordpress.org/export/1.2/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+    <channel>
+        <title><![CDATA[Website]]></title>
+        <link>http://localhost</link>
+        <description/>
+        <pubDate>Thu, 28 Aug 2025 15:55:44 +0000</pubDate>
+        <language>en-US</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>http://localhost</wp:base_site_url>
+        <wp:base_blog_url>http://localhost</wp:base_blog_url>
+        <generator>https://wordpress.org/?v=6.3</generator>
+        <wp:author>
+            <wp:author_id>1</wp:author_id>
+            <wp:author_login>admin</wp:author_login>
+            <wp:author_email>admin@example.com</wp:author_email>
+            <wp:author_display_name>Administrator</wp:author_display_name>
+        </wp:author>
+        <wp:category>
+            <wp:term_id>1</wp:term_id>
+            <wp:category_nicename>uncategorized</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Uncategorized</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>2</wp:term_id>
+            <wp:category_nicename>news</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>News</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>3</wp:term_id>
+            <wp:category_nicename>updates</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Updates</wp:cat_name>
+        </wp:category>
+        <wp:term>
+            <wp:term_id>10</wp:term_id>
+            <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+            <wp:term_slug><![CDATA[main-menu]]></wp:term_slug>
+            <wp:term_name><![CDATA[Main Menu]]></wp:term_name>
+        </wp:term>
+    </channel>
+</rss>
