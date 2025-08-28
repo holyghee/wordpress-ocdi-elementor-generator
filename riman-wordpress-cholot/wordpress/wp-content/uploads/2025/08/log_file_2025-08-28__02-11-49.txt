@@ -13,7 +13,7 @@ The import files were successfully uploaded!
 Initial max execution time = 300
 Files info:
 Site URL = http://localhost:8081
-Data file = /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/wp-content/uploads/2025/08/riman_fixed.xml
+Data file = /Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/wp-content/uploads/2025/08/riman_sections.xml
 Widget file = not defined!
 Customizer file = not defined!
 Redux files:

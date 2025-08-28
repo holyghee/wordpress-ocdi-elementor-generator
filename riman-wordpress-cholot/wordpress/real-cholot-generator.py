@@ -25,7 +25,7 @@ class RealCholotGenerator:
     
     def create_cholot_texticon(self, service):
         """
-        Erstellt cholot-texticon Widget (aus Original-Template)
+        Erstellt cholot-texticon Widget (exakt wie Original-Template)
         """
         return {
             "id": f"texticon_{service['title'].lower().replace(' ', '_')}",
@@ -35,18 +35,33 @@ class RealCholotGenerator:
                 "title": service.get('title', 'Service Title'),
                 "text": f"<p>{service.get('description', 'Service description')}</p>",
                 "icon": f"fa {service.get('icon', 'fa-check')}",
-                "icon_color": service.get('color', '#ff6b6b'),
+                "icon_style": "left",
+                "subtitle": service.get('subtitle', ''),
+                "icon_color": "#ffffff",
+                "iconbg_color": service.get('color', '#b68c2f'),
                 "title_color": "#232323",
                 "text_color": "#666666",
-                "icon_size": {"size": 50, "unit": "px"},
+                "icon_size": {"unit": "px", "size": 50},
+                "icon_bg_size": {"unit": "px", "size": 72, "sizes": []},
                 "title_typography_typography": "custom",
                 "title_typography_font_size": {"unit": "px", "size": 24},
                 "title_typography_font_weight": "600",
-                "text_typography_typography": "custom",
+                "text_typography_typography": "custom", 
                 "text_typography_font_size": {"unit": "px", "size": 16},
                 "text_typography_line_height": {"unit": "em", "size": 1.6},
                 "content_alignment": "center",
-                "icon_position": "top"
+                "icon_position": "top",
+                "icon_bordering_border": "solid",
+                "icon_bordering_color": "#fafafa",
+                "icon_bordering_width": {"unit": "px", "top": 7, "right": 7, "bottom": 7, "left": 7, "isLinked": True},
+                "icon_margin": {"unit": "px", "top": -27, "right": 0, "bottom": 0, "left": 0, "isLinked": False},
+                "icon_lheight": {"unit": "px", "size": 58, "sizes": []},
+                "title_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 15, "left": 0, "isLinked": False},
+                "text_margin": {"unit": "px", "top": 15, "right": 0, "bottom": -30, "left": 0, "isLinked": False},
+                "_padding": {"unit": "px", "top": 30, "right": 30, "bottom": 30, "left": 30, "isLinked": True},
+                "_border_width": {"unit": "px", "top": 0, "right": 1, "bottom": 1, "left": 1, "isLinked": False},
+                "_border_color": service.get('color', '#b68c2f'),
+                "_border_border": "dashed"
             }
         }
     
