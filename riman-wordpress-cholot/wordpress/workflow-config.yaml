@@ -1,0 +1,52 @@
+# Einfache Konfiguration für RIMAN GmbH
+# Nur die wichtigsten Felder ausfüllen!
+
+company:
+  name: "RIMAN GmbH"
+  industry: "Schadstoffsanierung"
+  tagline: "Professionelle Sanierung seit 1998"
+  
+hero_title: "Professionelle Schadstoffsanierung in Berlin"
+
+services:
+  - title: "Asbestsanierung"
+    description: "Sichere und zertifizierte Asbestentfernung nach TRGS 519"
+    icon: "shield"
+  
+  - title: "PCB-Sanierung"
+    description: "Fachgerechte PCB-Sanierung nach aktuellen Umweltstandards"
+    icon: "flask"
+  
+  - title: "Schimmelsanierung"
+    description: "Nachhaltige Schimmelbeseitigung und -prävention"
+    icon: "home"
+  
+  - title: "KMF-Sanierung"
+    description: "Professionelle Entfernung künstlicher Mineralfasern"
+    icon: "filter"
+  
+  - title: "PAK-Sanierung"
+    description: "Sichere Sanierung teerhaltiger Materialien"
+    icon: "drop"
+  
+  - title: "Schadstoffanalyse"
+    description: "Umfassende Analyse und Bewertung von Schadstoffen"
+    icon: "search"
+
+team:
+  - name: "Thomas Schmidt"
+    position: "Geschäftsführer"
+    bio: "25 Jahre Erfahrung in der Schadstoffsanierung"
+  
+  - name: "Maria Weber"
+    position: "Projektleiterin"
+    bio: "Expertin für komplexe Sanierungsprojekte"
+  
+  - name: "Stefan Mueller"
+    position: "Technischer Leiter"
+    bio: "Spezialist für innovative Sanierungsverfahren"
+
+contact:
+  email: "info@riman-gmbh.de"
+  phone: "030-12345678"
+  address: "Musterstraße 123, 10115 Berlin"
