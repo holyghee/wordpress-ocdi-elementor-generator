@@ -457,12 +457,32 @@ class FullSiteGenerator:
             else:
                 parent_id = 0
             
+            # Determine object_id based on menu item type
+            object_id = 0
+            if menu_item.get('type') == 'post_type' and menu_item.get('object') == 'page':
+                # For pages, find the actual page ID by matching URL
+                url = menu_item.get('url', '')
+                if url == '/leistungen':
+                    object_id = 102  # ID of "Unsere Leistungen" page
+                elif url == '/leistungen/asbestsanierung':
+                    object_id = 103  # ID of "Asbestsanierung" page
+                elif url == '/leistungen/pcb-sanierung':
+                    object_id = 104  # ID of "PCB-Sanierung" page
+                elif url == '/ueber-uns':
+                    object_id = 105  # ID of "Über uns" page
+                elif url == '/kontakt':
+                    object_id = 106  # ID of "Kontakt" page
+                else:
+                    object_id = item_id
+            else:
+                object_id = item_id  # For custom links, use the menu item ID
+            
             # Menu item meta
             meta_items = [
                 ('_menu_item_type', menu_item.get('type', 'custom')),
                 ('_menu_item_menu_item_parent', str(parent_id)),
                 ('_menu_item_object', menu_item.get('object', 'custom')),
-                ('_menu_item_object_id', str(menu_item.get('object_id', item_id))),
+                ('_menu_item_object_id', str(object_id)),
                 ('_menu_item_target', menu_item.get('target', '')),
                 ('_menu_item_classes', ' '.join(menu_item.get('classes', []))),
                 ('_menu_item_xfn', ''),
