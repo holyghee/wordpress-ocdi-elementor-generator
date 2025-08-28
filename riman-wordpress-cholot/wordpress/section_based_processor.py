@@ -134,15 +134,51 @@ class SectionBasedProcessor:
             }]
         }
     
-    def _create_services_section(self, config: Dict) -> Dict:
-        """Create services section with 4 columns"""
+    def _create_services_section(self, config: Dict) -> List[Dict]:
+        """Create services section - returns TWO sections: title section + services section"""
         services = config.get('services', [])
         if not services:
-            return None
+            return []
         
-        # Create columns for services
-        columns = []
-        for i, service in enumerate(services[:4]):  # Max 4 services
+        # Section 1: Title and subtitle (separate section)
+        title_section = {
+            "id": self.generate_unique_id(),
+            "elType": "section",
+            "settings": {
+                "layout": "boxed",
+                "content_width": {"unit": "px", "size": 1140},
+                "margin": {"unit": "px", "top": 80, "bottom": 40},
+                "padding": {"unit": "px", "top": 0, "bottom": 0}
+            },
+            "elements": [{
+                "id": self.generate_unique_id(),
+                "elType": "column",
+                "settings": {"_column_size": 100},
+                "elements": [{
+                    "id": self.generate_unique_id(),
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": config.get('title', 'Our Services'),
+                        "size": "xl",
+                        "align": "center",
+                        "title_color": "#232323"
+                    }
+                }, {
+                    "id": self.generate_unique_id(),
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": f"<p style='text-align: center;'>{config.get('subtitle', '')}</p>",
+                        "text_color": "#666666"
+                    }
+                }]
+            }]
+        }
+        
+        # Section 2: Service cards (separate section) 
+        service_columns = []
+        for service in services[:4]:  # Max 4 services
             column = {
                 "id": self.generate_unique_id(),
                 "elType": "column",
@@ -170,42 +206,22 @@ class SectionBasedProcessor:
                     }
                 }]
             }
-            columns.append(column)
+            service_columns.append(column)
         
-        return {
+        services_section = {
             "id": self.generate_unique_id(),
             "elType": "section",
             "settings": {
                 "layout": "boxed",
                 "content_width": {"unit": "px", "size": 1140},
-                "margin": {"unit": "px", "top": 80, "bottom": 80},
+                "margin": {"unit": "px", "top": 0, "bottom": 80},
                 "padding": {"unit": "px", "top": 0, "bottom": 0}
             },
-            "elements": [{
-                "id": self.generate_unique_id(),
-                "elType": "column",
-                "settings": {"_column_size": 100},
-                "elements": [{
-                    "id": self.generate_unique_id(),
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                        "title": config.get('title', 'Our Services'),
-                        "size": "xl",
-                        "align": "center",
-                        "title_color": "#232323"
-                    }
-                }, {
-                    "id": self.generate_unique_id(),
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                        "editor": f"<p style='text-align: center;'>{config.get('subtitle', '')}</p>",
-                        "text_color": "#666666"
-                    }
-                }]
-            }] + columns
+            "elements": service_columns
         }
+        
+        # Return both sections as a list
+        return [title_section, services_section]
     
     def _create_team_section(self, config: Dict) -> Dict:
         """Create team section"""
