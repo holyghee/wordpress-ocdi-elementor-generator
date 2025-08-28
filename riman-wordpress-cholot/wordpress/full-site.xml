@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:wp="http://wordpress.org/export/1.2/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+    <channel>
+        <title><![CDATA[Corporate Website]]></title>
+        <link>https://corporate-site.com</link>
+        <description>Professional Business Website with Blog</description>
+        <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+        <language>de-DE</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>https://corporate-site.com</wp:base_site_url>
+        <wp:base_blog_url>https://corporate-site.com</wp:base_blog_url>
+        <generator>https://wordpress.org/?v=6.3</generator>
+        <wp:author>
+            <wp:author_id>1</wp:author_id>
+            <wp:author_login>admin</wp:author_login>
+            <wp:author_email>admin@corporate-site.com</wp:author_email>
+            <wp:author_display_name>Administrator</wp:author_display_name>
+        </wp:author>
+        <wp:author>
+            <wp:author_id>2</wp:author_id>
+            <wp:author_login>editor</wp:author_login>
+            <wp:author_email>editor@corporate-site.com</wp:author_email>
+            <wp:author_display_name>Content Editor</wp:author_display_name>
+        </wp:author>
+        <wp:category>
+            <wp:term_id>1</wp:term_id>
+            <wp:category_nicename>uncategorized</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Uncategorized</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>2</wp:term_id>
+            <wp:category_nicename>news</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>News</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>3</wp:term_id>
+            <wp:category_nicename>updates</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Company Updates</wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:term_id>4</wp:term_id>
+            <wp:category_nicename>insights</wp:category_nicename>
+            <wp:category_parent/>
+            <wp:cat_name>Industry Insights</wp:cat_name>
+        </wp:category>
+        <wp:tag>
+            <wp:term_id>10</wp:term_id>
+            <wp:tag_slug>innovation</wp:tag_slug>
+            <wp:tag_name>Innovation</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>11</wp:term_id>
+            <wp:tag_slug>technology</wp:tag_slug>
+            <wp:tag_name>Technology</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>12</wp:term_id>
+            <wp:tag_slug>business</wp:tag_slug>
+            <wp:tag_name>Business</wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:term_id>13</wp:term_id>
+            <wp:tag_slug>team</wp:tag_slug>
+            <wp:tag_name>Team</wp:tag_name>
+        </wp:tag>
+        <wp:term>
+            <wp:term_id>20</wp:term_id>
+            <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+            <wp:term_slug><![CDATA[main-menu]]></wp:term_slug>
+            <wp:term_name><![CDATA[Main Menu]]></wp:term_name>
+        </wp:term>
+        <item>
+            <title><![CDATA[Office Hero Image]]></title>
+            <link>http://localhost/?attachment=office-hero-image</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/wp-content/uploads/2024/1497366216548-37526070297c.jpg]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>101</wp:post_id>
+            <wp:post_date>2025-08-28 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[office-hero-image]]></wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value><![CDATA[2024/1497366216548-37526070297c.jpg]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+                <wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:35:"2024/1497366216548-37526070297c.jpg";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Team Meeting]]></title>
+            <link>http://localhost/?attachment=team-meeting</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/wp-content/uploads/2024/1556761175-4b46a572b786.jpg]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>102</wp:post_id>
+            <wp:post_date>2025-08-28 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[team-meeting]]></wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value><![CDATA[2024/1556761175-4b46a572b786.jpg]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+                <wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:32:"2024/1556761175-4b46a572b786.jpg";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Collaboration]]></title>
+            <link>http://localhost/?attachment=collaboration</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/wp-content/uploads/2024/1522071820081-009f0129c71c.jpg]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>103</wp:post_id>
+            <wp:post_date>2025-08-28 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-08-28 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[collaboration]]></wp:post_name>
+            <wp:status>inherit</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>attachment</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:attachment_url>https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&amp;q=80</wp:attachment_url>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attached_file</wp:meta_key>
+                <wp:meta_value><![CDATA[2024/1522071820081-009f0129c71c.jpg]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+                <wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:35:"2024/1522071820081-009f0129c71c.jpg";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to Our Company]]></title>
+            <link>https://corporate-site.com/home</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=104]]></guid>
+            <description/>
+            <content:encoded>&lt;!-- wp:html --&gt;&lt;!-- /wp:html --&gt;</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>104</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[home]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_data</wp:meta_key>
+                <wp:meta_value><![CDATA[[{"id":"8d037b1","elType":"section","settings":{"height":"min-height","custom_height":{"unit":"vh","size":100},"background_background":"classic","background_image":{"url":"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&amp;q=80"},"background_position":"center center","background_repeat":"no-repeat","background_size":"cover","background_overlay_background":"classic","background_overlay_color":"rgba(0,0,0,0.4)","content_position":"middle","align":"center"},"elements":[{"id":"4ae6f85","elType":"column","settings":{"_column_size":100},"elements":[{"id":"9c8efcf","elType":"widget","widgetType":"heading","settings":{"title":"Welcome to &lt;span&gt;Corporate&lt;/span&gt; Excellence","size":"xxl","align":"center","typography_typography":"custom","typography_font_size":{"unit":"px","size":60},"typography_font_weight":"700","title_color":"#ffffff"}},{"id":"7ce37f0","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;We deliver cutting-edge solutions for modern businesses.&lt;/p&gt;","text_color":"#ffffff"}},{"id":"37a76ee","elType":"widget","widgetType":"button","settings":{"text":"Get Started","link":{"url":"#services"},"align":"center","size":"lg","button_background_color":"#b68c2f","border_radius":{"unit":"px","size":5}}}]}]},{"id":"7b05a59","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":80,"bottom":40},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"8ec1b83","elType":"column","settings":{"_column_size":100},"elements":[{"id":"91dc4ca","elType":"widget","widgetType":"heading","settings":{"title":"Our Services","size":"xl","align":"center","title_color":"#232323"}},{"id":"7a844b8","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;What We Offer&lt;/p&gt;","text_color":"#666666"}}]}]},{"id":"7529bd8","elType":"section","settings":{"layout":"boxed","content_width":{"unit":"px","size":1140},"margin":{"unit":"px","top":0,"bottom":80},"padding":{"unit":"px","top":0,"bottom":0}},"elements":[{"id":"67a2157","elType":"column","settings":{"_column_size":25},"elements":[{"id":"152a36e","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-code","library":"fa-solid"},"title_text":"Web Development","description_text":"&lt;strong&gt;Modern Solutions&lt;/strong&gt;&lt;br&gt;Custom web applications built with latest technologies.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"b192c11","elType":"column","settings":{"_column_size":25},"elements":[{"id":"4204062","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-chart-line","library":"fa-solid"},"title_text":"Consulting","description_text":"&lt;strong&gt;Expert Advice&lt;/strong&gt;&lt;br&gt;Strategic business consulting for growth.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"d8125b6","elType":"column","settings":{"_column_size":25},"elements":[{"id":"e3a0c50","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-bullhorn","library":"fa-solid"},"title_text":"Digital Marketing","description_text":"&lt;strong&gt;Online Presence&lt;/strong&gt;&lt;br&gt;Comprehensive digital marketing strategies.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]},{"id":"a042ea9","elType":"column","settings":{"_column_size":25},"elements":[{"id":"d959f97","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-headset","library":"fa-solid"},"title_text":"Support","description_text":"&lt;strong&gt;24/7 Available&lt;/strong&gt;&lt;br&gt;Round-the-clock technical support.","title_size":"medium","position":"top","icon_primary_color":"#b68c2f","title_color":"#232323","description_color":"#666666","content_vertical_alignment":"top","link":{"url":""}}}]}]}]]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_edit_mode</wp:meta_key>
+                <wp:meta_value><![CDATA[builder]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_template_type</wp:meta_key>
+                <wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[elementor_canvas]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value><![CDATA[101]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[About Us]]></title>
+            <link>https://corporate-site.com/about</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=105]]></guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Our Story&lt;/h2&gt;
+&lt;p&gt;Founded in 2000, we have been at the forefront of digital innovation for over two decades. Our team of experts is dedicated to delivering exceptional results for our clients.&lt;/p&gt;
+&lt;h3&gt;Our Mission&lt;/h3&gt;
+&lt;p&gt;To empower businesses through innovative technology solutions and strategic consulting, helping them thrive in the digital age.&lt;/p&gt;
+&lt;h3&gt;Our Values&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Innovation - We embrace new technologies and creative solutions&lt;/li&gt;
+  &lt;li&gt;Quality - We deliver excellence in everything we do&lt;/li&gt;
+  &lt;li&gt;Integrity - We conduct business with honesty and transparency&lt;/li&gt;
+  &lt;li&gt;Partnership - We build lasting relationships with our clients&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>105</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[about]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value><![CDATA[102]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Services]]></title>
+            <link>https://corporate-site.com/services</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=106]]></guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Our Professional Services&lt;/h2&gt;
+&lt;p&gt;We offer a comprehensive range of services to help your business succeed in the digital landscape.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>106</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[services]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title><![CDATA[Web Development]]></title>
+            <link>https://corporate-site.com/services/web-development</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=107]]></guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Custom Web Development&lt;/h2&gt;
+&lt;p&gt;We create powerful, scalable web applications tailored to your business needs.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Frontend Development (React, Vue, Angular)&lt;/li&gt;
+  &lt;li&gt;Backend Development (Node.js, Python, PHP)&lt;/li&gt;
+  &lt;li&gt;E-commerce Solutions&lt;/li&gt;
+  &lt;li&gt;API Development and Integration&lt;/li&gt;
+  &lt;li&gt;Progressive Web Apps&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>107</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[services/web-development]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>102</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title><![CDATA[Consulting]]></title>
+            <link>https://corporate-site.com/services/consulting</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=108]]></guid>
+            <description/>
+            <content:encoded>&lt;h2&gt;Strategic Business Consulting&lt;/h2&gt;
+&lt;p&gt;Our expert consultants help you navigate digital transformation and achieve your business goals.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>108</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[services/consulting]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>102</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <link>https://corporate-site.com/blog</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=109]]></guid>
+            <description/>
+            <content:encoded>&lt;!-- Blog posts will be displayed here --&gt;</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>109</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[blog]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title><![CDATA[Contact Us]]></title>
+            <link>https://corporate-site.com/contact</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?page_id=110]]></guid>
+            <description/>
+            <content:encoded>&lt;!-- wp:html --&gt;&lt;!-- /wp:html --&gt;</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>110</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[contact]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_data</wp:meta_key>
+                <wp:meta_value><![CDATA[[{"id":"7161fcb","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":80,"bottom":40},"background_background":"classic","background_color":"#2c3e50","padding":{"unit":"px","top":80,"bottom":20}},"elements":[{"id":"c0529a8","elType":"column","settings":{"_column_size":100},"elements":[{"id":"e559a76","elType":"widget","widgetType":"heading","settings":{"title":"Get in Touch","size":"xl","align":"center","title_color":"#ffffff"}},{"id":"ce58446","elType":"widget","widgetType":"text-editor","settings":{"editor":"&lt;p style='text-align: center;'&gt;Have a project in mind? Let's discuss how we can help your business grow.&lt;/p&gt;","text_color":"#cccccc"}}]}]},{"id":"892bfed","elType":"section","settings":{"layout":"boxed","margin":{"unit":"px","top":0,"bottom":80},"background_background":"classic","background_color":"#2c3e50","padding":{"unit":"px","top":20,"bottom":80}},"elements":[{"id":"ac7b5f9","elType":"column","settings":{"_column_size":100},"elements":[{"id":"54e1f41","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-phone","library":"fa-solid"},"title_text":"Phone","description_text":"+49 (0) 30 123456789","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"a7a7059","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-envelope","library":"fa-solid"},"title_text":"Email","description_text":"info@corporate-site.com","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}},{"id":"9e3610f","elType":"widget","widgetType":"icon-box","settings":{"selected_icon":{"value":"fas fa-map-marker-alt","library":"fa-solid"},"title_text":"Address","description_text":"Friedrichstra\u00dfe 123, 10117 Berlin","position":"left","icon_primary_color":"#b68c2f","title_color":"#ffffff","description_color":"#cccccc"}}]}]}]]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_edit_mode</wp:meta_key>
+                <wp:meta_value><![CDATA[builder]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_elementor_template_type</wp:meta_key>
+                <wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[elementor_canvas]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Our New AI-Powered Platform]]></title>
+            <link>https://corporate-site.com/new-ai-platform-announcement</link>
+            <pubDate>Tue, 29 Jul 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?p=111]]></guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Today marks a significant milestone in our company's journey as we unveil our latest innovation - an AI-powered platform designed to revolutionize business operations.&lt;/p&gt;
+&lt;h3&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Intelligent automation of routine tasks&lt;/li&gt;
+  &lt;li&gt;Predictive analytics for better decision-making&lt;/li&gt;
+  &lt;li&gt;Natural language processing for improved customer interactions&lt;/li&gt;
+  &lt;li&gt;Machine learning algorithms that adapt to your business needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This platform represents months of research and development by our dedicated team of engineers and data scientists. We believe it will fundamentally change how our clients approach their digital strategy.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;"This is not just another product launch - it's a paradigm shift in how we think about business intelligence and automation." - CEO&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Stay tuned for more updates as we roll out this exciting new platform to our clients.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>We're excited to introduce our revolutionary AI-powered platform that transforms how businesses operate.</excerpt:encoded>
+            <wp:post_id>111</wp:post_id>
+            <wp:post_date>2025-07-29 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-07-29 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name><![CDATA[new-ai-platform-announcement]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>1</wp:is_sticky>
+            <category domain="category" nicename="news">News</category>
+            <category domain="category" nicename="updates">Updates</category>
+            <category domain="post_tag" nicename="innovation">Innovation</category>
+            <category domain="post_tag" nicename="technology">Technology</category>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value><![CDATA[103]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[5 Digital Transformation Trends for 2024]]></title>
+            <link>https://corporate-site.com/digital-transformation-trends-2024</link>
+            <pubDate>Fri, 01 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[editor]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?p=112]]></guid>
+            <description/>
+            <content:encoded>&lt;p&gt;As we move into 2024, digital transformation continues to be a critical priority for businesses across all industries. Here are five trends that will define the landscape:&lt;/p&gt;
+&lt;h3&gt;1. AI-First Approach&lt;/h3&gt;
+&lt;p&gt;Artificial intelligence is no longer optional - it's becoming the foundation of modern business operations.&lt;/p&gt;
+&lt;h3&gt;2. Hybrid Work Evolution&lt;/h3&gt;
+&lt;p&gt;The hybrid work model continues to evolve with new technologies enabling seamless collaboration.&lt;/p&gt;
+&lt;h3&gt;3. Sustainable Technology&lt;/h3&gt;
+&lt;p&gt;Green IT and sustainable technology practices are becoming essential for responsible business growth.&lt;/p&gt;
+&lt;h3&gt;4. Enhanced Cybersecurity&lt;/h3&gt;
+&lt;p&gt;With increasing digital threats, robust cybersecurity measures are more important than ever.&lt;/p&gt;
+&lt;h3&gt;5. Customer Experience Innovation&lt;/h3&gt;
+&lt;p&gt;Personalized, AI-driven customer experiences are setting new standards for engagement.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>Explore the key digital transformation trends that will shape business strategy in 2024.</excerpt:encoded>
+            <wp:post_id>112</wp:post_id>
+            <wp:post_date>2025-08-01 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-08-01 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name><![CDATA[digital-transformation-trends-2024]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="insights">Insights</category>
+            <category domain="post_tag" nicename="business">Business</category>
+            <category domain="post_tag" nicename="technology">Technology</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome Our New Team Members]]></title>
+            <link>https://corporate-site.com/new-team-members-2024</link>
+            <pubDate>Mon, 04 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?p=113]]></guid>
+            <description/>
+            <content:encoded>&lt;p&gt;Our company continues to grow, and we're excited to introduce the newest members of our team who bring fresh perspectives and exceptional expertise.&lt;/p&gt;
+&lt;h3&gt;Meet the Team&lt;/h3&gt;
+&lt;p&gt;This month, we welcomed five new professionals across different departments:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Sarah Johnson&lt;/strong&gt; - Senior Developer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Michael Chen&lt;/strong&gt; - UX Designer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Emma Wilson&lt;/strong&gt; - Project Manager&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;David Kumar&lt;/strong&gt; - Data Analyst&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lisa Martinez&lt;/strong&gt; - Marketing Specialist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these individuals brings unique skills and experiences that will strengthen our ability to serve our clients better.&lt;/p&gt;
+</content:encoded>
+            <excerpt:encoded>We're thrilled to welcome talented professionals who are joining our growing team.</excerpt:encoded>
+            <wp:post_id>113</wp:post_id>
+            <wp:post_date>2025-08-04 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-08-04 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name><![CDATA[new-team-members-2024]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="news">News</category>
+            <category domain="category" nicename="updates">Updates</category>
+            <category domain="post_tag" nicename="team">Team</category>
+        </item>
+        <item>
+            <title><![CDATA[Case Study: Transforming E-commerce for RetailCo]]></title>
+            <link>https://corporate-site.com/case-study-retailco-transformation</link>
+            <pubDate>Thu, 07 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[editor]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[https://corporate-site.com/?p=114]]></guid>
+            <description/>
+            <content:encoded>&lt;p&gt;When RetailCo approached us, they were struggling with an outdated e-commerce platform that couldn't scale with their growing business needs.&lt;/p&gt;
+&lt;h3&gt;The Challenge&lt;/h3&gt;
+&lt;p&gt;RetailCo faced several critical challenges:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Legacy system unable to handle peak traffic&lt;/li&gt;
+  &lt;li&gt;Poor mobile user experience&lt;/li&gt;
+  &lt;li&gt;Limited integration capabilities&lt;/li&gt;
+  &lt;li&gt;Inefficient inventory management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Our Solution&lt;/h3&gt;
+&lt;p&gt;We implemented a comprehensive digital transformation strategy:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Migrated to a cloud-based infrastructure&lt;/li&gt;
+  &lt;li&gt;Developed a responsive, mobile-first design&lt;/li&gt;
+  &lt;li&gt;Integrated AI-powered recommendation engine&lt;/li&gt;
+  &lt;li&gt;Automated inventory management system&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Results&lt;/h3&gt;
+&lt;p&gt;The transformation delivered impressive results within the first year:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;300% increase in online sales&lt;/li&gt;
+  &lt;li&gt;50% reduction in cart abandonment&lt;/li&gt;
+  &lt;li&gt;75% improvement in page load times&lt;/li&gt;
+  &lt;li&gt;40% increase in customer retention&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+            <excerpt:encoded>Learn how we helped RetailCo achieve 300% growth through digital transformation.</excerpt:encoded>
+            <wp:post_id>114</wp:post_id>
+            <wp:post_date>2025-08-07 15:57:26</wp:post_date>
+            <wp:post_date_gmt>2025-08-07 15:57:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name><![CDATA[case-study-retailco-transformation]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="insights">Insights</category>
+            <category domain="post_tag" nicename="business">Business</category>
+            <category domain="post_tag" nicename="innovation">Innovation</category>
+        </item>
+        <item>
+            <title><![CDATA[Home]]></title>
+            <link>/</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=115]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>115</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[115]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>1</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[custom]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[custom]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[115]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <link>/about</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=116]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>116</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[116]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>2</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[116]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/about]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Services]]></title>
+            <link>/services</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=117]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>117</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[117]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>3</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[117]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/services]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Web Development]]></title>
+            <link>/services/web-development</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=118]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>118</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[118]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>4</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[117]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[118]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/services/web-development]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Consulting]]></title>
+            <link>/services/consulting</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=119]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>119</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[119]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>5</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[117]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[119]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/services/consulting]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <link>/blog</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=120]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>120</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[120]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>6</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[120]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/blog]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Contact]]></title>
+            <link>/contact</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=121]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>121</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[121]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>7</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[121]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value/>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[/contact]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title><![CDATA[Site Header]]></title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=122]]></guid>
+            <description/>
+            <content:encoded>&lt;div class="site-header"&gt;
+  &lt;div class="logo"&gt;
+    &lt;img src="/logo.png" alt="Corporate Logo"&gt;
+  &lt;/div&gt;
+  &lt;nav class="main-navigation"&gt;
+    &lt;!-- Navigation menu will be inserted here --&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>122</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[site-header]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>header</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title><![CDATA[Site Footer]]></title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?p=123]]></guid>
+            <description/>
+            <content:encoded>&lt;div class="site-footer"&gt;
+  &lt;div class="footer-widgets"&gt;
+    &lt;div class="widget"&gt;
+      &lt;h3&gt;About Us&lt;/h3&gt;
+      &lt;p&gt;Leading digital transformation for businesses worldwide.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="widget"&gt;
+      &lt;h3&gt;Quick Links&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/services"&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="widget"&gt;
+      &lt;h3&gt;Contact Info&lt;/h3&gt;
+      &lt;p&gt;Email: info@corporate-site.com&lt;br&gt;
+      Phone: +49 30 123456789&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="footer-bottom"&gt;
+    &lt;p&gt;&amp;copy; 2024 Corporate Website. All rights reserved.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content:encoded>
+            <excerpt:encoded/>
+            <wp:post_id>123</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[site-footer]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>footer</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+        </item>
+        <item>
+            <title><![CDATA[Contact Form]]></title>
+            <link>#</link>
+            <pubDate>Thu, 28 Aug 2025 15:57:26 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false"><![CDATA[http://localhost/?post_type=wpcf7_contact_form&amp;#038;p=124]]></guid>
+            <description/>
+            <content:encoded/>
+            <excerpt:encoded/>
+            <wp:post_id>124</wp:post_id>
+            <wp:post_date>2024-08-21 14:29:21</wp:post_date>
+            <wp:post_date_gmt>2024-08-21 14:29:21</wp:post_date_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name><![CDATA[contact-form]]></wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>wpcf7_contact_form</wp:post_type>
+            <wp:post_password/>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_form</wp:meta_key>
+                <wp:meta_value><![CDATA[[text* your-name placeholder "Your Name"]
+[email* your-email placeholder "Your Email"]
+[tel your-phone placeholder "Phone Number"]
+[select your-subject "General Inquiry" "Service Request" "Partnership" "Support"]
+[textarea* your-message placeholder "Tell us about your project..."]
+[checkbox* privacy-policy "I agree to the privacy policy"]
+[submit "Send Message"]]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+    </channel>
+</rss>

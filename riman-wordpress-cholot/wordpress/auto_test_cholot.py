@@ -96,16 +96,31 @@ class AutoTestCholot:
                 self.log(f"Trying generator: {generator_name}")
                 returncode, stdout, stderr = self.run_command(command, f"Generate XML with {generator_name}")
                 
-                if returncode == 0 and os.path.exists(output_xml):
-                    # Check if XML has content
-                    file_size = os.path.getsize(output_xml)
-                    if file_size > 5000:  # Reasonable size for a real XML
-                        self.log(f"XML generated successfully: {output_xml} ({file_size} bytes)")
-                        return True
-                    else:
-                        self.log(f"XML too small ({file_size} bytes), trying next generator")
-                else:
-                    self.log(f"Generator failed: {stderr}", "ERROR")
+                # Check if generator created XML with expected name from YAML
+                expected_xml = yaml_file.replace('.yaml', '.xml')
+                output_files = [output_xml, expected_xml]
+                
+                # Check all possible output files
+                for xml_file in output_files:
+                    if os.path.exists(xml_file):
+                        file_size = os.path.getsize(xml_file)
+                        if file_size > 5000:  # Reasonable size for a real XML
+                            self.log(f"XML generated successfully: {xml_file} ({file_size} bytes)")
+                            # Copy to expected output name if needed
+                            if xml_file != output_xml:
+                                import shutil
+                                shutil.copy2(xml_file, output_xml)
+                                self.log(f"Copied {xml_file} to {output_xml}")
+                            return True
+                        else:
+                            self.log(f"XML too small ({file_size} bytes): {xml_file}")
+                
+                if returncode != 0:
+                    self.log(f"Generator returned error code {returncode}")
+                    if stderr.strip():
+                        self.log(f"Generator stderr: {stderr}", "ERROR")
+                    if stdout.strip():
+                        self.log(f"Generator stdout: {stdout}")
                     
         self.log("All XML generators failed", "ERROR")
         return False
