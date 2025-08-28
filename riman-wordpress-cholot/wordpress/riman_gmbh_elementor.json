@@ -1,19 +1,19 @@
 [
   {
-    "id": "3938343161633465",
+    "id": "6266373465356364",
     "elType": "section",
     "isInner": false,
     "settings": {
       "background_color": "#b68c2f",
       "padding": {
         "unit": "px",
-        "top": "60",
-        "bottom": "60"
+        "top": "80",
+        "bottom": "80"
       }
     },
     "elements": [
       {
-        "id": "3832633164323234",
+        "id": "3766396532333833",
         "elType": "column",
         "isInner": false,
         "settings": {
@@ -76,12 +76,11 @@
     ]
   },
   {
-    "id": "6130333965613732",
+    "id": "3262646535346634",
     "elType": "section",
     "isInner": false,
     "settings": {
       "gap": "extended",
-      "structure": "30",
       "background_color": "#fafafa",
       "padding": {
         "unit": "px",
@@ -91,11 +90,11 @@
     },
     "elements": [
       {
-        "id": "6134376566306230",
+        "id": "3739336135656163",
         "elType": "column",
         "isInner": false,
         "settings": {
-          "_column_size": 25
+          "_column_size": 33
         },
         "elements": [
           {
@@ -177,7 +176,7 @@
               "__fa4_migrated": {
                 "selected_icon": true
               },
-              "text": "Fachgerechte Entfernung und Entsorgung von Asbest nach allen gesetzlichen Vorgaben.",
+              "text": "Professionelle Entfernung von Asbest nach TRGS 519",
               "text_typography_font_size": {
                 "unit": "px",
                 "size": 15,
@@ -230,7 +229,7 @@
                 "left": "7",
                 "isLinked": true
               },
-              "subtitle": "Sicher & Professionell",
+              "subtitle": "Sicher & Zertifiziert",
               "btn_margin": {
                 "unit": "%",
                 "top": "",
@@ -253,11 +252,11 @@
         ]
       },
       {
-        "id": "3962623764346665",
+        "id": "3131346633383765",
         "elType": "column",
         "isInner": false,
         "settings": {
-          "_column_size": 25
+          "_column_size": 33
         },
         "elements": [
           {
@@ -339,7 +338,7 @@
               "__fa4_migrated": {
                 "selected_icon": true
               },
-              "text": "Sichere Beseitigung von PCB-belasteten Materialien mit zertifizierten Verfahren.",
+              "text": "Fachgerechte Entsorgung PCB-belasteter Materialien",
               "text_typography_font_size": {
                 "unit": "px",
                 "size": 15,
@@ -415,11 +414,11 @@
         ]
       },
       {
-        "id": "3334643166396164",
+        "id": "6566626530613062",
         "elType": "column",
         "isInner": false,
         "settings": {
-          "_column_size": 25
+          "_column_size": 33
         },
         "elements": [
           {
@@ -501,7 +500,7 @@
               "__fa4_migrated": {
                 "selected_icon": true
               },
-              "text": "Dauerhafte Beseitigung von Schimmelbefall und präventive Maßnahmen.",
+              "text": "Dauerhafte Beseitigung von Schimmelbefall",
               "text_typography_font_size": {
                 "unit": "px",
                 "size": 15,
@@ -575,177 +574,14 @@
             "elType": "widget"
           }
         ]
-      },
-      {
-        "id": "6636386435643734",
-        "elType": "column",
-        "isInner": false,
-        "settings": {
-          "_column_size": 25
-        },
-        "elements": [
-          {
-            "id": "692d9229",
-            "settings": {
-              "icon": "fa fa-child",
-              "title_text_margin": {
-                "unit": "px",
-                "size": 50,
-                "sizes": []
-              },
-              "title": "Brandschadensanierung",
-              "title_typography_typography": "custom",
-              "title_typography_font_size": {
-                "unit": "px",
-                "size": 28,
-                "sizes": []
-              },
-              "title_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "15",
-                "left": "0",
-                "isLinked": false
-              },
-              "subtitle_typography_typography": "custom",
-              "subtitle_typography_font_size": {
-                "unit": "px",
-                "size": 13,
-                "sizes": []
-              },
-              "subtitle_typography_font_weight": "700",
-              "subtitle_typography_text_transform": "uppercase",
-              "subtitle_typography_letter_spacing": {
-                "unit": "px",
-                "size": 1,
-                "sizes": []
-              },
-              "sb_padding": {
-                "unit": "%",
-                "top": "",
-                "right": "",
-                "bottom": "",
-                "left": "",
-                "isLinked": false
-              },
-              "sb_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "-15",
-                "left": "0",
-                "isLinked": false
-              },
-              "subtitle_color": "#b68c2f",
-              "icon_size": {
-                "unit": "px",
-                "size": 20,
-                "sizes": []
-              },
-              "icon_bg_size": {
-                "unit": "px",
-                "size": 72,
-                "sizes": []
-              },
-              "icon_margin_left": {
-                "unit": "%",
-                "top": "1",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "selected_icon": {
-                "value": "fas fa-fire-extinguisher",
-                "library": "fa-solid"
-              },
-              "__fa4_migrated": {
-                "selected_icon": true
-              },
-              "text": "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden.",
-              "text_typography_font_size": {
-                "unit": "px",
-                "size": 15,
-                "sizes": []
-              },
-              "text_typography_font_style": "italic",
-              "text_margin": {
-                "unit": "px",
-                "top": "15",
-                "right": "0",
-                "bottom": "-30",
-                "left": "0",
-                "isLinked": false
-              },
-              "icon_color": "#ffffff",
-              "iconbg_color": "#b68c2f",
-              "icon_bordering_border": "solid",
-              "icon_bordering_color": "#fafafa",
-              "_padding": {
-                "unit": "px",
-                "top": "30",
-                "right": "30",
-                "bottom": "30",
-                "left": "30",
-                "isLinked": true
-              },
-              "_border_width": {
-                "unit": "px",
-                "top": "0",
-                "right": "1",
-                "bottom": "1",
-                "left": "1",
-                "isLinked": false
-              },
-              "_border_color": "#b68c2f",
-              "_border_border": "dashed",
-              "icon_margin": {
-                "unit": "px",
-                "top": "-27",
-                "right": 0,
-                "bottom": "0",
-                "left": 0,
-                "isLinked": false
-              },
-              "icon_bordering_width": {
-                "unit": "px",
-                "top": "7",
-                "right": "7",
-                "bottom": "7",
-                "left": "7",
-                "isLinked": true
-              },
-              "subtitle": "24/7 Notdienst",
-              "btn_margin": {
-                "unit": "%",
-                "top": "",
-                "right": "",
-                "bottom": "",
-                "left": "",
-                "isLinked": false
-              },
-              "icon_lheight": {
-                "unit": "px",
-                "size": 58,
-                "sizes": []
-              }
-            },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "cholot-texticon",
-            "elType": "widget"
-          }
-        ]
       }
     ]
   },
   {
-    "id": "3839383932363833",
+    "id": "6532643334336462",
     "elType": "section",
     "isInner": false,
     "settings": {
-      "gap": "extended",
       "background_color": "#ffffff",
       "padding": {
         "unit": "px",
@@ -755,500 +591,7 @@
     },
     "elements": [
       {
-        "id": "3165616131313934",
-        "elType": "column",
-        "isInner": false,
-        "settings": {
-          "_column_size": 50
-        },
-        "elements": [
-          {
-            "id": "2473e36c",
-            "settings": {
-              "title": "Michael Ritter",
-              "text": "Geschäftsführer",
-              "image": {
-                "url": "team1.jpg",
-                "id": "1"
-              },
-              "team_height": {
-                "unit": "px",
-                "size": 420,
-                "sizes": []
-              },
-              "team_icon": [
-                {
-                  "icon": "fa fa-facebook",
-                  "_id": "1dbd354"
-                }
-              ],
-              "content_align": "left",
-              "titlep_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "5",
-                "left": "0",
-                "isLinked": false
-              },
-              "txt_cl": "#b68c2f",
-              "icon_color": "#23a455",
-              "icon_opacity": {
-                "unit": "px",
-                "size": 1,
-                "sizes": []
-              },
-              "icon_radius": {
-                "unit": "%",
-                "top": "100",
-                "right": "100",
-                "bottom": "100",
-                "left": "100",
-                "isLinked": true
-              },
-              "icon_size": {
-                "unit": "px",
-                "size": 15,
-                "sizes": []
-              },
-              "icon_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "icon_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "3",
-                "bottom": "0",
-                "left": "3",
-                "isLinked": false
-              },
-              "cport_typography_typography": "custom",
-              "cport_typography_text_transform": "capitalize",
-              "mask_color": "#000000",
-              "mask_color_opacity": {
-                "unit": "px",
-                "size": 0.8,
-                "sizes": []
-              },
-              "ctext_typography_typography": "custom",
-              "port_padding": {
-                "unit": "px",
-                "top": "30",
-                "right": "30",
-                "bottom": "30",
-                "left": "30",
-                "isLinked": true
-              },
-              "ctext_typography_font_size": {
-                "unit": "px",
-                "size": 15,
-                "sizes": []
-              },
-              "ctext_typography_font_weight": "normal",
-              "port_border_width": {
-                "unit": "px",
-                "top": "1",
-                "right": "1",
-                "bottom": "1",
-                "left": "1",
-                "isLinked": true
-              },
-              "icon_bg": "#651f7a",
-              "social_icon_list": [
-                {
-                  "social_icon": {
-                    "value": "{{social_icon}}",
-                    "library": "fa-brands"
-                  },
-                  "_id": "e17bdfd",
-                  "link": {
-                    "url": "{{social_link}}"
-                  },
-                  "item_icon_color": "custom",
-                  "item_icon_primary_color": "rgba(0,0,0,0)",
-                  "item_icon_secondary_color": "#000000"
-                }
-              ],
-              "hover_animation": "shrink",
-              "port_content": {
-                "unit": "px",
-                "top": "-80",
-                "right": "15",
-                "bottom": "0",
-                "left": "15",
-                "isLinked": false
-              },
-              "cport_typography_line_height": {
-                "unit": "em",
-                "size": 1,
-                "sizes": []
-              },
-              "titlep_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "ctext_typography_line_height": {
-                "unit": "em",
-                "size": 1,
-                "sizes": []
-              },
-              "tx_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "tx_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "bg_content": "#1f1f1f",
-              "title_cl": "#000000",
-              "cport_typography_font_size": {
-                "unit": "px",
-                "size": 18,
-                "sizes": []
-              },
-              "icon_hcolor": "#000000",
-              "_margin": {
-                "unit": "%",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "selected_icon": {
-                "value": "fas fa-feather-alt",
-                "library": "fa-solid"
-              },
-              "bg_icon_color": "#b68c2f",
-              "bg_icon_size": {
-                "unit": "px",
-                "size": 110,
-                "sizes": []
-              },
-              "bg_icon_rotate": {
-                "unit": "px",
-                "size": 10,
-                "sizes": []
-              },
-              "image_position_tablet": "center center",
-              "port_content_hover": {
-                "unit": "px",
-                "top": "-80",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "box_shadow_box_shadow": {
-                "horizontal": 0,
-                "vertical": 8,
-                "blur": 14,
-                "spread": 4,
-                "color": "rgba(175,175,175,0.27)"
-              },
-              "box_shadow_hover_box_shadow_type": "yes",
-              "box_shadow_hover_box_shadow": {
-                "horizontal": 0,
-                "vertical": 0,
-                "blur": 0,
-                "spread": 0,
-                "color": "rgba(0,0,0,0)"
-              },
-              "background_background": "classic",
-              "background_color": "#f4f4f4",
-              "background_position": "center left",
-              "background_repeat": "no-repeat",
-              "background_size": "cover",
-              "background_bg_width": {
-                "unit": "px",
-                "size": 60,
-                "sizes": []
-              },
-              "box_shadow_box_shadow_type": "yes",
-              "port_border_border": "solid",
-              "port_border_color": "#b68c2f"
-            },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "cholot-team",
-            "elType": "widget"
-          }
-        ]
-      },
-      {
-        "id": "3735663130336336",
-        "elType": "column",
-        "isInner": false,
-        "settings": {
-          "_column_size": 50
-        },
-        "elements": [
-          {
-            "id": "2473e36c",
-            "settings": {
-              "title": "Sandra Mann",
-              "text": "Projektleiterin",
-              "image": {
-                "url": "team2.jpg",
-                "id": "1"
-              },
-              "team_height": {
-                "unit": "px",
-                "size": 420,
-                "sizes": []
-              },
-              "team_icon": [
-                {
-                  "icon": "fa fa-facebook",
-                  "_id": "1dbd354"
-                }
-              ],
-              "content_align": "left",
-              "titlep_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "5",
-                "left": "0",
-                "isLinked": false
-              },
-              "txt_cl": "#b68c2f",
-              "icon_color": "#23a455",
-              "icon_opacity": {
-                "unit": "px",
-                "size": 1,
-                "sizes": []
-              },
-              "icon_radius": {
-                "unit": "%",
-                "top": "100",
-                "right": "100",
-                "bottom": "100",
-                "left": "100",
-                "isLinked": true
-              },
-              "icon_size": {
-                "unit": "px",
-                "size": 15,
-                "sizes": []
-              },
-              "icon_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "icon_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "3",
-                "bottom": "0",
-                "left": "3",
-                "isLinked": false
-              },
-              "cport_typography_typography": "custom",
-              "cport_typography_text_transform": "capitalize",
-              "mask_color": "#000000",
-              "mask_color_opacity": {
-                "unit": "px",
-                "size": 0.8,
-                "sizes": []
-              },
-              "ctext_typography_typography": "custom",
-              "port_padding": {
-                "unit": "px",
-                "top": "30",
-                "right": "30",
-                "bottom": "30",
-                "left": "30",
-                "isLinked": true
-              },
-              "ctext_typography_font_size": {
-                "unit": "px",
-                "size": 15,
-                "sizes": []
-              },
-              "ctext_typography_font_weight": "normal",
-              "port_border_width": {
-                "unit": "px",
-                "top": "1",
-                "right": "1",
-                "bottom": "1",
-                "left": "1",
-                "isLinked": true
-              },
-              "icon_bg": "#651f7a",
-              "social_icon_list": [
-                {
-                  "social_icon": {
-                    "value": "{{social_icon}}",
-                    "library": "fa-brands"
-                  },
-                  "_id": "e17bdfd",
-                  "link": {
-                    "url": "{{social_link}}"
-                  },
-                  "item_icon_color": "custom",
-                  "item_icon_primary_color": "rgba(0,0,0,0)",
-                  "item_icon_secondary_color": "#000000"
-                }
-              ],
-              "hover_animation": "shrink",
-              "port_content": {
-                "unit": "px",
-                "top": "-80",
-                "right": "15",
-                "bottom": "0",
-                "left": "15",
-                "isLinked": false
-              },
-              "cport_typography_line_height": {
-                "unit": "em",
-                "size": 1,
-                "sizes": []
-              },
-              "titlep_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "ctext_typography_line_height": {
-                "unit": "em",
-                "size": 1,
-                "sizes": []
-              },
-              "tx_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "tx_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "bg_content": "#1f1f1f",
-              "title_cl": "#000000",
-              "cport_typography_font_size": {
-                "unit": "px",
-                "size": 18,
-                "sizes": []
-              },
-              "icon_hcolor": "#000000",
-              "_margin": {
-                "unit": "%",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "selected_icon": {
-                "value": "fas fa-feather-alt",
-                "library": "fa-solid"
-              },
-              "bg_icon_color": "#b68c2f",
-              "bg_icon_size": {
-                "unit": "px",
-                "size": 110,
-                "sizes": []
-              },
-              "bg_icon_rotate": {
-                "unit": "px",
-                "size": 10,
-                "sizes": []
-              },
-              "image_position_tablet": "center center",
-              "port_content_hover": {
-                "unit": "px",
-                "top": "-80",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": false
-              },
-              "box_shadow_box_shadow": {
-                "horizontal": 0,
-                "vertical": 8,
-                "blur": 14,
-                "spread": 4,
-                "color": "rgba(175,175,175,0.27)"
-              },
-              "box_shadow_hover_box_shadow_type": "yes",
-              "box_shadow_hover_box_shadow": {
-                "horizontal": 0,
-                "vertical": 0,
-                "blur": 0,
-                "spread": 0,
-                "color": "rgba(0,0,0,0)"
-              },
-              "background_background": "classic",
-              "background_color": "#f4f4f4",
-              "background_position": "center left",
-              "background_repeat": "no-repeat",
-              "background_size": "cover",
-              "background_bg_width": {
-                "unit": "px",
-                "size": 60,
-                "sizes": []
-              },
-              "box_shadow_box_shadow_type": "yes",
-              "port_border_border": "solid",
-              "port_border_color": "#b68c2f"
-            },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "cholot-team",
-            "elType": "widget"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "6633656130663464",
-    "elType": "section",
-    "isInner": false,
-    "settings": {
-      "background_color": "#fafafa",
-      "padding": {
-        "unit": "px",
-        "top": "60",
-        "bottom": "60"
-      }
-    },
-    "elements": [
-      {
-        "id": "3461373038646465",
+        "id": "6231653935333437",
         "elType": "column",
         "isInner": false,
         "settings": {
@@ -1258,7 +601,7 @@
           {
             "id": "7801ff38",
             "settings": {
-              "title": "Über RIMAN GmbH",
+              "title": "Über uns",
               "desc_typography_typography": "custom",
               "desc_typography_font_size": {
                 "unit": "px",
@@ -1309,7 +652,7 @@
           {
             "id": "449a16f9",
             "settings": {
-              "editor": "<p>Mit über 20 Jahren Erfahrung sind wir Ihr zuverlässiger Partner für alle Sanierungsarbeiten. Unsere zertifizierten Experten garantieren höchste Qualität und Sicherheit bei jedem Projekt.</p>",
+              "editor": "<p>Mit über 20 Jahren Erfahrung sind wir Ihr Partner für sichere Sanierungen.</p>",
               "text_color": "#b68c2f",
               "typography_typography": "custom",
               "typography_text_transform": "uppercase",
@@ -1349,7 +692,261 @@
     ]
   },
   {
-    "id": "3536386635303861",
+    "id": "3231636132326230",
+    "elType": "section",
+    "isInner": false,
+    "settings": {
+      "background_color": "#fafafa",
+      "padding": {
+        "unit": "px",
+        "top": "60",
+        "bottom": "60"
+      }
+    },
+    "elements": [
+      {
+        "id": "6335396166353933",
+        "elType": "column",
+        "isInner": false,
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "2473e36c",
+            "settings": {
+              "title": "Michael Ritter",
+              "text": "Geschäftsführer",
+              "image": {
+                "url": "placeholder.jpg",
+                "id": "1"
+              },
+              "team_height": {
+                "unit": "px",
+                "size": 420,
+                "sizes": []
+              },
+              "team_icon": [
+                {
+                  "icon": "fa fa-facebook",
+                  "_id": "1dbd354"
+                }
+              ],
+              "content_align": "left",
+              "titlep_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "5",
+                "left": "0",
+                "isLinked": false
+              },
+              "txt_cl": "#b68c2f",
+              "icon_color": "#23a455",
+              "icon_opacity": {
+                "unit": "px",
+                "size": 1,
+                "sizes": []
+              },
+              "icon_radius": {
+                "unit": "%",
+                "top": "100",
+                "right": "100",
+                "bottom": "100",
+                "left": "100",
+                "isLinked": true
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "icon_padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "icon_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "3",
+                "bottom": "0",
+                "left": "3",
+                "isLinked": false
+              },
+              "cport_typography_typography": "custom",
+              "cport_typography_text_transform": "capitalize",
+              "mask_color": "#000000",
+              "mask_color_opacity": {
+                "unit": "px",
+                "size": 0.8,
+                "sizes": []
+              },
+              "ctext_typography_typography": "custom",
+              "port_padding": {
+                "unit": "px",
+                "top": "30",
+                "right": "30",
+                "bottom": "30",
+                "left": "30",
+                "isLinked": true
+              },
+              "ctext_typography_font_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "ctext_typography_font_weight": "normal",
+              "port_border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "icon_bg": "#651f7a",
+              "social_icon_list": [
+                {
+                  "social_icon": {
+                    "value": "{{social_icon}}",
+                    "library": "fa-brands"
+                  },
+                  "_id": "e17bdfd",
+                  "link": {
+                    "url": "{{social_link}}"
+                  },
+                  "item_icon_color": "custom",
+                  "item_icon_primary_color": "rgba(0,0,0,0)",
+                  "item_icon_secondary_color": "#000000"
+                }
+              ],
+              "hover_animation": "shrink",
+              "port_content": {
+                "unit": "px",
+                "top": "-80",
+                "right": "15",
+                "bottom": "0",
+                "left": "15",
+                "isLinked": false
+              },
+              "cport_typography_line_height": {
+                "unit": "em",
+                "size": 1,
+                "sizes": []
+              },
+              "titlep_padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "ctext_typography_line_height": {
+                "unit": "em",
+                "size": 1,
+                "sizes": []
+              },
+              "tx_padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "tx_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "bg_content": "#1f1f1f",
+              "title_cl": "#000000",
+              "cport_typography_font_size": {
+                "unit": "px",
+                "size": 18,
+                "sizes": []
+              },
+              "icon_hcolor": "#000000",
+              "_margin": {
+                "unit": "%",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "selected_icon": {
+                "value": "fas fa-feather-alt",
+                "library": "fa-solid"
+              },
+              "bg_icon_color": "#b68c2f",
+              "bg_icon_size": {
+                "unit": "px",
+                "size": 110,
+                "sizes": []
+              },
+              "bg_icon_rotate": {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              },
+              "image_position_tablet": "center center",
+              "port_content_hover": {
+                "unit": "px",
+                "top": "-80",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "box_shadow_box_shadow": {
+                "horizontal": 0,
+                "vertical": 8,
+                "blur": 14,
+                "spread": 4,
+                "color": "rgba(175,175,175,0.27)"
+              },
+              "box_shadow_hover_box_shadow_type": "yes",
+              "box_shadow_hover_box_shadow": {
+                "horizontal": 0,
+                "vertical": 0,
+                "blur": 0,
+                "spread": 0,
+                "color": "rgba(0,0,0,0)"
+              },
+              "background_background": "classic",
+              "background_color": "#f4f4f4",
+              "background_position": "center left",
+              "background_repeat": "no-repeat",
+              "background_size": "cover",
+              "background_bg_width": {
+                "unit": "px",
+                "size": 60,
+                "sizes": []
+              },
+              "box_shadow_box_shadow_type": "yes",
+              "port_border_border": "solid",
+              "port_border_color": "#b68c2f"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "cholot-team",
+            "elType": "widget"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6466366237376139",
     "elType": "section",
     "isInner": false,
     "settings": {
@@ -1362,7 +959,7 @@
     },
     "elements": [
       {
-        "id": "3063323961663933",
+        "id": "3934613432336432",
         "elType": "column",
         "isInner": false,
         "settings": {
