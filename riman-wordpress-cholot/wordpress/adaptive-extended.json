@@ -196,7 +196,7 @@
       "elType": "section"
     },
     {
-      "id": "lca3s375",
+      "id": "62yk4cve",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -208,183 +208,171 @@
       },
       "elements": [
         {
-          "id": "tdgj1j6n",
-          "elType": "container",
+          "id": "abw2l4an",
+          "elType": "column",
           "settings": {
-            "content_width": "full"
+            "_column_size": 33,
+            "_inline_size": null
           },
           "elements": [
             {
-              "id": "j36ecb40",
-              "elType": "column",
+              "id": "qspybuoj",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "uwcgoqh5",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Asbestsanierung",
-                    "text": "<p>TRGS 519 zertifiziert</p>",
-                    "icon": "fa fa-shield",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "Asbestsanierung",
+                "text": "<p>TRGS 519 zertifiziert</p>",
+                "icon": "fa fa-shield",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
-            },
-            {
-              "id": "75lvcy0w",
-              "elType": "column",
-              "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "pf8vh262",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "PCB-Sanierung",
-                    "text": "<p>Umweltgerecht</p>",
-                    "icon": "fa fa-flask",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "id": "u8y4nw78",
-              "elType": "column",
-              "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "qtvcf8x9",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Schimmelsanierung",
-                    "text": "<p>Mit Garantie</p>",
-                    "icon": "fa fa-home",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
-                }
-              ]
+              }
             }
           ]
         },
         {
-          "id": "uaa724fo",
-          "elType": "container",
+          "id": "5h3vcuuv",
+          "elType": "column",
           "settings": {
-            "content_width": "full"
+            "_column_size": 33,
+            "_inline_size": null
           },
           "elements": [
             {
-              "id": "76mzlbaz",
-              "elType": "column",
+              "id": "kkhvkqkl",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "em5q6h9q",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "KMF-Sanierung",
-                    "text": "<p>Mineralfaser-Experten</p>",
-                    "icon": "fa fa-filter",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "PCB-Sanierung",
+                "text": "<p>Umweltgerecht</p>",
+                "icon": "fa fa-flask",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
-            },
+              }
+            }
+          ]
+        },
+        {
+          "id": "n0wjrus7",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
             {
-              "id": "ja5x5v99",
-              "elType": "column",
+              "id": "sa15cxfo",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "g3tat1bh",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "PAK-Sanierung",
-                    "text": "<p>Teerhaltige Stoffe</p>",
-                    "icon": "fa fa-drop",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "Schimmelsanierung",
+                "text": "<p>Mit Garantie</p>",
+                "icon": "fa fa-home",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
-            },
+              }
+            }
+          ]
+        },
+        {
+          "id": "6ptwsnpy",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
             {
-              "id": "b3768lps",
-              "elType": "column",
+              "id": "oz986z95",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "ijtlrroe",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Schadstoffanalyse",
-                    "text": "<p>Akkreditiertes Labor</p>",
-                    "icon": "fa fa-search",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "KMF-Sanierung",
+                "text": "<p>Mineralfaser-Experten</p>",
+                "icon": "fa fa-filter",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "ugw9adng",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "fy48ks4e",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
+              "settings": {
+                "title": "PAK-Sanierung",
+                "text": "<p>Teerhaltige Stoffe</p>",
+                "icon": "fa fa-drop",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "dl6givez",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "5x52rkfy",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
+              "settings": {
+                "title": "Schadstoffanalyse",
+                "text": "<p>Akkreditiertes Labor</p>",
+                "icon": "fa fa-search",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "absx9pje",
+      "id": "vmpk3mt5",
       "elType": "section",
       "settings": {
         "background_color": "#f7f7f7",
@@ -396,43 +384,41 @@
       },
       "elements": [
         {
-          "id": "dam7aguh",
-          "elType": "container",
+          "id": "t6rqqxg7",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
           "elements": [
             {
-              "id": "t3itaojs",
-              "elType": "column",
-              "elements": [
-                {
-                  "id": "qwxzuf1r",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Unser Team",
-                    "header_size": "h2",
-                    "align": "center"
-                  }
-                }
-              ]
+              "id": "owach3fl",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Unser Team",
+                "header_size": "h2",
+                "align": "center"
+              }
             }
           ]
         },
         {
-          "id": "ldo2qcom",
+          "id": "81atw6t2",
           "elType": "container",
           "settings": {
             "content_width": "full"
           },
           "elements": [
             {
-              "id": "szbb1bmv",
+              "id": "9mc7h193",
               "elType": "column",
               "settings": {
                 "_column_size": 25
               },
               "elements": [
                 {
-                  "id": "gyo00upn",
+                  "id": "gnqqm2to",
                   "elType": "widget",
                   "widgetType": "cholot-team",
                   "settings": {
@@ -447,14 +433,14 @@
               ]
             },
             {
-              "id": "6xwshhnu",
+              "id": "sznv4815",
               "elType": "column",
               "settings": {
                 "_column_size": 25
               },
               "elements": [
                 {
-                  "id": "bg5bsvbs",
+                  "id": "vj2e13al",
                   "elType": "widget",
                   "widgetType": "cholot-team",
                   "settings": {
@@ -469,14 +455,14 @@
               ]
             },
             {
-              "id": "ix5betpi",
+              "id": "zm95yyoe",
               "elType": "column",
               "settings": {
                 "_column_size": 25
               },
               "elements": [
                 {
-                  "id": "gezhjk07",
+                  "id": "1m0p0z0u",
                   "elType": "widget",
                   "widgetType": "cholot-team",
                   "settings": {
@@ -491,14 +477,14 @@
               ]
             },
             {
-              "id": "ky9xc59m",
+              "id": "q0ewe19r",
               "elType": "column",
               "settings": {
                 "_column_size": 25
               },
               "elements": [
                 {
-                  "id": "h90zgrkb",
+                  "id": "28p643ir",
                   "elType": "widget",
                   "widgetType": "cholot-team",
                   "settings": {
@@ -513,14 +499,14 @@
               ]
             },
             {
-              "id": "c2dwnqef",
+              "id": "mrzyskfx",
               "elType": "column",
               "settings": {
                 "_column_size": 25
               },
               "elements": [
                 {
-                  "id": "56kl0wzy",
+                  "id": "7ylugmth",
                   "elType": "widget",
                   "widgetType": "cholot-team",
                   "settings": {
@@ -539,7 +525,7 @@
       ]
     },
     {
-      "id": "70hhraz2",
+      "id": "9ew2db4c",
       "elType": "section",
       "settings": {
         "background_color": "#232323",
@@ -551,11 +537,11 @@
       },
       "elements": [
         {
-          "id": "bp3a7vnw",
+          "id": "6h9805xq",
           "elType": "column",
           "elements": [
             {
-              "id": "6tap0dbi",
+              "id": "3j53ypfq",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -566,7 +552,7 @@
               }
             },
             {
-              "id": "7rp77ruw",
+              "id": "ca10oof2",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {

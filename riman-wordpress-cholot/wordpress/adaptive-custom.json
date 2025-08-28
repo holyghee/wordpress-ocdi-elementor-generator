@@ -196,7 +196,7 @@
       "elType": "section"
     },
     {
-      "id": "oi3brzpt",
+      "id": "wt7q3dod",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -208,78 +208,71 @@
       },
       "elements": [
         {
-          "id": "zv032iwg",
-          "elType": "container",
+          "id": "jh0ihuaj",
+          "elType": "column",
           "settings": {
-            "content_width": "full"
+            "_column_size": 33,
+            "_inline_size": null
           },
           "elements": [
             {
-              "id": "qlnksezw",
-              "elType": "column",
+              "id": "i0h061s8",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "qqfu0nrl",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Komplettpaket",
-                    "text": "<p>Alles aus einer Hand</p>",
-                    "icon": "fa fa-check",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "Komplettpaket",
+                "text": "<p>Alles aus einer Hand</p>",
+                "icon": "fa fa-check",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
-            },
+              }
+            }
+          ]
+        },
+        {
+          "id": "kl5k4j24",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
             {
-              "id": "t594y9so",
-              "elType": "column",
+              "id": "bsbgyx8i",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "kdxyguda",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Notdienst 24/7",
-                    "text": "<p>Immer erreichbar</p>",
-                    "icon": "fa fa-check",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "Notdienst 24/7",
+                "text": "<p>Immer erreichbar</p>",
+                "icon": "fa fa-check",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "x7m0iwj4",
+      "id": "0vi4je82",
       "elType": "section",
       "elements": [
         {
-          "id": "ekffpbdt",
+          "id": "5w0nohf9",
           "elType": "column",
           "elements": [
             {
-              "id": "tp9vmn80",
+              "id": "2v0o16pq",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {

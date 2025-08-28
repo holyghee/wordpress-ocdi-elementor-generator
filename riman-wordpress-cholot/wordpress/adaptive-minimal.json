@@ -196,7 +196,7 @@
       "elType": "section"
     },
     {
-      "id": "xmujtodt",
+      "id": "7349w146",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -208,89 +208,83 @@
       },
       "elements": [
         {
-          "id": "35um838s",
-          "elType": "container",
+          "id": "r5omlmhv",
+          "elType": "column",
           "settings": {
-            "content_width": "full"
+            "_column_size": 33,
+            "_inline_size": null
           },
           "elements": [
             {
-              "id": "mxqi16lp",
-              "elType": "column",
+              "id": "dvl6wt09",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "6x9kqpuc",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Asbestsanierung",
-                    "text": "<p>Professionell und sicher</p>",
-                    "icon": "fa fa-check",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "Asbestsanierung",
+                "text": "<p>Professionell und sicher</p>",
+                "icon": "fa fa-check",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
-            },
+              }
+            }
+          ]
+        },
+        {
+          "id": "33qivxwn",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
             {
-              "id": "eufhhq72",
-              "elType": "column",
+              "id": "ycebe5sf",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "vrio78i7",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "PCB-Sanierung",
-                    "text": "<p>Nach neuesten Standards</p>",
-                    "icon": "fa fa-check",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "PCB-Sanierung",
+                "text": "<p>Nach neuesten Standards</p>",
+                "icon": "fa fa-check",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
-            },
+              }
+            }
+          ]
+        },
+        {
+          "id": "xi1ngsj5",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null
+          },
+          "elements": [
             {
-              "id": "mu72hnpd",
-              "elType": "column",
+              "id": "s4tz9qqy",
+              "elType": "widget",
+              "widgetType": "cholot-texticon",
               "settings": {
-                "_column_size": 33
-              },
-              "elements": [
-                {
-                  "id": "uie10qsu",
-                  "elType": "widget",
-                  "widgetType": "cholot-texticon",
-                  "settings": {
-                    "title": "Schimmelsanierung",
-                    "text": "<p>Nachhaltige L\u00f6sungen</p>",
-                    "icon": "fa fa-check",
-                    "icon_color": "#ff6b6b",
-                    "title_color": "#232323",
-                    "text_color": "#666666",
-                    "icon_size": {
-                      "size": 60,
-                      "unit": "px"
-                    }
-                  }
+                "title": "Schimmelsanierung",
+                "text": "<p>Nachhaltige L\u00f6sungen</p>",
+                "icon": "fa fa-check",
+                "icon_color": "#ff6b6b",
+                "title_color": "#232323",
+                "text_color": "#666666",
+                "icon_size": {
+                  "size": 60,
+                  "unit": "px"
                 }
-              ]
+              }
             }
           ]
         }
