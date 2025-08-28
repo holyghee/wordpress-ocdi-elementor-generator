@@ -55,11 +55,16 @@ class CompletePageProcessor:
         config = data['config']
         elementor_data = data['elementor_data']
         
+        # Register namespaces
+        ET.register_namespace('excerpt', 'http://wordpress.org/export/1.2/excerpt/')
+        ET.register_namespace('content', 'http://purl.org/rss/1.0/modules/content/')
+        ET.register_namespace('wfw', 'http://wellformedweb.org/CommentAPI/')
+        ET.register_namespace('dc', 'http://purl.org/dc/elements/1.1/')
+        ET.register_namespace('wp', 'http://wordpress.org/export/1.2/')
+        
         # Create XML structure
         rss = ET.Element('rss')
         rss.set('version', '2.0')
-        
-        # Add namespaces
         rss.set('xmlns:excerpt', 'http://wordpress.org/export/1.2/excerpt/')
         rss.set('xmlns:content', 'http://purl.org/rss/1.0/modules/content/')
         rss.set('xmlns:wfw', 'http://wellformedweb.org/CommentAPI/')
