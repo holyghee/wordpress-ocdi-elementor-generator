@@ -42,7 +42,11 @@ class SectionBasedProcessor:
         for section_config in sections:
             section = self._create_section(section_config)
             if section:
-                elementor_sections.append(section)
+                # Handle both single sections and lists of sections
+                if isinstance(section, list):
+                    elementor_sections.extend(section)
+                else:
+                    elementor_sections.append(section)
         
         return elementor_sections
     
