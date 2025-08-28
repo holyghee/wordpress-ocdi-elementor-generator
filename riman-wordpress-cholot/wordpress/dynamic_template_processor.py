@@ -803,7 +803,14 @@ class DynamicTemplateProcessor:
         ]:
             meta = ET.SubElement(item, '{http://wordpress.org/export/1.2/}postmeta')
             ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_key').text = key
-            ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_value').text = value
+            
+            # Handle CDATA for JSON data
+            meta_value = ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_value')
+            if key in ['_elementor_page_settings']:
+                # WordPress expects this as escaped JSON
+                meta_value.text = value.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+            else:
+                meta_value.text = value
     
     def _add_page_item(self, channel, config, elementor_data):
         """Add page item with Elementor data"""
@@ -858,7 +865,14 @@ class DynamicTemplateProcessor:
         ]:
             meta = ET.SubElement(item, '{http://wordpress.org/export/1.2/}postmeta')
             ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_key').text = key
-            ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_value').text = value
+            
+            # Handle CDATA for JSON data to prevent XML parsing issues
+            meta_value = ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_value')
+            if key in ['_elementor_data', '_elementor_page_settings']:
+                # WordPress expects JSON to be properly escaped
+                meta_value.text = value.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+            else:
+                meta_value.text = value
 
 
 def main():
