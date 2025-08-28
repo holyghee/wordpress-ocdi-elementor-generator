@@ -1,0 +1,585 @@
+{
+  "content": [
+    {
+      "id": "7d588e4e",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_position": "bottom",
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "16e8b1dc",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "6ef87315",
+              "settings": {
+                "editor": "<p>25 Jahre Erfahrung in Berlin und Brandenburg</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            },
+            {
+              "id": "356adb9d",
+              "settings": {
+                "title": "Ihr Partner f\u00fcr Schadstoffsanierung",
+                "align": "center",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "cholot-title",
+              "elType": "widget"
+            },
+            {
+              "id": "35f619c0",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "text": "Divider"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "divider",
+              "elType": "widget"
+            },
+            {
+              "id": "419dc39e",
+              "settings": {
+                "editor": "<p>25 Jahre Erfahrung in Berlin und Brandenburg</p>",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "drop_cap_primary_color": "#262626",
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 70,
+                  "sizes": []
+                },
+                "drop_cap_typography_font_weight": "700",
+                "drop_cap_typography_line_height": {
+                  "unit": "em",
+                  "size": 0.8,
+                  "sizes": []
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "ezkqbbze",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "padding": {
+          "top": "60",
+          "bottom": "60",
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "w6k9p7nf",
+          "elType": "container",
+          "settings": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "r7nexsdv",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "w5hp1no2",
+                  "elType": "widget",
+                  "widgetType": "cholot-texticon",
+                  "settings": {
+                    "title": "Asbestsanierung",
+                    "text": "<p>TRGS 519 zertifiziert</p>",
+                    "icon": "fa fa-shield",
+                    "icon_color": "#ff6b6b",
+                    "title_color": "#232323",
+                    "text_color": "#666666",
+                    "icon_size": {
+                      "size": 60,
+                      "unit": "px"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ao087otd",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "zltt72wq",
+                  "elType": "widget",
+                  "widgetType": "cholot-texticon",
+                  "settings": {
+                    "title": "PCB-Sanierung",
+                    "text": "<p>Umweltgerecht</p>",
+                    "icon": "fa fa-flask",
+                    "icon_color": "#ff6b6b",
+                    "title_color": "#232323",
+                    "text_color": "#666666",
+                    "icon_size": {
+                      "size": 60,
+                      "unit": "px"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "pmnicqev",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "h8a5r7ol",
+                  "elType": "widget",
+                  "widgetType": "cholot-texticon",
+                  "settings": {
+                    "title": "Schimmelsanierung",
+                    "text": "<p>Mit Garantie</p>",
+                    "icon": "fa fa-home",
+                    "icon_color": "#ff6b6b",
+                    "title_color": "#232323",
+                    "text_color": "#666666",
+                    "icon_size": {
+                      "size": 60,
+                      "unit": "px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "q3eg0j1n",
+          "elType": "container",
+          "settings": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "8avyx4d6",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "2ztwkxzk",
+                  "elType": "widget",
+                  "widgetType": "cholot-texticon",
+                  "settings": {
+                    "title": "KMF-Sanierung",
+                    "text": "<p>Mineralfaser-Experten</p>",
+                    "icon": "fa fa-filter",
+                    "icon_color": "#ff6b6b",
+                    "title_color": "#232323",
+                    "text_color": "#666666",
+                    "icon_size": {
+                      "size": 60,
+                      "unit": "px"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "n0oiff2o",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "o4fu3zlh",
+                  "elType": "widget",
+                  "widgetType": "cholot-texticon",
+                  "settings": {
+                    "title": "PAK-Sanierung",
+                    "text": "<p>Teerhaltige Stoffe</p>",
+                    "icon": "fa fa-drop",
+                    "icon_color": "#ff6b6b",
+                    "title_color": "#232323",
+                    "text_color": "#666666",
+                    "icon_size": {
+                      "size": 60,
+                      "unit": "px"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c62gzjtj",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "qcx1ii71",
+                  "elType": "widget",
+                  "widgetType": "cholot-texticon",
+                  "settings": {
+                    "title": "Schadstoffanalyse",
+                    "text": "<p>Akkreditiertes Labor</p>",
+                    "icon": "fa fa-search",
+                    "icon_color": "#ff6b6b",
+                    "title_color": "#232323",
+                    "text_color": "#666666",
+                    "icon_size": {
+                      "size": 60,
+                      "unit": "px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vauok2af",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f7f7f7",
+        "padding": {
+          "top": "80",
+          "bottom": "80",
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "fu8ai0fl",
+          "elType": "container",
+          "elements": [
+            {
+              "id": "30w3jow6",
+              "elType": "column",
+              "elements": [
+                {
+                  "id": "1jeid5ew",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Unser Team",
+                    "header_size": "h2",
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roasga07",
+          "elType": "container",
+          "settings": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "au4lorpl",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "2dyqenex",
+                  "elType": "widget",
+                  "widgetType": "cholot-team",
+                  "settings": {
+                    "title": "Thomas Schmidt",
+                    "text": "Gesch\u00e4ftsf\u00fchrer",
+                    "description": "",
+                    "image": {
+                      "url": "placeholder.jpg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tluq4ayg",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "mym6evyb",
+                  "elType": "widget",
+                  "widgetType": "cholot-team",
+                  "settings": {
+                    "title": "Maria Weber",
+                    "text": "Projektleiterin",
+                    "description": "",
+                    "image": {
+                      "url": "placeholder.jpg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "eb07ugwz",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "659i0mtm",
+                  "elType": "widget",
+                  "widgetType": "cholot-team",
+                  "settings": {
+                    "title": "Stefan Mueller",
+                    "text": "Technischer Leiter",
+                    "description": "",
+                    "image": {
+                      "url": "placeholder.jpg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "lluu11r1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "z1ylk4pq",
+                  "elType": "widget",
+                  "widgetType": "cholot-team",
+                  "settings": {
+                    "title": "Julia Klein",
+                    "text": "Qualit\u00e4tsmanagement",
+                    "description": "",
+                    "image": {
+                      "url": "placeholder.jpg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "lby9siay",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "3ivcnhyc",
+                  "elType": "widget",
+                  "widgetType": "cholot-team",
+                  "settings": {
+                    "title": "Michael Braun",
+                    "text": "Bauleiter",
+                    "description": "",
+                    "image": {
+                      "url": "placeholder.jpg"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ssks6f7",
+      "elType": "section",
+      "settings": {
+        "background_color": "#232323",
+        "padding": {
+          "top": "60",
+          "bottom": "60",
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "38k4nfea",
+          "elType": "column",
+          "elements": [
+            {
+              "id": "haoa0pw6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Kontakt",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "aibz5be8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n                            <p style='color: white; text-align: center;'>\n                            \ud83d\udce7 info@riman-gmbh.de<br>\n                            \ud83d\udcde 030-12345678<br>\n                            \ud83d\udccd Musterstra\u00dfe 123, 10115 Berlin\n                            </p>\n                            "
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "RIMAN GmbH - Komplett",
+  "type": "page"
+}
