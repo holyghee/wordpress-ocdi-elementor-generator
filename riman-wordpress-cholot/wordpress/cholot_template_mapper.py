@@ -213,9 +213,13 @@ class CholotTemplateMapper:
         
         # Extract pages from target structure
         pages = []
-        if 'posts' in self.target_structure:
-            pages = [post for post in self.target_structure['posts'] 
-                    if post.get('post_type') == 'page']
+        if 'pages' in self.target_structure:
+            pages = []
+            for page_id, page_data in self.target_structure['pages'].items():
+                if isinstance(page_data, dict):
+                    page_data['post_name'] = self._extract_slug_from_link(page_data.get('link', ''))
+                    page_data['post_type'] = 'page'
+                    pages.append(page_data)
         
         # Create mappings
         page_mappings = self.map_pages_to_templates(pages, templates)
