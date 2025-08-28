@@ -37,31 +37,20 @@ if ( ! file_exists( $selected_import['local_import_file'] ) ) {
 echo "\n📊 Starting import...\n";
 echo "--------------------\n";
 
-// Use the WordPress Importer directly
-if ( ! class_exists( 'WP_Importer' ) ) {
-    $class_wp_importer = WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php';
-    if ( file_exists( $class_wp_importer ) ) {
-        require $class_wp_importer;
-    } else {
-        die( "❌ WordPress Importer plugin not found!\n" );
-    }
-}
+// Create logger instance
+$logger = new \OCDI\Logger();
 
-// Create WordPress importer instance
-if ( class_exists( 'WP_Import' ) ) {
-    $wp_import = new WP_Import();
-    $wp_import->fetch_attachments = false;
-    
-    echo "📄 Importing content using WordPress Importer...\n";
-    
-    ob_start();
-    $wp_import->import( $selected_import['local_import_file'] );
-    $output = ob_get_clean();
-    
-    echo "✅ Import completed!\n";
-} else {
-    die( "❌ WP_Import class not found!\n" );
-}
+// Create importer instance with options
+$importer = new \OCDI\Importer( array( 
+    'fetch_attachments' => false,
+    'default_author' => 1,
+), $logger );
+
+// Import content
+echo "📄 Importing content with OCDI Importer...\n";
+$importer->import_content( $selected_import['local_import_file'] );
+
+echo "\n✅ Content imported!\n";
 
 // Run after import actions
 echo "\n🔧 Running after import actions...\n";
@@ -121,5 +110,5 @@ foreach ( $elementor_pages as $page ) {
     $data = get_post_meta( $page->ID, '_elementor_data', true );
     $sections = json_decode( $data, true );
     $section_count = is_array( $sections ) ? count( $sections ) : 0;
-    echo "  - " . $page->post_title . " (" . $section_count . " sections)\n";
+    echo "  - " . $page->post_title . " (". $section_count . " sections)\n";
 }
