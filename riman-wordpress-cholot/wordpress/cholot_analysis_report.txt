@@ -1,0 +1,96 @@
+CHOLOT XML ANALYSIS REPORT
+==================================================
+Generated: 2025-08-28T18:58:05.656942
+Source XML: /Users/holgerbrandt/Downloads/cholot-retirement-community-wordpress-theme11/documentation/sample_data/demo-data.xml
+
+SUMMARY
+--------------------
+total_items         : 65
+pages               : 8
+posts               : 8
+attachments         : 27
+nav_menu_items      : 11
+elementor_library   : 7
+custom_post_types   : 4
+other               : 0
+
+POST TYPE BREAKDOWN
+--------------------
+attachment          : 27
+footer              : 1
+nav_menu_item       : 11
+header              : 2
+elementor_library   : 7
+page                : 8
+post                : 8
+wpcf7_contact_form  : 1
+
+ELEMENTOR DATA ANALYSIS
+--------------------
+Pages with Elementor: 7
+Posts with Elementor: 8
+Total Elementor structures: 25
+
+ELEMENTOR WIDGET TYPES FOUND
+--------------------
+  • cholot-button-text
+  • cholot-contact
+  • cholot-gallery
+  • cholot-logo
+  • cholot-menu
+  • cholot-post-four
+  • cholot-post-three
+  • cholot-sidebar
+  • cholot-team
+  • cholot-testimonial-two
+  • cholot-text-line
+  • cholot-texticon
+  • cholot-title
+  • divider
+  • google_maps
+  • icon
+  • icon-list
+  • image
+  • image-carousel
+  • rdn-slider
+  • social-icons
+  • text-editor
+  • video
+
+CHOLOT-SPECIFIC WIDGETS
+--------------------
+  🎯 cholot-button-text
+  🎯 cholot-contact
+  🎯 cholot-gallery
+  🎯 cholot-logo
+  🎯 cholot-menu
+  🎯 cholot-post-four
+  🎯 cholot-post-three
+  🎯 cholot-sidebar
+  🎯 cholot-team
+  🎯 cholot-testimonial-two
+  🎯 cholot-text-line
+  🎯 cholot-texticon
+  🎯 cholot-title
+
+PAGES WITH ELEMENTOR DATA
+--------------------
+  • Home (ID: 6)
+  • About (ID: 179)
+  • Service (ID: 251)
+  • Contact (ID: 289)
+  • Independent living (ID: 365)
+  • Assited living (ID: 374)
+  • Blog (ID: 429)
+
+TAXONOMIES
+--------------------
+Categories: 3
+Tags: 7
+Custom Terms: 3
+
+CUSTOM POST TYPES
+--------------------
+  • footer
+  • header
+  • wpcf7_contact_form

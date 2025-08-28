@@ -1,0 +1,180 @@
+{
+  "_elementor_edit_mode": "builder",
+  "_elementor_template_type": "post",
+  "_elementor_version": "2.6.2",
+  "_elementor_data": "[{\"id\":\"460a83c1\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\"},\"elements\":[{\"id\":\"12591832\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"1995b626\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. <\\/p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray<\\/p>\",\"drop_cap\":\"yes\",\"drop_cap_primary_color\":\"#b68c2f\",\"drop_cap_size\":{\"unit\":\"px\",\"size\":6},\"drop_cap_space\":{\"unit\":\"px\",\"size\":10},\"drop_cap_border_radius\":{\"unit\":\"px\",\"size\":0},\"drop_cap_typography_typography\":\"custom\",\"drop_cap_typography_font_family\":\"Playfair Display\",\"drop_cap_typography_font_size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"-30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"910d50a\",\"elType\":\"widget\",\"settings\":{\"editor\":\"\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"399c816a\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\"},\"elements\":[{\"id\":\"354364d5\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"3284a101\",\"elType\":\"widget\",\"settings\":{\"carousel\":[{\"id\":236,\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/1.jpg\"},{\"id\":240,\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/4.jpg\"},{\"id\":239,\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/3.jpg\"}],\"thumbnail_size\":\"full\",\"slides_to_show\":\"2\",\"slides_to_scroll\":\"1\",\"navigation\":\"none\"},\"elements\":[],\"widgetType\":\"image-carousel\"},{\"id\":\"6ecdf9f2\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\\\"#\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">knausgaard<\\/a>.<\\/p>\",\"_margin\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"37dcb20e\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\"},\"elements\":[{\"id\":\"64874962\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"278084af\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/2.jpg\",\"id\":237}},\"elements\":[],\"widgetType\":\"image\"},{\"id\":\"58d2f514\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.<\\/p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false}]",
+  "_elementor_data_parsed": [
+    {
+      "id": "460a83c1",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "12591832",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "1995b626",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "drop_cap": "yes",
+                "drop_cap_primary_color": "#b68c2f",
+                "drop_cap_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "drop_cap_space": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "drop_cap_border_radius": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_family": "Playfair Display",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "910d50a",
+              "elType": "widget",
+              "settings": {
+                "editor": ""
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "399c816a",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "354364d5",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "3284a101",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "6ecdf9f2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "37dcb20e",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "64874962",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "278084af",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg",
+                  "id": 237
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "58d2f514",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "_elementor_elements_usage": "a:5:{s:11:\"text-editor\";i:4;s:6:\"column\";i:3;s:7:\"section\";i:3;s:14:\"image-carousel\";i:1;s:5:\"image\";i:1;}"
+}

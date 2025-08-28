@@ -1,0 +1,197 @@
+{
+  "_elementor_edit_mode": "builder",
+  "_elementor_template_type": "post",
+  "_elementor_version": "2.6.2",
+  "_elementor_data": "[{\"id\":\"a9650e7\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\"},\"elements\":[{\"id\":\"1ac0fba\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"a9184b5\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack<\\/i><\\/u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.<\\/p>\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"-30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"b8722ee\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Lomo neutra actually man braid williamsburg, snackwave franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache<\\/i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray<\\/p>\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"e806d62\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\"},\"elements\":[{\"id\":\"6d39095\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"925e871\",\"elType\":\"widget\",\"settings\":{\"carousel\":[{\"id\":236,\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/1.jpg\"},{\"id\":240,\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/4.jpg\"},{\"id\":239,\"url\":\"https:\\/\\/theme.winnertheme.com\\/cholot\\/wp-content\\/uploadz\\/2019\\/07\\/3.jpg\"}],\"thumbnail_size\":\"full\",\"slides_to_show\":\"2\",\"slides_to_scroll\":\"1\",\"navigation\":\"none\"},\"elements\":[],\"widgetType\":\"image-carousel\"},{\"id\":\"0dc5699\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\\\"#\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">knausgaard<\\/a>.<\\/p>\",\"_margin\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"7deb9b5\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":0,\"bottom\":\"0\",\"left\":0,\"isLinked\":false}},\"elements\":[{\"id\":\"805b1c3\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null,\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"8e8ecc2\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before they sold out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deepschlitz pop-up duis keffiyeh seitan coloring book.<\\/p><\\/blockquote>\",\"_margin\":{\"unit\":\"px\",\"top\":\"-30\",\"right\":\"0\",\"bottom\":\"-30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"3e0d6bf\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.<\\/p>\",\"_margin\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false}]",
+  "_elementor_data_parsed": [
+    {
+      "id": "a9650e7",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "1ac0fba",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "a9184b5",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "b8722ee",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Lomo neutra actually man braid williamsburg, snackwave franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e806d62",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "6d39095",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "925e871",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "0dc5699",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7deb9b5",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "805b1c3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "8e8ecc2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before they sold out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deepschlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "-30",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "3e0d6bf",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "_elementor_elements_usage": "a:4:{s:11:\"text-editor\";i:5;s:6:\"column\";i:3;s:7:\"section\";i:3;s:14:\"image-carousel\";i:1;}"
+}
