@@ -1,15 +1,14 @@
 {
-  "timestamp": "2025-08-28 23:31:57",
+  "timestamp": "2025-08-28 23:45:01",
   "passed": [
     "Strukturelle Flexibilit\u00e4t",
     "Komponenten-Wiederverwendung",
     "Design-Anpassung",
+    "Inhaltliche Kontrolle",
     "Library-Erweiterbarkeit",
     "XML-Generation",
     "Elementor-Kompatibilit\u00e4t"
   ],
-  "failed": [
-    "Inhaltliche Kontrolle"
-  ],
-  "success_rate": 85.71428571428571
+  "failed": [],
+  "success_rate": 100.0
 }

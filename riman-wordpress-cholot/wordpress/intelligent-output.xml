@@ -9,11 +9,11 @@
     <item>
       <title>Test Page 2</title>
       <link>http://test/test-page-2</link>
-      <pubDate>Thu, 28 Aug 2025 23:31:57 +0000</pubDate>
+      <pubDate>Thu, 28 Aug 2025 23:45:01 +0000</pubDate>
       <dc:creator>admin</dc:creator>
-      <guid isPermaLink="false">/?page_id=2185</guid>
-      <wp:post_id>2185</wp:post_id>
-      <wp:post_date>2025-08-28 23:31:57</wp:post_date>
+      <guid isPermaLink="false">/?page_id=3163</guid>
+      <wp:post_id>3163</wp:post_id>
+      <wp:post_date>2025-08-28 23:45:01</wp:post_date>
       <wp:post_name>test-page-2</wp:post_name>
       <wp:status>publish</wp:status>
       <wp:post_type>page</wp:post_type>
