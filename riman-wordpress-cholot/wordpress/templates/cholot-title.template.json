@@ -1,0 +1,51 @@
+{
+  "id": "7801ff38",
+  "settings": {
+    "title": "{{title}}",
+    "desc_typography_typography": "custom",
+    "desc_typography_font_size": {
+      "unit": "px",
+      "size": 35,
+      "sizes": []
+    },
+    "desc_typography_font_weight": "700",
+    "desc_typography_line_height": {
+      "unit": "em",
+      "size": 1.1,
+      "sizes": []
+    },
+    "_z_index": 1,
+    "align": "left",
+    "desc_typography_font_size_mobile": {
+      "unit": "px",
+      "size": 25,
+      "sizes": []
+    },
+    "title_color": "#000000",
+    "title_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "desc_typography_font_family": "Playfair Display",
+    "_margin": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": false
+    },
+    "span_title_typo_typography": "custom",
+    "span_title_typo_font_weight": "400",
+    "span_title_typo_font_style": "italic",
+    "span_title_color": "#000000"
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "cholot-title",
+  "elType": "widget"
+}

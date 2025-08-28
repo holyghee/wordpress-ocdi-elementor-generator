@@ -1,0 +1,50 @@
+{
+  "rdn-slider": {
+    "template_file": "templates/rdn-slider.template.json",
+    "instance_count": 1
+  },
+  "image": {
+    "template_file": "templates/image.template.json",
+    "instance_count": 6
+  },
+  "cholot-texticon": {
+    "template_file": "templates/cholot-texticon.template.json",
+    "instance_count": 7
+  },
+  "video": {
+    "template_file": "templates/video.template.json",
+    "instance_count": 1
+  },
+  "text-editor": {
+    "template_file": "templates/text-editor.template.json",
+    "instance_count": 7
+  },
+  "cholot-title": {
+    "template_file": "templates/cholot-title.template.json",
+    "instance_count": 4
+  },
+  "divider": {
+    "template_file": "templates/divider.template.json",
+    "instance_count": 4
+  },
+  "cholot-team": {
+    "template_file": "templates/cholot-team.template.json",
+    "instance_count": 3
+  },
+  "cholot-testimonial-two": {
+    "template_file": "templates/cholot-testimonial-two.template.json",
+    "instance_count": 1
+  },
+  "icon": {
+    "template_file": "templates/icon.template.json",
+    "instance_count": 3
+  },
+  "cholot-text-line": {
+    "template_file": "templates/cholot-text-line.template.json",
+    "instance_count": 3
+  },
+  "cholot-contact": {
+    "template_file": "templates/cholot-contact.template.json",
+    "instance_count": 1
+  }
+}

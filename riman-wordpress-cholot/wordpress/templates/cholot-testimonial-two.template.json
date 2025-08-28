@@ -1,0 +1,189 @@
+{
+  "id": "72642213",
+  "settings": {
+    "show_desktop": 3,
+    "testi_list": [
+      {
+        "title": "{{testimonial_name}}",
+        "position": "{{testimonial_position}}",
+        "text": "{{testimonial_text}}",
+        "_id": "165689e",
+        "image": {
+          "url": "{{testimonial_image_url}}",
+          "id": "{{testimonial_image_id}}"
+        },
+        "image2_size": "thumbnail"
+      }
+    ],
+    "title_typography_typography": "custom",
+    "title_typography_font_size": {
+      "unit": "px",
+      "size": 16,
+      "sizes": []
+    },
+    "title_typography_font_size_mobile": {
+      "unit": "px",
+      "size": 15,
+      "sizes": []
+    },
+    "title_typography_line_height": {
+      "unit": "em",
+      "size": 1.6,
+      "sizes": []
+    },
+    "name_color": "#ffffff",
+    "name_typography_typography": "custom",
+    "name_typography_font_family": "Source Sans Pro",
+    "name_typography_font_size": {
+      "unit": "px",
+      "size": 17,
+      "sizes": []
+    },
+    "name_typography_font_size_mobile": {
+      "unit": "px",
+      "size": 16,
+      "sizes": []
+    },
+    "name_typography_font_weight": "700",
+    "name_typography_text_transform": "uppercase",
+    "post_color": "#b68c2f",
+    "post_typography_typography": "custom",
+    "post_typography_font_size": {
+      "unit": "px",
+      "size": 14,
+      "sizes": []
+    },
+    "post_typography_font_size_mobile": {
+      "unit": "px",
+      "size": 12,
+      "sizes": []
+    },
+    "post_typography_font_weight": "400",
+    "post_typography_font_style": "normal",
+    "image_border_border": "solid",
+    "image_border_width": {
+      "unit": "px",
+      "top": "3",
+      "right": "3",
+      "bottom": "3",
+      "left": "3",
+      "isLinked": true
+    },
+    "image_border_width_mobile": {
+      "unit": "px",
+      "top": "2",
+      "right": "2",
+      "bottom": "2",
+      "left": "2",
+      "isLinked": true
+    },
+    "image_border_color": "#ffffff",
+    "img_size": {
+      "unit": "px",
+      "size": 50,
+      "sizes": []
+    },
+    "img_size_mobile": {
+      "unit": "px",
+      "size": 40,
+      "sizes": []
+    },
+    "img_radius": {
+      "unit": "px",
+      "top": "200",
+      "right": "200",
+      "bottom": "200",
+      "left": "200",
+      "isLinked": true
+    },
+    "_margin": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "content-align": "center",
+    "post_typography_text_transform": "none",
+    "testi_box_border_width": {
+      "unit": "px",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+    },
+    "testi_box_border_color": "#b68c2f",
+    "testi_box_bg": "rgba(255,255,255,0)",
+    "icon_fsize": {
+      "unit": "px",
+      "size": 15,
+      "sizes": []
+    },
+    "icon_size": {
+      "unit": "px",
+      "size": 40,
+      "sizes": []
+    },
+    "icon_lheight": {
+      "unit": "px",
+      "size": 40,
+      "sizes": []
+    },
+    "text_bgcolor": "rgba(255,255,255,0.08)",
+    "textbox_padding": {
+      "unit": "px",
+      "top": "30",
+      "right": "30",
+      "bottom": "30",
+      "left": "30",
+      "isLinked": true
+    },
+    "text_radius": {
+      "unit": "px",
+      "top": "10",
+      "right": "10",
+      "bottom": "10",
+      "left": "10",
+      "isLinked": true
+    },
+    "testi_icon_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "textbox_margin": {
+      "unit": "px",
+      "top": "-20",
+      "right": "0",
+      "bottom": "30",
+      "left": "0",
+      "isLinked": false
+    },
+    "title_color": "#ffffff",
+    "testi_box_margin": {
+      "unit": "px",
+      "top": "15",
+      "right": "15",
+      "bottom": "15",
+      "left": "15",
+      "isLinked": true
+    },
+    "testi_box_padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    }
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "cholot-testimonial-two",
+  "elType": "widget"
+}

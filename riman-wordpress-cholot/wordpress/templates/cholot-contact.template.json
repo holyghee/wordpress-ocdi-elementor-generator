@@ -1,0 +1,66 @@
+{
+  "id": "24ed971",
+  "settings": {
+    "shortcode": "{{shortcode}}",
+    "btn_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "-30",
+      "left": "0",
+      "isLinked": false
+    },
+    "btn_padding": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "btn_typography_typography": "custom",
+    "btn_typography_font_weight": "700",
+    "btn_typography_text_transform": "uppercase",
+    "btn_border_radius": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "btn_typography_font_size": {
+      "unit": "px",
+      "size": 14,
+      "sizes": []
+    },
+    "btn_color": "#ffffff",
+    "btn_color_hover": "#ffffff",
+    "btn_bg": "rgba(0,0,0,0)",
+    "btn_bg_hover": "#b68c2f",
+    "btn_border": {
+      "unit": "px",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+    },
+    "btn_border_color": "#b68c2f",
+    "btn_width": "100%",
+    "form_placeholder": "#ffffff",
+    "form_bg": "rgba(0,0,0,0)",
+    "form_border_color": "#ffffff",
+    "form_border_color_active": "#b68c2f",
+    "btn_typography_letter_spacing": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "form_text": "#ffffff"
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "cholot-contact",
+  "elType": "widget"
+}

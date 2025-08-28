@@ -1,0 +1,229 @@
+{
+  "id": "2473e36c",
+  "settings": {
+    "title": "{{title}}",
+    "text": "{{content}}",
+    "image": {
+      "url": "{{image_url}}",
+      "id": "{{image_id}}"
+    },
+    "team_height": {
+      "unit": "px",
+      "size": 420,
+      "sizes": []
+    },
+    "team_icon": [
+      {
+        "icon": "fa fa-facebook",
+        "_id": "1dbd354"
+      }
+    ],
+    "content_align": "left",
+    "titlep_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "5",
+      "left": "0",
+      "isLinked": false
+    },
+    "txt_cl": "#b68c2f",
+    "icon_color": "#23a455",
+    "icon_opacity": {
+      "unit": "px",
+      "size": 1,
+      "sizes": []
+    },
+    "icon_radius": {
+      "unit": "%",
+      "top": "100",
+      "right": "100",
+      "bottom": "100",
+      "left": "100",
+      "isLinked": true
+    },
+    "icon_size": {
+      "unit": "px",
+      "size": 15,
+      "sizes": []
+    },
+    "icon_padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+    },
+    "icon_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "3",
+      "bottom": "0",
+      "left": "3",
+      "isLinked": false
+    },
+    "cport_typography_typography": "custom",
+    "cport_typography_text_transform": "capitalize",
+    "mask_color": "#000000",
+    "mask_color_opacity": {
+      "unit": "px",
+      "size": 0.8,
+      "sizes": []
+    },
+    "ctext_typography_typography": "custom",
+    "port_padding": {
+      "unit": "px",
+      "top": "30",
+      "right": "30",
+      "bottom": "30",
+      "left": "30",
+      "isLinked": true
+    },
+    "ctext_typography_font_size": {
+      "unit": "px",
+      "size": 15,
+      "sizes": []
+    },
+    "ctext_typography_font_weight": "normal",
+    "port_border_width": {
+      "unit": "px",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+    },
+    "icon_bg": "#651f7a",
+    "social_icon_list": [
+      {
+        "social_icon": {
+          "value": "{{social_icon}}",
+          "library": "fa-brands"
+        },
+        "_id": "e17bdfd",
+        "link": {
+          "url": "{{social_link}}"
+        },
+        "item_icon_color": "custom",
+        "item_icon_primary_color": "rgba(0,0,0,0)",
+        "item_icon_secondary_color": "#000000"
+      }
+    ],
+    "hover_animation": "shrink",
+    "port_content": {
+      "unit": "px",
+      "top": "-80",
+      "right": "15",
+      "bottom": "0",
+      "left": "15",
+      "isLinked": false
+    },
+    "cport_typography_line_height": {
+      "unit": "em",
+      "size": 1,
+      "sizes": []
+    },
+    "titlep_padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+    },
+    "ctext_typography_line_height": {
+      "unit": "em",
+      "size": 1,
+      "sizes": []
+    },
+    "tx_padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "tx_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "bg_content": "#1f1f1f",
+    "title_cl": "#000000",
+    "cport_typography_font_size": {
+      "unit": "px",
+      "size": 18,
+      "sizes": []
+    },
+    "icon_hcolor": "#000000",
+    "_margin": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+    },
+    "selected_icon": {
+      "value": "fas fa-feather-alt",
+      "library": "fa-solid"
+    },
+    "bg_icon_color": "#b68c2f",
+    "bg_icon_size": {
+      "unit": "px",
+      "size": 110,
+      "sizes": []
+    },
+    "bg_icon_rotate": {
+      "unit": "px",
+      "size": 10,
+      "sizes": []
+    },
+    "image_position_tablet": "center center",
+    "port_content_hover": {
+      "unit": "px",
+      "top": "-80",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "box_shadow_box_shadow": {
+      "horizontal": 0,
+      "vertical": 8,
+      "blur": 14,
+      "spread": 4,
+      "color": "rgba(175,175,175,0.27)"
+    },
+    "box_shadow_hover_box_shadow_type": "yes",
+    "box_shadow_hover_box_shadow": {
+      "horizontal": 0,
+      "vertical": 0,
+      "blur": 0,
+      "spread": 0,
+      "color": "rgba(0,0,0,0)"
+    },
+    "background_background": "classic",
+    "background_color": "#f4f4f4",
+    "background_position": "center left",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_bg_width": {
+      "unit": "px",
+      "size": 60,
+      "sizes": []
+    },
+    "box_shadow_box_shadow_type": "yes",
+    "port_border_border": "solid",
+    "port_border_color": "#b68c2f"
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "cholot-team",
+  "elType": "widget"
+}

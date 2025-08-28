@@ -1,0 +1,27 @@
+{
+  "id": "206f4711",
+  "settings": {
+    "weight": {
+      "unit": "px",
+      "size": 2,
+      "sizes": []
+    },
+    "color": "#b68c2f",
+    "width": {
+      "unit": "px",
+      "size": 50,
+      "sizes": []
+    },
+    "align": "left",
+    "gap": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "text": "{{content}}"
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "divider",
+  "elType": "widget"
+}

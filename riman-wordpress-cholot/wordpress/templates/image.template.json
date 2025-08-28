@@ -1,0 +1,27 @@
+{
+  "id": "4b22211b",
+  "settings": {
+    "image": {
+      "url": "{{image_url}}",
+      "id": "{{image_id}}"
+    },
+    "opacity": {
+      "unit": "px",
+      "size": 1,
+      "sizes": []
+    },
+    "_border_width": {
+      "unit": "px",
+      "top": "4",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "_border_color": "#b68c2f"
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "image",
+  "elType": "widget"
+}

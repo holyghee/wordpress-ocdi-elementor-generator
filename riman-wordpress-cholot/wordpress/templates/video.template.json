@@ -1,0 +1,26 @@
+{
+  "id": "6c811346",
+  "settings": {
+    "youtube_url": "{{youtube_url}}",
+    "vimeo_url": "{{vimeo_url}}",
+    "dailymotion_url": "{{dailymotion_url}}",
+    "show_image_overlay": "yes",
+    "image_overlay": {
+      "url": "{{image_url}}",
+      "id": "{{image_id}}"
+    },
+    "lightbox": "yes",
+    "play_icon_color": "#ffffff",
+    "play_icon_size": {
+      "unit": "px",
+      "size": 40,
+      "sizes": []
+    },
+    "lightbox_content_animation": "zoomIn",
+    "videopress_url": "{{videopress_url}}"
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "video",
+  "elType": "widget"
+}

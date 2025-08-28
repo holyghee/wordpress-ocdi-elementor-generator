@@ -1,0 +1,38 @@
+{
+  "id": "449a16f9",
+  "settings": {
+    "editor": "{{content}}",
+    "text_color": "#b68c2f",
+    "typography_typography": "custom",
+    "typography_text_transform": "uppercase",
+    "typography_font_style": "normal",
+    "_margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "-30",
+      "left": "0",
+      "isLinked": false
+    },
+    "typography_font_size": {
+      "unit": "px",
+      "size": 15,
+      "sizes": []
+    },
+    "typography_line_height": {
+      "unit": "em",
+      "size": 1,
+      "sizes": []
+    },
+    "typography_font_weight": "700",
+    "typography_letter_spacing": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    }
+  },
+  "elements": [],
+  "isInner": false,
+  "widgetType": "text-editor",
+  "elType": "widget"
+}
