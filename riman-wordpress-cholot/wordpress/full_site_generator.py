@@ -32,7 +32,7 @@ class FullSiteGenerator:
         self.item_counter += 1
         return self.item_counter
     
-    def process_yaml_to_wordpress(self, yaml_path: str) -> tuple[Dict, ET.Element]:
+    def process_yaml_to_wordpress(self, yaml_path: str) -> tuple:
         """Convert YAML to complete WordPress site structure"""
         # Load YAML config
         with open(yaml_path, 'r', encoding='utf-8') as f:
