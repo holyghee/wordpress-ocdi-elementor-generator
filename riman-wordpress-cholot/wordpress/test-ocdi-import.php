@@ -37,20 +37,31 @@ if ( ! file_exists( $selected_import['local_import_file'] ) ) {
 echo "\n📊 Starting import...\n";
 echo "--------------------\n";
 
-// Create OCDI instance
-$ocdi = \OCDI\OneClickDemoImport::get_instance();
+// Use the WordPress Importer directly
+if ( ! class_exists( 'WP_Importer' ) ) {
+    $class_wp_importer = WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php';
+    if ( file_exists( $class_wp_importer ) ) {
+        require $class_wp_importer;
+    } else {
+        die( "❌ WordPress Importer plugin not found!\n" );
+    }
+}
 
-// Set selected import files
-$ocdi->import_files = $import_files;
-$ocdi->selected_index = 0;
-
-// Create importer instance
-$logger = new \OCDI\Logger();
-$importer_instance = new \OCDI\Importer( array( 'fetch_attachments' => false ), $logger );
-
-// Import content
-echo "📄 Importing content...\n";
-$importer_instance->import_content( $selected_import['local_import_file'] );
+// Create WordPress importer instance
+if ( class_exists( 'WP_Import' ) ) {
+    $wp_import = new WP_Import();
+    $wp_import->fetch_attachments = false;
+    
+    echo "📄 Importing content using WordPress Importer...\n";
+    
+    ob_start();
+    $wp_import->import( $selected_import['local_import_file'] );
+    $output = ob_get_clean();
+    
+    echo "✅ Import completed!\n";
+} else {
+    die( "❌ WP_Import class not found!\n" );
+}
 
 // Run after import actions
 echo "\n🔧 Running after import actions...\n";
