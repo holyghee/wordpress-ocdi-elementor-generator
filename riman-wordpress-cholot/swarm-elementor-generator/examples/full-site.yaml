@@ -1,0 +1,394 @@
+# Full WordPress Site Configuration
+# Complete website with pages, posts, menus, and media
+
+site:
+  title: "Corporate Website"
+  description: "Professional Business Website with Blog"
+  base_url: "https://corporate-site.com"
+  language: "de-DE"
+
+# Authors for posts
+authors:
+  - id: 1
+    login: admin
+    email: admin@corporate-site.com
+    display_name: Administrator
+  - id: 2
+    login: editor
+    email: editor@corporate-site.com
+    display_name: Content Editor
+
+# Categories for blog posts
+categories:
+  - id: 1
+    slug: uncategorized
+    name: Uncategorized
+  - id: 2
+    slug: news
+    name: News
+  - id: 3
+    slug: updates
+    name: Company Updates
+  - id: 4
+    slug: insights
+    name: Industry Insights
+
+# Tags for blog posts
+tags:
+  - id: 10
+    slug: innovation
+    name: Innovation
+  - id: 11
+    slug: technology
+    name: Technology
+  - id: 12
+    slug: business
+    name: Business
+  - id: 13
+    slug: team
+    name: Team
+
+# Navigation menus
+menus:
+  - id: 20
+    slug: main-menu
+    name: Main Menu
+    items:
+      - title: Home
+        url: "/"
+        type: custom
+        object: custom
+        classes: []
+      - title: About
+        url: "/about"
+        type: post_type
+        object: page
+        object_id: 101
+      - title: Services
+        url: "/services"
+        type: post_type
+        object: page
+        object_id: 102
+        # Submenu items
+      - title: Web Development
+        url: "/services/web-development"
+        type: post_type
+        object: page
+        object_id: 103
+        parent: 3  # Services menu item
+      - title: Consulting
+        url: "/services/consulting"
+        type: post_type
+        object: page
+        object_id: 104
+        parent: 3
+      - title: Blog
+        url: "/blog"
+        type: post_type
+        object: page
+        object_id: 105
+      - title: Contact
+        url: "/contact"
+        type: post_type
+        object: page
+        object_id: 106
+
+# Media attachments
+media:
+  - url: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+    title: "Office Hero Image"
+  - url: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80"
+    title: "Team Meeting"
+  - url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    title: "Collaboration"
+
+# Pages with different templates
+pages:
+  # Homepage with Elementor
+  - title: "Welcome to Our Company"
+    slug: "home"
+    status: "publish"
+    template: "elementor_canvas"
+    featured_image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+    sections:
+      - type: "hero_slider"
+        slides:
+          - title: "Welcome to <span>Corporate</span> Excellence"
+            subtitle: "Leading Innovation Since 2000"
+            text: "We deliver cutting-edge solutions for modern businesses."
+            button_text: "Get Started"
+            button_link: "#services"
+            image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+      
+      - type: "service_cards"
+        title: "Our Services"
+        subtitle: "What We Offer"
+        services:
+          - title: "Web Development"
+            subtitle: "Modern Solutions"
+            text: "Custom web applications built with latest technologies."
+            icon: "fas fa-code"
+          - title: "Consulting"
+            subtitle: "Expert Advice"
+            text: "Strategic business consulting for growth."
+            icon: "fas fa-chart-line"
+          - title: "Digital Marketing"
+            subtitle: "Online Presence"
+            text: "Comprehensive digital marketing strategies."
+            icon: "fas fa-bullhorn"
+          - title: "Support"
+            subtitle: "24/7 Available"
+            text: "Round-the-clock technical support."
+            icon: "fas fa-headset"
+  
+  # About page
+  - title: "About Us"
+    slug: "about"
+    status: "publish"
+    template: "default"
+    featured_image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80"
+    content: |
+      <h2>Our Story</h2>
+      <p>Founded in 2000, we have been at the forefront of digital innovation for over two decades. Our team of experts is dedicated to delivering exceptional results for our clients.</p>
+      
+      <h3>Our Mission</h3>
+      <p>To empower businesses through innovative technology solutions and strategic consulting, helping them thrive in the digital age.</p>
+      
+      <h3>Our Values</h3>
+      <ul>
+        <li>Innovation - We embrace new technologies and creative solutions</li>
+        <li>Quality - We deliver excellence in everything we do</li>
+        <li>Integrity - We conduct business with honesty and transparency</li>
+        <li>Partnership - We build lasting relationships with our clients</li>
+      </ul>
+  
+  # Services main page
+  - title: "Services"
+    slug: "services"
+    status: "publish"
+    parent: 0
+    content: |
+      <h2>Our Professional Services</h2>
+      <p>We offer a comprehensive range of services to help your business succeed in the digital landscape.</p>
+  
+  # Service subpages
+  - title: "Web Development"
+    slug: "services/web-development"
+    status: "publish"
+    parent: 102  # Services page
+    content: |
+      <h2>Custom Web Development</h2>
+      <p>We create powerful, scalable web applications tailored to your business needs.</p>
+      <ul>
+        <li>Frontend Development (React, Vue, Angular)</li>
+        <li>Backend Development (Node.js, Python, PHP)</li>
+        <li>E-commerce Solutions</li>
+        <li>API Development and Integration</li>
+        <li>Progressive Web Apps</li>
+      </ul>
+  
+  - title: "Consulting"
+    slug: "services/consulting"
+    status: "publish"
+    parent: 102
+    content: |
+      <h2>Strategic Business Consulting</h2>
+      <p>Our expert consultants help you navigate digital transformation and achieve your business goals.</p>
+  
+  # Blog page
+  - title: "Blog"
+    slug: "blog"
+    status: "publish"
+    template: "default"
+    content: "<!-- Blog posts will be displayed here -->"
+  
+  # Contact page with Elementor
+  - title: "Contact Us"
+    slug: "contact"
+    status: "publish"
+    template: "elementor_canvas"
+    sections:
+      - type: "contact"
+        title: "Get in Touch"
+        subtitle: "We'd love to hear from you"
+        text: "Have a project in mind? Let's discuss how we can help your business grow."
+        background_color: "#2c3e50"
+        info:
+          - icon: "fas fa-phone"
+            label: "Phone"
+            value: "+49 (0) 30 123456789"
+          - icon: "fas fa-envelope"
+            label: "Email"
+            value: "info@corporate-site.com"
+          - icon: "fas fa-map-marker-alt"
+            label: "Address"
+            value: "Friedrichstraße 123, 10117 Berlin"
+
+# Blog posts
+posts:
+  - title: "Announcing Our New AI-Powered Platform"
+    slug: "new-ai-platform-announcement"
+    author: "admin"
+    status: "publish"
+    sticky: true
+    featured_image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    categories: ["news", "updates"]
+    tags: ["innovation", "technology"]
+    excerpt: "We're excited to introduce our revolutionary AI-powered platform that transforms how businesses operate."
+    content: |
+      <p>Today marks a significant milestone in our company's journey as we unveil our latest innovation - an AI-powered platform designed to revolutionize business operations.</p>
+      
+      <h3>Key Features</h3>
+      <ul>
+        <li>Intelligent automation of routine tasks</li>
+        <li>Predictive analytics for better decision-making</li>
+        <li>Natural language processing for improved customer interactions</li>
+        <li>Machine learning algorithms that adapt to your business needs</li>
+      </ul>
+      
+      <p>This platform represents months of research and development by our dedicated team of engineers and data scientists. We believe it will fundamentally change how our clients approach their digital strategy.</p>
+      
+      <blockquote>
+        <p>"This is not just another product launch - it's a paradigm shift in how we think about business intelligence and automation." - CEO</p>
+      </blockquote>
+      
+      <p>Stay tuned for more updates as we roll out this exciting new platform to our clients.</p>
+
+  - title: "5 Digital Transformation Trends for 2024"
+    slug: "digital-transformation-trends-2024"
+    author: "editor"
+    status: "publish"
+    categories: ["insights"]
+    tags: ["business", "technology"]
+    excerpt: "Explore the key digital transformation trends that will shape business strategy in 2024."
+    content: |
+      <p>As we move into 2024, digital transformation continues to be a critical priority for businesses across all industries. Here are five trends that will define the landscape:</p>
+      
+      <h3>1. AI-First Approach</h3>
+      <p>Artificial intelligence is no longer optional - it's becoming the foundation of modern business operations.</p>
+      
+      <h3>2. Hybrid Work Evolution</h3>
+      <p>The hybrid work model continues to evolve with new technologies enabling seamless collaboration.</p>
+      
+      <h3>3. Sustainable Technology</h3>
+      <p>Green IT and sustainable technology practices are becoming essential for responsible business growth.</p>
+      
+      <h3>4. Enhanced Cybersecurity</h3>
+      <p>With increasing digital threats, robust cybersecurity measures are more important than ever.</p>
+      
+      <h3>5. Customer Experience Innovation</h3>
+      <p>Personalized, AI-driven customer experiences are setting new standards for engagement.</p>
+
+  - title: "Welcome Our New Team Members"
+    slug: "new-team-members-2024"
+    author: "admin"
+    status: "publish"
+    categories: ["news", "updates"]
+    tags: ["team"]
+    excerpt: "We're thrilled to welcome talented professionals who are joining our growing team."
+    content: |
+      <p>Our company continues to grow, and we're excited to introduce the newest members of our team who bring fresh perspectives and exceptional expertise.</p>
+      
+      <h3>Meet the Team</h3>
+      <p>This month, we welcomed five new professionals across different departments:</p>
+      <ul>
+        <li><strong>Sarah Johnson</strong> - Senior Developer</li>
+        <li><strong>Michael Chen</strong> - UX Designer</li>
+        <li><strong>Emma Wilson</strong> - Project Manager</li>
+        <li><strong>David Kumar</strong> - Data Analyst</li>
+        <li><strong>Lisa Martinez</strong> - Marketing Specialist</li>
+      </ul>
+      
+      <p>Each of these individuals brings unique skills and experiences that will strengthen our ability to serve our clients better.</p>
+
+  - title: "Case Study: Transforming E-commerce for RetailCo"
+    slug: "case-study-retailco-transformation"
+    author: "editor"
+    status: "publish"
+    categories: ["insights"]
+    tags: ["business", "innovation"]
+    excerpt: "Learn how we helped RetailCo achieve 300% growth through digital transformation."
+    content: |
+      <p>When RetailCo approached us, they were struggling with an outdated e-commerce platform that couldn't scale with their growing business needs.</p>
+      
+      <h3>The Challenge</h3>
+      <p>RetailCo faced several critical challenges:</p>
+      <ul>
+        <li>Legacy system unable to handle peak traffic</li>
+        <li>Poor mobile user experience</li>
+        <li>Limited integration capabilities</li>
+        <li>Inefficient inventory management</li>
+      </ul>
+      
+      <h3>Our Solution</h3>
+      <p>We implemented a comprehensive digital transformation strategy:</p>
+      <ol>
+        <li>Migrated to a cloud-based infrastructure</li>
+        <li>Developed a responsive, mobile-first design</li>
+        <li>Integrated AI-powered recommendation engine</li>
+        <li>Automated inventory management system</li>
+      </ol>
+      
+      <h3>Results</h3>
+      <p>The transformation delivered impressive results within the first year:</p>
+      <ul>
+        <li>300% increase in online sales</li>
+        <li>50% reduction in cart abandonment</li>
+        <li>75% improvement in page load times</li>
+        <li>40% increase in customer retention</li>
+      </ul>
+
+# Header template
+header:
+  title: "Site Header"
+  content: |
+    <div class="site-header">
+      <div class="logo">
+        <img src="/logo.png" alt="Corporate Logo">
+      </div>
+      <nav class="main-navigation">
+        <!-- Navigation menu will be inserted here -->
+      </nav>
+    </div>
+
+# Footer template
+footer:
+  title: "Site Footer"
+  content: |
+    <div class="site-footer">
+      <div class="footer-widgets">
+        <div class="widget">
+          <h3>About Us</h3>
+          <p>Leading digital transformation for businesses worldwide.</p>
+        </div>
+        <div class="widget">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="widget">
+          <h3>Contact Info</h3>
+          <p>Email: info@corporate-site.com<br>
+          Phone: +49 30 123456789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Corporate Website. All rights reserved.</p>
+      </div>
+    </div>
+
+# Contact forms
+forms:
+  - title: "Contact Form"
+    content: |
+      [text* your-name placeholder "Your Name"]
+      [email* your-email placeholder "Your Email"]
+      [tel your-phone placeholder "Phone Number"]
+      [select your-subject "General Inquiry" "Service Request" "Partnership" "Support"]
+      [textarea* your-message placeholder "Tell us about your project..."]
+      [checkbox* privacy-policy "I agree to the privacy policy"]
+      [submit "Send Message"]
