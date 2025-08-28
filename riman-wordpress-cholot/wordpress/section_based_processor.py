@@ -227,13 +227,40 @@ class SectionBasedProcessor:
         # Return both sections as a list
         return [title_section, services_section]
     
-    def _create_team_section(self, config: Dict) -> Dict:
-        """Create team section"""
+    def _create_team_section(self, config: Dict) -> List[Dict]:
+        """Create team section - returns TWO sections: title section + team members section"""
         members = config.get('members', [])
         if not members:
-            return None
+            return []
         
-        columns = []
+        # Section 1: Title (separate section)
+        title_section = {
+            "id": self.generate_unique_id(),
+            "elType": "section",
+            "settings": {
+                "layout": "boxed",
+                "margin": {"unit": "px", "top": 80, "bottom": 40}
+            },
+            "elements": [{
+                "id": self.generate_unique_id(),
+                "elType": "column",
+                "settings": {"_column_size": 100},
+                "elements": [{
+                    "id": self.generate_unique_id(),
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": config.get('title', 'Our Team'),
+                        "size": "xl",
+                        "align": "center",
+                        "title_color": "#232323"
+                    }
+                }]
+            }]
+        }
+        
+        # Section 2: Team members (separate section)
+        team_columns = []
         for member in members[:3]:  # Max 3 members
             column = {
                 "id": self.generate_unique_id(),
@@ -271,32 +298,20 @@ class SectionBasedProcessor:
                     }
                 }]
             }
-            columns.append(column)
+            team_columns.append(column)
         
-        return {
+        team_section = {
             "id": self.generate_unique_id(),
             "elType": "section",
             "settings": {
                 "layout": "boxed",
-                "margin": {"unit": "px", "top": 80, "bottom": 80}
+                "margin": {"unit": "px", "top": 0, "bottom": 80}
             },
-            "elements": [{
-                "id": self.generate_unique_id(),
-                "elType": "column",
-                "settings": {"_column_size": 100},
-                "elements": [{
-                    "id": self.generate_unique_id(),
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                        "title": config.get('title', 'Our Team'),
-                        "size": "xl",
-                        "align": "center",
-                        "title_color": "#232323"
-                    }
-                }]
-            }] + columns
+            "elements": team_columns
         }
+        
+        # Return both sections
+        return [title_section, team_section]
     
     def _create_about_section(self, config: Dict) -> Dict:
         """Create about section with text and image"""
