@@ -1,0 +1,515 @@
+{
+  "generated": "20250828_020850",
+  "text_fields": {
+    "rdn-slider": {
+      "plain_text": [
+        "span_title_typo_font_style",
+        "subtitle_typo_text_transform",
+        "subtitle_typo_typography",
+        "text_color",
+        "title_typo_font_family",
+        "title_typo_typography",
+        "subtitle_typo_font_weight",
+        "text_type_mobile",
+        "span_title_color",
+        "title_typo_font_weight",
+        "subtitle_color",
+        "span_title_typo_font_weight",
+        "title_typo_text_transform",
+        "span_title_typo_typography",
+        "text_typo_typography",
+        "title_color"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "span_title_typo_font_style",
+        "subtitle_typo_text_transform",
+        "subtitle_typo_typography",
+        "text_color",
+        "title_typo_font_family",
+        "title_typo_typography",
+        "subtitle_typo_font_weight",
+        "text_type_mobile",
+        "span_title_color",
+        "title_typo_font_weight",
+        "subtitle_color",
+        "span_title_typo_font_weight",
+        "title_typo_text_transform",
+        "span_title_typo_typography",
+        "text_typo_typography",
+        "title_color"
+      ],
+      "dynamic": []
+    },
+    "cholot-texticon": {
+      "plain_text": [
+        "text_typography_font_style",
+        "btn_text",
+        "subtitle",
+        "title_typography_typography",
+        "subtitle_color",
+        "subtitle_typography_text_transform",
+        "subtitle_typography_font_weight",
+        "subtitle_typography_typography",
+        "title"
+      ],
+      "rich_text": [
+        "text"
+      ],
+      "translatable": [
+        "text_typography_font_style",
+        "btn_text",
+        "subtitle",
+        "title_typography_typography",
+        "subtitle_color",
+        "text",
+        "subtitle_typography_text_transform",
+        "subtitle_typography_font_weight",
+        "subtitle_typography_typography",
+        "title"
+      ],
+      "dynamic": []
+    },
+    "video": {
+      "plain_text": [
+        "lightbox_content_animation"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "lightbox_content_animation"
+      ],
+      "dynamic": []
+    },
+    "text-editor": {
+      "plain_text": [
+        "typography_text_transform",
+        "text_color"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "typography_text_transform",
+        "text_color"
+      ],
+      "dynamic": []
+    },
+    "cholot-title": {
+      "plain_text": [
+        "span_title_typo_font_style",
+        "title_color",
+        "span_title_typo_font_weight",
+        "span_title_typo_typography",
+        "span_title_color"
+      ],
+      "rich_text": [
+        "title"
+      ],
+      "translatable": [
+        "span_title_typo_font_style",
+        "span_title_color",
+        "span_title_typo_font_weight",
+        "span_title_typo_typography",
+        "title_color",
+        "title"
+      ],
+      "dynamic": []
+    },
+    "divider": {
+      "plain_text": [
+        "text"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "text"
+      ],
+      "dynamic": []
+    },
+    "cholot-team": {
+      "plain_text": [
+        "ctext_typography_font_weight",
+        "title_cl",
+        "ctext_typography_typography",
+        "content_align",
+        "bg_content",
+        "text",
+        "cport_typography_text_transform",
+        "title"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "ctext_typography_font_weight",
+        "title_cl",
+        "ctext_typography_typography",
+        "content_align",
+        "bg_content",
+        "text",
+        "cport_typography_text_transform",
+        "title"
+      ],
+      "dynamic": []
+    },
+    "cholot-testimonial-two": {
+      "plain_text": [
+        "text_bgcolor",
+        "name_typography_text_transform",
+        "content-align",
+        "title_typography_typography",
+        "post_typography_text_transform",
+        "title_color"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "text_bgcolor",
+        "name_typography_text_transform",
+        "content-align",
+        "title_typography_typography",
+        "post_typography_text_transform",
+        "title_color"
+      ],
+      "dynamic": []
+    },
+    "cholot-text-line": {
+      "plain_text": [
+        "subtitle",
+        "title_typography_typography",
+        "subtitle_color",
+        "subtitle_typography_text_transform",
+        "subtitle_typography_font_weight",
+        "subtitle_typography_typography",
+        "title"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "subtitle",
+        "title_typography_typography",
+        "subtitle_color",
+        "subtitle_typography_text_transform",
+        "subtitle_typography_font_weight",
+        "subtitle_typography_typography",
+        "title"
+      ],
+      "dynamic": []
+    },
+    "cholot-contact": {
+      "plain_text": [
+        "form_text",
+        "btn_typography_text_transform"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "form_text",
+        "btn_typography_text_transform"
+      ],
+      "dynamic": []
+    },
+    "cholot-button-text": {
+      "plain_text": [
+        "btn_sub_typography_text_transform",
+        "btn_typography_text_transform",
+        "btn_text"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "btn_sub_typography_text_transform",
+        "btn_typography_text_transform",
+        "btn_text"
+      ],
+      "dynamic": []
+    },
+    "icon-list": {
+      "plain_text": [
+        "text_color"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "text_color"
+      ],
+      "dynamic": []
+    },
+    "cholot-post-four": {
+      "plain_text": [
+        "content_bg_position",
+        "content_bg_size",
+        "meta_typo_text_transform",
+        "content_bg_repeat",
+        "text_color",
+        "title_typo_typography",
+        "content_bg",
+        "content_bg_color",
+        "textcontent_border_border",
+        "btn_typography_text_transform",
+        "textcontent_border_color",
+        "content_bg_background"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "content_bg_position",
+        "content_bg_size",
+        "meta_typo_text_transform",
+        "content_bg_repeat",
+        "text_color",
+        "title_typo_typography",
+        "content_bg",
+        "content_bg_color",
+        "textcontent_border_border",
+        "btn_typography_text_transform",
+        "textcontent_border_color",
+        "content_bg_background"
+      ],
+      "dynamic": []
+    },
+    "cholot-gallery": {
+      "plain_text": [
+        "title_show"
+      ],
+      "rich_text": [],
+      "translatable": [
+        "title_show"
+      ],
+      "dynamic": []
+    }
+  },
+  "media_zones": {
+    "rdn-slider": [
+      "icon_align"
+    ],
+    "image": [
+      "image",
+      "background_hover_transition",
+      "image_border_color",
+      "image_size",
+      "image_border_width",
+      "link",
+      "image_custom_dimension"
+    ],
+    "cholot-texticon": [
+      "icon_style",
+      "icon_bg_size",
+      "icon_bordering_color",
+      "icon_bordering_border",
+      "icon_size",
+      "icon_bordering_width",
+      "selected_icon",
+      "iconbg_color",
+      "icon_margin",
+      "icon_lheight",
+      "icon_margin_left",
+      "icon_color",
+      "icon"
+    ],
+    "video": [
+      "show_image_overlay",
+      "play_icon_size",
+      "image_overlay",
+      "videopress_url",
+      "play_icon_color"
+    ],
+    "text-editor": [
+      "_background_background",
+      "_background_color"
+    ],
+    "cholot-team": [
+      "icon_size",
+      "social_icon_list",
+      "icon_hcolor",
+      "background_size",
+      "icon_bg",
+      "image",
+      "bg_icon_size",
+      "bg_icon_rotate",
+      "icon_radius",
+      "icon_opacity",
+      "icon_color",
+      "background_repeat",
+      "team_icon",
+      "background_bg_width",
+      "bg_icon_color",
+      "selected_icon",
+      "background_background",
+      "background_color",
+      "icon_margin",
+      "background_position",
+      "image_position_tablet",
+      "icon_padding"
+    ],
+    "cholot-testimonial-two": [
+      "image_border_border",
+      "image_border_color",
+      "icon_size",
+      "image_border_width_mobile",
+      "icon_lheight",
+      "testi_icon_margin",
+      "image_border_width",
+      "icon_fsize"
+    ],
+    "icon": [
+      "selected_icon",
+      "icon_padding"
+    ],
+    "cholot-text-line": [
+      "_background_repeat",
+      "_background_background",
+      "_background_xpos",
+      "_background_ypos",
+      "icon_bordering_color",
+      "icon_bordering_border",
+      "_background_color",
+      "_background_size",
+      "_background_bg_width",
+      "_background_position",
+      "_background_image",
+      "bg_img"
+    ],
+    "cholot-button-text": [
+      "icon_box_border_color_hover",
+      "icon_border_box_color",
+      "icon_box_padding",
+      "icon_bg_box_color",
+      "selected_icon",
+      "icon_box_color",
+      "icon_border_box_border",
+      "icon_indent",
+      "link",
+      "icon_border_box_width",
+      "icon_box_color_hover"
+    ],
+    "icon-list": [
+      "icon_typography_typography",
+      "icon_typography_font_size",
+      "icon_size",
+      "icon_list",
+      "icon_align_tablet",
+      "icon_color"
+    ],
+    "cholot-post-four": [
+      "icon_border_radius",
+      "icon_size",
+      "content_bg_image",
+      "meta_icon_bg",
+      "icon_wsize",
+      "meta_icon",
+      "content_bg_background"
+    ],
+    "cholot-gallery": [
+      "gallery_height",
+      "gallery_margin",
+      "gallery_height_mobile",
+      "gallery"
+    ]
+  },
+  "seo_fields": {
+    "rdn-slider": [
+      "span_title_typo_font_style",
+      "title_typo_font_family",
+      "subtitle_typo_font_weight",
+      "title_typo_font_size",
+      "span_title_typo_font_weight",
+      "subtitle_typo_font_size",
+      "subtitle_color",
+      "title_color",
+      "span_title_color",
+      "title_typo_font_size_mobile",
+      "subtitle_typo_typography",
+      "subtitle_typo_letter_spacing",
+      "subtitle_typo_text_transform",
+      "title_typo_typography",
+      "title_typo_font_weight",
+      "subtitle_typo_letter_spacing_mobile",
+      "title_typo_line_height",
+      "subtitle_margin",
+      "subtitle_typo_line_height",
+      "title_typo_text_transform",
+      "span_title_typo_typography"
+    ],
+    "cholot-texticon": [
+      "title",
+      "title_typography_font_size",
+      "subtitle",
+      "subtitle_typography_letter_spacing",
+      "title_typography_typography",
+      "subtitle_color",
+      "title_text_margin",
+      "subtitle_typography_text_transform",
+      "subtitle_typography_font_size",
+      "subtitle_typography_font_weight",
+      "subtitle_typography_typography",
+      "title_margin"
+    ],
+    "cholot-title": [
+      "title",
+      "span_title_typo_font_style",
+      "span_title_color",
+      "span_title_typo_font_weight",
+      "span_title_typo_typography",
+      "title_color",
+      "title_margin"
+    ],
+    "cholot-team": [
+      "titlep_margin",
+      "titlep_padding",
+      "title_cl",
+      "title"
+    ],
+    "cholot-testimonial-two": [
+      "title_typography_font_size_mobile",
+      "title_typography_font_size",
+      "title_typography_line_height",
+      "title_typography_typography",
+      "title_color"
+    ],
+    "cholot-text-line": [
+      "title",
+      "title_typography_font_size",
+      "subtitle",
+      "subtitle_typography_letter_spacing",
+      "title_typography_typography",
+      "subtitle_color",
+      "subtitle_typography_text_transform",
+      "subtitle_typography_font_size",
+      "subtitle_typography_font_weight",
+      "subtitle_typography_typography",
+      "title_margin"
+    ],
+    "cholot-post-four": [
+      "meta_typo_text_transform",
+      "meta_link",
+      "meta_typo_typography",
+      "title_typo_typography",
+      "meta_padding",
+      "meta_icon_bg",
+      "meta_margin",
+      "meta_typo_font_size",
+      "title_typo_font_size",
+      "meta_spacing",
+      "meta_color",
+      "meta_link_hover",
+      "meta_typo_font_style",
+      "meta_icon",
+      "meta_typo_font_weight",
+      "title_margin"
+    ],
+    "cholot-sidebar": [
+      "title_typography_font_size"
+    ],
+    "cholot-gallery": [
+      "title_show"
+    ]
+  },
+  "injection_points": {
+    "image": {
+      "shortcodes": [],
+      "dynamic_tags": [],
+      "custom_fields": [
+        "image_custom_dimension"
+      ],
+      "api_endpoints": []
+    },
+    "cholot-contact": {
+      "shortcodes": [
+        "shortcode"
+      ],
+      "dynamic_tags": [],
+      "custom_fields": [],
+      "api_endpoints": []
+    }
+  }
+}
