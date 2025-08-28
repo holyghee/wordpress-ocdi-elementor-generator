@@ -320,8 +320,14 @@ class FullSiteGenerator:
             
             # Add Elementor meta if sections exist
             if page_config.get('sections'):
-                # Elementor data
-                clean_json = json.dumps(elementor_data, separators=(',', ':'))
+                # Elementor data - check if it's already a string or needs encoding
+                if isinstance(elementor_data, str):
+                    # Already a JSON string, use directly
+                    clean_json = elementor_data
+                else:
+                    # Convert to JSON string
+                    clean_json = json.dumps(elementor_data, separators=(',', ':'))
+                    
                 meta = ET.SubElement(item, '{http://wordpress.org/export/1.2/}postmeta')
                 ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_key').text = '_elementor_data'
                 ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_value').text = clean_json

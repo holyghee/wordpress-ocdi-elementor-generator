@@ -1,0 +1,157 @@
+elementor:
+  blocks:
+  - elementor-block-posts-home-1678-2025-08-28
+  - elementor-service-cards-home-1659-2025-08-28
+  - elementor-service-hero-services-1684-2025-08-28
+  - elementor-testemonials-home-1672-2025-08-28
+  - elementor-contact-box-home-1681-2025-08-28
+  - elementor-overview-home-1663-2025-08-28
+  - elementor-heading-section-home-1675-2025-08-28
+  - elementor-hero-home-1656-2025-08-28
+  templates:
+  - cholot-texticon.template
+  - video.template
+  - cholot-testimonial-two.template
+  - about-page
+  - contact-page
+  - divider.template
+  - home-page
+  - text-editor.template
+  - single-service-2
+  - cholot-contact.template
+  - service-page
+  - cholot-team.template
+  - rdn-slider.template
+  - cholot-text-line.template
+  - single-service-1
+  - blog-page
+  - icon.template
+  - cholot-title.template
+  - image.template
+  widgets_used:
+  - text-editor
+  - cholot-title
+  - divider
+  - image
+  - cholot-button-text
+  - cholot-team
+  - cholot-testimonial-two
+  - icon-list
+  - cholot-contact
+  - google_maps
+  - rdn-slider
+  - cholot-texticon
+  - video
+  - icon
+  - cholot-text-line
+  - cholot-gallery
+  - cholot-post-four
+  - cholot-sidebar
+media:
+- alt: Modern community center building
+  description: Our beautiful community center
+  filename: community-center.jpg
+  title: Community Center
+- alt: Peaceful garden area
+  description: Relaxing garden space for residents
+  filename: garden-view.jpg
+  title: Garden View
+menus:
+- items:
+  - title: Home
+    type: page
+    url: /
+  - title: About
+    type: page
+    url: /about
+  - title: Services
+    type: page
+    url: /services
+  - title: Contact
+    type: page
+    url: /contact
+  location: primary
+  name: Main Menu
+pages:
+- content: <!-- Content will be loaded from about-page.json -->
+  is_front_page: false
+  meta:
+    _elementor_edit_mode: builder
+    _elementor_template_type: wp-page
+    _wp_page_template: elementor_header_footer
+  slug: about
+  status: publish
+  template: about-page
+  title: About Us
+  type: page
+- content: <!-- Content will be loaded from contact-page.json -->
+  is_front_page: false
+  meta:
+    _elementor_edit_mode: builder
+    _elementor_template_type: wp-page
+    _wp_page_template: elementor_header_footer
+  slug: contact
+  status: publish
+  template: contact-page
+  title: Contact
+  type: page
+- content: <!-- Content will be loaded from home-page.json -->
+  is_front_page: true
+  meta:
+    _elementor_edit_mode: builder
+    _elementor_template_type: wp-page
+    _wp_page_template: elementor_header_footer
+  slug: home
+  status: publish
+  template: home-page
+  title: Home
+  type: page
+- content: <!-- Content will be loaded from service-page.json -->
+  is_front_page: false
+  meta:
+    _elementor_edit_mode: builder
+    _elementor_template_type: wp-page
+    _wp_page_template: elementor_header_footer
+  slug: services
+  status: publish
+  template: service-page
+  title: Services
+  type: page
+posts:
+- category:
+  - Life
+  - Community
+  content: We are excited to welcome you to our retirement community...
+  slug: welcome-community
+  status: publish
+  tags:
+  - welcome
+  - community
+  - seniors
+  title: Welcome to Our Community
+- category:
+  - Health
+  - Programs
+  content: Our comprehensive health and wellness programs...
+  slug: health-wellness-programs
+  status: publish
+  tags:
+  - health
+  - wellness
+  - programs
+  title: Health and Wellness Programs
+site:
+  admin_email: admin@riman-gmbh.com
+  language: en_US
+  tagline: Your trusted partner in senior living
+  timezone: Europe/Berlin
+  title: Riman GmbH - Retirement Community
+  url: http://localhost:8080
+theme:
+  active: true
+  customizations:
+    background_color: '#fafafa'
+    primary_color: '#b68c2f'
+    secondary_color: '#1f1f1f'
+    text_color: '#000000'
+  name: Cholot
