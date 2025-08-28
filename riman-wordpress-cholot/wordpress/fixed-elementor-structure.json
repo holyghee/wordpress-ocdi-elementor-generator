@@ -1,0 +1,194 @@
+[
+  {
+    "id": "hero_section",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "60",
+        "right": "0",
+        "bottom": "60",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "hero_column",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "hero_title",
+            "elType": "widget",
+            "widgetType": "cholot-title",
+            "settings": {
+              "title": "Professionelle Schadstoffsanierung in Berlin",
+              "align": "center",
+              "title_color": "#000000",
+              "desc_typography_typography": "custom",
+              "desc_typography_font_size": {
+                "unit": "px",
+                "size": 35
+              }
+            }
+          },
+          {
+            "id": "hero_text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Seit 1998 Ihr zuverl\u00e4ssiger Partner</p>",
+              "align": "center"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "services_section",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "padding": {
+        "unit": "px",
+        "top": "60",
+        "bottom": "60"
+      }
+    },
+    "elements": [
+      {
+        "id": "service_col_1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "service_1",
+            "elType": "widget",
+            "widgetType": "cholot-texticon",
+            "settings": {
+              "title": "Asbestsanierung",
+              "text": "<p>Sichere und zertifizierte Asbestentfernung nach TRGS 519</p>",
+              "icon": "fa fa-shield",
+              "icon_color": "#e74c3c",
+              "title_color": "#232323",
+              "text_color": "#666666",
+              "icon_size": {
+                "size": 60,
+                "unit": "px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "service_col_2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "service_2",
+            "elType": "widget",
+            "widgetType": "cholot-texticon",
+            "settings": {
+              "title": "PCB-Sanierung",
+              "text": "<p>Fachgerechte PCB-Sanierung nach aktuellen Umweltstandards</p>",
+              "icon": "fa fa-flask",
+              "icon_color": "#3498db",
+              "title_color": "#232323",
+              "text_color": "#666666",
+              "icon_size": {
+                "size": 60,
+                "unit": "px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "service_col_3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "service_3",
+            "elType": "widget",
+            "widgetType": "cholot-texticon",
+            "settings": {
+              "title": "Schimmelsanierung",
+              "text": "<p>Nachhaltige Schimmelbeseitigung und -pr\u00e4vention</p>",
+              "icon": "fa fa-home",
+              "icon_color": "#2ecc71",
+              "title_color": "#232323",
+              "text_color": "#666666",
+              "icon_size": {
+                "size": 60,
+                "unit": "px"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "contact_section",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#232323",
+      "padding": {
+        "unit": "px",
+        "top": "60",
+        "bottom": "60"
+      }
+    },
+    "elements": [
+      {
+        "id": "contact_column",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "contact_heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Kontakt",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff"
+            }
+          },
+          {
+            "id": "contact_info",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='color: white; text-align: center;'>\ud83d\udce7 info@riman-gmbh.de<br>\ud83d\udcde 030-12345678<br>\ud83d\udccd Musterstra\u00dfe 123, 10115 Berlin</p>"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

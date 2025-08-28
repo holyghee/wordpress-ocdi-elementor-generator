@@ -1,0 +1,80 @@
+# Adaptive Elementor Generator - Eingabe Datei
+# Diese einfache Config generiert eine komplette Elementor-Seite
+
+page_title: "RIMAN GmbH - Schadstoffsanierung Berlin"
+hero_title: "Professionelle Schadstoffsanierung in Berlin"
+hero_subtitle: "Seit 1998 Ihr zuverlässiger Partner"
+
+company:
+  name: "RIMAN GmbH"
+  industry: "Schadstoffsanierung"
+
+# Services - Der Generator passt das Layout automatisch an!
+# 3 Services = 1 Reihe
+# 6 Services = 2 Reihen
+# 9 Services = 3 Reihen
+services:
+  - title: "Asbestsanierung"
+    description: "Sichere und zertifizierte Asbestentfernung nach TRGS 519"
+    icon: "shield"
+    color: "#e74c3c"
+    
+  - title: "PCB-Sanierung"
+    description: "Fachgerechte PCB-Sanierung nach aktuellen Umweltstandards"
+    icon: "flask"
+    color: "#3498db"
+    
+  - title: "Schimmelsanierung"
+    description: "Nachhaltige Schimmelbeseitigung und -prävention"
+    icon: "home"
+    color: "#2ecc71"
+    
+  - title: "KMF-Sanierung"
+    description: "Professionelle Entfernung künstlicher Mineralfasern"
+    icon: "filter"
+    color: "#f39c12"
+    
+  - title: "PAK-Sanierung"
+    description: "Sichere Sanierung teerhaltiger Materialien"
+    icon: "drop"
+    color: "#9b59b6"
+    
+  - title: "Schadstoffanalyse"
+    description: "Umfassende Analyse und Bewertung von Schadstoffen"
+    icon: "search"
+    color: "#1abc9c"
+
+# Team - Layout passt sich automatisch an
+team:
+  - name: "Thomas Schmidt"
+    position: "Geschäftsführer"
+    bio: "25 Jahre Erfahrung"
+    
+  - name: "Maria Weber"
+    position: "Projektleiterin"
+    bio: "Expertin für Großprojekte"
+    
+  - name: "Stefan Mueller"
+    position: "Technischer Leiter"
+    bio: "Innovationsexperte"
+
+# Kontakt Information
+contact:
+  email: "info@riman-gmbh.de"
+  phone: "030-12345678"
+  address: "Musterstraße 123, 10115 Berlin"
+
+# Optional: Custom Sections hinzufügen
+sections:
+  - type: "content"
+    title: "Über uns"
+    content: "RIMAN GmbH ist seit über 25 Jahren Ihr zuverlässiger Partner für professionelle Schadstoffsanierung in Berlin und Brandenburg."
+    
+  - type: "features"
+    title: "Unsere Stärken"
+    features:
+      - "Zertifiziert nach ISO 9001"
+      - "24/7 Notdienst verfügbar"
+      - "Festpreisgarantie"
+      - "Umweltgerechte Entsorgung"
+      - "Kostenlose Erstberatung"
