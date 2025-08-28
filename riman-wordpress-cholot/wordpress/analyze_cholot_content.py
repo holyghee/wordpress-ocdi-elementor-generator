@@ -39,11 +39,16 @@ def extract_widget_content(widget_data):
     
     # Extract content based on widget type
     if widget_type == 'cholot-texticon':
+        icon_data = settings.get('icon', {})
+        icon_value = icon_data.get('value', '') if isinstance(icon_data, dict) else str(icon_data) if icon_data else ''
+        link_data = settings.get('link', {})
+        link_url = link_data.get('url', '') if isinstance(link_data, dict) else str(link_data) if link_data else ''
+        
         content['content'] = {
-            'icon': settings.get('icon', {}).get('value', ''),
+            'icon': icon_value,
             'title': settings.get('title', ''),
             'text': clean_html(settings.get('text', '')),
-            'link': settings.get('link', {}).get('url', '')
+            'link': link_url
         }
     elif widget_type == 'cholot-title':
         content['content'] = {
