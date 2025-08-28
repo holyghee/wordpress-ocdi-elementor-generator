@@ -842,14 +842,18 @@ class DynamicTemplateProcessor:
         cat = ET.SubElement(item, 'category', domain='category', nicename='uncategorized')
         cat.text = 'Uncategorized'
         
-        # Elementor meta
+        # Elementor meta - properly serialize page settings
+        page_settings = {}
+        if page.get('elementor_settings'):
+            page_settings.update(page['elementor_settings'])
+        
         for key, value in [
             ('_elementor_edit_mode', 'builder'),
             ('_elementor_template_type', 'wp-page'),
             ('_elementor_version', '3.15.0'),
             ('_elementor_pro_version', '3.15.0'),
             ('_elementor_data', json.dumps(elementor_data)),
-            ('_elementor_page_settings', '{}'),
+            ('_elementor_page_settings', json.dumps(page_settings) if page_settings else '[]'),
             ('_wp_page_template', page.get('template', 'elementor_canvas'))
         ]:
             meta = ET.SubElement(item, '{http://wordpress.org/export/1.2/}postmeta')
