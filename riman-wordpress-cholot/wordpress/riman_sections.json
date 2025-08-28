@@ -1,0 +1,736 @@
+{
+  "content": [
+    {
+      "id": "0b249c6",
+      "elType": "section",
+      "settings": {
+        "height": "min-height",
+        "custom_height": {
+          "unit": "vh",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(0,0,0,0.4)",
+        "content_position": "middle",
+        "align": "center"
+      },
+      "elements": [
+        {
+          "id": "f0a8f85",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "9803e51",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "RIMAN GmbH - Ihre <span>Experten</span> f\u00fcr Sanierung",
+                "size": "xxl",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 60
+                },
+                "typography_font_weight": "700",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "e5a840f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'>Professionelle Asbest-, PCB- und Schimmelsanierung nach h\u00f6chsten Sicherheitsstandards.</p>",
+                "text_color": "#ffffff"
+              }
+            },
+            {
+              "id": "0eb4535",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Kostenlose Beratung",
+                "link": {
+                  "url": "#contact"
+                },
+                "align": "center",
+                "size": "lg",
+                "button_background_color": "#b68c2f",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1c2fe5",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "margin": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        },
+        "padding": {
+          "unit": "px",
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "elements": [
+        {
+          "id": "bc10ca7",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bae4feb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Unsere Leistungen",
+                "size": "xl",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "9531735",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'>Professionell & Zertifiziert</p>",
+                "text_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "255e810",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "d057a58",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-shield-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Asbestsanierung",
+                "description_text": "<strong>TRGS 519</strong><br>Zertifizierte Asbestentfernung mit modernster Technik und geschultem Personal.",
+                "title_size": "medium",
+                "position": "top",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#232323",
+                "description_color": "#666666",
+                "content_vertical_alignment": "top",
+                "link": {
+                  "url": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "acd7e60",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "6ea36a8",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-biohazard",
+                  "library": "fa-solid"
+                },
+                "title_text": "PCB-Sanierung",
+                "description_text": "<strong>Umweltgerecht</strong><br>Fachgerechte Entsorgung PCB-belasteter Materialien nach aktuellen Richtlinien.",
+                "title_size": "medium",
+                "position": "top",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#232323",
+                "description_color": "#666666",
+                "content_vertical_alignment": "top",
+                "link": {
+                  "url": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "3e803fc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "fee63fc",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-spray-can",
+                  "library": "fa-solid"
+                },
+                "title_text": "Schimmelsanierung",
+                "description_text": "<strong>Nachhaltig</strong><br>Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Pr\u00e4vention.",
+                "title_size": "medium",
+                "position": "top",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#232323",
+                "description_color": "#666666",
+                "content_vertical_alignment": "top",
+                "link": {
+                  "url": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "094cf2b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "cb026f5",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-fire-extinguisher",
+                  "library": "fa-solid"
+                },
+                "title_text": "Brandschadensanierung",
+                "description_text": "<strong>24/7 Notdienst</strong><br>Schnelle und professionelle Sanierung nach Brand- und Wassersch\u00e4den.",
+                "title_size": "medium",
+                "position": "top",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#232323",
+                "description_color": "#666666",
+                "content_vertical_alignment": "top",
+                "link": {
+                  "url": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c68dbb",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "margin": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        }
+      },
+      "elements": [
+        {
+          "id": "3f2233f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "924fdb6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "\u00dcber <span>uns</span>",
+                "size": "xl",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "67800fd",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Seit \u00fcber 20 Jahren sind wir Ihr zuverl\u00e4ssiger Partner f\u00fcr professionelle \nSanierungsarbeiten. Mit einem Team aus zertifizierten Experten garantieren \nwir h\u00f6chste Qualit\u00e4t und Sicherheit bei jedem Projekt.\n\nUnsere Erfahrung und modernste Ausr\u00fcstung erm\u00f6glichen uns, auch komplexe \nSanierungsprojekte termingerecht und kosteneffizient durchzuf\u00fchren.\n</p>",
+                "text_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "38680b6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "4ae0ba1",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+                },
+                "image_size": "large",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5e468bc",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "margin": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        }
+      },
+      "elements": [
+        {
+          "id": "9e0b503",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "d3539d6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Unser Team",
+                "size": "xl",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c4dcad2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "2c4d624",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+                },
+                "image_size": "medium",
+                "align": "center",
+                "border_radius": {
+                  "unit": "%",
+                  "size": 50
+                }
+              }
+            },
+            {
+              "id": "53c616b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Michael Ritter",
+                "size": "medium",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "0f18005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'><em>Gesch\u00e4ftsf\u00fchrer & Gr\u00fcnder</em></p><p style='text-align: center;'>\u00dcber 25 Jahre Erfahrung in der Sanierungsbranche</p>",
+                "text_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc8a931",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "5d25891",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+                },
+                "image_size": "medium",
+                "align": "center",
+                "border_radius": {
+                  "unit": "%",
+                  "size": 50
+                }
+              }
+            },
+            {
+              "id": "301507b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sandra Mann",
+                "size": "medium",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "71d945c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'><em>Leiterin Projektmanagement</em></p><p style='text-align: center;'>Zertifizierte Projektmanagerin mit Fokus auf Gro\u00dfprojekte</p>",
+                "text_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "a914eb6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "81c2443",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80"
+                },
+                "image_size": "medium",
+                "align": "center",
+                "border_radius": {
+                  "unit": "%",
+                  "size": 50
+                }
+              }
+            },
+            {
+              "id": "0c6c63b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Thomas Weber",
+                "size": "medium",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "6c37204",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'><em>Technischer Direktor</em></p><p style='text-align: center;'>Spezialist f\u00fcr Asbestsanierung und technische Planung</p>",
+                "text_color": "#666666"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bc2880",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "margin": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        },
+        "background_background": "classic",
+        "background_color": "#f8f9fa",
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "bottom": 60
+        }
+      },
+      "elements": [
+        {
+          "id": "7d5ac8d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "6262dcd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Was unsere <span>Kunden</span> sagen",
+                "size": "xl",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "7712749",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "RIMAN GmbH hat unsere Asbestsanierung absolut professionell durchgef\u00fchrt. Termintreu, sauber und kompetent!",
+                "testimonial_name": "Klaus Hoffmann",
+                "testimonial_job": "Hausverwaltung Berlin",
+                "testimonial_image": {
+                  "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+                },
+                "testimonial_alignment": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8d22c24",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "margin": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        }
+      },
+      "elements": [
+        {
+          "id": "5941f1f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "f292c36",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Weitere Leistungen",
+                "size": "xl",
+                "align": "center",
+                "title_color": "#232323"
+              }
+            },
+            {
+              "id": "fae462b",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "b8806ad",
+                    "text": "Schadstoffgutachten",
+                    "selected_icon": {
+                      "value": "fas fa-clipboard-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "3c33973",
+                    "text": "R\u00fcckbau & Entsorgung",
+                    "selected_icon": {
+                      "value": "fas fa-truck",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "390671d",
+                    "text": "Luftmessungen",
+                    "selected_icon": {
+                      "value": "fas fa-wind",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "7aca706",
+                    "text": "Beratung & Planung",
+                    "selected_icon": {
+                      "value": "fas fa-project-diagram",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "icon_color": "#b68c2f",
+                "text_color": "#232323",
+                "divider": "yes",
+                "divider_style": "solid",
+                "divider_weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "divider_color": "#e6e6e6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "68d1475",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "margin": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        },
+        "background_background": "classic",
+        "background_color": "#1f1f1f",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "bottom": 80
+        }
+      },
+      "elements": [
+        {
+          "id": "09262f9",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "d628e44",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Kontaktieren Sie uns",
+                "size": "xl",
+                "align": "center",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "4a427b5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'>Wir beraten Sie gerne unverbindlich zu Ihrem Sanierungsprojekt.</p>",
+                "text_color": "#cccccc"
+              }
+            },
+            {
+              "id": "859fe53",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-phone",
+                  "library": "fa-solid"
+                },
+                "title_text": "Telefon",
+                "description_text": "+49 (0) 30 123456789",
+                "position": "left",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#ffffff",
+                "description_color": "#cccccc"
+              }
+            },
+            {
+              "id": "4569a23",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-envelope",
+                  "library": "fa-solid"
+                },
+                "title_text": "E-Mail",
+                "description_text": "info@riman-sanierung.de",
+                "position": "left",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#ffffff",
+                "description_color": "#cccccc"
+              }
+            },
+            {
+              "id": "5387faa",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-map-marker-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Adresse",
+                "description_text": "Musterstra\u00dfe 123, 10115 Berlin",
+                "position": "left",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#ffffff",
+                "description_color": "#cccccc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
