@@ -395,8 +395,17 @@ class FullSiteGenerator:
         main_menu = menus[0]  # Use first menu as main
         menu_items = main_menu.get('items', [])
         
+        # Track menu item IDs for parent references
+        menu_item_ids = {}
+        
+        # First pass - generate IDs
         for i, menu_item in enumerate(menu_items):
             item_id = self.get_next_id()
+            menu_item_ids[i + 1] = item_id  # Store by menu position
+        
+        # Second pass - create menu items
+        for i, menu_item in enumerate(menu_items):
+            item_id = menu_item_ids[i + 1]
             item = ET.SubElement(channel, 'item')
             
             # Menu item details
@@ -427,10 +436,17 @@ class FullSiteGenerator:
             cat = ET.SubElement(item, 'category', domain='nav_menu', nicename=main_menu.get('slug', 'main-menu'))
             cat.text = main_menu.get('name', 'Main Menu')
             
+            # Handle parent reference - convert parent position to ID
+            parent = menu_item.get('parent', 0)
+            if parent and parent in menu_item_ids:
+                parent_id = menu_item_ids[parent]
+            else:
+                parent_id = 0
+            
             # Menu item meta
             meta_items = [
                 ('_menu_item_type', menu_item.get('type', 'custom')),
-                ('_menu_item_menu_item_parent', str(menu_item.get('parent', 0))),
+                ('_menu_item_menu_item_parent', str(parent_id)),
                 ('_menu_item_object', menu_item.get('object', 'custom')),
                 ('_menu_item_object_id', str(menu_item.get('object_id', item_id))),
                 ('_menu_item_target', menu_item.get('target', '')),
