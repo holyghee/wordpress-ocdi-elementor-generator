@@ -156,11 +156,25 @@ class FullSiteGenerator:
             menus = [{'id': 10, 'slug': 'main-menu', 'name': 'Main Menu'}]
         
         for menu_data in menus:
+            # Create nav_menu term in compact format like the working example
             term = ET.SubElement(channel, '{http://wordpress.org/export/1.2/}term')
-            ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_id').text = str(menu_data.get('id'))
-            ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_taxonomy').text = 'nav_menu'
-            ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_slug').text = menu_data.get('slug')
-            ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_name').text = menu_data.get('name')
+            
+            # Build the term inline - WordPress seems to prefer this format for nav_menu
+            term_id = ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_id')
+            term_id.text = str(menu_data.get('id'))
+            term_id.tail = ''
+            
+            term_tax = ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_taxonomy') 
+            term_tax.text = 'nav_menu'
+            term_tax.tail = ''
+            
+            term_slug = ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_slug')
+            term_slug.text = menu_data.get('slug')
+            term_slug.tail = ''
+            
+            term_name = ET.SubElement(term, '{http://wordpress.org/export/1.2/}term_name')
+            term_name.text = menu_data.get('name')
+            term_name.tail = '\n'
     
     def _add_media_attachments(self, channel: ET.Element, config: Dict):
         """Add media attachments for images"""
