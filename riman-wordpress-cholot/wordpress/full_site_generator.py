@@ -198,11 +198,29 @@ class FullSiteGenerator:
         title = media_data.get('title', 'Image')
         url = media_data.get('url', '')
         
+        # Extract filename from URL
+        filename = 'image.jpg'
+        if url:
+            # Handle Unsplash URLs specially
+            if 'unsplash.com' in url:
+                # Extract photo ID from Unsplash URL
+                import re
+                match = re.search(r'photo-([a-zA-Z0-9-]+)', url)
+                if match:
+                    filename = f"{match.group(1)}.jpg"
+            else:
+                filename = url.split('/')[-1].split('?')[0]  # Remove query params
+                if not filename:
+                    filename = 'image.jpg'
+        
+        # Create a WordPress-like link
+        slug = self._slugify(title)
+        
         ET.SubElement(item, 'title').text = title
-        ET.SubElement(item, 'link').text = url
+        ET.SubElement(item, 'link').text = f"http://localhost/?attachment={slug}"
         ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
         ET.SubElement(item, '{http://purl.org/dc/elements/1.1/}creator').text = 'admin'
-        ET.SubElement(item, 'guid', isPermaLink='false').text = url
+        ET.SubElement(item, 'guid', isPermaLink='false').text = f"http://localhost/wp-content/uploads/2024/{filename}"
         ET.SubElement(item, 'description').text = ''
         ET.SubElement(item, '{http://purl.org/rss/1.0/modules/content/}encoded').text = ''
         ET.SubElement(item, '{http://wordpress.org/export/1.2/excerpt/}encoded').text = ''
@@ -211,22 +229,33 @@ class FullSiteGenerator:
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_id').text = str(item_id)
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_date_gmt').text = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'closed'
+        ET.SubElement(item, '{http://wordpress.org/export/1.2/}comment_status').text = 'open'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}ping_status').text = 'closed'
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_name').text = self._slugify(title)
+        ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_name').text = slug
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}status').text = 'inherit'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_parent').text = '0'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}menu_order').text = '0'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_type').text = 'attachment'
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}post_password').text = ''
         ET.SubElement(item, '{http://wordpress.org/export/1.2/}is_sticky').text = '0'
-        ET.SubElement(item, '{http://wordpress.org/export/1.2/}attachment_url').text = url
         
-        # Meta data
-        filename = url.split('/')[-1] if url else 'image.jpg'
+        # IMPORTANT: Use CDATA for attachment URL
+        attachment_url_elem = ET.SubElement(item, '{http://wordpress.org/export/1.2/}attachment_url')
+        attachment_url_elem.text = url  # Will be wrapped in CDATA by XML formatter
+        
+        # Meta data for WordPress
+        # _wp_attached_file
         meta = ET.SubElement(item, '{http://wordpress.org/export/1.2/}postmeta')
         ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_key').text = '_wp_attached_file'
         ET.SubElement(meta, '{http://wordpress.org/export/1.2/}meta_value').text = f'2024/{filename}'
+        
+        # Add image metadata for better compatibility
+        if 'unsplash' in url.lower():
+            meta2 = ET.SubElement(item, '{http://wordpress.org/export/1.2/}postmeta')
+            ET.SubElement(meta2, '{http://wordpress.org/export/1.2/}meta_key').text = '_wp_attachment_metadata'
+            # Basic metadata structure
+            metadata = 'a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:%d:"%s";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}' % (len(f'2024/{filename}'), f'2024/{filename}')
+            ET.SubElement(meta2, '{http://wordpress.org/export/1.2/}meta_value').text = metadata
         
         return item_id
     
