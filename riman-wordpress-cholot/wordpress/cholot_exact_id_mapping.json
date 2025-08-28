@@ -1,0 +1,534 @@
+{
+  "verification": {
+    "total_items": 65,
+    "status": "VERIFIED - XML contains exactly 65 items"
+  },
+  "pages": {
+    "6": {
+      "title": "Home",
+      "slug": "home",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_header",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "179": {
+      "title": "About",
+      "slug": "about",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer",
+        "cholot_meta_choose_header"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "251": {
+      "title": "Service",
+      "slug": "service",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_meta_choose_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "289": {
+      "title": "Contact",
+      "slug": "contact",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_meta_choose_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "365": {
+      "title": "Independent living",
+      "slug": "single-service",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_meta_choose_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "374": {
+      "title": "Assited living",
+      "slug": "single-service-2",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_meta_choose_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "429": {
+      "title": "Blog",
+      "slug": "blog",
+      "has_elementor": true,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_meta_choose_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    },
+    "467": {
+      "title": "Page with custom header & custom footer",
+      "slug": "page-with-custom-header-custom-footer",
+      "has_elementor": false,
+      "has_cholot_widgets": true,
+      "cholot_meta_keys": [
+        "cholot_header_option",
+        "cholot_default_header",
+        "cholot_meta_choose_header",
+        "cholot_footer_option",
+        "cholot_meta_choose_footer"
+      ],
+      "parent": "0",
+      "menu_order": "0"
+    }
+  },
+  "posts": {
+    "411": {
+      "title": "Every carry ready the quinoa mperdiet etiam",
+      "slug": "every-carry-ready-the-quinoa",
+      "date": "2019-07-04 11:13:19",
+      "has_elementor": true,
+      "categories": [
+        "Life"
+      ],
+      "tags": [
+        "humming",
+        "liquid",
+        "magic",
+        "technology"
+      ]
+    },
+    "417": {
+      "title": "Interest humble brag air plant  nec odio et ante",
+      "slug": "interest-humble-brag-air-plant",
+      "date": "2019-07-04 11:26:12",
+      "has_elementor": true,
+      "categories": [
+        "People"
+      ],
+      "tags": [
+        "humming",
+        "liquid",
+        "movie"
+      ]
+    },
+    "424": {
+      "title": "Purus quamut mollised aenean commodo",
+      "slug": "purus-quam-scelerisque-ut-mollised",
+      "date": "2019-07-04 11:45:16",
+      "has_elementor": true,
+      "categories": [
+        "People"
+      ],
+      "tags": [
+        "liquid",
+        "travel",
+        "wildfire"
+      ]
+    },
+    "425": {
+      "title": "Blandit vel luctus pulvinar hendrerit massa quis enim",
+      "slug": "blandit-vel-luctus-pulvinar-hendrerit",
+      "date": "2019-07-04 11:45:22",
+      "has_elementor": true,
+      "categories": [
+        "Life"
+      ],
+      "tags": [
+        "liquid",
+        "technology",
+        "travel"
+      ]
+    },
+    "426": {
+      "title": "Duis arcu tortor  suscipit egetro etante",
+      "slug": "duis-arcu-tortor-suscipit-egetro",
+      "date": "2019-07-04 11:45:28",
+      "has_elementor": true,
+      "categories": [
+        "People"
+      ],
+      "tags": [
+        "liquid",
+        "travel",
+        "wildfire"
+      ]
+    },
+    "427": {
+      "title": "Ultricies mieu turpis hendrerit ultricies",
+      "slug": "ultricies-mi-eu-turpis-hendrerit",
+      "date": "2019-07-04 11:45:33",
+      "has_elementor": true,
+      "categories": [
+        "Life"
+      ],
+      "tags": [
+        "liquid",
+        "technology",
+        "travel"
+      ]
+    },
+    "428": {
+      "title": "Venenatis faucibus nullam quisenean",
+      "slug": "venenatis-faucibus-nullam-quis-ante",
+      "date": "2019-07-04 11:45:52",
+      "has_elementor": true,
+      "categories": [
+        "People"
+      ],
+      "tags": [
+        "liquid",
+        "travel",
+        "wildfire"
+      ]
+    },
+    "436": {
+      "title": "Aliquam lorem ante dapibus in tellus",
+      "slug": "aliquam-lorem-ante-dapibus-in",
+      "date": "2019-07-04 11:55:58",
+      "has_elementor": true,
+      "categories": [
+        "Life"
+      ],
+      "tags": [
+        "liquid",
+        "technology",
+        "travel"
+      ]
+    }
+  },
+  "media": {
+    "9": {
+      "title": "esther-town-492626-unsplash",
+      "filename": "esther-town-492626-unsplash",
+      "alt_text": ""
+    },
+    "11": {
+      "title": "huy-phan-100866-unsplash",
+      "filename": "huy-phan-100866-unsplash",
+      "alt_text": ""
+    },
+    "47": {
+      "title": "damir-bosnjak-366766-unsplash",
+      "filename": "damir-bosnjak-366766-unsplash",
+      "alt_text": ""
+    },
+    "48": {
+      "title": "josh-appel-423804-unsplash",
+      "filename": "josh-appel-423804-unsplash",
+      "alt_text": ""
+    },
+    "50": {
+      "title": "matteo-vistocco-537858-unsplash",
+      "filename": "matteo-vistocco-537858-unsplash",
+      "alt_text": ""
+    },
+    "51": {
+      "title": "val-vesa-410839-unsplash",
+      "filename": "val-vesa-410839-unsplash",
+      "alt_text": ""
+    },
+    "52": {
+      "title": "vlad-sargu-479334-unsplash",
+      "filename": "vlad-sargu-479334-unsplash",
+      "alt_text": ""
+    },
+    "53": {
+      "title": "anthony-metcalfe-580436-unsplash",
+      "filename": "anthony-metcalfe-580436-unsplash",
+      "alt_text": ""
+    },
+    "100": {
+      "title": "sign",
+      "filename": "sign",
+      "alt_text": ""
+    },
+    "236": {
+      "title": "1",
+      "filename": "1",
+      "alt_text": ""
+    },
+    "237": {
+      "title": "2",
+      "filename": "2",
+      "alt_text": ""
+    },
+    "239": {
+      "title": "3",
+      "filename": "3",
+      "alt_text": ""
+    },
+    "240": {
+      "title": "4",
+      "filename": "4-2",
+      "alt_text": ""
+    },
+    "346": {
+      "title": "5",
+      "filename": "5",
+      "alt_text": ""
+    },
+    "349": {
+      "title": "7",
+      "filename": "7",
+      "alt_text": ""
+    },
+    "350": {
+      "title": "5",
+      "filename": "5-2",
+      "alt_text": ""
+    },
+    "351": {
+      "title": "6",
+      "filename": "6",
+      "alt_text": ""
+    },
+    "357": {
+      "title": "6",
+      "filename": "6-2",
+      "alt_text": ""
+    },
+    "358": {
+      "title": "team1",
+      "filename": "team1",
+      "alt_text": ""
+    },
+    "359": {
+      "title": "team2",
+      "filename": "team2",
+      "alt_text": ""
+    },
+    "360": {
+      "title": "team3",
+      "filename": "team3",
+      "alt_text": ""
+    },
+    "369": {
+      "title": "8",
+      "filename": "8",
+      "alt_text": ""
+    },
+    "395": {
+      "title": "logo",
+      "filename": "logo",
+      "alt_text": ""
+    },
+    "397": {
+      "title": "logo",
+      "filename": "logo-2",
+      "alt_text": ""
+    },
+    "659": {
+      "title": "logo-white",
+      "filename": "logo-white",
+      "alt_text": ""
+    },
+    "883": {
+      "title": "cropped-matteo-vistocco-537858-unsplash.jpg",
+      "filename": "cropped-matteo-vistocco-537858-unsplash-jpg",
+      "alt_text": ""
+    },
+    "1025": {
+      "title": "bg-ab",
+      "filename": "bg-ab",
+      "alt_text": ""
+    }
+  },
+  "menu_items": {
+    "172": {
+      "title": "",
+      "menu_order": "1",
+      "parent": "0",
+      "url": "",
+      "object_id": "6",
+      "type": "post_type"
+    },
+    "191": {
+      "title": "",
+      "menu_order": "2",
+      "parent": "0",
+      "url": "",
+      "object_id": "179",
+      "type": "post_type"
+    },
+    "300": {
+      "title": "",
+      "menu_order": "7",
+      "parent": "0",
+      "url": "",
+      "object_id": "289",
+      "type": "post_type"
+    },
+    "373": {
+      "title": "",
+      "menu_order": "6",
+      "parent": "0",
+      "url": "",
+      "object_id": "365",
+      "type": "post_type"
+    },
+    "383": {
+      "title": "",
+      "menu_order": "5",
+      "parent": "0",
+      "url": "",
+      "object_id": "374",
+      "type": "post_type"
+    },
+    "404": {
+      "title": "Service Page",
+      "menu_order": "4",
+      "parent": "0",
+      "url": "",
+      "object_id": "251",
+      "type": "post_type"
+    },
+    "405": {
+      "title": "Service",
+      "menu_order": "3",
+      "parent": "0",
+      "url": "#",
+      "object_id": "405",
+      "type": "custom"
+    },
+    "435": {
+      "title": "Blog Page",
+      "menu_order": "9",
+      "parent": "0",
+      "url": "",
+      "object_id": "429",
+      "type": "post_type"
+    },
+    "453": {
+      "title": "Blog",
+      "menu_order": "8",
+      "parent": "0",
+      "url": "#",
+      "object_id": "453",
+      "type": "custom"
+    },
+    "454": {
+      "title": "Single Blog",
+      "menu_order": "10",
+      "parent": "0",
+      "url": "",
+      "object_id": "436",
+      "type": "post_type"
+    },
+    "455": {
+      "title": "Blog no Sidebar",
+      "menu_order": "11",
+      "parent": "0",
+      "url": "",
+      "object_id": "428",
+      "type": "post_type"
+    }
+  },
+  "elementor_templates": {
+    "1482": {
+      "title": "Home Page",
+      "type": "page",
+      "has_data": true
+    },
+    "1485": {
+      "title": "About Page",
+      "type": "page",
+      "has_data": true
+    },
+    "1488": {
+      "title": "Service Page",
+      "type": "page",
+      "has_data": true
+    },
+    "1491": {
+      "title": "Single Service 1",
+      "type": "page",
+      "has_data": true
+    },
+    "1494": {
+      "title": "Single Service 2",
+      "type": "page",
+      "has_data": true
+    },
+    "1497": {
+      "title": "Contact Page",
+      "type": "page",
+      "has_data": true
+    },
+    "1500": {
+      "title": "Blog Page",
+      "type": "page",
+      "has_data": true
+    }
+  },
+  "custom_headers": {
+    "205": {
+      "title": "Custom Menu 1"
+    },
+    "910": {
+      "title": "Custom Menu 2"
+    }
+  },
+  "custom_footers": {
+    "65": {
+      "title": "Footer"
+    }
+  },
+  "contact_forms": {
+    "5": {
+      "title": "Contact form"
+    }
+  },
+  "cholot_widget_types": [
+    "cholot_dark_bg",
+    "cholot_default_header",
+    "cholot_footer_option",
+    "cholot_header_option",
+    "cholot_header_position",
+    "cholot_meta_choose_footer",
+    "cholot_meta_choose_header"
+  ]
+}
