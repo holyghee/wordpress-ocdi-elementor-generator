@@ -143,7 +143,15 @@ class EditableContentGenerator:
             elementor_file = Path(page_config['elementor_file'])
             if elementor_file.exists():
                 with open(elementor_file, 'r', encoding='utf-8') as f:
-                    elementor_data = json.load(f)
+                    file_data = json.load(f)
+                
+                # Extrahiere die eigentlichen Elementor-Daten
+                if isinstance(file_data, dict) and '_elementor_data' in file_data:
+                    elementor_data = file_data['_elementor_data']
+                elif isinstance(file_data, dict) and '_elementor_data_parsed' in file_data:
+                    elementor_data = file_data['_elementor_data_parsed']
+                else:
+                    elementor_data = file_data
                 
                 # Wende Ersetzungen an
                 if 'content_replacements' in page_config:
