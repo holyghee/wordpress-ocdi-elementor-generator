@@ -8,6 +8,7 @@
 define('SHORTINIT', false);
 require_once(__DIR__ . '/wp-config.php');
 require_once(ABSPATH . 'wp-admin/includes/import.php');
+require_once(ABSPATH . 'wp-admin/includes/admin.php');
 
 // Check if we have the base WP_Importer class
 if (!class_exists('WP_Importer')) {
