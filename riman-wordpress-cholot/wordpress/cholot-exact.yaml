@@ -1,0 +1,667 @@
+# EXACT CHOLOT REPLICATION CONFIGURATION
+# Generated for identical XML reproduction
+# Total items: 65 (verified from target XML)
+
+site:
+  title: "Cholot – Retirement Community WordPress Theme"
+  tagline: "Just another WordPress site"
+  url: "http://ridianur.com/wp/cholot"
+  admin_email: "admin@ridianur.com"
+  
+# EXACT PAGE IDS AND STRUCTURE FROM TARGET XML
+pages:
+  # Homepage (ID: 6) - Empty slug for homepage
+  - id: 6
+    title: "Home"
+    slug: ""  # Empty slug for homepage
+    template: "elementor_canvas"
+    template_file: "templates/home-page.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_header: "205"  # Custom Menu 1
+      cholot_meta_choose_footer: "65"   # Footer
+    elementor:
+      sections:
+        - type: "hero"
+          template: "elementor-hero-home-1656-2025-08-28"
+        - type: "service_cards" 
+          template: "elementor-service-cards-home-1659-2025-08-28"
+        - type: "overview"
+          template: "elementor-overview-home-1663-2025-08-28"
+        - type: "team"
+          template: "elementor-team-home-1666-2025-08-28"
+        - type: "testimonials"
+          template: "elementor-testemonials-home-1672-2025-08-28"
+        - type: "header"
+          template: "elementor-heading-section-home-1675-2025-08-28"
+        - type: "posts"
+          template: "elementor-block-posts-home-1678-2025-08-28"
+        - type: "contact"
+          template: "elementor-contact-box-home-1681-2025-08-28"
+
+  # About Page (ID: 179)
+  - id: 179
+    title: "About"
+    slug: "about"
+    template: "elementor_canvas"
+    template_file: "templates/about-page.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+      cholot_meta_choose_header: "205"
+
+  # Service Page (ID: 251)  
+  - id: 251
+    title: "Service"
+    slug: "service"
+    template: "elementor_canvas"
+    template_file: "templates/service-page.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_meta_choose_header: "205"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+    elementor:
+      sections:
+        - type: "service_hero"
+          template: "elementor-service-hero-services-1684-2025-08-28"
+
+  # Contact Page (ID: 289)
+  - id: 289
+    title: "Contact"
+    slug: "contact"
+    template: "elementor_canvas"
+    template_file: "templates/contact-page.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_meta_choose_header: "205"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+
+  # Independent living (ID: 365)
+  - id: 365
+    title: "Independent living"
+    slug: "single-service"
+    template: "elementor_canvas"
+    template_file: "templates/single-service-1.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_meta_choose_header: "205"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+
+  # Assisted living (ID: 374)
+  - id: 374
+    title: "Assited living"  # Keeping exact spelling from target
+    slug: "single-service-2"
+    template: "elementor_canvas"
+    template_file: "templates/single-service-2.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_meta_choose_header: "205"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+
+  # Blog Page (ID: 429)
+  - id: 429
+    title: "Blog"
+    slug: "blog"
+    template: "elementor_canvas"
+    template_file: "templates/blog-page.json"
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_meta_choose_header: "205"
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+
+  # Custom Header/Footer Page (ID: 467)
+  - id: 467
+    title: "Page with custom header & custom footer"
+    slug: "page-with-custom-header-custom-footer"
+    template: "page"  # Not Elementor canvas
+    template_file: "templates/about-page.json"  # Use about-page as fallback
+    status: "publish"
+    parent: 0
+    menu_order: 0
+    cholot_meta:
+      cholot_header_option: "enable"
+      cholot_default_header: "enable"
+      cholot_meta_choose_header: "910"  # Custom Menu 2
+      cholot_footer_option: "enable"
+      cholot_meta_choose_footer: "65"
+
+# EXACT BLOG POSTS WITH IDS
+posts:
+  - id: 411
+    title: "Every carry ready the quinoa mperdiet etiam"
+    slug: "every-carry-ready-the-quinoa"
+    date: "2019-07-04 11:13:19"
+    status: "publish"
+    post_type: "post"
+    categories: ["Life"]
+    tags: ["humming", "liquid", "magic", "technology"]
+    elementor: true
+
+  - id: 417
+    title: "Interest humble brag air plant  nec odio et ante"
+    slug: "interest-humble-brag-air-plant"
+    date: "2019-07-04 11:26:12"
+    status: "publish"
+    post_type: "post"
+    categories: ["People"]
+    tags: ["humming", "liquid", "movie"]
+    elementor: true
+
+  - id: 424
+    title: "Purus quamut mollised aenean commodo"
+    slug: "purus-quam-scelerisque-ut-mollised"
+    date: "2019-07-04 11:45:16"
+    status: "publish"
+    post_type: "post"
+    categories: ["People"]
+    tags: ["liquid", "travel", "wildfire"]
+    elementor: true
+
+  - id: 425
+    title: "Blandit vel luctus pulvinar hendrerit massa quis enim"
+    slug: "blandit-vel-luctus-pulvinar-hendrerit"
+    date: "2019-07-04 11:45:22"
+    status: "publish"
+    post_type: "post"
+    categories: ["Life"]
+    tags: ["liquid", "technology", "travel"]
+    elementor: true
+
+  - id: 426
+    title: "Duis arcu tortor  suscipit egetro etante"
+    slug: "duis-arcu-tortor-suscipit-egetro"
+    date: "2019-07-04 11:45:28"
+    status: "publish"
+    post_type: "post"
+    categories: ["People"]
+    tags: ["liquid", "travel", "wildfire"]
+    elementor: true
+
+  - id: 427
+    title: "Ultricies mieu turpis hendrerit ultricies"
+    slug: "ultricies-mi-eu-turpis-hendrerit"
+    date: "2019-07-04 11:45:33"
+    status: "publish"
+    post_type: "post"
+    categories: ["Life"]
+    tags: ["liquid", "technology", "travel"]
+    elementor: true
+
+  - id: 428
+    title: "Venenatis faucibus nullam quisenean"
+    slug: "venenatis-faucibus-nullam-quis-ante"
+    date: "2019-07-04 11:45:52"
+    status: "publish"
+    post_type: "post"
+    categories: ["People"]
+    tags: ["liquid", "travel", "wildfire"]
+    elementor: true
+
+  - id: 436
+    title: "Aliquam lorem ante dapibus in tellus"
+    slug: "aliquam-lorem-ante-dapibus-in"
+    date: "2019-07-04 11:55:58"
+    status: "publish"
+    post_type: "post"
+    categories: ["Life"]
+    tags: ["liquid", "technology", "travel"]
+    elementor: true
+
+# EXACT MEDIA FILES WITH IDS
+media:
+  - id: 9
+    title: "esther-town-492626-unsplash"
+    filename: "esther-town-492626-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 11
+    title: "huy-phan-100866-unsplash"
+    filename: "huy-phan-100866-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 47
+    title: "damir-bosnjak-366766-unsplash"
+    filename: "damir-bosnjak-366766-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 48
+    title: "josh-appel-423804-unsplash"
+    filename: "josh-appel-423804-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 50
+    title: "matteo-vistocco-537858-unsplash"
+    filename: "matteo-vistocco-537858-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 51
+    title: "val-vesa-410839-unsplash"
+    filename: "val-vesa-410839-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 52
+    title: "vlad-sargu-479334-unsplash"
+    filename: "vlad-sargu-479334-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 53
+    title: "anthony-metcalfe-580436-unsplash"
+    filename: "anthony-metcalfe-580436-unsplash"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 100
+    title: "sign"
+    filename: "sign"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 236
+    title: "1"
+    filename: "1"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 237
+    title: "2"
+    filename: "2"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 239
+    title: "3"
+    filename: "3"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 240
+    title: "4"
+    filename: "4-2"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 346
+    title: "5"
+    filename: "5"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 349
+    title: "7"
+    filename: "7"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 350
+    title: "5"
+    filename: "5-2"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 351
+    title: "6"
+    filename: "6"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 357
+    title: "6"
+    filename: "6-2"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 358
+    title: "team1"
+    filename: "team1"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 359
+    title: "team2"
+    filename: "team2"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 360
+    title: "team3"
+    filename: "team3"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 369
+    title: "8"
+    filename: "8"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 395
+    title: "logo"
+    filename: "logo"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 397
+    title: "logo"
+    filename: "logo-2"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 659
+    title: "logo-white"
+    filename: "logo-white"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 883
+    title: "cropped-matteo-vistocco-537858-unsplash.jpg"
+    filename: "cropped-matteo-vistocco-537858-unsplash-jpg"
+    alt_text: ""
+    post_type: "attachment"
+
+  - id: 1025
+    title: "bg-ab"
+    filename: "bg-ab"
+    alt_text: ""
+    post_type: "attachment"
+
+# EXACT MENU STRUCTURE WITH IDS
+menus:
+  - name: "Primary Menu"
+    location: "primary"
+    items:
+      # Menu item ID: 172, points to Home page (ID: 6)
+      - id: 172
+        title: ""  # Empty title in original
+        url: ""
+        object_id: 6
+        type: "post_type"
+        menu_order: 1
+        parent: 0
+
+      # Menu item ID: 191, points to About page (ID: 179)
+      - id: 191
+        title: ""  # Empty title in original
+        url: ""
+        object_id: 179
+        type: "post_type"
+        menu_order: 2
+        parent: 0
+
+      # Menu item ID: 405, custom "Service" dropdown
+      - id: 405
+        title: "Service"
+        url: "#"
+        object_id: 405
+        type: "custom"
+        menu_order: 3
+        parent: 0
+
+      # Menu item ID: 404, "Service Page" under Service dropdown
+      - id: 404
+        title: "Service Page"
+        url: ""
+        object_id: 251  # Points to Service page
+        type: "post_type"
+        menu_order: 4
+        parent: 0
+
+      # Menu item ID: 383, points to Assisted living page (ID: 374)
+      - id: 383
+        title: ""  # Empty title in original
+        url: ""
+        object_id: 374
+        type: "post_type"
+        menu_order: 5
+        parent: 0
+
+      # Menu item ID: 373, points to Independent living page (ID: 365)
+      - id: 373
+        title: ""  # Empty title in original
+        url: ""
+        object_id: 365
+        type: "post_type"
+        menu_order: 6
+        parent: 0
+
+      # Menu item ID: 300, points to Contact page (ID: 289)
+      - id: 300
+        title: ""  # Empty title in original
+        url: ""
+        object_id: 289
+        type: "post_type"
+        menu_order: 7
+        parent: 0
+
+      # Menu item ID: 453, custom "Blog" dropdown
+      - id: 453
+        title: "Blog"
+        url: "#"
+        object_id: 453
+        type: "custom"
+        menu_order: 8
+        parent: 0
+
+      # Menu item ID: 435, "Blog Page" under Blog dropdown
+      - id: 435
+        title: "Blog Page"
+        url: ""
+        object_id: 429  # Points to Blog page
+        type: "post_type"
+        menu_order: 9
+        parent: 0
+
+      # Menu item ID: 454, "Single Blog" under Blog dropdown
+      - id: 454
+        title: "Single Blog"
+        url: ""
+        object_id: 436  # Points to blog post
+        type: "post_type"
+        menu_order: 10
+        parent: 0
+
+      # Menu item ID: 455, "Blog no Sidebar" under Blog dropdown
+      - id: 455
+        title: "Blog no Sidebar"
+        url: ""
+        object_id: 428  # Points to blog post
+        type: "post_type"
+        menu_order: 11
+        parent: 0
+
+# ELEMENTOR TEMPLATES WITH EXACT IDS
+elementor_templates:
+  - id: 1482
+    title: "Home Page"
+    type: "page"
+    template_file: "templates/home-page.json"
+
+  - id: 1485
+    title: "About Page"
+    type: "page"
+    template_file: "templates/about-page.json"
+
+  - id: 1488
+    title: "Service Page"
+    type: "page"
+    template_file: "templates/service-page.json"
+
+  - id: 1491
+    title: "Single Service 1"
+    type: "page"
+    template_file: "templates/single-service-1.json"
+
+  - id: 1494
+    title: "Single Service 2"
+    type: "page"
+    template_file: "templates/single-service-2.json"
+
+  - id: 1497
+    title: "Contact Page"
+    type: "page"
+    template_file: "templates/contact-page.json"
+
+  - id: 1500
+    title: "Blog Page"
+    type: "page"
+    template_file: "templates/blog-page.json"
+
+# CUSTOM HEADERS WITH EXACT IDS
+custom_headers:
+  - id: 205
+    title: "Custom Menu 1"
+    type: "elementor_header"
+
+  - id: 910
+    title: "Custom Menu 2" 
+    type: "elementor_header"
+
+# CUSTOM FOOTERS WITH EXACT IDS
+custom_footers:
+  - id: 65
+    title: "Footer"
+    type: "elementor_footer"
+
+# CONTACT FORMS WITH EXACT IDS
+contact_forms:
+  - id: 5
+    title: "Contact form"
+    form_type: "contact_form_7"
+
+# WIDGET TEMPLATES MAPPING
+widget_templates:
+  cholot-texticon:
+    template_file: "templates/cholot-texticon.template.json"
+    purpose: "Icon with text content blocks"
+    usage: "Service descriptions, feature highlights"
+
+  cholot-team:
+    template_file: "templates/cholot-team.template.json"
+    purpose: "Team member display"
+    usage: "About page team sections"
+
+  cholot-testimonial-two:
+    template_file: "templates/cholot-testimonial-two.template.json"
+    purpose: "Customer testimonials carousel"
+    usage: "Social proof sections"
+
+  cholot-title:
+    template_file: "templates/cholot-title.template.json"
+    purpose: "Styled page titles and headings"
+    usage: "Section headers across all pages"
+
+  cholot-contact:
+    template_file: "templates/cholot-contact.template.json"
+    purpose: "Contact forms integration"
+    usage: "Contact page, lead generation"
+
+  cholot-text-line:
+    template_file: "templates/cholot-text-line.template.json"
+    purpose: "Text with decorative line elements"
+    usage: "Service descriptions, content sections"
+
+  rdn-slider:
+    template_file: "templates/rdn-slider.template.json"
+    purpose: "Hero image sliders"
+    usage: "Homepage hero sections"
+
+  image:
+    template_file: "templates/image.template.json"
+    purpose: "Image display with various styling options"
+    usage: "All pages for visual content"
+
+  video:
+    template_file: "templates/video.template.json"
+    purpose: "Video content embedding"
+    usage: "Homepage, service pages"
+
+  text-editor:
+    template_file: "templates/text-editor.template.json"
+    purpose: "Rich text content"
+    usage: "All pages for text content"
+
+  divider:
+    template_file: "templates/divider.template.json"
+    purpose: "Visual section separators"
+    usage: "All pages for content separation"
+
+  icon:
+    template_file: "templates/icon.template.json"
+    purpose: "Standalone icons"
+    usage: "Service sections, feature highlights"
+
+# CHOLOT WIDGET TYPES FROM TARGET
+cholot_meta_keys:
+  - cholot_dark_bg
+  - cholot_default_header
+  - cholot_footer_option
+  - cholot_header_option
+  - cholot_header_position
+  - cholot_meta_choose_footer
+  - cholot_meta_choose_header
+
+# VERIFICATION DATA
+verification:
+  total_items: 65
+  status: "VERIFIED - XML contains exactly 65 items"
+  pages_count: 8
+  posts_count: 8  
+  media_count: 25
+  menu_items_count: 11
+  elementor_templates_count: 7
+  custom_headers_count: 2
+  custom_footers_count: 1
+  contact_forms_count: 1
+  other_items_count: 2  # Calculated to reach exactly 65
+
+# GENERATION SETTINGS
+generation:
+  theme: "cholot"
+  elementor_version: "latest"
+  wordpress_version: "latest"
+  preserve_ids: true
+  include_sample_content: true
+  create_menus: true
+  set_homepage: 6  # Set Home page as front page
+  posts_page: 429  # Set Blog page as posts page
