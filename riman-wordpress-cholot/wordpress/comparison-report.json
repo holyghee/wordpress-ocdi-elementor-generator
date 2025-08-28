@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-28T18:14:43.353807",
+  "target_file": "/Users/holgerbrandt/Downloads/cholot-retirement-community-wordpress-theme11/documentation/sample_data/demo-data-fixed.xml",
+  "generated_file": "cholot-generated.xml",
+  "summary": {
+    "target_items": 65,
+    "generated_items": 65,
+    "items_match": true,
+    "differences_count": 0
+  },
+  "target_by_type": {
+    "unknown": 65
+  },
+  "generated_by_type": {
+    "attachment": 27,
+    "elementor_library": 10,
+    "wpcf7_contact_form": 1,
+    "page": 8,
+    "post": 8,
+    "nav_menu_item": 11
+  },
+  "differences": []
+}

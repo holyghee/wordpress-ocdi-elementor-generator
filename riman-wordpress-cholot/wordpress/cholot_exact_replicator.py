@@ -41,7 +41,7 @@ class CholtExactReplicator:
 
     def _create_exact_xml_structure(self, config: Dict) -> ET.Element:
         """Create XML structure matching target exactly"""
-        # Create RSS root with exact namespaces
+        # Create RSS root with exact namespaces - avoid duplicates
         rss = ET.Element('rss')
         rss.set('version', '2.0')
         rss.set('xmlns:excerpt', 'http://wordpress.org/export/1.2/excerpt/')
