@@ -453,18 +453,19 @@ class SectionBasedProcessor:
         # Return both sections
         return [title_section, testimonials_section]
     
-    def _create_services_grid_section(self, config: Dict) -> Dict:
-        """Create additional services grid"""
+    def _create_services_grid_section(self, config: Dict) -> List[Dict]:
+        """Create additional services grid - returns TWO sections: title section + services grid section"""
         services = config.get('services', [])
         if not services:
-            return None
+            return []
         
-        return {
+        # Section 1: Title (separate section)
+        title_section = {
             "id": self.generate_unique_id(),
             "elType": "section",
             "settings": {
                 "layout": "boxed",
-                "margin": {"unit": "px", "top": 80, "bottom": 80}
+                "margin": {"unit": "px", "top": 80, "bottom": 40}
             },
             "elements": [{
                 "id": self.generate_unique_id(),
@@ -480,7 +481,23 @@ class SectionBasedProcessor:
                         "align": "center",
                         "title_color": "#232323"
                     }
-                }, {
+                }]
+            }]
+        }
+        
+        # Section 2: Services grid (separate section)
+        grid_section = {
+            "id": self.generate_unique_id(),
+            "elType": "section",
+            "settings": {
+                "layout": "boxed",
+                "margin": {"unit": "px", "top": 0, "bottom": 80}
+            },
+            "elements": [{
+                "id": self.generate_unique_id(),
+                "elType": "column",
+                "settings": {"_column_size": 100},
+                "elements": [{
                     "id": self.generate_unique_id(),
                     "elType": "widget",
                     "widgetType": "icon-list",
@@ -506,6 +523,9 @@ class SectionBasedProcessor:
                 }]
             }]
         }
+        
+        # Return both sections
+        return [title_section, grid_section]
     
     def _create_contact_section(self, config: Dict) -> Dict:
         """Create contact section"""
