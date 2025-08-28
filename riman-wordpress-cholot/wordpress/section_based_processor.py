@@ -527,39 +527,20 @@ class SectionBasedProcessor:
         # Return both sections
         return [title_section, grid_section]
     
-    def _create_contact_section(self, config: Dict) -> Dict:
-        """Create contact section"""
+    def _create_contact_section(self, config: Dict) -> List[Dict]:
+        """Create contact section - returns TWO sections: title section + contact info section"""
         info = config.get('info', [])
         
-        info_widgets = []
-        for item in info:
-            info_widgets.append({
-                "id": self.generate_unique_id(),
-                "elType": "widget",
-                "widgetType": "icon-box",
-                "settings": {
-                    "selected_icon": {
-                        "value": item.get('icon', 'fas fa-info'),
-                        "library": "fa-solid"
-                    },
-                    "title_text": item.get('label', ''),
-                    "description_text": item.get('value', ''),
-                    "position": "left",
-                    "icon_primary_color": "#b68c2f",
-                    "title_color": "#ffffff",
-                    "description_color": "#cccccc"
-                }
-            })
-        
-        return {
+        # Section 1: Title and text (separate section)
+        title_section = {
             "id": self.generate_unique_id(),
             "elType": "section",
             "settings": {
                 "layout": "boxed",
-                "margin": {"unit": "px", "top": 80, "bottom": 80},
+                "margin": {"unit": "px", "top": 80, "bottom": 40},
                 "background_background": "classic",
                 "background_color": config.get('background_color', '#1f1f1f'),
-                "padding": {"unit": "px", "top": 80, "bottom": 80}
+                "padding": {"unit": "px", "top": 80, "bottom": 20}
             },
             "elements": [{
                 "id": self.generate_unique_id(),
@@ -583,9 +564,51 @@ class SectionBasedProcessor:
                         "editor": f"<p style='text-align: center;'>{config.get('text', '')}</p>",
                         "text_color": "#cccccc"
                     }
-                }] + info_widgets
+                }]
             }]
         }
+        
+        # Section 2: Contact info (separate section)
+        info_widgets = []
+        for item in info:
+            info_widgets.append({
+                "id": self.generate_unique_id(),
+                "elType": "widget",
+                "widgetType": "icon-box",
+                "settings": {
+                    "selected_icon": {
+                        "value": item.get('icon', 'fas fa-info'),
+                        "library": "fa-solid"
+                    },
+                    "title_text": item.get('label', ''),
+                    "description_text": item.get('value', ''),
+                    "position": "left",
+                    "icon_primary_color": "#b68c2f",
+                    "title_color": "#ffffff",
+                    "description_color": "#cccccc"
+                }
+            })
+        
+        contact_section = {
+            "id": self.generate_unique_id(),
+            "elType": "section",
+            "settings": {
+                "layout": "boxed",
+                "margin": {"unit": "px", "top": 0, "bottom": 80},
+                "background_background": "classic",
+                "background_color": config.get('background_color', '#1f1f1f'),
+                "padding": {"unit": "px", "top": 20, "bottom": 80}
+            },
+            "elements": [{
+                "id": self.generate_unique_id(),
+                "elType": "column",
+                "settings": {"_column_size": 100},
+                "elements": info_widgets
+            }]
+        }
+        
+        # Return both sections
+        return [title_section, contact_section]
     
     def generate_wordpress_xml(self, config: Dict, elementor_data: List, output_path: str):
         """Generate WordPress XML with section-based structure"""
