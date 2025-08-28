@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+    <title>RIMAN GmbH - CSS Enhanced</title>
+    <link>https://riman-gmbh.de</link>
+    <language>de-DE</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    
+    <!-- CUSTOM CSS -->
+    <item>
+        <title>RIMAN Custom CSS</title>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <content:encoded><![CDATA[
+                /* RIMAN Custom Styles */
+                .fade-in { 
+                    animation: fadeIn 1s ease-in-out; 
+                }
+                
+                .pulse-on-hover:hover {
+                    animation: pulse 0.5s infinite;
+                }
+                
+                .rotate-on-hover:hover {
+                    transform: rotate(5deg);
+                    transition: transform 0.3s ease;
+                }
+                
+                .scale-on-hover:hover {
+                    transform: scale(1.05);
+                    transition: transform 0.3s ease;
+                }
+                
+                .slide-in-effect {
+                    transform: translateX(-20px);
+                    opacity: 0;
+                    animation: slideIn 0.6s ease forwards;
+                }
+                
+                @keyframes fadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                
+                @keyframes pulse {
+                    0% { transform: scale(1); }
+                    50% { transform: scale(1.02); }
+                    100% { transform: scale(1); }
+                }
+                
+                @keyframes slideIn {
+                    to { 
+                        transform: translateX(0);
+                        opacity: 1;
+                    }
+                }
+                
+                /* Responsive Design */
+                @media (max-width: 768px) {
+                    .services-grid {
+                        grid-template-columns: 1fr;
+                    }
+                    
+                    .hero-section {
+                        min-height: 70vh;
+                    }
+                }
+                
+                /* Dark Mode Support */
+                @media (prefers-color-scheme: dark) {
+                    .service-item {
+                        background-color: #2c3e50;
+                        color: white;
+                    }
+                }
+            
+/* Auto-generated CSS for RIMAN */
+.animated-title {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.glow-effect:hover {
+    text-shadow: 0 0 20px rgba(255,255,255,0.5);
+    transition: text-shadow 0.3s ease;
+}
+
+.styled-contact p {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.fade-in-delayed {
+    animation-delay: 0.5s;
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+        ]]></content:encoded>
+        <wp:post_type><![CDATA[custom_css]]></wp:post_type>
+        <wp:status><![CDATA[publish]]></wp:status>
+    </item>
+    
+    <!-- MAIN PAGE WITH CSS -->
+    <item>
+        <title>RIMAN GmbH - CSS Enhanced</title>
+        <link>https://riman-gmbh.de/</link>
+        <pubDate>Thu, 28 Aug 2025 03:59:11 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://riman-gmbh.de/?page_id=100</guid>
+        <description>Seit 1998 Ihr Partner in Berlin</description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>100</wp:post_id>
+        <wp:post_date>2025-08-28 03:59:11</wp:post_date>
+        <wp:post_name><![CDATA[home]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+            <wp:meta_value><![CDATA[builder]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+            <wp:meta_value><![CDATA[[{"id":"hero_section","elType":"section","settings":{"layout":"full_width","min_height":{"unit":"vh","size":100},"background_background":"classic","background_image":{"url":"https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&h=1080&fit=crop"},"background_overlay_background":"classic","background_overlay_color":"rgba(0,0,0,0.6)","padding":{"unit":"px","top":"100","bottom":"100"},"css_classes":"hero-section fade-in","custom_css":".hero-section { min-height: 100vh; }","animation":"fadeInUp"},"elements":[{"id":"hero_column","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"hero_title","elType":"widget","widgetType":"cholot-title","settings":{"title":"Professionelle Schadstoffsanierung","align":"center","title_color":"#ffffff","desc_typography_font_size":{"unit":"px","size":54},"_css_classes":"hero-title animated-title","_animation":"fadeInDown","_animation_delay":"0.3s"}},{"id":"hero_subtitle","elType":"widget","widgetType":"text-editor","settings":{"editor":"<p class='hero-subtitle'>Seit 1998 Ihr Partner in Berlin</p>","_css_classes":"hero-text fade-in-delayed","_animation":"fadeInUp","_animation_delay":"0.6s"}}]}]},{"id":"services_section","elType":"section","settings":{"layout":"boxed","padding":{"unit":"px","top":"100","bottom":"100"},"css_classes":"services-grid hover-effects","custom_css":".services-grid .service-item:hover { transform: translateY(-10px); transition: all 0.3s ease; }","animation":"fadeInUp","animation_delay":"0.1s"},"elements":[{"id":"service_col_0","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"service_widget_0","elType":"widget","widgetType":"cholot-texticon","settings":{"title":"Asbestsanierung","text":"<p>Sichere Asbestentfernung nach TRGS 519</p>","icon":"fa fa-shield","icon_color":"#e74c3c","title_color":"#232323","text_color":"#666666","icon_size":{"size":60,"unit":"px"},"image":{"url":"https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop"},"_css_classes":"service-item asbest-service pulse-on-hover","_custom_css":"border: 2px solid #e74c3c; border-radius: 15px; box-shadow: 0 5px 15px rgba(231, 76, 60, 0.2); padding: 30px","_animation_delay":"0.0s"}}]},{"id":"service_col_1","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"service_widget_1","elType":"widget","widgetType":"cholot-texticon","settings":{"title":"PCB-Sanierung","text":"<p>Umweltgerechte PCB-Behandlung</p>","icon":"fa fa-flask","icon_color":"#3498db","title_color":"#232323","text_color":"#666666","icon_size":{"size":60,"unit":"px"},"image":{"url":"https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=400&h=300&fit=crop"},"_css_classes":"service-item pcb-service slide-in-effect","_custom_css":"border: 2px solid #3498db; border-radius: 15px; box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2); padding: 30px; background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%)","_animation_delay":"0.2s"}}]},{"id":"service_col_2","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"service_widget_2","elType":"widget","widgetType":"cholot-texticon","settings":{"title":"Schimmelsanierung","text":"<p>Nachhaltige Schimmelbek\u00e4mpfung</p>","icon":"fa fa-home","icon_color":"#2ecc71","title_color":"#232323","text_color":"#666666","icon_size":{"size":60,"unit":"px"},"image":{"url":"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"},"_css_classes":"service-item schimmel-service bounce-in","_custom_css":"border: 2px solid #2ecc71; border-radius: 15px; box-shadow: 0 5px 15px rgba(46, 204, 113, 0.2); padding: 30px; position: relative","_animation_delay":"0.4s"}}]}]},{"id":"team_section","elType":"section","settings":{"layout":"boxed","padding":{"unit":"px","top":"100","bottom":"100"},"css_classes":"team-section gradient-bg","custom_css":".gradient-bg { background: linear-gradient(45deg, #f8f9fa 0%, #e9ecef 100%); }","animation":"slideInFromLeft"},"elements":[{"id":"team_title_col","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"team_title","elType":"widget","widgetType":"heading","settings":{"title":"Unser Team","header_size":"h2","align":"center","_css_classes":"section-title team-title","_animation":"fadeInDown"}}]},{"id":"team_col_0","elType":"column","settings":{"_column_size":50,"_inline_size":null},"elements":[{"id":"team_widget_0","elType":"widget","widgetType":"cholot-team","settings":{"title":"Thomas Schmidt","text":"Gesch\u00e4ftsf\u00fchrer","description":"25 Jahre Erfahrung","image":{"url":"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop"},"_css_classes":"team-member ceo-style rotate-on-hover","_custom_css":"border-radius: 50%; border: 5px solid #gold; box-shadow: 0 10px 30px rgba(0,0,0,0.2)"}}]},{"id":"team_col_1","elType":"column","settings":{"_column_size":50,"_inline_size":null},"elements":[{"id":"team_widget_1","elType":"widget","widgetType":"cholot-team","settings":{"title":"Maria Weber","text":"Projektleiterin","description":"Expertin f\u00fcr Gro\u00dfprojekte","image":{"url":"https://images.unsplash.com/photo-1494790108755-2616b332c67c?w=300&h=300&fit=crop"},"_css_classes":"team-member manager-style scale-on-hover","_custom_css":"border-radius: 50%; border: 3px solid #3498db; transition: all 0.3s ease"}}]}]},{"id":"contact_section","elType":"section","settings":{"layout":"boxed","background_background":"classic","background_color":"#232323","padding":{"unit":"px","top":"80","bottom":"80"},"css_classes":"contact-section dark-section"},"elements":[{"id":"contact_column","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"contact_title","elType":"widget","widgetType":"heading","settings":{"title":"Kontakt","header_size":"h2","align":"center","title_color":"#ffffff","_css_classes":"contact-title glow-effect","_animation":"fadeIn"}},{"id":"contact_info","elType":"widget","widgetType":"text-editor","settings":{"editor":"<div class='contact-info styled-contact'>\n                            <p>\ud83d\udce7 info@riman-gmbh.de</p>\n                            <p>\ud83d\udcde 030-12345678</p>\n                            <p>\ud83d\udccd Musterstra\u00dfe 123, 10115 Berlin</p>\n                            </div>","_css_classes":"contact-details fade-in-up"}}]}]}]]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_elementor_custom_css]]></wp:meta_key>
+            <wp:meta_value><![CDATA[
+                /* RIMAN Custom Styles */
+                .fade-in { 
+                    animation: fadeIn 1s ease-in-out; 
+                }
+                
+                .pulse-on-hover:hover {
+                    animation: pulse 0.5s infinite;
+                }
+                
+                .rotate-on-hover:hover {
+                    transform: rotate(5deg);
+                    transition: transform 0.3s ease;
+                }
+                
+                .scale-on-hover:hover {
+                    transform: scale(1.05);
+                    transition: transform 0.3s ease;
+                }
+                
+                .slide-in-effect {
+                    transform: translateX(-20px);
+                    opacity: 0;
+                    animation: slideIn 0.6s ease forwards;
+                }
+                
+                @keyframes fadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                
+                @keyframes pulse {
+                    0% { transform: scale(1); }
+                    50% { transform: scale(1.02); }
+                    100% { transform: scale(1); }
+                }
+                
+                @keyframes slideIn {
+                    to { 
+                        transform: translateX(0);
+                        opacity: 1;
+                    }
+                }
+                
+                /* Responsive Design */
+                @media (max-width: 768px) {
+                    .services-grid {
+                        grid-template-columns: 1fr;
+                    }
+                    
+                    .hero-section {
+                        min-height: 70vh;
+                    }
+                }
+                
+                /* Dark Mode Support */
+                @media (prefers-color-scheme: dark) {
+                    .service-item {
+                        background-color: #2c3e50;
+                        color: white;
+                    }
+                }
+            
+/* Auto-generated CSS for RIMAN */
+.animated-title {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.glow-effect:hover {
+    text-shadow: 0 0 20px rgba(255,255,255,0.5);
+    transition: text-shadow 0.3s ease;
+}
+
+.styled-contact p {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.fade-in-delayed {
+    animation-delay: 0.5s;
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+        ]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+</channel>
+</rss>
