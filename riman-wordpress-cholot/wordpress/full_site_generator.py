@@ -447,8 +447,8 @@ class FullSiteGenerator:
             ET.SubElement(item, '{http://wordpress.org/export/1.2/}is_sticky').text = '0'
             
             # Menu item category (assigns to menu)
-            cat = ET.SubElement(item, 'category', domain='nav_menu', nicename=main_menu.get('slug', 'main-menu'))
-            cat.text = main_menu.get('name', 'Main Menu')
+            cat = ET.SubElement(item, 'category', domain='nav_menu', nicename=main_menu.get('slug', 'default-menu'))
+            cat.text = main_menu.get('name', 'Default Menu')
             
             # Handle parent reference - convert parent position to ID
             parent = menu_item.get('parent', 0)
