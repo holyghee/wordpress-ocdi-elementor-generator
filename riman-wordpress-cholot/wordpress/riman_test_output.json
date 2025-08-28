@@ -1,0 +1,639 @@
+[
+  {
+    "id": "6165393433336633",
+    "elType": "section",
+    "isInner": false,
+    "settings": {
+      "background_color": "#b68c2f",
+      "padding": {
+        "unit": "px",
+        "top": "60",
+        "bottom": "60"
+      }
+    },
+    "elements": [
+      {
+        "id": "6464323165626532",
+        "elType": "column",
+        "isInner": false,
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "7801ff38",
+            "settings": {
+              "title": "RIMAN GmbH - Ihre Experten für Sanierung",
+              "desc_typography_typography": "custom",
+              "desc_typography_font_size": {
+                "unit": "px",
+                "size": 35,
+                "sizes": []
+              },
+              "desc_typography_font_weight": "700",
+              "desc_typography_line_height": {
+                "unit": "em",
+                "size": 1.1,
+                "sizes": []
+              },
+              "_z_index": 1,
+              "align": "left",
+              "desc_typography_font_size_mobile": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "title_color": "#000000",
+              "title_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "desc_typography_font_family": "Playfair Display",
+              "_margin": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "span_title_typo_typography": "custom",
+              "span_title_typo_font_weight": "400",
+              "span_title_typo_font_style": "italic",
+              "span_title_color": "#000000"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "cholot-title",
+            "elType": "widget"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6237376562373030",
+    "elType": "section",
+    "isInner": false,
+    "settings": {
+      "gap": "extended",
+      "structure": "30",
+      "background_color": "#fafafa"
+    },
+    "elements": [
+      {
+        "id": "3037386166623230",
+        "elType": "column",
+        "isInner": false,
+        "settings": {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "692d9229",
+            "settings": {
+              "icon": "fa fa-child",
+              "title_text_margin": {
+                "unit": "px",
+                "size": 50,
+                "sizes": []
+              },
+              "title": "Asbestsanierung",
+              "title_typography_typography": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 28,
+                "sizes": []
+              },
+              "title_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "15",
+                "left": "0",
+                "isLinked": false
+              },
+              "subtitle_typography_typography": "custom",
+              "subtitle_typography_font_size": {
+                "unit": "px",
+                "size": 13,
+                "sizes": []
+              },
+              "subtitle_typography_font_weight": "700",
+              "subtitle_typography_text_transform": "uppercase",
+              "subtitle_typography_letter_spacing": {
+                "unit": "px",
+                "size": 1,
+                "sizes": []
+              },
+              "sb_padding": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "sb_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "-15",
+                "left": "0",
+                "isLinked": false
+              },
+              "subtitle_color": "#b68c2f",
+              "icon_size": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              },
+              "icon_bg_size": {
+                "unit": "px",
+                "size": 72,
+                "sizes": []
+              },
+              "icon_margin_left": {
+                "unit": "%",
+                "top": "1",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-shield-alt",
+                "library": "fa-solid"
+              },
+              "__fa4_migrated": {
+                "selected_icon": true
+              },
+              "text": "Sichere und fachgerechte Entfernung von Asbest",
+              "text_typography_font_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "text_typography_font_style": "italic",
+              "text_margin": {
+                "unit": "px",
+                "top": "15",
+                "right": "0",
+                "bottom": "-30",
+                "left": "0",
+                "isLinked": false
+              },
+              "icon_color": "#ffffff",
+              "iconbg_color": "#b68c2f",
+              "icon_bordering_border": "solid",
+              "icon_bordering_color": "#fafafa",
+              "_padding": {
+                "unit": "px",
+                "top": "30",
+                "right": "30",
+                "bottom": "30",
+                "left": "30",
+                "isLinked": true
+              },
+              "_border_width": {
+                "unit": "px",
+                "top": "0",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": false
+              },
+              "_border_color": "#b68c2f",
+              "_border_border": "dashed",
+              "icon_margin": {
+                "unit": "px",
+                "top": "-27",
+                "right": 0,
+                "bottom": "0",
+                "left": 0,
+                "isLinked": false
+              },
+              "icon_bordering_width": {
+                "unit": "px",
+                "top": "7",
+                "right": "7",
+                "bottom": "7",
+                "left": "7",
+                "isLinked": true
+              },
+              "subtitle": "Professionell",
+              "btn_margin": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "icon_lheight": {
+                "unit": "px",
+                "size": 58,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "cholot-texticon",
+            "elType": "widget"
+          }
+        ]
+      },
+      {
+        "id": "6335333339343733",
+        "elType": "column",
+        "isInner": false,
+        "settings": {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "692d9229",
+            "settings": {
+              "icon": "fa fa-child",
+              "title_text_margin": {
+                "unit": "px",
+                "size": 50,
+                "sizes": []
+              },
+              "title": "PCB-Sanierung",
+              "title_typography_typography": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 28,
+                "sizes": []
+              },
+              "title_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "15",
+                "left": "0",
+                "isLinked": false
+              },
+              "subtitle_typography_typography": "custom",
+              "subtitle_typography_font_size": {
+                "unit": "px",
+                "size": 13,
+                "sizes": []
+              },
+              "subtitle_typography_font_weight": "700",
+              "subtitle_typography_text_transform": "uppercase",
+              "subtitle_typography_letter_spacing": {
+                "unit": "px",
+                "size": 1,
+                "sizes": []
+              },
+              "sb_padding": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "sb_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "-15",
+                "left": "0",
+                "isLinked": false
+              },
+              "subtitle_color": "#b68c2f",
+              "icon_size": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              },
+              "icon_bg_size": {
+                "unit": "px",
+                "size": 72,
+                "sizes": []
+              },
+              "icon_margin_left": {
+                "unit": "%",
+                "top": "1",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-biohazard",
+                "library": "fa-solid"
+              },
+              "__fa4_migrated": {
+                "selected_icon": true
+              },
+              "text": "Umweltgerechte Entsorgung von PCB-Materialien",
+              "text_typography_font_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "text_typography_font_style": "italic",
+              "text_margin": {
+                "unit": "px",
+                "top": "15",
+                "right": "0",
+                "bottom": "-30",
+                "left": "0",
+                "isLinked": false
+              },
+              "icon_color": "#ffffff",
+              "iconbg_color": "#b68c2f",
+              "icon_bordering_border": "solid",
+              "icon_bordering_color": "#fafafa",
+              "_padding": {
+                "unit": "px",
+                "top": "30",
+                "right": "30",
+                "bottom": "30",
+                "left": "30",
+                "isLinked": true
+              },
+              "_border_width": {
+                "unit": "px",
+                "top": "0",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": false
+              },
+              "_border_color": "#b68c2f",
+              "_border_border": "dashed",
+              "icon_margin": {
+                "unit": "px",
+                "top": "-27",
+                "right": 0,
+                "bottom": "0",
+                "left": 0,
+                "isLinked": false
+              },
+              "icon_bordering_width": {
+                "unit": "px",
+                "top": "7",
+                "right": "7",
+                "bottom": "7",
+                "left": "7",
+                "isLinked": true
+              },
+              "subtitle": "Zertifiziert",
+              "btn_margin": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "icon_lheight": {
+                "unit": "px",
+                "size": 58,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "cholot-texticon",
+            "elType": "widget"
+          }
+        ]
+      },
+      {
+        "id": "6665393662316666",
+        "elType": "column",
+        "isInner": false,
+        "settings": {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "692d9229",
+            "settings": {
+              "icon": "fa fa-child",
+              "title_text_margin": {
+                "unit": "px",
+                "size": 50,
+                "sizes": []
+              },
+              "title": "Schimmelsanierung",
+              "title_typography_typography": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 28,
+                "sizes": []
+              },
+              "title_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "15",
+                "left": "0",
+                "isLinked": false
+              },
+              "subtitle_typography_typography": "custom",
+              "subtitle_typography_font_size": {
+                "unit": "px",
+                "size": 13,
+                "sizes": []
+              },
+              "subtitle_typography_font_weight": "700",
+              "subtitle_typography_text_transform": "uppercase",
+              "subtitle_typography_letter_spacing": {
+                "unit": "px",
+                "size": 1,
+                "sizes": []
+              },
+              "sb_padding": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "sb_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "-15",
+                "left": "0",
+                "isLinked": false
+              },
+              "subtitle_color": "#b68c2f",
+              "icon_size": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              },
+              "icon_bg_size": {
+                "unit": "px",
+                "size": 72,
+                "sizes": []
+              },
+              "icon_margin_left": {
+                "unit": "%",
+                "top": "1",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-home",
+                "library": "fa-solid"
+              },
+              "__fa4_migrated": {
+                "selected_icon": true
+              },
+              "text": "Nachhaltige Beseitigung von Schimmelbefall",
+              "text_typography_font_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "text_typography_font_style": "italic",
+              "text_margin": {
+                "unit": "px",
+                "top": "15",
+                "right": "0",
+                "bottom": "-30",
+                "left": "0",
+                "isLinked": false
+              },
+              "icon_color": "#ffffff",
+              "iconbg_color": "#b68c2f",
+              "icon_bordering_border": "solid",
+              "icon_bordering_color": "#fafafa",
+              "_padding": {
+                "unit": "px",
+                "top": "30",
+                "right": "30",
+                "bottom": "30",
+                "left": "30",
+                "isLinked": true
+              },
+              "_border_width": {
+                "unit": "px",
+                "top": "0",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": false
+              },
+              "_border_color": "#b68c2f",
+              "_border_border": "dashed",
+              "icon_margin": {
+                "unit": "px",
+                "top": "-27",
+                "right": 0,
+                "bottom": "0",
+                "left": 0,
+                "isLinked": false
+              },
+              "icon_bordering_width": {
+                "unit": "px",
+                "top": "7",
+                "right": "7",
+                "bottom": "7",
+                "left": "7",
+                "isLinked": true
+              },
+              "subtitle": "Gründlich",
+              "btn_margin": {
+                "unit": "%",
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": "",
+                "isLinked": false
+              },
+              "icon_lheight": {
+                "unit": "px",
+                "size": 58,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "cholot-texticon",
+            "elType": "widget"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6331316163353537",
+    "elType": "section",
+    "isInner": false,
+    "settings": {
+      "background_color": "#1f1f1f",
+      "padding": {
+        "unit": "px",
+        "top": "30",
+        "bottom": "30"
+      }
+    },
+    "elements": [
+      {
+        "id": "6462343836623039",
+        "elType": "column",
+        "isInner": false,
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "449a16f9",
+            "settings": {
+              "editor": "<p>© 2024 RIMAN GmbH. Alle Rechte vorbehalten.</p>",
+              "text_color": "#b68c2f",
+              "typography_typography": "custom",
+              "typography_text_transform": "uppercase",
+              "typography_font_style": "normal",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "-30",
+                "left": "0",
+                "isLinked": false
+              },
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1,
+                "sizes": []
+              },
+              "typography_font_weight": "700",
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 0,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "text-editor",
+            "elType": "widget"
+          }
+        ]
+      }
+    ]
+  }
+]
