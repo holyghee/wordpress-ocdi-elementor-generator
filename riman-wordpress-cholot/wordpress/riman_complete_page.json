@@ -1,0 +1,1309 @@
+{
+  "content": [
+    {
+      "id": "3933393561336534",
+      "settings": {
+        "gap": "no",
+        "layout": "full_width",
+        "background_color": "rgba(0,0,0,0.6)",
+        "shape_divider_bottom_color": "#ffffff",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 105,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 88,
+          "sizes": []
+        },
+        "shape_divider_bottom_above_content": "yes"
+      },
+      "elements": [
+        {
+          "id": "41cde261",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "4a96e0e5",
+              "settings": {
+                "slider_list": [
+                  {
+                    "title": "RIMAN GmbH - <span>Professionelle</span> Sanierung",
+                    "subtitle": "Seit über 20 Jahren",
+                    "text": "Ihr zuverlässiger Partner für Asbest-, PCB- und Schimmelsanierung. Wir arbeiten nach höchsten Sicherheitsstandards.",
+                    "_id": "3333623",
+                    "btn_text": "Kontakt aufnehmen",
+                    "btn_link": {
+                      "url": "#contact"
+                    },
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1581094794329-c8112c50c0d7?w=1200",
+                      "id": "3139",
+                      "alt": "",
+                      "source": "library",
+                      "size": ""
+                    }
+                  },
+                  {
+                    "title": "Zertifizierte <span>Asbestsanierung</span>",
+                    "subtitle": "Nach TRGS 519",
+                    "text": "Sichere und fachgerechte Entfernung von Asbest mit modernster Ausrüstung und geschultem Personal.",
+                    "_id": "3333396",
+                    "btn_text": "Mehr erfahren",
+                    "btn_link": {
+                      "url": "#services"
+                    },
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200",
+                      "id": "6434",
+                      "alt": "",
+                      "source": "library",
+                      "size": ""
+                    }
+                  }
+                ],
+                "align": "left",
+                "title_typo_typography": "custom",
+                "title_typo_font_size": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                },
+                "title_typo_font_weight": "700",
+                "subtitle_typo_typography": "custom",
+                "subtitle_typo_font_weight": "700",
+                "icon_align": "right",
+                "btn_typography_typography": "custom",
+                "btn_typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "btn_typography_font_weight": "700",
+                "btn_border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "slider_width": {
+                  "unit": "px",
+                  "size": 1170,
+                  "sizes": []
+                },
+                "arrow_width": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "slider_content": {
+                  "unit": "px",
+                  "size": 675,
+                  "sizes": []
+                },
+                "title_typo_text_transform": "none",
+                "subtitle_typo_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "subtitle_typo_letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "text_typo_typography": "custom",
+                "text_typo_font_size": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "line_width": {
+                  "unit": "px",
+                  "size": 80,
+                  "sizes": []
+                },
+                "line_height": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "linecolor": "#b68c2f",
+                "slider_mask": "rgba(0,0,0,0.85)",
+                "title_typo_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "subtitle_typo_letter_spacing_mobile": {
+                  "unit": "px",
+                  "size": 0.3,
+                  "sizes": []
+                },
+                "text_type_mobile": "none",
+                "slider_speed": 8000,
+                "arrow_color_hover": "#ffffff",
+                "text_color": "rgba(255,255,255,0.89)",
+                "slider_width_tablet": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "arrow_bg_color_hover": "#b68c2f",
+                "title_typo_font_family": "Playfair Display",
+                "title_typo_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "subtitle_typo_text_transform": "uppercase",
+                "subtitle_typo_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "subtitle_color": "#b68c2f",
+                "btn_color": "#ffffff",
+                "btn_color_hover": "#ffffff",
+                "btn_bg": "rgba(96,22,174,0)",
+                "btn_bg_hover": "#b68c2f",
+                "btn_border": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "btn_border_hover": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "btn_border_color": "#b68c2f",
+                "btn_border_color_hover": "#b68c2f",
+                "title_color": "#ffffff",
+                "subtitle_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "arrow_color": "#ffffff",
+                "arrow_bg_color": "rgba(0,0,0,0)",
+                "btn_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "slider_height": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "slider_height_bottom": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "200",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff",
+                "slider_height_tablet": {
+                  "unit": "px",
+                  "size": 21,
+                  "sizes": []
+                },
+                "slider_height_mobile": {
+                  "unit": "px",
+                  "size": 42,
+                  "sizes": []
+                },
+                "slider_height_bottom_tablet": {
+                  "unit": "px",
+                  "size": 19,
+                  "sizes": []
+                },
+                "slider_height_bottom_mobile": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "rdn-slider",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "3666326637366132",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "bottom": "60"
+        }
+      },
+      "elements": [
+        {
+          "id": "3764396461333133",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": []
+        }
+      ],
+      "elType": "section"
+    },
+    {
+      "id": "3631636366333531",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "bottom": "60"
+        }
+      },
+      "elements": [
+        {
+          "id": "3731373135613532",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "3332656331613539",
+              "settings": {
+                "title": "Über RIMAN GmbH",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_font_family": "Playfair Display",
+                "title_color": "#ffffff"
+              },
+              "widgetType": "cholot-title",
+              "elType": "widget"
+            },
+            {
+              "id": "6530343663393638",
+              "settings": {
+                "editor": "<p>Mit über 20 Jahren Erfahrung sind wir Ihr kompetenter Partner für alle Sanierungsarbeiten. Unsere zertifizierten Mitarbeiter garantieren höchste Qualität und Sicherheit.</p>",
+                "text_color": "rgba(255,255,255,0.8)"
+              },
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ]
+        }
+      ],
+      "elType": "section"
+    },
+    {
+      "id": "3462323162383131",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#fafafa",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "structure": "30"
+      },
+      "elements": [
+        {
+          "id": "6530323238643337",
+          "settings": {
+            "_column_size": 33,
+            "animation": "fadeInUp"
+          },
+          "elements": [
+            {
+              "id": "6165383836383131",
+              "settings": {
+                "title": "Michael Ritter",
+                "text": "Geschäftsführer",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
+                  "id": "3136"
+                },
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": "fab fa-linkedin-in"
+                    },
+                    "link": {
+                      "url": "https://linkedin.com"
+                    }
+                  },
+                  {
+                    "social_icon": {
+                      "value": "fab fa-xing"
+                    },
+                    "link": {
+                      "url": "https://xing.com"
+                    }
+                  }
+                ],
+                "team_height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "port_border_color": "#b68c2f",
+                "bg_icon_color": "#b68c2f",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 14,
+                  "spread": 4
+                }
+              },
+              "widgetType": "cholot-team",
+              "elType": "widget"
+            }
+          ]
+        },
+        {
+          "id": "3866333034323936",
+          "settings": {
+            "_column_size": 33,
+            "animation": "fadeInUp"
+          },
+          "elements": [
+            {
+              "id": "6235626238373036",
+              "settings": {
+                "title": "Sandra Mann",
+                "text": "Projektleiterin",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
+                  "id": "3331"
+                },
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": "fab fa-linkedin-in"
+                    },
+                    "link": {
+                      "url": "https://linkedin.com"
+                    }
+                  }
+                ],
+                "team_height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "port_border_color": "#b68c2f",
+                "bg_icon_color": "#b68c2f",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 14,
+                  "spread": 4
+                }
+              },
+              "widgetType": "cholot-team",
+              "elType": "widget"
+            }
+          ]
+        },
+        {
+          "id": "3934643962653638",
+          "settings": {
+            "_column_size": 33,
+            "animation": "fadeInUp"
+          },
+          "elements": [
+            {
+              "id": "3433353862643637",
+              "settings": {
+                "title": "Thomas Weber",
+                "text": "Technischer Leiter",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+                  "id": "3061"
+                },
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": "fab fa-linkedin-in"
+                    },
+                    "link": {
+                      "url": "https://linkedin.com"
+                    }
+                  }
+                ],
+                "team_height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "port_border_color": "#b68c2f",
+                "bg_icon_color": "#b68c2f",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 14,
+                  "spread": 4
+                }
+              },
+              "widgetType": "cholot-team",
+              "elType": "widget"
+            }
+          ]
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "6130633765306661",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/6.jpg",
+          "id": 351
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.86)",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.98,
+          "sizes": []
+        },
+        "background_attachment": "fixed",
+        "shape_divider_top_width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+        },
+        "shape_divider_top_height": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "background_overlay_color_stop": {
+          "unit": "%",
+          "size": 17,
+          "sizes": []
+        },
+        "background_overlay_color_b": "#000000"
+      },
+      "elements": [
+        {
+          "id": "7c87ceaf",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "4dca4bee",
+              "settings": {
+                "content_width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "496d3323",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "1014ebee",
+                      "settings": {
+                        "title": "From our <span>lovely</span> <br>community, family &amp; friends.",
+                        "desc_typography_typography": "custom",
+                        "desc_typography_font_size": {
+                          "unit": "px",
+                          "size": 35,
+                          "sizes": []
+                        },
+                        "desc_typography_font_weight": "700",
+                        "desc_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "_z_index": 1,
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "desc_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 25,
+                          "sizes": []
+                        },
+                        "title_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "desc_typography_font_family": "Playfair Display",
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": false
+                        },
+                        "span_title_typo_typography": "custom",
+                        "span_title_typo_font_weight": "400",
+                        "span_title_typo_font_style": "italic",
+                        "span_title_color": "#ffffff"
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "cholot-title",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "14cfbdf3",
+                      "settings": {
+                        "editor": "<p>ullamcorper matulvinar</p>",
+                        "text_color": "#b68c2f",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase",
+                        "typography_font_style": "normal",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "-30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "5a448e59",
+                      "settings": {
+                        "weight": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "color": "#b68c2f",
+                        "width": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "align": "center",
+                        "gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "text": "Divider"
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "divider",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "column"
+                }
+              ],
+              "isInner": true,
+              "elType": "section"
+            },
+            {
+              "id": "778edadc",
+              "settings": {
+                "gap": "no",
+                "margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": 0,
+                  "bottom": "",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "3d7c18f5",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "72642213",
+                      "settings": {
+                        "show_desktop": 3,
+                        "testi_list": [
+                          {
+                            "title": "Hans Müller",
+                            "position": "Hausverwaltung München",
+                            "text": "RIMAN GmbH hat die Asbestsanierung in unserem Gebäude professionell und termingerecht durchgeführt. Sehr zu empfehlen!",
+                            "_id": "3861316",
+                            "image": {
+                              "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+                              "id": "3863"
+                            }
+                          },
+                          {
+                            "title": "Maria Schmidt",
+                            "position": "Immobilien Schmidt GmbH",
+                            "text": "Kompetente Beratung und saubere Ausführung. Die Schimmelsanierung wurde perfekt umgesetzt.",
+                            "_id": "3732363",
+                            "image": {
+                              "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
+                              "id": "3834"
+                            }
+                          },
+                          {
+                            "title": "Peter Wagner",
+                            "position": "Bauunternehmen Wagner",
+                            "text": "Zuverlässiger Partner für alle Sanierungsarbeiten. Die Zusammenarbeit klappt seit Jahren hervorragend.",
+                            "_id": "3231396",
+                            "image": {
+                              "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+                              "id": "3930"
+                            }
+                          }
+                        ],
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "name_color": "#ffffff",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Source Sans Pro",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "name_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "name_typography_font_weight": "700",
+                        "name_typography_text_transform": "uppercase",
+                        "post_color": "#b68c2f",
+                        "post_typography_typography": "custom",
+                        "post_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "post_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "post_typography_font_weight": "400",
+                        "post_typography_font_style": "normal",
+                        "image_border_border": "solid",
+                        "image_border_width": {
+                          "unit": "px",
+                          "top": "3",
+                          "right": "3",
+                          "bottom": "3",
+                          "left": "3",
+                          "isLinked": true
+                        },
+                        "image_border_width_mobile": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "image_border_color": "#ffffff",
+                        "img_size": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "img_size_mobile": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "img_radius": {
+                          "unit": "px",
+                          "top": "200",
+                          "right": "200",
+                          "bottom": "200",
+                          "left": "200",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "content-align": "center",
+                        "post_typography_text_transform": "none",
+                        "testi_box_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "testi_box_border_color": "#b68c2f",
+                        "testi_box_bg": "rgba(255,255,255,0)",
+                        "icon_fsize": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "icon_lheight": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "text_bgcolor": "rgba(255,255,255,0.08)",
+                        "textbox_padding": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "30",
+                          "bottom": "30",
+                          "left": "30",
+                          "isLinked": true
+                        },
+                        "text_radius": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "testi_icon_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "textbox_margin": {
+                          "unit": "px",
+                          "top": "-20",
+                          "right": "0",
+                          "bottom": "30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "title_color": "#ffffff",
+                        "testi_box_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        },
+                        "testi_box_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "cholot-testimonial-two",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "column"
+                }
+              ],
+              "isInner": true,
+              "elType": "section"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "6437656462656462",
+      "settings": {
+        "gap": "extended",
+        "structure": "20",
+        "padding": {
+          "unit": "%",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 173,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 110,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_color": "#1f1f1f",
+        "background_overlay_background": "classic",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.29,
+          "sizes": []
+        },
+        "shape_divider_top_color": "#ffffff",
+        "shape_divider_top_flip": "yes",
+        "shape_divider_top_negative": "yes",
+        "background_overlay_repeat": "repeat",
+        "background_overlay_bg_width": {
+          "unit": "px",
+          "size": 50,
+          "sizes": []
+        },
+        "background_overlay_color": "#1f1f1f",
+        "background_overlay_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg",
+          "id": 350
+        },
+        "css_filters_css_filter": "custom",
+        "overlay_blend_mode": "multiply",
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "5e537548",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "15346700",
+              "settings": {
+                "editor": "<p>Wir beraten Sie gerne zu allen Fragen rund um Sanierungsarbeiten. Rufen Sie uns an oder nutzen Sie unser Kontaktformular.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            },
+            {
+              "id": "34cb3a49",
+              "settings": {
+                "title": "Kontaktieren Sie uns für ein <span>unverbindliches</span> Angebot",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "title_color": "#ffffff",
+                "align": "left",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "cholot-title",
+              "elType": "widget"
+            },
+            {
+              "id": "37cae3e8",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "left",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "text": "Divider"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "divider",
+              "elType": "widget"
+            },
+            {
+              "id": "4b474f6b",
+              "settings": {
+                "editor": "<p>Wir beraten Sie gerne zu allen Fragen rund um Sanierungsarbeiten. Rufen Sie uns an oder nutzen Sie unser Kontaktformular.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "text_color": "rgba(255,255,255,0.6)",
+                "typography_typography": "custom",
+                "typography_font_weight": "normal"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        },
+        {
+          "id": "30d16202",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "_inline_size_tablet": 100,
+            "background_background": "classic",
+            "background_color": "#1f1f1f",
+            "background_size": "cover",
+            "background_overlay_image_tablet": {
+              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg",
+              "id": 237
+            },
+            "background_overlay_position": "center center",
+            "background_overlay_size": "cover",
+            "background_overlay_opacity": {
+              "unit": "px",
+              "size": 0.14,
+              "sizes": []
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 2,
+              "vertical": 3,
+              "blur": 5,
+              "spread": 3,
+              "color": "rgba(17,17,17,0.18)"
+            },
+            "margin": {
+              "unit": "px",
+              "top": "-30",
+              "right": "0",
+              "bottom": "-30",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_tablet": {
+              "unit": "px",
+              "top": "15",
+              "right": "15",
+              "bottom": "15",
+              "left": "15",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "z_index": 2,
+            "animation": "fadeInUp",
+            "animation_duration": "fast",
+            "padding_mobile": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "24ed971",
+              "settings": {
+                "shortcode": "[contact-form-7 id=\"5\" title=\"Contact form\"]",
+                "btn_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "btn_padding": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "btn_typography_typography": "custom",
+                "btn_typography_font_weight": "700",
+                "btn_typography_text_transform": "uppercase",
+                "btn_border_radius": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "btn_typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "btn_color": "#ffffff",
+                "btn_color_hover": "#ffffff",
+                "btn_bg": "rgba(0,0,0,0)",
+                "btn_bg_hover": "#b68c2f",
+                "btn_border": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "btn_border_color": "#b68c2f",
+                "btn_width": "100%",
+                "form_placeholder": "#ffffff",
+                "form_bg": "rgba(0,0,0,0)",
+                "form_border_color": "#ffffff",
+                "form_border_color_active": "#b68c2f",
+                "btn_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "form_text": "#ffffff"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "cholot-contact",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "RIMAN GmbH - Generated Page",
+  "type": "page"
+}
