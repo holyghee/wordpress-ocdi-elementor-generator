@@ -59,13 +59,16 @@ def extract_widget_content(widget_data):
     elif widget_type == 'rdn-slider':
         slides = settings.get('slides', [])
         content['content']['slides'] = []
-        for slide in slides:
-            content['content']['slides'].append({
-                'title': slide.get('title', ''),
-                'text': clean_html(slide.get('text', '')),
-                'button_text': slide.get('button_text', ''),
-                'button_link': slide.get('button_link', {}).get('url', '')
-            })
+        for slide in slides if isinstance(slides, list) else []:
+            if isinstance(slide, dict):
+                button_link = slide.get('button_link', {})
+                button_url = button_link.get('url', '') if isinstance(button_link, dict) else str(button_link) if button_link else ''
+                content['content']['slides'].append({
+                    'title': slide.get('title', ''),
+                    'text': clean_html(slide.get('text', '')),
+                    'button_text': slide.get('button_text', ''),
+                    'button_link': button_url
+                })
     elif widget_type == 'cholot-team':
         content['content'] = {
             'team_members': settings.get('team_members', [])
