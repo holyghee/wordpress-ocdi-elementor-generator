@@ -234,10 +234,14 @@ def main():
     generator = ElementorJSONGenerator()
     elementor_json = generator.generate_from_yaml(yaml_input)
     
-    # Speichere Output
+    # Speichere Output - nur content array für Kompatibilität
     output_file = "riman-elementor-generated.json"
     with open(output_file, 'w') as f:
-        json.dump(elementor_json, f, indent=2)
+        # Nur den content array speichern, nicht das ganze Objekt
+        if 'content' in elementor_json:
+            json.dump(elementor_json['content'], f, indent=2)
+        else:
+            json.dump(elementor_json, f, indent=2)
     
     print(f"\n✅ Elementor JSON generiert!")
     print(f"📄 Datei: {output_file}")

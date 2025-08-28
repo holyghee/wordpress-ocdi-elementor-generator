@@ -1,0 +1,9 @@
+site:
+  title: "RIMAN GmbH Website"
+  url: "https://riman-gmbh.de"
+
+pages:
+  - title: "Startseite"
+    slug: "home"
+    template: "elementor_header_footer"
+    elementor_data_file: "riman-elementor-generated.json"
