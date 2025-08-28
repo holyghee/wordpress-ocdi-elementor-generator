@@ -1,0 +1,21 @@
+pages:
+- id: 100
+  sections:
+  - content:
+      background: default.jpg
+      button_text: NEUER BUTTON TEXT
+      subtitle: Dies sollte auf der Website erscheinen
+      title: GEÄNDERTER TITEL - Test 123
+    type: hero
+  - content:
+      heading: Editierbarer Textblock
+      text: Wenn dieser Text auf der Website erscheint, funktioniert die YAML→XML
+        Pipeline!
+    type: text-block
+  slug: test-home
+  template: elementor_canvas
+  title: TEST Home - Geändert
+site:
+  description: Test ob ich Inhalte ändern kann
+  title: TEST Cholot Site - Editierbar
+  url: http://localhost:8081

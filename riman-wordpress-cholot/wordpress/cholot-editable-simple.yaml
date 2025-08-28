@@ -1,0 +1,96 @@
+# Vereinfachte, editierbare YAML-Config für Cholot
+# Ziel: Inhalte hier ändern → XML generieren → WordPress Import
+
+site:
+  title: "Meine Cholot Test-Seite"
+  url: "http://localhost:8081"
+  description: "Editierbare WordPress-Seite mit Cholot Theme"
+
+pages:
+  - id: 200
+    title: "Startseite - Editierbar"
+    slug: ""  # Leerer Slug für Homepage
+    template: "elementor_canvas"
+    # Verwende existierende Elementor-Template-Datei
+    elementor_file: "elementor_structures/page_6_Home.json"
+    # Diese Ersetzungen werden in der Template-Datei vorgenommen
+    content_replacements:
+      # Hero Section Texte
+      "Discover the best community that fit your needs": "Willkommen bei RIMAN GmbH - Ihre Sanierungsexperten"
+      "for best and worst": "Professionell & Zuverlässig"
+      "View More": "Mehr erfahren"
+      
+      # Service Section
+      "Thinking about retirement?": "Denken Sie an eine Sanierung?"
+      "Let us be your guide.": "Wir sind Ihr kompetenter Partner."
+      "ullamcorper matti pulvinar": "Asbestsanierung & PCB-Entfernung"
+      
+      # Service Cards
+      "Healthly life": "Asbestsanierung"
+      "Counseling": "PCB-Sanierung" 
+      "Stay active.": "Brandschadensanierung"
+      "Meet regularly": "Schimmelsanierung"
+      
+      # Testimonials
+      "From our lovely community": "Was unsere Kunden sagen"
+      "Dhea Marisa": "Max Mustermann"
+      "Thyo Septian": "Erika Beispiel"
+      
+      # Contact Section
+      "Contact us for more info": "Kontaktieren Sie uns"
+      "about our excellent community": "für eine kostenlose Beratung"
+      "fringilla vela aliquet": "Schnell & Unkompliziert"
+
+  - id: 201
+    title: "Über uns - Anpassbar"
+    slug: "ueber-uns"
+    template: "elementor_canvas"
+    elementor_file: "elementor_structures/page_179_About.json"
+    content_replacements:
+      "About": "Über RIMAN GmbH"
+      "Our Story": "Unsere Geschichte"
+      "Our Mission": "Unsere Mission"
+
+  - id: 202
+    title: "Kontakt - Editierbar"
+    slug: "kontakt"
+    template: "elementor_canvas"
+    elementor_file: "elementor_structures/page_289_Contact.json"
+    content_replacements:
+      "Contact": "Kontakt"
+      "Get in Touch": "Nehmen Sie Kontakt auf"
+      "Send Message": "Nachricht senden"
+
+menus:
+  - id: 300
+    name: "Hauptmenü"
+    slug: "hauptmenu"
+    items:
+      - id: 301
+        title: "Start"
+        page_id: 200
+        order: 1
+      - id: 302
+        title: "Über uns"
+        page_id: 201
+        order: 2
+      - id: 303
+        title: "Kontakt"
+        page_id: 202
+        order: 3
+
+# Einfache Einstellungen für schnelle Änderungen
+settings:
+  # Firmenname - wird überall ersetzt
+  company_name: "RIMAN GmbH"
+  
+  # Hauptfarbe (Cholot Gold)
+  primary_color: "#b68c2f"
+  
+  # Footer-Text
+  footer_text: "© 2024 RIMAN GmbH - Alle Rechte vorbehalten"
+  
+  # Kontaktdaten
+  phone: "+49 123 456789"
+  email: "info@riman-gmbh.de"
+  address: "Musterstraße 123, 12345 Musterstadt"
