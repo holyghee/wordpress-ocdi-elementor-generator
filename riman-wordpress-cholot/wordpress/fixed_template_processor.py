@@ -627,11 +627,24 @@ class FixedTemplateProcessor:
         # Format and save XML
         xml_string = ET.tostring(rss, encoding='unicode')
         
-        # Clean formatting without minidom to avoid parsing issues
-        # Write directly
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
-            f.write(xml_string)
+        # Try to format nicely but handle parsing errors gracefully
+        try:
+            dom = minidom.parseString(xml_string)
+            pretty_xml = dom.toprettyxml(indent='    ', encoding='UTF-8')
+            
+            # Clean up extra blank lines
+            lines = pretty_xml.decode('utf-8').split('\n')
+            clean_lines = [line for line in lines if line.strip()]
+            clean_xml = '\n'.join(clean_lines)
+            
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(clean_xml)
+        except Exception as e:
+            print(f"Warning: Could not format XML nicely: {e}")
+            # Fallback: write unformatted XML
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
+                f.write(xml_string)
         
         return output_path
     
