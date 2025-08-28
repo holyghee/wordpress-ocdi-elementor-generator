@@ -25,7 +25,8 @@ class EnhancedSiteGenerator:
         self.item_counter = 10000  # Start from high ID to avoid conflicts
         self.attachment_ids = {}  # Map URLs to attachment IDs
         self.page_ids = {}  # Map page slugs to IDs
-        self.processor = SectionBasedProcessor(config_file)
+        self.processor = SectionBasedProcessor()
+        self.processor.config = self.config  # Share config
     
     def get_next_id(self) -> int:
         """Get next available ID"""
