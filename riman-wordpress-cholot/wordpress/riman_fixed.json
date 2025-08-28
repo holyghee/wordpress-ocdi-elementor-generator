@@ -1,0 +1,1064 @@
+{
+  "content": [
+    {
+      "id": "01177fb",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_wrap": "nowrap"
+      },
+      "elements": [
+        {
+          "id": "3ac1d98",
+          "elType": "container",
+          "settings": {
+            "content_width": "full_width",
+            "height": "min-height",
+            "custom_height": {
+              "unit": "vh",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_image": {
+              "url": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+            },
+            "background_position": "center center",
+            "background_repeat": "no-repeat",
+            "background_size": "cover",
+            "background_overlay_background": "classic",
+            "background_overlay_color": "rgba(0,0,0,0.4)"
+          },
+          "elements": [
+            {
+              "id": "55e467c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "RIMAN GmbH - Ihre <span>Experten</span> f\u00fcr Sanierung",
+                "size": "xxl",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 60
+                },
+                "typography_font_weight": "700",
+                "text_color": "#ffffff"
+              }
+            },
+            {
+              "id": "22a53bd",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Professionelle Asbest-, PCB- und Schimmelsanierung nach h\u00f6chsten Sicherheitsstandards.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "text_color": "#ffffff"
+              }
+            },
+            {
+              "id": "6fad216",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Kostenlose Beratung",
+                "link": {
+                  "url": "#contact"
+                },
+                "align": "center",
+                "size": "lg",
+                "typography_typography": "custom",
+                "typography_font_weight": "600",
+                "background_color": "#b68c2f",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 5
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.2)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "1f9fbd6",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "288b209",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "margin": {
+                  "unit": "px",
+                  "top": 80,
+                  "bottom": 40
+                }
+              },
+              "elements": [
+                {
+                  "id": "36357a1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Unsere Leistungen",
+                    "size": "xl",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_font_weight": "700",
+                    "text_color": "#232323"
+                  }
+                },
+                {
+                  "id": "d57f0e5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Professionell & Zertifiziert",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "text_color": "#666666"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "5c8e771",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "flex_direction": "row",
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "a32b558",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 12,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.1)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b1c242d",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-shield-alt",
+                          "library": "fa-solid"
+                        },
+                        "size": "large",
+                        "primary_color": "#b68c2f",
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "id": "5f75a95",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Asbestsanierung",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "ae283f2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><strong>TRGS 519</strong></p><p>Zertifizierte Asbestentfernung mit modernster Technik und geschultem Personal.</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "18257ce",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 12,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.1)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e6f60ee",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-biohazard",
+                          "library": "fa-solid"
+                        },
+                        "size": "large",
+                        "primary_color": "#b68c2f",
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "id": "6064d95",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PCB-Sanierung",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "d00b979",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><strong>Umweltgerecht</strong></p><p>Fachgerechte Entsorgung PCB-belasteter Materialien nach aktuellen Richtlinien.</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "d3c7dff",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 12,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.1)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "eec522c",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-spray-can",
+                          "library": "fa-solid"
+                        },
+                        "size": "large",
+                        "primary_color": "#b68c2f",
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "id": "fdd70e7",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Schimmelsanierung",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "746d9ad",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><strong>Nachhaltig</strong></p><p>Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Pr\u00e4vention.</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a156bc7",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 12,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.1)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e7ec004",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-fire-extinguisher",
+                          "library": "fa-solid"
+                        },
+                        "size": "large",
+                        "primary_color": "#b68c2f",
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "id": "1179b54",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Brandschadensanierung",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "74e2873",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><strong>24/7 Notdienst</strong></p><p>Schnelle und professionelle Sanierung nach Brand- und Wassersch\u00e4den.</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bea6993",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "margin": {
+              "unit": "px",
+              "top": 80,
+              "bottom": 80
+            },
+            "flex_direction": "row"
+          },
+          "elements": [
+            {
+              "id": "71a9b28",
+              "elType": "container",
+              "settings": {
+                "content_width": "full_width",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "padding": {
+                  "unit": "px",
+                  "right": 40
+                }
+              },
+              "elements": [
+                {
+                  "id": "d1117e7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\u00dcber <span>uns</span>",
+                    "size": "xl",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_font_weight": "700",
+                    "text_color": "#232323"
+                  }
+                },
+                {
+                  "id": "82eab36",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Seit \u00fcber 20 Jahren sind wir Ihr zuverl\u00e4ssiger Partner f\u00fcr professionelle \nSanierungsarbeiten. Mit einem Team aus zertifizierten Experten garantieren \nwir h\u00f6chste Qualit\u00e4t und Sicherheit bei jedem Projekt.\n\nUnsere Erfahrung und modernste Ausr\u00fcstung erm\u00f6glichen uns, auch komplexe \nSanierungsprojekte termingerecht und kosteneffizient durchzuf\u00fchren.\n</p>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "text_color": "#666666"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "11bc380",
+              "elType": "container",
+              "settings": {
+                "content_width": "full_width",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                }
+              },
+              "elements": [
+                {
+                  "id": "3db43f9",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "84bdb0c",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "ee21164",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "margin": {
+                  "unit": "px",
+                  "top": 80,
+                  "bottom": 40
+                }
+              },
+              "elements": [
+                {
+                  "id": "804ce45",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Unser Team",
+                    "size": "xl",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_font_weight": "700",
+                    "text_color": "#232323"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "331fbe1",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "flex_direction": "row",
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "b1e6e4d",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 33.33
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cc28968",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+                        },
+                        "align": "center",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 50
+                        }
+                      }
+                    },
+                    {
+                      "id": "35fe2f3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Michael Ritter",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "ece9e88",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><em>Gesch\u00e4ftsf\u00fchrer & Gr\u00fcnder</em></p><p>\u00dcber 25 Jahre Erfahrung in der Sanierungsbranche</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "f2c876f",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 33.33
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "7026410",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+                        },
+                        "align": "center",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 50
+                        }
+                      }
+                    },
+                    {
+                      "id": "ed6cb3f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sandra Mann",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "9875f79",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><em>Leiterin Projektmanagement</em></p><p>Zertifizierte Projektmanagerin mit Fokus auf Gro\u00dfprojekte</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "17941c5",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full_width",
+                    "width": {
+                      "unit": "%",
+                      "size": 33.33
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5990c4f",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80"
+                        },
+                        "align": "center",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 50
+                        }
+                      }
+                    },
+                    {
+                      "id": "46bbbed",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Thomas Weber",
+                        "size": "medium",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#232323"
+                      }
+                    },
+                    {
+                      "id": "82a5c1f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><em>Technischer Direktor</em></p><p>Spezialist f\u00fcr Asbestsanierung und technische Planung</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_color": "#666666"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7e3b9cf",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "margin": {
+              "unit": "px",
+              "top": 80,
+              "bottom": 80
+            },
+            "background_background": "classic",
+            "background_color": "#f8f9fa",
+            "padding": {
+              "unit": "px",
+              "top": 60,
+              "bottom": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "322a9d9",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Was unsere <span>Kunden</span> sagen",
+                "size": "xl",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700",
+                "text_color": "#232323"
+              }
+            },
+            {
+              "id": "b6cc612",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "RIMAN GmbH hat unsere Asbestsanierung absolut professionell durchgef\u00fchrt. Termintreu, sauber und kompetent!",
+                "testimonial_name": "Klaus Hoffmann",
+                "testimonial_job": "Hausverwaltung Berlin",
+                "testimonial_image": {
+                  "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+                },
+                "testimonial_alignment": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "text_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ad34a45",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "margin": {
+              "unit": "px",
+              "top": 80,
+              "bottom": 80
+            }
+          },
+          "elements": [
+            {
+              "id": "5b69c92",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Weitere Leistungen",
+                "size": "xl",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "600",
+                "text_color": "#232323"
+              }
+            },
+            {
+              "id": "dd3b079",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "a5b133b",
+                    "text": "Schadstoffgutachten",
+                    "selected_icon": {
+                      "value": "fas fa-clipboard-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "ccafc77",
+                    "text": "R\u00fcckbau & Entsorgung",
+                    "selected_icon": {
+                      "value": "fas fa-truck",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "f6ec8d5",
+                    "text": "Luftmessungen",
+                    "selected_icon": {
+                      "value": "fas fa-wind",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "bf2bf3d",
+                    "text": "Beratung & Planung",
+                    "selected_icon": {
+                      "value": "fas fa-project-diagram",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "icon_color": "#b68c2f",
+                "text_color": "#232323"
+              }
+            }
+          ]
+        },
+        {
+          "id": "184aa0c",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "margin": {
+              "unit": "px",
+              "top": 80,
+              "bottom": 80
+            },
+            "background_background": "classic",
+            "background_color": "#1f1f1f",
+            "padding": {
+              "unit": "px",
+              "top": 80,
+              "bottom": 80
+            }
+          },
+          "elements": [
+            {
+              "id": "b793863",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Kontaktieren Sie uns",
+                "size": "xl",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700",
+                "text_color": "#ffffff"
+              }
+            },
+            {
+              "id": "16773c2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center;'>Wir beraten Sie gerne unverbindlich zu Ihrem Sanierungsprojekt.</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "text_color": "#cccccc"
+              }
+            },
+            {
+              "id": "ef749bc",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-phone",
+                  "library": "fa-solid"
+                },
+                "title_text": "Telefon",
+                "description_text": "+49 (0) 30 123456789",
+                "position": "left",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#ffffff",
+                "description_color": "#cccccc"
+              }
+            },
+            {
+              "id": "64bfe34",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-envelope",
+                  "library": "fa-solid"
+                },
+                "title_text": "E-Mail",
+                "description_text": "info@riman-sanierung.de",
+                "position": "left",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#ffffff",
+                "description_color": "#cccccc"
+              }
+            },
+            {
+              "id": "1f40749",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-map-marker-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Adresse",
+                "description_text": "Musterstra\u00dfe 123, 10115 Berlin",
+                "position": "left",
+                "icon_primary_color": "#b68c2f",
+                "title_color": "#ffffff",
+                "description_color": "#cccccc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
