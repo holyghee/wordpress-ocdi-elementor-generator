@@ -420,6 +420,27 @@ class CholotTemplateMapper:
                 return template if template in templates else 'home-page'
         
         return 'home-page'  # Ultimate fallback
+    
+    def _extract_slug_from_link(self, link: str) -> str:
+        """Extract page slug from WordPress link URL."""
+        if not link:
+            return ''
+        
+        # Handle root/home page
+        if link.endswith('/cholot/') or link.endswith('/cholot'):
+            return 'home'
+        
+        # Extract slug from URL
+        import re
+        slug_match = re.search(r'/([^/]+)/?$', link.rstrip('/'))
+        if slug_match:
+            slug = slug_match.group(1)
+            # Handle special cases
+            if slug == 'cholot':
+                return 'home'
+            return slug
+        
+        return 'home'
 
 def main():
     """Main execution function."""
