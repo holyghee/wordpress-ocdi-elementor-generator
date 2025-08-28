@@ -65,11 +65,7 @@ class CompletePageProcessor:
         # Create XML structure
         rss = ET.Element('rss')
         rss.set('version', '2.0')
-        rss.set('xmlns:excerpt', 'http://wordpress.org/export/1.2/excerpt/')
-        rss.set('xmlns:content', 'http://purl.org/rss/1.0/modules/content/')
         rss.set('xmlns:wfw', 'http://wellformedweb.org/CommentAPI/')
-        rss.set('xmlns:dc', 'http://purl.org/dc/elements/1.1/')
-        rss.set('xmlns:wp', 'http://wordpress.org/export/1.2/')
         
         # Create channel
         channel = ET.SubElement(rss, 'channel')
