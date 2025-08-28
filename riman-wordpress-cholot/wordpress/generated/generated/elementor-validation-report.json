@@ -1,22 +1,49 @@
 {
-  "validation_date": "2025-08-28T19:18:31.143090",
-  "xml_file": "generated/cholot-generated-iter-2.xml",
+  "validation_date": "2025-08-28T19:30:43.009714",
+  "xml_file": "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/generated/cholot-generated-iter-3.xml",
   "summary": {
-    "total_blocks": 0,
+    "total_blocks": 3,
     "valid_blocks": 0,
-    "invalid_blocks": 0,
+    "invalid_blocks": 3,
     "success_rate": 0.0
   },
   "results": {
     "total_pages": 0,
-    "pages_with_elementor": 0,
+    "pages_with_elementor": 3,
     "valid_elementor_data": 0,
-    "invalid_elementor_data": 0,
+    "invalid_elementor_data": 3,
     "missing_meta_keys": 0,
     "errors": [
-      "No Elementor data found in XML"
+      "Block 0: Elementor data should be a JSON array",
+      "Block 1: Elementor data should be a JSON array",
+      "Block 2: Elementor data should be a JSON array"
     ],
     "warnings": [],
-    "details": []
+    "details": [
+      {
+        "block_index": 0,
+        "post_id": 6,
+        "json_valid": false,
+        "json_message": "Elementor data should be a JSON array",
+        "structure_valid": false,
+        "cholot_widgets_valid": false
+      },
+      {
+        "block_index": 1,
+        "post_id": 179,
+        "json_valid": false,
+        "json_message": "Elementor data should be a JSON array",
+        "structure_valid": false,
+        "cholot_widgets_valid": false
+      },
+      {
+        "block_index": 2,
+        "post_id": 289,
+        "json_valid": false,
+        "json_message": "Elementor data should be a JSON array",
+        "structure_valid": false,
+        "cholot_widgets_valid": false
+      }
+    ]
   }
 }

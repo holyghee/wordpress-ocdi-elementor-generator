@@ -1,20 +1,19 @@
 {
-    "test_date": "2025-08-28T19:18:31+02:00",
-    "xml_file": "generated/cholot-generated-iter-2.xml",
-    "test_result": "PASS",
-    "file_size": 12751,
+    "test_date": "2025-08-28T19:30:43+02:00",
+    "xml_file": "/Users/holgerbrandt/dev/claude-code/projects/riman-wordpress/riman-wordpress-cholot/wordpress/generated/cholot-generated-iter-3.xml",
+    "test_result": "FAIL",
+    "file_size": 323238,
     "statistics": {
         "total_items": 7,
         "pages": 3,
         "posts": 0
 0,
         "menu_items": 4,
-        "elementor_blocks": 0
-0
+        "elementor_blocks": 6
     },
     "validations": {
         "xml_syntax": true,
-        "has_elementor_data": false,
+        "has_elementor_data": true,
         "has_required_elements": true
     }
 }
