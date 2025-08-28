@@ -1,0 +1,35 @@
+{
+  "id": "text-content_13",
+  "type": "text-content",
+  "source": "post_428_Venenatis_faucibus_nullam_quisenean",
+  "structure": {
+    "id": "6e82e11",
+    "elType": "section",
+    "settings": {
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "fc4b84e",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "f9e5a51",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  "configurable_fields": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "text-content_8",
+  "type": "text-content",
+  "source": "post_425_Blandit_vel_luctus_pulvinar_hendrerit_massa_quis_enim",
+  "structure": {
+    "id": "5d8f9bce",
+    "elType": "section",
+    "settings": {
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "a60be25",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "2a093673",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p>",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "-30",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          },
+          {
+            "id": "7cdd2d50",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  "configurable_fields": []
+}

@@ -1,0 +1,101 @@
+{
+  "blocks": [
+    {
+      "id": "title-section_1",
+      "type": "title-section",
+      "source": "page_374_Assited_living",
+      "configurable_fields": 2
+    },
+    {
+      "id": "service-cards_2",
+      "type": "service-cards",
+      "source": "page_374_Assited_living",
+      "configurable_fields": 14
+    },
+    {
+      "id": "title-section_3",
+      "type": "title-section",
+      "source": "page_374_Assited_living",
+      "configurable_fields": 2
+    },
+    {
+      "id": "gallery-section_4",
+      "type": "gallery-section",
+      "source": "page_374_Assited_living",
+      "configurable_fields": 0
+    },
+    {
+      "id": "testimonials_5",
+      "type": "testimonials",
+      "source": "page_374_Assited_living",
+      "configurable_fields": 2
+    },
+    {
+      "id": "service-cards_6",
+      "type": "service-cards",
+      "source": "page_365_Independent_living",
+      "configurable_fields": 14
+    },
+    {
+      "id": "contact-form_7",
+      "type": "contact-form",
+      "source": "page_365_Independent_living",
+      "configurable_fields": 2
+    },
+    {
+      "id": "text-content_8",
+      "type": "text-content",
+      "source": "post_425_Blandit_vel_luctus_pulvinar_hendrerit_massa_quis_enim",
+      "configurable_fields": 0
+    },
+    {
+      "id": "hero-slider_9",
+      "type": "hero-slider",
+      "source": "page_6_Home",
+      "configurable_fields": 0
+    },
+    {
+      "id": "service-cards_10",
+      "type": "service-cards",
+      "source": "page_6_Home",
+      "configurable_fields": 9
+    },
+    {
+      "id": "service-cards_11",
+      "type": "service-cards",
+      "source": "page_6_Home",
+      "configurable_fields": 14
+    },
+    {
+      "id": "team-section_12",
+      "type": "team-section",
+      "source": "page_6_Home",
+      "configurable_fields": 0
+    },
+    {
+      "id": "text-content_13",
+      "type": "text-content",
+      "source": "post_428_Venenatis_faucibus_nullam_quisenean",
+      "configurable_fields": 0
+    },
+    {
+      "id": "contact-form_14",
+      "type": "contact-form",
+      "source": "elementor_library_1497_Contact_Page",
+      "configurable_fields": 2
+    },
+    {
+      "id": "service-cards_15",
+      "type": "service-cards",
+      "source": "footer_65_Footer",
+      "configurable_fields": 9
+    },
+    {
+      "id": "title-section_16",
+      "type": "title-section",
+      "source": "elementor_library_1485_About_Page",
+      "configurable_fields": 2
+    }
+  ],
+  "total": 16
+}
