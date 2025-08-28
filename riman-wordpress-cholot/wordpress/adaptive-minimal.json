@@ -196,7 +196,7 @@
       "elType": "section"
     },
     {
-      "id": "ellvjd4k",
+      "id": "xmujtodt",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -208,21 +208,21 @@
       },
       "elements": [
         {
-          "id": "hek7s8ji",
+          "id": "35um838s",
           "elType": "container",
           "settings": {
             "content_width": "full"
           },
           "elements": [
             {
-              "id": "9gglh6ae",
+              "id": "mxqi16lp",
               "elType": "column",
               "settings": {
                 "_column_size": 33
               },
               "elements": [
                 {
-                  "id": "jauy4f4j",
+                  "id": "6x9kqpuc",
                   "elType": "widget",
                   "widgetType": "cholot-texticon",
                   "settings": {
@@ -241,14 +241,14 @@
               ]
             },
             {
-              "id": "uqtz234y",
+              "id": "eufhhq72",
               "elType": "column",
               "settings": {
                 "_column_size": 33
               },
               "elements": [
                 {
-                  "id": "w5g9f08e",
+                  "id": "vrio78i7",
                   "elType": "widget",
                   "widgetType": "cholot-texticon",
                   "settings": {
@@ -267,14 +267,14 @@
               ]
             },
             {
-              "id": "z9io6615",
+              "id": "mu72hnpd",
               "elType": "column",
               "settings": {
                 "_column_size": 33
               },
               "elements": [
                 {
-                  "id": "hjco2s3c",
+                  "id": "uie10qsu",
                   "elType": "widget",
                   "widgetType": "cholot-texticon",
                   "settings": {

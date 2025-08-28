@@ -269,32 +269,26 @@ class AdaptiveElementorGenerator:
         
         print(f"   📐 Layout: {count} Services → {rows} Reihen × {columns_per_row} Spalten")
         
-        # Erstelle Columns mit Services
+        # Erstelle Columns mit Services - DIREKTER ANSATZ ohne Container
         for i, service in enumerate(services):
-            if i % columns_per_row == 0:
-                # Neue Row
-                row_container = {
-                    "id": self.generate_id(),
-                    "elType": "container",
-                    "settings": {"content_width": "full"},
-                    "elements": []
-                }
-                section["elements"].append(row_container)
-            
-            # Service Column
+            # Service Column direkt in Section
             column = self.create_service_column(service)
-            section["elements"][-1]["elements"].append(column)
+            section["elements"].append(column)
         
         return section
     
     def create_service_column(self, service):
         """
         Erstellt eine Service-Spalte mit cholot-texticon
+        KORRIGIERT: Proper Elementor column structure
         """
         return {
             "id": self.generate_id(),
             "elType": "column",
-            "settings": {"_column_size": 33},
+            "settings": {
+                "_column_size": 33,  # WICHTIG: Muss gesetzt sein!
+                "_inline_size": None
+            },
             "elements": [{
                 "id": self.generate_id(),
                 "elType": "widget",
@@ -328,20 +322,20 @@ class AdaptiveElementorGenerator:
         # Titel für Team Section
         title_row = {
             "id": self.generate_id(),
-            "elType": "container",
+            "elType": "column",
+            "settings": {
+                "_column_size": 100,
+                "_inline_size": None
+            },
             "elements": [{
                 "id": self.generate_id(),
-                "elType": "column",
-                "elements": [{
-                    "id": self.generate_id(),
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                        "title": "Unser Team",
-                        "header_size": "h2",
-                        "align": "center"
-                    }
-                }]
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                    "title": "Unser Team",
+                    "header_size": "h2",
+                    "align": "center"
+                }
             }]
         }
         section["elements"].append(title_row)
@@ -450,7 +444,11 @@ class AdaptiveElementorGenerator:
             "elements": [{
                 "id": self.generate_id(),
                 "elType": "column",
-                "settings": {"vertical_align": "middle"},
+                "settings": {
+                    "_column_size": 100,
+                    "_inline_size": None,
+                    "vertical_align": "middle"
+                },
                 "elements": [
                     {
                         "id": self.generate_id(),
