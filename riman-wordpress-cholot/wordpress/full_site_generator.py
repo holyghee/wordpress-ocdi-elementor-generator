@@ -156,6 +156,10 @@ class FullSiteGenerator:
             menus = [{'id': 10, 'slug': 'main-menu', 'name': 'Main Menu'}]
         
         for menu_data in menus:
+            # Debug: check if menu_data is a dict
+            if not isinstance(menu_data, dict):
+                print(f"Warning: menu_data is not a dict: {menu_data}, type: {type(menu_data)}")
+                continue
             # Create nav_menu term in compact format like the working example
             term = ET.SubElement(channel, '{http://wordpress.org/export/1.2/}term')
             
