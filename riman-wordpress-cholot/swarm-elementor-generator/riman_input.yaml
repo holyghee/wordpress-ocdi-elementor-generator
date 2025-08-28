@@ -1,0 +1,204 @@
+# RIMAN GmbH Website Configuration
+# Input file for Elementor page generation
+
+site:
+  title: "RIMAN GmbH"
+  description: "Professionelle Sanierungsdienstleistungen"
+  base_url: "https://riman-sanierung.de"
+  language: "de-DE"
+
+company:
+  name: "RIMAN GmbH"
+  tagline: "Ihre Experten für professionelle Sanierung"
+  logo: "https://example.com/logo.png"
+  phone: "+49 (0) 30 123456789"
+  email: "info@riman-sanierung.de"
+  address: "Musterstraße 123, 10115 Berlin"
+
+pages:
+  - title: "RIMAN GmbH - Startseite"
+    slug: "startseite"
+    status: "publish"
+    template: "elementor_canvas"
+    
+    sections:
+      # Hero Section
+      - type: "hero_slider"
+        slides:
+          - title: "RIMAN GmbH - Ihre <span>Experten</span> für Sanierung"
+            subtitle: "Seit über 20 Jahren"
+            text: "Professionelle Asbest-, PCB- und Schimmelsanierung nach höchsten Sicherheitsstandards."
+            button_text: "Kostenlose Beratung"
+            button_link: "#contact"
+            image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"
+            
+          - title: "Zertifizierte <span>Asbestsanierung</span>"
+            subtitle: "Nach TRGS 519"
+            text: "Sichere und fachgerechte Entfernung von Asbest mit modernster Ausrüstung."
+            button_text: "Mehr erfahren"
+            button_link: "#services"
+            image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=1920&q=80"
+      
+      # Services Section
+      - type: "service_cards"
+        title: "Unsere Leistungen"
+        subtitle: "Professionell & Zertifiziert"
+        services:
+          - title: "Asbestsanierung"
+            subtitle: "TRGS 519"
+            text: "Zertifizierte Asbestentfernung mit modernster Technik und geschultem Personal."
+            icon: "fas fa-shield-alt"
+            image: "https://images.unsplash.com/photo-1581094794329-c8112a50cc0d7?w=800&q=80"
+            
+          - title: "PCB-Sanierung"
+            subtitle: "Umweltgerecht"
+            text: "Fachgerechte Entsorgung PCB-belasteter Materialien nach aktuellen Richtlinien."
+            icon: "fas fa-biohazard"
+            image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+            
+          - title: "Schimmelsanierung"
+            subtitle: "Nachhaltig"
+            text: "Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Prävention."
+            icon: "fas fa-spray-can"
+            image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80"
+            
+          - title: "Brandschadensanierung"
+            subtitle: "24/7 Notdienst"
+            text: "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden."
+            icon: "fas fa-fire-extinguisher"
+            image: "https://images.unsplash.com/photo-1555854877-bab0e564788d?w=800&q=80"
+      
+      # About Section
+      - type: "about"
+        title: "Über <span>uns</span>"
+        subtitle: "Ihre Sanierungsexperten"
+        content: |
+          Seit über 20 Jahren sind wir Ihr zuverlässiger Partner für professionelle 
+          Sanierungsarbeiten. Mit einem Team aus zertifizierten Experten garantieren 
+          wir höchste Qualität und Sicherheit bei jedem Projekt.
+          
+          Unsere Erfahrung und modernste Ausrüstung ermöglichen uns, auch komplexe 
+          Sanierungsprojekte termingerecht und kosteneffizient durchzuführen.
+        image: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+        features:
+          - icon: "fas fa-certificate"
+            title: "Zertifiziert"
+            text: "Nach TRGS 519 und allen relevanten Standards"
+          - icon: "fas fa-users"
+            title: "Erfahren"
+            text: "Über 20 Jahre Expertise in der Sanierung"
+          - icon: "fas fa-clock"
+            title: "24/7 Service"
+            text: "Notdienst rund um die Uhr verfügbar"
+          - icon: "fas fa-shield-alt"
+            title: "Versichert"
+            text: "Umfassende Haftpflichtversicherung"
+      
+      # Team Section
+      - type: "team"
+        title: "Unser Team"
+        subtitle: "Experten mit Leidenschaft"
+        members:
+          - name: "Michael Ritter"
+            position: "Geschäftsführer & Gründer"
+            image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+            bio: "Über 25 Jahre Erfahrung in der Sanierungsbranche"
+            social:
+              linkedin: "https://linkedin.com/in/michael-ritter"
+              xing: "https://xing.com/profile/michael-ritter"
+              
+          - name: "Sandra Mann"
+            position: "Leiterin Projektmanagement"
+            image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+            bio: "Zertifizierte Projektmanagerin mit Fokus auf Großprojekte"
+            social:
+              linkedin: "https://linkedin.com/in/sandra-mann"
+              
+          - name: "Thomas Weber"
+            position: "Technischer Direktor"
+            image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80"
+            bio: "Spezialist für Asbestsanierung und technische Planung"
+            social:
+              linkedin: "https://linkedin.com/in/thomas-weber"
+      
+      # Testimonials Section
+      - type: "testimonials"
+        title: "Was unsere <span>Kunden</span> sagen"
+        subtitle: "Referenzen"
+        background_image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+        testimonials:
+          - name: "Klaus Hoffmann"
+            position: "Hausverwaltung Berlin"
+            text: "RIMAN GmbH hat unsere Asbestsanierung absolut professionell durchgeführt. Termintreu, sauber und kompetent!"
+            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+            rating: 5
+            
+          - name: "Andrea Meyer"
+            position: "Meyer Immobilien GmbH"
+            text: "Schnelle und saubere Arbeit bei der Schimmelsanierung. Das Team war sehr kompetent und freundlich."
+            image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80"
+            rating: 5
+            
+          - name: "Peter Schmidt"
+            position: "Architekturbüro Schmidt"
+            text: "Zuverlässiger Partner für alle Sanierungsarbeiten. Klare Kommunikation und faire Preise."
+            image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+            rating: 5
+      
+      # Services Grid Section
+      - type: "services_grid"
+        title: "Weitere Leistungen"
+        services:
+          - title: "Schadstoffgutachten"
+            icon: "fas fa-clipboard-check"
+            text: "Professionelle Analyse und Dokumentation"
+            
+          - title: "Rückbau & Entsorgung"
+            icon: "fas fa-truck"
+            text: "Fachgerechte Entsorgung aller Materialien"
+            
+          - title: "Luftmessungen"
+            icon: "fas fa-wind"
+            text: "Prüfung der Raumluftqualität"
+            
+          - title: "Beratung & Planung"
+            icon: "fas fa-project-diagram"
+            text: "Umfassende Projektplanung"
+      
+      # Contact Section
+      - type: "contact"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Kostenlose Erstberatung"
+        text: "Wir beraten Sie gerne unverbindlich zu Ihrem Sanierungsprojekt."
+        form_id: "contact-form-1"
+        info:
+          - icon: "fas fa-phone"
+            label: "Telefon"
+            value: "+49 (0) 30 123456789"
+          - icon: "fas fa-envelope"
+            label: "E-Mail"
+            value: "info@riman-sanierung.de"
+          - icon: "fas fa-map-marker-alt"
+            label: "Adresse"
+            value: "Musterstraße 123, 10115 Berlin"
+        background_color: "#1f1f1f"
+    
+    # Elementor-specific settings
+    elementor_settings:
+      primary_color: "#b68c2f"
+      secondary_color: "#1f1f1f"
+      text_color: "#333333"
+      font_primary: "Playfair Display"
+      font_secondary: "Source Sans Pro"
+      container_width: 1170
+      
+    # SEO Settings
+    seo:
+      meta_title: "RIMAN GmbH | Professionelle Sanierung in Berlin"
+      meta_description: "Zertifizierte Asbest-, PCB- und Schimmelsanierung. ✓ 24/7 Notdienst ✓ Über 20 Jahre Erfahrung ✓ Kostenlose Beratung"
+      keywords:
+        - "Asbestsanierung Berlin"
+        - "PCB Sanierung"
+        - "Schimmelsanierung"
+        - "Schadstoffsanierung"
+        - "TRGS 519"
