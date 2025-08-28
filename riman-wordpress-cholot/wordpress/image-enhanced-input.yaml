@@ -1,0 +1,107 @@
+# Image-Enhanced Input - Mit Bild-Support
+# Bilder können als URLs oder lokale Pfade angegeben werden
+
+page_title: "RIMAN GmbH - Schadstoffsanierung Berlin"
+hero_title: "Professionelle Schadstoffsanierung in Berlin"
+hero_subtitle: "Seit 1998 Ihr zuverlässiger Partner"
+
+# Hero Background Image
+hero_background:
+  image: "/Users/holgerbrandt/Downloads/schadstoffsanierung-hero.jpg"
+  # Oder URL: "https://example.com/hero.jpg"
+  overlay_color: "rgba(0,0,0,0.5)"
+  position: "center center"
+
+company:
+  name: "RIMAN GmbH"
+  industry: "Schadstoffsanierung"
+  logo: "/Users/holgerbrandt/Downloads/riman-logo.png"
+
+# Services mit Icons/Bildern
+services:
+  - title: "Asbestsanierung"
+    description: "Sichere und zertifizierte Asbestentfernung nach TRGS 519"
+    icon: "shield"  # FontAwesome Icon
+    image: "/Users/holgerbrandt/Downloads/asbest-sanierung.jpg"  # Optional: Service-Bild
+    color: "#e74c3c"
+    
+  - title: "PCB-Sanierung"
+    description: "Fachgerechte PCB-Sanierung nach aktuellen Umweltstandards"
+    icon: "flask"
+    image: "https://example.com/pcb-sanierung.jpg"  # URL auch möglich
+    color: "#3498db"
+    
+  - title: "Schimmelsanierung"
+    description: "Nachhaltige Schimmelbeseitigung und -prävention"
+    icon: "home"
+    color: "#2ecc71"
+
+# Team mit Fotos
+team:
+  - name: "Thomas Schmidt"
+    position: "Geschäftsführer"
+    bio: "25 Jahre Erfahrung in der Schadstoffsanierung"
+    image: "/Users/holgerbrandt/Downloads/team-thomas.jpg"
+    
+  - name: "Maria Weber"
+    position: "Projektleiterin"
+    bio: "Expertin für komplexe Sanierungsprojekte"
+    image: "/Users/holgerbrandt/Downloads/team-maria.jpg"
+    
+  - name: "Stefan Mueller"
+    position: "Technischer Leiter"
+    bio: "Spezialist für innovative Sanierungsverfahren"
+    image: "https://example.com/team-stefan.jpg"
+
+# Galerie Section
+gallery:
+  title: "Unsere Projekte"
+  images:
+    - image: "/Users/holgerbrandt/Downloads/projekt1.jpg"
+      caption: "Asbestsanierung Bürogebäude Berlin-Mitte"
+    - image: "/Users/holgerbrandt/Downloads/projekt2.jpg"
+      caption: "PCB-Sanierung Industriehalle"
+    - image: "/Users/holgerbrandt/Downloads/projekt3.jpg"
+      caption: "Schimmelsanierung Wohnkomplex"
+
+# Zertifikate/Logos
+certifications:
+  - name: "ISO 9001"
+    logo: "/Users/holgerbrandt/Downloads/iso-9001-logo.png"
+  - name: "TRGS 519"
+    logo: "/Users/holgerbrandt/Downloads/trgs-logo.png"
+  - name: "TÜV Nord"
+    logo: "/Users/holgerbrandt/Downloads/tuv-logo.png"
+
+contact:
+  email: "info@riman-gmbh.de"
+  phone: "030-12345678"
+  address: "Musterstraße 123, 10115 Berlin"
+  # Kontakt-Bild oder Karte
+  contact_image: "/Users/holgerbrandt/Downloads/buero-außenansicht.jpg"
+
+# Zusätzliche Sections mit Bildern
+sections:
+  - type: "image_text"
+    title: "Über RIMAN GmbH"
+    image: "/Users/holgerbrandt/Downloads/unternehmen-historie.jpg"
+    image_position: "left"  # left, right, top, bottom
+    content: "Seit über 25 Jahren sind wir Ihr zuverlässiger Partner für professionelle Schadstoffsanierung in Berlin und Brandenburg. Unsere Expertise basiert auf jahrzehntelanger Erfahrung und kontinuierlicher Weiterbildung."
+    
+  - type: "before_after"
+    title: "Vorher/Nachher Beispiele"
+    examples:
+      - before: "/Users/holgerbrandt/Downloads/vorher1.jpg"
+        after: "/Users/holgerbrandt/Downloads/nachher1.jpg"
+        description: "Asbestsanierung Dachboden"
+      - before: "/Users/holgerbrandt/Downloads/vorher2.jpg"
+        after: "/Users/holgerbrandt/Downloads/nachher2.jpg"
+        description: "Schimmelentfernung Keller"
+
+# Metadaten für Bilder
+image_settings:
+  default_alt: "RIMAN GmbH Schadstoffsanierung"
+  quality: 85
+  max_width: 1920
+  thumbnail_size: "300x200"
+  lazy_loading: true
