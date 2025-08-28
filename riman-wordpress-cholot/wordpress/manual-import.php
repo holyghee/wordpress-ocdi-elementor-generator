@@ -9,8 +9,11 @@ define('SHORTINIT', false);
 require_once(__DIR__ . '/wp-config.php');
 require_once(ABSPATH . 'wp-admin/includes/import.php');
 
+// Load WordPress Importer
+require_once(ABSPATH . 'wp-content/plugins/wordpress-importer/wordpress-importer.php');
+
 if (!class_exists('WP_Import')) {
-    die('WordPress Importer plugin is not installed. Please install it first.');
+    die('WordPress Importer class could not be loaded.');
 }
 
 // Get XML file path from command line
