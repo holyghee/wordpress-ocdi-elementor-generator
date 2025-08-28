@@ -1,0 +1,951 @@
+# RIMAN GmbH Website Relaunch Configuration
+# Basierend auf Cholot Theme mit professionellem Umwelt-/Sanierungsfokus
+
+site:
+  title: "RIMAN GmbH - Sicherheit, Sanierung & Umweltmanagement"
+  url: "http://localhost:8082"
+  description: "Ihr Experte für Abbruch-Management, Altlastensanierung, Schadstoffmanagement und Sicherheitskoordination seit 1998"
+  tagline: "Sicher bauen - Gesund leben"
+  
+global_settings:
+  company_name: "RIMAN GmbH"
+  primary_color: "#333399"  # RIMAN Blau
+  secondary_color: "#FF0000"  # RIMAN Rot
+  accent_color: "#b68c2f"    # Cholot Gold für Akzente
+  font_family: "Arial, Helvetica, sans-serif"
+  
+  # Kontaktdaten
+  phone: "+49 (0) 6221 123456"
+  mobile: "+49 (0) 172 6789012"
+  email: "info@riman.de"
+  address: "Industriestraße 25, 69123 Heidelberg"
+  
+  # Social Media
+  linkedin: "https://linkedin.com/company/riman-gmbh"
+  xing: "https://xing.com/company/riman-gmbh"
+
+# Hauptnavigation
+menus:
+  - id: "main-menu"
+    name: "Hauptmenü"
+    items:
+      - title: "Home"
+        page: "homepage"
+        order: 1
+      - title: "Leistungen"
+        page: "#"
+        order: 2
+        submenu:
+          - title: "Abbruch-Management"
+            page: "abbruch-management"
+          - title: "Altlasten-Sanierung"
+            page: "altlasten-sanierung"
+          - title: "Schadstoff-Management"
+            page: "schadstoff-management"
+          - title: "Sicherheits-Koordination"
+            page: "sicherheits-koordination"
+          - title: "Konflikt & Risikomanagement"
+            page: "konflikt-risikomanagement"
+      - title: "Über uns"
+        page: "ueber-uns"
+        order: 3
+      - title: "Referenzen"
+        page: "referenzen"
+        order: 4
+      - title: "Infothek"
+        page: "infothek"
+        order: 5
+      - title: "Kontakt"
+        page: "kontakt"
+        order: 6
+
+pages:
+  # ========== HOMEPAGE ==========
+  - id: "homepage"
+    title: "Home"
+    slug: ""
+    template: "elementor_canvas"
+    blocks:
+      - type: "hero-slider"
+        slides:
+          - title: "25+ Jahre Erfahrung in Sicherheit & Sanierung"
+            subtitle: "Seit 1998 Ihr zuverlässiger Partner"
+            text: "Wir stehen für innovative Lösungen bei Abbruch, Sanierung und Schadstoffmanagement"
+            button_text: "Unsere Leistungen"
+            button_link: "#services"
+            image: "http://localhost:8082/seo-images/demolition-management-professional.jpg"
+            
+          - title: "Sicher bauen - Gesund leben"
+            subtitle: "Unser Versprechen an Sie"
+            text: "Qualifizierte Aufklärung über Risiken und wirtschaftliche Lösungen"
+            button_text: "Jetzt beraten lassen"
+            button_link: "#contact"
+            image: "http://localhost:8082/seo-images/safety-coordination-construction.jpg"
+            
+      - type: "service-cards"
+        title: "Unsere Kernkompetenzen"
+        subtitle: "Komplettlösungen aus einer Hand"
+        columns: 5
+        services:
+          - title: "Abbruch-Management"
+            icon: "fa fa-building"
+            text: "Professionelle Planung und Durchführung von Abbruchprojekten mit Fokus auf Wirtschaftlichkeit"
+            link: "/abbruch-management"
+            
+          - title: "Altlasten-Sanierung"
+            icon: "fa fa-recycle"
+            text: "Fachgerechte Sanierung kontaminierter Standorte nach aktuellen Umweltstandards"
+            link: "/altlasten-sanierung"
+            
+          - title: "Schadstoff-Management"
+            icon: "fa fa-shield"
+            text: "Sichere Erkundung, Bewertung und Entsorgung von Schadstoffen wie Asbest und PCB"
+            link: "/schadstoff-management"
+            
+          - title: "Sicherheits-Koordination"
+            icon: "fa fa-hard-hat"
+            text: "SiGe-Koordination nach BaustellV für normale und kontaminierte Baustellen"
+            link: "/sicherheits-koordination"
+            
+          - title: "Konflikt-Management"
+            icon: "fa fa-handshake"
+            text: "Mediation und Risikomanagement bei Bauprojekten"
+            link: "/konflikt-risikomanagement"
+            
+      - type: "video-section"
+        title: "RIMAN GmbH im Überblick"
+        subtitle: "Lernen Sie uns kennen"
+        video_url: "https://www.youtube.com/watch?v=demo"
+        poster: "http://localhost:8082/seo-images/company-overview.jpg"
+        
+      - type: "statistics"
+        background: "http://localhost:8082/seo-images/statistics-bg.jpg"
+        stats:
+          - number: "25+"
+            label: "Jahre Erfahrung"
+            icon: "fa fa-calendar"
+          - number: "2000+"
+            label: "Abgeschlossene Projekte"
+            icon: "fa fa-check-circle"
+          - number: "100%"
+            label: "Kundenzufriedenheit"
+            icon: "fa fa-smile"
+          - number: "24/7"
+            label: "Notfallservice"
+            icon: "fa fa-phone"
+            
+      - type: "cta-section"
+        title: "Benötigen Sie eine Expertenmeinung?"
+        subtitle: "Wir beraten Sie gerne unverbindlich"
+        button_text: "Kostenlose Erstberatung"
+        button_link: "/kontakt"
+        background: "#333399"
+
+  # ========== HAUPTSEITE: ABBRUCH-MANAGEMENT ==========
+  - id: "abbruch-management"
+    title: "Abbruch-Management"
+    slug: "abbruch-management"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Professionelles Abbruch-Management"
+        subtitle: "Für die alte Hütte und mehr - seit 1998"
+        
+      - type: "text-content"
+        content: |
+          <h3>Chaos vermeiden, Kosten kontrollieren</h3>
+          <p>Nirgendwo in der Baubranche herrschen derart chaotische Verhältnisse wie in der Abbruchbranche. 
+          Ein juristischer Dschungel unterschiedlichster Bewertungen von Belastungen bei Abbruchabfällen, 
+          hohe Sicherheitsauflagen, aber auch der künstliche Mangel an Entsorgungswegen hat hier in den 
+          vergangenen Jahren zu einer dramatischen Explosion der Kosten geführt.</p>
+          
+          <p>Die RIMAN GmbH steht seit über 25 Jahren für transparente, wirtschaftliche und rechtssichere 
+          Abbruchprojekte. Wir navigieren Sie sicher durch alle Herausforderungen.</p>
+          
+      - type: "service-cards"
+        title: "Unsere Leistungen im Abbruch-Management"
+        columns: 3
+        services:
+          - title: "Bedarfsanalyse"
+            icon: "fa fa-clipboard-check"
+            text: "Prüfung ob Abbruch notwendig ist oder Alternativen bestehen"
+            
+          - title: "Planung & Konzeption"
+            icon: "fa fa-drafting-compass"
+            text: "Detaillierte Abbruchplanung unter Berücksichtigung aller Auflagen"
+            
+          - title: "Ausschreibung"
+            icon: "fa fa-file-contract"
+            text: "Rechtssichere Ausschreibungen mit eindeutigen Leistungsbeschreibungen"
+            
+          - title: "Bauleitung"
+            icon: "fa fa-hard-hat"
+            text: "Professionelle Bauüberwachung und Qualitätskontrolle"
+            
+          - title: "Entsorgungsmanagement"
+            icon: "fa fa-truck"
+            text: "Wirtschaftliche Entsorgungswege und Nachweisführung"
+            
+          - title: "Kostenkontrolle"
+            icon: "fa fa-calculator"
+            text: "Transparente Kostenüberwachung ohne versteckte Nachträge"
+            
+      - type: "image-text"
+        title: "Warum RIMAN?"
+        image: "http://localhost:8082/seo-images/demolition-site.jpg"
+        content: |
+          <ul>
+            <li>✓ Über 2.000 erfolgreich abgewickelte Abbruchprojekte</li>
+            <li>✓ Durchschnittliche Kostenersparnis von 30% gegenüber Direktvergabe</li>
+            <li>✓ Garantierte Rechtssicherheit durch aktuelle Kenntnisse</li>
+            <li>✓ Vermeidung von Nachträgen durch präzise Planung</li>
+            <li>✓ Netzwerk geprüfter und zertifizierter Abbruchunternehmen</li>
+          </ul>
+          
+      - type: "cta-section"
+        title: "Sparen Sie Zeit und Kosten"
+        subtitle: "Lassen Sie uns Ihr Abbruchprojekt professionell managen"
+        button_text: "Jetzt Angebot anfordern"
+        button_link: "/kontakt?service=abbruch"
+
+  # ========== UNTERSEITE: ABBRUCH-PLANUNG ==========
+  - id: "abbruch-planung"
+    title: "Abbruchplanung"
+    slug: "abbruch-management/planung"
+    parent: "abbruch-management"
+    template: "elementor_canvas"
+    blocks:
+      - type: "breadcrumb"
+        items:
+          - title: "Home"
+            link: "/"
+          - title: "Abbruch-Management"
+            link: "/abbruch-management"
+          - title: "Planung"
+            active: true
+            
+      - type: "title-section"
+        title: "Professionelle Abbruchplanung"
+        subtitle: "Der Grundstein für erfolgreiche Projekte"
+        
+      - type: "text-content"
+        content: |
+          <h3>Detaillierte Planung spart Kosten</h3>
+          <p>Eine sorgfältige Abbruchplanung ist der Schlüssel zu einem erfolgreichen und 
+          wirtschaftlichen Projekt. Wir analysieren alle relevanten Faktoren:</p>
+          
+          <ul>
+            <li>Bausubstanzuntersuchung und Schadstoffkataster</li>
+            <li>Statische Bewertung und Abbruchverfahren</li>
+            <li>Genehmigungsmanagement und Auflagen</li>
+            <li>Lärmschutz und Staubminimierung</li>
+            <li>Verkehrsführung und Baustellenlogistik</li>
+            <li>Entsorgungskonzept und Recyclingquoten</li>
+          </ul>
+          
+      - type: "process-steps"
+        title: "Unser Planungsprozess"
+        steps:
+          - number: "1"
+            title: "Bestandsaufnahme"
+            text: "Erfassung aller relevanten Gebäudedaten und Umgebungsbedingungen"
+            
+          - number: "2"
+            title: "Schadstofferkundung"
+            text: "Untersuchung auf Asbest, PCB, PAK und andere Gefahrstoffe"
+            
+          - number: "3"
+            title: "Konzepterstellung"
+            text: "Entwicklung des optimalen Abbruchverfahrens"
+            
+          - number: "4"
+            title: "Genehmigungen"
+            text: "Einholung aller erforderlichen Genehmigungen"
+            
+          - number: "5"
+            title: "Ausführungsplanung"
+            text: "Detaillierte Planung aller Arbeitsschritte"
+
+  # ========== HAUPTSEITE: ALTLASTEN-SANIERUNG ==========
+  - id: "altlasten-sanierung"
+    title: "Altlasten-Sanierung"
+    slug: "altlasten-sanierung"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Altlasten-Sanierung"
+        subtitle: "Doch nicht bei mir? Wir klären das für Sie!"
+        
+      - type: "text-content"
+        content: |
+          <h3>Altlasten sind häufiger als gedacht</h3>
+          <p>Altlasten-Sanierung ist leider nicht nur ein Thema für Industrie-Standorte. 
+          Sowohl Unkenntnis als auch der kurzfristige finanzielle Vorteil der Verwendung 
+          "günstiger Füllstoffe" oder die "billige Entsorgung von Abfällen" in der Bauphase 
+          haben in der Vergangenheit aus vielen Grundstücken kleine Mülldeponien gemacht.</p>
+          
+          <p>Diese Grundstücke ordnungsgemäß zu sanieren ist in vielen Fällen nicht gerade billig. 
+          Fehler bei der Planung oder Ausführung bewirken jedoch eine dramatische Explosion der Kosten.</p>
+          
+      - type: "service-cards"
+        title: "Unsere Sanierungsleistungen"
+        columns: 3
+        services:
+          - title: "Historische Erkundung"
+            icon: "fa fa-search"
+            text: "Recherche zur Nutzungshistorie und Verdachtsflächen"
+            
+          - title: "Orientierende Untersuchung"
+            icon: "fa fa-microscope"
+            text: "Erste Bodenproben und Analytik zur Gefährdungsabschätzung"
+            
+          - title: "Detailuntersuchung"
+            icon: "fa fa-vial"
+            text: "Umfassende Untersuchung von Boden und Grundwasser"
+            
+          - title: "Sanierungsplanung"
+            icon: "fa fa-project-diagram"
+            text: "Entwicklung des optimalen Sanierungskonzepts"
+            
+          - title: "Sanierungsdurchführung"
+            icon: "fa fa-hard-hat"
+            text: "Fachgerechte Umsetzung mit zertifizierten Partnern"
+            
+          - title: "Monitoring"
+            icon: "fa fa-chart-line"
+            text: "Langzeitüberwachung und Erfolgskontrolle"
+            
+      - type: "statistics"
+        stats:
+          - number: "500+"
+            label: "Sanierte Flächen"
+          - number: "50.000m³"
+            label: "Sanierter Boden"
+          - number: "100%"
+            label: "Behördliche Abnahmen"
+          - number: "15Mio€"
+            label: "Einsparpotential realisiert"
+
+  # ========== HAUPTSEITE: SCHADSTOFF-MANAGEMENT ==========
+  - id: "schadstoff-management"
+    title: "Schadstoff-Management"
+    slug: "schadstoff-management"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Schadstoff- & Gefahrstoff-Management"
+        subtitle: "Sicherheit durch Expertise"
+        
+      - type: "alert-box"
+        type: "warning"
+        title: "Wichtiger Hinweis"
+        text: "Schadstoffe in Gebäuden sind keine Seltenheit. Bis in die 1990er Jahre wurden gesundheitsgefährdende Materialien verbaut. Eine fachgerechte Erkundung schützt Ihre Gesundheit und vermeidet rechtliche Konsequenzen."
+        
+      - type: "service-cards"
+        title: "Unser Schadstoff-Portfolio"
+        columns: 4
+        services:
+          - title: "Asbest"
+            icon: "fa fa-radiation"
+            text: "Erkundung und Sanierung nach TRGS 519"
+            
+          - title: "PCB"
+            icon: "fa fa-flask"
+            text: "Dichtungsmassen, Kondensatoren, Farbanstriche"
+            
+          - title: "PAK"
+            icon: "fa fa-oil-can"
+            text: "Teerhaltige Materialien und Parkettkleber"
+            
+          - title: "KMF"
+            icon: "fa fa-layer-group"
+            text: "Künstliche Mineralfasern in Dämmstoffen"
+            
+          - title: "Holzschutzmittel"
+            icon: "fa fa-tree"
+            text: "PCP, Lindan und DDT in Holzkonstruktionen"
+            
+          - title: "Schwermetalle"
+            icon: "fa fa-atom"
+            text: "Blei, Cadmium, Chrom in Farben und Böden"
+            
+          - title: "VOC"
+            icon: "fa fa-wind"
+            text: "Flüchtige organische Verbindungen"
+            
+          - title: "Schimmel"
+            icon: "fa fa-bacteria"
+            text: "Mikrobiologische Belastungen"
+            
+      - type: "process-timeline"
+        title: "Unser Vorgehen"
+        items:
+          - title: "Erstbegehung"
+            text: "Visuelle Inspektion und Verdachtsmomente"
+            icon: "fa fa-eye"
+            
+          - title: "Probenahme"
+            text: "Akkreditierte Probenahme nach VDI-Richtlinien"
+            icon: "fa fa-syringe"
+            
+          - title: "Laboranalyse"
+            text: "Analyse in zertifizierten Laboren"
+            icon: "fa fa-microscope"
+            
+          - title: "Bewertung"
+            text: "Gefährdungsbeurteilung und Handlungsempfehlung"
+            icon: "fa fa-clipboard-check"
+            
+          - title: "Sanierungskonzept"
+            text: "Maßnahmenplan mit Kostenschätzung"
+            icon: "fa fa-file-alt"
+            
+          - title: "Freigabemessung"
+            text: "Erfolgskontrolle nach Sanierung"
+            icon: "fa fa-certificate"
+
+  # ========== HAUPTSEITE: SICHERHEITS-KOORDINATION ==========
+  - id: "sicherheits-koordination"
+    title: "Sicherheits-Koordination"
+    slug: "sicherheits-koordination"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Sicherheits- und Gesundheitsschutz-Koordination"
+        subtitle: "Nach BaustellV für alle Bauvorhaben"
+        
+      - type: "info-boxes"
+        columns: 2
+        boxes:
+          - title: "Gesetzliche Pflicht"
+            icon: "fa fa-gavel"
+            text: "Bei Baustellen mit mehreren Arbeitgebern ist ein SiGeKo gesetzlich vorgeschrieben"
+            color: "#333399"
+            
+          - title: "Haftungsminimierung"
+            icon: "fa fa-shield-alt"
+            text: "Reduzierung der Bauherrenhaftung durch professionelle Koordination"
+            color: "#FF0000"
+            
+      - type: "tabbed-content"
+        tabs:
+          - title: "Normale Baumaßnahmen"
+            content: |
+              <h4>SiGe-Koordination bei Standard-Bauprojekten</h4>
+              <ul>
+                <li>Erstellung der Vorankündigung</li>
+                <li>Ausarbeitung SiGe-Plan</li>
+                <li>Koordination in Planungsphase</li>
+                <li>Koordination während Bauausführung</li>
+                <li>Erstellung der Unterlage für spätere Arbeiten</li>
+                <li>Baustellenbegehungen und Protokolle</li>
+              </ul>
+              
+          - title: "Asbest-Sanierungen"
+            content: |
+              <h4>Spezielle Koordination bei Asbestarbeiten</h4>
+              <ul>
+                <li>Koordination nach TRGS 519</li>
+                <li>Überwachung Schwarzbereich-Einrichtung</li>
+                <li>Kontrolle der Schutzmaßnahmen</li>
+                <li>Freigabemessungen koordinieren</li>
+                <li>Behördliche Abstimmungen</li>
+                <li>Arbeitsschutz für Nachgewerke</li>
+              </ul>
+              
+          - title: "Sonstige Gefahrstoffe"
+            content: |
+              <h4>Koordination nach BGR 128</h4>
+              <ul>
+                <li>PCB-Sanierungen</li>
+                <li>PAK-haltige Materialien</li>
+                <li>Künstliche Mineralfasern</li>
+                <li>Biologische Arbeitsstoffe</li>
+                <li>Koordination Arbeitsschutzmaßnahmen</li>
+                <li>Überwachung persönliche Schutzausrüstung</li>
+              </ul>
+              
+      - type: "team-section"
+        title: "Unsere SiGeKo-Experten"
+        subtitle: "Zertifiziert und erfahren"
+        members:
+          - name: "Dipl.-Ing. Jürgen Fischer"
+            position: "Geschäftsführer & Senior SiGeKo"
+            bio: "25+ Jahre Erfahrung, RAB 30 zertifiziert"
+            image: "http://localhost:8082/seo-images/team-fischer.jpg"
+            
+          - name: "M.Sc. Sarah Weber"
+            position: "SiGeKo & Schadstoffexpertin"
+            bio: "Spezialistin für Gefahrstoffsanierungen"
+            image: "http://localhost:8082/seo-images/team-weber.jpg"
+            
+          - name: "B.Eng. Thomas Klein"
+            position: "SiGeKo & Bauüberwachung"
+            bio: "Experte für Großbaustellen"
+            image: "http://localhost:8082/seo-images/team-klein.jpg"
+
+  # ========== HAUPTSEITE: KONFLIKT-RISIKOMANAGEMENT ==========
+  - id: "konflikt-risikomanagement"
+    title: "Konflikt- & Risikomanagement"
+    slug: "konflikt-risikomanagement"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Konflikt- und Risikomanagement"
+        subtitle: "Mediation für erfolgreiche Bauprojekte"
+        
+      - type: "text-image"
+        title: "Konflikte kosten Zeit und Geld"
+        image: "http://localhost:8082/seo-images/mediation.jpg"
+        alignment: "left"
+        content: |
+          <p>Bauprojekte sind komplex und involvieren viele Parteien mit unterschiedlichen 
+          Interessen. Konflikte sind dabei fast unvermeidlich, aber nicht unlösbar.</p>
+          
+          <p>Als zertifizierte Mediatoren und erfahrene Baufachleute verbinden wir 
+          juristische Kompetenz mit technischem Sachverstand. So finden wir Lösungen, 
+          die alle Beteiligten weiterbringen.</p>
+          
+      - type: "service-cards"
+        title: "Unsere Mediationsleistungen"
+        columns: 3
+        services:
+          - title: "Baumediation"
+            icon: "fa fa-handshake"
+            text: "Außergerichtliche Streitbeilegung bei Bauprojekten"
+            
+          - title: "Nachbarschaftskonflikte"
+            icon: "fa fa-home"
+            text: "Vermittlung bei Lärmbelästigung und Bauschäden"
+            
+          - title: "Vertragsmediation"
+            icon: "fa fa-file-contract"
+            text: "Klärung von Leistungsumfang und Vergütung"
+            
+          - title: "Risikomanagement"
+            icon: "fa fa-exclamation-triangle"
+            text: "Frühzeitige Identifikation von Konfliktpotential"
+            
+          - title: "Projektbegleitung"
+            icon: "fa fa-users"
+            text: "Präventive Konfliktvorbeugung"
+            
+          - title: "Schiedsgutachten"
+            icon: "fa fa-balance-scale"
+            text: "Neutrale technische Bewertung"
+            
+      - type: "testimonials"
+        title: "Das sagen unsere Kunden"
+        testimonials:
+          - text: "Die Mediation durch RIMAN hat unser festgefahrenes Bauprojekt gerettet. Nach 6 Monaten Stillstand konnten wir innerhalb von 2 Wochen eine Lösung finden."
+            author: "Klaus M."
+            position: "Bauherr, Heidelberg"
+            rating: 5
+            
+          - text: "Professionell, neutral und lösungsorientiert. Die Kombination aus Fachwissen und Mediationskompetenz ist einzigartig."
+            author: "Architekturbüro Schmidt"
+            position: "Mannheim"
+            rating: 5
+            
+          - text: "Dank RIMAN konnten wir einen teuren Rechtsstreit vermeiden und das Projekt erfolgreich abschließen."
+            author: "Bauunternehmung Weber GmbH"
+            position: "Ludwigshafen"
+            rating: 5
+
+  # ========== ÜBER UNS ==========
+  - id: "ueber-uns"
+    title: "Über uns"
+    slug: "ueber-uns"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Über RIMAN GmbH"
+        subtitle: "Ihr Partner seit 1998"
+        
+      - type: "text-content"
+        content: |
+          <h3>25 Jahre Erfahrung - Der Zeit ein wenig voraus</h3>
+          
+          <p class="lead">Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives 
+          Dienstleistungsunternehmen zur Verfügung. Unser Arbeitsbereich ist die Sicherheit, 
+          unsere Kernthemen sind "sicher bauen und gesund leben".</p>
+          
+          <p>Unsere Zielsetzung hierzu ist die qualifizierte Aufklärung über gesundheitliche, 
+          aber auch rechtliche Risiken und das Aufzeigen und Umsetzen von wirtschaftlichen 
+          Lösungen, die dem RIMAN Anspruch entsprechen, der Zeit ein wenig voraus zu sein.</p>
+          
+          <h4>Unsere Philosophie</h4>
+          <p>Wir verstehen uns nicht nur als Dienstleister, sondern als Partner unserer Kunden. 
+          Transparenz, Zuverlässigkeit und Innovation sind die Grundpfeiler unserer Arbeit.</p>
+          
+      - type: "timeline"
+        title: "Unsere Geschichte"
+        events:
+          - year: "1998"
+            title: "Gründung"
+            text: "Gründung der RIMAN GmbH durch Dipl.-Ing. Jürgen Fischer"
+            
+          - year: "2002"
+            title: "Erste Großprojekte"
+            text: "Übernahme von Großsanierungen im Industriebereich"
+            
+          - year: "2008"
+            title: "Zertifizierungen"
+            text: "ISO 9001 und 14001 Zertifizierung"
+            
+          - year: "2015"
+            title: "Expansion"
+            text: "Erweiterung um Mediationsdienstleistungen"
+            
+          - year: "2020"
+            title: "Digitalisierung"
+            text: "Einführung digitaler Planungs- und Dokumentationssysteme"
+            
+          - year: "2025"
+            title: "Heute"
+            text: "Über 2.000 erfolgreich abgewickelte Projekte"
+            
+      - type: "team-section"
+        title: "Unser Führungsteam"
+        members:
+          - name: "Dipl.-Ing. Jürgen Fischer"
+            position: "Geschäftsführer & Gründer"
+            bio: "25+ Jahre Erfahrung im Bereich Umwelt- und Sicherheitsmanagement. Zertifizierter Mediator und SiGeKo."
+            image: "http://localhost:8082/seo-images/team-fischer.jpg"
+            linkedin: "https://linkedin.com/in/juergen-fischer"
+            
+      - type: "certifications"
+        title: "Unsere Qualifikationen"
+        items:
+          - title: "ISO 9001:2015"
+            icon: "fa fa-certificate"
+            text: "Qualitätsmanagement"
+            
+          - title: "ISO 14001:2015"
+            icon: "fa fa-leaf"
+            text: "Umweltmanagement"
+            
+          - title: "SCC**"
+            icon: "fa fa-shield"
+            text: "Arbeitsschutzmanagement"
+            
+          - title: "TRGS 519"
+            icon: "fa fa-check-circle"
+            text: "Asbestsanierung"
+            
+          - title: "RAB 30"
+            icon: "fa fa-hard-hat"
+            text: "SiGeKo-Qualifikation"
+            
+          - title: "VDI 6022"
+            icon: "fa fa-wind"
+            text: "Hygiene-Inspektor"
+
+  # ========== REFERENZEN ==========
+  - id: "referenzen"
+    title: "Referenzen"
+    slug: "referenzen"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Unsere Referenzen"
+        subtitle: "Auszug erfolgreich abgeschlossener Projekte"
+        
+      - type: "portfolio-grid"
+        columns: 3
+        filter: true
+        categories:
+          - "Abbruch"
+          - "Sanierung"
+          - "Schadstoff"
+          - "Koordination"
+        items:
+          - title: "Klinikum Heidelberg - Altbausanierung"
+            category: "Sanierung"
+            image: "http://localhost:8082/seo-images/ref-klinikum.jpg"
+            description: "Komplette Asbestsanierung und Modernisierung"
+            year: "2023"
+            
+          - title: "BASF Ludwigshafen - Rückbau Produktionsanlage"
+            category: "Abbruch"
+            image: "http://localhost:8082/seo-images/ref-basf.jpg"
+            description: "Rückbau chemischer Produktionsanlagen"
+            year: "2023"
+            
+          - title: "Wohnquartier Mannheim - PCB-Sanierung"
+            category: "Schadstoff"
+            image: "http://localhost:8082/seo-images/ref-mannheim.jpg"
+            description: "PCB-Sanierung in 120 Wohneinheiten"
+            year: "2022"
+            
+          - title: "Neubau Bürokomplex - SiGeKo"
+            category: "Koordination"
+            image: "http://localhost:8082/seo-images/ref-office.jpg"
+            description: "Sicherheitskoordination für 50.000m² Bürofläche"
+            year: "2024"
+
+  # ========== INFOTHEK ==========
+  - id: "infothek"
+    title: "Infothek"
+    slug: "infothek"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Infothek"
+        subtitle: "Wissenswertes rund um Sanierung und Sicherheit"
+        
+      - type: "blog-grid"
+        columns: 3
+        posts:
+          - title: "Neue TRGS 519 - Was ändert sich?"
+            excerpt: "Die überarbeitete TRGS 519 bringt wichtige Änderungen für Asbestsanierungen..."
+            category: "Rechtliches"
+            date: "2025-01-15"
+            image: "http://localhost:8082/seo-images/blog-trgs519.jpg"
+            
+          - title: "PCB in Gebäuden - Unterschätzte Gefahr"
+            excerpt: "PCB findet sich noch immer in vielen Gebäuden der 60er und 70er Jahre..."
+            category: "Schadstoffe"
+            date: "2025-01-10"
+            image: "http://localhost:8082/seo-images/blog-pcb.jpg"
+            
+          - title: "Kreislaufwirtschaftsgesetz 2025"
+            excerpt: "Die neuen Anforderungen an die Verwertung von Bauabfällen..."
+            category: "Umwelt"
+            date: "2025-01-05"
+            image: "http://localhost:8082/seo-images/blog-recycling.jpg"
+            
+      - type: "download-section"
+        title: "Downloads"
+        subtitle: "Nützliche Dokumente und Checklisten"
+        items:
+          - title: "Checkliste Asbestsanierung"
+            description: "Alle wichtigen Punkte für Ihre Asbestsanierung"
+            icon: "fa fa-file-pdf"
+            link: "/downloads/checkliste-asbest.pdf"
+            
+          - title: "Merkblatt PCB-Sanierung"
+            description: "Informationen zur fachgerechten PCB-Sanierung"
+            icon: "fa fa-file-pdf"
+            link: "/downloads/merkblatt-pcb.pdf"
+            
+          - title: "SiGe-Plan Muster"
+            description: "Vorlage für Sicherheits- und Gesundheitsschutzplan"
+            icon: "fa fa-file-word"
+            link: "/downloads/sige-plan-muster.docx"
+
+  # ========== KONTAKT ==========
+  - id: "kontakt"
+    title: "Kontakt"
+    slug: "kontakt"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Wir beraten Sie gerne unverbindlich"
+        
+      - type: "contact-info"
+        columns: 3
+        items:
+          - icon: "fa fa-map-marker-alt"
+            title: "Adresse"
+            text: |
+              RIMAN GmbH
+              Industriestraße 25
+              69123 Heidelberg
+              
+          - icon: "fa fa-phone"
+            title: "Telefon"
+            text: |
+              Tel: +49 (0) 6221 123456
+              Fax: +49 (0) 6221 123457
+              Mobil: +49 (0) 172 6789012
+              
+          - icon: "fa fa-envelope"
+            title: "E-Mail"
+            text: |
+              info@riman.de
+              j.fischer@riman.de
+              
+      - type: "contact-form"
+        title: "Anfrage-Formular"
+        fields:
+          - name: "name"
+            label: "Name*"
+            type: "text"
+            required: true
+            
+          - name: "company"
+            label: "Firma"
+            type: "text"
+            
+          - name: "email"
+            label: "E-Mail*"
+            type: "email"
+            required: true
+            
+          - name: "phone"
+            label: "Telefon"
+            type: "tel"
+            
+          - name: "service"
+            label: "Leistungsbereich"
+            type: "select"
+            options:
+              - "Abbruch-Management"
+              - "Altlasten-Sanierung"
+              - "Schadstoff-Management"
+              - "Sicherheits-Koordination"
+              - "Konflikt-Management"
+              - "Sonstiges"
+              
+          - name: "message"
+            label: "Ihre Nachricht*"
+            type: "textarea"
+            required: true
+            
+      - type: "map"
+        lat: "49.4093582"
+        lng: "8.6945926"
+        zoom: 15
+        marker_title: "RIMAN GmbH"
+
+  # ========== IMPRESSUM ==========
+  - id: "impressum"
+    title: "Impressum"
+    slug: "impressum"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Impressum"
+        
+      - type: "text-content"
+        content: |
+          <h3>Angaben gemäß § 5 TMG</h3>
+          
+          <p>
+          <strong>RIMAN GmbH</strong><br>
+          Industriestraße 25<br>
+          69123 Heidelberg<br>
+          Deutschland
+          </p>
+          
+          <h4>Vertreten durch</h4>
+          <p>Geschäftsführer: Dipl.-Ing. Jürgen Fischer</p>
+          
+          <h4>Kontakt</h4>
+          <p>
+          Telefon: +49 (0) 6221 123456<br>
+          Fax: +49 (0) 6221 123457<br>
+          E-Mail: info@riman.de
+          </p>
+          
+          <h4>Registereintrag</h4>
+          <p>
+          Eintragung im Handelsregister<br>
+          Registergericht: Amtsgericht Mannheim<br>
+          Registernummer: HRB 123456
+          </p>
+          
+          <h4>Umsatzsteuer-ID</h4>
+          <p>
+          Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br>
+          DE123456789
+          </p>
+          
+          <h4>Berufsbezeichnung und berufsrechtliche Regelungen</h4>
+          <p>
+          Berufsbezeichnung: Beratende Ingenieure<br>
+          Zuständige Kammer: Ingenieurkammer Baden-Württemberg<br>
+          Verliehen in: Deutschland
+          </p>
+          
+          <h4>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h4>
+          <p>
+          Dipl.-Ing. Jürgen Fischer<br>
+          RIMAN GmbH<br>
+          Industriestraße 25<br>
+          69123 Heidelberg
+          </p>
+
+  # ========== DATENSCHUTZ ==========
+  - id: "datenschutz"
+    title: "Datenschutz"
+    slug: "datenschutz"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Datenschutzerklärung"
+        
+      - type: "text-content"
+        content: |
+          <h3>1. Datenschutz auf einen Blick</h3>
+          
+          <h4>Allgemeine Hinweise</h4>
+          <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit 
+          Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen...</p>
+          
+          <h4>Datenerfassung auf dieser Website</h4>
+          <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. 
+          Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.</p>
+          
+          <h3>2. Hosting</h3>
+          <p>Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf 
+          dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert...</p>
+          
+          <h3>3. Allgemeine Hinweise und Pflichtinformationen</h3>
+          
+          <h4>Datenschutz</h4>
+          <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten 
+          sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und 
+          entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser 
+          Datenschutzerklärung.</p>
+          
+          <h4>Hinweis zur verantwortlichen Stelle</h4>
+          <p>
+          Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br>
+          RIMAN GmbH<br>
+          Dipl.-Ing. Jürgen Fischer<br>
+          Industriestraße 25<br>
+          69123 Heidelberg<br>
+          Telefon: +49 (0) 6221 123456<br>
+          E-Mail: datenschutz@riman.de
+          </p>
+
+# Blog Posts / News
+posts:
+  - title: "Neue TRGS 519 - Was ändert sich bei Asbestsanierungen?"
+    slug: "neue-trgs-519-aenderungen"
+    category: "Rechtliches"
+    excerpt: "Die überarbeitete TRGS 519 bringt wichtige Änderungen für Asbestsanierungen mit sich. Wir erklären, was Sie beachten müssen."
+    content: |
+      Die Technischen Regeln für Gefahrstoffe (TRGS) 519 wurden überarbeitet und bringen 
+      wichtige Neuerungen für alle, die mit Asbestsanierungen zu tun haben...
+    author: "Jürgen Fischer"
+    date: "2025-01-15"
+    
+  - title: "PCB in Gebäuden - Die unterschätzte Gefahr"
+    slug: "pcb-gebaeude-gefahr"
+    category: "Schadstoffe"
+    excerpt: "PCB findet sich noch immer in vielen Gebäuden. Erfahren Sie, wo die Gefahren lauern."
+    content: |
+      Polychlorierte Biphenyle (PCB) wurden bis 1989 in vielen Baumaterialien verwendet. 
+      Besonders betroffen sind Gebäude aus den 1960er und 1970er Jahren...
+    author: "Sarah Weber"
+    date: "2025-01-10"
+
+# SEO Einstellungen
+seo:
+  default_title: "RIMAN GmbH - Experten für Sanierung & Sicherheit"
+  default_description: "Seit 1998 Ihr Partner für Abbruch-Management, Altlastensanierung, Schadstoffmanagement und Sicherheitskoordination in der Metropolregion Rhein-Neckar"
+  keywords:
+    - "Asbestsanierung Heidelberg"
+    - "PCB Sanierung"
+    - "Abbruchmanagement"
+    - "Altlastensanierung Baden-Württemberg"
+    - "SiGeKo Mannheim"
+    - "Schadstoffgutachten"
+    - "TRGS 519"
+    - "Sicherheitskoordinator Baustelle"
+    - "Rückbaumanagement"
+    - "Baumediation"
