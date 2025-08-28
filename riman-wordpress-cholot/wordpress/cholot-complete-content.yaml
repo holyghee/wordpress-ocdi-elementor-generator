@@ -1,0 +1,412 @@
+site:
+  title: "Cholot – Retirement Community WordPress Theme"
+  url: "http://localhost:8082"
+  description: "Just another Ridianur WordPress Theme Sites site"
+
+pages:
+  - id: 1656
+    title: "Home"
+    slug: "home" 
+    template: "elementor_canvas"
+    content: |
+      <h1>Welcome to Cholot Retirement Community</h1>
+      <p>Experience exceptional care in a warm, welcoming environment where residents thrive.</p>
+    elementor_template: "templates/home-page.json"
+    elementor_content:
+      # Hero Slider with real content
+      - widget_type: "rdn-slider"
+        settings:
+          slides:
+            - title: "Discover the best community that fit <span>your needs</span>."
+              subtitle: "for best and worst"
+              text: "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus."
+              btn_text: "View More"
+              btn_link: "/about"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-1.jpg"
+            - title: "The senior living experience that is <span>tailored</span> to you."
+              subtitle: "diverse and inclusive"  
+              text: "Building relationships with our residents is something we keep close to our heart. Getting to know their personal stories."
+              btn_text: "Learn More"
+              btn_link: "/services"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/huy-phan-100866-unsplash-1.jpg"
+
+      # Service Cards Section with real content
+      - widget_type: "section"
+        settings:
+          title: "Our Core Services"
+          subtitle: "Professional & Certified"
+        elements:
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-parachute-box"
+            title: "Healthly life"
+            subtitle: "Exciting"
+            text: "It's a great way for you to make use of all the benefits of being a part of our community. We focus on physical, mental, and emotional wellness."
+            link: "/services/healthy-life"
+
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-pallet"
+            title: "Improving life"
+            subtitle: "retired"
+            text: "It's a great way for you to make use of all the benefits of being a part. Our programs are designed to enhance quality of life daily."
+            link: "/services/improving-life"
+
+          - widget_type: "cholot-texticon" 
+            icon: "fas fa-igloo"
+            title: "Relationship"
+            subtitle: "residents"
+            text: "Building meaningful connections between residents, families, and staff is at the heart of what we do."
+            link: "/services/relationships"
+
+      # Additional Service Cards
+      - widget_type: "section"
+        settings:
+          title: "Thinking about <span>retirement?</span> Let us be your guide."
+          subtitle: "ullamcorper matti pulvinar"
+        elements:
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-procedures"
+            title: "24/7 Healthcare"
+            subtitle: "spiritual"
+            text: "Round-the-clock medical care with compassionate staff trained in geriatric care."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-restroom"
+            title: "Counseling"
+            subtitle: "community"
+            text: "The enrichment programs aimed at keeping our residents healthy mentally and emotionally."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-route"
+            title: "Stay active"
+            subtitle: "everyday"
+            text: "Give yourself a break and let us do the cooking and the cleaning while you enjoy life."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-people-carry"
+            title: "Meet regularly"
+            subtitle: "event date"
+            text: "Let our residents live their life independently and enjoy their life with regular social activities."
+
+      # Team Section with real members
+      - widget_type: "cholot-team"
+        settings:
+          team_members:
+            - name: "Indah Levi"
+              position: "Director of Health"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team2-1.jpg"
+              bio: "20+ years of experience in senior healthcare management"
+              social:
+                - platform: "facebook"
+                  url: "#"
+                - platform: "twitter"
+                  url: "#"
+                - platform: "linkedin"
+                  url: "#"
+                  
+            - name: "Adriana Yue"
+              position: "Director of Resource"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team3-1.jpg"
+              bio: "Expert in resource management and facility operations"
+              social:
+                - platform: "facebook"
+                  url: "#"
+                - platform: "pinterest"
+                  url: "#"
+                - platform: "twitter"
+                  url: "#"
+                  
+            - name: "Brenda Wong"
+              position: "Director of Environment"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team1-1.jpg"
+              bio: "Creating safe and comfortable living spaces for all residents"
+              social:
+                - platform: "linkedin"
+                  url: "#"
+                - platform: "twitter"
+                  url: "#"
+                - platform: "dribbble"
+                  url: "#"
+
+      # Testimonials Section
+      - widget_type: "cholot-testimonial-two"
+        settings:
+          testimonials:
+            - name: "Irgan Rogan"
+              position: "Member"
+              text: "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/matteo-vistocco-537858-unsplash.jpg"
+              
+            - name: "Peggy Brim"
+              position: "Member"
+              text: "My children and I couldn't be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me."
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/anthony-metcalfe-580436-unsplash.jpg"
+              
+            - name: "Dhea Marisa"
+              position: "Member"
+              text: "We have lived here for five years and the quality, responsiveness and friendliness of the staff can't be beat. Our overall everyday experiences living makes us happy."
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/damir-bosnjak-366766-unsplash.jpg"
+              
+            - name: "Thyo Septian"
+              position: "Member"
+              text: "The Senior living restaurant offers excellent variety, quality and presentation. It's very, very tasteful. The choices you are given are remarkable!"
+              image_url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash.jpg"
+
+      # Contact Section
+      - widget_type: "cholot-contact"
+        settings:
+          title: "Contact Us"
+          subtitle: "Get in touch for more information"
+          address: "123 Retirement Lane, Senior City, SC 12345"
+          phone: "(555) 123-4567"
+          email: "info@cholotretirement.com"
+          shortcode: "[contact-form-7 id=\"5\" title=\"Contact form\"]"
+
+  - id: 1674
+    title: "About"
+    slug: "about"
+    template: "elementor_canvas"
+    content: |
+      <h1>About Cholot Retirement Community</h1>
+      <p>Building with our residents is something we keep close to our heart.</p>
+    elementor_template: "templates/about-page.json"
+
+  - id: 1684
+    title: "Services"
+    slug: "services"
+    template: "elementor_canvas"
+    content: |
+      <h1>Our Services</h1>
+      <p>We offer comprehensive care and support services.</p>
+    elementor_template: "templates/service-page.json"
+    elementor_content:
+      - widget_type: "section"
+        settings:
+          title: "Professional Healthcare Services"
+        elements:
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Healthly life"
+            text: "It's a great way for you to make use of all the benefits of being a part of our professional healthcare community."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Improving life"
+            text: "Continuous improvement in quality of life through personalized care plans and regular health assessments."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Relationship"
+            text: "Building strong relationships between healthcare providers, residents, and their families."
+
+  - id: 1687
+    title: "Contact"
+    slug: "contact"
+    template: "elementor_canvas"
+    content: |
+      <h1>Contact Us</h1>
+      <p>Get in touch to schedule a tour or learn more.</p>
+    elementor_template: "templates/contact-page.json"
+    elementor_content:
+      - widget_type: "cholot-contact"
+        settings:
+          address: "123 Retirement Lane, Senior City, SC 12345"
+          phone: "(555) 123-4567"
+          email: "info@cholotretirement.com"
+          hours: "Monday - Friday: 9AM - 5PM"
+
+  - id: 1691
+    title: "Blog"
+    slug: "blog"
+    template: "elementor_canvas"
+    content: |
+      <h1>Latest News & Updates</h1>
+      <p>Stay informed about our community events and health tips.</p>
+    elementor_template: "templates/blog-page.json"
+
+  - id: 1695
+    title: "Independent Living"
+    slug: "independent-living"
+    template: "elementor_canvas"
+    content: |
+      <h1>Independent Living</h1>
+      <p>Maintain your independence while enjoying community support.</p>
+    elementor_template: "templates/single-service-1.json"
+    elementor_content:
+      - widget_type: "section"
+        settings:
+          title: "Independent Living Services"
+        elements:
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Private Apartments"
+            text: "Spacious one and two-bedroom apartments with full kitchens and modern amenities."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Housekeeping Services"
+            text: "Weekly housekeeping and linen services to keep your home fresh and clean."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Social Activities"
+            text: "Full calendar of social events, clubs, and recreational activities."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Transportation"
+            text: "Scheduled transportation for shopping, medical appointments, and outings."
+
+  - id: 1698
+    title: "Assisted Living"
+    slug: "assisted-living"
+    template: "elementor_canvas"
+    content: |
+      <h1>Assisted Living</h1>
+      <p>Personalized care in a home-like environment.</p>
+    elementor_template: "templates/single-service-2.json"
+    elementor_content:
+      - widget_type: "section"
+        settings:
+          title: "Assisted Living Care"
+        elements:
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Personal Care"
+            text: "Assistance with daily activities including bathing, dressing, and medication management."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "24/7 Nursing"
+            text: "Round-the-clock nursing staff to ensure safety and provide medical support."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Memory Care"
+            text: "Specialized programs for residents with Alzheimer's and dementia."
+            
+          - widget_type: "cholot-texticon"
+            icon: "fa fa-child"
+            title: "Therapy Services"
+            text: "On-site physical, occupational, and speech therapy services."
+
+posts:
+  - id: 1701
+    title: "Every carry ready the quinoa mperdiet etiam"
+    slug: "every-carry-ready-quinoa"
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Our community provides exceptional care with a focus on maintaining independence and dignity for all residents.</p>
+    categories: ["Health", "Wellness"]
+    
+  - id: 1702
+    title: "Interest humble brag air plant nec odio et ante"
+    slug: "interest-humble-brag"
+    content: |
+      <p>Discover the benefits of our comprehensive wellness programs designed specifically for seniors.</p>
+      <p>From fitness classes to nutritional guidance, we support your journey to healthy aging.</p>
+    categories: ["Activities", "Community"]
+    
+  - id: 1703
+    title: "Purus quamut mollised aenean commodo"
+    slug: "purus-quamut-mollised"
+    content: |
+      <p>Learn about the latest advancements in senior healthcare and how they benefit our residents.</p>
+      <p>Our medical team stays current with best practices in geriatric care.</p>
+    categories: ["Healthcare", "Medical"]
+    
+  - id: 1704
+    title: "Blandit vel luctus pulvinar hendrerit massa quis enim"
+    slug: "blandit-vel-luctus"
+    content: |
+      <p>Explore our beautiful facilities and amenities designed for comfort and accessibility.</p>
+      <p>Every detail is thoughtfully planned to enhance quality of life.</p>
+    categories: ["Facilities", "Amenities"]
+
+menus:
+  - id: 4
+    slug: "default-menu"
+    name: "Default Menu"
+    items:
+      - id: 1710
+        title: "Home"
+        object_id: 1656
+        object_type: "page"
+        parent: 0
+      - id: 1711
+        title: "About"
+        object_id: 1674
+        object_type: "page"
+        parent: 0
+      - id: 1712
+        title: "Services"
+        object_id: 1684
+        object_type: "page"
+        parent: 0
+      - id: 1713
+        title: "Independent Living"
+        object_id: 1695
+        object_type: "page"
+        parent: 1712
+      - id: 1714
+        title: "Assisted Living"
+        object_id: 1698
+        object_type: "page"
+        parent: 1712
+      - id: 1715
+        title: "Blog"
+        object_id: 1691
+        object_type: "page"
+        parent: 0
+      - id: 1716
+        title: "Contact"
+        object_id: 1687
+        object_type: "page"
+        parent: 0
+
+categories:
+  - id: 2001
+    name: "Health"
+    slug: "health"
+  - id: 2002
+    name: "Wellness"
+    slug: "wellness"
+  - id: 2003
+    name: "Activities"
+    slug: "activities"
+  - id: 2004
+    name: "Community"
+    slug: "community"
+  - id: 2005
+    name: "Healthcare"
+    slug: "healthcare"
+  - id: 2006
+    name: "Medical"
+    slug: "medical"
+  - id: 2007
+    name: "Facilities"
+    slug: "facilities"
+  - id: 2008
+    name: "Amenities"
+    slug: "amenities"
+
+media:
+  - id: 3001
+    title: "Hero Slider Image 1"
+    url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/esther-town-492626-unsplash-1.jpg"
+    filename: "esther-town-hero.jpg"
+  - id: 3002
+    title: "Hero Slider Image 2"
+    url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/06/huy-phan-100866-unsplash-1.jpg"
+    filename: "huy-phan-hero.jpg"
+  - id: 3003
+    title: "Team Member 1"
+    url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team1-1.jpg"
+    filename: "team-brenda.jpg"
+  - id: 3004
+    title: "Team Member 2"
+    url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team2-1.jpg"
+    filename: "team-indah.jpg"
+  - id: 3005
+    title: "Team Member 3"
+    url: "https://demo.ridianur.com/cholot/wp-content/uploads/sites/9/2019/07/team3-1.jpg"
+    filename: "team-adriana.jpg"
