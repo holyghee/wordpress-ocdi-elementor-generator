@@ -25,11 +25,22 @@ function import_cholot_xml($xml_file, $label = 'Test') {
     
     // WordPress Importer laden
     if (!class_exists('WP_Import')) {
-        $importer_path = WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php';
-        if (file_exists($importer_path)) {
-            require_once $importer_path;
-        } else {
-            echo "❌ WordPress Importer Plugin nicht gefunden!\n";
+        // Lade alle benötigten Dateien
+        $importer_files = [
+            WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php',
+            WP_PLUGIN_DIR . '/wordpress-importer/parsers.php',
+            WP_PLUGIN_DIR . '/wordpress-importer/compat.php'
+        ];
+        
+        foreach($importer_files as $file) {
+            if (file_exists($file)) {
+                require_once $file;
+            }
+        }
+        
+        // Prüfe nochmals
+        if (!class_exists('WP_Import')) {
+            echo "❌ WordPress Importer konnte nicht geladen werden!\n";
             return false;
         }
     }
