@@ -1,0 +1,61 @@
+# SEO Content Generator Config
+# Generiere mehrere SEO-optimierte Seiten auf einmal!
+
+site:
+  name: "RIMAN GmbH"
+  url: "https://riman-gmbh.de"
+
+pages:
+  # Hauptseite
+  - title: "Schadstoffsanierung Berlin - RIMAN GmbH"
+    slug: "schadstoffsanierung-berlin"
+    h1: "Professionelle Schadstoffsanierung in Berlin"
+    meta_description: "RIMAN GmbH - Ihr Experte für Schadstoffsanierung in Berlin. ✓ Asbest ✓ PCB ✓ Schimmel. 25 Jahre Erfahrung. Jetzt beraten lassen!"
+    description: "Seit 1998 Ihr zuverlässiger Partner für Schadstoffsanierung"
+    sections:
+      - h2: "Unsere Sanierungsleistungen"
+        content: "Wir bieten professionelle Sanierung von Asbest, PCB, PAK, KMF und Schimmelpilzen."
+      - h2: "Warum RIMAN GmbH?"
+        content: "25 Jahre Erfahrung, zertifizierte Verfahren, 24/7 Notdienst."
+    id: 100
+
+  # Service-Seite 1
+  - title: "Asbestsanierung Berlin - Sicher & Zertifiziert"
+    slug: "asbestsanierung-berlin"
+    h1: "Asbestsanierung Berlin - TRGS 519 zertifiziert"
+    meta_description: "Professionelle Asbestsanierung in Berlin nach TRGS 519. Sichere Entfernung, fachgerechte Entsorgung. Kostenlose Beratung: 030-12345678"
+    description: "Zertifizierte Asbestsanierung nach höchsten Sicherheitsstandards"
+    sections:
+      - h2: "Asbestsanierung nach TRGS 519"
+        content: "Wir sind zertifiziert nach TRGS 519 und führen alle Arbeiten nach gesetzlichen Vorgaben durch."
+      - h2: "Ablauf der Asbestsanierung"
+        content: "1. Analyse, 2. Abschottung, 3. Fachgerechte Entfernung, 4. Entsorgung, 5. Freimessung"
+      - h2: "Kosten Asbestsanierung Berlin"
+        content: "Transparente Preise, kostenlose Erstberatung, Festpreisgarantie."
+    id: 101
+
+  # Service-Seite 2
+  - title: "PCB Sanierung Berlin - Umweltgerecht"
+    slug: "pcb-sanierung-berlin"
+    h1: "PCB-Sanierung in Berlin - Fachgerecht & Sicher"
+    meta_description: "PCB-Sanierung Berlin: Professionelle Entfernung von PCB-belasteten Materialien. Umweltgerechte Entsorgung. Jetzt Angebot anfordern!"
+    description: "Sichere PCB-Sanierung nach aktuellen Umweltstandards"
+    sections:
+      - h2: "Was ist PCB?"
+        content: "Polychlorierte Biphenyle wurden bis 1989 in Baustoffen verwendet und sind gesundheitsschädlich."
+      - h2: "PCB-Sanierung Verfahren"
+        content: "Wir nutzen modernste Verfahren zur sicheren PCB-Entfernung und -Entsorgung."
+    id: 102
+
+  # Lokale Landing Pages
+  - title: "Schadstoffsanierung Charlottenburg"
+    slug: "schadstoffsanierung-charlottenburg"
+    h1: "Schadstoffsanierung in Berlin-Charlottenburg"
+    meta_description: "Schadstoffsanierung Charlottenburg - Schnell vor Ort. Asbest, PCB, Schimmel. 24h Service."
+    id: 103
+
+  - title: "Schadstoffsanierung Mitte"
+    slug: "schadstoffsanierung-berlin-mitte"
+    h1: "Schadstoffsanierung in Berlin-Mitte"
+    meta_description: "Ihr Experte für Schadstoffsanierung in Berlin-Mitte. Schnelle Hilfe bei Asbest, PCB und Schimmel."
+    id: 104
