@@ -1,0 +1,318 @@
+# XL WordPress Site Configuration - RIMAN GmbH (Ohne externe Bilder)
+# Version ohne externe Bilder für problemlosen Import
+
+site:
+  title: "RIMAN GmbH - Sanierungsexperten"
+  description: "Professionelle Sanierungsdienstleistungen seit über 20 Jahren"
+  base_url: "http://localhost:8082"
+  language: "de-DE"
+
+# Autoren
+authors:
+  - id: 1
+    login: admin
+    email: admin@riman-sanierung.de
+    display_name: RIMAN Admin
+
+# Kategorien
+categories:
+  - id: 1
+    slug: uncategorized
+    name: Allgemein
+  - id: 2
+    slug: sanierung
+    name: Sanierung
+  - id: 3
+    slug: asbestsanierung
+    name: Asbestsanierung
+  - id: 4
+    slug: ratgeber
+    name: Ratgeber
+
+# Tags
+tags:
+  - id: 10
+    slug: trgs-519
+    name: TRGS 519
+  - id: 11
+    slug: sicherheit
+    name: Sicherheit
+  - id: 12
+    slug: berlin
+    name: Berlin
+
+# Navigation Menu - WICHTIG: term_id muss eindeutig sein
+menus:
+  - id: 100  # Höhere ID um Konflikte zu vermeiden
+    slug: hauptmenu
+    name: Hauptmenü
+    items:
+      - title: Startseite
+        url: "/"
+        type: custom
+        object: custom
+        
+      - title: Leistungen
+        url: "/leistungen"
+        type: post_type
+        object: page
+        
+      - title: Asbestsanierung
+        url: "/leistungen/asbestsanierung"
+        type: post_type
+        object: page
+        parent: 2
+        
+      - title: PCB-Sanierung
+        url: "/leistungen/pcb-sanierung"
+        type: post_type
+        object: page
+        parent: 2
+        
+      - title: Über uns
+        url: "/ueber-uns"
+        type: post_type
+        object: page
+        
+      - title: Kontakt
+        url: "/kontakt"
+        type: post_type
+        object: page
+
+# Keine Media-Attachments - vermeidet Download-Probleme
+media: []
+
+# Seiten
+pages:
+  # STARTSEITE mit Elementor (ohne Bilder)
+  - title: "RIMAN GmbH - Ihre Sanierungsexperten"
+    slug: "startseite"
+    status: "publish"
+    template: "elementor_canvas"
+    sections:
+      - type: "hero_slider"
+        slides:
+          - title: "RIMAN GmbH - Ihre <span>Experten</span> für Sanierung"
+            subtitle: "Seit über 20 Jahren"
+            text: "Professionelle Asbest-, PCB- und Schimmelsanierung nach höchsten Sicherheitsstandards."
+            button_text: "Kostenlose Beratung"
+            button_link: "#contact"
+            image: ""  # Kein Bild
+      
+      - type: "service_cards"
+        title: "Unsere Kernkompetenzen"
+        subtitle: "Zertifiziert & Professionell"
+        services:
+          - title: "Asbestsanierung"
+            subtitle: "TRGS 519 zertifiziert"
+            text: "Fachgerechte Entfernung und Entsorgung von Asbest in Gebäuden aller Art."
+            icon: "fas fa-shield-alt"
+          - title: "PCB-Sanierung"
+            subtitle: "Umweltgerecht"
+            text: "Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien."
+            icon: "fas fa-biohazard"
+          - title: "Schimmelsanierung"
+            subtitle: "Nachhaltig"
+            text: "Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Prävention."
+            icon: "fas fa-spray-can"
+          - title: "Brandschadensanierung"
+            subtitle: "24/7 Notdienst"
+            text: "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden."
+            icon: "fas fa-fire-extinguisher"
+      
+      - type: "about"
+        title: "Über <span>RIMAN GmbH</span>"
+        subtitle: "Ihre Sanierungsexperten seit 2000"
+        content: |
+          Mit über 20 Jahren Erfahrung sind wir Ihr zuverlässiger Partner für alle 
+          Sanierungsarbeiten. Unser Team aus über 50 zertifizierten Experten garantiert 
+          höchste Qualität und Sicherheit bei jedem Projekt.
+          
+          Wir sind spezialisiert auf die Sanierung von Schadstoffen und verfügen über 
+          modernste Ausrüstung sowie alle erforderlichen Zertifizierungen.
+        image: ""
+        features:
+          - icon: "fas fa-certificate"
+            title: "Zertifiziert"
+            text: "Nach TRGS 519 und allen relevanten Standards"
+          - icon: "fas fa-users"
+            title: "50+ Experten"
+            text: "Erfahrenes Team von Sanierungsspezialisten"
+          - icon: "fas fa-clock"
+            title: "24/7 Service"
+            text: "Notdienst rund um die Uhr verfügbar"
+      
+      - type: "contact"
+        title: "Kostenlose Erstberatung"
+        subtitle: "Wir sind für Sie da"
+        text: "Kontaktieren Sie uns für eine unverbindliche Beratung zu Ihrem Sanierungsprojekt."
+        background_color: "#1f1f1f"
+        info:
+          - icon: "fas fa-phone"
+            label: "24/7 Notdienst"
+            value: "+49 (0) 30 123456789"
+          - icon: "fas fa-envelope"
+            label: "E-Mail"
+            value: "info@riman-sanierung.de"
+          - icon: "fas fa-map-marker-alt"
+            label: "Hauptsitz"
+            value: "Industriestraße 45, 13407 Berlin"
+
+  # LEISTUNGEN - Hauptseite
+  - title: "Unsere Leistungen"
+    slug: "leistungen"
+    status: "publish"
+    parent: 0
+    content: |
+      <h2>Professionelle Sanierungsdienstleistungen</h2>
+      <p>Die RIMAN GmbH bietet Ihnen das komplette Spektrum professioneller Sanierungsdienstleistungen. 
+      Mit über 20 Jahren Erfahrung und modernster Ausrüstung sind wir Ihr kompetenter Partner für alle 
+      Arten von Schadstoffsanierungen.</p>
+      
+      <h3>Unsere Kernkompetenzen</h3>
+      <ul>
+        <li><strong>Asbestsanierung</strong> - Zertifiziert nach TRGS 519</li>
+        <li><strong>PCB-Sanierung</strong> - Umweltgerechte Entsorgung</li>
+        <li><strong>Schimmelsanierung</strong> - Mit Ursachenanalyse</li>
+        <li><strong>Brandschadensanierung</strong> - 24/7 Notdienst</li>
+      </ul>
+
+  # LEISTUNGEN - Asbestsanierung
+  - title: "Asbestsanierung nach TRGS 519"
+    slug: "leistungen/asbestsanierung"
+    status: "publish"
+    parent: 200  # Parent page ID
+    content: |
+      <h2>Professionelle Asbestsanierung</h2>
+      <p>Als TRGS 519 zertifiziertes Unternehmen führen wir Asbestsanierungen in allen Gebäudetypen durch.</p>
+      
+      <h3>Unser Leistungsspektrum</h3>
+      <ul>
+        <li>Asbestanalyse und Gefährdungsbeurteilung</li>
+        <li>Erstellung von Sanierungskonzepten</li>
+        <li>Fachgerechte Asbestentfernung</li>
+        <li>Luftmessungen und Freigabemessungen</li>
+        <li>Entsorgung und Dokumentation</li>
+      </ul>
+      
+      <h3>Typische Asbestquellen</h3>
+      <ul>
+        <li>Asbestzementplatten (Eternit)</li>
+        <li>Spritzasbest</li>
+        <li>Asbesthaltige Bodenbeläge</li>
+        <li>Nachtspeicheröfen</li>
+        <li>Rohrisolierungen</li>
+      </ul>
+
+  # LEISTUNGEN - PCB-Sanierung
+  - title: "PCB-Sanierung"
+    slug: "leistungen/pcb-sanierung"
+    status: "publish"
+    parent: 200
+    content: |
+      <h2>Fachgerechte PCB-Sanierung</h2>
+      <p>PCB (Polychlorierte Biphenyle) wurden bis 1989 in vielen Baumaterialien verwendet.</p>
+      
+      <h3>PCB-Quellen im Gebäude</h3>
+      <ul>
+        <li>Dauerelastische Fugendichtungen</li>
+        <li>Kondensatoren in alten Leuchtstofflampen</li>
+        <li>Klebstoffe und Anstriche</li>
+      </ul>
+
+  # ÜBER UNS
+  - title: "Über RIMAN GmbH"
+    slug: "ueber-uns"
+    status: "publish"
+    content: |
+      <h2>RIMAN GmbH - Ihr Partner für professionelle Sanierung</h2>
+      <p>Seit unserer Gründung im Jahr 2000 haben wir uns zu einem der führenden Sanierungsunternehmen 
+      in Berlin und Brandenburg entwickelt.</p>
+      
+      <h3>Unsere Werte</h3>
+      <ul>
+        <li><strong>Sicherheit:</strong> Höchste Sicherheitsstandards</li>
+        <li><strong>Qualität:</strong> Zertifizierte Verfahren</li>
+        <li><strong>Zuverlässigkeit:</strong> Termintreue und transparente Kommunikation</li>
+        <li><strong>Nachhaltigkeit:</strong> Umweltgerechte Entsorgung</li>
+      </ul>
+
+  # KONTAKT
+  - title: "Kontakt"
+    slug: "kontakt"
+    status: "publish"
+    content: |
+      <h2>Kontaktieren Sie uns</h2>
+      <p>Wir sind für Sie da!</p>
+      
+      <h3>24/7 Notdienst</h3>
+      <p>Telefon: +49 (0) 30 123456789</p>
+      
+      <h3>Bürozeiten</h3>
+      <p>Montag - Freitag: 7:00 - 18:00 Uhr<br>
+      Samstag: 8:00 - 14:00 Uhr</p>
+      
+      <h3>E-Mail</h3>
+      <p>info@riman-sanierung.de</p>
+      
+      <h3>Adresse</h3>
+      <p>RIMAN GmbH<br>
+      Industriestraße 45<br>
+      13407 Berlin</p>
+
+# Blog-Posts
+posts:
+  - title: "RIMAN erhält Großauftrag für Asbestsanierung"
+    slug: "grossauftrag-asbestsanierung"
+    author: "admin"
+    status: "publish"
+    sticky: true
+    categories: ["sanierung", "asbestsanierung"]
+    tags: ["berlin", "trgs-519"]
+    excerpt: "Wir freuen uns über den Zuschlag für ein Großprojekt."
+    content: |
+      <p>Die RIMAN GmbH hat den Zuschlag für eines der größten Sanierungsprojekte Berlins erhalten.</p>
+      
+      <h3>Projektdetails</h3>
+      <ul>
+        <li>Gebäudefläche: 25.000 m²</li>
+        <li>Projektdauer: 12 Monate</li>
+        <li>Team: 30 Sanierungsspezialisten</li>
+      </ul>
+
+  - title: "Schimmel in der Wohnung - Erste Hilfe"
+    slug: "schimmel-erste-hilfe"
+    author: "admin"
+    status: "publish"
+    categories: ["ratgeber"]
+    tags: ["sicherheit"]
+    excerpt: "Was tun bei Schimmelbefall? Unsere Tipps."
+    content: |
+      <p>Schimmel in Wohnräumen kann gesundheitsgefährdend sein.</p>
+      
+      <h3>Sofortmaßnahmen</h3>
+      <ol>
+        <li>Nicht berühren</li>
+        <li>Gut lüften</li>
+        <li>Dokumentieren</li>
+        <li>Experten rufen</li>
+      </ol>
+
+# Header
+header:
+  title: "RIMAN Header"
+  content: |
+    <header>
+      <div class="emergency-bar">
+        <span>24/7 Notdienst: <a href="tel:+493012345678">+49 30 123 456 78</a></span>
+      </div>
+    </header>
+
+# Footer
+footer:
+  title: "RIMAN Footer"
+  content: |
+    <footer>
+      <p>&copy; 2024 RIMAN GmbH. Alle Rechte vorbehalten.</p>
+      <p>Industriestraße 45, 13407 Berlin | Tel: +49 30 123 456 78</p>
+    </footer>
