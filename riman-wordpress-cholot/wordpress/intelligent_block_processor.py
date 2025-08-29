@@ -145,7 +145,10 @@ class IntelligentBlockProcessor:
         if 'subtitle' in config:
             content_map['SUBTITLE'] = config['subtitle']
         if 'content' in config:
-            content_map.update(config['content'])
+            if isinstance(config['content'], dict):
+                content_map.update(config['content'])
+            else:
+                content_map['CONTENT'] = config['content']
         
         # Rekursive Funktion zum Ersetzen von Platzhaltern
         def replace_placeholders(element: Any, content: Dict) -> Any:
