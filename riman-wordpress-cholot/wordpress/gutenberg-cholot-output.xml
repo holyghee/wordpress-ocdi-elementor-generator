@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+  <channel>
+    <title>RIMAN GmbH - Experten für Sanierung &amp; Umweltschutz</title>
+    <link>http://localhost:8081</link>
+    <description />
+    <language>de-DE</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:author>
+      <wp:author_id>1</wp:author_id>
+      <wp:author_login>admin</wp:author_login>
+      <wp:author_email>admin@example.com</wp:author_email>
+      <wp:author_display_name>Administrator</wp:author_display_name>
+    </wp:author>
+    <wp:option>
+      <wp:option_key>custom_css_cholot_gutenberg</wp:option_key>
+      <wp:option_value>
+/* Cholot-Theme Styling für Gutenberg Blocks */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Source+Sans+Pro:wght@400;600;700&amp;display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.wp-block-button__link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+    background-color: #b68c2f !important;
+    border-color: #b68c2f !important;
+}
+
+.wp-block-cover__inner-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.wp-block-separator {
+    height: 2px;
+    border: none;
+}
+
+/* Font Awesome Integration */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+</wp:option_value>
+    </wp:option>
+    <item>
+      <title>RIMAN GmbH - Sicher bauen, Gesund leben</title>
+      <link>http://localhost:8081/</link>
+      <dc:creator>admin</dc:creator>
+      <guid isPermaLink="false">http://localhost:8081/?page_id=2000</guid>
+      <description />
+      <content:encoded>&lt;!-- wp:cover {"url":"http://localhost:8081/wp-content/uploads/2025/01/rueckbaumanagement-abriss-entsorgung.jpg","dimRatio":60,"overlayColor":"dark","minHeight":600,"minHeightUnit":"px","contentPosition":"center center","align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}}} --&gt;
+&lt;div class="wp-block-cover alignfull" style="padding-top:100px;padding-bottom:100px;min-height:600px"&gt;
+    &lt;span aria-hidden="true" class="wp-block-cover__background has-dark-background-color has-background-dim-60 has-background-dim"&gt;&lt;/span&gt;
+    &lt;img class="wp-block-cover__image-background" alt="" src="http://localhost:8081/wp-content/uploads/2025/01/rueckbaumanagement-abriss-entsorgung.jpg" data-object-fit="cover"/&gt;
+    &lt;div class="wp-block-cover__inner-container"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:heading {"level":1,"style":{"typography":{"fontFamily":"Playfair Display","fontSize":"45px","fontWeight":"700"},"color":{"text":"#ffffff"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+            &lt;h1 class="wp-block-heading" style="color:#ffffff;margin-bottom:20px;font-family:Playfair Display;font-size:45px;font-weight:700"&gt;25+ Jahre Erfahrung in Sanierung &amp; Umweltschutz&lt;/h1&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"2px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"30px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:30px;font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase"&gt;Seit 1998 Ihr zuverlässiger Partner&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"color":{"text":"rgba(255,255,255,0.89)"},"spacing":{"margin":{"bottom":"40px"}}}} --&gt;
+            &lt;p style="color:rgba(255,255,255,0.89);margin-bottom:40px;font-size:18px"&gt;Professionelle Lösungen für Asbest-, PCB- und Schadstoffsanierung. Wir stehen für Sicherheit, Qualität und Nachhaltigkeit.&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:buttons --&gt;
+            &lt;div class="wp-block-buttons"&gt;
+                &lt;!-- wp:button {"style":{"border":{"radius":"0px","width":"1px"},"color":{"background":"transparent","text":"#ffffff"},"spacing":{"padding":{"top":"12px","bottom":"12px","left":"30px","right":"30px"}},"className":"is-style-outline"} --&gt;
+                &lt;div class="wp-block-button is-style-outline"&gt;
+                    &lt;a class="wp-block-button__link wp-element-button" href="#services" style="border-width:1px;border-radius:0px;color:#ffffff;background-color:transparent;padding-top:12px;padding-right:30px;padding-bottom:12px;padding-left:30px"&gt;Unsere Leistungen&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;!-- /wp:button --&gt;
+            &lt;/div&gt;
+            &lt;!-- /wp:buttons --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /wp:cover --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"}}} --&gt;&lt;p class="has-text-align-center" style="color:#b68c2f;font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;Umfassende Sanierungslösungen&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Unsere Kernkompetenzen&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:columns {"columns":4} --&gt;
+        &lt;div class="wp-block-columns"&gt;
+            &lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-shield" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;ZERTIFIZIERT&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Asbestsanierung&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Sichere und fachgerechte Entfernung von Asbest nach TRGS 519&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-flask" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;FACHGERECHT&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;PCB-Sanierung&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Professionelle Beseitigung von PCB-belasteten Materialien&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-bacteria" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;NACHHALTIG&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Schimmelsanierung&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Nachhaltige Schimmelbeseitigung und Prävention&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-fire" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;24/7 NOTDIENST&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Brandschaden&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Schnelle Hilfe bei Brand- und Wasserschäden&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:columns --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+        &lt;p class="has-text-align-center" style="color:#b68c2f;margin-bottom:10px;font-size:15px;font-weight:700;text-transform:uppercase"&gt;Ihr Partner für sichere Sanierung&lt;/p&gt;
+        &lt;!-- /wp:paragraph --&gt;
+        
+        &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+        &lt;h2 class="wp-block-heading has-text-align-center" style="margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Warum RIMAN GmbH?&lt;/h2&gt;
+        &lt;!-- /wp:heading --&gt;
+        
+        &lt;!-- wp:separator {"style":{"color":{"background":"#b68c2f"},"spacing":{"margin":{"top":"20px","bottom":"20px"}},"className":"is-style-default"} --&gt;
+        &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default" style="background-color:#b68c2f;margin-top:20px;margin-bottom:20px"/&gt;
+        &lt;!-- /wp:separator --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        
+        
+        &lt;!-- wp:columns {"columns":3} --&gt;
+        &lt;div class="wp-block-columns"&gt;
+            &lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-award" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;25+ Jahre Erfahrung&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Über 2.000 erfolgreich abgeschlossene Projekte seit 1998&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-certificate" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Zertifizierte Experten&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;TRGS 519, ISO 9001 und weitere Qualifikationen&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-check-circle" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Komplettservice&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Von der Analyse bis zur Entsorgung - alles aus einer Hand&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:columns --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}},"color":{"background":"#fafafa"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#fafafa;padding-top:80px;padding-bottom:80px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"}}} --&gt;&lt;p class="has-text-align-center" style="color:#b68c2f;font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;Kompetenz und Erfahrung&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Unser Expertenteam&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:columns {"columns":3} --&gt;
+        &lt;div class="wp-block-columns"&gt;
+            &lt;!-- wp:column --&gt;
+&lt;div class="wp-block-column"&gt;
+    &lt;!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"5px"}}} --&gt;
+    &lt;figure class="wp-block-image size-large" style="border-radius:5px"&gt;
+        &lt;img src="http://localhost:8081/wp-content/uploads/2025/01/dr-michael-riman-geschaeftsfuehrer.jpg" alt="Dipl.-Ing. Jürgen Fischer"/&gt;
+    &lt;/figure&gt;
+    &lt;!-- /wp:image --&gt;
+    
+    &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"},"spacing":{"margin":{"top":"20px","bottom":"10px"}}}} --&gt;
+    &lt;h3 class="wp-block-heading" style="margin-top:20px;margin-bottom:10px;font-size:24px"&gt;Dipl.-Ing. Jürgen Fischer&lt;/h3&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:paragraph {"style":{"color":{"text":"#b68c2f"},"typography":{"fontSize":"14px","fontWeight":"600"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+    &lt;p style="color:#b68c2f;margin-bottom:15px;font-size:14px;font-weight:600"&gt;Geschäftsführer &amp; Gründer&lt;/p&gt;
+    &lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} --&gt;
+    &lt;p style="font-size:15px"&gt;25+ Jahre Erfahrung im Bereich Umwelt- und Sicherheitsmanagement&lt;/p&gt;
+    &lt;!-- /wp:paragraph --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column --&gt;
+&lt;div class="wp-block-column"&gt;
+    &lt;!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"5px"}}} --&gt;
+    &lt;figure class="wp-block-image size-large" style="border-radius:5px"&gt;
+        &lt;img src="http://localhost:8081/wp-content/uploads/2025/01/senior-living-expert.jpg" alt="Dr. Sarah Weber"/&gt;
+    &lt;/figure&gt;
+    &lt;!-- /wp:image --&gt;
+    
+    &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"},"spacing":{"margin":{"top":"20px","bottom":"10px"}}}} --&gt;
+    &lt;h3 class="wp-block-heading" style="margin-top:20px;margin-bottom:10px;font-size:24px"&gt;Dr. Sarah Weber&lt;/h3&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:paragraph {"style":{"color":{"text":"#b68c2f"},"typography":{"fontSize":"14px","fontWeight":"600"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+    &lt;p style="color:#b68c2f;margin-bottom:15px;font-size:14px;font-weight:600"&gt;Leiterin Schadstoffanalytik&lt;/p&gt;
+    &lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} --&gt;
+    &lt;p style="font-size:15px"&gt;Expertin für Asbest- und PCB-Analytik&lt;/p&gt;
+    &lt;!-- /wp:paragraph --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column --&gt;
+&lt;div class="wp-block-column"&gt;
+    &lt;!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"5px"}}} --&gt;
+    &lt;figure class="wp-block-image size-large" style="border-radius:5px"&gt;
+        &lt;img src="http://localhost:8081/wp-content/uploads/2025/01/projektleiter-sanierung.jpg" alt="Thomas Klein"/&gt;
+    &lt;/figure&gt;
+    &lt;!-- /wp:image --&gt;
+    
+    &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"},"spacing":{"margin":{"top":"20px","bottom":"10px"}}}} --&gt;
+    &lt;h3 class="wp-block-heading" style="margin-top:20px;margin-bottom:10px;font-size:24px"&gt;Thomas Klein&lt;/h3&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:paragraph {"style":{"color":{"text":"#b68c2f"},"typography":{"fontSize":"14px","fontWeight":"600"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+    &lt;p style="color:#b68c2f;margin-bottom:15px;font-size:14px;font-weight:600"&gt;Projektleiter Sanierung&lt;/p&gt;
+    &lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} --&gt;
+    &lt;p style="font-size:15px"&gt;Spezialist für Großprojekte und komplexe Sanierungen&lt;/p&gt;
+    &lt;!-- /wp:paragraph --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:columns --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}},"color":{"background":"#f5f5f5"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#f5f5f5;padding-top:80px;padding-bottom:80px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"}}} --&gt;&lt;p class="has-text-align-center" style="color:#b68c2f;font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;Über 2.000 zufriedene Kunden&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Das sagen unsere Kunden&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:columns {"columns":3} --&gt;
+        &lt;div class="wp-block-columns"&gt;
+            &lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"color":{"background":"#ffffff"},"border":{"radius":"5px"}}} --&gt;
+&lt;div class="wp-block-column" style="border-radius:5px;background-color:#ffffff;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:quote {"style":{"typography":{"fontSize":"16px","fontStyle":"italic"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+    &lt;blockquote class="wp-block-quote" style="margin-bottom:20px;font-size:16px;font-style:italic"&gt;
+        &lt;p&gt;RIMAN hat unsere Asbestsanierung professionell und termingerecht durchgeführt. Die Zusammenarbeit war vorbildlich!&lt;/p&gt;
+        &lt;cite&gt;
+            &lt;strong&gt;Klaus Müller&lt;/strong&gt;&lt;br&gt;
+            Bauherr, Heidelberg
+        &lt;/cite&gt;
+    &lt;/blockquote&gt;
+    &lt;!-- /wp:quote --&gt;
+    
+    &lt;!-- wp:html --&gt;
+    &lt;div style="color:#b68c2f"&gt;
+        ⭐⭐⭐⭐⭐
+    &lt;/div&gt;
+    &lt;!-- /wp:html --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"color":{"background":"#ffffff"},"border":{"radius":"5px"}}} --&gt;
+&lt;div class="wp-block-column" style="border-radius:5px;background-color:#ffffff;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:quote {"style":{"typography":{"fontSize":"16px","fontStyle":"italic"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+    &lt;blockquote class="wp-block-quote" style="margin-bottom:20px;font-size:16px;font-style:italic"&gt;
+        &lt;p&gt;Kompetente Beratung und saubere Ausführung. Bei der PCB-Sanierung unseres Bürogebäudes war RIMAN die richtige Wahl.&lt;/p&gt;
+        &lt;cite&gt;
+            &lt;strong&gt;Dr. Schmidt GmbH&lt;/strong&gt;&lt;br&gt;
+            Mannheim
+        &lt;/cite&gt;
+    &lt;/blockquote&gt;
+    &lt;!-- /wp:quote --&gt;
+    
+    &lt;!-- wp:html --&gt;
+    &lt;div style="color:#b68c2f"&gt;
+        ⭐⭐⭐⭐⭐
+    &lt;/div&gt;
+    &lt;!-- /wp:html --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"color":{"background":"#ffffff"},"border":{"radius":"5px"}}} --&gt;
+&lt;div class="wp-block-column" style="border-radius:5px;background-color:#ffffff;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:quote {"style":{"typography":{"fontSize":"16px","fontStyle":"italic"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+    &lt;blockquote class="wp-block-quote" style="margin-bottom:20px;font-size:16px;font-style:italic"&gt;
+        &lt;p&gt;Schnelle Reaktion beim Brandschaden, professionelle Abwicklung mit der Versicherung. Sehr empfehlenswert!&lt;/p&gt;
+        &lt;cite&gt;
+            &lt;strong&gt;Familie Weber&lt;/strong&gt;&lt;br&gt;
+            Ludwigshafen
+        &lt;/cite&gt;
+    &lt;/blockquote&gt;
+    &lt;!-- /wp:quote --&gt;
+    
+    &lt;!-- wp:html --&gt;
+    &lt;div style="color:#b68c2f"&gt;
+        ⭐⭐⭐⭐⭐
+    &lt;/div&gt;
+    &lt;!-- /wp:html --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:columns --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:80px;padding-bottom:80px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"}}} --&gt;&lt;p class="has-text-align-center" style="color:#b68c2f;font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;Wir beraten Sie gerne unverbindlich&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Kostenlose Erstberatung&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:contact-form-7/contact-form-selector {"title":"Kontaktformular"} --&gt;
+        &lt;div class="wp-block-contact-form-7-contact-form-selector"&gt;
+            [contact-form-7 title="Kontaktformular"]
+        &lt;/div&gt;
+        &lt;!-- /wp:contact-form-7/contact-form-selector --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;</content:encoded>
+      <wp:post_id>2000</wp:post_id>
+      <wp:post_date>2025-08-29 11:39:54</wp:post_date>
+      <wp:post_name />
+      <wp:status>publish</wp:status>
+      <wp:post_type>page</wp:post_type>
+      <wp:postmeta>
+        <wp:meta_key>_wp_page_template</wp:meta_key>
+        <wp:meta_value>default</wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Asbestsanierung nach TRGS 519</title>
+      <link>http://localhost:8081/asbestsanierung</link>
+      <dc:creator>admin</dc:creator>
+      <guid isPermaLink="false">http://localhost:8081/?page_id=2001</guid>
+      <description />
+      <content:encoded>&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+        &lt;p class="has-text-align-center" style="color:#b68c2f;margin-bottom:10px;font-size:15px;font-weight:700;text-transform:uppercase"&gt;Zertifiziert nach TRGS 519&lt;/p&gt;
+        &lt;!-- /wp:paragraph --&gt;
+        
+        &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+        &lt;h2 class="wp-block-heading has-text-align-center" style="margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Professionelle Asbestsanierung&lt;/h2&gt;
+        &lt;!-- /wp:heading --&gt;
+        
+        &lt;!-- wp:separator {"style":{"color":{"background":"#b68c2f"},"spacing":{"margin":{"top":"20px","bottom":"20px"}},"className":"is-style-default"} --&gt;
+        &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default" style="background-color:#b68c2f;margin-top:20px;margin-bottom:20px"/&gt;
+        &lt;!-- /wp:separator --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}}} --&gt;
+&lt;div class="wp-block-group alignwide" style="padding-top:40px;padding-bottom:40px"&gt;
+    &lt;!-- wp:html --&gt;
+    &lt;h3&gt;Sichere Asbestentfernung durch Experten&lt;/h3&gt;
+&lt;p&gt;Als zertifizierter Fachbetrieb nach TRGS 519 führen wir Asbestsanierungen 
+sicher und gesetzeskonform durch. Mit über 25 Jahren Erfahrung und modernster 
+Ausrüstung gewährleisten wir höchste Sicherheitsstandards.&lt;/p&gt;
+
+&lt;h4&gt;Unsere Leistungen:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✓ Asbestuntersuchung und Probenahme&lt;/li&gt;
+  &lt;li&gt;✓ Erstellung von Sanierungskonzepten&lt;/li&gt;
+  &lt;li&gt;✓ Schwach- und festgebundener Asbest&lt;/li&gt;
+  &lt;li&gt;✓ Raumluftmessungen und Freigabe&lt;/li&gt;
+  &lt;li&gt;✓ Fachgerechte Entsorgung&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;!-- /wp:html --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:gallery {"columns":3,"imageCrop":true,"linkTo":"none","sizeSlug":"large","align":"wide"} --&gt;
+&lt;figure class="wp-block-gallery alignwide has-nested-images columns-3 is-cropped"&gt;
+    &lt;!-- wp:image {"sizeSlug":"large","linkDestination":"none"} --&gt;&lt;figure class="wp-block-image size-large"&gt;&lt;img src="http://localhost:8081/wp-content/uploads/2025/01/asbestsanierung-schutzausruestung-fachpersonal.jpg" alt=""/&gt;&lt;/figure&gt;&lt;!-- /wp:image --&gt; &lt;!-- wp:image {"sizeSlug":"large","linkDestination":"none"} --&gt;&lt;figure class="wp-block-image size-large"&gt;&lt;img src="http://localhost:8081/wp-content/uploads/2025/01/asbestentsorgung-sicherheit-umweltschutz.jpg" alt=""/&gt;&lt;/figure&gt;&lt;!-- /wp:image --&gt; &lt;!-- wp:image {"sizeSlug":"large","linkDestination":"none"} --&gt;&lt;figure class="wp-block-image size-large"&gt;&lt;img src="http://localhost:8081/wp-content/uploads/2025/01/sanierungsarbeiten-baustelle-sicherheit.jpg" alt=""/&gt;&lt;/figure&gt;&lt;!-- /wp:image --&gt;
+&lt;/figure&gt;
+&lt;!-- /wp:gallery --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:80px;padding-bottom:80px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"}}} --&gt;&lt;p class="has-text-align-center" style="color:#b68c2f;font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;Kostenlose Erstberatung&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Angebot anfordern&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:contact-form-7/contact-form-selector {"title":"Kontaktformular"} --&gt;
+        &lt;div class="wp-block-contact-form-7-contact-form-selector"&gt;
+            [contact-form-7 title="Kontaktformular"]
+        &lt;/div&gt;
+        &lt;!-- /wp:contact-form-7/contact-form-selector --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;</content:encoded>
+      <wp:post_id>2001</wp:post_id>
+      <wp:post_date>2025-08-29 11:39:54</wp:post_date>
+      <wp:post_name>asbestsanierung</wp:post_name>
+      <wp:status>publish</wp:status>
+      <wp:post_type>page</wp:post_type>
+      <wp:postmeta>
+        <wp:meta_key>_wp_page_template</wp:meta_key>
+        <wp:meta_value>default</wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Über RIMAN GmbH</title>
+      <link>http://localhost:8081/ueber-uns</link>
+      <dc:creator>admin</dc:creator>
+      <guid isPermaLink="false">http://localhost:8081/?page_id=2002</guid>
+      <description />
+      <content:encoded>&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+        &lt;p class="has-text-align-center" style="color:#b68c2f;margin-bottom:10px;font-size:15px;font-weight:700;text-transform:uppercase"&gt;Ihre Experten für Sanierung und Umweltschutz&lt;/p&gt;
+        &lt;!-- /wp:paragraph --&gt;
+        
+        &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+        &lt;h2 class="wp-block-heading has-text-align-center" style="margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;25 Jahre RIMAN GmbH&lt;/h2&gt;
+        &lt;!-- /wp:heading --&gt;
+        
+        &lt;!-- wp:separator {"style":{"color":{"background":"#b68c2f"},"spacing":{"margin":{"top":"20px","bottom":"20px"}},"className":"is-style-default"} --&gt;
+        &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default" style="background-color:#b68c2f;margin-top:20px;margin-bottom:20px"/&gt;
+        &lt;!-- /wp:separator --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}}} --&gt;
+&lt;div class="wp-block-group alignwide" style="padding-top:40px;padding-bottom:40px"&gt;
+    &lt;!-- wp:html --&gt;
+    &lt;h3&gt;Seit 1998 Ihr zuverlässiger Partner&lt;/h3&gt;
+&lt;p class="lead"&gt;Die RIMAN GmbH steht seit über 25 Jahren für professionelle 
+Sanierungslösungen und Umweltschutz. Als innovatives Dienstleistungsunternehmen 
+haben wir uns auf die sichere Beseitigung von Schadstoffen spezialisiert.&lt;/p&gt;
+
+&lt;p&gt;Unser Motto &lt;strong&gt;"Sicher bauen - Gesund leben"&lt;/strong&gt; ist nicht nur ein 
+Versprechen, sondern unsere tägliche Verpflichtung gegenüber unseren Kunden und 
+der Umwelt.&lt;/p&gt;
+
+&lt;h4&gt;Unsere Werte:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Sicherheit:&lt;/strong&gt; Höchste Standards bei allen Arbeiten&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Qualität:&lt;/strong&gt; Zertifizierte Prozesse und Materialien&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nachhaltigkeit:&lt;/strong&gt; Umweltschutz als Kernaufgabe&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transparenz:&lt;/strong&gt; Offene Kommunikation und faire Preise&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;!-- /wp:html --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Unsere Zertifizierungen&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:columns {"columns":4} --&gt;
+        &lt;div class="wp-block-columns"&gt;
+            &lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-certificate" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;TRGS 519&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Zertifizierter Asbestsanierungsbetrieb&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-award" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;ISO 9001&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Qualitätsmanagement-System&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-leaf" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;ISO 14001&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Umweltmanagement-System&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-shield" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;SCC**&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Arbeitsschutz-Zertifikat&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:columns --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;</content:encoded>
+      <wp:post_id>2002</wp:post_id>
+      <wp:post_date>2025-08-29 11:39:54</wp:post_date>
+      <wp:post_name>ueber-uns</wp:post_name>
+      <wp:status>publish</wp:status>
+      <wp:post_type>page</wp:post_type>
+      <wp:postmeta>
+        <wp:meta_key>_wp_page_template</wp:meta_key>
+        <wp:meta_value>default</wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>http://localhost:8081/kontakt</link>
+      <dc:creator>admin</dc:creator>
+      <guid isPermaLink="false">http://localhost:8081/?page_id=2003</guid>
+      <description />
+      <content:encoded>&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+        &lt;p class="has-text-align-center" style="color:#b68c2f;margin-bottom:10px;font-size:15px;font-weight:700;text-transform:uppercase"&gt;Wir sind für Sie da&lt;/p&gt;
+        &lt;!-- /wp:paragraph --&gt;
+        
+        &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"bottom":"20px"}}}} --&gt;
+        &lt;h2 class="wp-block-heading has-text-align-center" style="margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Kontaktieren Sie uns&lt;/h2&gt;
+        &lt;!-- /wp:heading --&gt;
+        
+        &lt;!-- wp:separator {"style":{"color":{"background":"#b68c2f"},"spacing":{"margin":{"top":"20px","bottom":"20px"}},"className":"is-style-default"} --&gt;
+        &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default" style="background-color:#b68c2f;margin-top:20px;margin-bottom:20px"/&gt;
+        &lt;!-- /wp:separator --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:60px;padding-bottom:60px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        
+        
+        &lt;!-- wp:columns {"columns":3} --&gt;
+        &lt;div class="wp-block-columns"&gt;
+            &lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-map-marker" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Büro Heidelberg&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Industriestraße 25
+69123 Heidelberg&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-phone" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Telefon &amp; E-Mail&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;+49 (0) 6221 123456
+info@riman.de&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;&lt;!-- wp:column {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}},"border":{"width":"1px","style":"dashed","color":"#b68c2f"}}} --&gt;
+&lt;div class="wp-block-column" style="border-style:dashed;border-color:#b68c2f;border-width:1px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:html --&gt;
+        &lt;div style="width:32px;height:32px;background-color:#b68c2f;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:15px"&gt;
+            &lt;i class="fa fa-clock" style="color:#ffffff;font-size:14px"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:html --&gt;
+        
+        &lt;!-- wp:group --&gt;
+        &lt;div class="wp-block-group"&gt;
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"},"spacing":{"margin":{"bottom":"10px"}}}} --&gt;
+            &lt;p style="color:#b68c2f;margin-bottom:10px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+            
+            &lt;!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px"},"spacing":{"margin":{"bottom":"15px"}}}} --&gt;
+            &lt;h3 class="wp-block-heading" style="margin-bottom:15px;font-size:20px"&gt;Öffnungszeiten&lt;/h3&gt;
+            &lt;!-- /wp:heading --&gt;
+            
+            &lt;!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","fontStyle":"italic"}}} --&gt;
+            &lt;p style="font-size:15px;font-style:italic"&gt;Mo-Fr: 8:00 - 17:00
+24/7 Notdienst&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:group --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:column --&gt;
+        &lt;/div&gt;
+        &lt;!-- /wp:columns --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+
+&lt;!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}},"color":{"background":"#ffffff"}}} --&gt;
+&lt;div class="wp-block-group alignfull" style="background-color:#ffffff;padding-top:80px;padding-bottom:80px"&gt;
+    &lt;!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} --&gt;
+    &lt;div class="wp-block-group"&gt;
+        &lt;!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"margin":{"bottom":"50px"}}}} --&gt;
+&lt;div class="wp-block-group" style="margin-bottom:50px"&gt;
+    &lt;!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"15px","fontWeight":"700","textTransform":"uppercase","letterSpacing":"1px"},"color":{"text":"#b68c2f"}}} --&gt;&lt;p class="has-text-align-center" style="color:#b68c2f;font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase"&gt;Wir melden uns innerhalb von 24 Stunden&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;
+    
+    &lt;!-- wp:heading {"textAlign":"center","style":{"typography":{"fontFamily":"Playfair Display","fontSize":"35px","fontWeight":"700"},"spacing":{"margin":{"top":"10px","bottom":"20px"}}}} --&gt;
+    &lt;h2 class="wp-block-heading has-text-align-center" style="margin-top:10px;margin-bottom:20px;font-family:Playfair Display;font-size:35px;font-weight:700"&gt;Schreiben Sie uns&lt;/h2&gt;
+    &lt;!-- /wp:heading --&gt;
+    
+    &lt;!-- wp:separator {"style":{"width":{"value":"50px"},"color":{"background":"#b68c2f"}},"className":"is-style-default aligncenter"} --&gt;
+    &lt;hr class="wp-block-separator has-alpha-channel-opacity has-background is-style-default aligncenter" style="background-color:#b68c2f;width:50px"/&gt;
+    &lt;!-- /wp:separator --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;
+        
+        &lt;!-- wp:contact-form-7/contact-form-selector {"title":"Kontaktformular"} --&gt;
+        &lt;div class="wp-block-contact-form-7-contact-form-selector"&gt;
+            [contact-form-7 title="Kontaktformular"]
+        &lt;/div&gt;
+        &lt;!-- /wp:contact-form-7/contact-form-selector --&gt;
+    &lt;/div&gt;
+    &lt;!-- /wp:group --&gt;
+&lt;/div&gt;
+&lt;!-- /wp:group --&gt;</content:encoded>
+      <wp:post_id>2003</wp:post_id>
+      <wp:post_date>2025-08-29 11:39:54</wp:post_date>
+      <wp:post_name>kontakt</wp:post_name>
+      <wp:status>publish</wp:status>
+      <wp:post_type>page</wp:post_type>
+      <wp:postmeta>
+        <wp:meta_key>_wp_page_template</wp:meta_key>
+        <wp:meta_value>default</wp:meta_value>
+      </wp:postmeta>
+    </item>
+  </channel>
+</rss>
