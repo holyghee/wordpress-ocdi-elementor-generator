@@ -357,10 +357,10 @@ class ElementorCompleteProcessor:
         ET.SubElement(postmeta, 'wp:meta_key').text = '_elementor_template_type'
         ET.SubElement(postmeta, 'wp:meta_value').text = 'kit'
         
-        # Kit Settings
+        # Kit Settings (als Array speichern)
         postmeta = ET.SubElement(item, 'wp:postmeta')
         ET.SubElement(postmeta, 'wp:meta_key').text = '_elementor_page_settings'
-        ET.SubElement(postmeta, 'wp:meta_value').text = json.dumps(self.generate_elementor_kit())
+        ET.SubElement(postmeta, 'wp:meta_value').text = json.dumps(self.generate_elementor_kit(), ensure_ascii=False)
     
     def _add_page_to_xml(self, channel, page_data: Dict, page_id: int):
         """Füge Seite mit vollständigen Elementor-Daten zur XML hinzu"""
