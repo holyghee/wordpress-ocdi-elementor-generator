@@ -1,0 +1,1015 @@
+{
+  "title": "",
+  "meta_tags": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    },
+    {
+      "name": "generator",
+      "content": "WordPress 6.8.2"
+    },
+    {
+      "name": "generator",
+      "content": "Elementor 3.31.2; features: additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-auto"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+    }
+  ],
+  "css_files": [
+    "http://localhost:8081/wp-content/themes/cholot/css/bootstrap.min.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/font-awesome.min.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/magnific-popup.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/preloader.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/animate.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/magic.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/slick.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/css/jquery.fatNav.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot/style.css?ver=6.8.2",
+    "http://localhost:8081/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1",
+    "http://localhost:8081/wp-content/plugins/cholot-form-styles/cholot-contact-form-styles.css?ver=1.0.0",
+    "//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700%7CPlayfair+Display%3A400%2C700%2C900%26display%3Dswap&ver=1.0.0",
+    "http://localhost:8081/wp-content/themes/cholot/css/slicknav.css?ver=1",
+    "http://localhost:8081/wp-content/themes/cholot-child/style.css?ver=1",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.43.0",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.31.2",
+    "http://localhost:8081/wp-content/uploads/elementor/css/post-2006.css?ver=1756462490",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.31.2",
+    "http://localhost:8081/wp-content/uploads/elementor/css/post-3000.css?ver=1756469490",
+    "http://localhost:8081/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756330850",
+    "http://localhost:8081/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756330858",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+  ],
+  "js_files": [
+    "http://localhost:8081/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "http://localhost:8081/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "http://localhost:8081/wp-content/themes/cholot/js/modernizr.js?ver=6.8.2",
+    "http://localhost:8081/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+    "http://localhost:8081/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "http://localhost:8081/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1",
+    "http://localhost:8081/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1",
+    "http://localhost:8081/wp-content/themes/cholot/js/bootstrap.min.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/themes/cholot/js/superfish.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/themes/cholot/js/jquery.fitvids.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/themes/cholot/js/jquery.magnific-popup.min.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/themes/cholot/js/jquery.sticky.js?ver=6.8.2",
+    "http://localhost:8081/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+    "http://localhost:8081/wp-content/plugins/cholot_plugin/widgets/js/slick.min.js",
+    "http://localhost:8081/wp-content/themes/cholot/js/jquery.slicknav.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/plugins/cholot_plugin/widgets/js/slick-animation.js",
+    "http://localhost:8081/wp-content/themes/cholot/js/totop.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/themes/cholot/js/script.js?ver=6.8.2",
+    "http://localhost:8081/wp-content/plugins/cholot_plugin/widgets/js/slider.js",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.31.2",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.31.2",
+    "http://localhost:8081/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "http://localhost:8081/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.31.2"
+  ],
+  "images": [],
+  "forms": [
+    {
+      "action": "/?page_id=3000#wpcf7-f3010-p3000-o1",
+      "method": "post",
+      "class": "wpcf7-form init",
+      "aria-label": "Contact form",
+      "novalidate": "novalidate",
+      "data-status": "init"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-c67a683 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle",
+        "data-id": "c67a683",
+        "data-element_type": "section"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-c67a683",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-height-default",
+        "elementor-section-items-middle"
+      ]
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-c4944be elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "c4944be",
+        "data-element_type": "section",
+        "data-settings": "{\"background_background\":\"classic\"}"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-c4944be",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-28f6e16 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "28f6e16",
+        "data-element_type": "section"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-28f6e16",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-b76d2f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "b76d2f0",
+        "data-element_type": "section",
+        "data-settings": "{\"background_background\":\"classic\"}"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-b76d2f0",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-fa759ea elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "fa759ea",
+        "data-element_type": "section"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-fa759ea",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-f5bf504 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "f5bf504",
+        "data-element_type": "section",
+        "data-settings": "{\"background_background\":\"classic\"}"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-f5bf504",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-fddc685 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "fddc685",
+        "data-element_type": "section"
+      },
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-fddc685",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    }
+  ],
+  "hero_elements": [
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "elementor-element elementor-element-ca5718f elementor-widget elementor-widget-rdn-slider",
+        "data-id": "ca5718f",
+        "data-element_type": "widget",
+        "data-settings": "{\"slider_speed\":8000}",
+        "data-widget_type": "rdn-slider.default"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider home-slider  ani-slider  clearfix",
+        "data-slick": "{\"autoplaySpeed\": 8000}"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-img-bg",
+        "data-animation": "puffIn",
+        "data-delay": "0.2s",
+        "data-animation-duration": "0.7s",
+        "style": "background-image:url(http://localhost:8081/wp-content/uploads/2025/08/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg);"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-mask",
+        "data-animation": "slideUpReturn",
+        "data-delay": "0.1s"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-box container-fluid"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-content"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "slider-subtitle",
+        "data-animation": "fadeIn",
+        "data-delay": "1.5s"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-hidden"
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "class": "slider-title",
+        "data-animation": "fadeInUp",
+        "data-delay": "0.8s"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-line",
+        "data-animation": "swashIn",
+        "data-delay": "0.5s"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "slider-text",
+        "data-animation": "fadeInDown",
+        "data-delay": "1s"
+      }
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "slider-btn",
+        "href": "#services"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-img-bg",
+        "data-animation": "puffIn",
+        "data-delay": "0.2s",
+        "data-animation-duration": "0.7s",
+        "style": "background-image:url(http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung-schutzausruestung-fachpersonal.jpg);"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-mask",
+        "data-animation": "slideUpReturn",
+        "data-delay": "0.1s"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-box container-fluid"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-content"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "slider-subtitle",
+        "data-animation": "fadeIn",
+        "data-delay": "1.5s"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-hidden"
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "class": "slider-title",
+        "data-animation": "fadeInUp",
+        "data-delay": "0.8s"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-line",
+        "data-animation": "swashIn",
+        "data-delay": "0.5s"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "slider-text",
+        "data-animation": "fadeInDown",
+        "data-delay": "1s"
+      }
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "slider-btn",
+        "href": "#asbest"
+      }
+    }
+  ],
+  "service_elements": [
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "caption-box clearfix"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-box container-fluid"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "caption-box clearfix"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "slider-box container-fluid"
+      }
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-c4944be elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "c4944be",
+        "data-element_type": "section",
+        "data-settings": "{\"background_background\":\"classic\"}"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "p",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-28f6e16 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "28f6e16",
+        "data-element_type": "section"
+      }
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-b76d2f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "b76d2f0",
+        "data-element_type": "section",
+        "data-settings": "{\"background_background\":\"classic\"}"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "box-small-icon"
+      }
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-fa759ea elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "fa759ea",
+        "data-element_type": "section"
+      }
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-f5bf504 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "f5bf504",
+        "data-element_type": "section",
+        "data-settings": "{\"background_background\":\"classic\"}"
+      }
+    },
+    {
+      "tag": "section",
+      "attrs": {
+        "class": "elementor-section elementor-top-section elementor-element elementor-element-fddc685 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+        "data-id": "fddc685",
+        "data-element_type": "section"
+      }
+    }
+  ],
+  "contact_forms": [
+    {
+      "tag": "form",
+      "attrs": {
+        "action": "/?page_id=3000#wpcf7-f3010-p3000-o1",
+        "method": "post",
+        "class": "wpcf7-form init",
+        "aria-label": "Contact form",
+        "novalidate": "novalidate",
+        "data-status": "init"
+      }
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "col-form"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "your-name"
+      }
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "size": "40",
+        "maxlength": "400",
+        "class": "wpcf7-form-control wpcf7-text wpcf7-validates-as-required",
+        "aria-required": "true",
+        "aria-invalid": "false",
+        "placeholder": "Ihr Name...",
+        "value": "",
+        "type": "text",
+        "name": "your-name"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "your-email"
+      }
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "size": "40",
+        "maxlength": "400",
+        "class": "wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email",
+        "aria-required": "true",
+        "aria-invalid": "false",
+        "placeholder": "Ihre E-Mail...",
+        "value": "",
+        "type": "email",
+        "name": "your-email"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "your-phone"
+      }
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "size": "40",
+        "maxlength": "400",
+        "class": "wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel",
+        "aria-invalid": "false",
+        "placeholder": "Ihre Telefonnummer...",
+        "value": "",
+        "type": "tel",
+        "name": "your-phone"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "service-type"
+      }
+    },
+    {
+      "tag": "select",
+      "attrs": {
+        "class": "wpcf7-form-control wpcf7-select wpcf7-validates-as-required",
+        "aria-required": "true",
+        "aria-invalid": "false",
+        "name": "service-type"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "preferred-time"
+      }
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "size": "40",
+        "maxlength": "400",
+        "class": "wpcf7-form-control wpcf7-text",
+        "aria-invalid": "false",
+        "placeholder": "Gew\u00fcnschte Kontaktzeit...",
+        "value": "",
+        "type": "text",
+        "name": "preferred-time"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "preferred-date"
+      }
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "size": "40",
+        "maxlength": "400",
+        "class": "wpcf7-form-control wpcf7-text",
+        "aria-invalid": "false",
+        "placeholder": "Gew\u00fcnschtes Datum...",
+        "value": "",
+        "type": "text",
+        "name": "preferred-date"
+      }
+    },
+    {
+      "tag": "span",
+      "attrs": {
+        "class": "wpcf7-form-control-wrap",
+        "data-name": "your-message"
+      }
+    },
+    {
+      "tag": "textarea",
+      "attrs": {
+        "cols": "40",
+        "rows": "10",
+        "maxlength": "2000",
+        "class": "wpcf7-form-control wpcf7-textarea",
+        "aria-invalid": "false",
+        "placeholder": "Ihre Nachricht...",
+        "name": "your-message"
+      }
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "class": "wpcf7-form-control wpcf7-submit has-spinner",
+        "type": "submit",
+        "value": "Termin vereinbaren"
+      }
+    }
+  ],
+  "background_colors": [
+    {
+      "tag": "div",
+      "style": "background-image:url(http://localhost:8081/wp-content/uploads/2025/08/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg);",
+      "classes": "slider-img-bg"
+    },
+    {
+      "tag": "div",
+      "style": "background-image:url(http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung-schutzausruestung-fachpersonal.jpg);",
+      "classes": "slider-img-bg"
+    }
+  ],
+  "text_content": [
+    {
+      "tag": "style",
+      "text": "img:is([sizes=\"auto\" i], [sizes^=\"auto,\" i]) { contain-intrinsic-size: 3000px 1500px }",
+      "attrs": {}
+    },
+    {
+      "tag": "script",
+      "text": "/* <![CDATA[ */\nwindow._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/16.0.1\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/16.0.1\\/svg\\/\",\"svgExt\":\".",
+      "attrs": {
+        "type": "text/javascript"
+      }
+    },
+    {
+      "tag": "style",
+      "text": "img.wp-smiley, img.emoji {\n\t\tdisplay: inline !important;\n\t\tborder: none !important;\n\t\tbox-shadow: none !important;\n\t\theight: 1em !important;\n\t\twidth: 1em !important;\n\t\tmargin: 0 0.07em !important;\n\t\tv",
+      "attrs": {
+        "id": "wp-emoji-styles-inline-css",
+        "type": "text/css"
+      }
+    },
+    {
+      "tag": "style",
+      "text": "/*! This file is auto-generated */\n.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);f",
+      "attrs": {
+        "id": "classic-theme-styles-inline-css",
+        "type": "text/css"
+      }
+    },
+    {
+      "tag": "style",
+      "text": ":root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--pr",
+      "attrs": {
+        "id": "global-styles-inline-css",
+        "type": "text/css"
+      }
+    },
+    {
+      "tag": "style",
+      "text": ".e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),\n\t\t\t\t.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {\n\t\t\t\t\tbackground-image: none !important;\n\t\t\t\t}\n\t",
+      "attrs": {}
+    },
+    {
+      "tag": "style",
+      "text": ".box-crumb{background:rgba(20,20,20,.8);background-color:rgba(20,20,20,.8);background-repeat:repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-ba",
+      "attrs": {
+        "id": "kirki-inline-styles"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Seit 1998 Ihr zuverl\u00e4ssiger Partner",
+      "attrs": {
+        "class": "slider-subtitle",
+        "data-animation": "fadeIn",
+        "data-delay": "1.5s"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "25+ Jahre Erfahrung in Sanierung & Umweltschutz",
+      "attrs": {
+        "class": "slider-title",
+        "data-animation": "fadeInUp",
+        "data-delay": "0.8s"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Professionelle L\u00f6sungen f\u00fcr Asbest-, PCB- und Schadstoffsanierung. Wir stehen f\u00fcr Sicherheit, Qualit\u00e4t und Nachhaltigkeit.",
+      "attrs": {
+        "class": "slider-text",
+        "data-animation": "fadeInDown",
+        "data-delay": "1s"
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Unsere Leistungen",
+      "attrs": {
+        "class": "slider-btn",
+        "href": "#services"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "H\u00f6chste Sicherheitsstandards",
+      "attrs": {
+        "class": "slider-subtitle",
+        "data-animation": "fadeIn",
+        "data-delay": "1.5s"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Zertifizierte Asbestsanierung nach TRGS 519",
+      "attrs": {
+        "class": "slider-title",
+        "data-animation": "fadeInUp",
+        "data-delay": "0.8s"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Als zertifizierter Fachbetrieb f\u00fchren wir Asbestsanierungen sicher und gesetzeskonform durch.",
+      "attrs": {
+        "class": "slider-text",
+        "data-animation": "fadeInDown",
+        "data-delay": "1s"
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Mehr erfahren",
+      "attrs": {
+        "class": "slider-btn",
+        "href": "#asbest"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "ZERTIFIZIERT",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Asbestsanierung",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Sichere und fachgerechte Entfernung von Asbest nach TRGS 519",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "FACHGERECHT",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "PCB-Sanierung",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Professionelle Beseitigung von PCB-belasteten Materialien",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Schimmelsanierung",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Nachhaltige Schimmelbeseitigung und Pr\u00e4vention",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "p",
+      "text": "24/7 NOTDIENST",
+      "attrs": {
+        "class": "box-sub-title icon-subtitle"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Brandschaden",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Schnelle Hilfe bei Brand- und Wassersch\u00e4den",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Warum RIMAN GmbH?",
+      "attrs": {
+        "class": "elementor-heading-title elementor-size-default"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "25+ Jahre Erfahrung",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "\u00dcber 2.000 erfolgreich abgeschlossene Projekte seit 1998",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Zertifizierte Experten",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "TRGS 519, ISO 9001 und weitere Qualifikationen",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Komplettservice",
+      "attrs": {
+        "class": "icon-title"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Von der Analyse bis zur Entsorgung - alles aus einer Hand",
+      "attrs": {
+        "class": "icon-text"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Kostenlose Erstberatung",
+      "attrs": {
+        "class": "elementor-heading-title elementor-size-default"
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Wir beraten Sie gerne unverbindlich",
+      "attrs": {
+        "class": "elementor-heading-title elementor-size-default"
+      }
+    },
+    {
+      "tag": "option",
+      "text": "Asbestsanierung",
+      "attrs": {
+        "value": "Asbestsanierung"
+      }
+    },
+    {
+      "tag": "option",
+      "text": "PCB-Sanierung",
+      "attrs": {
+        "value": "PCB-Sanierung"
+      }
+    },
+    {
+      "tag": "option",
+      "text": "Schimmelsanierung",
+      "attrs": {
+        "value": "Schimmelsanierung"
+      }
+    },
+    {
+      "tag": "option",
+      "text": "Brandschaden",
+      "attrs": {
+        "value": "Brandschaden"
+      }
+    },
+    {
+      "tag": "script",
+      "text": "const lazyloadRunObserver = () => {\n\t\t\t\t\tconst lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );\n\t\t\t\t\tconst lazyloadBackgroundObserver = new IntersectionObserver",
+      "attrs": {}
+    },
+    {
+      "tag": "script",
+      "text": "/* <![CDATA[ */\nwp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } );\n/* ]]> */",
+      "attrs": {
+        "type": "text/javascript",
+        "id": "wp-i18n-js-after"
+      }
+    },
+    {
+      "tag": "script",
+      "text": "/* <![CDATA[ */\nvar wpcf7 = {\n    \"api\": {\n        \"root\": \"http:\\/\\/localhost:8081\\/index.php?rest_route=\\/\",\n        \"namespace\": \"contact-form-7\\/v1\"\n    }\n};\n/* ]]> */",
+      "attrs": {
+        "type": "text/javascript",
+        "id": "contact-form-7-js-before"
+      }
+    },
+    {
+      "tag": "script",
+      "text": "/* <![CDATA[ */\nvar elementorFrontendConfig = {\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Share on Facebook\",\"shareOnTwitter\":\"Share on Twitter",
+      "attrs": {
+        "type": "text/javascript",
+        "id": "elementor-frontend-js-before"
+      }
+    }
+  ]
+}
