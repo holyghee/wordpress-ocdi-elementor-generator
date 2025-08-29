@@ -1,0 +1,168 @@
+# RIMAN GmbH Website Konfiguration
+# Einfache YAML-Config für komplexe Elementor-Generierung
+
+site_info:
+  name: "RIMAN GmbH"
+  tagline: "Professionelle Mediation & Sanierung"
+  url: "https://riman-gmbh.de"
+  language: "de_DE"
+
+pages:
+  - title: "Startseite"
+    slug: "home"
+    template: "elementor_header_footer"
+    sections:
+      # Hero Section mit Video Slider
+      - type: hero
+        slides:
+          - title: "Professionelle Mediation & Sanierung"
+            subtitle: "Ihr Partner für Konfliktlösung und Schadstoffsanierung"
+            button_text: "Mehr erfahren"
+            button_link: "#services"
+            background_type: "video"
+            background_video: "/wp-content/uploads/2025/08/hero-video.mp4"
+            background_image: "/wp-content/uploads/2025/08/hero-fallback.jpg"
+          
+          - title: "Zertifizierte Asbestsanierung"
+            subtitle: "Nach TRGS 519 mit höchsten Sicherheitsstandards"
+            button_text: "Kontakt aufnehmen"
+            button_link: "#contact"
+            background_type: "image"
+            background_image: "/wp-content/uploads/2025/08/asbestsanierung-hero.jpg"
+      
+      # Service Cards Section
+      - type: service_cards
+        cards:
+          - title: "Asbestsanierung"
+            subtitle: "ZERTIFIZIERT"
+            description: "Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards."
+            icon: "fas fa-shield-alt"
+            image: "/wp-content/uploads/2025/08/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+          
+          - title: "PCB-Sanierung"
+            subtitle: "FACHGERECHT"
+            description: "Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften."
+            icon: "fas fa-industry"
+            image: "/wp-content/uploads/2025/08/pcb-sanierung-fachgerechte-entsorgung.jpg"
+          
+          - title: "Schimmelsanierung"
+            subtitle: "NACHHALTIG"
+            description: "Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen."
+            icon: "fas fa-home"
+            image: "/wp-content/uploads/2025/08/schimmelsanierung-praevention-nachhaltig.jpg"
+          
+          - title: "Brandschadensanierung"
+            subtitle: "SCHNELL & EFFEKTIV"
+            description: "Professionelle Beseitigung von Brandschäden und Geruchsneutralisation."
+            icon: "fas fa-fire-extinguisher"
+            image: "/wp-content/uploads/2025/08/brandschadensanierung.jpg"
+      
+      # Testimonials
+      - type: testimonials
+        testimonials:
+          - name: "Max Mustermann"
+            position: "Geschäftsführer, Beispiel GmbH"
+            text: "Die Zusammenarbeit mit RIMAN war hervorragend. Professionell und zuverlässig."
+            image: "/wp-content/uploads/2025/08/testimonial1.jpg"
+          
+          - name: "Anna Schmidt"
+            position: "Projektleiterin, ABC AG"
+            text: "Schnelle und saubere Arbeit. Können wir nur empfehlen!"
+            image: "/wp-content/uploads/2025/08/testimonial2.jpg"
+      
+      # Custom Section - Über uns
+      - type: custom
+        settings:
+          background_background: "classic"
+          background_color: "#f8f8f8"
+          padding:
+            unit: "px"
+            top: 80
+            bottom: 80
+        columns:
+          - size: 50
+            widgets:
+              - type: "heading"
+                settings:
+                  title: "Über RIMAN GmbH"
+                  header_size: "h2"
+                  align: "left"
+              
+              - type: "text-editor"
+                settings:
+                  editor: |
+                    <p>Seit über 20 Jahren sind wir Ihr zuverlässiger Partner für professionelle 
+                    Mediation und Sanierung. Mit einem Team aus zertifizierten Experten bieten 
+                    wir Ihnen umfassende Lösungen für alle Herausforderungen im Bereich 
+                    Schadstoffsanierung und Konfliktmanagement.</p>
+          
+          - size: 50
+            widgets:
+              - type: "image"
+                settings:
+                  image:
+                    url: "/wp-content/uploads/2025/08/team.jpg"
+                  image_size: "full"
+      
+      # Contact Section
+      - type: contact
+        title: "Kontaktieren Sie uns"
+        form_id: "1"
+
+  - title: "Leistungen"
+    slug: "leistungen"
+    template: "elementor_header_footer"
+    sections:
+      # Detaillierte Service-Beschreibungen
+      - type: custom
+        settings:
+          padding:
+            unit: "px"
+            top: 100
+            bottom: 100
+        columns:
+          - size: 100
+            widgets:
+              - type: "heading"
+                settings:
+                  title: "Unsere Leistungen im Detail"
+                  header_size: "h1"
+                  align: "center"
+
+menus:
+  - name: "Hauptmenü"
+    location: "primary"
+    items:
+      - title: "Home"
+        url: "/"
+      - title: "Leistungen"
+        url: "/leistungen"
+        subitems:
+          - title: "Asbestsanierung"
+            url: "/leistungen/asbestsanierung"
+          - title: "PCB-Sanierung"
+            url: "/leistungen/pcb-sanierung"
+          - title: "Schimmelsanierung"
+            url: "/leistungen/schimmelsanierung"
+      - title: "Über uns"
+        url: "/ueber-uns"
+      - title: "Referenzen"
+        url: "/referenzen"
+      - title: "Kontakt"
+        url: "/kontakt"
+
+settings:
+  # Globale Farben
+  colors:
+    primary: "#b68c2f"
+    secondary: "#1a1a1a"
+    text: "#666666"
+    heading: "#1f1f1f"
+  
+  # Typografie
+  typography:
+    heading_font: "Poppins"
+    body_font: "Open Sans"
+  
+  # Container Breite
+  container_width: 1140
