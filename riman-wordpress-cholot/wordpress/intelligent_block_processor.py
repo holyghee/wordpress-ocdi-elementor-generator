@@ -221,6 +221,17 @@ class IntelligentBlockProcessor:
                 widget['settings']['text'] = member.get('bio', '')
                 if 'image' in member:
                     widget['settings']['image'] = {'url': member['image'], 'id': ''}
+        
+        elif widget_type == 'cholot-portfolio' and 'images' in config:
+            # Handle Gallery/Portfolio
+            if 'settings' in widget and 'portfolio_list' in widget['settings']:
+                widget['settings']['portfolio_list'] = []
+                for idx, image_url in enumerate(config['images'][:6]):  # Max 6 images
+                    widget['settings']['portfolio_list'].append({
+                        'title': f'Projekt {idx + 1}',
+                        'image': {'url': image_url, 'id': ''},
+                        'link': {'url': image_url}
+                    })
                 
         return widget
     
