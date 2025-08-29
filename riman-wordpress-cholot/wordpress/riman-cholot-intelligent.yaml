@@ -157,12 +157,12 @@ pages:
       
       - type: "gallery-section"
         images:
-          - "http://localhost:8082/schadstoffsanierung-industrieanlage-riman-gmbh.jpg"
-          - "http://localhost:8082/sicherheitsvorbereitung-schutzausruestung-schritt-3.jpg"
-          - "http://localhost:8082/sanierung-durchfuehrung-fachgerecht-schritt-4.jpg"
-          - "http://localhost:8082/luftqualitaet-monitoring-echtzeitdaten-schritt-5.jpg"
-          - "http://localhost:8082/materialverarbeitung-entsorgung-vorschriften-schritt-6.jpg"
-          - "http://localhost:8082/qualitaetskontrolle-abnahme-pruefung-schritt-7.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/08/schadstoffsanierung-industrieanlage-riman-gmbh.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/08/sicherheitsvorbereitung-schutzausruestung-schritt-3.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/08/sanierung-durchfuehrung-fachgerecht-schritt-4.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/08/luftqualitaet-monitoring-echtzeitdaten-schritt-5.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/08/materialverarbeitung-entsorgung-vorschriften-schritt-6.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/08/qualitaetskontrolle-abnahme-pruefung-schritt-7.jpg"
       
       - type: "contact-form"
         title: "Angebot anfordern"
