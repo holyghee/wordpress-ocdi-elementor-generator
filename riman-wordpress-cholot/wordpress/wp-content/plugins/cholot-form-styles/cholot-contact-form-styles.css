@@ -1,0 +1,171 @@
+/* Cholot Contact Form Styling für RIMAN */
+
+/* Container */
+.cholot-contact-shortcode,
+.wpcf7 {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Form Layout */
+.col-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+/* Half Width Fields */
+.halfing {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.halfing.clear-left {
+    clear: left;
+}
+
+/* Input Fields Styling */
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="date"],
+.wpcf7-form select,
+.wpcf7-form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #e1e1e1;
+    background: #ffffff;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    color: #666666;
+    transition: all 0.3s ease;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+/* Focus State */
+.wpcf7-form input:focus,
+.wpcf7-form select:focus,
+.wpcf7-form textarea:focus {
+    border-color: #b68c2f;
+    outline: none;
+    box-shadow: 0 0 5px rgba(182, 140, 47, 0.2);
+}
+
+/* Placeholder */
+.wpcf7-form input::placeholder,
+.wpcf7-form textarea::placeholder {
+    color: #999999;
+    font-style: italic;
+}
+
+/* Select Field */
+.wpcf7-form select {
+    height: 52px;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%228%22%20viewBox%3D%220%200%2014%208%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%201l6%206%206-6%22%20stroke%3D%22%23999%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 40px;
+}
+
+/* Textarea */
+.wpcf7-form textarea {
+    width: 100%;
+    min-height: 150px;
+    resize: vertical;
+    margin-bottom: 30px;
+}
+
+/* Submit Button */
+.wpcf7-form input[type="submit"] {
+    background: #b68c2f;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: 2px solid #b68c2f;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+    background: transparent;
+    color: #b68c2f;
+}
+
+/* Response Messages */
+.wpcf7-response-output {
+    margin: 20px 0 0 0;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.wpcf7-mail-sent-ok {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.wpcf7-mail-sent-ng,
+.wpcf7-validation-errors {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Validation Errors */
+.wpcf7-not-valid-tip {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+.wpcf7-not-valid {
+    border-color: #dc3545 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .halfing {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .halfing.clear-left {
+        clear: none;
+    }
+    
+    .col-form {
+        margin: 0;
+    }
+}
+
+/* Contact Form Container in Elementor */
+.elementor-widget-shortcode .wpcf7 {
+    padding: 0;
+}
+
+/* Override Elementor Defaults */
+.elementor-widget-container .wpcf7-form p {
+    margin-bottom: 0;
+}
+
+/* Spinner */
+.wpcf7-spinner {
+    display: none;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.wpcf7-form.submitting .wpcf7-spinner {
+    display: inline-block;
+}
