@@ -398,10 +398,10 @@ class ElementorCompleteProcessor:
         ET.SubElement(postmeta, 'wp:meta_key').text = '_elementor_version'
         ET.SubElement(postmeta, 'wp:meta_value').text = self.elementor_version
         
-        # Elementor Page Settings (als leeres Array, nicht als String)
+        # Elementor Page Settings (als leeres Dictionary)
         postmeta = ET.SubElement(item, 'wp:postmeta')
         ET.SubElement(postmeta, 'wp:meta_key').text = '_elementor_page_settings'
-        ET.SubElement(postmeta, 'wp:meta_value').text = json.dumps([], ensure_ascii=False)
+        ET.SubElement(postmeta, 'wp:meta_value').text = json.dumps({}, ensure_ascii=False)
         
         # Elementor Pro Version
         postmeta = ET.SubElement(item, 'wp:postmeta')
