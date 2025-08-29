@@ -217,7 +217,19 @@
     display: inline-block;
 }
 
-/* Contact Section Background - Removed, should be handled by Elementor section */
+/* Contact Section Background */
+.elementor-section:has(.wpcf7),
+.elementor-section:has(.cholot-contact-shortcode) {
+    background: #1a1a1a !important;
+    padding: 80px 0;
+}
+
+/* Alternative selector for contact form container */
+.elementor-widget-shortcode:has(.wpcf7) {
+    background: #1a1a1a;
+    padding: 60px 40px;
+    margin: -40px -40px;
+}
 
 /* Ajax Loader */
 .ajax-loader {
