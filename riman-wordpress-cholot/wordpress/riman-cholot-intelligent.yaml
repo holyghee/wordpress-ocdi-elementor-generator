@@ -28,14 +28,14 @@ pages:
             text: "Professionelle Lösungen für Asbest-, PCB- und Schadstoffsanierung. Wir stehen für Sicherheit, Qualität und Nachhaltigkeit."
             button_text: "Unsere Leistungen"
             button_link: "#services"
-            image: "http://localhost:8082/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg"
             
           - title: "Zertifizierte Asbestsanierung nach TRGS 519"
             subtitle: "Höchste Sicherheitsstandards"
             text: "Als zertifizierter Fachbetrieb führen wir Asbestsanierungen sicher und gesetzeskonform durch."
             button_text: "Mehr erfahren"
             button_link: "#asbest"
-            image: "http://localhost:8082/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung-schutzausruestung-fachpersonal.jpg"
       
       # Service Cards Section 1 - Wie Cholot Home
       - type: "service-cards"
@@ -92,17 +92,17 @@ pages:
           - name: "Dipl.-Ing. Jürgen Fischer"
             position: "Geschäftsführer & Gründer"
             bio: "25+ Jahre Erfahrung im Bereich Umwelt- und Sicherheitsmanagement"
-            image: "http://localhost:8082/dr-michael-riman-geschaeftsfuehrer.jpg"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/dr-michael-riman-geschaeftsfuehrer.jpg"
             
           - name: "Dr. Sarah Weber"
             position: "Leiterin Schadstoffanalytik"
             bio: "Expertin für Asbest- und PCB-Analytik"
-            image: "http://localhost:8082/sabine-weber-projektleitung.jpg"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/sabine-weber-projektleitung.jpg"
             
           - name: "Thomas Klein"
             position: "Projektleiter Sanierung"
             bio: "Spezialist für Großprojekte und komplexe Sanierungen"
-            image: "http://localhost:8082/thomas-mueller-technische-leitung.jpg"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/thomas-mueller-technische-leitung.jpg"
       
       # Testimonials
       - type: "testimonials"
