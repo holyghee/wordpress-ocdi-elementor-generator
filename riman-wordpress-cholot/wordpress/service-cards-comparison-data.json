@@ -1,0 +1,287 @@
+{
+  "cholot": {
+    "url": "http://localhost:8080",
+    "serviceCards": [
+      {
+        "title": "Exciting",
+        "subtitle": "Exciting",
+        "description": "Exciting",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 180,
+          "y": 791.15625,
+          "width": 319.984375,
+          "height": 232.359375
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "retired",
+        "subtitle": "retired",
+        "description": "retired",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 559.984375,
+          "y": 774.4375,
+          "width": 319.984375,
+          "height": 232.359375
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "residents",
+        "subtitle": "residents",
+        "description": "residents",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 939.96875,
+          "y": 791.15625,
+          "width": 319.984375,
+          "height": 232.359375
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "spiritual",
+        "subtitle": "spiritual",
+        "description": "spiritual",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 165,
+          "y": 1384.078125,
+          "width": 255,
+          "height": 200.15625
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "community",
+        "subtitle": "community",
+        "description": "community",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 165,
+          "y": 1604.234375,
+          "width": 255,
+          "height": 200.15625
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "everyday",
+        "subtitle": "everyday",
+        "description": "everyday",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 450,
+          "y": 1384.078125,
+          "width": 255,
+          "height": 200.15625
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "event date",
+        "subtitle": "event date",
+        "description": "event date",
+        "iconClass": "",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 450,
+          "y": 1604.234375,
+          "width": 255,
+          "height": 200.15625
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      }
+    ],
+    "layout": {
+      "totalSections": 18,
+      "serviceElements": 0,
+      "backgroundElements": 5,
+      "title": "Riman GmbH",
+      "cholotTexticon": 7,
+      "iconsWithGoldenColor": 0,
+      "cardsWithBorders": 709,
+      "cardsWithGoldenAccents": 0
+    },
+    "colors": {},
+    "icons": [],
+    "errors": []
+  },
+  "riman": {
+    "url": "http://localhost:8081/?page_id=3000",
+    "serviceCards": [
+      {
+        "title": "ZERTIFIZIERT",
+        "subtitle": "ZERTIFIZIERT",
+        "description": "ZERTIFIZIERT",
+        "iconClass": "cholot-icon fa fa-shield",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 160,
+          "y": 943.25,
+          "width": 265,
+          "height": 224.75
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "FACHGERECHT",
+        "subtitle": "FACHGERECHT",
+        "description": "FACHGERECHT",
+        "iconClass": "cholot-icon fa fa-flask",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 445,
+          "y": 943.25,
+          "width": 265,
+          "height": 224.75
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "NACHHALTIG",
+        "subtitle": "NACHHALTIG",
+        "description": "NACHHALTIG",
+        "iconClass": "cholot-icon fa fa-bacteria",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 730,
+          "y": 943.25,
+          "width": 265,
+          "height": 224.75
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "24/7 NOTDIENST",
+        "subtitle": "24/7 NOTDIENST",
+        "description": "24/7 NOTDIENST",
+        "iconClass": "cholot-icon fa fa-fire",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 1015,
+          "y": 943.25,
+          "width": 265,
+          "height": 224.75
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "25+ Jahre Erfahrung",
+        "subtitle": "",
+        "description": "Über 2.000 erfolgreich abgeschlossene Projekte seit 1998",
+        "iconClass": "cholot-icon fa fa-award",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 160,
+          "y": 1238,
+          "width": 356.1875,
+          "height": 195.5625
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "Zertifizierte Experten",
+        "subtitle": "",
+        "description": "TRGS 519, ISO 9001 und weitere Qualifikationen",
+        "iconClass": "cholot-icon fa fa-certificate",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 536.1875,
+          "y": 1238,
+          "width": 356.1875,
+          "height": 168.375
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      },
+      {
+        "title": "Komplettservice",
+        "subtitle": "",
+        "description": "Von der Analyse bis zur Entsorgung - alles aus einer Hand",
+        "iconClass": "cholot-icon fa fa-check-circle",
+        "hasGoldenColor": false,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "position": {
+          "x": 912.375,
+          "y": 1238,
+          "width": 356.1875,
+          "height": 195.5625
+        },
+        "selector": ".elementor-widget-cholot-texticon"
+      }
+    ],
+    "layout": {
+      "totalSections": 7,
+      "serviceElements": 0,
+      "backgroundElements": 2,
+      "title": "RIMAN GmbH – Sicher bauen, Gesund leben – Riman GmbH",
+      "cholotTexticon": 7,
+      "iconsWithGoldenColor": 0,
+      "cardsWithBorders": 261,
+      "cardsWithGoldenAccents": 0
+    },
+    "colors": {},
+    "icons": [],
+    "errors": []
+  },
+  "comparison": {
+    "cardCount": {
+      "cholot": 7,
+      "riman": 7,
+      "match": true
+    },
+    "layoutDifferences": [],
+    "colorDifferences": [],
+    "iconDifferences": [],
+    "overallMatch": 80
+  }
+}
