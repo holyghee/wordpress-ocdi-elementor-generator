@@ -1,0 +1,244 @@
+# RIMAN GmbH Website - Intelligente Block-Assembly
+# Verwendet die extrahierten Cholot-Blocks aus der Library
+
+site:
+  title: "RIMAN GmbH - Experten für Sanierung & Umweltschutz"
+  tagline: "Sicher bauen - Gesund leben"
+  url: "http://localhost:8081"
+  
+global_settings:
+  primary_color: "#333399"     # RIMAN Blau
+  secondary_color: "#FF0000"    # RIMAN Rot
+  accent_color: "#b68c2f"       # Cholot Gold
+  font_family: "Playfair Display"
+  company_name: "RIMAN GmbH"
+  since_year: "1998"
+
+pages:
+  - id: "homepage"
+    title: "RIMAN GmbH - Sicher bauen, Gesund leben"
+    slug: ""
+    template: "elementor_canvas"
+    blocks:
+      # Hero Slider - Exakt wie Cholot
+      - type: "hero-slider"
+        slides:
+          - title: "25+ Jahre Erfahrung in Sanierung & Umweltschutz"
+            subtitle: "Seit 1998 Ihr zuverlässiger Partner"
+            text: "Professionelle Lösungen für Asbest-, PCB- und Schadstoffsanierung. Wir stehen für Sicherheit, Qualität und Nachhaltigkeit."
+            button_text: "Unsere Leistungen"
+            button_link: "#services"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/rueckbaumanagement-abriss-entsorgung.jpg"
+            
+          - title: "Zertifizierte Asbestsanierung nach TRGS 519"
+            subtitle: "Höchste Sicherheitsstandards"
+            text: "Als zertifizierter Fachbetrieb führen wir Asbestsanierungen sicher und gesetzeskonform durch."
+            button_text: "Mehr erfahren"
+            button_link: "#asbest"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+      
+      # Service Cards Section 1 - Wie Cholot Home
+      - type: "service-cards"
+        title: "Unsere Kernkompetenzen"
+        subtitle: "Umfassende Sanierungslösungen"
+        columns: 4
+        services:
+          - title: "Asbestsanierung"
+            icon: "fa fa-shield"
+            text: "Sichere und fachgerechte Entfernung von Asbest nach TRGS 519"
+            subtitle: "ZERTIFIZIERT"
+            
+          - title: "PCB-Sanierung"
+            icon: "fa fa-flask"
+            text: "Professionelle Beseitigung von PCB-belasteten Materialien"
+            subtitle: "FACHGERECHT"
+            
+          - title: "Schimmelsanierung"
+            icon: "fa fa-bacteria"
+            text: "Nachhaltige Schimmelbeseitigung und Prävention"
+            subtitle: "NACHHALTIG"
+            
+          - title: "Brandschaden"
+            icon: "fa fa-fire"
+            text: "Schnelle Hilfe bei Brand- und Wasserschäden"
+            subtitle: "24/7 NOTDIENST"
+      
+      # Title Section
+      - type: "title-section"
+        title: "Warum RIMAN GmbH?"
+        subtitle: "Ihr Partner für sichere Sanierung"
+      
+      # Service Cards Section 2 - Vorteile
+      - type: "service-cards"
+        columns: 3
+        services:
+          - title: "25+ Jahre Erfahrung"
+            icon: "fa fa-award"
+            text: "Über 2.000 erfolgreich abgeschlossene Projekte seit 1998"
+            
+          - title: "Zertifizierte Experten"
+            icon: "fa fa-certificate"
+            text: "TRGS 519, ISO 9001 und weitere Qualifikationen"
+            
+          - title: "Komplettservice"
+            icon: "fa fa-check-circle"
+            text: "Von der Analyse bis zur Entsorgung - alles aus einer Hand"
+      
+      # Team Section - Angepasst für RIMAN
+      - type: "team-section"
+        title: "Unser Expertenteam"
+        subtitle: "Kompetenz und Erfahrung"
+        members:
+          - name: "Dipl.-Ing. Jürgen Fischer"
+            position: "Geschäftsführer & Gründer"
+            bio: "25+ Jahre Erfahrung im Bereich Umwelt- und Sicherheitsmanagement"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/dr-michael-riman-geschaeftsfuehrer.jpg"
+            
+          - name: "Dr. Sarah Weber"
+            position: "Leiterin Schadstoffanalytik"
+            bio: "Expertin für Asbest- und PCB-Analytik"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/senior-living-expert.jpg"
+            
+          - name: "Thomas Klein"
+            position: "Projektleiter Sanierung"
+            bio: "Spezialist für Großprojekte und komplexe Sanierungen"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/projektleiter-sanierung.jpg"
+      
+      # Testimonials
+      - type: "testimonials"
+        title: "Das sagen unsere Kunden"
+        subtitle: "Über 2.000 zufriedene Kunden"
+        testimonials:
+          - text: "RIMAN hat unsere Asbestsanierung professionell und termingerecht durchgeführt. Die Zusammenarbeit war vorbildlich!"
+            author: "Klaus Müller"
+            position: "Bauherr, Heidelberg"
+            rating: 5
+            
+          - text: "Kompetente Beratung und saubere Ausführung. Bei der PCB-Sanierung unseres Bürogebäudes war RIMAN die richtige Wahl."
+            author: "Dr. Schmidt GmbH"
+            position: "Mannheim"
+            rating: 5
+            
+          - text: "Schnelle Reaktion beim Brandschaden, professionelle Abwicklung mit der Versicherung. Sehr empfehlenswert!"
+            author: "Familie Weber"
+            position: "Ludwigshafen"
+            rating: 5
+      
+      # Contact Form Section
+      - type: "contact-form"
+        title: "Kostenlose Erstberatung"
+        subtitle: "Wir beraten Sie gerne unverbindlich"
+
+  # Leistungsseite: Asbestsanierung
+  - id: "asbestsanierung"
+    title: "Asbestsanierung nach TRGS 519"
+    slug: "asbestsanierung"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Professionelle Asbestsanierung"
+        subtitle: "Zertifiziert nach TRGS 519"
+      
+      - type: "text-content"
+        content: |
+          <h3>Sichere Asbestentfernung durch Experten</h3>
+          <p>Als zertifizierter Fachbetrieb nach TRGS 519 führen wir Asbestsanierungen 
+          sicher und gesetzeskonform durch. Mit über 25 Jahren Erfahrung und modernster 
+          Ausrüstung gewährleisten wir höchste Sicherheitsstandards.</p>
+          
+          <h4>Unsere Leistungen:</h4>
+          <ul>
+            <li>✓ Asbestuntersuchung und Probenahme</li>
+            <li>✓ Erstellung von Sanierungskonzepten</li>
+            <li>✓ Schwach- und festgebundener Asbest</li>
+            <li>✓ Raumluftmessungen und Freigabe</li>
+            <li>✓ Fachgerechte Entsorgung</li>
+          </ul>
+      
+      - type: "gallery-section"
+        images:
+          - "http://localhost:8081/wp-content/uploads/2025/01/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/01/asbestentsorgung-sicherheit-umweltschutz.jpg"
+          - "http://localhost:8081/wp-content/uploads/2025/01/sanierungsarbeiten-baustelle-sicherheit.jpg"
+      
+      - type: "contact-form"
+        title: "Angebot anfordern"
+        subtitle: "Kostenlose Erstberatung"
+
+  # Über uns Seite
+  - id: "ueber-uns"
+    title: "Über RIMAN GmbH"
+    slug: "ueber-uns"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "25 Jahre RIMAN GmbH"
+        subtitle: "Ihre Experten für Sanierung und Umweltschutz"
+      
+      - type: "text-content"
+        content: |
+          <h3>Seit 1998 Ihr zuverlässiger Partner</h3>
+          <p class="lead">Die RIMAN GmbH steht seit über 25 Jahren für professionelle 
+          Sanierungslösungen und Umweltschutz. Als innovatives Dienstleistungsunternehmen 
+          haben wir uns auf die sichere Beseitigung von Schadstoffen spezialisiert.</p>
+          
+          <p>Unser Motto <strong>"Sicher bauen - Gesund leben"</strong> ist nicht nur ein 
+          Versprechen, sondern unsere tägliche Verpflichtung gegenüber unseren Kunden und 
+          der Umwelt.</p>
+          
+          <h4>Unsere Werte:</h4>
+          <ul>
+            <li><strong>Sicherheit:</strong> Höchste Standards bei allen Arbeiten</li>
+            <li><strong>Qualität:</strong> Zertifizierte Prozesse und Materialien</li>
+            <li><strong>Nachhaltigkeit:</strong> Umweltschutz als Kernaufgabe</li>
+            <li><strong>Transparenz:</strong> Offene Kommunikation und faire Preise</li>
+          </ul>
+      
+      - type: "service-cards"
+        title: "Unsere Zertifizierungen"
+        columns: 4
+        services:
+          - title: "TRGS 519"
+            icon: "fa fa-certificate"
+            text: "Zertifizierter Asbestsanierungsbetrieb"
+            
+          - title: "ISO 9001"
+            icon: "fa fa-award"
+            text: "Qualitätsmanagement-System"
+            
+          - title: "ISO 14001"
+            icon: "fa fa-leaf"
+            text: "Umweltmanagement-System"
+            
+          - title: "SCC**"
+            icon: "fa fa-shield"
+            text: "Arbeitsschutz-Zertifikat"
+
+  # Kontaktseite
+  - id: "kontakt"
+    title: "Kontakt"
+    slug: "kontakt"
+    template: "elementor_canvas"
+    blocks:
+      - type: "title-section"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Wir sind für Sie da"
+      
+      - type: "service-cards"
+        columns: 3
+        services:
+          - title: "Büro Heidelberg"
+            icon: "fa fa-map-marker"
+            text: "Industriestraße 25\n69123 Heidelberg"
+            
+          - title: "Telefon & E-Mail"
+            icon: "fa fa-phone"
+            text: "+49 (0) 6221 123456\ninfo@riman.de"
+            
+          - title: "Öffnungszeiten"
+            icon: "fa fa-clock"
+            text: "Mo-Fr: 8:00 - 17:00\n24/7 Notdienst"
+      
+      - type: "contact-form"
+        title: "Schreiben Sie uns"
+        subtitle: "Wir melden uns innerhalb von 24 Stunden"
