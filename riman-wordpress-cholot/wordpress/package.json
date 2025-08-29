@@ -1,0 +1,22 @@
+{
+  "name": "service-cards-comparison",
+  "version": "1.0.0",
+  "description": "Automated comparison of Service Cards between Cholot original and RIMAN implementation",
+  "main": "service-cards-comparison.js",
+  "scripts": {
+    "compare": "node service-cards-comparison.js",
+    "install-playwright": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "keywords": [
+    "wordpress",
+    "elementor",
+    "comparison",
+    "automation",
+    "service-cards"
+  ],
+  "author": "Claude Code",
+  "license": "MIT"
+}
