@@ -1,0 +1,50 @@
+{
+  "http://localhost:8082/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg": {
+    "id": "2008",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg"
+  },
+  "http://localhost:8082/asbestsanierung-schutzausruestung-fachpersonal.jpg": {
+    "id": "2009",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+  },
+  "http://localhost:8082/schadstoffsanierung-industrieanlage-riman-gmbh.jpg": {
+    "id": "2010",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/schadstoffsanierung-industrieanlage-riman-gmbh.jpg"
+  },
+  "http://localhost:8082/dr-michael-riman-geschaeftsfuehrer.jpg": {
+    "id": "2011",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/dr-michael-riman-geschaeftsfuehrer.jpg"
+  },
+  "http://localhost:8082/sabine-weber-projektleitung.jpg": {
+    "id": "2012",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/sabine-weber-projektleitung.jpg"
+  },
+  "http://localhost:8082/thomas-mueller-technische-leitung.jpg": {
+    "id": "2013",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/thomas-mueller-technische-leitung.jpg"
+  },
+  "http://localhost:8082/sicherheitsvorbereitung-schutzausruestung-schritt-3.jpg": {
+    "id": "2014",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/sicherheitsvorbereitung-schutzausruestung-schritt-3.jpg"
+  },
+  "http://localhost:8082/sanierung-durchfuehrung-fachgerecht-schritt-4.jpg": {
+    "id": "2015",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/sanierung-durchfuehrung-fachgerecht-schritt-4.jpg"
+  },
+  "http://localhost:8082/luftqualitaet-monitoring-echtzeitdaten-schritt-5.jpg": {
+    "id": "2016",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/luftqualitaet-monitoring-echtzeitdaten-schritt-5.jpg"
+  },
+  "http://localhost:8082/materialverarbeitung-entsorgung-vorschriften-schritt-6.jpg": {
+    "id": "2017",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/materialverarbeitung-entsorgung-vorschriften-schritt-6.jpg"
+  },
+  "http://localhost:8082/qualitaetskontrolle-abnahme-pruefung-schritt-7.jpg": {
+    "id": "2018",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/qualitaetskontrolle-abnahme-pruefung-schritt-7.jpg"
+  },
+  "http://localhost:8082/zertifizierung-dokumentation-abschluss-schritt-8.jpg": {
+    "id": "2019",
+    "url": "http://localhost:8081/wp-content/uploads/2025/08/zertifizierung-dokumentation-abschluss-schritt-8.jpg"
+  }
+}
