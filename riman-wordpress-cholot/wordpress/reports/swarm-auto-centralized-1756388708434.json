@@ -1,0 +1,13 @@
+{
+  "objective": "Execute: SWARM_CHOLOT_RECONSTRUCTION_PROMPT.md",
+  "strategy": "auto",
+  "mode": "centralized",
+  "maxAgents": 5,
+  "timeout": 60,
+  "parallel": false,
+  "monitor": false,
+  "output": "json",
+  "outputDir": "./reports",
+  "timestamp": "2025-08-28T13:45:08.433Z",
+  "id": "swarm-auto-centralized-1756388708434"
+}
