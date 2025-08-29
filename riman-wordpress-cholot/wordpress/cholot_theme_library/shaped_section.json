@@ -1,0 +1,537 @@
+[
+  {
+    "source": "About",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "060",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 173,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 110,
+          "sizes": []
+        },
+        "shape_divider_bottom": "mountains",
+        "content_position": "bottom",
+        "background_overlay_color": "#ffffff",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.88,
+          "sizes": []
+        },
+        "overlay_blend_mode": "luminosity",
+        "margin": {
+          "unit": "%",
+          "top": "",
+          "right": 0,
+          "bottom": "",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "_inline_size_tablet": 100,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/6.png",
+                  "id": 357
+                },
+                "image_size": "full",
+                "image_custom_dimension": {
+                  "width": "600",
+                  "height": "700"
+                },
+                "align": "right",
+                "_animation": "fadeInUp",
+                "align_tablet": "left"
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>ullamcorper matti pulvinar.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "Some <span>beautiful words</span><br>from our founder.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "left",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "left",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "structure": "20",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": 0,
+                  "bottom": "30",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 45.405
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "btn_text": "+122-000-000",
+                        "link": {
+                          "url": "https://theme.winnertheme.com/cholot/contact/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "btn_sub": "Call for detail",
+                        "selected_icon": {
+                          "value": "fas fa-phone-square-alt",
+                          "library": "fa-solid"
+                        },
+                        "btn_typography_typography": "custom",
+                        "btn_typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "btn_typography_font_weight": "700",
+                        "btn_typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "btn_sub_typography_typography": "custom",
+                        "btn_sub_typography_font_size": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "btn_sub_typography_font_weight": "normal",
+                        "icon_indent": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "align": "left",
+                        "icon_box_color": "#ffffff",
+                        "icon_box_color_hover": "#ffffff",
+                        "btn_subcolor": "rgba(0,0,0,0.65)",
+                        "btn_subcolor_hover": "rgba(255,255,255,0.45)",
+                        "btn_color": "#000000",
+                        "icon_box_padding": {
+                          "unit": "px",
+                          "top": "19",
+                          "right": "19",
+                          "bottom": "19",
+                          "left": "19",
+                          "isLinked": true
+                        },
+                        "icon_bg_box_color": "#b68c2f",
+                        "icon_border_box_border": "solid",
+                        "icon_border_box_width": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "1",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "icon_border_box_color": "#b68c2f",
+                        "icon_box_border_color_hover": "rgba(255,255,255,0.1)",
+                        "btn_color_hover": "#ffffff",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "-8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-button-text"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 54.595
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "btn_text": "email@email.com",
+                        "link": {
+                          "url": "https://theme.winnertheme.com/cholot/contact/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "btn_sub": "Send an email",
+                        "selected_icon": {
+                          "value": "far fa-envelope-open",
+                          "library": "fa-regular"
+                        },
+                        "btn_typography_typography": "custom",
+                        "btn_typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "btn_typography_font_weight": "700",
+                        "btn_typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "btn_sub_typography_typography": "custom",
+                        "btn_sub_typography_font_size": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "btn_sub_typography_font_weight": "normal",
+                        "icon_indent": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "align": "left",
+                        "icon_box_color": "#ffffff",
+                        "icon_box_color_hover": "#ffffff",
+                        "btn_subcolor": "rgba(255,255,255,0.65)",
+                        "btn_subcolor_hover": "rgba(0,0,0,0.45)",
+                        "btn_color": "#ffffff",
+                        "icon_box_padding": {
+                          "unit": "px",
+                          "top": "19",
+                          "right": "19",
+                          "bottom": "19",
+                          "left": "19",
+                          "isLinked": true
+                        },
+                        "icon_bg_box_color": "#b68c2f",
+                        "icon_border_box_border": "solid",
+                        "icon_border_box_width": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "1",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "icon_border_box_color": "rgba(255,255,255,0.06)",
+                        "icon_box_border_color_hover": "rgba(255,255,255,0.1)",
+                        "btn_typography_text_transform": "lowercase",
+                        "btn_sub_typography_text_transform": "uppercase",
+                        "btn_color_hover": "#000000",
+                        "btn_bg": "#b68c2f",
+                        "btn_bg_hover": "rgba(0,0,0,0)",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "-8",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "_margin_mobile": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "0",
+                          "bottom": "-8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-button-text"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Our love, support and appreciation for one another shines through in the care we provide our residents each day. We take pride in caring for you/your parents, and we want to be your first–and only–choice for patient-centered care.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "normal",
+                "_z_index": 1,
+                "_background_background": "classic",
+                "_background_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Building with our residents is something we keep close to our heart. Getting to know their personal stories and celebrating them together is what makes the care we provide truly personalized.</p>",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "drop_cap_primary_color": "#262626",
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 70,
+                  "sizes": []
+                },
+                "drop_cap_typography_font_weight": "700",
+                "drop_cap_typography_line_height": {
+                  "unit": "em",
+                  "size": 0.8,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/sign.png",
+                  "id": 100
+                },
+                "align": "left",
+                "width": {
+                  "unit": "px",
+                  "size": 190,
+                  "sizes": []
+                },
+                "image_size": "full",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "-20",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Jane Michele Doe</p>",
+                "typography_typography": "custom",
+                "_margin": {
+                  "unit": "px",
+                  "top": "-40",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "text_color": "#1f1f1f",
+                "typography_font_weight": "bold"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image",
+      "text-editor",
+      "cholot-title",
+      "divider",
+      "cholot-button-text",
+      "cholot-button-text",
+      "text-editor",
+      "text-editor",
+      "image",
+      "text-editor"
+    ]
+  }
+]

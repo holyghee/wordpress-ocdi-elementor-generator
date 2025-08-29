@@ -1,0 +1,5185 @@
+[
+  {
+    "source": "Home",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/6.jpg",
+          "id": 351
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.86)",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.98,
+          "sizes": []
+        },
+        "background_attachment": "fixed",
+        "shape_divider_top_width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+        },
+        "shape_divider_top_height": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "background_overlay_color_stop": {
+          "unit": "%",
+          "size": 17,
+          "sizes": []
+        },
+        "background_overlay_color_b": "#000000"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "content_width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "From our <span>lovely</span> <br>community, family &amp; friends.",
+                        "desc_typography_typography": "custom",
+                        "desc_typography_font_size": {
+                          "unit": "px",
+                          "size": 35,
+                          "sizes": []
+                        },
+                        "desc_typography_font_weight": "700",
+                        "desc_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "_z_index": 1,
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "desc_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 25,
+                          "sizes": []
+                        },
+                        "title_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "desc_typography_font_family": "Playfair Display",
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": false
+                        },
+                        "span_title_typo_typography": "custom",
+                        "span_title_typo_font_weight": "400",
+                        "span_title_typo_font_style": "italic",
+                        "span_title_color": "#ffffff"
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-title"
+                    },
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>ullamcorper matulvinar</p>",
+                        "text_color": "#b68c2f",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase",
+                        "typography_font_style": "normal",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "-30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "weight": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "color": "#b68c2f",
+                        "width": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "align": "center",
+                        "gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "divider"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": 0,
+                  "bottom": "",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "show_desktop": 3,
+                        "testi_list": [
+                          {
+                            "title": "Irgan Rogan",
+                            "position": "Member",
+                            "text": "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!",
+                            "_id": "165689e",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+                              "id": 50
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Peggy Brim",
+                            "position": "Member",
+                            "text": "My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.",
+                            "_id": "ed77bef",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/anthony-metcalfe-580436-unsplash.jpg",
+                              "id": 53
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Dhea Marisa",
+                            "position": "Member",
+                            "text": "We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.",
+                            "_id": "3084f46",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg",
+                              "id": 47
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Thyo Septian",
+                            "position": "Member",
+                            "text": "The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!",
+                            "_id": "322f914",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg",
+                              "id": 9
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          }
+                        ],
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "name_color": "#ffffff",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Source Sans Pro",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "name_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "name_typography_font_weight": "700",
+                        "name_typography_text_transform": "uppercase",
+                        "post_color": "#b68c2f",
+                        "post_typography_typography": "custom",
+                        "post_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "post_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "post_typography_font_weight": "400",
+                        "post_typography_font_style": "normal",
+                        "post_typography_line_height": {
+                          "unit": "px",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "image_border_border": "solid",
+                        "image_border_width": {
+                          "unit": "px",
+                          "top": "3",
+                          "right": "3",
+                          "bottom": "3",
+                          "left": "3",
+                          "isLinked": true
+                        },
+                        "image_border_width_mobile": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "image_border_color": "#ffffff",
+                        "img_size": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "img_size_mobile": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "img_radius": {
+                          "unit": "px",
+                          "top": "200",
+                          "right": "200",
+                          "bottom": "200",
+                          "left": "200",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "content-align": "center",
+                        "post_typography_text_transform": "none",
+                        "testi_box_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "testi_box_border_color": "#b68c2f",
+                        "testi_box_bg": "rgba(255,255,255,0)",
+                        "icon_fsize": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "icon_lheight": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "text_bgcolor": "rgba(255,255,255,0.08)",
+                        "textbox_padding": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "30",
+                          "bottom": "30",
+                          "left": "30",
+                          "isLinked": true
+                        },
+                        "text_radius": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "testi_icon_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "textbox_margin": {
+                          "unit": "px",
+                          "top": "-20",
+                          "right": "0",
+                          "bottom": "30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "title_color": "#ffffff",
+                        "testi_box_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        },
+                        "testi_box_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-testimonial-two"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "cholot-title",
+      "text-editor",
+      "divider",
+      "cholot-testimonial-two"
+    ]
+  },
+  {
+    "source": "Home",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_position": "bottom",
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>the services we provide</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "We’re able to create a <span>family-like</span> atmosphere <br>for our residents as well.",
+                "align": "center",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Once you experience our culture, you’re sure to understand what makes us so special.  It’s a great way for you to make use of all the wonderful benefits of being a part of our communities.</p>",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "drop_cap_primary_color": "#262626",
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 70,
+                  "sizes": []
+                },
+                "drop_cap_typography_font_weight": "700",
+                "drop_cap_typography_line_height": {
+                  "unit": "em",
+                  "size": 0.8,
+                  "sizes": []
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "About",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg",
+          "id": 236
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.8,
+          "sizes": []
+        },
+        "background_attachment": "fixed"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>about our community.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "Who we are &amp;<br>what we are <span>capable</span>.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "center",
+                "title_color": "#ffffff",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider"
+    ]
+  },
+  {
+    "source": "About",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#fafafa",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_position": "middle",
+        "content_width": {
+          "unit": "px",
+          "size": 600,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>tempor sapien gravida.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "Dedicated to delivering <br>the finest <span>senior living</span> experience.",
+                "align": "center",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Once you experience our culture, you’re sure to understand what makes us so special.</p>",
+                "typography_typography": "custom",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "About",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/7.jpg",
+          "id": 349
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.86)",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.98,
+          "sizes": []
+        },
+        "background_attachment": "fixed",
+        "shape_divider_top_width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+        },
+        "shape_divider_top_height": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "background_overlay_color_stop": {
+          "unit": "%",
+          "size": 17,
+          "sizes": []
+        },
+        "background_overlay_color_b": "#000000"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "content_width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "From our <span>lovely</span> <br>community, family &amp; friends.",
+                        "desc_typography_typography": "custom",
+                        "desc_typography_font_size": {
+                          "unit": "px",
+                          "size": 35,
+                          "sizes": []
+                        },
+                        "desc_typography_font_weight": "700",
+                        "desc_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "_z_index": 1,
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "desc_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 25,
+                          "sizes": []
+                        },
+                        "title_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "desc_typography_font_family": "Playfair Display",
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": false
+                        },
+                        "span_title_typo_typography": "custom",
+                        "span_title_typo_font_weight": "400",
+                        "span_title_typo_font_style": "italic",
+                        "span_title_color": "#ffffff"
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-title"
+                    },
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>ullamcorper matulvinar</p>",
+                        "text_color": "#b68c2f",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase",
+                        "typography_font_style": "normal",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "-30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "weight": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "color": "#b68c2f",
+                        "width": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "align": "center",
+                        "gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "divider"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": 0,
+                  "bottom": "",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "show_desktop": 3,
+                        "testi_list": [
+                          {
+                            "title": "Irgan Rogan",
+                            "position": "Member",
+                            "text": "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!",
+                            "_id": "165689e",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+                              "id": 50
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Peggy Brim",
+                            "position": "Member",
+                            "text": "My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.",
+                            "_id": "ed77bef",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/anthony-metcalfe-580436-unsplash.jpg",
+                              "id": 53
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Dhea Marisa",
+                            "position": "Member",
+                            "text": "We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.",
+                            "_id": "3084f46",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg",
+                              "id": 47
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Thyo Septian",
+                            "position": "Member",
+                            "text": "The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!",
+                            "_id": "322f914",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg",
+                              "id": 9
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          }
+                        ],
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "name_color": "#ffffff",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Source Sans Pro",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "name_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "name_typography_font_weight": "700",
+                        "name_typography_text_transform": "uppercase",
+                        "post_color": "#b68c2f",
+                        "post_typography_typography": "custom",
+                        "post_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "post_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "post_typography_font_weight": "400",
+                        "post_typography_font_style": "normal",
+                        "post_typography_line_height": {
+                          "unit": "px",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "image_border_border": "solid",
+                        "image_border_width": {
+                          "unit": "px",
+                          "top": "3",
+                          "right": "3",
+                          "bottom": "3",
+                          "left": "3",
+                          "isLinked": true
+                        },
+                        "image_border_width_mobile": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "image_border_color": "#ffffff",
+                        "img_size": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "img_size_mobile": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "img_radius": {
+                          "unit": "px",
+                          "top": "200",
+                          "right": "200",
+                          "bottom": "200",
+                          "left": "200",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "content-align": "center",
+                        "post_typography_text_transform": "none",
+                        "testi_box_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "testi_box_border_color": "#b68c2f",
+                        "testi_box_bg": "rgba(255,255,255,0)",
+                        "icon_fsize": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "icon_lheight": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "text_bgcolor": "rgba(255,255,255,0.08)",
+                        "textbox_padding": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "30",
+                          "bottom": "30",
+                          "left": "30",
+                          "isLinked": true
+                        },
+                        "text_radius": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "testi_icon_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "textbox_margin": {
+                          "unit": "px",
+                          "top": "-20",
+                          "right": "0",
+                          "bottom": "30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "title_color": "#ffffff",
+                        "testi_box_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        },
+                        "testi_box_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-testimonial-two"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "cholot-title",
+      "text-editor",
+      "divider",
+      "cholot-testimonial-two"
+    ]
+  },
+  {
+    "source": "Service",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg",
+          "id": 237
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.8,
+          "sizes": []
+        },
+        "background_attachment": "fixed"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>the services we had.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "What we provide &amp; what we <br>build for  <span>the community</span>.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "center",
+                "title_color": "#ffffff",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider"
+    ]
+  },
+  {
+    "source": "Service",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_position": "middle",
+        "content_width": {
+          "unit": "px",
+          "size": 600,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>feature of the community</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "What you will get from us <br><span>after you join</span> the community.",
+                "align": "center",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>",
+                "typography_typography": "custom",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Contact",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg",
+          "id": 240
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.8,
+          "sizes": []
+        },
+        "background_attachment": "fixed"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>let's meet today.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "Contact us or <br><span>schedule a visit</span> to us today.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "center",
+                "title_color": "#ffffff",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider"
+    ]
+  },
+  {
+    "source": "Contact",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "address": "buah batu 24 bandung",
+                "zoom": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 395,
+                  "sizes": []
+                },
+                "css_filters_css_filter": "custom",
+                "css_filters_saturate": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "css_filters_hover_css_filter": "custom",
+                "hover_transition": {
+                  "unit": "px",
+                  "size": 0.7,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "google_maps"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "google_maps"
+    ]
+  },
+  {
+    "source": "Independent living",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+          "id": 50
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.8,
+          "sizes": []
+        },
+        "background_attachment": "fixed"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>what we proved to you.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "The <span>independent</span> living.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "center",
+                "title_color": "#ffffff",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider"
+    ]
+  },
+  {
+    "source": "Independent living",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#fafafa",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_position": "middle",
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>ullamcorper matti pulvinar.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "Assited living <span>amenities &amp; services</span>.",
+                "align": "center",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor integer congue magna at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>",
+                "typography_typography": "custom",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Assited living",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/6.jpg",
+          "id": 351
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.8,
+          "sizes": []
+        },
+        "background_attachment": "fixed"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>what we proved to you.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "The <span>assited</span> living.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "center",
+                "title_color": "#ffffff",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider"
+    ]
+  },
+  {
+    "source": "Assited living",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#fafafa",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_position": "middle",
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>ullamcorper matti pulvinar.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "Assited living <span>amenities &amp; services</span>.",
+                "align": "center",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_color": "#000000",
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#000000"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>An enim nullam tempor sapien gravida donec enim ipsum  porta justo integer at odio velna vitae auctor integer congue magna at pretium<u><i> purus pretium ligula</i></u> rutrum luctus risus.</p>",
+                "typography_typography": "custom",
+                "typography_font_weight": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Assited living",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/7.jpg",
+          "id": 349
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.86)",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.98,
+          "sizes": []
+        },
+        "background_attachment": "fixed",
+        "shape_divider_top_width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+        },
+        "shape_divider_top_height": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "background_overlay_color_stop": {
+          "unit": "%",
+          "size": 17,
+          "sizes": []
+        },
+        "background_overlay_color_b": "#000000"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "content_width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "From our <span>lovely</span> <br>community, family &amp; friends.",
+                        "desc_typography_typography": "custom",
+                        "desc_typography_font_size": {
+                          "unit": "px",
+                          "size": 35,
+                          "sizes": []
+                        },
+                        "desc_typography_font_weight": "700",
+                        "desc_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "_z_index": 1,
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "desc_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 25,
+                          "sizes": []
+                        },
+                        "title_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "desc_typography_font_family": "Playfair Display",
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": false
+                        },
+                        "span_title_typo_typography": "custom",
+                        "span_title_typo_font_weight": "400",
+                        "span_title_typo_font_style": "italic",
+                        "span_title_color": "#ffffff"
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-title"
+                    },
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>ullamcorper matulvinar</p>",
+                        "text_color": "#b68c2f",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase",
+                        "typography_font_style": "normal",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "-30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "weight": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "color": "#b68c2f",
+                        "width": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "align": "center",
+                        "gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "divider"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "__ID__",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": 0,
+                  "bottom": "",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "__ID__",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "__ID__",
+                      "elType": "widget",
+                      "settings": {
+                        "show_desktop": 3,
+                        "testi_list": [
+                          {
+                            "title": "Irgan Rogan",
+                            "position": "Member",
+                            "text": "My daughter took me to visit senior communities eight years ago and when I walked into it, i knew that I had found my home. Absolutely stunning!",
+                            "_id": "165689e",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg",
+                              "id": 50
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Peggy Brim",
+                            "position": "Member",
+                            "text": "My children and I couldn’t be happier with my decision to make this my home! Most importantly, I feel loved here, from the caring staff to friends who look in on me.",
+                            "_id": "ed77bef",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/anthony-metcalfe-580436-unsplash.jpg",
+                              "id": 53
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Dhea Marisa",
+                            "position": "Member",
+                            "text": "We have lived here for five years and the quality, responsiveness and friendliness of the staff can’t be beat. Our overall everyday experiences living makes us happy.",
+                            "_id": "3084f46",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg",
+                              "id": 47
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          },
+                          {
+                            "title": "Thyo Septian",
+                            "position": "Member",
+                            "text": "The Senior living restaurant offers excellent variety, quality and presentation.  It’s very, very tasteful.  The choices you are given are remarkable!",
+                            "_id": "322f914",
+                            "image": {
+                              "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg",
+                              "id": 9
+                            },
+                            "image2_size": "thumbnail",
+                            "image2_custom_dimension": {
+                              "width": "",
+                              "height": ""
+                            }
+                          }
+                        ],
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "name_color": "#ffffff",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Source Sans Pro",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "name_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "name_typography_font_weight": "700",
+                        "name_typography_text_transform": "uppercase",
+                        "post_color": "#b68c2f",
+                        "post_typography_typography": "custom",
+                        "post_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "post_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "post_typography_font_weight": "400",
+                        "post_typography_font_style": "normal",
+                        "post_typography_line_height": {
+                          "unit": "px",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "image_border_border": "solid",
+                        "image_border_width": {
+                          "unit": "px",
+                          "top": "3",
+                          "right": "3",
+                          "bottom": "3",
+                          "left": "3",
+                          "isLinked": true
+                        },
+                        "image_border_width_mobile": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "image_border_color": "#ffffff",
+                        "img_size": {
+                          "unit": "px",
+                          "size": 50,
+                          "sizes": []
+                        },
+                        "img_size_mobile": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "img_radius": {
+                          "unit": "px",
+                          "top": "200",
+                          "right": "200",
+                          "bottom": "200",
+                          "left": "200",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "%",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "content-align": "center",
+                        "post_typography_text_transform": "none",
+                        "testi_box_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "testi_box_border_color": "#b68c2f",
+                        "testi_box_bg": "rgba(255,255,255,0)",
+                        "icon_fsize": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "icon_lheight": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "text_bgcolor": "rgba(255,255,255,0.08)",
+                        "textbox_padding": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "30",
+                          "bottom": "30",
+                          "left": "30",
+                          "isLinked": true
+                        },
+                        "text_radius": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "testi_icon_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "textbox_margin": {
+                          "unit": "px",
+                          "top": "-20",
+                          "right": "0",
+                          "bottom": "30",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "title_color": "#ffffff",
+                        "testi_box_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        },
+                        "testi_box_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "cholot-testimonial-two"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "cholot-title",
+      "text-editor",
+      "divider",
+      "cholot-testimonial-two"
+    ]
+  },
+  {
+    "source": "Every carry ready the quinoa mperdiet etiam",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Every carry ready the quinoa mperdiet etiam",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Every carry ready the quinoa mperdiet etiam",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deep v exercitation schlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "-30",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Interest humble brag air plant  nec odio et ante",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "drop_cap": "yes",
+                "drop_cap_primary_color": "#b68c2f",
+                "drop_cap_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "drop_cap_space": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "drop_cap_border_radius": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_family": "Playfair Display",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": ""
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Interest humble brag air plant  nec odio et ante",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Interest humble brag air plant  nec odio et ante",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg",
+                  "id": 237
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Purus quamut mollised aenean commodo",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "drop_cap": "yes",
+                "drop_cap_primary_color": "#b68c2f",
+                "drop_cap_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "drop_cap_space": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "drop_cap_border_radius": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_family": "Playfair Display",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": ""
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Purus quamut mollised aenean commodo",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Purus quamut mollised aenean commodo",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg",
+                  "id": 237
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Blandit vel luctus pulvinar hendrerit massa quis enim",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Blandit vel luctus pulvinar hendrerit massa quis enim",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Blandit vel luctus pulvinar hendrerit massa quis enim",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deep v exercitation schlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "-30",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Blog",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "shape_divider_bottom_color": "#fafafa",
+        "shape_divider_bottom_width": {
+          "unit": "%",
+          "size": 209,
+          "sizes": []
+        },
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 206,
+          "sizes": []
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/huy-phan-100866-unsplash.jpg",
+          "id": 11
+        },
+        "background_position": "top center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_position": "center center",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.8,
+          "sizes": []
+        },
+        "background_attachment": "fixed"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>blog post and the news.</p>",
+                "text_color": "#b68c2f",
+                "typography_typography": "custom",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "title": "What you <span>need to know</span> <br>from our community.",
+                "desc_typography_typography": "custom",
+                "desc_typography_font_size": {
+                  "unit": "px",
+                  "size": 35,
+                  "sizes": []
+                },
+                "desc_typography_font_weight": "700",
+                "desc_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "_z_index": 1,
+                "align": "center",
+                "title_color": "#ffffff",
+                "desc_typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "desc_typography_font_family": "Playfair Display",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                },
+                "span_title_typo_typography": "custom",
+                "span_title_typo_font_weight": "400",
+                "span_title_typo_font_style": "italic",
+                "span_title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "cholot-title"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "weight": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "color": "#b68c2f",
+                "width": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "align": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "divider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "cholot-title",
+      "divider"
+    ]
+  },
+  {
+    "source": "Duis arcu tortor  suscipit egetro etante",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. </p><p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "drop_cap": "yes",
+                "drop_cap_primary_color": "#b68c2f",
+                "drop_cap_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "drop_cap_space": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "drop_cap_border_radius": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_family": "Playfair Display",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": ""
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Duis arcu tortor  suscipit egetro etante",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Duis arcu tortor  suscipit egetro etante",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg",
+                  "id": 237
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Ultricies mieu turpis hendrerit ultricies",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Ultricies mieu turpis hendrerit ultricies",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Ultricies mieu turpis hendrerit ultricies",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deep v exercitation schlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "-30",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Venenatis faucibus nullam quisenean",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Hambray mixtape williamsburg ramps squid bespoke. Kombucha fanny pack brunch gochujang VHS. Hammock hashtag swag, enamel pin ennui ramps biodiesel ethical yr chicharrones. Af semiotics fanny pack, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal. Lomo neutra actually man braid williamsburg, XOXO franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant vexillologist banjo mustache pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "drop_cap": "yes",
+                "drop_cap_primary_color": "#b68c2f",
+                "drop_cap_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "drop_cap_space": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "drop_cap_border_radius": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "drop_cap_typography_typography": "custom",
+                "drop_cap_typography_font_family": "Playfair Display",
+                "drop_cap_typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": ""
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Venenatis faucibus nullam quisenean",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Venenatis faucibus nullam quisenean",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Tote bag thundercats bushwick, pok pok keffiyeh affogato poke plaid kogi. Vegan tacos vexillologist readymade. Street art hammock raclette hot chicken shabby chic gluten-free cliche truffaut, tofu kombucha.</p><p>Single-origin coffee fixie small batch four dollar toast jianbing tattooed dreamcatcher vape gastropub humblebrag. Hammock heirloom sriracha, occupy cray skateboard street art food truck XOXO man braid adaptogen.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Aliquam lorem ante dapibus in tellus",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Forage narwhal pinterest humble brag air plant chartreuse put a bird on it bespoke pug pour-over shabby chic mumblecore woke la croix snackwave. Af <u><i>semiotics fanny pack</i></u>, hoodie chillwave woke cliche pabst slow-carb locavore lomo intelligentsia tofu offal.</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Lomo neutra actually man braid williamsburg, snackwave franzen cardigan lumbersexual cray sustainable cred pinterest. Pabst kogi pork belly, direct trade air plant<i> vexillologist banjo mustache</i> pug fixie photo booth lyft meh. Lyft chillwave DIY, selfies listicle 90's pork belly thundercats cray</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Aliquam lorem ante dapibus in tellus",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "carousel": [
+                  {
+                    "id": 236,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+                  },
+                  {
+                    "id": 240,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/4.jpg"
+                  },
+                  {
+                    "id": 239,
+                    "url": "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/3.jpg"
+                  }
+                ],
+                "thumbnail_size": "full",
+                "slides_to_show": "2",
+                "slides_to_scroll": "1",
+                "navigation": "none"
+              },
+              "elements": [],
+              "widgetType": "image-carousel"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Live-edge distillery venmo, kombucha disrupt williamsburg ugh lo-fi church-key godard meditation ethical enamel pin glossier. Schlitz bespoke farm-to-table truffaut drinking vinegar, taiyaki forage coloring book <a href=\"#\" target=\"_blank\" rel=\"noopener\">knausgaard</a>.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "image-carousel",
+      "text-editor"
+    ]
+  },
+  {
+    "source": "Aliquam lorem ante dapibus in tellus",
+    "structure": {
+      "id": "__ID__",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "__ID__",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<blockquote><p>Banjo consequat drinking vinegar tattooed jianbing iPhone. Mustache la croix pug marfa brunch tbh before they sold out vice pork belly. Brooklyn vice jianbing, direct trade minim aliquip deepschlitz pop-up duis keffiyeh seitan coloring book.</p></blockquote>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "-30",
+                  "right": "0",
+                  "bottom": "-30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "__ID__",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Taiyaki irure est coloring book readymade austin. Four dollar toast portland chillwave, plaid wayfarers dreamcatcher master cleanse fanny pack. Est poke affogato, church-key deserunt woke gochujang ex aliqua next level veniam butcher raclette sint in.</p>",
+                "_margin": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    "widgets": [
+      "text-editor",
+      "text-editor"
+    ]
+  }
+]

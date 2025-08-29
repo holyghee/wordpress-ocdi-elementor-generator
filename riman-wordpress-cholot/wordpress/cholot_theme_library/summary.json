@@ -1,0 +1,34 @@
+{
+  "total_blocks": 57,
+  "block_types": [
+    "hero_slider",
+    "icon_box",
+    "service_card_with_shape",
+    "three_column",
+    "single_column",
+    "contact_form",
+    "shaped_section",
+    "two_column"
+  ],
+  "widgets_found": [
+    "cholot-testimonial-two",
+    "cholot-texticon",
+    "google_maps",
+    "cholot-sidebar",
+    "divider",
+    "icon",
+    "cholot-gallery",
+    "cholot-button-text",
+    "text-editor",
+    "icon-list",
+    "cholot-contact",
+    "image",
+    "cholot-team",
+    "rdn-slider",
+    "cholot-text-line",
+    "cholot-post-four",
+    "cholot-title",
+    "video",
+    "image-carousel"
+  ]
+}
