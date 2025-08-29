@@ -219,6 +219,8 @@ class IntelligentBlockProcessor:
                 widget['settings']['title'] = member.get('name', '')
                 widget['settings']['designation'] = member.get('position', '')
                 widget['settings']['text'] = member.get('bio', '')
+                if 'image' in member:
+                    widget['settings']['image'] = {'url': member['image'], 'id': ''}
                 
         return widget
     
