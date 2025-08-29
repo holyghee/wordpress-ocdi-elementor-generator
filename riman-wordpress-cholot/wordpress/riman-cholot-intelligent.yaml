@@ -92,17 +92,17 @@ pages:
           - name: "Dipl.-Ing. Jürgen Fischer"
             position: "Geschäftsführer & Gründer"
             bio: "25+ Jahre Erfahrung im Bereich Umwelt- und Sicherheitsmanagement"
-            image: "http://localhost:8081/wp-content/uploads/2025/01/dr-michael-riman-geschaeftsfuehrer.jpg"
+            image: "http://localhost:8082/dr-michael-riman-geschaeftsfuehrer.jpg"
             
           - name: "Dr. Sarah Weber"
             position: "Leiterin Schadstoffanalytik"
             bio: "Expertin für Asbest- und PCB-Analytik"
-            image: "http://localhost:8081/wp-content/uploads/2025/01/senior-living-expert.jpg"
+            image: "http://localhost:8082/sabine-weber-projektleitung.jpg"
             
           - name: "Thomas Klein"
             position: "Projektleiter Sanierung"
             bio: "Spezialist für Großprojekte und komplexe Sanierungen"
-            image: "http://localhost:8081/wp-content/uploads/2025/01/projektleiter-sanierung.jpg"
+            image: "http://localhost:8082/thomas-mueller-technische-leitung.jpg"
       
       # Testimonials
       - type: "testimonials"
