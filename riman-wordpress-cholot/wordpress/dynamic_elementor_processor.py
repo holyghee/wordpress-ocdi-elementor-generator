@@ -257,9 +257,9 @@ class DynamicElementorProcessor:
             })
             widgets.append(subtitle_widget)
         
-        # Contact Form Widget
+        # Contact Form Widget mit ID
         form_widget = self.create_widget('shortcode', {
-            'shortcode': '[contact-form-7 title="Kontaktformular"]'
+            'shortcode': '[contact-form-7 id="3010" title="Kontaktformular"]'
         })
         widgets.append(form_widget)
         
