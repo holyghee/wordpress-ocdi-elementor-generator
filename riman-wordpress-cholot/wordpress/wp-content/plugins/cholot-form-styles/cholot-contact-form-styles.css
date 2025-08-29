@@ -217,13 +217,7 @@
     display: inline-block;
 }
 
-/* Contact Section Background */
-.elementor-widget-shortcode .elementor-widget-container {
-    background: #1a1a1a;
-    padding: 60px 40px;
-    border-radius: 0;
-    box-shadow: none;
-}
+/* Contact Section Background - Removed, should be handled by Elementor section */
 
 /* Ajax Loader */
 .ajax-loader {
