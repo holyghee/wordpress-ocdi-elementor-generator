@@ -35,7 +35,7 @@ pages:
             text: "Als zertifizierter Fachbetrieb führen wir Asbestsanierungen sicher und gesetzeskonform durch."
             button_text: "Mehr erfahren"
             button_link: "#asbest"
-            image: "http://localhost:8081/wp-content/uploads/2025/01/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+            image: "http://localhost:8082/asbestsanierung-schutzausruestung-fachpersonal.jpg"
       
       # Service Cards Section 1 - Wie Cholot Home
       - type: "service-cards"
