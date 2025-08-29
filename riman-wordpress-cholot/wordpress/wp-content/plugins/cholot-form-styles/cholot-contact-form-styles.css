@@ -46,12 +46,12 @@
 .wpcf7-form textarea {
     width: 100%;
     padding: 18px 25px;
-    border: 1px solid #d5d5d5;
-    background: #fafafa;
+    border: 1px solid #333333;
+    background: rgba(255, 255, 255, 0.05);
     font-size: 15px;
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
-    color: #555555;
+    color: #ffffff;
     transition: all 0.4s ease;
     border-radius: 0;
     -webkit-appearance: none;
@@ -63,15 +63,15 @@
 .wpcf7-form select:focus,
 .wpcf7-form textarea:focus {
     border-color: #b68c2f;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
     outline: none;
-    box-shadow: 0 0 8px rgba(182, 140, 47, 0.15);
+    box-shadow: 0 0 15px rgba(182, 140, 47, 0.3);
 }
 
 /* Placeholder */
 .wpcf7-form input::placeholder,
 .wpcf7-form textarea::placeholder {
-    color: #a8a8a8;
+    color: #666666;
     font-style: normal;
     font-weight: 300;
     opacity: 1;
@@ -199,7 +199,7 @@
     display: block;
     font-size: 14px;
     font-weight: 500;
-    color: #333333;
+    color: #ffffff;
     margin-bottom: 10px;
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
@@ -219,10 +219,10 @@
 
 /* Contact Section Background */
 .elementor-widget-shortcode .elementor-widget-container {
-    background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+    background: #1a1a1a;
+    padding: 60px 40px;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 /* Ajax Loader */
