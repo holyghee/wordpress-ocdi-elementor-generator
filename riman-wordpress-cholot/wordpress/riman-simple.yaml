@@ -1,0 +1,253 @@
+# RIMAN GmbH - Vereinfachte Website Konfiguration
+# Optimiert für Cholot Theme mit lokalen Bildern
+
+site:
+  title: "RIMAN GmbH"
+  url: "http://localhost:8081"
+  description: "Ihr Experte für Abbruch-Management, Altlastensanierung und Schadstoffmanagement seit 1998"
+  
+global_settings:
+  primary_color: "#333399"
+  secondary_color: "#FF0000"
+  font_family: "Arial, Helvetica, sans-serif"
+
+pages:
+  - id: "homepage"
+    title: "RIMAN GmbH - Sicher bauen, Gesund leben"
+    slug: ""
+    blocks:
+      - type: "hero-slider"
+        slides:
+          - title: "25+ Jahre Erfahrung in Sicherheit & Sanierung"
+            subtitle: "Seit 1998 Ihr zuverlässiger Partner"
+            text: "Innovative Lösungen bei Abbruch, Sanierung und Schadstoffmanagement"
+            button_text: "Unsere Leistungen"
+            button_link: "#services"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/rueckbaumanagement-abriss-entsorgung.jpg"
+            
+          - title: "Professionelles Abbruch-Management"
+            subtitle: "Wirtschaftlich und rechtssicher"
+            text: "Von der Planung bis zur Entsorgung - alles aus einer Hand"
+            button_text: "Mehr erfahren"
+            button_link: "#abbruch"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/grossprojekt-industrieanlage-rueckbau.jpg"
+            
+      - type: "service-cards"
+        title: "Unsere Kernkompetenzen"
+        subtitle: "Komplettlösungen aus einer Hand"
+        columns: 3
+        services:
+          - title: "Abbruch-Management"
+            icon: "fa fa-building"
+            text: "Professionelle Planung und Durchführung von Abbruchprojekten"
+            
+          - title: "Altlasten-Sanierung"
+            icon: "fa fa-recycle"
+            text: "Fachgerechte Sanierung kontaminierter Standorte"
+            
+          - title: "Schadstoff-Management"
+            icon: "fa fa-shield"
+            text: "Sichere Erkundung und Entsorgung von Asbest, PCB und PAK"
+            
+      - type: "title-section"
+        title: "Warum RIMAN GmbH?"
+        subtitle: "Der Zeit ein wenig voraus"
+        
+      - type: "text-content"
+        content: |
+          <h3>Ihr Partner für Sicherheit und Umweltschutz</h3>
+          <p>Seit 1998 steht die RIMAN GmbH ihren Kunden als innovatives Dienstleistungsunternehmen zur Verfügung. 
+          Unser Arbeitsbereich ist die <strong>Sicherheit</strong>, unsere Kernthemen sind <strong>"sicher bauen und gesund leben"</strong>.</p>
+          
+          <p>Unsere Zielsetzung ist die qualifizierte Aufklärung über gesundheitliche und rechtliche Risiken 
+          sowie das Aufzeigen und Umsetzen von wirtschaftlichen Lösungen.</p>
+          
+          <h4>Unsere Leistungen im Überblick:</h4>
+          <ul>
+            <li>✓ Abbruch- und Rückbaumanagement</li>
+            <li>✓ Altlastensanierung und Bodenschutz</li>
+            <li>✓ Schadstofferkundung und -sanierung (Asbest, PCB, PAK)</li>
+            <li>✓ Sicherheits- und Gesundheitsschutz-Koordination (SiGeKo)</li>
+            <li>✓ Konflikt- und Risikomanagement / Mediation</li>
+          </ul>
+          
+      - type: "team-section"
+        title: "Unser Team"
+        subtitle: "Experten mit über 25 Jahren Erfahrung"
+        members:
+          - name: "Dipl.-Ing. Jürgen Fischer"
+            position: "Geschäftsführer"
+            bio: "25+ Jahre Erfahrung im Bereich Umwelt- und Sicherheitsmanagement"
+            image: "http://localhost:8081/wp-content/uploads/2025/01/dr-michael-riman-geschaeftsfuehrer.jpg"
+            
+      - type: "testimonials"
+        title: "Referenzen"
+        testimonials:
+          - text: "RIMAN GmbH hat unser Abbruchprojekt professionell und kosteneffizient durchgeführt. Die Expertise im Umgang mit Schadstoffen war beeindruckend."
+            author: "Klaus Müller"
+            position: "Bauherr, Heidelberg"
+            
+          - text: "Dank der kompetenten Beratung konnten wir erhebliche Kosten bei der Altlastensanierung einsparen."
+            author: "Dr. Schmidt"
+            position: "Projektleiter, Mannheim"
+            
+          - text: "Die SiGeKo-Betreuung durch RIMAN war vorbildlich. Alle Auflagen wurden eingehalten."
+            author: "Architekturbüro Weber"
+            position: "Ludwigshafen"
+            
+      - type: "contact-form"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Wir beraten Sie gerne unverbindlich"
+
+  - id: "abbruch"
+    title: "Abbruch-Management"
+    slug: "abbruch-management"
+    blocks:
+      - type: "title-section"
+        title: "Professionelles Abbruch-Management"
+        subtitle: "Chaos vermeiden, Kosten kontrollieren"
+        
+      - type: "text-content"
+        content: |
+          <h3>Die Herausforderung</h3>
+          <p>Nirgendwo in der Baubranche herrschen derart chaotische Verhältnisse wie in der Abbruchbranche. 
+          Ein juristischer Dschungel unterschiedlichster Bewertungen von Belastungen bei Abbruchabfällen, 
+          hohe Sicherheitsauflagen und der künstliche Mangel an Entsorgungswegen haben zu einer 
+          dramatischen <strong>Explosion der Kosten</strong> geführt.</p>
+          
+          <h3>Unsere Lösung</h3>
+          <p>Die RIMAN GmbH steht seit über 25 Jahren für transparente, wirtschaftliche und rechtssichere 
+          Abbruchprojekte. Wir navigieren Sie sicher durch alle Herausforderungen:</p>
+          
+          <ul>
+            <li>Bedarfsanalyse und Machbarkeitsstudien</li>
+            <li>Schadstoffkataster und Entsorgungskonzepte</li>
+            <li>Ausschreibung und Vergabe</li>
+            <li>Bauüberwachung und Qualitätskontrolle</li>
+            <li>Kostenkontrolle und Nachtragsmanagement</li>
+          </ul>
+          
+      - type: "service-cards"
+        title: "Leistungen im Detail"
+        columns: 3
+        services:
+          - title: "Planung"
+            icon: "fa fa-clipboard"
+            text: "Detaillierte Abbruchplanung unter Berücksichtigung aller Auflagen"
+            
+          - title: "Ausschreibung"
+            icon: "fa fa-file-contract"
+            text: "Rechtssichere Ausschreibungen mit eindeutigen Leistungsbeschreibungen"
+            
+          - title: "Bauleitung"
+            icon: "fa fa-hard-hat"
+            text: "Professionelle Bauüberwachung und Dokumentation"
+
+  - id: "altlasten"
+    title: "Altlasten-Sanierung"
+    slug: "altlasten-sanierung"
+    blocks:
+      - type: "title-section"
+        title: "Altlasten-Sanierung"
+        subtitle: "Professionell und wirtschaftlich"
+        
+      - type: "text-content"
+        content: |
+          <h3>Altlasten sind häufiger als gedacht</h3>
+          <p>Altlasten-Sanierung ist nicht nur ein Thema für Industrie-Standorte. 
+          Sowohl Unkenntnis als auch der kurzfristige finanzielle Vorteil der Verwendung 
+          "günstiger Füllstoffe" haben aus vielen Grundstücken kleine Mülldeponien gemacht.</p>
+          
+          <h3>Unser Vorgehen</h3>
+          <ol>
+            <li><strong>Historische Erkundung:</strong> Recherche zur Nutzungshistorie</li>
+            <li><strong>Orientierende Untersuchung:</strong> Erste Probenahmen</li>
+            <li><strong>Detailuntersuchung:</strong> Umfassende Analytik</li>
+            <li><strong>Sanierungsplanung:</strong> Entwicklung des optimalen Konzepts</li>
+            <li><strong>Sanierung:</strong> Fachgerechte Umsetzung</li>
+            <li><strong>Monitoring:</strong> Langzeitüberwachung</li>
+          </ol>
+
+  - id: "schadstoffe"
+    title: "Schadstoff-Management"
+    slug: "schadstoff-management"
+    blocks:
+      - type: "title-section"
+        title: "Schadstoff- & Gefahrstoff-Management"
+        subtitle: "Sicherheit durch Expertise"
+        
+      - type: "text-content"
+        content: |
+          <h3>Schadstoffe professionell managen</h3>
+          <p>Schadstoffe in Gebäuden sind keine Seltenheit. Bis in die 1990er Jahre wurden 
+          gesundheitsgefährdende Materialien verbaut. Eine fachgerechte Erkundung schützt 
+          Ihre Gesundheit und vermeidet rechtliche Konsequenzen.</p>
+          
+          <h4>Unser Schadstoff-Portfolio:</h4>
+          <ul>
+            <li><strong>Asbest:</strong> Erkundung und Sanierung nach TRGS 519</li>
+            <li><strong>PCB:</strong> Dichtungsmassen, Kondensatoren, Farbanstriche</li>
+            <li><strong>PAK:</strong> Teerhaltige Materialien und Parkettkleber</li>
+            <li><strong>KMF:</strong> Künstliche Mineralfasern in Dämmstoffen</li>
+            <li><strong>Holzschutzmittel:</strong> PCP, Lindan und DDT</li>
+            <li><strong>Schwermetalle:</strong> Blei, Cadmium, Chrom</li>
+          </ul>
+
+  - id: "kontakt"
+    title: "Kontakt"
+    slug: "kontakt"
+    blocks:
+      - type: "title-section"
+        title: "Kontaktieren Sie uns"
+        subtitle: "Wir beraten Sie gerne"
+        
+      - type: "text-content"
+        content: |
+          <h3>RIMAN GmbH</h3>
+          <p>
+          <strong>Adresse:</strong><br>
+          Industriestraße 25<br>
+          69123 Heidelberg<br><br>
+          
+          <strong>Telefon:</strong> +49 (0) 6221 123456<br>
+          <strong>E-Mail:</strong> info@riman.de<br><br>
+          
+          <strong>Geschäftsführer:</strong><br>
+          Dipl.-Ing. Jürgen Fischer
+          </p>
+          
+      - type: "contact-form"
+        title: "Anfrage-Formular"
+
+  - id: "impressum"
+    title: "Impressum"
+    slug: "impressum"
+    blocks:
+      - type: "title-section"
+        title: "Impressum"
+        
+      - type: "text-content"
+        content: |
+          <h3>Angaben gemäß § 5 TMG</h3>
+          <p>
+          RIMAN GmbH<br>
+          Industriestraße 25<br>
+          69123 Heidelberg
+          </p>
+          
+          <p>
+          <strong>Vertreten durch:</strong><br>
+          Geschäftsführer: Dipl.-Ing. Jürgen Fischer
+          </p>
+          
+          <p>
+          <strong>Registereintrag:</strong><br>
+          Eintragung im Handelsregister<br>
+          Registergericht: Amtsgericht Mannheim<br>
+          Registernummer: HRB 123456
+          </p>
+          
+          <p>
+          <strong>Umsatzsteuer-ID:</strong><br>
+          DE123456789
+          </p>
