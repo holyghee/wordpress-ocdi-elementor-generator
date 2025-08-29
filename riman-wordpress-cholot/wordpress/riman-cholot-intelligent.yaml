@@ -28,7 +28,7 @@ pages:
             text: "Professionelle Lösungen für Asbest-, PCB- und Schadstoffsanierung. Wir stehen für Sicherheit, Qualität und Nachhaltigkeit."
             button_text: "Unsere Leistungen"
             button_link: "#services"
-            image: "http://localhost:8081/wp-content/uploads/2025/01/rueckbaumanagement-abriss-entsorgung.jpg"
+            image: "http://localhost:8082/systematischer-gebaeuderueckbau-kreislaufwirtschaft.jpg"
             
           - title: "Zertifizierte Asbestsanierung nach TRGS 519"
             subtitle: "Höchste Sicherheitsstandards"
