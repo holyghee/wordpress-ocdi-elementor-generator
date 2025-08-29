@@ -194,6 +194,18 @@
     margin-bottom: 0;
 }
 
+/* Labels */
+.wpcf7-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 /* Spinner */
 .wpcf7-spinner {
     display: none;
