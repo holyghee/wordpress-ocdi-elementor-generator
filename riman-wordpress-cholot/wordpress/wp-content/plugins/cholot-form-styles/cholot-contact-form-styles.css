@@ -231,6 +231,23 @@
     margin: -40px -40px;
 }
 
+/* Specific targeting for the contact form section */
+.elementor-element-fddc685,
+[data-id="fddc685"] {
+    background: #1a1a1a !important;
+}
+
+/* Make the entire section with contact form dark */
+.elementor-section-boxed:has(.cholot-contact-shortcode) {
+    background: #1a1a1a !important;
+}
+
+/* Ensure column also has dark background */
+.elementor-column:has(.cholot-contact-shortcode) .elementor-widget-wrap {
+    background: #1a1a1a;
+    padding: 40px;
+}
+
 /* Ajax Loader */
 .ajax-loader {
     display: none;
