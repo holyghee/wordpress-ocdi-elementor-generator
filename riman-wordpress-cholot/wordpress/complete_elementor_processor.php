@@ -17,12 +17,10 @@ class CompleteElementorProcessor {
     }
     
     /**
-     * Generiert komplette Seite aus YAML Config
+     * Generiert komplette Seite aus Config Array
      */
-    public function generateFromYaml($yaml_file) {
-        $config = yaml_parse_file($yaml_file);
-        
-        echo "📋 Verarbeite YAML Config...\n";
+    public function generateFromConfig($config) {
+        echo "📋 Verarbeite Config...\n";
         
         foreach ($config['pages'] as $page) {
             $sections = [];
