@@ -216,10 +216,10 @@ foreach ($service_cards as $index => $card) {
                                 ],
                                 "elements" => [],
                                 "widgetType" => "cholot-texticon"
-                            }
+                            ]
                         ],
                         "isInner" => true
-                    }
+                    ]
                 ],
                 "isInner" => true
             ]
