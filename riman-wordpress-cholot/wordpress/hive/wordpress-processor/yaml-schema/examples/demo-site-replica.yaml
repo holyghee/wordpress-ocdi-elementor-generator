@@ -1,0 +1,569 @@
+# Cholot Demo Site Replica Configuration
+# This YAML replicates the exact demo-data-fixed.xml structure
+
+site:
+  title: "Cholot"
+  description: "Just another WordPress site"
+  url: "https://theme.winnertheme.com/cholot"
+  language: "en-US"
+  timezone: "UTC"
+
+design:
+  colors:
+    primary: "#b68c2f"
+    secondary: "#ffffff"
+    background: "#f4f4f4"
+    text: "#000000"
+    accent: "#232323"
+    white: "#ffffff"
+    black: "#000000"
+    gray: "rgba(255,255,255,0.06)"
+  
+  fonts:
+    primary: 
+      family: "Source Sans Pro"
+      weights: [400, 600, 700, 900]
+    secondary:
+      family: "Source Sans Pro"
+      weights: [400, 600, 700, 900]
+    headings:
+      family: "Source Sans Pro"
+      weights: [400, 600, 700, 900]
+  
+  spacing:
+    xs: "5px"
+    sm: "10px"
+    md: "15px"
+    lg: "30px"
+    xl: "60px"
+    xxl: "120px"
+  
+  borders:
+    radius: "3px"
+    width: "2px"
+  
+  shadows:
+    light: "0 0 0 1px rgba(0,0,0,0.18)"
+    medium: "0 2px 4px rgba(0,0,0,0.18)"
+    heavy: "0 4px 8px rgba(0,0,0,0.18)"
+
+navigation:
+  menus:
+    - id: "default-menu"
+      name: "Default Menu"
+      items:
+        - label: "Home"
+          url: "/"
+          icon: ""
+        - label: "About"
+          url: "/about/"
+          icon: ""
+        - label: "Services"
+          url: "/services/"
+          icon: ""
+        - label: "Gallery"
+          url: "/gallery/"
+          icon: ""
+        - label: "Blog"
+          url: "/blog/"
+          icon: ""
+        - label: "Contact"
+          url: "/contact/"
+          icon: ""
+
+content:
+  posts:
+    categories:
+      - id: "8"
+        name: "People"
+        slug: "people"
+      - id: "10"
+        name: "Life"
+        slug: "life"
+      - id: "1"
+        name: "Uncategorized"
+        slug: "uncategorized"
+    tags:
+      - id: "5"
+        name: "travel"
+        slug: "travel"
+      - id: "6"
+        name: "liquid"
+        slug: "liquid"
+      - id: "7"
+        name: "wildfire"
+        slug: "wildfire"
+      - id: "9"
+        name: "technology"
+        slug: "technology"
+      - id: "11"
+        name: "movie"
+        slug: "movie"
+      - id: "12"
+        name: "humming"
+        slug: "humming"
+      - id: "13"
+        name: "magic"
+        slug: "magic"
+    items:
+      - title: "Sample Blog Post 1"
+        content: "<p>This is a sample blog post for the retirement community.</p>"
+        excerpt: "Sample excerpt for blog post..."
+        featured_image: "esther-town-492626-unsplash.jpg"
+        categories: ["People"]
+        tags: ["technology", "travel"]
+        date: "2019-06-27T07:27:19Z"
+      - title: "Community Life Updates"
+        content: "<p>Updates about community activities and events.</p>"
+        excerpt: "Community updates and activities..."
+        featured_image: "community-life.jpg"
+        categories: ["Life"]
+        tags: ["community", "events"]
+        date: "2019-06-28T07:27:19Z"
+  
+  media:
+    images:
+      - id: "50"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg"
+        alt: "Gallery Image 1"
+        caption: ""
+        title: "Gallery Image 1"
+      - id: "51"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+        alt: "Gallery Image 2"
+        caption: ""
+        title: "Gallery Image 2"
+      - id: "48"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/josh-appel-423804-unsplash.jpg"
+        alt: "Gallery Image 3"
+        caption: ""
+        title: "Gallery Image 3"
+      - id: "47"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg"
+        alt: "Gallery Image 4"
+        caption: ""
+        title: "Gallery Image 4"
+      - id: "11"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/huy-phan-100866-unsplash.jpg"
+        alt: "Gallery Image 5"
+        caption: ""
+        title: "Gallery Image 5"
+      - id: "52"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/vlad-sargu-479334-unsplash.jpg"
+        alt: "Gallery Image 6"
+        caption: ""
+        title: "Gallery Image 6"
+      - id: "659"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/logo-white-1.png"
+        alt: "Cholot Logo"
+        caption: ""
+        title: "Cholot Logo"
+      - id: "237"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg"
+        alt: "Background Image 2"
+        caption: ""
+        title: "Background Image 2"
+      - id: "350"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg"
+        alt: "Service Background Image"
+        caption: ""
+        title: "Service Background Image"
+      - id: "236"
+        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+        alt: "Footer Background Image"
+        caption: ""
+        title: "Footer Background Image"
+
+pages:
+  - id: "home"
+    title: "Home"
+    slug: ""
+    template: "default"
+    sections:
+      # Header Section
+      - type: "header"
+        id: "header_section"
+        settings:
+          background:
+            type: "classic"
+            color: "transparent"
+          padding: {top: "0", right: "0", bottom: "0", left: "0"}
+          structure: "33"
+        columns:
+          - size: 25
+            responsive: {tablet: 20, mobile: 40}
+            widgets:
+              - type: "cholot-logo"
+                id: "site_logo"
+                settings:
+                  logo_img:
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/logo-white-1.png"
+                    id: "659"
+                  align: "left"
+                  height: 70
+          
+          - size: 50
+            responsive: {tablet: 80, mobile: 60}
+            widgets:
+              - type: "cholot-menu"
+                id: "main_menu"
+                settings:
+                  cholot_menu: "default-menu"
+                  align: "right"
+                  align_tablet: "right"
+                  desktop_menu_tablet: "none"
+                  mobile_menu: "none"
+                  mobile_menu_tablet: "inline-block"
+                  styling:
+                    menu_color: "#ffffff"
+                    menu_color_hover: "#b68c2f"
+                    menu_child_color: "#ffffff"
+                    menu_child_color_hover: "#b68c2f"
+                    hamb_color: "#ffffff"
+                    opacity: 0.4
+                    opacity_hover: 1.0
+                  typography:
+                    font_family: "Source Sans Pro"
+                    font_weight: 900
+                    text_transform: "uppercase"
+                    letter_spacing: 0
+                    font_size: 13
+          
+          - size: 25
+            responsive: {tablet: 100, mobile: 0}
+            widgets:
+              - type: "cholot-button"
+                id: "header_button"
+                settings:
+                  btn_text: "+122-000-000"
+                  btn_sub: "Schedule a visit"
+                  link:
+                    url: "https://theme.winnertheme.com/cholot/contact/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-chair"
+                  styling:
+                    background_color: "#b68c2f"
+                    background_color_hover: "#ffffff"
+                    text_color: "#ffffff"
+                    text_color_hover: "#b68c2f"
+                    border_color: "#b68c2f"
+                    border_color_hover: "#b68c2f"
+                    border_width: 2
+                    border_radius: 3
+      
+      # Main Content Section
+      - type: "content"
+        id: "main_content"
+        settings:
+          background:
+            type: "classic"
+            color: "#f4f4f4"
+            overlay:
+              image: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg"
+              position: "center left"
+              size: "cover"
+              opacity: 0.02
+          padding: {top: "60px", right: "0", bottom: "60px", left: "0"}
+          structure: "40"
+        columns:
+          # Service Card Column
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "service_card"
+                settings:
+                  title: "Cholot"
+                  subtitle: ""
+                  text: "<p>Retirement Community</p>"
+                  icon: "fas fa-crown"
+                  title_color: "#ffffff"
+                  subtitle_color: "#b68c2f"
+                  text_color: "#b68c2f"
+                  icon_color: "#b68c2f"
+                  icon_size: 15
+                  typography:
+                    title:
+                      font_size: 24
+                      font_weight: 400
+                      line_height: 1
+                    text:
+                      font_size: 13
+                      font_weight: "normal"
+                      text_transform: "uppercase"
+                      line_height: 1
+                      letter_spacing: 0
+                  margins:
+                    title: {top: 0, right: 0, bottom: 0, left: 0}
+                    text: {top: 0, right: 0, bottom: -30, left: 0}
+                    icon: {top: 0, right: 0, bottom: -10, left: 0}
+          
+          # About Us Column
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "about_title"
+                settings:
+                  title: "About us<span>.</span>"
+                  header_size: "h3"
+                  align: "left"
+                  align_tablet: "left"
+                  typography:
+                    font_size: 20
+                  margins: {top: 0, right: 0, bottom: -15, left: 0}
+              
+              - type: "divider"
+                id: "about_divider"
+                settings:
+                  color: "#b68c2f"
+                  width: 25
+                  align: "left"
+                  gap: 0
+                  margins: {top: 0, right: 0, bottom: 0, left: 0}
+              
+              - type: "text-editor"
+                id: "about_content"
+                settings:
+                  editor: "<p>Building with our residents is something we keep close to our heart.</p><p>Let us help you celebrate your loved one's story by creating a new chapter that's worth sharing.</p>"
+                  align: "left"
+                  margins: {top: -15, right: 0, bottom: -30, left: 0}
+          
+          # Recent Posts Column
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "recent_posts_title"
+                settings:
+                  title: "Recent post<span>.</span>"
+                  header_size: "h3"
+                  align: "left"
+                  align_tablet: "left"
+                  typography:
+                    font_size: 20
+                  margins: {top: 0, right: 0, bottom: -15, left: 0}
+              
+              - type: "divider"
+                id: "recent_posts_divider"
+                settings:
+                  color: "#b68c2f"
+                  width: 25
+                  align: "left"
+                  gap: 0
+                  margins: {top: 0, right: 0, bottom: 0, left: 0}
+              
+              - type: "cholot-post-three"
+                id: "recent_posts"
+                settings:
+                  blog_post: 2
+                  sort_cat: true
+                  blog_cat: ["8"]
+                  show_excerpt: false
+                  excerpt_after: "..."
+                  blog_column: "one"
+                  button: "Read More"
+                  cat_show: true
+                  styling:
+                    image_width: 30
+                    title_color: "#000000"
+                    title_color_hover: "rgba(0,0,0,0.61)"
+                    meta_color: "#b68c2f"
+                    meta_link_color: "#b68c2f"
+                    meta_link_hover_color: "#d8d8d8"
+                    meta_icon_color: "#b68c2f"
+                    image_border_color: "#b68c2f"
+                    image_hover_border_color: "#ffffff"
+                  typography:
+                    title:
+                      font_size: 14
+                      font_weight: 600
+                    meta:
+                      font_size: 14
+                      font_style: "normal"
+                  margins:
+                    title: {top: 0, right: 0, bottom: 15, left: 0}
+                    meta: {top: 0, right: 0, bottom: 0, left: 0}
+          
+          # Gallery Column
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "gallery_title"
+                settings:
+                  title: "Gallery<span>.</span>"
+                  header_size: "h3"
+                  align: "left"
+                  align_tablet: "left"
+                  typography:
+                    font_size: 20
+                  margins: {top: 0, right: 0, bottom: -15, left: 0}
+              
+              - type: "divider"
+                id: "gallery_divider"
+                settings:
+                  color: "#b68c2f"
+                  width: 25
+                  align: "left"
+                  gap: 0
+                  margins: {top: 0, right: 0, bottom: 0, left: 0}
+              
+              - type: "cholot-gallery"
+                id: "home_gallery"
+                settings:
+                  gallery:
+                    - id: "50"
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg"
+                    - id: "51"
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+                    - id: "48"
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/josh-appel-423804-unsplash.jpg"
+                    - id: "47"
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg"
+                    - id: "11"
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/huy-phan-100866-unsplash.jpg"
+                    - id: "52"
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/vlad-sargu-479334-unsplash.jpg"
+                  port_column: "col-md-4"
+                  gallery_height: 50
+                  gallery_margin: 7.5
+                  title_show: false
+                  caption_show: false
+                  responsive:
+                    tablet:
+                      gallery_height: 30
+                      gallery_margin: 3
+                  margins: {top: -22.5, right: 0, bottom: -30, left: 0}
+      
+      # Footer Section
+      - type: "footer"
+        id: "footer_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#232323"
+            overlay:
+              image: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/1.jpg"
+              position: "top center"
+              size: "cover"
+              opacity: 0.02
+          padding: {top: "15px", right: "0", bottom: "15px", left: "0"}
+          structure: "33"
+        columns:
+          # Copyright Column
+          - size: 25
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "text-editor"
+                id: "copyright_text"
+                settings:
+                  editor: "<p>Design by ridianur 2019 with alot of Coffee.</p>"
+                  text_color: "#ffffff"
+                  typography:
+                    font_size: 14
+                    font_weight: "normal"
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  margins: {top: 0, right: 0, bottom: -30, left: 0}
+          
+          # Contact Info Column
+          - size: 50
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "icon-list"
+                id: "contact_info"
+                settings:
+                  icon_list:
+                    - text: "Buah Batu Street 886 - ID"
+                      selected_icon: "fas fa-house-damage"
+                      link: {url: "", is_external: false, nofollow: false}
+                    - text: "+122 - 000 - 000"
+                      selected_icon: "fas fa-phone-square-alt"
+                      link: {url: "", is_external: false, nofollow: false}
+                    - text: "email@email.com"
+                      selected_icon: "fas fa-envelope-open-text"
+                      link: {url: "#", is_external: false, nofollow: false}
+                  space_between: 20
+                  divider_color: "rgba(255,255,255,0.06)"
+                  divider_width: 100
+                  icon_color: "#b68c2f"
+                  icon_size: 12
+                  text_color: "#ffffff"
+                  text_indent: 10
+                  icon_align: "center"
+                  icon_align_tablet: "center"
+                  icon_self_align: "center"
+                  view: "inline"
+                  typography:
+                    font_size: 14
+          
+          # Social Icons Column
+          - size: 25
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "social-icons"
+                id: "social_media"
+                settings:
+                  social_icon_list:
+                    - social_icon: "fab fa-facebook-f"
+                      link: {url: "", is_external: true, nofollow: false}
+                    - social_icon: "fab fa-twitter"
+                      link: {url: "", is_external: true, nofollow: false}
+                    - social_icon: "fab fa-dribbble"
+                      link: {url: "", is_external: true, nofollow: false}
+                    - social_icon: "fab fa-pinterest-p"
+                      link: {url: "", is_external: true, nofollow: false}
+                    - social_icon: "fab fa-foursquare"
+                      link: {url: "", is_external: true, nofollow: false}
+                    - social_icon: "fab fa-instagram"
+                      link: {url: "", is_external: true, nofollow: false}
+                  align: "right"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  icon_color: "custom"
+                  icon_primary_color: "#b68c2f"
+                  icon_secondary_color: "#ffffff"
+                  icon_size: 13
+                  border_radius: 100
+                  hover_primary_color: "#ffffff"
+                  hover_secondary_color: "#b68c2f"
+                  hover_animation: "shrink"
+
+global:
+  header:
+    sticky: false
+    transparent: true
+    logo_position: "left"
+    menu_position: "right"
+    background_color: "transparent"
+    text_color: "#ffffff"
+    border_bottom: false
+  
+  footer:
+    background_color: "#232323"
+    text_color: "#ffffff"
+    copyright_text: "Design by ridianur 2019 with alot of Coffee."
+    social_links: ["facebook", "twitter", "dribbble", "pinterest", "foursquare", "instagram"]
+  
+  blog:
+    posts_per_page: 10
+    excerpt_length: 55
+    show_author: true
+    show_date: true
+    show_categories: true
+    show_tags: true
+  
+  performance:
+    lazy_load_images: true
+    minify_css: true
+    minify_js: true
+    enable_caching: true
+
+migration:
+  export_settings: false
+  import_demo_data: true
+  preserve_content: false
+  backup_before_import: true

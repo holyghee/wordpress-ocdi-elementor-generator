@@ -1,0 +1,312 @@
+# ============================================
+# DYNAMISCHES BEISPIEL - Zeigt alle Möglichkeiten
+# ============================================
+# Dieses Beispiel zeigt, wie flexibel das System ist:
+# - Variable Anzahl von Service-Karten
+# - Verschiedene Widget-Typen
+# - Unterschiedliche Layouts
+# - Mehrere Seiten
+
+site:
+  name: "TechCorp Solutions"
+  url: "https://techcorp.com"
+  language: "de-DE"
+
+# Globale Design-Tokens (werden überall verwendet)
+design:
+  colors:
+    primary: "#2980b9"     # Blau statt Gold
+    secondary: "#34495e"   # Dunkelgrau
+    accent: "#27ae60"      # Grün für CTAs
+    danger: "#e74c3c"      # Rot für Warnungen
+    background: "#ecf0f1"  # Hellgrau
+  fonts:
+    heading: "Montserrat"  # Andere Schriftart
+    body: "Open Sans"
+  spacing:
+    section_padding: "80px"
+    widget_margin: "30px"
+
+# Mehrere Seiten definieren
+pages:
+  # ========== STARTSEITE ==========
+  - id: "home"
+    title: "TechCorp - Innovative IT-Lösungen"
+    template: "full-width"
+    sections:
+      
+      # Hero mit Video-Hintergrund
+      - type: "hero"
+        settings:
+          background_type: "video"
+          background_video: "https://example.com/tech-bg.mp4"
+          height: "100vh"
+          shape_divider_bottom: "waves"
+        widgets:
+          - type: "cholot-title"
+            content:
+              title: "Die Zukunft der IT"
+              subtitle: "Innovative Lösungen für Ihr Unternehmen"
+              animation: "fadeInUp"
+          - type: "button-group"
+            buttons:
+              - text: "Demo anfordern"
+                link: "#demo"
+                style: "primary"
+                size: "large"
+              - text: "Preise ansehen"
+                link: "/preise"
+                style: "outline"
+                size: "large"
+      
+      # Dynamische Service-Karten (beliebige Anzahl)
+      - type: "services"
+        title: "Unsere Lösungen"
+        subtitle: "Wählen Sie aus unserem Portfolio"
+        columns: 3  # Kann 2, 3, 4 oder 6 sein
+        services:  # Hier können beliebig viele Services definiert werden
+          - icon: "fas fa-cloud"
+            title: "Cloud Computing"
+            description: "Skalierbare Cloud-Infrastruktur"
+            link: "/cloud"
+          - icon: "fas fa-lock"
+            title: "Cyber Security"
+            description: "Umfassender Schutz Ihrer Daten"
+            link: "/security"
+          - icon: "fas fa-robot"
+            title: "KI & Automatisierung"
+            description: "Intelligente Prozessoptimierung"
+            link: "/ai"
+          - icon: "fas fa-database"
+            title: "Big Data"
+            description: "Datenanalyse und Insights"
+            link: "/bigdata"
+          - icon: "fas fa-mobile-alt"
+            title: "App-Entwicklung"
+            description: "Native und Cross-Platform Apps"
+            link: "/apps"
+          - icon: "fas fa-globe"
+            title: "Web-Entwicklung"
+            description: "Moderne Webanwendungen"
+            link: "/web"
+          # Kann erweitert werden auf 9, 12, etc.
+          - icon: "fas fa-chart-line"
+            title: "Business Intelligence"
+            description: "Datengetriebene Entscheidungen"
+            link: "/bi"
+          - icon: "fas fa-network-wired"
+            title: "IoT-Lösungen"
+            description: "Vernetzte Systeme"
+            link: "/iot"
+          - icon: "fas fa-headset"
+            title: "24/7 Support"
+            description: "Rund um die Uhr für Sie da"
+            link: "/support"
+      
+      # Feature-Boxen mit Icons
+      - type: "features"
+        layout: "alternating"  # Links-Rechts abwechselnd
+        features:
+          - image: "feature1.jpg"
+            icon: "fas fa-rocket"
+            title: "Schnelle Implementierung"
+            description: |
+              Unsere Lösungen sind in wenigen Tagen einsatzbereit.
+              Keine langen Wartezeiten, keine komplexen Installationen.
+            points:
+              - "Setup in 24 Stunden"
+              - "Sofort einsatzbereit"
+              - "Keine Ausfallzeiten"
+            button:
+              text: "Mehr erfahren"
+              link: "/features/speed"
+          
+          - image: "feature2.jpg"
+            icon: "fas fa-shield-alt"
+            title: "Höchste Sicherheit"
+            description: |
+              Zertifiziert nach ISO 27001. Ihre Daten sind bei uns
+              in den besten Händen.
+            points:
+              - "Ende-zu-Ende Verschlüsselung"
+              - "DSGVO-konform"
+              - "Regelmäßige Audits"
+            button:
+              text: "Sicherheit prüfen"
+              link: "/features/security"
+      
+      # Statistiken
+      - type: "statistics"
+        background: "gradient"
+        items:
+          - number: "500+"
+            label: "Kunden"
+            icon: "fas fa-users"
+          - number: "99.9%"
+            label: "Uptime"
+            icon: "fas fa-server"
+          - number: "24/7"
+            label: "Support"
+            icon: "fas fa-headset"
+          - number: "50+"
+            label: "Länder"
+            icon: "fas fa-globe"
+      
+      # Preistabellen
+      - type: "pricing"
+        title: "Transparente Preise"
+        columns: 3
+        plans:
+          - name: "Starter"
+            price: "49€"
+            period: "pro Monat"
+            features:
+              - "5 Benutzer"
+              - "10 GB Speicher"
+              - "E-Mail Support"
+              - included: false
+                text: "Premium Features"
+            button:
+              text: "Jetzt starten"
+              link: "/register?plan=starter"
+          
+          - name: "Professional"
+            price: "99€"
+            period: "pro Monat"
+            featured: true  # Hervorgehoben
+            badge: "Beliebt"
+            features:
+              - "25 Benutzer"
+              - "100 GB Speicher"
+              - "24/7 Support"
+              - "Premium Features"
+              - "API-Zugriff"
+            button:
+              text: "Jetzt starten"
+              link: "/register?plan=pro"
+              style: "primary"
+          
+          - name: "Enterprise"
+            price: "Individuell"
+            period: "auf Anfrage"
+            features:
+              - "Unbegrenzte Benutzer"
+              - "Unbegrenzter Speicher"
+              - "Dedizierter Support"
+              - "Alle Features"
+              - "SLA-Garantie"
+              - "Individuelle Anpassungen"
+            button:
+              text: "Kontakt aufnehmen"
+              link: "/contact?plan=enterprise"
+      
+      # Testimonials-Karussell
+      - type: "testimonials"
+        style: "carousel"  # oder "grid"
+        autoplay: true
+        items:
+          - text: "TechCorp hat unsere IT-Infrastruktur revolutioniert."
+            author: "Max Mustermann"
+            company: "Musterfirma GmbH"
+            image: "testimonial1.jpg"
+            rating: 5
+          - text: "Excellenter Support und innovative Lösungen."
+            author: "Anna Schmidt"
+            company: "Schmidt AG"
+            image: "testimonial2.jpg"
+            rating: 5
+          - text: "Die beste Investition in unsere IT seit Jahren."
+            author: "Peter Weber"
+            company: "Weber Industries"
+            image: "testimonial3.jpg"
+            rating: 5
+      
+      # Blog-Vorschau
+      - type: "blog"
+        title: "Aktuelle Artikel"
+        posts_per_page: 3
+        category: "tech-news"  # Dynamisch aus WordPress
+        layout: "cards"
+      
+      # Newsletter
+      - type: "newsletter"
+        settings:
+          background: "primary"
+          shape_divider_top: "triangle"
+        widgets:
+          - type: "heading"
+            content:
+              text: "Bleiben Sie auf dem Laufenden"
+              color: "white"
+          - type: "newsletter-form"
+            fields:
+              placeholder: "Ihre E-Mail-Adresse"
+              button_text: "Abonnieren"
+              gdpr_text: "Ich stimme der Datenschutzerklärung zu"
+  
+  # ========== ÜBER UNS SEITE ==========
+  - id: "about"
+    title: "Über TechCorp"
+    sections:
+      - type: "hero"
+        size: "medium"  # Kleinerer Hero
+        widgets:
+          - type: "cholot-title"
+            content:
+              title: "Über uns"
+              subtitle: "20 Jahre Innovation"
+      
+      - type: "timeline"
+        title: "Unsere Geschichte"
+        events:
+          - year: "2004"
+            title: "Gründung"
+            description: "Start als kleines Startup"
+          - year: "2010"
+            title: "Expansion"
+            description: "Erste internationale Kunden"
+          - year: "2015"
+            title: "Cloud-Launch"
+            description: "Eigene Cloud-Plattform"
+          - year: "2020"
+            title: "KI-Integration"
+            description: "Machine Learning Services"
+          - year: "2024"
+            title: "Heute"
+            description: "500+ zufriedene Kunden weltweit"
+      
+      # Weitere Sektionen...
+  
+  # ========== KONTAKT SEITE ==========
+  - id: "contact"
+    title: "Kontakt"
+    sections:
+      - type: "contact"
+        layout: "split"  # Karte links, Form rechts
+        map:
+          lat: "48.1351"
+          lng: "11.5820"
+          zoom: 15
+          marker: true
+        form:
+          title: "Schreiben Sie uns"
+          fields:
+            - type: "text"
+              label: "Name"
+              required: true
+            - type: "email"
+              label: "E-Mail"
+              required: true
+            - type: "select"
+              label: "Abteilung"
+              options:
+                - "Vertrieb"
+                - "Support"
+                - "Buchhaltung"
+            - type: "textarea"
+              label: "Nachricht"
+              rows: 5
+            - type: "checkbox"
+              label: "Newsletter abonnieren"
+            - type: "submit"
+              text: "Nachricht senden"

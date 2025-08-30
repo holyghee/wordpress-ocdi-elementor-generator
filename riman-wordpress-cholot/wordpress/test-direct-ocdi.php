@@ -19,7 +19,7 @@ require_once WP_PLUGIN_DIR . '/one-click-demo-import/vendor/autoload.php';
 echo "🚀 Direct OCDI WXRImporter Test\n";
 echo "================================\n\n";
 
-$import_file = ABSPATH . 'riman-xl-site-no-images.xml';
+$import_file = $argc > 1 ? $argv[1] : ABSPATH . 'intelligent-assembled.xml';
 
 // Create logger
 $logger = new \OCDI\Logger();

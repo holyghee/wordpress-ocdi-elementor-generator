@@ -1,0 +1,192 @@
+{
+  "site": {
+    "name": "RIMAN GmbH",
+    "url": "https://riman-gmbh.de",
+    "language": "de-DE",
+    "description": "Ihr Spezialist für Sanierung und Schadstoffbeseitigung"
+  },
+  "pages": [
+    {
+      "id": 1000,
+      "title": "RIMAN GmbH - Sanierungsexperten",
+      "slug": "page",
+      "status": "publish",
+      "elementor_data": [
+        {
+          "id": "89ba9c9e",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "e38e8df8",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "e6de45e6",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "83292853",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "e518d3fc",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "291fed33",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "a5dcd082",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "6d05cbe1",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "bca7fc75",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "cfd36f7d",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "ebb0e23c",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "2b81538d",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "e61083b5",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "86a39fba",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        }
+      ],
+      "metadata": {
+        "sections_count": 7,
+        "generated_ids": [
+          "1b4b9ec1",
+          "89ba9c9e",
+          "e38e8df8",
+          "d773398e",
+          "e6de45e6",
+          "83292853",
+          "e518d3fc",
+          "291fed33",
+          "ead09f18",
+          "a5dcd082",
+          "6d05cbe1",
+          "bca7fc75",
+          "cfd36f7d",
+          "ebb0e23c",
+          "2b81538d",
+          "e61083b5",
+          "86a39fba"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "processor": "YAML to JSON Processor v1.0",
+    "total_pages": 1,
+    "base_url": "http://localhost:8080"
+  }
+}

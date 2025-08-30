@@ -1,0 +1,633 @@
+# RIMAN GmbH Website Configuration
+# Professional business website for RIMAN GmbH consulting services
+
+site:
+  title: "RIMAN GmbH"
+  description: "Professional consulting and business solutions"
+  url: "https://riman-gmbh.de"
+  language: "de-DE"
+  timezone: "Europe/Berlin"
+
+design:
+  colors:
+    primary: "#2c3e50"      # Professional dark blue
+    secondary: "#3498db"    # Bright blue accent
+    background: "#ffffff"   # Clean white background
+    text: "#2c3e50"        # Dark text for readability
+    accent: "#e74c3c"      # Red accent for CTAs
+    white: "#ffffff"
+    black: "#2c3e50"
+    gray: "#ecf0f1"        # Light gray for subtle elements
+  
+  fonts:
+    primary: 
+      family: "Open Sans"
+      weights: [300, 400, 600, 700]
+    secondary:
+      family: "Montserrat"
+      weights: [400, 600, 700]
+    headings:
+      family: "Montserrat"
+      weights: [400, 600, 700]
+  
+  spacing:
+    xs: "8px"
+    sm: "16px"
+    md: "24px"
+    lg: "48px"
+    xl: "80px"
+    xxl: "120px"
+  
+  borders:
+    radius: "4px"
+    width: "1px"
+  
+  shadows:
+    light: "0 2px 4px rgba(0,0,0,0.1)"
+    medium: "0 4px 8px rgba(0,0,0,0.15)"
+    heavy: "0 8px 16px rgba(0,0,0,0.2)"
+
+navigation:
+  menus:
+    - id: "main-menu"
+      name: "Hauptmenü"
+      items:
+        - label: "Home"
+          url: "/"
+          icon: ""
+        - label: "Über uns"
+          url: "/ueber-uns/"
+          icon: ""
+        - label: "Leistungen"
+          url: "/leistungen/"
+          icon: ""
+          submenu:
+            - label: "Unternehmensberatung"
+              url: "/leistungen/unternehmensberatung/"
+            - label: "Digitalisierung"
+              url: "/leistungen/digitalisierung/"
+            - label: "Prozessoptimierung"
+              url: "/leistungen/prozessoptimierung/"
+        - label: "Projekte"
+          url: "/projekte/"
+          icon: ""
+        - label: "Team"
+          url: "/team/"
+          icon: ""
+        - label: "Kontakt"
+          url: "/kontakt/"
+          icon: ""
+
+content:
+  posts:
+    categories:
+      - id: "1"
+        name: "Unternehmensnews"
+        slug: "unternehmensnews"
+      - id: "2"
+        name: "Beratung"
+        slug: "beratung"
+      - id: "3"
+        name: "Digitalisierung"
+        slug: "digitalisierung"
+    tags:
+      - id: "1"
+        name: "strategie"
+        slug: "strategie"
+      - id: "2"
+        name: "innovation"
+        slug: "innovation"
+      - id: "3"
+        name: "transformation"
+        slug: "transformation"
+    items:
+      - title: "Erfolgreiche Digitalisierung mittelständischer Unternehmen"
+        content: "<p>Wie wir Unternehmen bei der digitalen Transformation unterstützen.</p>"
+        excerpt: "Digitalisierung erfolgreich meistern..."
+        featured_image: "digital-transformation.jpg"
+        categories: ["Digitalisierung"]
+        tags: ["transformation", "strategie"]
+        date: "2024-12-01T09:00:00Z"
+  
+  media:
+    images:
+      - id: "logo"
+        url: "/wp-content/uploads/riman-logo.svg"
+        alt: "RIMAN GmbH Logo"
+        title: "RIMAN GmbH"
+      - id: "hero_bg"
+        url: "/wp-content/uploads/business-hero-bg.jpg"
+        alt: "Business Hero Background"
+        title: "Professional Business Background"
+      - id: "consulting_icon"
+        url: "/wp-content/uploads/consulting-icon.svg"
+        alt: "Consulting Services"
+        title: "Consulting Icon"
+      - id: "digital_icon"
+        url: "/wp-content/uploads/digital-icon.svg"
+        alt: "Digital Services"
+        title: "Digital Icon"
+      - id: "process_icon"
+        url: "/wp-content/uploads/process-icon.svg"
+        alt: "Process Optimization"
+        title: "Process Icon"
+
+pages:
+  - id: "home"
+    title: "Home"
+    slug: ""
+    template: "default"
+    sections:
+      # Professional Header
+      - type: "header"
+        id: "header_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#ffffff"
+          padding: {top: "20px", right: "0", bottom: "20px", left: "0"}
+          structure: "33"
+        columns:
+          - size: 30
+            responsive: {tablet: 30, mobile: 60}
+            widgets:
+              - type: "cholot-logo"
+                id: "company_logo"
+                settings:
+                  logo_img:
+                    url: "/wp-content/uploads/riman-logo.svg"
+                    id: "logo"
+                  align: "left"
+                  height: 60
+          
+          - size: 50
+            responsive: {tablet: 70, mobile: 40}
+            widgets:
+              - type: "cholot-menu"
+                id: "main_navigation"
+                settings:
+                  cholot_menu: "main-menu"
+                  align: "center"
+                  align_tablet: "center"
+                  align_mobile: "right"
+                  styling:
+                    menu_color: "#2c3e50"
+                    menu_color_hover: "#3498db"
+                    menu_child_color: "#2c3e50"
+                    menu_child_color_hover: "#3498db"
+                    hamb_color: "#2c3e50"
+                    opacity: 1.0
+                    opacity_hover: 1.0
+                  typography:
+                    font_family: "Montserrat"
+                    font_weight: 600
+                    text_transform: "none"
+                    letter_spacing: 0.5
+                    font_size: 16
+          
+          - size: 20
+            responsive: {tablet: 0, mobile: 0}
+            widgets:
+              - type: "cholot-button"
+                id: "header_cta"
+                settings:
+                  btn_text: "Beratungstermin"
+                  btn_sub: ""
+                  link:
+                    url: "/kontakt/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-calendar-alt"
+                  styling:
+                    background_color: "#e74c3c"
+                    background_color_hover: "#c0392b"
+                    text_color: "#ffffff"
+                    text_color_hover: "#ffffff"
+                    border_color: "#e74c3c"
+                    border_color_hover: "#c0392b"
+                    border_width: 0
+                    border_radius: 4
+      
+      # Hero Section
+      - type: "hero"
+        id: "hero_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#f8f9fa"
+            image: "/wp-content/uploads/business-hero-bg.jpg"
+            position: "center center"
+            size: "cover"
+            overlay:
+              color: "#2c3e50"
+              opacity: 0.8
+          padding: {top: "120px", right: "0", bottom: "120px", left: "0"}
+          structure: "50"
+        columns:
+          - size: 60
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "hero_title"
+                settings:
+                  title: "Professionelle Beratung für <span style='color: #3498db;'>Ihren Erfolg</span>"
+                  header_size: "h1"
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  typography:
+                    font_size: 48
+                    font_weight: 700
+                    color: "#ffffff"
+                  margins: {top: 0, right: 0, bottom: 30, left: 0}
+              
+              - type: "text-editor"
+                id: "hero_subtitle"
+                settings:
+                  editor: "<p>RIMAN GmbH unterstützt Sie bei der Optimierung Ihrer Geschäftsprozesse, der digitalen Transformation und der strategischen Ausrichtung Ihres Unternehmens.</p>"
+                  text_color: "#ffffff"
+                  typography:
+                    font_size: 18
+                    font_weight: 300
+                    line_height: 1.6
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  margins: {top: 0, right: 0, bottom: 40, left: 0}
+              
+              - type: "cholot-button"
+                id: "hero_cta"
+                settings:
+                  btn_text: "Kostenlose Erstberatung"
+                  btn_sub: "Unverbindlich & kompetent"
+                  link:
+                    url: "/kontakt/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-arrow-right"
+                  styling:
+                    background_color: "#3498db"
+                    background_color_hover: "#2980b9"
+                    text_color: "#ffffff"
+                    text_color_hover: "#ffffff"
+                    border_color: "#3498db"
+                    border_color_hover: "#2980b9"
+                    border_width: 0
+                    border_radius: 6
+                  typography:
+                    font_size: 18
+                    font_weight: 600
+                    text_transform: "none"
+                  padding: {top: 18, right: 36, bottom: 18, left: 36}
+          
+          - size: 40
+            responsive: {tablet: 0, mobile: 0}
+            widgets: []
+      
+      # Services Section
+      - type: "content"
+        id: "services_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#ffffff"
+          padding: {top: "100px", right: "0", bottom: "100px", left: "0"}
+          structure: "33"
+        columns:
+          - size: 33
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "consulting_service"
+                settings:
+                  title: "Unternehmens-beratung"
+                  subtitle: "01"
+                  text: "<p>Strategische Beratung für nachhaltiges Wachstum und Effizienzsteigerung.</p>"
+                  icon: "fas fa-chart-line"
+                  title_color: "#2c3e50"
+                  subtitle_color: "#3498db"
+                  text_color: "#7f8c8d"
+                  icon_color: "#3498db"
+                  icon_size: 32
+                  typography:
+                    title:
+                      font_size: 24
+                      font_weight: 600
+                      line_height: 1.2
+                    subtitle:
+                      font_size: 14
+                      font_weight: 700
+                      text_transform: "none"
+                    text:
+                      font_size: 16
+                      font_weight: 300
+                      line_height: 1.6
+                  margins:
+                    title: {top: 24, right: 0, bottom: 16, left: 0}
+                    subtitle: {top: 0, right: 0, bottom: 8, left: 0}
+                    text: {top: 0, right: 0, bottom: 0, left: 0}
+                    icon: {top: 0, right: 0, bottom: 0, left: 0}
+          
+          - size: 33
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "digital_service"
+                settings:
+                  title: "Digital-isierung"
+                  subtitle: "02"
+                  text: "<p>Moderne Lösungen für die digitale Transformation Ihres Unternehmens.</p>"
+                  icon: "fas fa-laptop-code"
+                  title_color: "#2c3e50"
+                  subtitle_color: "#3498db"
+                  text_color: "#7f8c8d"
+                  icon_color: "#3498db"
+                  icon_size: 32
+                  typography:
+                    title:
+                      font_size: 24
+                      font_weight: 600
+                      line_height: 1.2
+                    subtitle:
+                      font_size: 14
+                      font_weight: 700
+                      text_transform: "none"
+                    text:
+                      font_size: 16
+                      font_weight: 300
+                      line_height: 1.6
+                  margins:
+                    title: {top: 24, right: 0, bottom: 16, left: 0}
+                    subtitle: {top: 0, right: 0, bottom: 8, left: 0}
+                    text: {top: 0, right: 0, bottom: 0, left: 0}
+                    icon: {top: 0, right: 0, bottom: 0, left: 0}
+          
+          - size: 33
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "process_service"
+                settings:
+                  title: "Prozess-optimierung"
+                  subtitle: "03"
+                  text: "<p>Optimierung Ihrer Geschäftsprozesse für maximale Effizienz.</p>"
+                  icon: "fas fa-cogs"
+                  title_color: "#2c3e50"
+                  subtitle_color: "#3498db"
+                  text_color: "#7f8c8d"
+                  icon_color: "#3498db"
+                  icon_size: 32
+                  typography:
+                    title:
+                      font_size: 24
+                      font_weight: 600
+                      line_height: 1.2
+                    subtitle:
+                      font_size: 14
+                      font_weight: 700
+                      text_transform: "none"
+                    text:
+                      font_size: 16
+                      font_weight: 300
+                      line_height: 1.6
+                  margins:
+                    title: {top: 24, right: 0, bottom: 16, left: 0}
+                    subtitle: {top: 0, right: 0, bottom: 8, left: 0}
+                    text: {top: 0, right: 0, bottom: 0, left: 0}
+                    icon: {top: 0, right: 0, bottom: 0, left: 0}
+      
+      # About Section
+      - type: "content"
+        id: "about_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#f8f9fa"
+          padding: {top: "100px", right: "0", bottom: "100px", left: "0"}
+          structure: "50"
+        columns:
+          - size: 50
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "about_title"
+                settings:
+                  title: "Über <span style='color: #3498db;'>RIMAN GmbH</span>"
+                  header_size: "h2"
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  typography:
+                    font_size: 36
+                    font_weight: 600
+                    color: "#2c3e50"
+                  margins: {top: 0, right: 0, bottom: 30, left: 0}
+              
+              - type: "text-editor"
+                id: "about_content"
+                settings:
+                  editor: "<p>Mit über 15 Jahren Erfahrung in der Unternehmensberatung unterstützen wir kleine und mittelständische Unternehmen dabei, ihre Ziele zu erreichen und nachhaltigen Erfolg zu sichern.</p><p>Unsere Expertise umfasst strategische Beratung, digitale Transformation und Prozessoptimierung. Wir arbeiten partnerschaftlich mit unseren Kunden zusammen und entwickeln maßgeschneiderte Lösungen für individuelle Herausforderungen.</p>"
+                  text_color: "#7f8c8d"
+                  typography:
+                    font_size: 16
+                    font_weight: 300
+                    line_height: 1.7
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  margins: {top: 0, right: 0, bottom: 40, left: 0}
+              
+              - type: "cholot-button"
+                id: "about_cta"
+                settings:
+                  btn_text: "Mehr über uns"
+                  btn_sub: ""
+                  link:
+                    url: "/ueber-uns/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-arrow-right"
+                  styling:
+                    background_color: "transparent"
+                    background_color_hover: "#3498db"
+                    text_color: "#3498db"
+                    text_color_hover: "#ffffff"
+                    border_color: "#3498db"
+                    border_color_hover: "#3498db"
+                    border_width: 2
+                    border_radius: 4
+                  typography:
+                    font_size: 16
+                    font_weight: 600
+          
+          - size: 50
+            responsive: {tablet: 0, mobile: 0}
+            widgets: []
+      
+      # Contact Section
+      - type: "content"
+        id: "contact_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#2c3e50"
+          padding: {top: "80px", right: "0", bottom: "80px", left: "0"}
+          structure: "50"
+        columns:
+          - size: 50
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "contact_title"
+                settings:
+                  title: "Bereit für den <span style='color: #3498db;'>nächsten Schritt?</span>"
+                  header_size: "h2"
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  typography:
+                    font_size: 32
+                    font_weight: 600
+                    color: "#ffffff"
+                  margins: {top: 0, right: 0, bottom: 20, left: 0}
+              
+              - type: "text-editor"
+                id: "contact_subtitle"
+                settings:
+                  editor: "<p>Lassen Sie uns gemeinsam die Herausforderungen Ihres Unternehmens analysieren und Lösungen entwickeln.</p>"
+                  text_color: "#bdc3c7"
+                  typography:
+                    font_size: 18
+                    font_weight: 300
+                    line_height: 1.6
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  margins: {top: 0, right: 0, bottom: 40, left: 0}
+          
+          - size: 50
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "icon-list"
+                id: "contact_info"
+                settings:
+                  icon_list:
+                    - text: "info@riman-gmbh.de"
+                      selected_icon: "fas fa-envelope"
+                      link: {url: "mailto:info@riman-gmbh.de", is_external: false, nofollow: false}
+                    - text: "+49 (0) 123 456 789"
+                      selected_icon: "fas fa-phone"
+                      link: {url: "tel:+491234567890", is_external: false, nofollow: false}
+                    - text: "Musterstraße 123, 12345 Berlin"
+                      selected_icon: "fas fa-map-marker-alt"
+                      link: {url: "", is_external: false, nofollow: false}
+                  space_between: 24
+                  icon_color: "#3498db"
+                  icon_size: 16
+                  text_color: "#ffffff"
+                  text_indent: 16
+                  icon_align: "left"
+                  icon_self_align: "center"
+                  view: "traditional"
+                  typography:
+                    font_size: 16
+                    font_weight: 400
+      
+      # Footer
+      - type: "footer"
+        id: "footer_section"
+        settings:
+          background:
+            type: "classic"
+            color: "#34495e"
+          padding: {top: "40px", right: "0", bottom: "40px", left: "0"}
+          structure: "33"
+        columns:
+          - size: 40
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "text-editor"
+                id: "footer_copyright"
+                settings:
+                  editor: "<p>© 2024 RIMAN GmbH. Alle Rechte vorbehalten.</p>"
+                  text_color: "#bdc3c7"
+                  typography:
+                    font_size: 14
+                    font_weight: 300
+                  align: "left"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  margins: {top: 0, right: 0, bottom: 0, left: 0}
+          
+          - size: 30
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "text-editor"
+                id: "footer_links"
+                settings:
+                  editor: "<p><a href='/impressum/' style='color: #bdc3c7; margin-right: 20px;'>Impressum</a><a href='/datenschutz/' style='color: #bdc3c7;'>Datenschutz</a></p>"
+                  typography:
+                    font_size: 14
+                  align: "center"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  margins: {top: 0, right: 0, bottom: 0, left: 0}
+          
+          - size: 30
+            responsive: {tablet: 100, mobile: 100}
+            widgets:
+              - type: "social-icons"
+                id: "footer_social"
+                settings:
+                  social_icon_list:
+                    - social_icon: "fab fa-linkedin"
+                      link: {url: "https://linkedin.com/company/riman-gmbh", is_external: true, nofollow: false}
+                    - social_icon: "fab fa-xing"
+                      link: {url: "https://xing.com/companies/riman-gmbh", is_external: true, nofollow: false}
+                  align: "right"
+                  align_tablet: "center"
+                  align_mobile: "center"
+                  icon_color: "custom"
+                  icon_primary_color: "#3498db"
+                  icon_secondary_color: "#34495e"
+                  icon_size: 14
+                  border_radius: 4
+                  hover_primary_color: "#ffffff"
+                  hover_secondary_color: "#3498db"
+
+global:
+  header:
+    sticky: true
+    transparent: false
+    logo_position: "left"
+    menu_position: "center"
+    background_color: "#ffffff"
+    text_color: "#2c3e50"
+    border_bottom: true
+    border_color: "#ecf0f1"
+  
+  footer:
+    background_color: "#34495e"
+    text_color: "#bdc3c7"
+    copyright_text: "© 2024 RIMAN GmbH. Alle Rechte vorbehalten."
+    social_links: ["linkedin", "xing"]
+  
+  blog:
+    posts_per_page: 6
+    excerpt_length: 40
+    show_author: false
+    show_date: true
+    show_categories: true
+    show_tags: false
+  
+  performance:
+    lazy_load_images: true
+    minify_css: true
+    minify_js: true
+    enable_caching: true
+
+migration:
+  export_settings: false
+  import_demo_data: false
+  preserve_content: true
+  backup_before_import: true

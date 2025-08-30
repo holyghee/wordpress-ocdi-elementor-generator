@@ -1,0 +1,412 @@
+# Cholot WordPress Theme YAML Schema
+# Complete configuration schema for controlling all aspects of the Cholot theme
+
+# Site-level configuration
+site:
+  title: string
+  description: string
+  url: string
+  language: string # e.g., "en-US"
+  timezone: string # e.g., "America/New_York"
+
+# Global design tokens
+design:
+  colors:
+    primary: string # Main brand color (e.g., "#b68c2f")
+    secondary: string # Secondary brand color
+    background: string # Main background color
+    text: string # Primary text color
+    accent: string # Accent color for highlights
+    white: string # White color override
+    black: string # Black color override
+    gray: string # Gray color for borders/subtle elements
+  
+  fonts:
+    primary: 
+      family: string # e.g., "Source Sans Pro"
+      weights: [400, 600, 700, 900] # Available weights
+    secondary:
+      family: string
+      weights: []
+    headings:
+      family: string
+      weights: []
+  
+  spacing:
+    xs: string # e.g., "5px"
+    sm: string # e.g., "10px"
+    md: string # e.g., "15px"
+    lg: string # e.g., "30px"
+    xl: string # e.g., "60px"
+    xxl: string # e.g., "120px"
+  
+  borders:
+    radius: string # e.g., "3px"
+    width: string # e.g., "2px"
+  
+  shadows:
+    light: string # CSS box-shadow value
+    medium: string
+    heavy: string
+
+# Navigation configuration
+navigation:
+  menus:
+    - id: string # e.g., "default-menu"
+      name: string # e.g., "Main Menu"
+      items:
+        - label: string
+          url: string
+          icon: string # FontAwesome icon class
+          submenu: [] # Nested menu items
+
+# Pages configuration
+pages:
+  - id: string # Unique page identifier
+    title: string
+    slug: string # URL slug
+    template: string # Page template (default, wide, etc.)
+    sections:
+      - type: string # section type (hero, content, footer, header)
+        id: string # Unique section ID
+        settings:
+          # Section-level settings
+          background:
+            type: string # classic, gradient, video
+            color: string
+            image: string # Image URL or asset reference
+            position: string # e.g., "center center"
+            size: string # e.g., "cover"
+            overlay:
+              color: string
+              opacity: number # 0-1
+          padding:
+            top: string
+            right: string
+            bottom: string
+            left: string
+          margin:
+            top: string
+            right: string
+            bottom: string
+            left: string
+          structure: string # Column structure (e.g., "33", "40", "50")
+        columns:
+          - size: number # Column size percentage
+            responsive:
+              tablet: number
+              mobile: number
+            widgets:
+              - type: string # Widget type
+                id: string
+                settings: {} # Widget-specific settings (see widget schemas below)
+
+# Content management
+content:
+  posts:
+    categories:
+      - id: string
+        name: string
+        slug: string
+    tags:
+      - id: string
+        name: string
+        slug: string
+    items:
+      - title: string
+        content: string
+        excerpt: string
+        featured_image: string
+        categories: []
+        tags: []
+        date: string # ISO date format
+  
+  media:
+    images:
+      - id: string
+        url: string
+        alt: string
+        caption: string
+        title: string
+        sizes: {} # Different image sizes
+    
+    galleries:
+      - id: string
+        name: string
+        images: [] # Array of image IDs
+
+# Widget type definitions and schemas
+widgets:
+  # Cholot custom widgets
+  cholot-texticon:
+    title: string
+    subtitle: string
+    text: string
+    icon: string # FontAwesome icon
+    title_color: string
+    subtitle_color: string
+    text_color: string
+    icon_color: string
+    icon_size: number
+    typography:
+      title:
+        font_size: number
+        font_weight: number
+        text_transform: string
+        line_height: number
+        letter_spacing: number
+      subtitle:
+        font_size: number
+        font_weight: number
+        text_transform: string
+        letter_spacing: number
+      text:
+        font_size: number
+        font_weight: string
+        text_transform: string
+    margins:
+      title: {top: number, right: number, bottom: number, left: number}
+      subtitle: {top: number, right: number, bottom: number, left: number}
+      text: {top: number, right: number, bottom: number, left: number}
+      icon: {top: number, right: number, bottom: number, left: number}
+  
+  cholot-title:
+    title: string # HTML allowed, e.g., "About us<span>.</span>"
+    header_size: string # h1, h2, h3, h4, h5, h6
+    align: string # left, center, right
+    align_tablet: string
+    align_mobile: string
+    typography:
+      font_size: number
+      font_weight: number
+      text_transform: string
+      color: string
+    margins:
+      top: number
+      right: number
+      bottom: number
+      left: number
+  
+  cholot-post-three:
+    blog_post: number # Number of posts to show
+    sort_cat: boolean # Sort by category
+    blog_cat: [] # Array of category IDs
+    show_excerpt: boolean
+    excerpt_after: string # Text after excerpt
+    blog_column: string # "one", "two", "three"
+    button: string # Button text
+    cat_show: boolean # Show categories
+    styling:
+      image_width: number
+      title_color: string
+      title_color_hover: string
+      meta_color: string
+      meta_link_color: string
+      meta_link_hover_color: string
+      meta_icon_color: string
+      image_border_color: string
+      image_hover_border_color: string
+    typography:
+      title:
+        font_size: number
+        font_weight: number
+      meta:
+        font_size: number
+        font_style: string
+      category:
+        text_transform: string
+        font_style: string
+    margins:
+      title: {top: number, right: number, bottom: number, left: number}
+      meta: {top: number, right: number, bottom: number, left: number}
+      category: {top: number, right: number, bottom: number, left: number}
+  
+  cholot-gallery:
+    gallery: [] # Array of image objects with id and url
+    port_column: string # "col-md-4", "col-md-6", etc.
+    gallery_height: number
+    gallery_margin: number
+    title_show: boolean
+    caption_show: boolean
+    responsive:
+      tablet:
+        gallery_height: number
+        gallery_margin: number
+      mobile:
+        gallery_height: number
+        gallery_margin: number
+    margins:
+      top: number
+      right: number
+      bottom: number
+      left: number
+  
+  cholot-logo:
+    logo_img:
+      url: string
+      id: string # Media library ID
+    align: string # left, center, right
+    height: number # Logo height in pixels
+    link: string # URL to link logo to
+  
+  cholot-menu:
+    cholot_menu: string # Menu ID (e.g., "default-menu")
+    align: string # left, center, right
+    align_tablet: string
+    align_mobile: string
+    desktop_menu_tablet: string # none, inline-block
+    mobile_menu: string # none, inline-block
+    mobile_menu_tablet: string
+    styling:
+      menu_color: string
+      menu_color_hover: string
+      menu_child_color: string
+      menu_child_color_hover: string
+      hamb_color: string # Hamburger icon color
+      opacity: number # 0-1
+      opacity_hover: number # 0-1
+    typography:
+      font_family: string
+      font_weight: number
+      text_transform: string
+      letter_spacing: number
+      font_size: number
+    margins:
+      menu: {top: number, right: number, bottom: number, left: number}
+      child: {top: number, right: number, bottom: number, left: number}
+  
+  cholot-button:
+    btn_text: string
+    btn_sub: string # Subtitle text
+    link:
+      url: string
+      is_external: boolean
+      nofollow: boolean
+    selected_icon: string # FontAwesome icon
+    styling:
+      background_color: string
+      background_color_hover: string
+      text_color: string
+      text_color_hover: string
+      border_color: string
+      border_color_hover: string
+      border_width: number
+      border_radius: number
+    typography:
+      font_size: number
+      font_weight: number
+      text_transform: string
+    padding:
+      top: number
+      right: number
+      bottom: number
+      left: number
+    margins:
+      top: number
+      right: number
+      bottom: number
+      left: number
+
+  # Standard Elementor widgets
+  text-editor:
+    editor: string # HTML content
+    text_color: string
+    typography:
+      font_size: number
+      font_weight: string
+      line_height: number
+    align: string # left, center, right, justify
+    align_tablet: string
+    align_mobile: string
+    margins:
+      top: number
+      right: number
+      bottom: number
+      left: number
+  
+  divider:
+    color: string
+    width: number # Width in pixels
+    align: string # left, center, right
+    gap: number # Space around divider
+    margins:
+      top: number
+      right: number
+      bottom: number
+      left: number
+  
+  icon-list:
+    icon_list: [] # Array of icon list items
+    # Each item contains: text, icon, link, selected_icon
+    space_between: number
+    divider_color: string
+    divider_width: number
+    icon_color: string
+    icon_size: number
+    text_color: string
+    text_indent: number
+    icon_align: string # left, center, right
+    icon_align_tablet: string
+    icon_self_align: string # top, center, bottom
+    view: string # traditional, inline
+    typography:
+      font_size: number
+      font_weight: number
+  
+  social-icons:
+    social_icon_list: [] # Array of social icons
+    # Each item contains: social_icon, link, item_icon_color
+    align: string # left, center, right
+    align_tablet: string
+    align_mobile: string
+    icon_color: string # default, custom
+    icon_primary_color: string
+    icon_secondary_color: string
+    icon_size: number
+    border_radius: number
+    hover_primary_color: string
+    hover_secondary_color: string
+    hover_animation: string # shrink, grow, etc.
+
+# Global settings that affect the entire site
+global:
+  # Header configuration
+  header:
+    sticky: boolean
+    transparent: boolean
+    logo_position: string # left, center, right
+    menu_position: string # left, center, right
+    background_color: string
+    text_color: string
+    border_bottom: boolean
+    border_color: string
+  
+  # Footer configuration
+  footer:
+    background_color: string
+    text_color: string
+    copyright_text: string
+    social_links: []
+  
+  # Blog settings
+  blog:
+    posts_per_page: number
+    excerpt_length: number
+    show_author: boolean
+    show_date: boolean
+    show_categories: boolean
+    show_tags: boolean
+  
+  # Performance settings
+  performance:
+    lazy_load_images: boolean
+    minify_css: boolean
+    minify_js: boolean
+    enable_caching: boolean
+
+# Import/Export settings for migrations
+migration:
+  export_settings: boolean # Export current theme settings
+  import_demo_data: boolean # Import demo content
+  preserve_content: boolean # Keep existing content during import
+  backup_before_import: boolean

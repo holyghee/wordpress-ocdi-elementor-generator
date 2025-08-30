@@ -1,0 +1,994 @@
+title: "Cholot Demo Replica Test"
+description: "Testing exact replication of demo-data-fixed.xml structure"
+
+# WordPress Export Header
+export_info:
+  generator: "WordPress/5.2.2"
+  created: "2019-07-18 09:46"
+  title: "Cholot"
+  link: "https://theme.winnertheme.com/cholot"
+  description: "Just another WordPress site"
+  language: "en-US"
+  base_site_url: "https://theme.winnertheme.com/cholot"
+
+# Author Information
+authors:
+  - id: 1
+    login: "admin"
+    email: "ridianur@yahoo.com"
+    display_name: "admin"
+    first_name: ""
+    last_name: ""
+
+# Categories
+categories:
+  - id: 10
+    slug: "life"
+    name: "Life"
+    parent: ""
+  - id: 8
+    slug: "people"
+    name: "People"
+    parent: ""
+  - id: 1
+    slug: "uncategorized"
+    name: "Uncategorized"
+    parent: ""
+
+# Tags
+tags:
+  - id: 12
+    slug: "humming"
+    name: "humming"
+  - id: 6
+    slug: "liquid"
+    name: "liquid"
+  - id: 13
+    slug: "magic"
+    name: "magic"
+  - id: 11
+    slug: "movie"
+    name: "movie"
+  - id: 9
+    slug: "technology"
+    name: "technology"
+  - id: 5
+    slug: "travel"
+    name: "travel"
+  - id: 7
+    slug: "wildfire"
+    name: "wildfire"
+
+# Terms
+terms:
+  - id: 2
+    taxonomy: "elementor_library_type"
+    slug: "page"
+    parent: ""
+    name: "page"
+
+# Pages with Elementor Data
+pages:
+  # Page 1: Home Page with Footer Section (1 cholot-texticon widget)
+  - id: 113
+    title: "Home"
+    slug: "home"
+    status: "publish"
+    type: "page"
+    template: "default"
+    sections:
+        # Footer Section with cholot-texticon
+        - settings:
+            gap: "extended"
+            background_background: "classic"
+            background_color: "#f4f4f4"
+            padding:
+              unit: "px"
+              top: 60
+              right: 0
+              bottom: 60
+              left: 0
+              isLinked: false
+            background_overlay_image:
+              id: 237
+              url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/2.jpg"
+            background_overlay_position: "center left"
+            background_overlay_size: "cover"
+            background_overlay_opacity:
+              unit: "px"
+              size: 0.02
+            shape_divider_bottom_color: "#b68c2f"
+            shape_divider_bottom_width:
+              unit: "%"
+              size: 179
+            shape_divider_bottom_height:
+              unit: "px"
+              size: 7
+          columns:
+            # Column 1: cholot-texticon widget
+            - id: "eb87b14"
+              size: 25
+              settings:
+                _inline_size_tablet: 50
+              elements:
+                - id: "061a0f9"
+                  type: "section"
+                  settings:
+                    height_inner: "min-height"
+                    custom_height_inner:
+                      unit: "px"
+                      size: 250
+                    background_background: "classic"
+                    background_image:
+                      url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg"
+                      id: 350
+                    background_position: "center center"
+                    background_size: "cover"
+                    background_overlay_background: "classic"
+                    background_overlay_color: "#000000"
+                    background_overlay_opacity:
+                      unit: "px"
+                      size: 0.61
+                  columns:
+                    - id: "d3c23e5"
+                      size: 100
+                      settings:
+                        content_position: "center"
+                        background_background: "classic"
+                        background_size: "cover"
+                        padding:
+                          unit: "px"
+                          top: 30
+                          right: 30
+                          bottom: 30
+                          left: 30
+                          isLinked: true
+                        border_width:
+                          unit: "px"
+                          top: 2
+                          right: 2
+                          bottom: 2
+                          left: 2
+                          isLinked: true
+                        border_color: "#b68c2f"
+                        border_border: "solid"
+                        margin:
+                          unit: "px"
+                          top: 15
+                          right: 15
+                          bottom: 15
+                          left: 15
+                          isLinked: true
+                        align: "center"
+                      widgets:
+                        # Key cholot-texticon widget #1
+                        - id: "3518186"
+                          type: "cholot-texticon"
+                          settings:
+                            icon: "fa fa-child"
+                            title: "Cholot "
+                            title_typography_typography: "custom"
+                            title_typography_font_size:
+                              unit: "px"
+                              size: 24
+                            title_color: "#ffffff"
+                            title_margin:
+                              unit: "px"
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                              isLinked: false
+                            subtitle_typography_typography: "custom"
+                            subtitle_typography_font_size:
+                              unit: "px"
+                              size: 13
+                            subtitle_typography_font_weight: "700"
+                            subtitle_typography_text_transform: "uppercase"
+                            subtitle_typography_letter_spacing:
+                              unit: "px"
+                              size: 1
+                            subtitle_color: "#b68c2f"
+                            icon_size:
+                              unit: "px"
+                              size: 15
+                            icon_bg_size:
+                              unit: "px"
+                              size: 35
+                            selected_icon:
+                              value: "fas fa-crown"
+                              library: "fa-solid"
+                            __fa4_migrated:
+                              selected_icon: true
+                            title_typography_line_height:
+                              unit: "em"
+                              size: 1
+                            text_color: "#b68c2f"
+                            text_margin:
+                              unit: "px"
+                              top: 0
+                              right: 0
+                              bottom: -30
+                              left: 0
+                              isLinked: false
+                            text: "<p>Retirement Community</p>"
+                            text_typography_typography: "custom"
+                            text_typography_font_size:
+                              unit: "px"
+                              size: 13
+                            text_typography_font_weight: "normal"
+                            text_typography_text_transform: "uppercase"
+                            text_typography_line_height:
+                              unit: "em"
+                              size: 1
+                            text_typography_letter_spacing:
+                              unit: "px"
+                              size: 0
+                            icon_margin:
+                              unit: "px"
+                              top: 0
+                              right: 0
+                              bottom: -10
+                              left: 0
+                              isLinked: false
+            # Column 2: About Us
+            - id: "7d290cb"
+              size: 25
+              settings:
+                background_background: "classic"
+                _inline_size_tablet: 50
+              widgets:
+                - id: "44657a2"
+                  type: "cholot-title"
+                  settings:
+                    title: "About us<span>.</span>"
+                    header_size: "h3"
+                    align_tablet: "left"
+                    title_margin:
+                      unit: "px"
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                      isLinked: false
+                - id: "80e7cce"
+                  type: "divider"
+                  settings:
+                    color: "#b68c2f"
+                    width:
+                      unit: "px"
+                      size: 25
+                    align: "left"
+                    gap:
+                      unit: "px"
+                      size: 0
+                - id: "ca6883d"
+                  type: "text-editor"
+                  settings:
+                    editor: "<p>Building with our residents is something we keep close to our heart.</p><p>Let us help you celebrate your loved one's story by creating a new chapter that's worth sharing.</p>"
+            # Column 3: Recent Post
+            - id: "b83540a"
+              size: 25
+              widgets:
+                - id: "f1c856a"
+                  type: "cholot-title"
+                  settings:
+                    title: "Recent post<span>.</span>"
+                    header_size: "h3"
+                - id: "cc8c0fc"
+                  type: "divider"
+                  settings:
+                    color: "#b68c2f"
+                    width:
+                      unit: "px"
+                      size: 25
+                    align: "left"
+                - id: "42e411e"
+                  type: "cholot-post-three"
+                  settings:
+                    blog_post: 2
+                    sort_cat: "yes"
+                    blog_cat: ["8"]
+                    show_excerpt: ""
+                    excerpt_after: "..."
+                    blog_column: "one"
+                    button: "Read More"
+            # Column 4: Gallery
+            - id: "58d67b6"
+              size: 25
+              widgets:
+                - id: "610c559"
+                  type: "cholot-title"
+                  settings:
+                    title: "Gallery<span>.</span>"
+                    header_size: "h3"
+                - id: "2ffe3d0"
+                  type: "divider"
+                  settings:
+                    color: "#b68c2f"
+                    width:
+                      unit: "px"
+                      size: 25
+                - id: "e52a892"
+                  type: "cholot-gallery"
+                  settings:
+                    gallery:
+                      - id: 50
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg"
+                      - id: 51
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+                      - id: 48
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/josh-appel-423804-unsplash.jpg"
+                      - id: 47
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/damir-bosnjak-366766-unsplash.jpg"
+                      - id: 11
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/huy-phan-100866-unsplash.jpg"
+                      - id: 52
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/vlad-sargu-479334-unsplash.jpg"
+                    port_column: "col-md-4"
+                    gallery_height:
+                      unit: "px"
+                      size: 50
+
+  # Main Demo Page with Hero Slider and 7 cholot-texticon widgets
+  - id: 33
+    title: "Home Original"
+    slug: "home-original"
+    status: "publish"
+    type: "page"
+    template: "default"
+    sections:
+        # Hero Slider Section with Shape Divider
+        - id: "411070c"
+          type: "section"
+          settings:
+            gap: "no"
+            layout: "full_width"
+            background_color: "rgba(0,0,0,0.6)"
+            shape_divider_bottom_color: "#ffffff"
+            shape_divider_bottom_width:
+              unit: "%"
+              size: 105
+            shape_divider_bottom_height:
+              unit: "px"
+              size: 88
+            shape_divider_bottom_above_content: "yes"
+          columns:
+            - id: "ae77263"
+              size: 100
+              widgets:
+                - id: "eac5a72"
+                  type: "rdn-slider"
+                  settings:
+                    slider_list:
+                      - title: "Discover the best community that fit <span>your needs</span>."
+                        subtitle: "for best and worst"
+                        text: "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. <i><u>Maecenas tempus</u></i>, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+                        _id: "fd5b5ec"
+                        btn_text: "View More"
+                        btn_link:
+                          url: "#"
+                        image:
+                          url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg"
+                          id: 9
+                      - title: "The senior living experience that is <span>tailored</span> to you."
+                        subtitle: "diverse and inclusive"
+                        text: "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit <u>amet adipiscing sem</u> neque sed ipsum."
+                        _id: "cbaf2ca"
+                        btn_text: "View More"
+                        btn_link:
+                          url: "#"
+                        image:
+                          url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/huy-phan-100866-unsplash.jpg"
+                          id: 11
+                    align: "left"
+                    title_typo_typography: "custom"
+                    title_typo_font_size:
+                      unit: "px"
+                      size: 45
+                    title_typo_font_weight: "700"
+
+        # Services Section with 3 cholot-texticon widgets
+        - id: "388095a"
+          type: "section"
+          settings:
+            gap: "extended"
+            custom_height:
+              unit: "px"
+              size: 300
+            content_position: "middle"
+            structure: "30"
+            background_color: "#b68c2f"
+            box_shadow_box_shadow:
+              horizontal: 10
+              vertical: 0
+              blur: 0
+              spread: 4
+              color: "#ededed"
+            margin:
+              unit: "px"
+              top: -100
+              right: 0
+              bottom: 0
+              left: 0
+              isLinked: false
+          columns:
+            # Service Card 1
+            - id: "5019170"
+              size: 33
+              settings:
+                background_background: "classic"
+                background_color: "#fafafa"
+                border_width:
+                  unit: "px"
+                  top: 10
+                  right: 0
+                  bottom: 10
+                  left: 10
+                  isLinked: false
+                border_color: "#ededed"
+                box_shadow_box_shadow:
+                  horizontal: 0
+                  vertical: 4
+                  blur: 5
+                  spread: 0
+                  color: "rgba(196,196,196,0.26)"
+                margin:
+                  unit: "px"
+                  top: 15
+                  right: 15
+                  bottom: 15
+                  left: 15
+                  isLinked: true
+                animation: "fadeInUp"
+                animation_duration: "fast"
+              elements:
+                - id: "2a5e03d"
+                  type: "section"
+                  settings:
+                    gap: "no"
+                    shape_divider_bottom: "curve"
+                    shape_divider_bottom_color: "#fafafa"
+                    shape_divider_bottom_negative: "yes"
+                    shape_divider_bottom_above_content: "yes"
+                  columns:
+                    - id: "61e7066"
+                      size: 100
+                      widgets:
+                        - id: "10fcc6d"
+                          type: "image"
+                          settings:
+                            image:
+                              url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+                              id: 51
+                            opacity:
+                              unit: "px"
+                              size: 1
+                            _border_width:
+                              unit: "px"
+                              top: 4
+                              right: 0
+                              bottom: 0
+                              left: 0
+                              isLinked: false
+                            _border_color: "#b68c2f"
+                - id: "db46a32"
+                  type: "section"
+                  settings:
+                    gap: "no"
+                    content_position: "middle"
+                    background_background: "classic"
+                    margin:
+                      unit: "px"
+                      top: -30
+                      right: 0
+                      bottom: 0
+                      left: 0
+                      isLinked: false
+                    z_index: 2
+                  columns:
+                    - id: "17f1f3e"
+                      size: 100
+                      widgets:
+                        # cholot-texticon widget #2
+                        - id: "d9a9a92"
+                          type: "cholot-texticon"
+                          settings:
+                            icon: "fa fa-child"
+                            title: "Healthly life"
+                            title_typography_typography: "custom"
+                            title_typography_font_size:
+                              unit: "px"
+                              size: 28
+                            title_margin:
+                              unit: "px"
+                              top: 0
+                              right: 0
+                              bottom: 15
+                              left: 0
+                              isLinked: false
+                            subtitle: "Exciting"
+                            subtitle_typography_typography: "custom"
+                            subtitle_typography_font_size:
+                              unit: "px"
+                              size: 13
+                            subtitle_typography_font_weight: "700"
+                            subtitle_typography_text_transform: "uppercase"
+                            subtitle_typography_letter_spacing:
+                              unit: "px"
+                              size: 1
+                            subtitle_color: "#b68c2f"
+                            sb_margin:
+                              unit: "px"
+                              top: 0
+                              right: 0
+                              bottom: -15
+                              left: 0
+                              isLinked: false
+                            icon_size:
+                              unit: "px"
+                              size: 20
+                            icon_bg_size:
+                              unit: "px"
+                              size: 72
+                            selected_icon:
+                              value: "fas fa-parachute-box"
+                              library: "fa-solid"
+                            __fa4_migrated:
+                              selected_icon: true
+                            text: "<p>It's a great way for you to make use of all the benefits of being a part.</p>"
+                            text_typography_font_size:
+                              unit: "px"
+                              size: 15
+                            text_typography_font_style: "italic"
+                            text_margin:
+                              unit: "px"
+                              top: 15
+                              right: 0
+                              bottom: -30
+                              left: 0
+                              isLinked: false
+                            icon_color: "#ffffff"
+                            iconbg_color: "#b68c2f"
+                            icon_bordering_border: "solid"
+                            icon_bordering_color: "#fafafa"
+                            _padding:
+                              unit: "px"
+                              top: 30
+                              right: 30
+                              bottom: 30
+                              left: 30
+                              isLinked: true
+                            _border_width:
+                              unit: "px"
+                              top: 0
+                              right: 1
+                              bottom: 1
+                              left: 1
+                              isLinked: false
+                            _border_color: "#b68c2f"
+                            _border_border: "dashed"
+                            icon_margin:
+                              unit: "px"
+                              top: -27
+                              right: 0
+                              bottom: 0
+                              left: 0
+                              isLinked: false
+                            icon_bordering_width:
+                              unit: "px"
+                              top: 7
+                              right: 7
+                              bottom: 7
+                              left: 7
+                              isLinked: true
+                            icon_lheight:
+                              unit: "px"
+                              size: 58
+
+            # Service Card 2 with Video
+            - id: "5e77a44"
+              size: 33
+              settings:
+                background_background: "classic"
+                background_color: "#fafafa"
+                border_width:
+                  unit: "px"
+                  top: 10
+                  right: 0
+                  bottom: 10
+                  left: 10
+                  isLinked: false
+                border_color: "#ededed"
+                box_shadow_box_shadow:
+                  horizontal: 0
+                  vertical: 4
+                  blur: 5
+                  spread: 0
+                  color: "rgba(196,196,196,0.26)"
+                margin:
+                  unit: "px"
+                  top: 15
+                  right: 15
+                  bottom: 15
+                  left: 15
+                  isLinked: true
+                animation: "fadeInUp"
+                animation_duration: "fast"
+                animation_delay: 200
+              elements:
+                - id: "6e8e4f2"
+                  type: "section"
+                  settings:
+                    gap: "no"
+                    shape_divider_bottom: "curve"
+                    shape_divider_bottom_color: "#fafafa"
+                    shape_divider_bottom_negative: "yes"
+                    shape_divider_bottom_above_content: "yes"
+                    background_background: "classic"
+                    background_color: "#000000"
+                  columns:
+                    - id: "f2a2da5"
+                      size: 100
+                      widgets:
+                        - id: "93c2867"
+                          type: "video"
+                          settings:
+                            youtube_url: "https://www.youtube.com/watch?v=jGZDNK6ul5s"
+                            vimeo_url: "https://vimeo.com/235215203"
+                            dailymotion_url: "https://www.dailymotion.com/video/x6tqhqb"
+                            show_image_overlay: "yes"
+                            image_overlay:
+                              url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg"
+                              id: 350
+                            lightbox: "yes"
+                            play_icon_color: "#ffffff"
+                            play_icon_size:
+                              unit: "px"
+                              size: 40
+                            lightbox_content_animation: "zoomIn"
+                - id: "95034f2"
+                  type: "section"
+                  settings:
+                    gap: "no"
+                    content_position: "middle"
+                    background_background: "classic"
+                    margin:
+                      unit: "px"
+                      top: -30
+                      right: 0
+                      bottom: 0
+                      left: 0
+                      isLinked: false
+                    z_index: 2
+                  columns:
+                    - id: "799bb46"
+                      size: 100
+                      widgets:
+                        # cholot-texticon widget #3
+                        - id: "34e2b9e"
+                          type: "cholot-texticon"
+                          settings:
+                            title: "Improving life"
+                            title_typography_typography: "custom"
+                            title_typography_font_size:
+                              unit: "px"
+                              size: 28
+                            title_margin:
+                              unit: "px"
+                              top: 0
+                              right: 0
+                              bottom: 15
+                              left: 0
+                              isLinked: false
+                            subtitle: "Quality"
+                            subtitle_typography_typography: "custom"
+                            subtitle_typography_font_size:
+                              unit: "px"
+                              size: 13
+                            subtitle_typography_font_weight: "700"
+                            subtitle_typography_text_transform: "uppercase"
+                            subtitle_typography_letter_spacing:
+                              unit: "px"
+                              size: 1
+                            subtitle_color: "#b68c2f"
+                            icon_size:
+                              unit: "px"
+                              size: 20
+                            icon_bg_size:
+                              unit: "px"
+                              size: 72
+                            selected_icon:
+                              value: "fas fa-pallet"
+                              library: "fa-solid"
+                            __fa4_migrated:
+                              selected_icon: true
+                            text: "<p>It's a great way for you to make use of all the benefits of being a part.</p>"
+                            text_typography_font_size:
+                              unit: "px"
+                              size: 15
+                            text_typography_font_style: "italic"
+                            text_margin:
+                              unit: "px"
+                              top: 15
+                              right: 0
+                              bottom: -30
+                              left: 0
+                              isLinked: false
+                            icon_color: "#ffffff"
+                            iconbg_color: "#b68c2f"
+                            icon_bordering_border: "solid"
+                            icon_bordering_color: "#fafafa"
+                            icon_bordering_width:
+                              unit: "px"
+                              top: 7
+                              right: 7
+                              bottom: 7
+                              left: 7
+                              isLinked: true
+
+            # Service Card 3
+            - id: "5e77a44"
+              size: 33
+              settings:
+                background_background: "classic"
+                background_color: "#fafafa"
+                border_width:
+                  unit: "px"
+                  top: 10
+                  right: 0
+                  bottom: 10
+                  left: 10
+                  isLinked: false
+                border_color: "#ededed"
+                animation: "fadeInUp"
+                animation_duration: "fast"
+                animation_delay: 400
+              elements:
+                - id: "6e8e4f2"
+                  type: "section"
+                  settings:
+                    gap: "no"
+                    shape_divider_bottom: "curve"
+                    shape_divider_bottom_color: "#fafafa"
+                    shape_divider_bottom_negative: "yes"
+                    shape_divider_bottom_above_content: "yes"
+                  columns:
+                    - id: "f2a2da5"
+                      size: 100
+                      widgets:
+                        - id: "93c2867"
+                          type: "image"
+                          settings:
+                            image:
+                              url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/josh-appel-423804-unsplash.jpg"
+                              id: 48
+                - id: "95034f2"
+                  type: "section"
+                  columns:
+                    - id: "799bb46"
+                      size: 100
+                      widgets:
+                        # cholot-texticon widget #4
+                        - id: "7a878b9"
+                          type: "cholot-texticon"
+                          settings:
+                            title: "Relationship"
+                            title_typography_typography: "custom"
+                            title_typography_font_size:
+                              unit: "px"
+                              size: 28
+                            subtitle: "Community"
+                            subtitle_typography_typography: "custom"
+                            subtitle_typography_font_size:
+                              unit: "px"
+                              size: 13
+                            subtitle_typography_font_weight: "700"
+                            subtitle_typography_text_transform: "uppercase"
+                            subtitle_color: "#b68c2f"
+                            icon_size:
+                              unit: "px"
+                              size: 20
+                            icon_bg_size:
+                              unit: "px"
+                              size: 72
+                            selected_icon:
+                              value: "fas fa-igloo"
+                              library: "fa-solid"
+                            __fa4_migrated:
+                              selected_icon: true
+                            text: "<p>It's a great way for you to make use of all the benefits of being a part.</p>"
+                            text_typography_font_size:
+                              unit: "px"
+                              size: 15
+                            text_typography_font_style: "italic"
+                            icon_color: "#ffffff"
+                            iconbg_color: "#b68c2f"
+                            icon_bordering_border: "solid"
+                            icon_bordering_color: "#fafafa"
+
+        # Additional Services Section with 4 more cholot-texticon widgets
+        - id: "d123456"
+          type: "section"
+          settings:
+            gap: "extended"
+            background_background: "classic"
+            background_color: "#ffffff"
+            padding:
+              unit: "px"
+              top: 80
+              right: 0
+              bottom: 80
+              left: 0
+          columns:
+            # Service 5
+            - id: "col1234"
+              size: 25
+              widgets:
+                # cholot-texticon widget #5
+                - id: "9cbc0b3"
+                  type: "cholot-texticon"
+                  settings:
+                    title: "Healthly life"
+                    title_typography_typography: "custom"
+                    title_typography_font_size:
+                      unit: "px"
+                      size: 24
+                    subtitle: "Wellness"
+                    subtitle_typography_typography: "custom"
+                    subtitle_typography_font_size:
+                      unit: "px"
+                      size: 13
+                    subtitle_typography_font_weight: "700"
+                    subtitle_typography_text_transform: "uppercase"
+                    subtitle_color: "#b68c2f"
+                    icon_size:
+                      unit: "px"
+                      size: 18
+                    icon_bg_size:
+                      unit: "px"
+                      size: 60
+                    selected_icon:
+                      value: "fas fa-procedures"
+                      library: "fa-solid"
+                    __fa4_migrated:
+                      selected_icon: true
+                    text: "<p>It's a great way for you to make use of all the benefits of being a part.</p>"
+                    text_typography_font_size:
+                      unit: "px"
+                      size: 14
+                    icon_color: "#ffffff"
+                    iconbg_color: "#b68c2f"
+
+            # Service 6
+            - id: "col2345"
+              size: 25
+              widgets:
+                # cholot-texticon widget #6
+                - id: "fd12e17"
+                  type: "cholot-texticon"
+                  settings:
+                    title: "Counseling"
+                    title_typography_typography: "custom"
+                    title_typography_font_size:
+                      unit: "px"
+                      size: 24
+                    subtitle: "Support"
+                    subtitle_typography_typography: "custom"
+                    subtitle_typography_font_size:
+                      unit: "px"
+                      size: 13
+                    subtitle_typography_font_weight: "700"
+                    subtitle_typography_text_transform: "uppercase"
+                    subtitle_color: "#b68c2f"
+                    icon_size:
+                      unit: "px"
+                      size: 18
+                    icon_bg_size:
+                      unit: "px"
+                      size: 60
+                    selected_icon:
+                      value: "fas fa-restroom"
+                      library: "fa-solid"
+                    __fa4_migrated:
+                      selected_icon: true
+                    text: "<p>The enrichment programs aimed at keeping our residents healthy.</p>"
+                    text_typography_font_size:
+                      unit: "px"
+                      size: 14
+                    icon_color: "#ffffff"
+                    iconbg_color: "#b68c2f"
+
+            # Service 7
+            - id: "col3456"
+              size: 25
+              widgets:
+                # cholot-texticon widget #7
+                - id: "8a1c421"
+                  type: "cholot-texticon"
+                  settings:
+                    title: "Stay active."
+                    title_typography_typography: "custom"
+                    title_typography_font_size:
+                      unit: "px"
+                      size: 24
+                    subtitle: "Activities"
+                    subtitle_typography_typography: "custom"
+                    subtitle_typography_font_size:
+                      unit: "px"
+                      size: 13
+                    subtitle_typography_font_weight: "700"
+                    subtitle_typography_text_transform: "uppercase"
+                    subtitle_color: "#b68c2f"
+                    icon_size:
+                      unit: "px"
+                      size: 18
+                    icon_bg_size:
+                      unit: "px"
+                      size: 60
+                    selected_icon:
+                      value: "fas fa-route"
+                      library: "fa-solid"
+                    __fa4_migrated:
+                      selected_icon: true
+                    text: "<p>Give yourself a break and let us do the cooking and the cleaning.</p>"
+                    text_typography_font_size:
+                      unit: "px"
+                      size: 14
+                    icon_color: "#ffffff"
+                    iconbg_color: "#b68c2f"
+
+            # Service 8
+            - id: "col4567"
+              size: 25
+              widgets:
+                # cholot-texticon widget #8 (Final key widget)
+                - id: "8a5b5ee"
+                  type: "cholot-texticon"
+                  settings:
+                    title: "Meet regularly"
+                    title_typography_typography: "custom"
+                    title_typography_font_size:
+                      unit: "px"
+                      size: 24
+                    subtitle: "Social"
+                    subtitle_typography_typography: "custom"
+                    subtitle_typography_font_size:
+                      unit: "px"
+                      size: 13
+                    subtitle_typography_font_weight: "700"
+                    subtitle_typography_text_transform: "uppercase"
+                    subtitle_color: "#b68c2f"
+                    icon_size:
+                      unit: "px"
+                      size: 18
+                    icon_bg_size:
+                      unit: "px"
+                      size: 60
+                    selected_icon:
+                      value: "fas fa-people-carry"
+                      library: "fa-solid"
+                    __fa4_migrated:
+                      selected_icon: true
+                    text: "<p>Let our residents live their life independently and enjoy their life.</p>"
+                    text_typography_font_size:
+                      unit: "px"
+                      size: 14
+                    icon_color: "#ffffff"
+                    iconbg_color: "#b68c2f"
+
+# Widget Usage Summary (like in original)
+widget_usage:
+  cholot-texticon: 8  # We're testing with 8 key widgets
+  column: 26
+  section: 17
+  image: 6
+  video: 1
+  text-editor: 7
+  cholot-title: 4
+  divider: 4
+  cholot-gallery: 1
+  rdn-slider: 1
+  cholot-post-three: 1
+  icon-list: 1
+  social-icons: 1

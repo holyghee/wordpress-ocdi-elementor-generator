@@ -1,0 +1,290 @@
+{
+  "site": {
+    "title": "RIMAN GmbH",
+    "base_url": "http://localhost:8080",
+    "description": "Professional Schadstoffsanierung",
+    "language": "de-DE"
+  },
+  "pages": [
+    {
+      "id": 1000,
+      "title": "Test Homepage",
+      "slug": "home",
+      "status": "publish",
+      "elementor_data": [
+        {
+          "id": "e983a249",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default",
+            "background_background": "classic",
+            "background_color": "#b68c2f",
+            "padding": {
+              "unit": "px",
+              "top": "60",
+              "right": "60",
+              "bottom": "60",
+              "left": "60",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "16dd1139",
+              "settings": {
+                "_column_size": "33.333",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "b9d07d84",
+                  "settings": {
+                    "icon": "fas fa-crown",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "700",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "subtitle_color": "#b68c2f",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "icon_bg_size": {
+                      "unit": "px",
+                      "size": 72,
+                      "sizes": []
+                    },
+                    "icon_color": "#ffffff",
+                    "iconbg_color": "#b68c2f",
+                    "text_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "text_color": "#666666",
+                    "_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "title": "Asbestsanierung",
+                    "subtitle": "ZERTIFIZIERT",
+                    "text": "<p>Professionelle Entfernung von Asbest.</p>",
+                    "selected_icon": {
+                      "value": "fas fa-shield-alt",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-texticon",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            },
+            {
+              "id": "ae57cd24",
+              "settings": {
+                "_column_size": "33.333",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "c61b5b72",
+                  "settings": {
+                    "icon": "fas fa-crown",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "700",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "subtitle_color": "#b68c2f",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "icon_bg_size": {
+                      "unit": "px",
+                      "size": 72,
+                      "sizes": []
+                    },
+                    "icon_color": "#ffffff",
+                    "iconbg_color": "#b68c2f",
+                    "text_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "text_color": "#666666",
+                    "_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "title": "PCB-Sanierung",
+                    "subtitle": "FACHGERECHT",
+                    "text": "<p>Sichere Beseitigung von PCB.</p>",
+                    "selected_icon": {
+                      "value": "fas fa-industry",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-texticon",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            },
+            {
+              "id": "3902ff40",
+              "settings": {
+                "_column_size": "33.333",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "304cd0a6",
+                  "settings": {
+                    "icon": "fas fa-crown",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "700",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "subtitle_color": "#b68c2f",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "icon_bg_size": {
+                      "unit": "px",
+                      "size": 72,
+                      "sizes": []
+                    },
+                    "icon_color": "#ffffff",
+                    "iconbg_color": "#b68c2f",
+                    "text_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "text_color": "#666666",
+                    "_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "title": "Schimmelsanierung",
+                    "subtitle": "NACHHALTIG",
+                    "text": "<p>Nachhaltige Schimmelbeseitigung.</p>",
+                    "selected_icon": {
+                      "value": "fas fa-home",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-texticon",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        }
+      ],
+      "metadata": {
+        "sections_count": 1,
+        "generated_ids": [
+          "e983a249",
+          "16dd1139",
+          "b9d07d84",
+          "ae57cd24",
+          "c61b5b72",
+          "3902ff40",
+          "304cd0a6"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "processor": "YAML to JSON Processor v1.0",
+    "total_pages": 1,
+    "base_url": "http://localhost:8080"
+  }
+}

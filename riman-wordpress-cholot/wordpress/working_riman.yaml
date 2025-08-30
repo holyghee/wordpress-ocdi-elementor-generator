@@ -1,0 +1,198 @@
+# WORKING RIMAN STRUCTURE - Combines the best from both formats
+# Based on cholot-final.yaml structure but with fixed content
+
+site:
+  name: "RIMAN GmbH"
+  url: "https://riman-gmbh.de"
+  language: "de-DE"
+  description: "Ihr Spezialist für Sanierung und Schadstoffbeseitigung"
+  base_url: "http://localhost:8082"
+
+design:
+  colors:
+    primary: "#b68c2f"    # RIMAN Gold
+    secondary: "#2c3e50"  # Dunkelblau
+    accent: "#e74c3c"     # Rot für Notfall
+    background: "#ffffff"
+  fonts:
+    heading: "Playfair Display"
+    body: "Source Sans Pro"
+
+# Media Attachments for images
+media:
+  - url: "http://localhost:8082/wp-content/uploads/2024/sanierung-hero.jpg"
+    title: "Sanierung Hero Image"
+  - url: "http://localhost:8082/wp-content/uploads/2024/asbest-hero.jpg"
+    title: "Asbest Sanierung Hero"
+  - url: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+    title: "Placeholder Image"
+
+pages:
+  - id: "home"
+    title: "RIMAN GmbH - Sanierungsexperten"
+    slug: "startseite"
+    status: "publish" 
+    template: "elementor_canvas"
+    sections:
+      
+      # Hero Slider Section
+      - type: "hero_slider"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "rgba(182,140,47,0.9)"
+          shape_divider_bottom:
+            type: "curve"
+            color: "#ffffff"
+            width: {"unit": "%", "size": 100, "sizes": []}
+            height: {"unit": "px", "size": 60, "sizes": []}
+        slides:
+          - title: "RIMAN GmbH - Ihre <span>Experten</span> für Sanierung"
+            subtitle: "Seit über 20 Jahren"
+            text: "Professionelle Asbest-, PCB- und Schimmelsanierung nach höchsten Sicherheitsstandards."
+            button_text: "Kostenlose Beratung"
+            button_link: "#contact"
+            image: "http://localhost:8082/wp-content/uploads/2024/sanierung-hero.jpg"
+          - title: "Zertifizierte <span>Asbestsanierung</span>"
+            subtitle: "Nach TRGS 519"
+            text: "Sichere und fachgerechte Entfernung von Asbest mit modernster Ausrüstung."
+            button_text: "Mehr erfahren"
+            button_link: "/leistungen/asbestsanierung"
+            image: "http://localhost:8082/wp-content/uploads/2024/asbest-hero.jpg"
+          - title: "<span>24/7</span> Notdienst"
+            subtitle: "Immer erreichbar"
+            text: "Bei Schadensfällen sind wir rund um die Uhr für Sie da."
+            button_text: "Notdienst anrufen"
+            button_link: "tel:+493012345678"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+      
+      # Service Cards Section (8 cards in 4x2 layout)
+      - type: "service_cards"
+        title: "Unsere Kernkompetenzen"
+        subtitle: "Zertifiziert & Professionell"
+        columns: 4
+        rows: 2
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#f8f9fa"
+          padding:
+            desktop: {"top": "80", "right": "20", "bottom": "80", "left": "20", "unit": "px"}
+        services:
+          # First Row
+          - title: "Asbestsanierung"
+            subtitle: "TRGS 519 zertifiziert"
+            description: "Fachgerechte Entfernung und Entsorgung von Asbest in Gebäuden aller Art."
+            icon: "fas fa-shield-alt"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          - title: "PCB-Sanierung"
+            subtitle: "Umweltgerecht"
+            description: "Professionelle Beseitigung PCB-belasteter Materialien nach aktuellen Richtlinien."
+            icon: "fas fa-biohazard"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          - title: "Schimmelsanierung"
+            subtitle: "Nachhaltig"
+            description: "Komplette Schimmelbeseitigung inklusive Ursachenanalyse und Prävention."
+            icon: "fas fa-spray-can"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          - title: "Brandschadensanierung"
+            subtitle: "24/7 Notdienst"
+            description: "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden."
+            icon: "fas fa-fire-extinguisher"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          # Second Row
+          - title: "Schadstoffsanierung"
+            subtitle: "Zertifiziert nach BGR 128"
+            description: "Beseitigung von PCB, PAK, KMF und anderen Gefahrstoffen. Zertifiziert nach BGR 128."
+            icon: "fas fa-biohazard"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          - title: "Altbausanierung"
+            subtitle: "Denkmalgerecht"
+            description: "Denkmalgerechte Sanierung historischer Gebäude. Erhalt der Bausubstanz."
+            icon: "fas fa-home"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          - title: "Industriedemontage"
+            subtitle: "Professionell"
+            description: "Rückbau von Industrieanlagen. Professionelle Demontage und Verwertung."
+            icon: "fas fa-industry"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+          
+          - title: "Gutachten & Beratung"
+            subtitle: "Unabhängig"
+            description: "Unabhängige Gutachten und Beratung. Begleitung bei Versicherungsfällen."
+            icon: "fas fa-clipboard-check"
+            image: "http://localhost:8082/wp-content/uploads/2024/placeholder.jpg"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+      
+      # About Section
+      - type: "about"
+        title: "Über <span>RIMAN GmbH</span>"
+        subtitle: "Ihre Sanierungsexperten seit 2000"
+        settings:
+          padding:
+            desktop: {"top": "80", "right": "20", "bottom": "80", "left": "20", "unit": "px"}
+        widgets:
+          - type: "cholot-title"
+            content:
+              title: "20 Jahre Erfahrung in der Sanierung"
+              header_size: "h2"
+          - type: "text"
+            content:
+              text: |
+                Mit über 20 Jahren Erfahrung sind wir Ihr zuverlässiger Partner für alle 
+                Sanierungsarbeiten. Unser Team aus über 50 zertifizierten Experten garantiert 
+                höchste Qualität und Sicherheit bei jedem Projekt.
+                
+                Wir sind spezialisiert auf die Sanierung von Schadstoffen und verfügen über 
+                modernste Ausrüstung sowie alle erforderlichen Zertifizierungen. Von der 
+                Analyse über die Durchführung bis zur Dokumentation - alles aus einer Hand.
+      
+      # Contact Section
+      - type: "contact"
+        title: "Kontaktieren Sie uns"
+        subtitle: "24/7 Notfall-Hotline: 0800-RIMAN24"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#1f1f1f"
+        widgets:
+          - type: "cholot-contact"
+            content:
+              title: "Kostenlose Erstberatung"
+              subtitle: "Wir sind für Sie da"
+              address: |
+                RIMAN GmbH
+                Industriestraße 42
+                80335 München
+              phone: "+49 89 123456-0"
+              email: "info@riman-gmbh.de"
+              emergency: "0800-7462624"

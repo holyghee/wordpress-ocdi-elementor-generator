@@ -1,0 +1,678 @@
+# Advanced Cholot Theme Customization Example
+# Demonstrates complex layouts, dynamic content, and advanced styling options
+
+site:
+  title: "Modern Creative Agency"
+  description: "Innovative design and digital solutions"
+  url: "https://creative-agency.com"
+  language: "en-US"
+  timezone: "America/New_York"
+
+design:
+  colors:
+    primary: "#6366f1"       # Indigo primary
+    secondary: "#f59e0b"     # Amber secondary  
+    background: "#0f172a"    # Dark slate background
+    text: "#e2e8f0"         # Light slate text
+    accent: "#ec4899"       # Pink accent
+    white: "#ffffff"
+    black: "#020617"        # Very dark slate
+    gray: "#374151"         # Gray-700
+  
+  fonts:
+    primary: 
+      family: "Inter"
+      weights: [300, 400, 500, 600, 700, 800]
+    secondary:
+      family: "JetBrains Mono"
+      weights: [400, 500, 600, 700]
+    headings:
+      family: "Space Grotesk"
+      weights: [400, 500, 600, 700, 800]
+  
+  spacing:
+    xs: "4px"
+    sm: "8px"
+    md: "16px"
+    lg: "32px"
+    xl: "64px"
+    xxl: "128px"
+  
+  borders:
+    radius: "8px"
+    width: "2px"
+  
+  shadows:
+    light: "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)"
+    medium: "0 4px 6px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.12)"
+    heavy: "0 10px 25px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.12)"
+
+navigation:
+  menus:
+    - id: "primary-menu"
+      name: "Primary Navigation"
+      items:
+        - label: "Home"
+          url: "/"
+          icon: "fas fa-home"
+        - label: "Work"
+          url: "/work/"
+          icon: "fas fa-briefcase"
+          submenu:
+            - label: "Web Design"
+              url: "/work/web-design/"
+            - label: "Brand Identity"
+              url: "/work/branding/"
+            - label: "Mobile Apps"
+              url: "/work/mobile-apps/"
+        - label: "Services"
+          url: "/services/"
+          icon: "fas fa-tools"
+        - label: "About"
+          url: "/about/"
+          icon: "fas fa-users"
+        - label: "Blog"
+          url: "/blog/"
+          icon: "fas fa-blog"
+        - label: "Contact"
+          url: "/contact/"
+          icon: "fas fa-envelope"
+
+content:
+  posts:
+    categories:
+      - id: "1"
+        name: "Design Trends"
+        slug: "design-trends"
+      - id: "2"
+        name: "Development"
+        slug: "development"
+      - id: "3"
+        name: "Case Studies"
+        slug: "case-studies"
+      - id: "4"
+        name: "Agency News"
+        slug: "agency-news"
+    tags:
+      - id: "1"
+        name: "ui-design"
+        slug: "ui-design"
+      - id: "2"
+        name: "react"
+        slug: "react"
+      - id: "3"
+        name: "branding"
+        slug: "branding"
+      - id: "4"
+        name: "mobile"
+        slug: "mobile"
+  
+  media:
+    images:
+      - id: "logo_dark"
+        url: "/wp-content/uploads/agency-logo-dark.svg"
+        alt: "Agency Logo Dark"
+        title: "Creative Agency Logo"
+      - id: "logo_light"
+        url: "/wp-content/uploads/agency-logo-light.svg"
+        alt: "Agency Logo Light"
+        title: "Creative Agency Logo Light"
+      - id: "hero_video"
+        url: "/wp-content/uploads/hero-background.mp4"
+        alt: "Hero Background Video"
+        title: "Creative Process Video"
+    
+    galleries:
+      - id: "portfolio_main"
+        name: "Main Portfolio Gallery"
+        images: ["work1.jpg", "work2.jpg", "work3.jpg", "work4.jpg", "work5.jpg", "work6.jpg"]
+      - id: "team_photos"
+        name: "Team Photos"
+        images: ["team1.jpg", "team2.jpg", "team3.jpg", "team4.jpg"]
+
+pages:
+  - id: "home"
+    title: "Creative Agency - Modern Design Solutions"
+    slug: ""
+    template: "full-width"
+    sections:
+      # Animated Header with Video Background
+      - type: "header"
+        id: "animated_header"
+        settings:
+          background:
+            type: "video"
+            video_url: "/wp-content/uploads/hero-background.mp4"
+            overlay:
+              color: "#0f172a"
+              opacity: 0.7
+          padding: {top: "0", right: "0", bottom: "0", left: "0"}
+          structure: "20"
+          height: "100vh"
+          position: "fixed"
+          z_index: 1000
+        columns:
+          - size: 20
+            responsive: {tablet: 25, mobile: 40}
+            widgets:
+              - type: "cholot-logo"
+                id: "animated_logo"
+                settings:
+                  logo_img:
+                    url: "/wp-content/uploads/agency-logo-light.svg"
+                    id: "logo_light"
+                  align: "left"
+                  height: 45
+                  animation: "fadeInUp"
+                  animation_delay: 0.2
+          
+          - size: 60
+            responsive: {tablet: 50, mobile: 60}
+            widgets:
+              - type: "cholot-menu"
+                id: "animated_menu"
+                settings:
+                  cholot_menu: "primary-menu"
+                  align: "center"
+                  align_mobile: "right"
+                  styling:
+                    menu_color: "#e2e8f0"
+                    menu_color_hover: "#6366f1"
+                    menu_child_color: "#e2e8f0"
+                    menu_child_color_hover: "#6366f1"
+                    hamb_color: "#e2e8f0"
+                    opacity: 0.9
+                    opacity_hover: 1.0
+                  typography:
+                    font_family: "Space Grotesk"
+                    font_weight: 500
+                    text_transform: "none"
+                    letter_spacing: 0.5
+                    font_size: 16
+                  animation: "slideInDown"
+                  animation_delay: 0.4
+          
+          - size: 20
+            responsive: {tablet: 25, mobile: 0}
+            widgets:
+              - type: "cholot-button"
+                id: "header_cta_advanced"
+                settings:
+                  btn_text: "Start Project"
+                  btn_sub: "Free Consultation"
+                  link:
+                    url: "/contact/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-rocket"
+                  styling:
+                    background_color: "linear-gradient(135deg, #6366f1 0%, #ec4899 100%)"
+                    background_color_hover: "linear-gradient(135deg, #4f46e5 0%, #db2777 100%)"
+                    text_color: "#ffffff"
+                    text_color_hover: "#ffffff"
+                    border_color: "transparent"
+                    border_radius: 50
+                    box_shadow: "0 10px 25px rgba(99, 102, 241, 0.3)"
+                  animation: "pulse"
+                  animation_duration: 2.0
+      
+      # Hero Section with Parallax
+      - type: "hero"
+        id: "parallax_hero"
+        settings:
+          background:
+            type: "gradient"
+            gradient: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)"
+            parallax: true
+            parallax_speed: 0.5
+          padding: {top: "200px", right: "0", bottom: "120px", left: "0"}
+          structure: "60"
+          min_height: "100vh"
+        columns:
+          - size: 60
+            responsive: {tablet: 80, mobile: 100}
+            widgets:
+              - type: "cholot-title"
+                id: "hero_main_title"
+                settings:
+                  title: "We Create <span style='background: linear-gradient(135deg, #6366f1, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Digital Experiences</span> That Matter"
+                  header_size: "h1"
+                  align: "center"
+                  typography:
+                    font_size: 72
+                    font_weight: 800
+                    color: "#e2e8f0"
+                    line_height: 1.1
+                  margins: {top: 0, right: 0, bottom: 40, left: 0}
+                  animation: "fadeInUp"
+                  animation_delay: 0.8
+              
+              - type: "text-editor"
+                id: "hero_description"
+                settings:
+                  editor: "<p>We're a creative agency specializing in cutting-edge design, development, and digital strategy. Let's build something amazing together.</p>"
+                  text_color: "#94a3b8"
+                  typography:
+                    font_size: 22
+                    font_weight: 400
+                    line_height: 1.6
+                  align: "center"
+                  margins: {top: 0, right: 0, bottom: 60, left: 0}
+                  animation: "fadeInUp"
+                  animation_delay: 1.0
+              
+              - type: "cholot-button"
+                id: "hero_primary_cta"
+                settings:
+                  btn_text: "View Our Work"
+                  btn_sub: ""
+                  link:
+                    url: "/work/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-arrow-right"
+                  styling:
+                    background_color: "#6366f1"
+                    background_color_hover: "#4f46e5"
+                    text_color: "#ffffff"
+                    text_color_hover: "#ffffff"
+                    border_radius: 12
+                    box_shadow: "0 20px 40px rgba(99, 102, 241, 0.4)"
+                  typography:
+                    font_size: 18
+                    font_weight: 600
+                  padding: {top: 20, right: 40, left: 40, bottom: 20}
+                  animation: "bounceIn"
+                  animation_delay: 1.2
+          
+          - size: 40
+            responsive: {tablet: 20, mobile: 0}
+            widgets: []
+      
+      # Dynamic Services Grid
+      - type: "content"
+        id: "services_grid"
+        settings:
+          background:
+            type: "classic"
+            color: "#1e293b"
+            pattern: "grid-dots"
+          padding: {top: "120px", right: "0", bottom: "120px", left: "0"}
+          structure: "25"
+        columns:
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "service_web_design"
+                settings:
+                  title: "Web Design"
+                  subtitle: "Modern & Responsive"
+                  text: "<p>Beautiful, user-focused designs that work seamlessly across all devices and browsers.</p>"
+                  icon: "fas fa-palette"
+                  title_color: "#e2e8f0"
+                  subtitle_color: "#6366f1"
+                  text_color: "#94a3b8"
+                  icon_color: "#6366f1"
+                  icon_size: 40
+                  card_style: true
+                  card_background: "#334155"
+                  card_border_radius: 16
+                  card_padding: {top: 40, right: 32, bottom: 40, left: 32}
+                  card_shadow: "0 20px 40px rgba(0,0,0,0.3)"
+                  hover_transform: "translateY(-8px)"
+                  animation: "fadeInUp"
+                  animation_delay: 0.2
+          
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "service_development"
+                settings:
+                  title: "Development"
+                  subtitle: "Fast & Scalable"
+                  text: "<p>Custom development solutions using the latest technologies and best practices.</p>"
+                  icon: "fas fa-code"
+                  title_color: "#e2e8f0"
+                  subtitle_color: "#f59e0b"
+                  text_color: "#94a3b8"
+                  icon_color: "#f59e0b"
+                  icon_size: 40
+                  card_style: true
+                  card_background: "#334155"
+                  card_border_radius: 16
+                  card_padding: {top: 40, right: 32, bottom: 40, left: 32}
+                  card_shadow: "0 20px 40px rgba(0,0,0,0.3)"
+                  hover_transform: "translateY(-8px)"
+                  animation: "fadeInUp"
+                  animation_delay: 0.4
+          
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "service_branding"
+                settings:
+                  title: "Branding"
+                  subtitle: "Memorable & Unique"
+                  text: "<p>Brand identities that tell your story and connect with your audience.</p>"
+                  icon: "fas fa-star"
+                  title_color: "#e2e8f0"
+                  subtitle_color: "#ec4899"
+                  text_color: "#94a3b8"
+                  icon_color: "#ec4899"
+                  icon_size: 40
+                  card_style: true
+                  card_background: "#334155"
+                  card_border_radius: 16
+                  card_padding: {top: 40, right: 32, bottom: 40, left: 32}
+                  card_shadow: "0 20px 40px rgba(0,0,0,0.3)"
+                  hover_transform: "translateY(-8px)"
+                  animation: "fadeInUp"
+                  animation_delay: 0.6
+          
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "service_strategy"
+                settings:
+                  title: "Strategy"
+                  subtitle: "Data-Driven"
+                  text: "<p>Strategic consulting to help you make informed decisions and achieve your goals.</p>"
+                  icon: "fas fa-chart-line"
+                  title_color: "#e2e8f0"
+                  subtitle_color: "#10b981"
+                  text_color: "#94a3b8"
+                  icon_color: "#10b981"
+                  icon_size: 40
+                  card_style: true
+                  card_background: "#334155"
+                  card_border_radius: 16
+                  card_padding: {top: 40, right: 32, bottom: 40, left: 32}
+                  card_shadow: "0 20px 40px rgba(0,0,0,0.3)"
+                  hover_transform: "translateY(-8px)"
+                  animation: "fadeInUp"
+                  animation_delay: 0.8
+      
+      # Portfolio Showcase with Masonry Layout
+      - type: "content"
+        id: "portfolio_showcase"
+        settings:
+          background:
+            type: "classic"
+            color: "#0f172a"
+          padding: {top: "120px", right: "0", bottom: "120px", left: "0"}
+          structure: "100"
+        columns:
+          - size: 100
+            widgets:
+              - type: "cholot-title"
+                id: "portfolio_title"
+                settings:
+                  title: "Featured <span style='color: #6366f1;'>Work</span>"
+                  header_size: "h2"
+                  align: "center"
+                  typography:
+                    font_size: 48
+                    font_weight: 700
+                    color: "#e2e8f0"
+                  margins: {top: 0, right: 0, bottom: 80, left: 0}
+              
+              - type: "cholot-gallery"
+                id: "portfolio_masonry"
+                settings:
+                  gallery:
+                    - id: "work1"
+                      url: "/wp-content/uploads/portfolio/project-1.jpg"
+                      title: "E-commerce Platform"
+                      category: "Web Design"
+                      size: "large"
+                    - id: "work2"
+                      url: "/wp-content/uploads/portfolio/project-2.jpg"
+                      title: "Brand Identity"
+                      category: "Branding"
+                      size: "medium"
+                    - id: "work3"
+                      url: "/wp-content/uploads/portfolio/project-3.jpg"
+                      title: "Mobile App"
+                      category: "App Design"
+                      size: "medium"
+                    - id: "work4"
+                      url: "/wp-content/uploads/portfolio/project-4.jpg"
+                      title: "Corporate Website"
+                      category: "Web Design"
+                      size: "large"
+                  layout: "masonry"
+                  columns: 3
+                  columns_tablet: 2
+                  columns_mobile: 1
+                  gap: 32
+                  hover_effect: "zoom"
+                  filter_buttons: true
+                  lightbox: true
+                  animation: "staggered"
+      
+      # Team Section with Cards
+      - type: "content"
+        id: "team_section"
+        settings:
+          background:
+            type: "gradient"
+            gradient: "linear-gradient(135deg, #1e293b 0%, #334155 100%)"
+          padding: {top: "120px", right: "0", bottom: "120px", left: "0"}
+          structure: "25"
+        columns:
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "team_member_1"
+                settings:
+                  title: "Sarah Johnson"
+                  subtitle: "Creative Director"
+                  text: "<p>10+ years crafting digital experiences that users love.</p>"
+                  image: "/wp-content/uploads/team/sarah.jpg"
+                  social_links:
+                    - platform: "linkedin"
+                      url: "https://linkedin.com/in/sarah-johnson"
+                    - platform: "dribbble"
+                      url: "https://dribbble.com/sarah-johnson"
+                  card_style: true
+                  card_background: "#475569"
+                  card_border_radius: 20
+          
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "team_member_2"
+                settings:
+                  title: "Mike Chen"
+                  subtitle: "Lead Developer"
+                  text: "<p>Full-stack developer passionate about clean, efficient code.</p>"
+                  image: "/wp-content/uploads/team/mike.jpg"
+                  social_links:
+                    - platform: "github"
+                      url: "https://github.com/mike-chen"
+                    - platform: "linkedin"
+                      url: "https://linkedin.com/in/mike-chen"
+                  card_style: true
+                  card_background: "#475569"
+                  card_border_radius: 20
+          
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "team_member_3"
+                settings:
+                  title: "Emma Davis"
+                  subtitle: "UX Researcher"
+                  text: "<p>User research expert who brings insights to every project.</p>"
+                  image: "/wp-content/uploads/team/emma.jpg"
+                  social_links:
+                    - platform: "linkedin"
+                      url: "https://linkedin.com/in/emma-davis"
+                    - platform: "medium"
+                      url: "https://medium.com/@emma-davis"
+                  card_style: true
+                  card_background: "#475569"
+                  card_border_radius: 20
+          
+          - size: 25
+            responsive: {tablet: 50, mobile: 100}
+            widgets:
+              - type: "cholot-texticon"
+                id: "team_member_4"
+                settings:
+                  title: "Alex Rodriguez"
+                  subtitle: "Brand Strategist"
+                  text: "<p>Strategic thinker who builds brands that resonate and endure.</p>"
+                  image: "/wp-content/uploads/team/alex.jpg"
+                  social_links:
+                    - platform: "linkedin"
+                      url: "https://linkedin.com/in/alex-rodriguez"
+                    - platform: "twitter"
+                      url: "https://twitter.com/alex_rodriguez"
+                  card_style: true
+                  card_background: "#475569"
+                  card_border_radius: 20
+      
+      # Call-to-Action with Animation
+      - type: "content"
+        id: "final_cta"
+        settings:
+          background:
+            type: "gradient"
+            gradient: "linear-gradient(135deg, #6366f1 0%, #ec4899 100%)"
+          padding: {top: "100px", right: "0", bottom: "100px", left: "0"}
+          structure: "100"
+        columns:
+          - size: 100
+            widgets:
+              - type: "cholot-title"
+                id: "cta_title"
+                settings:
+                  title: "Ready to Start Your Next Project?"
+                  header_size: "h2"
+                  align: "center"
+                  typography:
+                    font_size: 42
+                    font_weight: 700
+                    color: "#ffffff"
+                  margins: {top: 0, right: 0, bottom: 24, left: 0}
+                  animation: "bounceInUp"
+              
+              - type: "text-editor"
+                id: "cta_subtitle"
+                settings:
+                  editor: "<p>Let's discuss your ideas and create something extraordinary together.</p>"
+                  text_color: "#ffffff"
+                  typography:
+                    font_size: 20
+                    font_weight: 300
+                    line_height: 1.6
+                  align: "center"
+                  margins: {top: 0, right: 0, bottom: 60, left: 0}
+                  animation: "fadeInUp"
+                  animation_delay: 0.3
+              
+              - type: "cholot-button"
+                id: "final_cta_button"
+                settings:
+                  btn_text: "Get In Touch"
+                  btn_sub: "Free consultation"
+                  link:
+                    url: "/contact/"
+                    is_external: false
+                    nofollow: false
+                  selected_icon: "fas fa-paper-plane"
+                  styling:
+                    background_color: "#ffffff"
+                    background_color_hover: "rgba(255,255,255,0.9)"
+                    text_color: "#6366f1"
+                    text_color_hover: "#4f46e5"
+                    border_radius: 50
+                    box_shadow: "0 10px 30px rgba(255,255,255,0.3)"
+                  typography:
+                    font_size: 18
+                    font_weight: 700
+                  padding: {top: 20, right: 50, bottom: 20, left: 50}
+                  animation: "pulse"
+                  animation_delay: 0.6
+                  animation_duration: 2.0
+                  align: "center"
+
+global:
+  header:
+    sticky: true
+    transparent: true
+    logo_position: "left"
+    menu_position: "center"
+    background_color: "rgba(15, 23, 42, 0.95)"
+    text_color: "#e2e8f0"
+    border_bottom: false
+    backdrop_blur: true
+  
+  footer:
+    background_color: "#020617"
+    text_color: "#64748b"
+    copyright_text: "© 2024 Creative Agency. All rights reserved."
+    social_links: ["instagram", "twitter", "linkedin", "dribbble"]
+  
+  blog:
+    posts_per_page: 9
+    excerpt_length: 30
+    show_author: true
+    show_date: true
+    show_categories: true
+    show_tags: true
+    layout: "masonry"
+  
+  performance:
+    lazy_load_images: true
+    minify_css: true
+    minify_js: true
+    enable_caching: true
+    preload_fonts: true
+    critical_css: true
+
+# Advanced Features
+advanced_features:
+  animations:
+    enabled: true
+    library: "AOS" # Animate On Scroll
+    easing: "ease-in-out"
+    duration: 800
+    offset: 100
+  
+  scroll_effects:
+    parallax: true
+    smooth_scroll: true
+    scroll_to_top: true
+  
+  interactive_elements:
+    hover_effects: true
+    cursor_follows: true
+    particle_system: true
+  
+  seo:
+    schema_markup: true
+    open_graph: true
+    twitter_cards: true
+    structured_data: true
+  
+  integrations:
+    google_analytics: "GA_TRACKING_ID"
+    google_fonts: ["Inter:300,400,500,600,700,800", "Space+Grotesk:400,500,600,700,800", "JetBrains+Mono:400,500,600,700"]
+    font_awesome: "6.0.0"
+
+migration:
+  export_settings: true
+  import_demo_data: false
+  preserve_content: true
+  backup_before_import: true
+  custom_post_types: true
+  advanced_custom_fields: true

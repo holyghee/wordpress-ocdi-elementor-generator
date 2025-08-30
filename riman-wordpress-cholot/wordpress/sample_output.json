@@ -1,0 +1,597 @@
+{
+  "site": {
+    "title": "Test Cholot Site",
+    "description": "Testing YAML to JSON processor",
+    "base_url": "http://localhost:8080",
+    "language": "en-US"
+  },
+  "pages": [
+    {
+      "id": 1000,
+      "title": "Home",
+      "slug": "home",
+      "status": "publish",
+      "elementor_data": [
+        {
+          "id": "21d20687",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default",
+            "background_background": "classic",
+            "background_color": "#232323",
+            "background_image": {
+              "url": "http://localhost:8080/hero-bg.jpg",
+              "id": 100
+            },
+            "background_position": "center center",
+            "background_size": "cover",
+            "shape_divider_bottom": "waves",
+            "shape_divider_bottom_color": "#b68c2f",
+            "shape_divider_bottom_width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "shape_divider_bottom_height": {
+              "unit": "px",
+              "size": 80,
+              "sizes": []
+            },
+            "shape_divider_bottom_invert": "yes",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "60",
+              "right": "0",
+              "bottom": "60",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4bc78bcc",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "bdcedd80",
+                  "settings": {
+                    "header_size": "h1",
+                    "align": "center",
+                    "title_color": "#ffffff",
+                    "desc_typography_typography": "custom",
+                    "desc_typography_font_size": {
+                      "unit": "px",
+                      "size": 32,
+                      "sizes": []
+                    },
+                    "desc_typography_font_weight": "700",
+                    "desc_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2,
+                      "sizes": []
+                    },
+                    "span_title_typo_typography": "custom",
+                    "span_title_color": "#b68c2f",
+                    "title": "Welcome to Our <span>Business</span>"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-title",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "48d1cc89",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default",
+            "background_background": "classic",
+            "background_color": "#f4f4f4"
+          },
+          "elements": [
+            {
+              "id": "60e27422",
+              "settings": {
+                "_column_size": "33.333",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "a82da501",
+                  "settings": {
+                    "icon": "fas fa-crown",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "700",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "subtitle_color": "#b68c2f",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "icon_bg_size": {
+                      "unit": "px",
+                      "size": 72,
+                      "sizes": []
+                    },
+                    "icon_color": "#ffffff",
+                    "iconbg_color": "#b68c2f",
+                    "text_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "text_color": "#666666",
+                    "_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "title": "Consulting",
+                    "subtitle": "Expert Advice",
+                    "text": "<p>Strategic consulting for your business growth</p>",
+                    "selected_icon": {
+                      "value": "fas fa-lightbulb",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-texticon",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            },
+            {
+              "id": "504a8abc",
+              "settings": {
+                "_column_size": "33.333",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "df9a3796",
+                  "settings": {
+                    "icon": "fas fa-crown",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "700",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "subtitle_color": "#b68c2f",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "icon_bg_size": {
+                      "unit": "px",
+                      "size": 72,
+                      "sizes": []
+                    },
+                    "icon_color": "#ffffff",
+                    "iconbg_color": "#b68c2f",
+                    "text_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "text_color": "#666666",
+                    "_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "title": "Implementation",
+                    "subtitle": "Hands-on Support",
+                    "text": "<p>Complete implementation of solutions</p>",
+                    "selected_icon": {
+                      "value": "fas fa-cogs",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-texticon",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            },
+            {
+              "id": "1ce61ff6",
+              "settings": {
+                "_column_size": "33.333",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "f1ffd26e",
+                  "settings": {
+                    "icon": "fas fa-crown",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "700",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "subtitle_color": "#b68c2f",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "icon_bg_size": {
+                      "unit": "px",
+                      "size": 72,
+                      "sizes": []
+                    },
+                    "icon_color": "#ffffff",
+                    "iconbg_color": "#b68c2f",
+                    "text_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "text_color": "#666666",
+                    "_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "title": "Support",
+                    "subtitle": "24/7 Assistance",
+                    "text": "<p>Round-the-clock support for your peace of mind</p>",
+                    "selected_icon": {
+                      "value": "fas fa-headset",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-texticon",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "cfa4c4ed",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default"
+          },
+          "elements": [
+            {
+              "id": "4c9d87a7",
+              "settings": {
+                "_column_size": "50",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "020cdace",
+                  "settings": {
+                    "team_height": {
+                      "unit": "px",
+                      "size": 400,
+                      "sizes": []
+                    },
+                    "content_align": "center",
+                    "hover_animation": "shrink",
+                    "mask_color": "#000000",
+                    "mask_color_opacity": {
+                      "unit": "px",
+                      "size": 0.8,
+                      "sizes": []
+                    },
+                    "cport_typography_typography": "custom",
+                    "cport_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "ctext_typography_typography": "custom",
+                    "ctext_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "port_padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": true
+                    },
+                    "bg_content": "#f4f4f4",
+                    "title_cl": "#000000",
+                    "txt_cl": "#b68c2f",
+                    "title": "Sarah Johnson",
+                    "text": "CEO & Founder",
+                    "image": {
+                      "url": "http://localhost:8080/team-ceo.jpg",
+                      "id": 200,
+                      "alt": "Sarah Johnson",
+                      "source": "library",
+                      "size": ""
+                    },
+                    "social_icon_list": [
+                      {
+                        "social_icon": {
+                          "value": "fab fa-linkedin-in",
+                          "library": "fa-brands"
+                        },
+                        "_id": "1beeak7",
+                        "link": {
+                          "url": "https://linkedin.com/in/sarahjohnson",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "item_icon_color": "custom",
+                        "item_icon_primary_color": "rgba(0,0,0,0)",
+                        "item_icon_secondary_color": "#000000"
+                      },
+                      {
+                        "social_icon": {
+                          "value": "fab fa-twitter",
+                          "library": "fa-brands"
+                        },
+                        "_id": "esauu5z",
+                        "link": {
+                          "url": "https://twitter.com/sarahjohnson",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "item_icon_color": "custom",
+                        "item_icon_primary_color": "rgba(0,0,0,0)",
+                        "item_icon_secondary_color": "#000000"
+                      }
+                    ]
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-team",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            },
+            {
+              "id": "54d14b71",
+              "settings": {
+                "_column_size": "50",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "3017a5ed",
+                  "settings": {
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 28,
+                      "sizes": []
+                    },
+                    "subtitle_typography_typography": "custom",
+                    "subtitle_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
+                    "subtitle_typography_font_weight": "bold",
+                    "subtitle_typography_text_transform": "uppercase",
+                    "subtitle_color": "#b68c2f",
+                    "line_color_hover": "#b68c2f",
+                    "_background_background": "classic",
+                    "_background_color": "#ffffff",
+                    "title": "Our Leadership Team",
+                    "subtitle": "Meet Our Leaders",
+                    "line": {
+                      "unit": "px",
+                      "size": 60,
+                      "sizes": []
+                    },
+                    "line_height": {
+                      "unit": "px",
+                      "size": 3,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-text-line",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        },
+        {
+          "id": "f217b1f6",
+          "settings": {
+            "content_width": "boxed",
+            "gap": "default",
+            "background_background": "classic",
+            "background_color": "#232323"
+          },
+          "elements": [
+            {
+              "id": "402626d1",
+              "settings": {
+                "_column_size": "100",
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "c2976c8d",
+                  "settings": {
+                    "btn_typography_typography": "custom",
+                    "btn_typography_font_weight": "700",
+                    "btn_typography_text_transform": "uppercase",
+                    "btn_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
+                    "btn_color": "#ffffff",
+                    "btn_color_hover": "#ffffff",
+                    "btn_bg": "rgba(0,0,0,0)",
+                    "btn_bg_hover": "#b68c2f",
+                    "btn_border_color": "#b68c2f",
+                    "form_placeholder": "#ffffff",
+                    "form_bg": "rgba(255,255,255,0.1)",
+                    "form_border_color": "#ffffff",
+                    "form_border_color_active": "#b68c2f",
+                    "shortcode": "[contact-form-7 id=\"1\" title=\"Contact form\"]",
+                    "btn_width": "200px"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "cholot-contact",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": false,
+              "elType": "column"
+            }
+          ],
+          "isInner": false,
+          "elType": "section"
+        }
+      ],
+      "metadata": {
+        "sections_count": 4,
+        "generated_ids": [
+          "21d20687",
+          "4bc78bcc",
+          "bdcedd80",
+          "48d1cc89",
+          "60e27422",
+          "a82da501",
+          "504a8abc",
+          "df9a3796",
+          "1ce61ff6",
+          "f1ffd26e",
+          "cfa4c4ed",
+          "4c9d87a7",
+          "020cdace",
+          "54d14b71",
+          "3017a5ed",
+          "f217b1f6",
+          "402626d1",
+          "c2976c8d"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "processor": "YAML to JSON Processor v1.0",
+    "total_pages": 1,
+    "base_url": "http://localhost:8080"
+  }
+}

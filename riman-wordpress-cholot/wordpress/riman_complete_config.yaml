@@ -1,0 +1,220 @@
+# RIMAN COMPLETE WEBSITE CONFIGURATION
+# Hero Slider + 8 Service Cards + Full Site Structure
+# Based on cholot-final.yaml with enhanced service cards
+
+site:
+  title: "RIMAN GmbH - Sanierungsexperten"
+  description: "Professionelle Sanierungsdienstleistungen seit über 20 Jahren"
+  base_url: "http://localhost:8081"
+  language: "de-DE"
+
+# Authors
+authors:
+  - id: 1
+    login: admin
+    email: admin@riman-sanierung.de
+    display_name: RIMAN Admin
+
+# Categories for Blog
+categories:
+  - id: 1
+    slug: uncategorized
+    name: Allgemein
+  - id: 2
+    slug: sanierung
+    name: Sanierung
+  - id: 3
+    slug: asbestsanierung
+    name: Asbestsanierung
+
+# Main Menu
+menus:
+  - id: 30
+    slug: hauptmenu
+    name: Hauptmenü
+    items:
+      - title: Startseite
+        url: "/"
+        type: custom
+      - title: Leistungen
+        url: "/leistungen"
+        type: post_type
+        object: page
+      - title: Kontakt
+        url: "/kontakt"
+        type: post_type
+        object: page
+
+# Media Attachments
+media:
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung.jpg"
+    title: "Asbestsanierung"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/pcb-sanierung.jpg"
+    title: "PCB-Sanierung"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/schimmelsanierung.jpg"
+    title: "Schimmelsanierung"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/brandschadensanierung.jpg"
+    title: "Brandschadensanierung"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/schadstoffgutachten.jpg"
+    title: "Schadstoffgutachten"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/rueckbau.jpg"
+    title: "Rückbau & Entsorgung"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/umweltsanierung.jpg"
+    title: "Umweltsanierung"
+  - url: "http://localhost:8081/wp-content/uploads/2025/08/notdienst.jpg"
+    title: "24/7 Notdienst"
+
+# Pages
+pages:
+  # STARTSEITE with Elementor Hero Slider + 8 Service Cards
+  - title: "RIMAN GmbH - Ihre Sanierungsexperten"
+    slug: "startseite"
+    status: "publish"
+    template: "elementor_canvas"
+    sections:
+      # Hero Slider Section
+      - type: "hero_slider"
+        slides:
+          - title: "RIMAN GmbH - Ihre <span>Experten</span> für Sanierung"
+            subtitle: "Seit über 20 Jahren"
+            text: "Professionelle Asbest-, PCB- und Schimmelsanierung nach höchsten Sicherheitsstandards."
+            button_text: "Kostenlose Beratung"
+            button_link: "#contact"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung.jpg"
+          - title: "Zertifizierte <span>Asbestsanierung</span>"
+            subtitle: "Nach TRGS 519"
+            text: "Sichere und fachgerechte Entfernung von Asbest mit modernster Ausrüstung."
+            button_text: "Mehr erfahren"
+            button_link: "/leistungen/asbestsanierung"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/pcb-sanierung.jpg"
+          - title: "<span>24/7</span> Notdienst"
+            subtitle: "Immer erreichbar"
+            text: "Bei Schadensfällen sind wir rund um die Uhr für Sie da."
+            button_text: "Notdienst anrufen"
+            button_link: "tel:+493012345678"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/notdienst.jpg"
+      
+      # Service Cards Section with 8 Cards
+      - type: "service_cards"
+        title: "Unsere Dienstleistungen"
+        subtitle: "Zertifiziert & Professionell"
+        cards:
+          # Card 1: Asbestsanierung
+          - title: "Asbestsanierung"
+            subtitle: "TRGS 519 ZERTIFIZIERT"
+            description: "Professionelle Entfernung von Asbest nach TRGS 519. Sichere und fachgerechte Sanierung mit modernster Ausrüstung."
+            icon: "fas fa-shield-alt"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung.jpg"
+          
+          # Card 2: PCB-Sanierung
+          - title: "PCB-Sanierung"
+            subtitle: "UMWELTGERECHT"
+            description: "Fachgerechte Beseitigung PCB-belasteter Materialien nach aktuellen Umweltschutzrichtlinien."
+            icon: "fas fa-biohazard"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/pcb-sanierung.jpg"
+          
+          # Card 3: Schimmelsanierung
+          - title: "Schimmelsanierung"
+            subtitle: "NACHHALTIG"
+            description: "Nachhaltige Schimmelbeseitigung mit Ursachenanalyse und langfristigem Schutz."
+            icon: "fas fa-spray-can"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/schimmelsanierung.jpg"
+          
+          # Card 4: Brandschadensanierung
+          - title: "Brandschadensanierung"
+            subtitle: "24/7 NOTDIENST"
+            description: "Schnelle und professionelle Sanierung nach Brand- und Wasserschäden. Rund um die Uhr verfügbar."
+            icon: "fas fa-fire-extinguisher"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/brandschadensanierung.jpg"
+          
+          # Card 5: Schadstoffgutachten
+          - title: "Schadstoffgutachten"
+            subtitle: "AKKREDITIERT"
+            description: "Professionelle Schadstoffanalysen und Gutachten von akkreditierten Sachverständigen."
+            icon: "fas fa-search"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/schadstoffgutachten.jpg"
+          
+          # Card 6: Rückbau & Entsorgung
+          - title: "Rückbau & Entsorgung"
+            subtitle: "FACHGERECHT"
+            description: "Kontrollierter Rückbau und sachgerechte Entsorgung kontaminierter Materialien."
+            icon: "fas fa-tools"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/rueckbau.jpg"
+          
+          # Card 7: Umweltsanierung
+          - title: "Umweltsanierung"
+            subtitle: "ÖKOLOGISCH"
+            description: "Sanierung kontaminierter Böden und Gewässer mit umweltschonenden Verfahren."
+            icon: "fas fa-leaf"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/umweltsanierung.jpg"
+          
+          # Card 8: Notdienst
+          - title: "24/7 Notdienst"
+            subtitle: "SOFORT VERFÜGBAR"
+            description: "Schnelle Hilfe bei Notfällen. Unser Expertenteam ist rund um die Uhr für Sie da."
+            icon: "fas fa-phone"
+            image: "http://localhost:8081/wp-content/uploads/2025/08/notdienst.jpg"
+
+  # LEISTUNGEN Page
+  - title: "Unsere Leistungen"
+    slug: "leistungen"
+    status: "publish"
+    content: |
+      <h2>Professionelle Sanierungsdienstleistungen</h2>
+      <p>Die RIMAN GmbH bietet Ihnen das komplette Spektrum professioneller Sanierungsdienstleistungen. 
+      Mit über 20 Jahren Erfahrung und modernster Ausrüstung sind wir Ihr kompetenter Partner für alle 
+      Arten von Schadstoffsanierungen.</p>
+
+  # KONTAKT Page
+  - title: "Kontakt"
+    slug: "kontakt"
+    status: "publish"
+    content: |
+      <h2>Kontaktieren Sie uns</h2>
+      <p><strong>RIMAN GmbH</strong><br>
+      Sanierungsdienstleistungen<br>
+      Industriestraße 45<br>
+      13407 Berlin</p>
+      
+      <p>Telefon: +49 (0) 30 123456789<br>
+      E-Mail: info@riman-sanierung.de</p>
+
+# Blog Posts
+posts:
+  - title: "RIMAN erweitert Dienstleistungen um Umweltsanierung"
+    slug: "umweltsanierung-neu-2024"
+    author: "admin"
+    status: "publish"
+    categories: ["sanierung"]
+    excerpt: "Ab sofort bieten wir auch professionelle Umweltsanierung für kontaminierte Böden und Gewässer an."
+    content: |
+      <p>Die RIMAN GmbH erweitert ihr Leistungsspektrum um den Bereich Umweltsanierung. 
+      Mit unserem erfahrenen Team und modernster Technologie sanieren wir kontaminierte 
+      Böden und Gewässer nach höchsten ökologischen Standards.</p>
+
+# Header Template
+header:
+  title: "RIMAN Header"
+  content: |
+    <header class="site-header">
+      <div class="header-main">
+        <div class="container">
+          <div class="logo">
+            <img src="/logo-riman.png" alt="RIMAN GmbH">
+          </div>
+          <nav class="main-navigation">
+            <!-- Navigation Menu -->
+          </nav>
+        </div>
+      </div>
+    </header>
+
+# Footer Template
+footer:
+  title: "RIMAN Footer"
+  content: |
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2024 RIMAN GmbH. Alle Rechte vorbehalten.</p>
+      </div>
+    </footer>

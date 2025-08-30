@@ -1,0 +1,87 @@
+# Simple Example - Minimal Working Configuration
+# This demonstrates the basic structure for a single-page website
+
+# Global site configuration
+site_name: "My Simple Site"
+site_description: "A minimal example of our YAML processor"
+site_url: "https://mysimplesite.com"
+
+# Theme and styling
+theme:
+  primary_color: "#3498db"
+  secondary_color: "#2c3e50"
+  font_family: "Arial, sans-serif"
+
+# Navigation menu
+navigation:
+  - name: "Home"
+    url: "#home"
+    icon: "fa-home"
+  - name: "About"
+    url: "#about"
+    icon: "fa-user"
+  - name: "Contact"
+    url: "#contact"
+    icon: "fa-envelope"
+
+# Page sections - each section becomes an Elementor section
+sections:
+  # Hero section with call-to-action
+  - type: "hero"
+    id: "home"
+    title: "Welcome to My Simple Site"
+    subtitle: "This is a demonstration of our YAML processor"
+    background_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    buttons:
+      - text: "Get Started"
+        url: "#about"
+        style: "primary"
+      - text: "Learn More"
+        url: "#contact"
+        style: "secondary"
+
+  # About section with text content
+  - type: "content"
+    id: "about"
+    title: "About Our System"
+    content: |
+      Our YAML processor makes it easy to create professional websites
+      without writing HTML or CSS. Just define your content in YAML
+      and we'll generate the complete WordPress structure.
+    
+      Features:
+      - Simple YAML configuration
+      - Automatic Elementor integration
+      - Responsive design
+      - SEO optimization
+    layout: "text_only"
+
+  # Contact section with form
+  - type: "contact"
+    id: "contact"
+    title: "Get In Touch"
+    form_fields:
+      - name: "name"
+        type: "text"
+        label: "Your Name"
+        required: true
+      - name: "email"
+        type: "email"
+        label: "Email Address"
+        required: true
+      - name: "message"
+        type: "textarea"
+        label: "Message"
+        required: true
+    submit_text: "Send Message"
+    contact_info:
+      email: "hello@mysimplesite.com"
+      phone: "+1 (555) 123-4567"
+      address: "123 Main St, Anytown, USA"
+
+# SEO settings
+seo:
+  meta_title: "My Simple Site - YAML Processor Demo"
+  meta_description: "A demonstration of how our YAML processor creates beautiful websites"
+  keywords: ["yaml", "website", "processor", "demo"]
+  og_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c"

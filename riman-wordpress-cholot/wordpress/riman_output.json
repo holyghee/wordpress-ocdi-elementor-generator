@@ -1,0 +1,39 @@
+{
+  "site": {
+    "name": "RIMAN GmbH",
+    "tagline": "Professionelle Sanierung & Restauration",
+    "description": "Ihr zuverlässiger Partner für Asbestsanierung, Brandschadensanierung und Gebäuderestaurierung in ganz Deutschland",
+    "language": "de",
+    "branding": {
+      "primary_color": "#b68c2f",
+      "secondary_color": "#8a6a24",
+      "accent_color": "#d4a840",
+      "text_color": "#333333",
+      "background_color": "#ffffff",
+      "logo": {
+        "url": "/wp-content/uploads/riman-logo.png",
+        "alt": "RIMAN GmbH Logo",
+        "height": "60px"
+      },
+      "favicon": "/wp-content/uploads/favicon.ico"
+    }
+  },
+  "pages": [
+    {
+      "id": 1000,
+      "title": "Converted Page",
+      "slug": "converted-page",
+      "status": "draft",
+      "elementor_data": [],
+      "metadata": {
+        "sections_count": 0,
+        "generated_ids": []
+      }
+    }
+  ],
+  "metadata": {
+    "processor": "YAML to JSON Processor v1.0",
+    "total_pages": 1,
+    "base_url": "http://localhost:8080"
+  }
+}

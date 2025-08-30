@@ -1,0 +1,368 @@
+# Service Company Example - Professional Services Website
+# This demonstrates a more complex configuration with multiple service cards,
+# team members, testimonials, and pricing tables
+
+# Global site configuration
+site_name: "TechSolutions Pro"
+site_description: "Professional IT consulting and digital transformation services"
+site_url: "https://techsolutionspro.com"
+logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=80&fit=crop"
+
+# Theme and branding
+theme:
+  primary_color: "#2c5aa0"
+  secondary_color: "#1a365d"
+  accent_color: "#ffd700"
+  font_family: "Roboto, sans-serif"
+  font_sizes:
+    h1: "48px"
+    h2: "36px"
+    body: "16px"
+
+# Navigation with dropdown support
+navigation:
+  - name: "Home"
+    url: "#home"
+    icon: "fa-home"
+  - name: "Services"
+    url: "#services"
+    icon: "fa-cogs"
+    dropdown:
+      - name: "Web Development"
+        url: "#web-dev"
+      - name: "Cloud Solutions"
+        url: "#cloud"
+      - name: "IT Consulting"
+        url: "#consulting"
+  - name: "About"
+    url: "#about"
+    icon: "fa-users"
+  - name: "Pricing"
+    url: "#pricing"
+    icon: "fa-dollar-sign"
+  - name: "Contact"
+    url: "#contact"
+    icon: "fa-envelope"
+
+# Page sections
+sections:
+  # Hero section with video background
+  - type: "hero"
+    id: "home"
+    title: "Transform Your Business with Technology"
+    subtitle: "Expert IT consulting and digital solutions for modern enterprises"
+    background_video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    overlay_opacity: 0.6
+    buttons:
+      - text: "View Our Services"
+        url: "#services"
+        style: "primary"
+        icon: "fa-arrow-right"
+      - text: "Schedule Consultation"
+        url: "#contact"
+        style: "outline"
+        icon: "fa-calendar"
+
+  # Services section with detailed service cards
+  - type: "services"
+    id: "services"
+    title: "Our Professional Services"
+    subtitle: "Comprehensive IT solutions tailored to your business needs"
+    layout: "grid_3_column"
+    services:
+      - title: "Web Development"
+        icon: "fa-code"
+        description: "Custom web applications built with modern technologies and best practices"
+        features:
+          - "Responsive Design"
+          - "SEO Optimization"
+          - "Performance Optimization"
+          - "Security Implementation"
+        price: "Starting at $5,000"
+        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+        
+      - title: "Cloud Solutions"
+        icon: "fa-cloud"
+        description: "Scalable cloud infrastructure and migration services for enterprises"
+        features:
+          - "AWS/Azure Migration"
+          - "Auto-scaling Setup"
+          - "Cost Optimization"
+          - "24/7 Monitoring"
+        price: "Starting at $8,000"
+        image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8"
+        
+      - title: "IT Consulting"
+        icon: "fa-laptop"
+        description: "Strategic technology consulting to optimize your business processes"
+        features:
+          - "Technology Assessment"
+          - "Digital Transformation"
+          - "Process Automation"
+          - "Staff Training"
+        price: "Starting at $3,000"
+        image: "https://images.unsplash.com/photo-1553877522-43269d4ea984"
+        
+      - title: "Cybersecurity"
+        icon: "fa-shield-alt"
+        description: "Comprehensive security solutions to protect your digital assets"
+        features:
+          - "Security Audits"
+          - "Penetration Testing"
+          - "Compliance Management"
+          - "Incident Response"
+        price: "Starting at $6,000"
+        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3"
+        
+      - title: "Data Analytics"
+        icon: "fa-chart-bar"
+        description: "Turn your data into actionable insights with advanced analytics"
+        features:
+          - "Data Visualization"
+          - "Predictive Modeling"
+          - "Business Intelligence"
+          - "Real-time Dashboards"
+        price: "Starting at $7,000"
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+        
+      - title: "Mobile Development"
+        icon: "fa-mobile-alt"
+        description: "Native and cross-platform mobile applications for iOS and Android"
+        features:
+          - "Native Development"
+          - "Cross-platform Solutions"
+          - "App Store Optimization"
+          - "Maintenance & Updates"
+        price: "Starting at $10,000"
+        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c"
+
+  # Company stats/achievements
+  - type: "stats"
+    id: "achievements"
+    title: "Our Track Record"
+    background_color: "#f8f9fa"
+    stats:
+      - number: "500+"
+        label: "Projects Completed"
+        icon: "fa-project-diagram"
+      - number: "15+"
+        label: "Years Experience"
+        icon: "fa-calendar-alt"
+      - number: "98%"
+        label: "Client Satisfaction"
+        icon: "fa-smile"
+      - number: "24/7"
+        label: "Support Available"
+        icon: "fa-headset"
+
+  # Team section
+  - type: "team"
+    id: "about"
+    title: "Meet Our Expert Team"
+    subtitle: "Experienced professionals dedicated to your success"
+    layout: "grid_4_column"
+    team_members:
+      - name: "Sarah Johnson"
+        position: "Chief Technology Officer"
+        bio: "15+ years in enterprise software development and cloud architecture"
+        image: "https://images.unsplash.com/photo-1494790108755-2616b612b786"
+        social:
+          linkedin: "https://linkedin.com/in/sarahjohnson"
+          twitter: "https://twitter.com/sarahj_tech"
+        specialties: ["Cloud Architecture", "DevOps", "Team Leadership"]
+        
+      - name: "Michael Chen"
+        position: "Senior Developer"
+        bio: "Full-stack developer specializing in modern web technologies"
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+        social:
+          linkedin: "https://linkedin.com/in/michaelchen"
+          github: "https://github.com/mchen"
+        specialties: ["React", "Node.js", "Python"]
+        
+      - name: "Emily Rodriguez"
+        position: "Cybersecurity Specialist"
+        bio: "Certified security professional with expertise in threat analysis"
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+        social:
+          linkedin: "https://linkedin.com/in/emilyrodriguez"
+        specialties: ["Security Audits", "Compliance", "Risk Management"]
+        
+      - name: "David Kim"
+        position: "Data Scientist"
+        bio: "PhD in Computer Science with focus on machine learning and analytics"
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
+        social:
+          linkedin: "https://linkedin.com/in/davidkim"
+          github: "https://github.com/dkim"
+        specialties: ["Machine Learning", "Data Visualization", "Statistics"]
+
+  # Testimonials section
+  - type: "testimonials"
+    id: "testimonials"
+    title: "What Our Clients Say"
+    layout: "carousel"
+    testimonials:
+      - quote: "TechSolutions Pro transformed our entire IT infrastructure. The team's expertise and professionalism exceeded our expectations."
+        author: "John Smith"
+        position: "CEO, GlobalCorp"
+        company_logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=40&fit=crop"
+        rating: 5
+        
+      - quote: "The cloud migration project was completed on time and under budget. Our system performance has improved dramatically."
+        author: "Lisa Wang"
+        position: "CTO, InnovateTech"
+        company_logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=40&fit=crop"
+        rating: 5
+        
+      - quote: "Outstanding cybersecurity assessment and implementation. We now feel confident about our data protection."
+        author: "Robert Brown"
+        position: "IT Director, SecureBank"
+        company_logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=40&fit=crop"
+        rating: 5
+
+  # Pricing section
+  - type: "pricing"
+    id: "pricing"
+    title: "Flexible Pricing Plans"
+    subtitle: "Choose the plan that best fits your business needs"
+    layout: "table"
+    pricing_plans:
+      - name: "Starter"
+        price: "$2,999"
+        period: "per project"
+        description: "Perfect for small businesses getting started"
+        features:
+          - "Basic Web Development"
+          - "Responsive Design"
+          - "SEO Setup"
+          - "3 Months Support"
+          - "Documentation"
+        button_text: "Get Started"
+        featured: false
+        
+      - name: "Professional"
+        price: "$7,999"
+        period: "per project"
+        description: "Comprehensive solution for growing companies"
+        features:
+          - "Everything in Starter"
+          - "Cloud Integration"
+          - "Security Implementation"
+          - "Performance Optimization"
+          - "12 Months Support"
+          - "Training Sessions"
+        button_text: "Most Popular"
+        featured: true
+        
+      - name: "Enterprise"
+        price: "Custom"
+        period: "contact us"
+        description: "Tailored solutions for large organizations"
+        features:
+          - "Everything in Professional"
+          - "Custom Development"
+          - "Dedicated Team"
+          - "24/7 Support"
+          - "SLA Guarantee"
+          - "Ongoing Maintenance"
+        button_text: "Contact Sales"
+        featured: false
+
+  # Call-to-action section
+  - type: "cta"
+    id: "cta"
+    title: "Ready to Transform Your Business?"
+    subtitle: "Let's discuss how we can help you achieve your technology goals"
+    background_color: "#2c5aa0"
+    text_color: "#ffffff"
+    buttons:
+      - text: "Schedule Free Consultation"
+        url: "#contact"
+        style: "primary"
+        icon: "fa-calendar-alt"
+      - text: "Download Our Portfolio"
+        url: "/portfolio.pdf"
+        style: "outline"
+        icon: "fa-download"
+
+  # Contact section with multiple contact methods
+  - type: "contact"
+    id: "contact"
+    title: "Get In Touch"
+    subtitle: "We're here to help you succeed"
+    layout: "split"
+    form_fields:
+      - name: "company"
+        type: "text"
+        label: "Company Name"
+        required: true
+      - name: "name"
+        type: "text"
+        label: "Your Name"
+        required: true
+      - name: "email"
+        type: "email"
+        label: "Email Address"
+        required: true
+      - name: "phone"
+        type: "tel"
+        label: "Phone Number"
+        required: false
+      - name: "service"
+        type: "select"
+        label: "Service Interested In"
+        options:
+          - "Web Development"
+          - "Cloud Solutions"
+          - "IT Consulting"
+          - "Cybersecurity"
+          - "Data Analytics"
+          - "Mobile Development"
+        required: true
+      - name: "budget"
+        type: "select"
+        label: "Project Budget"
+        options:
+          - "Under $5,000"
+          - "$5,000 - $15,000"
+          - "$15,000 - $50,000"
+          - "Over $50,000"
+        required: false
+      - name: "message"
+        type: "textarea"
+        label: "Project Details"
+        required: true
+    submit_text: "Send Message"
+    contact_info:
+      email: "hello@techsolutionspro.com"
+      phone: "+1 (555) 987-6543"
+      address: "456 Tech Plaza, Suite 200, Silicon Valley, CA 94000"
+      hours: "Mon-Fri: 9AM-6PM PST"
+      social:
+        linkedin: "https://linkedin.com/company/techsolutionspro"
+        twitter: "https://twitter.com/techsolpro"
+        github: "https://github.com/techsolutionspro"
+
+# SEO and metadata
+seo:
+  meta_title: "TechSolutions Pro - Professional IT Consulting & Development Services"
+  meta_description: "Expert IT consulting, web development, cloud solutions, and cybersecurity services. Transform your business with cutting-edge technology solutions."
+  keywords: ["IT consulting", "web development", "cloud solutions", "cybersecurity", "digital transformation"]
+  og_image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43"
+  structured_data:
+    type: "Organization"
+    name: "TechSolutions Pro"
+    description: "Professional IT consulting and digital transformation services"
+    url: "https://techsolutionspro.com"
+    logo: "https://techsolutionspro.com/logo.png"
+    contact_point:
+      type: "ContactPoint"
+      telephone: "+1-555-987-6543"
+      contact_type: "customer service"
+
+# Analytics and tracking
+analytics:
+  google_analytics: "G-XXXXXXXXXX"
+  google_tag_manager: "GTM-XXXXXXX"
+  facebook_pixel: "123456789012345"

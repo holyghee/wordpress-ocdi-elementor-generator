@@ -1,0 +1,85 @@
+# ============================================
+# EINFACHES BEISPIEL - Eine minimale Webseite
+# ============================================
+
+# Globale Einstellungen
+site:
+  name: "Meine Firma GmbH"
+  url: "https://meinefirma.de"
+  language: "de-DE"
+
+# Design-Einstellungen (Cholot Theme)
+design:
+  colors:
+    primary: "#b68c2f"    # Gold (Cholot Standard)
+    secondary: "#1f1f1f"  # Dunkelgrau
+    background: "#fafafa" # Hellgrau
+  fonts:
+    heading: "Playfair Display"
+    body: "Source Sans Pro"
+
+# Seiten-Definition
+pages:
+  - id: "startseite"
+    title: "Willkommen"
+    sections:
+      
+      # Hero-Bereich mit Slider
+      - type: "hero"
+        settings:
+          background_image: "https://example.com/hero-bg.jpg"
+          overlay_color: "rgba(0,0,0,0.5)"
+        widgets:
+          - type: "cholot-title"
+            content:
+              title: "Willkommen bei Meine Firma GmbH"
+              subtitle: "Ihr Partner für professionelle Lösungen"
+          - type: "button"
+            content:
+              text: "Kontakt aufnehmen"
+              link: "#kontakt"
+              style: "primary"
+      
+      # Service-Karten (3 Spalten)
+      - type: "services"
+        columns: 3
+        widgets:
+          - type: "cholot-texticon"
+            content:
+              icon: "fas fa-cog"
+              title: "Service 1"
+              description: "Beschreibung des ersten Services"
+          - type: "cholot-texticon"
+            content:
+              icon: "fas fa-chart-line"
+              title: "Service 2"
+              description: "Beschreibung des zweiten Services"
+          - type: "cholot-texticon"
+            content:
+              icon: "fas fa-users"
+              title: "Service 3"
+              description: "Beschreibung des dritten Services"
+      
+      # Über uns Bereich
+      - type: "content"
+        widgets:
+          - type: "heading"
+            content:
+              text: "Über uns"
+              level: "h2"
+          - type: "text"
+            content:
+              text: |
+                Wir sind ein innovatives Unternehmen mit über 20 Jahren Erfahrung.
+                Unsere Mission ist es, unseren Kunden die besten Lösungen zu bieten.
+      
+      # Kontakt-Bereich
+      - type: "contact"
+        id: "kontakt"
+        widgets:
+          - type: "cholot-contact"
+            content:
+              title: "Kontaktieren Sie uns"
+              address: "Musterstraße 123, 12345 Musterstadt"
+              phone: "+49 123 456789"
+              email: "info@meinefirma.de"

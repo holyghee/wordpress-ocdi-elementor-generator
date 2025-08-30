@@ -1,0 +1,169 @@
+site:
+  title: "Cholot - Retirement Community WordPress Theme"
+  description: "Professional retirement community website with Elementor widgets"
+  base_url: "http://localhost:8082"
+  language: "en-US"
+
+# Authors
+authors:
+  - id: 1
+    login: admin
+    email: admin@cholot.local
+    display_name: Admin
+
+# Categories
+categories:
+  - id: 1
+    slug: uncategorized
+    name: Uncategorized
+  - id: 2
+    slug: services
+    name: Services
+
+# Navigation menu
+menus:
+  - id: 10
+    slug: main-menu
+    name: Main Menu
+    items:
+      - title: Home
+        url: /
+        type: custom
+      - title: About
+        url: /about
+        type: custom  
+      - title: Services
+        url: /services
+        type: custom
+      - title: Contact
+        url: /contact
+        type: custom
+
+# Pages with Elementor content
+pages:
+  - title: "Home"
+    slug: ""
+    template: "elementor_canvas"
+    status: "publish"
+    sections:
+      - type: "hero_slider"
+        slides:
+          - image: "https://images.unsplash.com/photo-1556103255-4443dbae8e5a?w=1920&h=1080"
+            title: "Welcome to <span>Cholot</span> Community"
+            subtitle: "A place where life begins again. Premium retirement living with exceptional care."
+            button_text: "Learn More"
+            button_url: "#about"
+      
+      - type: "service_cards"
+        title: "Our Services"
+        subtitle: "Comprehensive Care & Support"
+        cards:
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-home"
+            title: "Independent Living"
+            description: "Maintain your independence while enjoying community amenities and optional support services."
+            button_text: "Learn More"
+            button_url: "/independent-living"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-heart"
+            title: "Assisted Living"
+            description: "Personal care assistance with dignity and respect in a warm, home-like environment."
+            button_text: "Learn More"
+            button_url: "/assisted-living"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-user-md"
+            title: "Memory Care"
+            description: "Specialized care for residents with Alzheimer's and dementia in a secure environment."
+            button_text: "Learn More"
+            button_url: "/memory-care"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-utensils"
+            title: "Fine Dining"
+            description: "Chef-prepared meals using fresh, local ingredients in our elegant dining rooms."
+            button_text: "View Menu"
+            button_url: "/dining"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-spa"
+            title: "Wellness Center"
+            description: "Full-service spa, fitness center, and wellness programs designed for active aging."
+            button_text: "Explore"
+            button_url: "/wellness"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-calendar-check"
+            title: "Activities"
+            description: "Engaging social, educational, and recreational programs to enrich daily life."
+            button_text: "View Schedule"
+            button_url: "/activities"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-car"
+            title: "Transportation"
+            description: "Convenient transportation services for shopping, appointments, and local outings."
+            button_text: "Schedule"
+            button_url: "/transportation"
+          
+          - widget_type: "cholot-texticon"
+            icon: "fas fa-phone"
+            title: "24/7 Support"
+            description: "Round-the-clock emergency response and support staff for your peace of mind."
+            button_text: "Contact Us"
+            button_url: "/contact"
+
+  - title: "About"
+    slug: "about"
+    template: "elementor_canvas" 
+    status: "publish"
+    sections:
+      - type: "about"
+        title: "About Cholot Community"
+        content: |
+          <p>For over 30 years, Cholot has been providing exceptional retirement living experiences. 
+          Our community is designed to support independence, promote wellness, and foster meaningful 
+          connections among residents.</p>
+          
+          <p>Located on beautiful landscaped grounds, our facility offers a full continuum of care 
+          options in a warm, welcoming environment that residents are proud to call home.</p>
+        image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600"
+
+  - title: "Services" 
+    slug: "services"
+    template: "elementor_canvas"
+    status: "publish"
+    sections:
+      - type: "services_grid"
+        title: "Comprehensive Services"
+        subtitle: "Everything you need for comfortable living"
+        services:
+          - title: "Healthcare Services"
+            description: "On-site medical care and health monitoring"
+            icon: "fas fa-stethoscope"
+          - title: "Housekeeping"
+            description: "Professional cleaning and maintenance services"
+            icon: "fas fa-broom"
+          - title: "Concierge"
+            description: "Personal assistance with daily tasks and errands"
+            icon: "fas fa-concierge-bell"
+
+  - title: "Contact"
+    slug: "contact"
+    template: "elementor_canvas"
+    status: "publish"
+    sections:
+      - type: "contact"
+        title: "Get in Touch"
+        subtitle: "We'd love to hear from you"
+        phone: "(555) 123-4567"
+        email: "info@cholot.com"
+        address: "123 Community Lane, Retirement City, ST 12345"
+
+# Media attachments
+media:
+  - url: "https://images.unsplash.com/photo-1556103255-4443dbae8e5a?w=1920&h=1080"
+    title: "Hero Background"
+  - url: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600" 
+    title: "About Image"

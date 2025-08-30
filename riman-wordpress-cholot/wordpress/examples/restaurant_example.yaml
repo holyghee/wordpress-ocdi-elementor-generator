@@ -1,0 +1,432 @@
+# Restaurant Example - Complete Restaurant Website
+# This demonstrates how the same YAML processor can create a completely
+# different type of website - showcasing the system's flexibility
+
+# Global site configuration
+site_name: "Bella Vista Ristorante"
+site_description: "Authentic Italian cuisine in the heart of downtown"
+site_url: "https://bellavista-ristorante.com"
+logo: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=200&h=80&fit=crop"
+
+# Restaurant-specific theme
+theme:
+  primary_color: "#8b0000"      # Deep red
+  secondary_color: "#2d4a2b"    # Dark green (Italian flag inspired)
+  accent_color: "#ffd700"       # Gold
+  font_family: "Playfair Display, serif"
+  font_sizes:
+    h1: "52px"
+    h2: "38px"
+    body: "18px"
+  background_pattern: "subtle_texture"
+
+# Restaurant navigation
+navigation:
+  - name: "Home"
+    url: "#home"
+    icon: "fa-home"
+  - name: "Menu"
+    url: "#menu"
+    icon: "fa-utensils"
+  - name: "About"
+    url: "#about"
+    icon: "fa-heart"
+  - name: "Gallery"
+    url: "#gallery"
+    icon: "fa-images"
+  - name: "Reservations"
+    url: "#reservations"
+    icon: "fa-calendar-check"
+  - name: "Contact"
+    url: "#contact"
+    icon: "fa-map-marker-alt"
+
+# Restaurant sections
+sections:
+  # Hero section with restaurant ambiance
+  - type: "hero"
+    id: "home"
+    title: "Benvenuti alla Bella Vista"
+    subtitle: "Experience authentic Italian flavors in an elegant atmosphere"
+    background_image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+    background_video: "https://www.youtube.com/watch?v=restaurant_video"
+    overlay_opacity: 0.4
+    buttons:
+      - text: "View Menu"
+        url: "#menu"
+        style: "primary"
+        icon: "fa-book-open"
+      - text: "Make Reservation"
+        url: "#reservations"
+        style: "outline"
+        icon: "fa-calendar-plus"
+    announcement:
+      text: "Now serving weekend brunch! Saturdays & Sundays 10AM-3PM"
+      background_color: "#ffd700"
+      text_color: "#8b0000"
+
+  # Restaurant story/about section
+  - type: "story"
+    id: "about"
+    title: "Our Story"
+    subtitle: "Three generations of Italian culinary tradition"
+    content: |
+      Bella Vista Ristorante opened its doors in 1952, when Nonna Giulia
+      brought her cherished family recipes from Tuscany to share with our
+      local community. Today, her grandson Marco continues the tradition,
+      using only the finest imported ingredients and time-honored techniques.
+      
+      Every dish tells a story of our heritage, crafted with passion and
+      served with the warmth of Italian hospitality.
+    chef_info:
+      name: "Chef Marco Rossini"
+      title: "Executive Chef & Owner"
+      bio: "Third-generation chef trained in Florence and Rome"
+      image: "https://images.unsplash.com/photo-1583394293214-28ded15ee548"
+      awards:
+        - "James Beard Award Nominee 2022"
+        - "Best Italian Restaurant - City Magazine 2021"
+        - "Zagat Rated - Excellent"
+    restaurant_images:
+      - "https://images.unsplash.com/photo-1552566652-dae59135cd6c"
+      - "https://images.unsplash.com/photo-1551218808-94e220e084d2"
+      - "https://images.unsplash.com/photo-1564759224907-65b9f5d7e2b8"
+
+  # Menu section with categories
+  - type: "menu"
+    id: "menu"
+    title: "La Nostra Menu"
+    subtitle: "Crafted with love, served with pride"
+    layout: "tabbed"
+    menu_categories:
+      - category: "Antipasti"
+        description: "Traditional Italian starters"
+        icon: "fa-cheese"
+        items:
+          - name: "Bruschetta della Casa"
+            description: "Grilled bread topped with fresh tomatoes, basil, and garlic"
+            price: "$12"
+            dietary: ["vegetarian"]
+            image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f"
+            
+          - name: "Antipasto Misto"
+            description: "Selection of cured meats, cheeses, olives, and roasted vegetables"
+            price: "$18"
+            popular: true
+            image: "https://images.unsplash.com/photo-1589121373503-e7b7d9b6c3d7"
+            
+          - name: "Calamari Fritti"
+            description: "Crispy fried squid with spicy marinara sauce"
+            price: "$16"
+            image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0"
+
+      - category: "Primi Piatti"
+        description: "Handmade pasta and risotto"
+        icon: "fa-seedling"
+        items:
+          - name: "Spaghetti Carbonara"
+            description: "Classic Roman pasta with eggs, pecorino cheese, and pancetta"
+            price: "$22"
+            chef_special: true
+            image: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5"
+            
+          - name: "Risotto ai Porcini"
+            description: "Creamy Arborio rice with wild porcini mushrooms"
+            price: "$24"
+            dietary: ["vegetarian"]
+            image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b"
+            
+          - name: "Lasagna della Nonna"
+            description: "Traditional layered pasta with meat sauce and three cheeses"
+            price: "$26"
+            popular: true
+            image: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3"
+
+      - category: "Secondi Piatti"
+        description: "Main courses"
+        icon: "fa-drumstick-bite"
+        items:
+          - name: "Osso Buco alla Milanese"
+            description: "Braised veal shanks with saffron risotto"
+            price: "$38"
+            chef_special: true
+            image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d"
+            
+          - name: "Branzino in Crosta di Sale"
+            description: "Mediterranean sea bass baked in sea salt crust"
+            price: "$32"
+            image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2"
+            
+          - name: "Pollo Parmigiana"
+            description: "Breaded chicken breast with marinara and mozzarella"
+            price: "$28"
+            popular: true
+            image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828"
+
+      - category: "Dolci"
+        description: "House-made desserts"
+        icon: "fa-birthday-cake"
+        items:
+          - name: "Tiramisu della Casa"
+            description: "Classic coffee-soaked ladyfingers with mascarpone"
+            price: "$12"
+            popular: true
+            image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9"
+            
+          - name: "Cannoli Siciliani"
+            description: "Crispy shells filled with sweet ricotta and chocolate chips"
+            price: "$10"
+            image: "https://images.unsplash.com/photo-1582716401301-b2407dc7563d"
+            
+          - name: "Gelato Artigianale"
+            description: "House-made gelato - ask about daily flavors"
+            price: "$8"
+            dietary: ["vegetarian"]
+            image: "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57"
+
+    wine_list:
+      - category: "Vini Rossi (Red Wines)"
+        wines:
+          - name: "Chianti Classico Riserva"
+            region: "Tuscany"
+            year: "2018"
+            price_glass: "$14"
+            price_bottle: "$52"
+          - name: "Barolo"
+            region: "Piedmont"
+            year: "2017"
+            price_glass: "$18"
+            price_bottle: "$68"
+            
+      - category: "Vini Bianchi (White Wines)"
+        wines:
+          - name: "Pinot Grigio"
+            region: "Alto Adige"
+            year: "2020"
+            price_glass: "$11"
+            price_bottle: "$38"
+          - name: "Soave Classico"
+            region: "Veneto"
+            year: "2021"
+            price_glass: "$12"
+            price_bottle: "$42"
+
+  # Gallery section
+  - type: "gallery"
+    id: "gallery"
+    title: "La Nostra Galleria"
+    subtitle: "A feast for the eyes"
+    layout: "masonry"
+    categories:
+      - name: "Food"
+        images:
+          - url: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b"
+            caption: "Risotto ai Porcini"
+          - url: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5"
+            caption: "Spaghetti Carbonara"
+          - url: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3"
+            caption: "Lasagna della Nonna"
+            
+      - name: "Restaurant"
+        images:
+          - url: "https://images.unsplash.com/photo-1552566652-dae59135cd6c"
+            caption: "Main dining room"
+          - url: "https://images.unsplash.com/photo-1551218808-94e220e084d2"
+            caption: "Private dining area"
+          - url: "https://images.unsplash.com/photo-1564759224907-65b9f5d7e2b8"
+            caption: "Wine cellar"
+            
+      - name: "Events"
+        images:
+          - url: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622"
+            caption: "Wine tasting event"
+          - url: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d"
+            caption: "Cooking class"
+          - url: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0"
+            caption: "Private party setup"
+
+  # Reviews/testimonials
+  - type: "reviews"
+    id: "reviews"
+    title: "What Our Guests Say"
+    layout: "carousel"
+    reviews:
+      - quote: "The most authentic Italian experience outside of Italy! The osso buco melted in my mouth."
+        author: "Maria Santos"
+        rating: 5
+        platform: "Google"
+        date: "2023-12-15"
+        
+      - quote: "Marco's passion for food shines through every dish. The wine selection is exceptional."
+        author: "James Wilson"
+        rating: 5
+        platform: "Yelp"
+        date: "2023-12-10"
+        
+      - quote: "Perfect for our anniversary dinner. The service was impeccable and the tiramisu was heavenly!"
+        author: "Sarah & Mike Chen"
+        rating: 5
+        platform: "TripAdvisor"
+        date: "2023-12-08"
+
+  # Events and specials
+  - type: "events"
+    id: "events"
+    title: "Special Events & Offers"
+    subtitle: "Join us for memorable experiences"
+    events:
+      - title: "Wine Tasting Fridays"
+        description: "Explore Italian wines with our sommelier"
+        schedule: "Every Friday 6:30-8:30 PM"
+        price: "$45 per person"
+        image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3"
+        booking_required: true
+        
+      - title: "Cooking Classes"
+        description: "Learn to make pasta from Nonna's recipes"
+        schedule: "Saturdays 2:00-5:00 PM"
+        price: "$85 per person"
+        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136"
+        booking_required: true
+        
+      - title: "Sunday Family Style"
+        description: "Traditional family-style dining experience"
+        schedule: "Sundays 12:00-6:00 PM"
+        price: "$42 per person"
+        image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0"
+        booking_required: false
+
+  # Reservations section
+  - type: "reservations"
+    id: "reservations"
+    title: "Make a Reservation"
+    subtitle: "We look forward to welcoming you"
+    booking_system: "opentable"  # Could integrate with OpenTable, Resy, etc.
+    form_fields:
+      - name: "date"
+        type: "date"
+        label: "Preferred Date"
+        required: true
+        min_date: "today"
+      - name: "time"
+        type: "time"
+        label: "Preferred Time"
+        required: true
+        options: ["5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM", "9:00 PM"]
+      - name: "party_size"
+        type: "select"
+        label: "Party Size"
+        required: true
+        options: ["1", "2", "3", "4", "5", "6", "7", "8", "9+"]
+      - name: "name"
+        type: "text"
+        label: "Name"
+        required: true
+      - name: "phone"
+        type: "tel"
+        label: "Phone Number"
+        required: true
+      - name: "email"
+        type: "email"
+        label: "Email Address"
+        required: true
+      - name: "occasion"
+        type: "select"
+        label: "Special Occasion (Optional)"
+        options: ["Birthday", "Anniversary", "Date Night", "Business Dinner", "Other"]
+        required: false
+      - name: "requests"
+        type: "textarea"
+        label: "Special Requests"
+        placeholder: "Dietary restrictions, seating preferences, etc."
+        required: false
+    reservation_policy:
+      - "Reservations are held for 15 minutes"
+      - "Parties of 6+ require credit card to hold reservation"
+      - "Cancellation required 24 hours in advance"
+    contact_for_large_parties:
+      phone: "+1 (555) 123-CIBO"
+      email: "events@bellavista-ristorante.com"
+      min_size: 10
+
+  # Contact and location
+  - type: "contact"
+    id: "contact"
+    title: "Visit Us"
+    subtitle: "Located in the heart of downtown"
+    layout: "with_map"
+    contact_info:
+      address: "123 Tuscan Lane, Downtown District, Your City 12345"
+      phone: "+1 (555) 123-CIBO"
+      email: "info@bellavista-ristorante.com"
+      hours:
+        monday: "Closed"
+        tuesday: "5:00 PM - 10:00 PM"
+        wednesday: "5:00 PM - 10:00 PM"
+        thursday: "5:00 PM - 10:00 PM"
+        friday: "5:00 PM - 11:00 PM"
+        saturday: "12:00 PM - 11:00 PM"
+        sunday: "12:00 PM - 9:00 PM"
+      holiday_hours: "Please call for holiday hours"
+      social:
+        facebook: "https://facebook.com/bellavistaristorante"
+        instagram: "https://instagram.com/bellavistaristorante"
+        tripadvisor: "https://tripadvisor.com/restaurant/bellavista"
+    map:
+      latitude: "40.7589"
+      longitude: "-73.9851"
+      zoom: 15
+    parking_info: "Valet parking available. Street parking and nearby garage options."
+
+# Restaurant-specific SEO
+seo:
+  meta_title: "Bella Vista Ristorante - Authentic Italian Cuisine | Downtown Dining"
+  meta_description: "Experience authentic Italian flavors at Bella Vista Ristorante. Three generations of culinary tradition, handmade pasta, imported ingredients. Reservations available."
+  keywords: ["Italian restaurant", "authentic Italian food", "pasta", "wine", "downtown dining", "reservations", "date night"]
+  local_business:
+    type: "Restaurant"
+    name: "Bella Vista Ristorante"
+    cuisine: "Italian"
+    price_range: "$$$"
+    address:
+      street: "123 Tuscan Lane"
+      city: "Your City"
+      state: "State"
+      postal_code: "12345"
+      country: "US"
+    phone: "+1-555-123-2426"
+    menu: "https://bellavista-ristorante.com/#menu"
+    accepts_reservations: true
+    serves_cuisine: "Italian"
+  og_image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+
+# Restaurant-specific analytics and integrations
+integrations:
+  opentable_id: "123456"
+  yelp_business_id: "bella-vista-ristorante-yourcity"
+  google_business_id: "ChIJN1t_tDeuEmsRUsoyG83frY4"
+  uber_eats: false  # Not offering delivery
+  doordash: false
+  grubhub: false
+  
+# Social media feeds
+social_feeds:
+  instagram:
+    hashtag: "#bellavistaristorante"
+    display_count: 6
+  facebook:
+    page_id: "bellavistaristorante"
+    display_reviews: true
+
+# Newsletter signup
+newsletter:
+  provider: "mailchimp"
+  list_id: "abc123def456"
+  signup_incentive: "Join our newsletter for exclusive recipes and 10% off your next visit!"
+  
+# Loyalty program
+loyalty_program:
+  name: "Famiglia Rewards"
+  description: "Earn points with every visit and unlock exclusive perks"
+  signup_bonus: "100 points"
+  visit_points: "10 points per dollar spent"

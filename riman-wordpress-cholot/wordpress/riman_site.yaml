@@ -1,0 +1,414 @@
+# RIMAN GmbH Website Configuration
+# Professional Renovation & Restoration Services
+# Using Cholot Theme with Custom YAML Schema
+
+site:
+  name: "RIMAN GmbH"
+  tagline: "Professionelle Sanierung & Restauration"
+  description: "Ihr zuverlässiger Partner für Asbestsanierung, Brandschadensanierung und Gebäuderestaurierung in ganz Deutschland"
+  language: "de"
+  
+  # Brand Configuration
+  branding:
+    primary_color: "#b68c2f"
+    secondary_color: "#8a6a24"
+    accent_color: "#d4a840"
+    text_color: "#333333"
+    background_color: "#ffffff"
+    
+    logo:
+      url: "/wp-content/uploads/riman-logo.png"
+      alt: "RIMAN GmbH Logo"
+      height: "60px"
+    
+    favicon: "/wp-content/uploads/favicon.ico"
+
+# Page Structure Configuration
+pages:
+  home:
+    template: "cholot-homepage"
+    
+    # Hero Section
+    hero:
+      background_image: "/wp-content/uploads/hero-renovation.jpg"
+      overlay_opacity: 0.6
+      title: "Professionelle Sanierung seit über 20 Jahren"
+      subtitle: "RIMAN GmbH - Ihr Experte für Asbestsanierung, Brandschadensanierung und komplette Gebäuderestaurierung"
+      cta_primary:
+        text: "Kostenlose Beratung"
+        link: "#kontakt"
+        style: "button-primary"
+      cta_secondary:
+        text: "Unsere Leistungen"
+        link: "#services"
+        style: "button-outline"
+    
+    # Services Section
+    services:
+      title: "Unsere Leistungen"
+      subtitle: "Komplettlösungen für alle Sanierungsanforderungen"
+      layout: "grid-3-col"
+      
+      cards:
+        - title: "Asbestsanierung"
+          icon: "fas fa-hard-hat"
+          description: "Sichere Entfernung von Asbestmaterialien nach TRGS 519. Zertifizierte Fachbetrieb mit modernster Ausrüstung."
+          features:
+            - "Zertifizierte Fachkräfte"
+            - "Moderne Schutzausrüstung"
+            - "Vollständige Dokumentation"
+            - "Entsorgungsnachweis"
+          link: "/asbestsanierung"
+          
+        - title: "Brandschadensanierung"
+          icon: "fas fa-fire-extinguisher"
+          description: "Schnelle und professionelle Wiederherstellung nach Brandschäden. Von der Schadensaufnahme bis zur Komplettrestaurierung."
+          features:
+            - "24/7 Notdienst"
+            - "Schnelle Schadensbegrenzung"
+            - "Versicherungsabwicklung"
+            - "Komplettrestaurierung"
+          link: "/brandschadensanierung"
+          
+        - title: "Wasserschadensanierung"
+          icon: "fas fa-tint"
+          description: "Umfassende Trocknung und Sanierung nach Wasserschäden. Modernste Messtechnik für optimale Ergebnisse."
+          features:
+            - "Leckortung mit Thermografie"
+            - "Professionelle Trocknung"
+            - "Schimmelprävention"
+            - "Wiederaufbau"
+          link: "/wasserschadensanierung"
+          
+        - title: "Schadstoffsanierung"
+          icon: "fas fa-biohazard"
+          description: "Fachgerechte Entfernung aller Schadstoffe wie PCB, PAK, Mineralfasern und Schwermetalle."
+          features:
+            - "Schadstoffanalyse"
+            - "Sichere Entfernung"
+            - "Luftmessungen"
+            - "Freigabebescheinigung"
+          link: "/schadstoffsanierung"
+          
+        - title: "Bautenschutz"
+          icon: "fas fa-shield-alt"
+          description: "Präventiver Schutz für Ihre Immobilie. Abdichtung, Korrosionsschutz und dauerhafte Werterhaltung."
+          features:
+            - "Abdichtungsarbeiten"
+            - "Korrosionsschutz"
+            - "Oberflächenschutz"
+            - "Wartungskonzepte"
+          link: "/bautenschutz"
+          
+        - title: "Altbausanierung"
+          icon: "fas fa-home"
+          description: "Komplette Modernisierung historischer Gebäude unter Beachtung des Denkmalschutzes."
+          features:
+            - "Denkmalschutzkonform"
+            - "Energetische Sanierung"
+            - "Substanzerhaltung"
+            - "Wertsteigerung"
+          link: "/altbausanierung"
+          
+        - title: "Industriedemontage"
+          icon: "fas fa-industry"
+          description: "Professioneller Rückbau von Industrieanlagen unter Beachtung aller Sicherheitsvorschriften."
+          features:
+            - "Anlagendemontage"
+            - "Recycling & Entsorgung"
+            - "Sicherheitskonzepte"
+            - "Termingerechte Abwicklung"
+          link: "/industriedemontage"
+          
+        - title: "Gutachten & Beratung"
+          icon: "fas fa-clipboard-check"
+          description: "Sachverständige Beratung und Gutachten für alle Bereiche der Gebäudesanierung."
+          features:
+            - "Schadensanalyse"
+            - "Sanierungskonzepte"
+            - "Kostenermittlung"
+            - "Baubegleitung"
+          link: "/gutachten-beratung"
+    
+    # About Section
+    about:
+      title: "Über RIMAN GmbH"
+      subtitle: "Vertrauen durch Erfahrung und Qualität"
+      content: |
+        Seit über 20 Jahren steht RIMAN GmbH für höchste Qualität in der Gebäudesanierung. 
+        Als zertifizierter Fachbetrieb sind wir spezialisiert auf komplexe Sanierungsaufgaben 
+        und bieten unseren Kunden durchgehend professionelle Lösungen.
+        
+        Unser erfahrenes Team aus Ingenieuren, Technikern und Facharbeitern gewährleistet 
+        die fachgerechte Ausführung aller Arbeiten nach neuesten Standards und Vorschriften.
+      
+      stats:
+        - number: "500+"
+          label: "Erfolgreich abgeschlossene Projekte"
+        - number: "20+"
+          label: "Jahre Erfahrung"
+        - number: "24/7"
+          label: "Notdienst verfügbar"
+        - number: "100%"
+          label: "Kundenzufriedenheit"
+    
+    # Team Section
+    team:
+      title: "Unser Expertenteam"
+      subtitle: "Qualifizierte Fachkräfte für alle Bereiche"
+      
+      members:
+        - name: "Dipl.-Ing. Michael Richter"
+          position: "Geschäftsführer & Sachverständiger"
+          image: "/wp-content/uploads/team/michael-richter.jpg"
+          qualifications:
+            - "Öffentlich bestellter Sachverständiger"
+            - "Zertifiziert nach TRGS 519"
+            - "20+ Jahre Berufserfahrung"
+          
+        - name: "Dr. Sarah Müller"
+          position: "Leiterin Schadstoffsanierung"
+          image: "/wp-content/uploads/team/sarah-mueller.jpg"
+          qualifications:
+            - "Promovierte Chemikerin"
+            - "Fachkraft für Arbeitsschutz"
+            - "Expertin für Luftmessungen"
+          
+        - name: "Meister Thomas Weber"
+          position: "Teamleiter Sanierung"
+          image: "/wp-content/uploads/team/thomas-weber.jpg"
+          qualifications:
+            - "Maurermeister"
+            - "Sachkundiger nach TRGS 519"
+            - "15+ Jahre Sanierungserfahrung"
+          
+        - name: "Ing. Lisa Schmidt"
+          position: "Projektleiterin"
+          image: "/wp-content/uploads/team/lisa-schmidt.jpg"
+          qualifications:
+            - "Bauingenieurin"
+            - "Projektmanagement-Zertifikat"
+            - "Spezialistin für Großprojekte"
+    
+    # Process Section
+    process:
+      title: "Unser Vorgehen"
+      subtitle: "Strukturiert und transparent zu Ihrem Erfolg"
+      
+      steps:
+        - step: 1
+          title: "Erstberatung"
+          description: "Kostenlose Vor-Ort-Beratung und Problemanalyse"
+          icon: "fas fa-phone"
+          
+        - step: 2
+          title: "Analyse & Planung"
+          description: "Detaillierte Schadensaufnahme und Sanierungskonzept"
+          icon: "fas fa-search"
+          
+        - step: 3
+          title: "Angebot"
+          description: "Transparentes Festpreisangebot mit Terminplanung"
+          icon: "fas fa-calculator"
+          
+        - step: 4
+          title: "Ausführung"
+          description: "Professionelle Durchführung mit regelmäßiger Dokumentation"
+          icon: "fas fa-tools"
+          
+        - step: 5
+          title: "Qualitätskontrolle"
+          description: "Abschlussmessungen und Qualitätszertifikat"
+          icon: "fas fa-certificate"
+    
+    # Testimonials
+    testimonials:
+      title: "Was unsere Kunden sagen"
+      subtitle: "Vertrauen Sie auf die Erfahrung zufriedener Kunden"
+      
+      reviews:
+        - text: "RIMAN hat unsere Asbestsanierung perfekt durchgeführt. Professionell, termingerecht und mit vollständiger Dokumentation."
+          author: "Stadtwerke München GmbH"
+          rating: 5
+          
+        - text: "Nach unserem Brandschaden hat RIMAN schnell und kompetent geholfen. Die Zusammenarbeit war hervorragend."
+          author: "Familie Schneider, Hamburg"
+          rating: 5
+          
+        - text: "Komplexe Altbausanierung perfekt gelöst. Das Team von RIMAN ist absolut zu empfehlen."
+          author: "Immobilien AG Berlin"
+          rating: 5
+    
+    # Contact Section
+    contact:
+      title: "Kontaktieren Sie uns"
+      subtitle: "Wir beraten Sie gerne kostenlos und unverbindlich"
+      
+      info:
+        address:
+          street: "Industriestraße 25"
+          city: "80339 München"
+          country: "Deutschland"
+        phone: "+49 89 12345678"
+        mobile: "+49 176 98765432"
+        email: "info@riman-gmbh.de"
+        website: "www.riman-gmbh.de"
+        
+      hours:
+        monday_friday: "7:00 - 18:00"
+        saturday: "8:00 - 16:00"
+        sunday: "Notdienst verfügbar"
+        emergency: "24/7 Notdienst"
+      
+      form:
+        fields:
+          - name: "name"
+            type: "text"
+            label: "Ihr Name"
+            required: true
+          - name: "email"
+            type: "email"
+            label: "E-Mail-Adresse"
+            required: true
+          - name: "phone"
+            type: "tel"
+            label: "Telefon"
+            required: false
+          - name: "service"
+            type: "select"
+            label: "Gewünschte Leistung"
+            options:
+              - "Asbestsanierung"
+              - "Brandschadensanierung"
+              - "Wasserschadensanierung"
+              - "Schadstoffsanierung"
+              - "Bautenschutz"
+              - "Altbausanierung"
+              - "Industriedemontage"
+              - "Gutachten & Beratung"
+              - "Sonstiges"
+          - name: "message"
+            type: "textarea"
+            label: "Ihre Nachricht"
+            required: true
+        
+        submit_text: "Anfrage senden"
+        success_message: "Vielen Dank für Ihre Anfrage. Wir melden uns schnellstmöglich bei Ihnen."
+
+# Footer Configuration
+footer:
+  company:
+    name: "RIMAN GmbH"
+    description: "Ihr zuverlässiger Partner für professionelle Gebäudesanierung in ganz Deutschland."
+    
+  links:
+    services:
+      title: "Unsere Leistungen"
+      items:
+        - text: "Asbestsanierung"
+          url: "/asbestsanierung"
+        - text: "Brandschadensanierung"
+          url: "/brandschadensanierung"
+        - text: "Wasserschadensanierung"
+          url: "/wasserschadensanierung"
+        - text: "Schadstoffsanierung"
+          url: "/schadstoffsanierung"
+    
+    company_links:
+      title: "Unternehmen"
+      items:
+        - text: "Über uns"
+          url: "/ueber-uns"
+        - text: "Team"
+          url: "/team"
+        - text: "Karriere"
+          url: "/karriere"
+        - text: "Referenzen"
+          url: "/referenzen"
+    
+    legal:
+      title: "Rechtliches"
+      items:
+        - text: "Impressum"
+          url: "/impressum"
+        - text: "Datenschutz"
+          url: "/datenschutz"
+        - text: "AGB"
+          url: "/agb"
+        - text: "Kontakt"
+          url: "/kontakt"
+  
+  certificates:
+    title: "Zertifizierungen"
+    items:
+      - name: "TRGS 519 Zertifikat"
+        image: "/wp-content/uploads/cert-trgs-519.png"
+      - name: "ISO 9001:2015"
+        image: "/wp-content/uploads/cert-iso-9001.png"
+      - name: "RAL Gütezeichen"
+        image: "/wp-content/uploads/cert-ral.png"
+  
+  social:
+    facebook: "https://facebook.com/rimangmbh"
+    linkedin: "https://linkedin.com/company/riman-gmbh"
+    xing: "https://xing.com/companies/rimangmbh"
+  
+  copyright: "© 2024 RIMAN GmbH. Alle Rechte vorbehalten."
+
+# SEO Configuration
+seo:
+  title: "RIMAN GmbH - Professionelle Sanierung & Asbestsanierung München"
+  description: "Experten für Asbestsanierung, Brandschadensanierung & Gebäuderestaurierung. Zertifizierter Fachbetrieb mit 20+ Jahren Erfahrung. Kostenlose Beratung!"
+  keywords: "Asbestsanierung, Brandschadensanierung, Wasserschadensanierung, Schadstoffsanierung, München, Bayern, Gebäudesanierung"
+  
+  og:
+    title: "RIMAN GmbH - Ihr Experte für professionelle Gebäudesanierung"
+    description: "Zuverlässige Sanierungslösungen von Asbestsanierung bis Brandschadensanierung. Über 500 erfolgreich abgeschlossene Projekte."
+    image: "/wp-content/uploads/riman-og-image.jpg"
+    type: "website"
+    
+  structured_data:
+    type: "LocalBusiness"
+    name: "RIMAN GmbH"
+    address:
+      street: "Industriestraße 25"
+      city: "München"
+      postal_code: "80339"
+      country: "DE"
+    phone: "+4989123456780"
+    email: "info@riman-gmbh.de"
+    url: "https://www.riman-gmbh.de"
+    opening_hours:
+      monday: "07:00-18:00"
+      tuesday: "07:00-18:00"
+      wednesday: "07:00-18:00"
+      thursday: "07:00-18:00"
+      friday: "07:00-18:00"
+      saturday: "08:00-16:00"
+      sunday: "closed"
+
+# Analytics & Tracking
+analytics:
+  google_analytics: "GA_MEASUREMENT_ID"
+  google_tag_manager: "GTM-XXXXXXX"
+  facebook_pixel: "FACEBOOK_PIXEL_ID"
+
+# Technical Configuration
+technical:
+  performance:
+    enable_caching: true
+    minify_css: true
+    minify_js: true
+    optimize_images: true
+    lazy_loading: true
+  
+  security:
+    ssl_redirect: true
+    security_headers: true
+    content_security_policy: true
+    
+  accessibility:
+    alt_text_required: true
+    keyboard_navigation: true
+    screen_reader_support: true
+    color_contrast_compliance: "AA"

@@ -1,0 +1,37 @@
+site:
+  title: "RIMAN GmbH"
+  base_url: "http://localhost:8080"
+  description: "Professional Schadstoffsanierung"
+  language: "de-DE"
+
+pages:
+  - title: "Test Homepage"
+    slug: "home"
+    status: "publish"
+    sections:
+      - structure: "33"
+        settings:
+          background:
+            background_background: "classic"
+            background_color: "#b68c2f"
+          padding:
+            desktop: 60
+        columns:
+          - widgets:
+            - type: "texticon"
+              title: "Asbestsanierung"
+              subtitle: "ZERTIFIZIERT"
+              text: "Professionelle Entfernung von Asbest."
+              icon: "fas fa-shield-alt"
+          - widgets:
+            - type: "texticon"
+              title: "PCB-Sanierung"
+              subtitle: "FACHGERECHT" 
+              text: "Sichere Beseitigung von PCB."
+              icon: "fas fa-industry"
+          - widgets:
+            - type: "texticon"
+              title: "Schimmelsanierung"
+              subtitle: "NACHHALTIG"
+              text: "Nachhaltige Schimmelbeseitigung."
+              icon: "fas fa-home"

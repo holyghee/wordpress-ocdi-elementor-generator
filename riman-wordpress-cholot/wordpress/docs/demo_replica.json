@@ -1,0 +1,32 @@
+{
+  "site": {},
+  "pages": [
+    {
+      "id": 1000,
+      "title": "Home",
+      "slug": "home",
+      "status": "publish",
+      "elementor_data": [],
+      "metadata": {
+        "sections_count": 0,
+        "generated_ids": []
+      }
+    },
+    {
+      "id": 1001,
+      "title": "Home Original",
+      "slug": "home-original",
+      "status": "publish",
+      "elementor_data": [],
+      "metadata": {
+        "sections_count": 0,
+        "generated_ids": []
+      }
+    }
+  ],
+  "metadata": {
+    "processor": "YAML to JSON Processor v1.0",
+    "total_pages": 2,
+    "base_url": "http://localhost:8080"
+  }
+}

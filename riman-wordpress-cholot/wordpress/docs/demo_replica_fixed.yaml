@@ -1,0 +1,365 @@
+title: "Cholot Demo Replica Test - Fixed Structure"
+description: "Testing exact replication of demo-data-fixed.xml structure with correct YAML format"
+
+# Site information
+site:
+  title: "Cholot"
+  description: "Just another WordPress site"
+  base_url: "https://theme.winnertheme.com/cholot"
+  language: "en-US"
+
+# Pages with Elementor sections
+pages:
+  # Page 1: Home Page with Footer Section (1 cholot-texticon widget)
+  - id: 113
+    title: "Home"
+    slug: "home"
+    status: "publish"
+    sections:
+      # Footer Section with 4 columns including cholot-texticon
+      - settings:
+          gap: "extended"
+          background_background: "classic"
+          background_color: "#f4f4f4"
+          padding:
+            unit: "px"
+            top: 60
+            right: 0
+            bottom: 60
+            left: 0
+            isLinked: false
+          shape_divider_bottom:
+            type: "waves"
+            color: "#b68c2f"
+            width:
+              unit: "%"
+              size: 179
+            height:
+              unit: "px"
+              size: 7
+        structure: "25"  # 4 columns of 25% each
+        columns:
+          # Column 1: cholot-texticon widget
+          - widgets:
+              - type: "cholot-texticon"
+                title: "Cholot"
+                subtitle: ""
+                text: "Retirement Community"
+                icon: "fas fa-crown"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 24
+                  title_color: "#ffffff"
+                  subtitle_color: "#b68c2f"
+                  text_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 15
+                  icon_bg_size:
+                    unit: "px"
+                    size: 35
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+          # Column 2: About Us
+          - widgets:
+              - type: "cholot-title"
+                title: "About us<span>.</span>"
+                header_size: "h3"
+              - type: "divider"
+                custom_settings:
+                  color: "#b68c2f"
+                  width:
+                    unit: "px"
+                    size: 25
+                  align: "left"
+              - type: "text-editor"
+                custom_settings:
+                  editor: "<p>Building with our residents is something we keep close to our heart.</p><p>Let us help you celebrate your loved one's story by creating a new chapter that's worth sharing.</p>"
+          # Column 3: Recent Posts
+          - widgets:
+              - type: "cholot-title"
+                title: "Recent post<span>.</span>"
+                header_size: "h3"
+              - type: "divider"
+                custom_settings:
+                  color: "#b68c2f"
+                  width:
+                    unit: "px"
+                    size: 25
+                  align: "left"
+              - type: "cholot-post-three"
+                count: 2
+                columns: 1
+                button_text: "Read More"
+          # Column 4: Gallery
+          - widgets:
+              - type: "cholot-title"
+                title: "Gallery<span>.</span>"
+                header_size: "h3"
+              - type: "divider"
+                custom_settings:
+                  color: "#b68c2f"
+                  width:
+                    unit: "px"
+                    size: 25
+              - type: "cholot-gallery"
+                images:
+                  - id: 50
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/matteo-vistocco-537858-unsplash.jpg"
+                  - id: 51
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+                  - id: 48
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/josh-appel-423804-unsplash.jpg"
+                columns: 3
+                height: 50
+                spacing: 7.5
+
+  # Main Demo Page with Hero Slider and 7 cholot-texticon widgets
+  - id: 33
+    title: "Home Original"
+    slug: "home-original"
+    status: "publish"
+    sections:
+      # Hero Slider Section with Shape Divider
+      - settings:
+          gap: "no"
+          layout: "full_width"
+          background_color: "rgba(0,0,0,0.6)"
+          shape_divider_bottom:
+            type: "waves"
+            color: "#ffffff"
+            width:
+              unit: "%"
+              size: 105
+            height:
+              unit: "px"
+              size: 88
+        structure: "100"
+        columns:
+          - widgets:
+              - type: "rdn-slider"
+                custom_settings:
+                  slider_list:
+                    - title: "Discover the best community that fit <span>your needs</span>."
+                      subtitle: "for best and worst"
+                      text: "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. <i><u>Maecenas tempus</u></i>, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+                      _id: "fd5b5ec"
+                      btn_text: "View More"
+                      btn_link:
+                        url: "#"
+                      image:
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg"
+                        id: 9
+                    - title: "The senior living experience that is <span>tailored</span> to you."
+                      subtitle: "diverse and inclusive"
+                      text: "Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit <u>amet adipiscing sem</u> neque sed ipsum."
+                      _id: "cbaf2ca"
+                      btn_text: "View More"
+                      btn_link:
+                        url: "#"
+                      image:
+                        url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/huy-phan-100866-unsplash.jpg"
+                        id: 11
+
+      # Services Section with 3 cholot-texticon widgets
+      - settings:
+          gap: "extended"
+          custom_height:
+            unit: "px"
+            size: 300
+          content_position: "middle"
+          background_color: "#b68c2f"
+          margin:
+            unit: "px"
+            top: -100
+            right: 0
+            bottom: 0
+            left: 0
+            isLinked: false
+        structure: "33"  # 3 columns of 33% each
+        columns:
+          # Service Card 1: Healthy Life
+          - widgets:
+              - type: "image"
+                custom_settings:
+                  image:
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+                    id: 51
+              - type: "cholot-texticon"
+                title: "Healthly life"
+                subtitle: "Exciting"
+                text: "It's a great way for you to make use of all the benefits of being a part."
+                icon: "fas fa-parachute-box"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 28
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 20
+                  icon_bg_size:
+                    unit: "px"
+                    size: 72
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+                  icon_bordering_border: "solid"
+                  icon_bordering_color: "#fafafa"
+                  icon_bordering_width:
+                    unit: "px"
+                    top: 7
+                    right: 7
+                    bottom: 7
+                    left: 7
+                    isLinked: true
+          # Service Card 2: Improving Life (with Video)
+          - widgets:
+              - type: "video"
+                custom_settings:
+                  youtube_url: "https://www.youtube.com/watch?v=jGZDNK6ul5s"
+                  show_image_overlay: "yes"
+                  image_overlay:
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg"
+                    id: 350
+                  lightbox: "yes"
+                  play_icon_color: "#ffffff"
+                  play_icon_size:
+                    unit: "px"
+                    size: 40
+              - type: "cholot-texticon"
+                title: "Improving life"
+                subtitle: "Quality"
+                text: "It's a great way for you to make use of all the benefits of being a part."
+                icon: "fas fa-pallet"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 28
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 20
+                  icon_bg_size:
+                    unit: "px"
+                    size: 72
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+          # Service Card 3: Relationship
+          - widgets:
+              - type: "image"
+                custom_settings:
+                  image:
+                    url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/josh-appel-423804-unsplash.jpg"
+                    id: 48
+              - type: "cholot-texticon"
+                title: "Relationship"
+                subtitle: "Community"
+                text: "It's a great way for you to make use of all the benefits of being a part."
+                icon: "fas fa-igloo"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 28
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 20
+                  icon_bg_size:
+                    unit: "px"
+                    size: 72
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+
+      # Additional Services Section with 4 more cholot-texticon widgets
+      - settings:
+          gap: "extended"
+          background_color: "#ffffff"
+          padding:
+            unit: "px"
+            top: 80
+            right: 0
+            bottom: 80
+            left: 0
+        structure: "25"  # 4 columns of 25% each
+        columns:
+          # Service 5: Healthcare
+          - widgets:
+              - type: "cholot-texticon"
+                title: "Healthly life"
+                subtitle: "Wellness"
+                text: "It's a great way for you to make use of all the benefits of being a part."
+                icon: "fas fa-procedures"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 24
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 18
+                  icon_bg_size:
+                    unit: "px"
+                    size: 60
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+          # Service 6: Counseling
+          - widgets:
+              - type: "cholot-texticon"
+                title: "Counseling"
+                subtitle: "Support"
+                text: "The enrichment programs aimed at keeping our residents healthy."
+                icon: "fas fa-restroom"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 24
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 18
+                  icon_bg_size:
+                    unit: "px"
+                    size: 60
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+          # Service 7: Stay Active
+          - widgets:
+              - type: "cholot-texticon"
+                title: "Stay active."
+                subtitle: "Activities"
+                text: "Give yourself a break and let us do the cooking and the cleaning."
+                icon: "fas fa-route"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 24
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 18
+                  icon_bg_size:
+                    unit: "px"
+                    size: 60
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"
+          # Service 8: Meet Regularly (Final key widget)
+          - widgets:
+              - type: "cholot-texticon"
+                title: "Meet regularly"
+                subtitle: "Social"
+                text: "Let our residents live their life independently and enjoy their life."
+                icon: "fas fa-people-carry"
+                custom_settings:
+                  title_typography_font_size:
+                    unit: "px"
+                    size: 24
+                  subtitle_color: "#b68c2f"
+                  icon_size:
+                    unit: "px"
+                    size: 18
+                  icon_bg_size:
+                    unit: "px"
+                    size: 60
+                  iconbg_color: "#b68c2f"
+                  icon_color: "#ffffff"

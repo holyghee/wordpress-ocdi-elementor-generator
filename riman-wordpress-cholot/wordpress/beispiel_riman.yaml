@@ -1,0 +1,334 @@
+# ============================================
+# RIMAN GmbH - Professionelle Sanierungsfirma
+# ============================================
+
+site:
+  name: "RIMAN GmbH"
+  url: "https://riman-gmbh.de"
+  language: "de-DE"
+  description: "Ihr Spezialist für Sanierung und Schadstoffbeseitigung"
+
+design:
+  colors:
+    primary: "#b68c2f"    # RIMAN Gold
+    secondary: "#2c3e50"  # Dunkelblau
+    accent: "#e74c3c"     # Rot für Notfall
+    background: "#ffffff"
+  fonts:
+    heading: "Playfair Display"
+    body: "Source Sans Pro"
+
+# Navigation
+navigation:
+  - text: "Start"
+    link: "#start"
+  - text: "Leistungen"
+    link: "#leistungen"
+  - text: "Über uns"
+    link: "#uber-uns"
+  - text: "Referenzen"
+    link: "#referenzen"
+  - text: "Kontakt"
+    link: "#kontakt"
+  - text: "24/7 Notfall"
+    link: "tel:+4980012345"
+    highlight: true
+
+pages:
+  - id: "home"
+    title: "RIMAN GmbH - Sanierungsexperten"
+    sections:
+      
+      # Hero mit Notfall-Nummer
+      - type: "hero"
+        settings:
+          shape_divider_bottom: "curve"
+          background_overlay: "rgba(182,140,47,0.9)"
+        widgets:
+          - type: "cholot-title"
+            content:
+              title: "RIMAN GmbH"
+              subtitle: "Professionelle Sanierung seit 2004"
+          - type: "text"
+            content:
+              text: "24/7 Notfall-Hotline: 0800-RIMAN24"
+              style: "highlight"
+          - type: "button-group"
+            buttons:
+              - text: "Sofort-Beratung"
+                link: "#kontakt"
+                style: "primary"
+              - text: "Unsere Leistungen"
+                link: "#leistungen"
+                style: "outline"
+      
+      # Leistungen - 8 Service-Karten
+      - type: "services"
+        id: "leistungen"
+        title: "Unsere Leistungen"
+        columns: 4
+        rows: 2
+        widgets:
+          # Erste Reihe
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-shield-alt"
+              title: "Asbestsanierung"
+              description: |
+                Professionelle Entfernung und Entsorgung von Asbest
+                nach TRGS 519. Zertifizierte Fachkräfte.
+              features:
+                - "Gebäudeuntersuchung"
+                - "Schadstoffmessung"
+                - "Fachgerechte Entsorgung"
+          
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-fire"
+              title: "Brandschadensanierung"
+              description: |
+                Schnelle Hilfe nach Brandschäden. Komplette Sanierung
+                von der Reinigung bis zum Wiederaufbau.
+              features:
+                - "Sofortmaßnahmen"
+                - "Geruchsneutralisation"
+                - "Wiederaufbau"
+          
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-tint"
+              title: "Wasserschadensanierung"
+              description: |
+                24/7 Notdienst bei Wasserschäden. Professionelle
+                Trocknung und Sanierung.
+              features:
+                - "Leckortung"
+                - "Bautrocknung"
+                - "Schimmelprävention"
+          
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-biohazard"
+              title: "Schadstoffsanierung"
+              description: |
+                Beseitigung von PCB, PAK, KMF und anderen
+                Gefahrstoffen. Zertifiziert nach BGR 128.
+              features:
+                - "Schadstoffanalyse"
+                - "Dekontamination"
+                - "Entsorgungsnachweis"
+          
+          # Zweite Reihe
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-home"
+              title: "Altbausanierung"
+              description: |
+                Denkmalgerechte Sanierung historischer Gebäude.
+                Erhalt der Bausubstanz.
+              features:
+                - "Denkmalschutz"
+                - "Fassadensanierung"
+                - "Energetische Sanierung"
+          
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-industry"
+              title: "Industriedemontage"
+              description: |
+                Rückbau von Industrieanlagen. Professionelle
+                Demontage und Verwertung.
+              features:
+                - "Anlagenrückbau"
+                - "Maschinendemontage"
+                - "Wertstoffverwertung"
+          
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-shield-virus"
+              title: "Bautenschutz"
+              description: |
+                Präventiver Schutz Ihrer Immobilie. Abdichtung
+                und Beschichtung gegen Feuchtigkeit.
+              features:
+                - "Kellerabdichtung"
+                - "Fassadenschutz"
+                - "Dachbeschichtung"
+          
+          - type: "cholot-texticon"
+            settings:
+              shape_divider_bottom: "curve"
+              shape_divider_bottom_negative: "yes"
+            content:
+              icon: "fas fa-clipboard-check"
+              title: "Gutachten & Beratung"
+              description: |
+                Unabhängige Gutachten und Beratung. Begleitung
+                bei Versicherungsfällen.
+              features:
+                - "Schadensgutachten"
+                - "Beweissicherung"
+                - "Versicherungsabwicklung"
+      
+      # Über uns
+      - type: "about"
+        id: "uber-uns"
+        widgets:
+          - type: "heading"
+            content:
+              text: "20 Jahre Erfahrung in der Sanierung"
+              level: "h2"
+          - type: "text-columns"
+            columns: 2
+            content:
+              - text: |
+                  Die RIMAN GmbH ist seit 2004 Ihr zuverlässiger Partner
+                  für alle Sanierungsarbeiten. Mit über 500 erfolgreich
+                  abgeschlossenen Projekten und einem Team von 25
+                  Spezialisten sind wir in ganz Deutschland für Sie da.
+              - text: |
+                  Unsere Zertifizierungen nach TRGS 519, BGR 128 und
+                  DIN EN ISO 9001 garantieren höchste Qualität und
+                  Sicherheit. Wir arbeiten eng mit Versicherungen und
+                  Behörden zusammen.
+          - type: "statistics"
+            items:
+              - number: "500+"
+                label: "Projekte"
+              - number: "20"
+                label: "Jahre Erfahrung"
+              - number: "25"
+                label: "Experten"
+              - number: "24/7"
+                label: "Notdienst"
+      
+      # Team
+      - type: "team"
+        title: "Unser Expertenteam"
+        columns: 4
+        members:
+          - name: "Dipl.-Ing. Michael Riman"
+            position: "Geschäftsführer"
+            image: "team/riman.jpg"
+            qualifications:
+              - "Sachkundiger nach TRGS 519"
+              - "Bauingenieur"
+          - name: "Sandra Weber"
+            position: "Projektleiterin"
+            image: "team/weber.jpg"
+            qualifications:
+              - "Schadstoffgutachterin"
+              - "Sicherheitskoordinatorin"
+          - name: "Thomas Klein"
+            position: "Bauleiter"
+            image: "team/klein.jpg"
+            qualifications:
+              - "Meister im Bauhauptgewerbe"
+              - "Brandschutzbeauftragter"
+          - name: "Dr. Anna Schmidt"
+            position: "Laborleiterin"
+            image: "team/schmidt.jpg"
+            qualifications:
+              - "Chemikerin"
+              - "Umweltgutachterin"
+      
+      # Referenzen
+      - type: "testimonials"
+        id: "referenzen"
+        title: "Was unsere Kunden sagen"
+        widgets:
+          - type: "cholot-testimonial-two"
+            items:
+              - text: "Nach dem Wasserschaden waren wir verzweifelt. RIMAN kam sofort und hat alles perfekt saniert."
+                author: "Familie Müller"
+                location: "München"
+                rating: 5
+              - text: "Professionelle Asbestsanierung in unserer Schule. Termingerecht und sauber ausgeführt."
+                author: "Stadt Frankfurt"
+                location: "Frankfurt"
+                rating: 5
+              - text: "Kompetente Beratung und erstklassige Ausführung bei der Altbausanierung."
+                author: "Wohnungsbaugesellschaft"
+                location: "Berlin"
+                rating: 5
+      
+      # Kontakt
+      - type: "contact"
+        id: "kontakt"
+        settings:
+          background_color: "#f8f9fa"
+        widgets:
+          - type: "cholot-contact"
+            content:
+              title: "Kontaktieren Sie uns"
+              subtitle: "24/7 Notfall-Hotline: 0800-RIMAN24"
+              address: |
+                RIMAN GmbH
+                Industriestraße 42
+                80335 München
+              phone: "+49 89 123456-0"
+              fax: "+49 89 123456-99"
+              email: "info@riman-gmbh.de"
+              emergency: "0800-7462624"
+              hours:
+                - "Mo-Fr: 7:00 - 18:00 Uhr"
+                - "Sa: 8:00 - 14:00 Uhr"
+                - "Notdienst: 24/7"
+          - type: "contact-form"
+            fields:
+              - type: "text"
+                label: "Name"
+                required: true
+              - type: "email"
+                label: "E-Mail"
+                required: true
+              - type: "tel"
+                label: "Telefon"
+              - type: "select"
+                label: "Leistung"
+                options:
+                  - "Asbestsanierung"
+                  - "Wasserschaden"
+                  - "Brandschaden"
+                  - "Andere"
+              - type: "textarea"
+                label: "Nachricht"
+                required: true
+              - type: "submit"
+                text: "Anfrage senden"
+      
+      # Footer
+      - type: "footer"
+        widgets:
+          - type: "text"
+            content:
+              text: "© 2024 RIMAN GmbH - Alle Rechte vorbehalten"
+          - type: "links"
+            items:
+              - text: "Impressum"
+                link: "/impressum"
+              - text: "Datenschutz"
+                link: "/datenschutz"
+              - text: "AGB"
+                link: "/agb"
