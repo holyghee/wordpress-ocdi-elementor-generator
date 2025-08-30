@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "🖼️  Simple Screenshot Capture for Website Comparison"
+echo "================================================="
+
+echo "Note: This requires manual browser action. Please:"
+echo "1. Open http://localhost:8081/?page_id=3000 in your browser"
+echo "2. Take a full-page screenshot and save as 'current_site.png'"
+echo "3. Open http://localhost:8080 in your browser" 
+echo "4. Take a full-page screenshot and save as 'original_site.png'"
+echo ""
+echo "Or use your browser's developer tools:"
+echo "1. Open DevTools (F12)"
+echo "2. Toggle device toolbar (Ctrl+Shift+M)"
+echo "3. Set to 1440x900 viewport"
+echo "4. Use DevTools screenshot feature (Ctrl+Shift+P > 'screenshot')"
+echo ""
+echo "Screenshots will help identify visual differences in:"
+echo "- Hero section styling"
+echo "- Service card layout and curved dividers"
+echo "- Overall color scheme and typography"
+echo "- Widget spacing and alignment"
