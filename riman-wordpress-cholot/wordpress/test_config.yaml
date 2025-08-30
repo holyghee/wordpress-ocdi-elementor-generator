@@ -1,0 +1,20 @@
+pages:
+- sections:
+  - cards:
+    - description: Professionelle Entfernung von Asbest nach TRGS 519.
+      icon: fas fa-shield-alt
+      image: http://localhost:8081/wp-content/uploads/2025/08/asbestsanierung.jpg
+      subtitle: ZERTIFIZIERT
+      title: Asbestsanierung
+    - description: Sichere Beseitigung von PCB-belasteten Materialien.
+      icon: fas fa-industry
+      image: http://localhost:8081/wp-content/uploads/2025/08/pcb-sanierung.jpg
+      subtitle: FACHGERECHT
+      title: PCB-Sanierung
+    - description: Nachhaltige Schimmelbeseitigung und Prävention.
+      icon: fas fa-home
+      image: http://localhost:8081/wp-content/uploads/2025/08/schimmelsanierung.jpg
+      subtitle: NACHHALTIG
+      title: Schimmelsanierung
+    type: service_cards
+  title: RIMAN Startseite
