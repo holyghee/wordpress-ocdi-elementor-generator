@@ -1,0 +1,380 @@
+[
+    {
+        "id": "b239a16",
+        "elType": "section",
+        "settings": {
+            "gap": "extended",
+            "custom_height": {
+                "unit": "px",
+                "size": 300,
+                "sizes": []
+            },
+            "content_position": "middle",
+            "structure": "30",
+            "background_color": "#b68c2f",
+            "box_shadow_box_shadow": {
+                "horizontal": 10,
+                "vertical": 0,
+                "blur": 0,
+                "spread": 4,
+                "color": "#ededed"
+            },
+            "margin": {
+                "unit": "px",
+                "top": -100,
+                "right": 0,
+                "bottom": 0,
+                "left": 0,
+                "isLinked": false
+            }
+        },
+        "elements": [
+            {
+                "id": "031de5e",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "background_color": "#fafafa",
+                    "border_width": {
+                        "unit": "px",
+                        "top": 10,
+                        "right": 0,
+                        "bottom": 10,
+                        "left": 10,
+                        "isLinked": false
+                    },
+                    "border_color": "#ededed",
+                    "animation": "fadeInUp",
+                    "animation_duration": "fast",
+                    "animation_delay": 0
+                },
+                "elements": [
+                    {
+                        "id": "c20ac4b",
+                        "elType": "section",
+                        "settings": {
+                            "gap": "no",
+                            "shape_divider_bottom": "curve",
+                            "shape_divider_bottom_color": "#fafafa",
+                            "shape_divider_bottom_negative": "yes",
+                            "shape_divider_bottom_above_content": "yes"
+                        },
+                        "elements": [
+                            {
+                                "id": "6d6a72b",
+                                "elType": "column",
+                                "settings": {
+                                    "_column_size": 100
+                                },
+                                "elements": [
+                                    {
+                                        "id": "69368a3",
+                                        "elType": "widget",
+                                        "settings": {
+                                            "image": {
+                                                "url": "http:\/\/localhost:3456\/asbestsanierung.jpg",
+                                                "id": ""
+                                            },
+                                            "_border_width": {
+                                                "unit": "px",
+                                                "top": 4,
+                                                "right": 0,
+                                                "bottom": 0,
+                                                "left": 0
+                                            },
+                                            "_border_color": "#b68c2f"
+                                        },
+                                        "elements": [],
+                                        "widgetType": "image"
+                                    }
+                                ],
+                                "isInner": true
+                            }
+                        ],
+                        "isInner": true
+                    },
+                    {
+                        "id": "5af3d7b",
+                        "elType": "section",
+                        "settings": {
+                            "gap": "no",
+                            "margin": {
+                                "unit": "px",
+                                "top": -30,
+                                "right": 0,
+                                "bottom": 0,
+                                "left": 0
+                            },
+                            "z_index": 2
+                        },
+                        "elements": [
+                            {
+                                "id": "70e501e",
+                                "elType": "column",
+                                "settings": {
+                                    "_column_size": 100
+                                },
+                                "elements": [
+                                    {
+                                        "id": "ba48ec0",
+                                        "elType": "widget",
+                                        "settings": {
+                                            "title": "Asbestsanierung",
+                                            "subtitle": "ZERTIFIZIERT",
+                                            "text": "<p>Professionelle Entfernung von Asbest.<\/p>",
+                                            "selected_icon": {
+                                                "value": "fas fa-shield-alt",
+                                                "library": "fa-solid"
+                                            },
+                                            "icon_color": "#ffffff",
+                                            "iconbg_color": "#b68c2f",
+                                            "subtitle_color": "#b68c2f",
+                                            "_border_color": "#b68c2f",
+                                            "_border_border": "dashed"
+                                        },
+                                        "elements": [],
+                                        "widgetType": "cholot-texticon"
+                                    }
+                                ],
+                                "isInner": true
+                            }
+                        ],
+                        "isInner": true
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "80656b5",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "background_color": "#fafafa",
+                    "border_width": {
+                        "unit": "px",
+                        "top": 10,
+                        "right": 0,
+                        "bottom": 10,
+                        "left": 10,
+                        "isLinked": false
+                    },
+                    "border_color": "#ededed",
+                    "animation": "fadeInUp",
+                    "animation_duration": "fast",
+                    "animation_delay": 200
+                },
+                "elements": [
+                    {
+                        "id": "5ec9477",
+                        "elType": "section",
+                        "settings": {
+                            "gap": "no",
+                            "shape_divider_bottom": "curve",
+                            "shape_divider_bottom_color": "#fafafa",
+                            "shape_divider_bottom_negative": "yes",
+                            "shape_divider_bottom_above_content": "yes"
+                        },
+                        "elements": [
+                            {
+                                "id": "b2f74e1",
+                                "elType": "column",
+                                "settings": {
+                                    "_column_size": 100
+                                },
+                                "elements": [
+                                    {
+                                        "id": "53f2235",
+                                        "elType": "widget",
+                                        "settings": {
+                                            "image": {
+                                                "url": "http:\/\/localhost:3456\/pcb-sanierung.jpg",
+                                                "id": ""
+                                            },
+                                            "_border_width": {
+                                                "unit": "px",
+                                                "top": 4,
+                                                "right": 0,
+                                                "bottom": 0,
+                                                "left": 0
+                                            },
+                                            "_border_color": "#b68c2f"
+                                        },
+                                        "elements": [],
+                                        "widgetType": "image"
+                                    }
+                                ],
+                                "isInner": true
+                            }
+                        ],
+                        "isInner": true
+                    },
+                    {
+                        "id": "cc54d43",
+                        "elType": "section",
+                        "settings": {
+                            "gap": "no",
+                            "margin": {
+                                "unit": "px",
+                                "top": -30,
+                                "right": 0,
+                                "bottom": 0,
+                                "left": 0
+                            },
+                            "z_index": 2
+                        },
+                        "elements": [
+                            {
+                                "id": "2ef74e9",
+                                "elType": "column",
+                                "settings": {
+                                    "_column_size": 100
+                                },
+                                "elements": [
+                                    {
+                                        "id": "9a073e3",
+                                        "elType": "widget",
+                                        "settings": {
+                                            "title": "PCB-Sanierung",
+                                            "subtitle": "FACHGERECHT",
+                                            "text": "<p>Sichere Beseitigung von PCB.<\/p>",
+                                            "selected_icon": {
+                                                "value": "fas fa-industry",
+                                                "library": "fa-solid"
+                                            },
+                                            "icon_color": "#ffffff",
+                                            "iconbg_color": "#b68c2f",
+                                            "subtitle_color": "#b68c2f",
+                                            "_border_color": "#b68c2f",
+                                            "_border_border": "dashed"
+                                        },
+                                        "elements": [],
+                                        "widgetType": "cholot-texticon"
+                                    }
+                                ],
+                                "isInner": true
+                            }
+                        ],
+                        "isInner": true
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "b1cee66",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "background_color": "#fafafa",
+                    "border_width": {
+                        "unit": "px",
+                        "top": 10,
+                        "right": 0,
+                        "bottom": 10,
+                        "left": 10,
+                        "isLinked": false
+                    },
+                    "border_color": "#ededed",
+                    "animation": "fadeInUp",
+                    "animation_duration": "fast",
+                    "animation_delay": 400
+                },
+                "elements": [
+                    {
+                        "id": "999e967",
+                        "elType": "section",
+                        "settings": {
+                            "gap": "no",
+                            "shape_divider_bottom": "curve",
+                            "shape_divider_bottom_color": "#fafafa",
+                            "shape_divider_bottom_negative": "yes",
+                            "shape_divider_bottom_above_content": "yes"
+                        },
+                        "elements": [
+                            {
+                                "id": "978bb03",
+                                "elType": "column",
+                                "settings": {
+                                    "_column_size": 100
+                                },
+                                "elements": [
+                                    {
+                                        "id": "94a339f",
+                                        "elType": "widget",
+                                        "settings": {
+                                            "image": {
+                                                "url": "http:\/\/localhost:3456\/schimmel.jpg",
+                                                "id": ""
+                                            },
+                                            "_border_width": {
+                                                "unit": "px",
+                                                "top": 4,
+                                                "right": 0,
+                                                "bottom": 0,
+                                                "left": 0
+                                            },
+                                            "_border_color": "#b68c2f"
+                                        },
+                                        "elements": [],
+                                        "widgetType": "image"
+                                    }
+                                ],
+                                "isInner": true
+                            }
+                        ],
+                        "isInner": true
+                    },
+                    {
+                        "id": "7ad7677",
+                        "elType": "section",
+                        "settings": {
+                            "gap": "no",
+                            "margin": {
+                                "unit": "px",
+                                "top": -30,
+                                "right": 0,
+                                "bottom": 0,
+                                "left": 0
+                            },
+                            "z_index": 2
+                        },
+                        "elements": [
+                            {
+                                "id": "d9aae88",
+                                "elType": "column",
+                                "settings": {
+                                    "_column_size": 100
+                                },
+                                "elements": [
+                                    {
+                                        "id": "a7d64fd",
+                                        "elType": "widget",
+                                        "settings": {
+                                            "title": "Schimmelsanierung",
+                                            "subtitle": "NACHHALTIG",
+                                            "text": "<p>Nachhaltige Schimmelbeseitigung.<\/p>",
+                                            "selected_icon": {
+                                                "value": "fas fa-home",
+                                                "library": "fa-solid"
+                                            },
+                                            "icon_color": "#ffffff",
+                                            "iconbg_color": "#b68c2f",
+                                            "subtitle_color": "#b68c2f",
+                                            "_border_color": "#b68c2f",
+                                            "_border_border": "dashed"
+                                        },
+                                        "elements": [],
+                                        "widgetType": "cholot-texticon"
+                                    }
+                                ],
+                                "isInner": true
+                            }
+                        ],
+                        "isInner": true
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    }
+]
