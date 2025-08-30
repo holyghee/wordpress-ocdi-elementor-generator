@@ -1,0 +1,147 @@
+/* Contact Form 7 - Weiße Styles für schwarzen Hintergrund */
+
+/* Container mit schwarzem Hintergrund */
+.elementor-widget-shortcode:has(.wpcf7) {
+    background: #1a1a1a !important;
+}
+
+/* Labels weiß machen */
+.wpcf7 label {
+    color: #fff !important;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+/* Input Felder */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="date"],
+.wpcf7 select,
+.wpcf7 textarea {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: #fff !important;
+    padding: 12px 15px !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    border-radius: 4px !important;
+    font-size: 16px !important;
+    transition: all 0.3s !important;
+}
+
+/* Hover/Focus States */
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 textarea:focus {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-color: #b68c2f !important;
+    outline: none !important;
+}
+
+/* Placeholder Text */
+.wpcf7 input::placeholder,
+.wpcf7 textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Submit Button */
+.wpcf7 input[type="submit"] {
+    background: #b68c2f !important;
+    color: #fff !important;
+    border: 2px solid #b68c2f !important;
+    padding: 14px 40px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    transition: all 0.3s !important;
+    display: inline-block !important;
+}
+
+.wpcf7 input[type="submit"]:hover {
+    background: transparent !important;
+    color: #b68c2f !important;
+    box-shadow: 0 4px 15px rgba(182, 140, 47, 0.3) !important;
+}
+
+/* Response Messages */
+.wpcf7-response-output {
+    margin: 30px 0 !important;
+    padding: 15px !important;
+    border-radius: 4px !important;
+    border: 1px solid !important;
+    color: #fff !important;
+}
+
+.wpcf7-mail-sent-ok {
+    background: rgba(70, 180, 80, 0.1) !important;
+    border-color: #46b450 !important;
+    color: #46b450 !important;
+}
+
+.wpcf7-mail-sent-ng,
+.wpcf7-validation-errors,
+.wpcf7-spam-blocked {
+    background: rgba(255, 107, 107, 0.1) !important;
+    border-color: #ff6b6b !important;
+    color: #ff6b6b !important;
+}
+
+/* Validation Tips */
+.wpcf7-not-valid-tip {
+    color: #ff6b6b !important;
+    font-size: 14px !important;
+    margin-top: -15px !important;
+    margin-bottom: 10px !important;
+}
+
+/* Spinner */
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #b68c2f;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+}
+
+/* Ajax Loader - Spinner Animation */
+.wpcf7 form.submitting .wpcf7-spinner {
+    visibility: visible;
+}
+
+.wpcf7 form.submitting .wpcf7-spinner:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    border-bottom-color: transparent;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wpcf7 input[type="submit"] {
+        width: 100% !important;
+    }
+}
