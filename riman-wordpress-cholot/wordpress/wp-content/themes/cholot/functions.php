@@ -233,3 +233,6 @@ include(get_template_directory() . '/inc/custom-header.php');
 
 //include custom footer
 include(get_template_directory() . '/inc/custom-footer.php');
+/* Contact Form White Styles laden */
+wp_enqueue_style("contact-form-white", get_template_directory_uri() . "/contact-form-white.css");
+
