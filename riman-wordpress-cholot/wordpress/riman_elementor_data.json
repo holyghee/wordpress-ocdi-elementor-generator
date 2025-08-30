@@ -1,6 +1,6 @@
 [
   {
-    "id": "a5fffb1",
+    "id": "277675d",
     "elType": "section",
     "settings": {
       "gap": "no",
@@ -19,19 +19,19 @@
     },
     "elements": [
       {
-        "id": "3eed214",
+        "id": "9f8271b",
         "elType": "column",
         "settings": {
           "_column_size": 100
         },
         "elements": [
           {
-            "id": "bbf8f8a",
+            "id": "8a21979",
             "elType": "widget",
             "settings": {
               "slider_list": [
                 {
-                  "_id": "85ba8f7",
+                  "_id": "0cfc668",
                   "title": "Professionelle <span>Schadstoffsanierung</span>",
                   "subtitle": "SEIT 1995",
                   "text": "Zertifizierte Asbestsanierung, PCB-Entsorgung und Schimmelbekämpfung mit höchsten Sicherheitsstandards.",
@@ -45,7 +45,7 @@
                   }
                 },
                 {
-                  "_id": "903bf16",
+                  "_id": "b059c86",
                   "title": "Umweltschutz mit <span>Verantwortung</span>",
                   "subtitle": "NACHHALTIG & SICHER",
                   "text": "Fachgerechte Entsorgung und Sanierung für eine saubere Zukunft.",
@@ -98,7 +98,7 @@
     },
     "elements": [
       {
-        "id": "d9ee323",
+        "id": "aeab026",
         "elType": "column",
         "settings": {
           "_column_size": 33,
@@ -117,7 +117,7 @@
         },
         "elements": [
           {
-            "id": "cd0d3bb",
+            "id": "4bead6e",
             "elType": "section",
             "settings": {
               "gap": "no",
@@ -128,14 +128,14 @@
             },
             "elements": [
               {
-                "id": "dcb35de",
+                "id": "5e17cb8",
                 "elType": "column",
                 "settings": {
                   "_column_size": 100
                 },
                 "elements": [
                   {
-                    "id": "70c22dc",
+                    "id": "25234a7",
                     "elType": "widget",
                     "settings": {
                       "image": {
@@ -161,7 +161,7 @@
             "isInner": true
           },
           {
-            "id": "8a891dc",
+            "id": "aa6bc25",
             "elType": "section",
             "settings": {
               "gap": "no",
@@ -176,14 +176,14 @@
             },
             "elements": [
               {
-                "id": "eac36db",
+                "id": "9e2490d",
                 "elType": "column",
                 "settings": {
                   "_column_size": 100
                 },
                 "elements": [
                   {
-                    "id": "e9a0231",
+                    "id": "b7a85bd",
                     "elType": "widget",
                     "settings": {
                       "title": "Asbestsanierung",
@@ -219,7 +219,7 @@
         "isInner": false
       },
       {
-        "id": "3badb3a",
+        "id": "6754cda",
         "elType": "column",
         "settings": {
           "_column_size": 33,
@@ -238,7 +238,7 @@
         },
         "elements": [
           {
-            "id": "2bcdada",
+            "id": "691e729",
             "elType": "section",
             "settings": {
               "gap": "no",
@@ -249,14 +249,14 @@
             },
             "elements": [
               {
-                "id": "2a400fe",
+                "id": "4ca2dd5",
                 "elType": "column",
                 "settings": {
                   "_column_size": 100
                 },
                 "elements": [
                   {
-                    "id": "1139292",
+                    "id": "afee19c",
                     "elType": "widget",
                     "settings": {
                       "image": {
@@ -282,7 +282,7 @@
             "isInner": true
           },
           {
-            "id": "8288d0a",
+            "id": "671ee79",
             "elType": "section",
             "settings": {
               "gap": "no",
@@ -297,14 +297,14 @@
             },
             "elements": [
               {
-                "id": "8fd126e",
+                "id": "06be8ae",
                 "elType": "column",
                 "settings": {
                   "_column_size": 100
                 },
                 "elements": [
                   {
-                    "id": "26c4a6e",
+                    "id": "d57c420",
                     "elType": "widget",
                     "settings": {
                       "title": "PCB-Sanierung",
@@ -340,7 +340,7 @@
         "isInner": false
       },
       {
-        "id": "7785aa3",
+        "id": "d77a9bd",
         "elType": "column",
         "settings": {
           "_column_size": 33,
@@ -359,7 +359,7 @@
         },
         "elements": [
           {
-            "id": "08523ef",
+            "id": "ee80b72",
             "elType": "section",
             "settings": {
               "gap": "no",
@@ -370,14 +370,14 @@
             },
             "elements": [
               {
-                "id": "e22c6aa",
+                "id": "f94fcf5",
                 "elType": "column",
                 "settings": {
                   "_column_size": 100
                 },
                 "elements": [
                   {
-                    "id": "7400af8",
+                    "id": "71bdbfd",
                     "elType": "widget",
                     "settings": {
                       "image": {
@@ -403,7 +403,7 @@
             "isInner": true
           },
           {
-            "id": "1bc826f",
+            "id": "7c81692",
             "elType": "section",
             "settings": {
               "gap": "no",
@@ -418,14 +418,14 @@
             },
             "elements": [
               {
-                "id": "c383b7c",
+                "id": "818299b",
                 "elType": "column",
                 "settings": {
                   "_column_size": 100
                 },
                 "elements": [
                   {
-                    "id": "40f2b66",
+                    "id": "85212bf",
                     "elType": "widget",
                     "settings": {
                       "title": "Schimmelsanierung",
@@ -462,6 +462,6 @@
       }
     ],
     "isInner": false,
-    "id": "9c026d2"
+    "id": "8323cea"
   }
 ]
