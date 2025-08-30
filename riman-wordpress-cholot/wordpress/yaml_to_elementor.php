@@ -6,7 +6,7 @@
  * Konvertiert einfache YAML Konfigurationen in komplexe Elementor Strukturen
  */
 
-require_once 'vendor/autoload.php'; // Für Symfony YAML Parser (falls installiert)
+// require_once 'vendor/autoload.php'; // Für Symfony YAML Parser (falls installiert)
 
 class YamlToElementorConverter {
     
