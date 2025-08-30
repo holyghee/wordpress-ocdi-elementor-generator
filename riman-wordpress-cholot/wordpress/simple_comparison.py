@@ -23,7 +23,8 @@ def extract_section(html_content, section_name):
 
 def count_cholot_widgets(html_content):
     """Count cholot-texticon widgets and extract their content"""
-    pattern = r'<div[^>]*cholot-texticon[^>]*>.*?</div><!--/.box-small-icon-->'
+    # Find cholot-texticon widget containers
+    pattern = r'<div[^>]*elementor-widget-cholot-texticon[^>]*>.*?<div class="elementor-widget-container">(.*?)(?=<div class="elementor-element|$)'
     matches = re.findall(pattern, html_content, re.DOTALL)
     
     widget_data = []
@@ -32,7 +33,7 @@ def count_cholot_widgets(html_content):
         title_match = re.search(r'<h3[^>]*icon-title[^>]*>(.*?)</h3>', match)
         title = title_match.group(1) if title_match else "No title"
         
-        # Extract subtitle
+        # Extract subtitle  
         subtitle_match = re.search(r'<p[^>]*icon-subtitle[^>]*>(.*?)</p>', match)
         subtitle = subtitle_match.group(1) if subtitle_match else "No subtitle"
         
@@ -44,11 +45,15 @@ def count_cholot_widgets(html_content):
         
         widget_data.append({
             'title': title.strip(),
-            'subtitle': subtitle.strip(),
+            'subtitle': subtitle.strip(), 
             'icon_type': icon_type
         })
     
-    return len(matches), widget_data
+    # Also try a simpler pattern for box-small-icon
+    box_pattern = r'<div class="box-small-icon">(.*?)</div><!--/.box-small-icon-->'
+    box_matches = re.findall(box_pattern, html_content, re.DOTALL)
+    
+    return max(len(matches), len(box_matches)), widget_data
 
 def extract_css_links(html_content):
     """Extract all CSS link elements"""
