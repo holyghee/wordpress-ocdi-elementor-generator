@@ -144,7 +144,7 @@ foreach ($service_cards as $index => $card) {
                                 ],
                                 "elements" => [],
                                 "widgetType" => "image"
-                            }
+                            ]
                         ],
                         "isInner" => true
                     }
