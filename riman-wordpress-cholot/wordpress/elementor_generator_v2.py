@@ -117,16 +117,27 @@ class ElementorGeneratorV2:
             return element
     
     def generate_service_cards_section(self, cards_config: List[Dict]) -> Dict:
-        """Generiert eine komplette Service Cards Section"""
+        """Generiert eine komplette Service Cards Section mit exakter Cholot Struktur"""
         
-        # Basis Section Struktur
+        # Basis Section Struktur aus demo-data-fixed.xml
         section = {
             "id": self.generate_unique_id(),
             "elType": "section",
             "settings": {
-                "content_width": {"unit": "px", "size": 1140},
                 "gap": "extended",
-                "padding": {"unit": "px", "top": 80, "bottom": 80}
+                "custom_height": {"unit": "px", "size": 300, "sizes": []},
+                "content_position": "middle",
+                "structure": "30",
+                "background_color": "#b68c2f",
+                "box_shadow_box_shadow": {
+                    "horizontal": 10,
+                    "vertical": 0,
+                    "blur": 0,
+                    "spread": 4,
+                    "color": "#ededed"
+                },
+                "margin": {"unit": "px", "top": -100, "right": 0, "bottom": 0, "left": 0, "isLinked": False},
+                "margin_tablet": {"unit": "px", "top": 0, "right": 0, "bottom": 0, "left": 0, "isLinked": False}
             },
             "elements": []
         }
