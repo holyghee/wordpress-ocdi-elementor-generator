@@ -5,26 +5,63 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from datetime import datetime
 
-# (Die TEMPLATES und HYDRATORS Sektionen bleiben die gleichen wie zuvor)
-# HINWEIS: Fügen Sie hier die vollständigen Templates und Hydrator-Funktionen 
-# aus dem vorherigen Skript ein, damit das Skript vollständig ist.
+# =============================================================================
+# BLOCK-TEMPLATE BIBLIOTHEK
+# =============================================================================
+
 TEMPLATES = {
     "hero_slider_mountains_divider": {
-        "id": "placeholder_id", "elType": "section", "settings": {"gap": "no", "layout": "full_width"},
-        "elements": [{"id": "placeholder_id", "elType": "column", "elements": [{"id": "placeholder_id", "elType": "widget", "widgetType": "rdn-slider", "settings": {"slider_list": []}}]}]
+        "id": "placeholder_id_section_hero",
+        "elType": "section",
+        "settings": {
+            "gap": "no", "layout": "full_width", "background_color": "rgba(0,0,0,0.6)",
+            "shape_divider_bottom": "mountains", "shape_divider_bottom_color": "#ffffff"
+        },
+        "elements": [{
+            "id": "placeholder_id_col_hero", "elType": "column", "settings": {"_column_size": 100},
+            "elements": [{
+                "id": "placeholder_id_widget_hero", "elType": "widget", "widgetType": "rdn-slider",
+                "settings": { "slider_list": [] }
+            }]
+        }]
     },
     "service_card_container": {
-        "id": "placeholder_id", "elType": "section", "settings": {"structure": "30", "margin": {"unit": "px", "top": "-100"}},
+        "id": "placeholder_id_section_cards",
+        "elType": "section",
+        "settings": {
+            "gap": "extended", "structure": "30", "background_color": "#b68c2f",
+            "margin": {"unit": "px", "top": "-100", "right": 0, "bottom": 0, "left": 0, "isLinked": False}
+        },
         "elements": []
     },
     "service_card_item": {
-        "id": "placeholder_id", "elType": "column", "settings": {"_column_size": 33, "animation": "fadeInUp"},
+        "id": "placeholder_id_col_card",
+        "elType": "column",
+        "settings": { "_column_size": 33, "animation": "fadeInUp", "animation_delay": 0 },
         "elements": [
-            {"id": "placeholder_id", "elType": "section", "isInner": True, "elements": [{"id": "placeholder_id", "elType": "column", "elements": [{"id": "placeholder_id", "elType": "widget", "widgetType": "image", "settings": {"image": {"url": ""}}}]}]},
-            {"id": "placeholder_id", "elType": "section", "isInner": True, "elements": [{"id": "placeholder_id", "elType": "column", "elements": [{"id": "placeholder_id", "elType": "widget", "widgetType": "cholot-texticon", "settings": {"selected_icon": {"value": ""}, "subtitle": "", "title": "", "text": ""}}]}]}
+            {
+                "id": "placeholder_id_inner_sec_img", "elType": "section", "isInner": True,
+                "settings": {"shape_divider_bottom": "curve", "shape_divider_bottom_negative": "yes"},
+                "elements": [{"id": "placeholder_id_inner_col_img", "elType": "column", "settings": {"_column_size": 100},
+                    "elements": [{"id": "placeholder_id_widget_img", "elType": "widget", "widgetType": "image", "settings": {"image": {"url": ""}}}]
+                }]
+            },
+            {
+                "id": "placeholder_id_inner_sec_text", "elType": "section", "isInner": True,
+                "settings": {"z_index": 2, "margin": {"unit": "px", "top": "-30", "right": 0, "bottom": 0, "left": 0, "isLinked": False}},
+                "elements": [{"id": "placeholder_id_inner_col_text", "elType": "column", "settings": {"_column_size": 100},
+                    "elements": [{"id": "placeholder_id_widget_texticon", "elType": "widget", "widgetType": "cholot-texticon",
+                        "settings": {"selected_icon": {"value": "", "library": "fa-solid"}, "subtitle": "", "title": "", "text": ""}
+                    }]
+                }]
+            }
         ]
     }
 }
+
+# =============================================================================
+# HYDRATIONS-FUNKTIONEN
+# =============================================================================
 
 def hydrate_hero_slider(config):
     template = copy.deepcopy(TEMPLATES["hero_slider_mountains_divider"])
@@ -43,21 +80,26 @@ def hydrate_service_cards(config):
     container = copy.deepcopy(TEMPLATES["service_card_container"])
     items = config.get("items", [])
     if not items: return container
-    column_size = 100 / len(items)
-    if len(items) == 3: container["settings"]["structure"] = "30"
-    elif len(items) == 4: container["settings"]["structure"] = "25"
     
+    num_items = len(items)
+    if num_items == 4: container["settings"]["structure"] = "25"
+    elif num_items == 2: container["settings"]["structure"] = "50"
+    else: container["settings"]["structure"] = "30"
+    
+    animation_delay_step = 200
     for i, item_data in enumerate(items):
         item_template = copy.deepcopy(TEMPLATES["service_card_item"])
-        item_template["settings"]["_column_size"] = column_size
-        item_template["settings"]["animation_delay"] = i * 200
+        item_template["settings"]["animation_delay"] = i * animation_delay_step
+        
         image_widget = item_template["elements"][0]["elements"][0]["elements"][0]
         texticon_widget = item_template["elements"][1]["elements"][0]["elements"][0]
+        
         image_widget["settings"]["image"]["url"] = item_data.get("image_url", "")
         texticon_widget["settings"]["selected_icon"]["value"] = item_data.get("icon", "")
         texticon_widget["settings"]["subtitle"] = item_data.get("subtitle", "")
         texticon_widget["settings"]["title"] = item_data.get("title", "")
         texticon_widget["settings"]["text"] = f"<p>{item_data.get('description', '')}</p>"
+        
         container["elements"].append(item_template)
     return container
 
@@ -75,64 +117,60 @@ def generate_elementor_json(page_config):
             elementor_data.append(hydrated_section)
     return elementor_data
 
+# =============================================================================
+# XML-GENERATOR
+# =============================================================================
+
 def generate_wxr_xml(yaml_data):
-    """
-    Erstellt die vollständige WXR-XML-Datei.
-    """
     page_config = yaml_data.get("page", {})
     meta_config = yaml_data.get("page_meta", {})
-    
-    # 1. Generiere die Elementor-JSON-Daten
-    elementor_json_data = generate_elementor_json(page_config)
-    elementor_json_string = json.dumps(elementor_json_data, ensure_ascii=False)
+    elementor_json_string = json.dumps(generate_elementor_json(page_config), ensure_ascii=False)
 
-    # 2. Registriere die XML-Namensräume (KORREKTUR HIER)
-    ET.register_namespace('excerpt', "http://wordpress.org/export/1.2/excerpt/")
-    ET.register_namespace('content', "http://purl.org/rss/1.0/modules/content/")
-    ET.register_namespace('wfw', "http://wellformedweb.org/CommentAPI/")
-    ET.register_namespace('dc', "http://purl.org/dc/elements/1.1/")
-    ET.register_namespace('wp', "http://wordpress.org/export/1.2/")
-
-    # 3. Erstelle die XML-Grundstruktur
-    rss = ET.Element("rss", version="2.0")
-    channel = ET.SubElement(rss, "channel")
+    # XML-Struktur aufbauen
+    root = ET.Element("rss", version="2.0", 
+                      attrib={"xmlns:wp": "http://wordpress.org/export/1.2/",
+                              "xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+                              "xmlns:dc": "http://purl.org/dc/elements/1.1/"})
+    channel = ET.SubElement(root, "channel")
     
-    # ... (Rest der XML-Erstellung bleibt gleich)
-    ET.SubElement(channel, "title").text = "Cholot Export"
+    ET.SubElement(channel, "{http://wordpress.org/export/1.2/}wxr_version").text = "1.2"
+    
     author = ET.SubElement(channel, "{http://wordpress.org/export/1.2/}author")
     ET.SubElement(author, "{http://wordpress.org/export/1.2/}author_login").text = meta_config.get("author_login", "admin")
-    
+    ET.SubElement(author, "{http://wordpress.org/export/1.2/}author_email").text = meta_config.get("author_email", "admin@example.com")
+    ET.SubElement(author, "{http://wordpress.org/export/1.2/}author_display_name").text = meta_config.get("author_display_name", "Admin")
+
     item = ET.SubElement(channel, "item")
-    ET.SubElement(item, "title").text = page_config.get("name", "Unbenannte Seite")
+    ET.SubElement(item, "title").text = page_config.get("name", "Generated Page")
     ET.SubElement(item, "{http://purl.org/dc/elements/1.1/}creator").text = meta_config.get("author_login", "admin")
     ET.SubElement(item, "{http://wordpress.org/export/1.2/}post_type").text = "page"
     ET.SubElement(item, "{http://wordpress.org/export/1.2/}status").text = "publish"
-
-    postmeta_elementor = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
-    ET.SubElement(postmeta_elementor, "{http://wordpress.org/export/1.2/}meta_key").text = "_elementor_data"
-    ET.SubElement(postmeta_elementor, "{http://wordpress.org/export/1.2/}meta_value").text = f"<![CDATA[{elementor_json_string}]]>"
     
-    postmeta_template = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
-    ET.SubElement(postmeta_template, "{http://wordpress.org/export/1.2/}meta_key").text = "_wp_page_template"
-    ET.SubElement(postmeta_template, "{http://wordpress.org/export/1.2/}meta_value").text = "elementor_canvas"
+    # Meta-Feld für Elementor-Daten
+    postmeta = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
+    ET.SubElement(postmeta, "{http://wordpress.org/export/1.2/}meta_key").text = "_elementor_data"
+    ET.SubElement(postmeta, "{http://wordpress.org/export/1.2/}meta_value").text = elementor_json_string
 
-    postmeta_edit_mode = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
-    ET.SubElement(postmeta_edit_mode, "{http://wordpress.org/export/1.2/}meta_key").text = "_elementor_edit_mode"
-    ET.SubElement(postmeta_edit_mode, "{http://wordpress.org/export/1.2/}meta_value").text = "builder"
+    # Meta-Feld für Seitentemplate
+    postmeta2 = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
+    ET.SubElement(postmeta2, "{http://wordpress.org/export/1.2/}meta_key").text = "_wp_page_template"
+    ET.SubElement(postmeta2, "{http://wordpress.org/export/1.2/}meta_value").text = "elementor_canvas"
+    
+    # Meta-Feld für Edit-Mode
+    postmeta3 = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
+    ET.SubElement(postmeta3, "{http://wordpress.org/export/1.2/}meta_key").text = "_elementor_edit_mode"
+    ET.SubElement(postmeta3, "{http://wordpress.org/export/1.2/}meta_value").text = "builder"
 
-    # 4. XML in einen String konvertieren und formatieren
-    rough_string = ET.tostring(rss, 'utf-8', xml_declaration=True)
+    # XML formatieren und als String zurückgeben
+    rough_string = ET.tostring(root, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     
-    # Workaround, um CDATA-Escaping durch minidom zu verhindern
-    meta_values = reparsed.getElementsByTagName("wp:meta_value")
-    for mv in meta_values:
-        if "<![CDATA[" in mv.firstChild.nodeValue:
-            mv.firstChild.nodeValue = elementor_json_string
-
     return reparsed.toprettyxml(indent="  ", encoding="UTF-8").decode()
 
-# --- HAUPT-SKRIPT ---
+# =============================================================================
+# SKRIPT-AUSFÜHRUNG
+# =============================================================================
+
 if __name__ == "__main__":
     try:
         with open("config.yaml", "r", encoding="utf-8") as file:

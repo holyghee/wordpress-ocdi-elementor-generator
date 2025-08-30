@@ -1,0 +1,467 @@
+[
+  {
+    "id": "c01f85b",
+    "elType": "section",
+    "settings": {
+      "gap": "no",
+      "layout": "full_width",
+      "background_color": "rgba(0,0,0,0.6)",
+      "shape_divider_bottom": "mountains",
+      "shape_divider_bottom_color": "#ffffff",
+      "shape_divider_bottom_width": {
+        "unit": "%",
+        "size": 105
+      },
+      "shape_divider_bottom_height": {
+        "unit": "px",
+        "size": 88
+      }
+    },
+    "elements": [
+      {
+        "id": "9e8b3f9",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "f4610e0",
+            "elType": "widget",
+            "settings": {
+              "slider_list": [
+                {
+                  "_id": "fd49f2f",
+                  "title": "Professionelle <span>Schadstoffsanierung</span>",
+                  "subtitle": "SEIT 1995",
+                  "text": "Zertifizierte Asbestsanierung, PCB-Entsorgung und Schimmelbekämpfung mit höchsten Sicherheitsstandards.",
+                  "btn_text": "Kostenloses Angebot",
+                  "btn_link": {
+                    "url": "/kontakt"
+                  },
+                  "image": {
+                    "url": "http://localhost:3456/hero-sanierung.jpg",
+                    "id": ""
+                  }
+                },
+                {
+                  "_id": "e7e7045",
+                  "title": "Umweltschutz mit <span>Verantwortung</span>",
+                  "subtitle": "NACHHALTIG & SICHER",
+                  "text": "Fachgerechte Entsorgung und Sanierung für eine saubere Zukunft.",
+                  "btn_text": "Unsere Services",
+                  "btn_link": {
+                    "url": "/leistungen"
+                  },
+                  "image": {
+                    "url": "http://localhost:3456/hero-umwelt.jpg",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            "elements": [],
+            "widgetType": "rdn-slider"
+          }
+        ]
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "elType": "section",
+    "settings": {
+      "gap": "extended",
+      "custom_height": {
+        "unit": "px",
+        "size": 300,
+        "sizes": []
+      },
+      "content_position": "middle",
+      "structure": "30",
+      "background_color": "#b68c2f",
+      "box_shadow_box_shadow": {
+        "horizontal": 10,
+        "vertical": 0,
+        "blur": 0,
+        "spread": 4,
+        "color": "#ededed"
+      },
+      "margin": {
+        "unit": "px",
+        "top": -100,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "fc8b3cd",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "background_color": "#fafafa",
+          "border_width": {
+            "unit": "px",
+            "top": 10,
+            "right": 0,
+            "bottom": 10,
+            "left": 10,
+            "isLinked": false
+          },
+          "border_color": "#ededed",
+          "animation": "fadeInUp",
+          "animation_delay": 0
+        },
+        "elements": [
+          {
+            "id": "11eef1e",
+            "elType": "section",
+            "settings": {
+              "gap": "no",
+              "shape_divider_bottom": "curve",
+              "shape_divider_bottom_color": "#fafafa",
+              "shape_divider_bottom_negative": "yes",
+              "shape_divider_bottom_above_content": "yes"
+            },
+            "elements": [
+              {
+                "id": "9a5663c",
+                "elType": "column",
+                "settings": {
+                  "_column_size": 100
+                },
+                "elements": [
+                  {
+                    "id": "a7d64a8",
+                    "elType": "widget",
+                    "settings": {
+                      "image": {
+                        "url": "http://localhost:3456/asbestsanierung-schutzausruestung-fachpersonal.jpg",
+                        "id": ""
+                      },
+                      "_border_width": {
+                        "unit": "px",
+                        "top": 4,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "_border_color": "#b68c2f"
+                    },
+                    "elements": [],
+                    "widgetType": "image"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "097ed72",
+            "elType": "section",
+            "settings": {
+              "gap": "no",
+              "margin": {
+                "unit": "px",
+                "top": -30,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              },
+              "z_index": 2
+            },
+            "elements": [
+              {
+                "id": "f9749ff",
+                "elType": "column",
+                "settings": {
+                  "_column_size": 100
+                },
+                "elements": [
+                  {
+                    "id": "e3560e4",
+                    "elType": "widget",
+                    "settings": {
+                      "title": "Asbestsanierung",
+                      "subtitle": "ZERTIFIZIERT",
+                      "text": "<p>Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards.</p>",
+                      "selected_icon": {
+                        "value": "fas fa-shield-alt",
+                        "library": "fa-solid"
+                      },
+                      "icon_color": "#ffffff",
+                      "iconbg_color": "#b68c2f",
+                      "subtitle_color": "#b68c2f",
+                      "_border_color": "#b68c2f",
+                      "_border_border": "dashed",
+                      "_padding": {
+                        "unit": "px",
+                        "top": 30,
+                        "right": 30,
+                        "bottom": 30,
+                        "left": 30
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "cholot-texticon"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "2147b6e",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "background_color": "#fafafa",
+          "border_width": {
+            "unit": "px",
+            "top": 10,
+            "right": 0,
+            "bottom": 10,
+            "left": 10,
+            "isLinked": false
+          },
+          "border_color": "#ededed",
+          "animation": "fadeInUp",
+          "animation_delay": 200
+        },
+        "elements": [
+          {
+            "id": "032e072",
+            "elType": "section",
+            "settings": {
+              "gap": "no",
+              "shape_divider_bottom": "curve",
+              "shape_divider_bottom_color": "#fafafa",
+              "shape_divider_bottom_negative": "yes",
+              "shape_divider_bottom_above_content": "yes"
+            },
+            "elements": [
+              {
+                "id": "30cec77",
+                "elType": "column",
+                "settings": {
+                  "_column_size": 100
+                },
+                "elements": [
+                  {
+                    "id": "4434140",
+                    "elType": "widget",
+                    "settings": {
+                      "image": {
+                        "url": "http://localhost:3456/schadstoffsanierung-industrieanlage-riman-gmbh.jpg",
+                        "id": ""
+                      },
+                      "_border_width": {
+                        "unit": "px",
+                        "top": 4,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "_border_color": "#b68c2f"
+                    },
+                    "elements": [],
+                    "widgetType": "image"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "e0b6d79",
+            "elType": "section",
+            "settings": {
+              "gap": "no",
+              "margin": {
+                "unit": "px",
+                "top": -30,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              },
+              "z_index": 2
+            },
+            "elements": [
+              {
+                "id": "6a27038",
+                "elType": "column",
+                "settings": {
+                  "_column_size": 100
+                },
+                "elements": [
+                  {
+                    "id": "761d379",
+                    "elType": "widget",
+                    "settings": {
+                      "title": "PCB-Sanierung",
+                      "subtitle": "FACHGERECHT",
+                      "text": "<p>Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften.</p>",
+                      "selected_icon": {
+                        "value": "fas fa-industry",
+                        "library": "fa-solid"
+                      },
+                      "icon_color": "#ffffff",
+                      "iconbg_color": "#b68c2f",
+                      "subtitle_color": "#b68c2f",
+                      "_border_color": "#b68c2f",
+                      "_border_border": "dashed",
+                      "_padding": {
+                        "unit": "px",
+                        "top": 30,
+                        "right": 30,
+                        "bottom": 30,
+                        "left": 30
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "cholot-texticon"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "4673f11",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "background_color": "#fafafa",
+          "border_width": {
+            "unit": "px",
+            "top": 10,
+            "right": 0,
+            "bottom": 10,
+            "left": 10,
+            "isLinked": false
+          },
+          "border_color": "#ededed",
+          "animation": "fadeInUp",
+          "animation_delay": 400
+        },
+        "elements": [
+          {
+            "id": "6c87a62",
+            "elType": "section",
+            "settings": {
+              "gap": "no",
+              "shape_divider_bottom": "curve",
+              "shape_divider_bottom_color": "#fafafa",
+              "shape_divider_bottom_negative": "yes",
+              "shape_divider_bottom_above_content": "yes"
+            },
+            "elements": [
+              {
+                "id": "f9f93f4",
+                "elType": "column",
+                "settings": {
+                  "_column_size": 100
+                },
+                "elements": [
+                  {
+                    "id": "1482cdb",
+                    "elType": "widget",
+                    "settings": {
+                      "image": {
+                        "url": "http://localhost:3456/umweltingenieur-bodenproben-analyse-labor.jpg",
+                        "id": ""
+                      },
+                      "_border_width": {
+                        "unit": "px",
+                        "top": 4,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "_border_color": "#b68c2f"
+                    },
+                    "elements": [],
+                    "widgetType": "image"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "5add6bc",
+            "elType": "section",
+            "settings": {
+              "gap": "no",
+              "margin": {
+                "unit": "px",
+                "top": -30,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              },
+              "z_index": 2
+            },
+            "elements": [
+              {
+                "id": "42a6560",
+                "elType": "column",
+                "settings": {
+                  "_column_size": 100
+                },
+                "elements": [
+                  {
+                    "id": "d31a216",
+                    "elType": "widget",
+                    "settings": {
+                      "title": "Schimmelsanierung",
+                      "subtitle": "NACHHALTIG",
+                      "text": "<p>Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen.</p>",
+                      "selected_icon": {
+                        "value": "fas fa-home",
+                        "library": "fa-solid"
+                      },
+                      "icon_color": "#ffffff",
+                      "iconbg_color": "#b68c2f",
+                      "subtitle_color": "#b68c2f",
+                      "_border_color": "#b68c2f",
+                      "_border_border": "dashed",
+                      "_padding": {
+                        "unit": "px",
+                        "top": 30,
+                        "right": 30,
+                        "bottom": 30,
+                        "left": 30
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "cholot-texticon"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false,
+    "id": "1d0b0b3"
+  }
+]
