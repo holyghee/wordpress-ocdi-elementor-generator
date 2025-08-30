@@ -1,0 +1,35 @@
+# Globale Seiten-Metadaten
+page_meta:
+  author_email: "holgerbrandt@beispiel.com"
+  author_login: "holgerbrandt"
+  author_display_name: "Holger Brandt"
+
+# Seitendefinition
+page:
+  name: "Generierte Homepage"
+  slug: "home-generated"
+  # Sektionen wie zuvor...
+  sections:
+    - type: "hero_slider_mountains_divider"
+      config:
+        slides:
+          - title: "Unsere <span>innovativen</span> Lösungen"
+            subtitle: "MASSGESCHNEIDERT FÜR SIE"
+            text: "Wir bieten flexible und skalierbare Lösungen für jede Unternehmensgröße."
+            button_text: "Mehr erfahren"
+            button_link: "/ueber-uns"
+            background_image_url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/esther-town-492626-unsplash.jpg"
+
+    - type: "service_card_curved_image"
+      config:
+        items:
+          - image_url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/06/val-vesa-410839-unsplash.jpg"
+            icon: "fas fa-shield-alt"
+            subtitle: "Sicherheit"
+            title: "Asbestsanierung"
+            description: "Zertifizierte und sichere Entfernung von Asbestmaterialien nach TRGS 519."
+          - image_url: "https://theme.winnertheme.com/cholot/wp-content/uploadz/2019/07/5.jpg"
+            icon: "fas fa-fire-extinguisher"
+            subtitle: "Prävention"
+            title: "Brandschutz"
+            description: "Planung und Umsetzung von Brandschutzkonzepten für Gewerbe und Privat."
