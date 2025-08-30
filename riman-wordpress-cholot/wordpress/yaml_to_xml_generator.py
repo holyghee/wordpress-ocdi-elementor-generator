@@ -1,219 +1,331 @@
 #!/usr/bin/env python3
 """
-YAML zu WordPress XML Generator
-Generiert aus einfacher YAML-Config eine importierbare WordPress XML mit Elementor-Daten
+YAML zu WordPress XML Generator für Elementor
+Basierend auf Geminis Analyse und erweitert für vollständige XML-Generierung
 """
 
 import yaml
 import json
-from pathlib import Path
+import copy
+import hashlib
+import xml.etree.ElementTree as ET
 from datetime import datetime
-from elementor_generator_v2 import ElementorGeneratorV2
+import xml.dom.minidom as minidom
 
-def yaml_to_wordpress_xml(yaml_file: str, output_xml: str = 'generated_from_yaml.xml'):
-    """Konvertiert YAML Config zu WordPress XML"""
-    
-    # Lade YAML
-    with open(yaml_file, 'r', encoding='utf-8') as f:
-        config = yaml.safe_load(f)
-    
-    print(f"📖 Lade YAML Config: {yaml_file}")
-    
-    # Initialisiere Generator
-    generator = ElementorGeneratorV2()
-    
-    site_info = config.get('site', {})
-    pages = config.get('pages', [])
-    
-    # Erstelle XML Struktur
-    xml_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:wp="http://wordpress.org/export/1.2/">
-
-<channel>
-    <title>{site_info.get('name', 'Website')}</title>
-    <link>{site_info.get('url', 'http://localhost:8081')}</link>
-    <description>{site_info.get('tagline', '')}</description>
-    <pubDate>{datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>
-    <language>de-DE</language>
-    <wp:wxr_version>1.2</wp:wxr_version>
-    <wp:base_site_url>{site_info.get('url', 'http://localhost:8081')}</wp:base_site_url>
-    <wp:base_blog_url>{site_info.get('url', 'http://localhost:8081')}</wp:base_blog_url>
-'''
-    
-    # Verarbeite jede Seite
-    post_id = 6000
-    for page_config in pages:
-        post_id += 1
+class YamlToWordPressXML:
+    def __init__(self):
+        self.init_templates()
+        self.init_design_tokens()
         
-        # Generiere Elementor Sections
-        sections = []
-        
-        for section_config in page_config.get('sections', []):
-            section_type = section_config.get('type')
-            
-            if section_type == 'hero':
-                # Hero Section
-                section = {
-                    "id": generator.generate_unique_id(),
+    def init_design_tokens(self):
+        """Standard Design-Tokens (können durch YAML überschrieben werden)"""
+        self.design_tokens = {
+            'colors': {
+                'primary': '#b68c2f',
+                'text_dark': '#000000',
+                'text_light': '#ffffff',
+                'background_light': '#fafafa',
+                'background_dark': '#1f1f1f'
+            },
+            'typography': {
+                'font_heading': 'Playfair Display',
+                'font_body': 'Source Sans Pro'
+            }
+        }
+    
+    def init_templates(self):
+        """Initialisiert die Block-Templates basierend auf der Cholot-Struktur"""
+        self.templates = {
+            'service_card_container': {
+                "elType": "section",
+                "settings": {
+                    "gap": "extended",
+                    "custom_height": {"unit": "px", "size": 300, "sizes": []},
+                    "content_position": "middle",
+                    "structure": "30",
+                    "background_color": "{{colors.primary}}",
+                    "box_shadow_box_shadow": {
+                        "horizontal": 10,
+                        "vertical": 0,
+                        "blur": 0,
+                        "spread": 4,
+                        "color": "#ededed"
+                    },
+                    "margin": {"unit": "px", "top": -100, "right": 0, "bottom": 0, "left": 0, "isLinked": False}
+                },
+                "elements": [],
+                "isInner": False
+            },
+            'service_card_item': {
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "_inline_size": None,
+                    "background_background": "classic",
+                    "background_color": "{{colors.background_light}}",
+                    "border_width": {"unit": "px", "top": 10, "right": 0, "bottom": 10, "left": 10, "isLinked": False},
+                    "border_color": "#ededed",
+                    "animation": "fadeInUp",
+                    "animation_duration": "fast"
+                },
+                "elements": [],
+                "isInner": False
+            }
+        }
+    
+    def generate_id(self):
+        """Generiert eine unique ID für Elementor-Elemente"""
+        return hashlib.md5(str(datetime.now().timestamp()).encode()).hexdigest()[:7]
+    
+    def apply_design_tokens(self, element, tokens):
+        """Ersetzt Platzhalter mit Design-Token-Werten"""
+        if isinstance(element, dict):
+            for key, value in element.items():
+                if isinstance(value, str) and value.startswith("{{") and value.endswith("}}"):
+                    token_path = value.strip(" {}").split('.')
+                    resolved_value = tokens
+                    for part in token_path:
+                        resolved_value = resolved_value.get(part, value)
+                    element[key] = resolved_value
+                else:
+                    self.apply_design_tokens(value, tokens)
+        elif isinstance(element, list):
+            for item in element:
+                self.apply_design_tokens(item, tokens)
+        return element
+    
+    def generate_service_card(self, card_data, index):
+        """Generiert eine einzelne Service-Card mit Cholot-Struktur"""
+        card = {
+            "id": self.generate_id(),
+            "elType": "column",
+            "settings": {
+                "_column_size": 33,
+                "background_color": "#fafafa",
+                "border_width": {"unit": "px", "top": 10, "right": 0, "bottom": 10, "left": 10, "isLinked": False},
+                "border_color": "#ededed",
+                "animation": "fadeInUp",
+                "animation_delay": index * 200
+            },
+            "elements": [
+                # Inner Section 1: Bild mit Shape Divider
+                {
+                    "id": self.generate_id(),
                     "elType": "section",
                     "settings": {
-                        "stretch_section": "section-stretched",
-                        "layout": "full_width"
+                        "gap": "no",
+                        "shape_divider_bottom": "curve",
+                        "shape_divider_bottom_color": "#fafafa",
+                        "shape_divider_bottom_negative": "yes",
+                        "shape_divider_bottom_above_content": "yes"
                     },
                     "elements": [{
-                        "id": generator.generate_unique_id(),
+                        "id": self.generate_id(),
                         "elType": "column",
                         "settings": {"_column_size": 100},
                         "elements": [{
-                            "id": generator.generate_unique_id(),
+                            "id": self.generate_id(),
                             "elType": "widget",
-                            "widgetType": "heading",
                             "settings": {
-                                "title": section_config.get('title', ''),
-                                "header_size": "h1",
-                                "align": "center"
-                            }
-                        }]
-                    }]
-                }
-                sections.append(section)
-                
-            elif section_type == 'service_cards':
-                # Service Cards Section
-                cards = section_config.get('cards', [])
-                service_section = generator.generate_service_cards_section(cards)
-                sections.append(service_section)
-                
-            elif section_type == 'contact':
-                # Contact Section
-                contact_section = {
-                    "id": generator.generate_unique_id(),
+                                "image": {"url": card_data.get('image', ''), "id": ""},
+                                "_border_width": {"unit": "px", "top": 4, "right": 0, "bottom": 0, "left": 0},
+                                "_border_color": "{{colors.primary}}"
+                            },
+                            "elements": [],
+                            "widgetType": "image"
+                        }],
+                        "isInner": True
+                    }],
+                    "isInner": True
+                },
+                # Inner Section 2: cholot-texticon
+                {
+                    "id": self.generate_id(),
                     "elType": "section",
                     "settings": {
-                        "background_background": "classic",
-                        "background_color": "#1a1a1a",
-                        "padding": {"unit": "px", "top": 80, "bottom": 80}
+                        "gap": "no",
+                        "margin": {"unit": "px", "top": -30, "right": 0, "bottom": 0, "left": 0},
+                        "z_index": 2
                     },
                     "elements": [{
-                        "id": generator.generate_unique_id(),
+                        "id": self.generate_id(),
                         "elType": "column",
                         "settings": {"_column_size": 100},
-                        "elements": [
-                            {
-                                "id": generator.generate_unique_id(),
-                                "elType": "widget",
-                                "widgetType": "heading",
-                                "settings": {
-                                    "title": section_config.get('title', 'Kontakt'),
-                                    "header_size": "h2",
-                                    "align": "center",
-                                    "title_color": "#ffffff"
-                                }
+                        "elements": [{
+                            "id": self.generate_id(),
+                            "elType": "widget",
+                            "settings": {
+                                "title": card_data.get('title', ''),
+                                "subtitle": card_data.get('subtitle', ''),
+                                "text": f"<p>{card_data.get('text', '')}</p>",
+                                "selected_icon": {
+                                    "value": card_data.get('icon', 'fas fa-star'),
+                                    "library": "fa-solid"
+                                },
+                                "icon_color": "#ffffff",
+                                "iconbg_color": "{{colors.primary}}",
+                                "subtitle_color": "{{colors.primary}}",
+                                "_border_color": "{{colors.primary}}",
+                                "_border_border": "dashed",
+                                "_padding": {"unit": "px", "top": 30, "right": 30, "bottom": 30, "left": 30}
                             },
-                            {
-                                "id": generator.generate_unique_id(),
-                                "elType": "widget",
-                                "widgetType": "shortcode",
-                                "settings": {
-                                    "shortcode": f'[contact-form-7 id="{section_config.get("form_id", "1")}" title="Contact form 1"]'
-                                }
-                            }
-                        ]
-                    }]
+                            "elements": [],
+                            "widgetType": "cholot-texticon"
+                        }],
+                        "isInner": True
+                    }],
+                    "isInner": True
                 }
-                sections.append(contact_section)
-        
-        # Konvertiere zu Elementor JSON
-        elementor_data = json.dumps(sections, ensure_ascii=False)
-        
-        # Escape für XML
-        elementor_data = elementor_data.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-        
-        # Füge Page Item zu XML hinzu
-        xml_content += f'''
-    <item>
-        <title><![CDATA[{page_config.get('title', 'Untitled')}]]></title>
-        <link>{site_info.get('url', 'http://localhost:8081')}/?page_id={post_id}</link>
-        <pubDate>{datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">{site_info.get('url', 'http://localhost:8081')}/?page_id={post_id}</guid>
-        <description></description>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>{post_id}</wp:post_id>
-        <wp:post_date><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]]></wp:post_date_gmt>
-        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
-        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
-        <wp:post_name><![CDATA[{page_config.get('slug', 'page-' + str(post_id))}]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[elementor_header_footer]]></wp:meta_value>
-        </wp:postmeta>
-        
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-            <wp:meta_value><![CDATA[3.18.3]]></wp:meta_value>
-        </wp:postmeta>
-        
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
-            <wp:meta_value><![CDATA[builder]]></wp:meta_value>
-        </wp:postmeta>
-        
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-            <wp:meta_value><![CDATA[{elementor_data}]]></wp:meta_value>
-        </wp:postmeta>
-    </item>
-'''
+            ],
+            "isInner": False
+        }
+        return card
     
-    # Schließe XML
-    xml_content += '''
-</channel>
-</rss>'''
+    def generate_service_cards_section(self, config, tokens):
+        """Generiert die komplette Service-Cards Section"""
+        container = copy.deepcopy(self.templates['service_card_container'])
+        container['id'] = self.generate_id()
+        
+        items = config.get('items', [])
+        for i, item in enumerate(items):
+            card = self.generate_service_card(item, i)
+            card = self.apply_design_tokens(card, tokens)
+            container['elements'].append(card)
+        
+        container = self.apply_design_tokens(container, tokens)
+        return container
     
-    # Speichere XML
-    with open(output_xml, 'w', encoding='utf-8') as f:
-        f.write(xml_content)
+    def generate_hero_slider(self, config, tokens):
+        """Generiert Hero Slider Section"""
+        slider_section = {
+            "id": self.generate_id(),
+            "elType": "section",
+            "settings": {
+                "gap": "no",
+                "layout": "full_width",
+                "background_color": "rgba(0,0,0,0.6)",
+                "shape_divider_bottom": "mountains",
+                "shape_divider_bottom_color": "#ffffff",
+                "shape_divider_bottom_width": {"unit": "%", "size": 105},
+                "shape_divider_bottom_height": {"unit": "px", "size": 88}
+            },
+            "elements": [{
+                "id": self.generate_id(),
+                "elType": "column",
+                "settings": {"_column_size": 100},
+                "elements": [{
+                    "id": self.generate_id(),
+                    "elType": "widget",
+                    "settings": {
+                        "slider_list": [
+                            {
+                                "_id": self.generate_id(),
+                                "title": slide.get('title', ''),
+                                "subtitle": slide.get('subtitle', ''),
+                                "text": slide.get('text', ''),
+                                "btn_text": slide.get('button_text', ''),
+                                "btn_link": {"url": slide.get('button_link', '#')},
+                                "image": {"url": slide.get('background_image', ''), "id": ""}
+                            }
+                            for slide in config.get('slides', [])
+                        ]
+                    },
+                    "elements": [],
+                    "widgetType": "rdn-slider"
+                }]
+            }],
+            "isInner": False
+        }
+        return self.apply_design_tokens(slider_section, tokens)
     
-    print(f"\n✅ XML generiert: {output_xml}")
-    print(f"📦 Enthält {len(pages)} Seite(n)")
-    print(f"\n🎯 Import in WordPress:")
-    print(f"   1. WordPress Admin → Werkzeuge → Importieren")
-    print(f"   2. WordPress Importer wählen")
-    print(f"   3. Datei '{output_xml}' hochladen")
-    print(f"   4. Seite erscheint unter: {site_info.get('url', 'http://localhost:8081')}/?page_id={post_id}")
+    def generate_elementor_data(self, yaml_config):
+        """Hauptfunktion zur Generierung der Elementor-Daten"""
+        page_config = yaml_config.get('page', {})
+        design_tokens = yaml_config.get('design_system', self.design_tokens)
+        
+        elementor_data = []
+        
+        for section in page_config.get('sections', []):
+            section_type = section.get('type')
+            section_config = section.get('config', {})
+            
+            if section_type == 'hero_slider':
+                elementor_data.append(self.generate_hero_slider(section_config, design_tokens))
+            elif section_type == 'service_cards':
+                elementor_data.append(self.generate_service_cards_section(section_config, design_tokens))
+            # Weitere Section-Types können hier hinzugefügt werden
+        
+        return elementor_data
     
-    return output_xml
-
+    def generate_wordpress_xml(self, yaml_config):
+        """Generiert komplettes WordPress XML"""
+        # Root Element
+        rss = ET.Element('rss', version='2.0')
+        rss.set('xmlns:excerpt', 'http://wordpress.org/export/1.2/excerpt/')
+        rss.set('xmlns:content', 'http://purl.org/rss/1.0/modules/content/')
+        rss.set('xmlns:wp', 'http://wordpress.org/export/1.2/')
+        
+        channel = ET.SubElement(rss, 'channel')
+        
+        # Channel Meta
+        ET.SubElement(channel, 'title').text = yaml_config.get('company', {}).get('name', 'Website')
+        ET.SubElement(channel, 'link').text = 'http://localhost:8081'
+        ET.SubElement(channel, 'description').text = yaml_config.get('company', {}).get('tagline', '')
+        ET.SubElement(channel, 'language').text = 'de-DE'
+        ET.SubElement(channel, 'wp:wxr_version').text = '1.2'
+        
+        # Page Item
+        item = ET.SubElement(channel, 'item')
+        page_config = yaml_config.get('page', {})
+        
+        ET.SubElement(item, 'title').text = page_config.get('name', 'Homepage')
+        ET.SubElement(item, 'wp:post_id').text = '3000'
+        ET.SubElement(item, 'wp:post_type').text = 'page'
+        ET.SubElement(item, 'wp:status').text = 'publish'
+        
+        # Elementor Data als Postmeta
+        elementor_data = self.generate_elementor_data(yaml_config)
+        
+        postmeta = ET.SubElement(item, 'wp:postmeta')
+        ET.SubElement(postmeta, 'wp:meta_key').text = '_elementor_data'
+        ET.SubElement(postmeta, 'wp:meta_value').text = json.dumps(elementor_data, ensure_ascii=False)
+        
+        postmeta2 = ET.SubElement(item, 'wp:postmeta')
+        ET.SubElement(postmeta2, 'wp:meta_key').text = '_elementor_version'
+        ET.SubElement(postmeta2, 'wp:meta_value').text = '3.18.3'
+        
+        postmeta3 = ET.SubElement(item, 'wp:postmeta')
+        ET.SubElement(postmeta3, 'wp:meta_key').text = '_elementor_edit_mode'
+        ET.SubElement(postmeta3, 'wp:meta_value').text = 'builder'
+        
+        # XML String formatieren
+        xml_string = ET.tostring(rss, encoding='unicode')
+        dom = minidom.parseString(xml_string)
+        return dom.toprettyxml(indent="  ")
 
 def main():
-    """Hauptfunktion"""
-    import sys
+    # YAML laden
+    with open('config_riman.yaml', 'r', encoding='utf-8') as f:
+        config = yaml.safe_load(f)
     
-    yaml_file = 'riman_simple.yaml'
-    if len(sys.argv) > 1:
-        yaml_file = sys.argv[1]
+    # Generator initialisieren
+    generator = YamlToWordPressXML()
     
-    output_file = yaml_to_wordpress_xml(yaml_file, 'riman_from_yaml.xml')
+    # XML generieren
+    xml_content = generator.generate_wordpress_xml(config)
     
-    print(f"\n🎉 Fertig!")
-    print(f"   YAML Config: {yaml_file}")
-    print(f"   → WordPress XML: {output_file}")
-
+    # XML speichern
+    with open('riman_generated.xml', 'w', encoding='utf-8') as f:
+        f.write(xml_content)
+    
+    print("✅ WordPress XML erfolgreich generiert: riman_generated.xml")
+    
+    # Auch JSON für Debugging speichern
+    elementor_data = generator.generate_elementor_data(config)
+    with open('riman_elementor_data.json', 'w', encoding='utf-8') as f:
+        json.dump(elementor_data, f, indent=2, ensure_ascii=False)
+    
+    print("💾 Elementor Daten auch als JSON gespeichert: riman_elementor_data.json")
 
 if __name__ == "__main__":
     main()
