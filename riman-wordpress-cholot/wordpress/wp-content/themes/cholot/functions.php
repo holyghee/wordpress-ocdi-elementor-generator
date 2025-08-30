@@ -236,3 +236,117 @@ include(get_template_directory() . '/inc/custom-footer.php');
 /* Contact Form White Styles laden */
 wp_enqueue_style("contact-form-white", get_template_directory_uri() . "/contact-form-white.css");
 
+
+/* Shape Divider Styles */
+add_action('wp_head', 'cholot_shape_divider_styles');
+function cholot_shape_divider_styles() {
+    ?>
+    <style>
+    
+/* Elementor Shape Dividers */
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    z-index: 1;
+}
+
+.elementor-shape-bottom {
+    bottom: -1px;
+}
+
+.elementor-shape-top {
+    top: -1px;
+}
+
+.elementor-shape svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+}
+
+.elementor-shape-bottom svg {
+    transform: translateX(-50%) rotateX(180deg);
+}
+
+.elementor-shape[data-negative="true"].elementor-shape-bottom svg {
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.elementor-shape .elementor-shape-fill {
+    fill: #FAFAFA;
+}
+
+/* Service Card Specific Styles */
+.elementor-inner-section[data-settings*="shape_divider_bottom"] {
+    position: relative;
+}
+
+/* Curve Shape für Service Cards */
+.elementor-shape-bottom[data-shape="curve"] svg {
+    height: 50px;
+}
+
+/* Negative Curve */
+.elementor-shape[data-negative="true"] .elementor-shape-fill {
+    fill: #fafafa;
+}
+
+/* Service Card Image Container */
+.elementor-widget-image {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Pseudo-Element für Curve Effect wenn Shape Divider nicht funktioniert */
+.elementor-inner-section[data-id] .elementor-widget-image::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fafafa;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    z-index: 1;
+}
+
+/* Icon Styles für Cholot TextIcon */
+.elementor-widget-cholot-texticon .cholot-icon {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    background: #b68c2f;
+    color: #ffffff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: -27px auto 15px;
+    border: 7px solid #fafafa;
+    font-size: 20px;
+}
+
+/* Card Border und Shadow */
+.elementor-column[data-settings*="border_width"] {
+    border-style: solid;
+    border-color: #ededed;
+    background: #fafafa;
+    box-shadow: 0 4px 5px 0 rgba(196,196,196,0.26);
+    margin: 15px;
+    overflow: hidden;
+}
+
+.elementor-column[data-settings*="border_width"]:hover {
+    box-shadow: none;
+}
+
+    </style>
+    <?php
+}
