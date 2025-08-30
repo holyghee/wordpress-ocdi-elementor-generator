@@ -79,12 +79,16 @@ def hydrate_hero_slider(config):
 def hydrate_service_cards(config):
     container = copy.deepcopy(TEMPLATES["service_card_container"])
     items = config.get("items", [])
-    if not items: return container
+    if not items:
+        return container
     
     num_items = len(items)
-    if num_items == 4: container["settings"]["structure"] = "25"
-    elif num_items == 2: container["settings"]["structure"] = "50"
-    else: container["settings"]["structure"] = "30"
+    if num_items == 4:
+        container["settings"]["structure"] = "25"
+    elif num_items == 2:
+        container["settings"]["structure"] = "50"
+    else:
+        container["settings"]["structure"] = "30"
     
     animation_delay_step = 200
     for i, item_data in enumerate(items):
@@ -126,7 +130,6 @@ def generate_wxr_xml(yaml_data):
     meta_config = yaml_data.get("page_meta", {})
     elementor_json_string = json.dumps(generate_elementor_json(page_config), ensure_ascii=False)
 
-    # XML-Struktur aufbauen
     root = ET.Element("rss", version="2.0", 
                       attrib={"xmlns:wp": "http://wordpress.org/export/1.2/",
                               "xmlns:content": "http://purl.org/rss/1.0/modules/content/",
@@ -146,22 +149,18 @@ def generate_wxr_xml(yaml_data):
     ET.SubElement(item, "{http://wordpress.org/export/1.2/}post_type").text = "page"
     ET.SubElement(item, "{http://wordpress.org/export/1.2/}status").text = "publish"
     
-    # Meta-Feld für Elementor-Daten
     postmeta = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
     ET.SubElement(postmeta, "{http://wordpress.org/export/1.2/}meta_key").text = "_elementor_data"
     ET.SubElement(postmeta, "{http://wordpress.org/export/1.2/}meta_value").text = elementor_json_string
 
-    # Meta-Feld für Seitentemplate
     postmeta2 = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
     ET.SubElement(postmeta2, "{http://wordpress.org/export/1.2/}meta_key").text = "_wp_page_template"
     ET.SubElement(postmeta2, "{http://wordpress.org/export/1.2/}meta_value").text = "elementor_canvas"
     
-    # Meta-Feld für Edit-Mode
     postmeta3 = ET.SubElement(item, "{http://wordpress.org/export/1.2/}postmeta")
     ET.SubElement(postmeta3, "{http://wordpress.org/export/1.2/}meta_key").text = "_elementor_edit_mode"
     ET.SubElement(postmeta3, "{http://wordpress.org/export/1.2/}meta_value").text = "builder"
 
-    # XML formatieren und als String zurückgeben
     rough_string = ET.tostring(root, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     
@@ -187,3 +186,4 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print("FEHLER: Die Datei 'config.yaml' wurde nicht gefunden. Bitte erstellen Sie sie.")
     except Exception as e:
+        print(f"Ein unerwarteter Fehler ist aufgetreten: {e}")
