@@ -273,35 +273,47 @@ echo "==================================\n\n";
 
 $processor = new CompleteElementorProcessor();
 
-// Erstelle Test YAML
-$yaml_content = "
-pages:
-  - title: RIMAN GmbH
-    sections:
-      - type: service_cards
-        cards:
-          - title: Asbestsanierung
-            subtitle: ZERTIFIZIERT
-            description: Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards.
-            icon: fas fa-shield-alt
-            image: http://localhost:3456/asbestsanierung-schutzausruestung-fachpersonal.jpg
-          - title: PCB-Sanierung
-            subtitle: FACHGERECHT
-            description: Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften.
-            icon: fas fa-industry
-            image: http://localhost:3456/schadstoffsanierung-industrieanlage-riman-gmbh.jpg
-          - title: Schimmelsanierung
-            subtitle: NACHHALTIG
-            description: Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen.
-            icon: fas fa-home
-            image: http://localhost:3456/umweltingenieur-bodenproben-analyse-labor.jpg
-";
+// Erstelle Test Config
+$config = [
+    'pages' => [
+        [
+            'title' => 'RIMAN GmbH',
+            'sections' => [
+                [
+                    'type' => 'service_cards',
+                    'cards' => [
+                        [
+                            'title' => 'Asbestsanierung',
+                            'subtitle' => 'ZERTIFIZIERT',
+                            'description' => 'Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards.',
+                            'icon' => 'fas fa-shield-alt',
+                            'image' => 'http://localhost:3456/asbestsanierung-schutzausruestung-fachpersonal.jpg'
+                        ],
+                        [
+                            'title' => 'PCB-Sanierung',
+                            'subtitle' => 'FACHGERECHT',
+                            'description' => 'Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften.',
+                            'icon' => 'fas fa-industry',
+                            'image' => 'http://localhost:3456/schadstoffsanierung-industrieanlage-riman-gmbh.jpg'
+                        ],
+                        [
+                            'title' => 'Schimmelsanierung',
+                            'subtitle' => 'NACHHALTIG',
+                            'description' => 'Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen.',
+                            'icon' => 'fas fa-home',
+                            'image' => 'http://localhost:3456/umweltingenieur-bodenproben-analyse-labor.jpg'
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+];
 
-file_put_contents('riman_complete.yaml', $yaml_content);
-echo "✅ YAML Config erstellt\n";
+echo "✅ Config erstellt\n";
 
 // Generiere und importiere
-$processor->generateFromYaml('riman_complete.yaml');
+$processor->generateFromConfig($config);
 
 echo "\n🎯 VERSTÄNDNIS DES PROZESSES:\n";
 echo "============================\n";
