@@ -13,8 +13,9 @@ if (!file_exists($json_file)) {
     die("❌ generated_cholot_structure.json nicht gefunden! Bitte erst exact_cholot_processor.php ausführen.\n");
 }
 
-$elementor_data = file_get_contents($json_file);
-$elementor_array = json_decode($elementor_data, true);
+$elementor_array = json_decode(file_get_contents($json_file), true);
+// Konvertiere zu kompaktem JSON für Elementor
+$elementor_data = json_encode($elementor_array, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
 echo "✅ Elementor Struktur geladen\n";
 echo "   → " . count($elementor_array) . " Hauptsektionen gefunden\n";
