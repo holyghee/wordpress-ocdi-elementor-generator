@@ -1,0 +1,158 @@
+# Globale Design-Tokens für RIMAN GmbH
+design_system:
+  colors:
+    primary: "#b68c2f"      # RIMAN Gold/Ocker
+    text_dark: "#000000"
+    text_light: "#ffffff"
+    background_light: "#fafafa"
+    background_dark: "#1f1f1f"
+    border_color: "#ededed"
+  typography:
+    font_heading: "Playfair Display"
+    font_body: "Source Sans Pro"
+    weight_bold: 700
+    weight_normal: 400
+  spacing:
+    section_padding: 60
+    grid_gap: 30
+    overlap_margin: -100
+  animation:
+    type: "fadeInUp"
+    duration: "fast"
+    delay_increment: 200
+
+# Firmen-Informationen
+company:
+  name: "RIMAN GmbH"
+  tagline: "Professionelle Schadstoffsanierung"
+  contact:
+    phone: "+49 123 456789"
+    email: "info@riman-gmbh.de"
+    address: "Musterstraße 123, 12345 Musterstadt"
+
+# Seiten-Definition
+page:
+  name: "RIMAN Homepage"
+  slug: "riman-startseite"
+  sections:
+    # Hero Slider Section
+    - type: "hero_slider"
+      config:
+        slides:
+          - title: "Professionelle <span>Schadstoffsanierung</span>"
+            subtitle: "SEIT 1995"
+            text: "Zertifizierte Asbestsanierung, PCB-Entsorgung und Schimmelbekämpfung mit höchsten Sicherheitsstandards."
+            button_text: "Kostenloses Angebot"
+            button_link: "/kontakt"
+            background_image: "http://localhost:3456/hero-sanierung.jpg"
+          - title: "Umweltschutz mit <span>Verantwortung</span>"
+            subtitle: "NACHHALTIG & SICHER"
+            text: "Fachgerechte Entsorgung und Sanierung für eine saubere Zukunft."
+            button_text: "Unsere Services"
+            button_link: "/leistungen"
+            background_image: "http://localhost:3456/hero-umwelt.jpg"
+
+    # Service Cards Section
+    - type: "service_cards"
+      config:
+        items:
+          - title: "Asbestsanierung"
+            subtitle: "ZERTIFIZIERT"
+            text: "Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards."
+            icon: "fas fa-shield-alt"
+            image: "http://localhost:3456/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+          - title: "PCB-Sanierung"
+            subtitle: "FACHGERECHT"
+            text: "Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften."
+            icon: "fas fa-industry"
+            image: "http://localhost:3456/schadstoffsanierung-industrieanlage-riman-gmbh.jpg"
+          - title: "Schimmelsanierung"
+            subtitle: "NACHHALTIG"
+            text: "Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen."
+            icon: "fas fa-home"
+            image: "http://localhost:3456/umweltingenieur-bodenproben-analyse-labor.jpg"
+
+    # Feature Section mit Icon Grid
+    - type: "feature_section"
+      config:
+        pre_title: "Über 25 Jahre Erfahrung"
+        main_title: "Ihr Partner für <span>sichere</span> Sanierung"
+        description: "Mit modernster Technik und geschultem Fachpersonal sorgen wir für eine umweltgerechte und sichere Schadstoffsanierung."
+        image: "http://localhost:3456/team-riman.jpg"
+        service_icons:
+          - icon: "fas fa-certificate"
+            subtitle: "Zertifiziert"
+            title: "Nach TRGS 519"
+            text: "Alle Arbeiten nach aktuellen Vorschriften und Standards."
+          - icon: "fas fa-users"
+            subtitle: "Erfahren"
+            title: "Fachpersonal"
+            text: "Speziell geschulte und zertifizierte Mitarbeiter."
+          - icon: "fas fa-clock"
+            subtitle: "Schnell"
+            title: "24/7 Notdienst"
+            text: "Im Notfall sind wir rund um die Uhr für Sie da."
+          - icon: "fas fa-leaf"
+            subtitle: "Nachhaltig"
+            title: "Umweltschutz"
+            text: "Umweltgerechte Entsorgung und Recycling."
+
+    # Team Section
+    - type: "team_section"
+      config:
+        pre_title: "Unser Team"
+        main_title: "Experten mit <span>Leidenschaft</span>"
+        members:
+          - name: "Thomas Müller"
+            position: "Geschäftsführer"
+            image: "http://localhost:3456/team-mueller.jpg"
+            social:
+              - platform: "linkedin"
+                url: "https://linkedin.com/in/mueller"
+          - name: "Sandra Schmidt"
+            position: "Projektleiterin"
+            image: "http://localhost:3456/team-schmidt.jpg"
+            social:
+              - platform: "linkedin"
+                url: "https://linkedin.com/in/schmidt"
+          - name: "Michael Weber"
+            position: "Technischer Leiter"
+            image: "http://localhost:3456/team-weber.jpg"
+            social:
+              - platform: "linkedin"
+                url: "https://linkedin.com/in/weber"
+
+    # Testimonials Section
+    - type: "testimonials"
+      config:
+        pre_title: "Referenzen"
+        main_title: "Was unsere <span>Kunden</span> sagen"
+        background_image: "http://localhost:3456/testimonial-bg.jpg"
+        testimonials:
+          - text: "RIMAN hat unsere Asbestsanierung professionell und termingerecht durchgeführt. Sehr empfehlenswert!"
+            author_name: "Klaus Bauer"
+            author_position: "Bauunternehmer"
+            author_image: "http://localhost:3456/testimonial-1.jpg"
+          - text: "Kompetente Beratung und saubere Arbeit. Die PCB-Sanierung wurde perfekt umgesetzt."
+            author_name: "Maria Fischer"
+            author_position: "Immobilienverwalterin"
+            author_image: "http://localhost:3456/testimonial-2.jpg"
+          - text: "Schnelle Reaktion beim Schimmelbefall. Das Team war sehr professionell."
+            author_name: "Peter Lang"
+            author_position: "Hausbesitzer"
+            author_image: "http://localhost:3456/testimonial-3.jpg"
+
+    # Contact Section
+    - type: "contact_form"
+      config:
+        pre_title: "Kontakt"
+        main_title: "Kostenloses <span>Beratungsgespräch</span>"
+        description: "Nehmen Sie Kontakt mit uns auf für eine unverbindliche Beratung."
+        contact_details:
+          - icon: "fas fa-phone"
+            text: "+49 123 456789"
+          - icon: "fas fa-envelope"
+            text: "info@riman-gmbh.de"
+          - icon: "fas fa-map-marker-alt"
+            text: "Musterstraße 123, 12345 Musterstadt"
+        form_shortcode: "[contact-form-7 id=\"5\" title=\"Kontaktformular\"]"
