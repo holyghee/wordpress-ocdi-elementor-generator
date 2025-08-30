@@ -1,0 +1,22 @@
+pages:
+  - title: RIMAN GmbH - Schadstoffsanierung
+    sections:
+      - type: service_cards
+        cards:
+          - title: Asbestsanierung
+            subtitle: ZERTIFIZIERT
+            description: Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards.
+            icon: fas fa-shield-alt
+            image: http://localhost:3456/asbestsanierung-schutzausruestung-fachpersonal.jpg
+          
+          - title: PCB-Sanierung
+            subtitle: FACHGERECHT
+            description: Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften.
+            icon: fas fa-industry
+            image: http://localhost:3456/schadstoffsanierung-industrieanlage-riman-gmbh.jpg
+          
+          - title: Schimmelsanierung
+            subtitle: NACHHALTIG
+            description: Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen.
+            icon: fas fa-home
+            image: http://localhost:3456/umweltingenieur-bodenproben-analyse-labor.jpg
