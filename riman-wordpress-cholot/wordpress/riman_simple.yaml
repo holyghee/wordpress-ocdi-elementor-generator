@@ -1,0 +1,52 @@
+# RIMAN GmbH Website - Einfache YAML Konfiguration
+# Mit dieser Config wird eine komplette Elementor-Seite generiert
+
+site:
+  name: "RIMAN GmbH"
+  tagline: "Professionelle Mediation & Sanierung"
+  url: "http://localhost:8081"
+
+pages:
+  - title: "Startseite"
+    slug: "home"
+    sections:
+      
+      # Hero Section
+      - type: "hero"
+        title: "Professionelle Mediation & Sanierung"
+        subtitle: "Ihr Partner für Konfliktlösung und Schadstoffsanierung"
+        button_text: "Mehr erfahren"
+        button_link: "#services"
+        background_image: "/wp-content/uploads/2025/08/hero-bg.jpg"
+      
+      # Service Cards Section
+      - type: "service_cards"
+        cards:
+          - title: "Asbestsanierung"
+            subtitle: "ZERTIFIZIERT"
+            description: "Professionelle Entfernung von Asbest nach TRGS 519 mit höchsten Sicherheitsstandards."
+            icon: "fas fa-shield-alt"
+            image: "/wp-content/uploads/2025/08/asbestsanierung-schutzausruestung-fachpersonal.jpg"
+          
+          - title: "PCB-Sanierung"
+            subtitle: "FACHGERECHT"
+            description: "Sichere Beseitigung von PCB-belasteten Materialien nach aktuellen Vorschriften."
+            icon: "fas fa-industry"
+            image: "/wp-content/uploads/2025/08/pcb-sanierung-fachgerechte-entsorgung.jpg"
+          
+          - title: "Schimmelsanierung"
+            subtitle: "NACHHALTIG"
+            description: "Nachhaltige Schimmelbeseitigung und Prävention für gesundes Wohnen."
+            icon: "fas fa-home"
+            image: "/wp-content/uploads/2025/08/schimmelsanierung-praevention-nachhaltig.jpg"
+          
+          - title: "Brandschadensanierung"
+            subtitle: "SCHNELL & EFFEKTIV"
+            description: "Professionelle Beseitigung von Brandschäden und Geruchsneutralisation."
+            icon: "fas fa-fire-extinguisher"
+            image: "/wp-content/uploads/2025/08/brandschadensanierung.jpg"
+      
+      # Contact Section
+      - type: "contact"
+        title: "Kontaktieren Sie uns"
+        form_id: "1"
