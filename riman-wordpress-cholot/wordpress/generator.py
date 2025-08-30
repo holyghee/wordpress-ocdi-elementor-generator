@@ -186,4 +186,3 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print("FEHLER: Die Datei 'config.yaml' wurde nicht gefunden. Bitte erstellen Sie sie.")
     except Exception as e:
-        print(f"Ein unerwarteter Fehler ist aufgetreten: {e}")
