@@ -4,7 +4,7 @@
  */
 
 // Verbinde zur Original Cholot DB (Port 8080)
-$mysqli = new mysqli('localhost', 'wp_user', 'wp_password123', 'wordpress_mediation_test');
+$mysqli = new mysqli('localhost', 'wp_user', 'wp_password123', 'wordpress_mediation');
 
 if ($mysqli->connect_error) {
     die('Connection failed: ' . $mysqli->connect_error);
