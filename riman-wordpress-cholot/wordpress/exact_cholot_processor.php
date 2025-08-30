@@ -147,7 +147,7 @@ foreach ($service_cards as $index => $card) {
                             ]
                         ],
                         "isInner" => true
-                    }
+                    ]
                 ],
                 "isInner" => true
             ],
