@@ -174,86 +174,160 @@ class ElementorGeneratorV2:
         return self.generate_service_card_manual(card_config, index)
     
     def generate_service_card_manual(self, card_config: Dict, index: int) -> Dict:
-        """Manuelle Service Card Generierung (Fallback)"""
+        """Manuelle Service Card Generierung mit exakter Cholot Struktur aus demo-data-fixed.xml"""
         
         card = {
             "id": self.generate_unique_id(),
             "elType": "column",
             "settings": {
                 "_column_size": 33,
+                "_inline_size": None,
+                "background_background": "classic",
+                "background_size": "cover",
+                "border_width": {"unit": "px", "top": 10, "right": 0, "bottom": 10, "left": 10, "isLinked": False},
+                "border_color": "#ededed",
+                "box_shadow_box_shadow": {
+                    "horizontal": 0,
+                    "vertical": 4,
+                    "blur": 5,
+                    "spread": 0,
+                    "color": "rgba(196,196,196,0.26)"
+                },
+                "z_index": 1,
+                "background_color": "#fafafa",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_hover_box_shadow_type": "yes",
+                "box_shadow_hover_box_shadow": {
+                    "horizontal": 0,
+                    "vertical": 0,
+                    "blur": 0,
+                    "spread": 0,
+                    "color": "rgba(0,0,0,0)"
+                },
+                "margin": {"unit": "px", "top": 15, "right": 15, "bottom": 15, "left": 15, "isLinked": True},
+                "padding": {"unit": "%", "top": "", "right": "", "bottom": "", "left": "", "isLinked": False},
                 "animation": "fadeInUp",
-                "animation_delay": index * 200 if index > 0 else 0
+                "animation_duration": "fast",
+                "animation_delay": index * 200,
+                "_inline_size_tablet": 50
             },
             "elements": [
-                # Image Section mit Curved Shape
+                # Inner Section 1: Image mit Shape Divider (Exakt aus XML)
                 {
                     "id": self.generate_unique_id(),
                     "elType": "section",
-                    "isInner": True,
                     "settings": {
                         "gap": "no",
                         "shape_divider_bottom": "curve",
                         "shape_divider_bottom_color": "#fafafa",
                         "shape_divider_bottom_negative": "yes",
-                        "shape_divider_bottom_above_content": "yes",
-                        "background_background": "classic",
-                        "background_image": {
-                            "url": card_config.get('image', ''),
-                            "id": ""
-                        },
-                        "background_position": "center center",
-                        "background_size": "cover",
-                        "padding": {"unit": "px", "top": 150, "bottom": 50}
+                        "shape_divider_bottom_above_content": "yes"
                     },
                     "elements": [
                         {
                             "id": self.generate_unique_id(),
                             "elType": "column",
-                            "settings": {"_column_size": 100},
-                            "elements": []
-                        }
-                    ]
-                },
-                # Content Section
-                {
-                    "id": self.generate_unique_id(),
-                    "elType": "section",
-                    "isInner": True,
-                    "settings": {
-                        "gap": "no",
-                        "background_background": "classic",
-                        "background_color": "#ffffff",
-                        "padding": {"unit": "px", "top": 30, "bottom": 40, "left": 30, "right": 30}
-                    },
-                    "elements": [
-                        {
-                            "id": self.generate_unique_id(),
-                            "elType": "column",
-                            "settings": {"_column_size": 100},
+                            "settings": {
+                                "_column_size": 100,
+                                "_inline_size": None
+                            },
                             "elements": [
+                                # Image Widget
                                 {
                                     "id": self.generate_unique_id(),
                                     "elType": "widget",
-                                    "widgetType": "cholot-texticon",
                                     "settings": {
-                                        "title": card_config.get('title', ''),
-                                        "subtitle": card_config.get('subtitle', ''),
-                                        "text": card_config.get('description', ''),
-                                        "selected_icon": {
-                                            "value": card_config.get('icon', 'fas fa-shield-alt'),
-                                            "library": "fa-solid"
+                                        "image": {
+                                            "url": card_config.get('image', ''),
+                                            "id": ""
                                         },
-                                        "icon_color": "#b68c2f",
-                                        "subtitle_color": "#b68c2f",
-                                        "title_color": "#1f1f1f",
-                                        "text_color": "#666666"
-                                    }
+                                        "opacity": {"unit": "px", "size": 1, "sizes": []},
+                                        "_border_width": {"unit": "px", "top": 4, "right": 0, "bottom": 0, "left": 0, "isLinked": False},
+                                        "_border_color": "#b68c2f"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "image"
                                 }
-                            ]
+                            ],
+                            "isInner": True
                         }
-                    ]
+                    ],
+                    "isInner": True
+                },
+                # Inner Section 2: Content mit cholot-texticon
+                {
+                    "id": self.generate_unique_id(),
+                    "elType": "section",
+                    "settings": {
+                        "gap": "no",
+                        "content_position": "middle",
+                        "background_background": "classic",
+                        "padding": {"unit": "%", "top": "", "right": "", "bottom": "", "left": "", "isLinked": True},
+                        "margin": {"unit": "px", "top": -30, "right": 0, "bottom": 0, "left": 0, "isLinked": False},
+                        "z_index": 2
+                    },
+                    "elements": [
+                        {
+                            "id": self.generate_unique_id(),
+                            "elType": "column",
+                            "settings": {
+                                "_column_size": 100,
+                                "_inline_size": None
+                            },
+                            "elements": [
+                                # Cholot TextIcon Widget mit allen Settings aus XML
+                                {
+                                    "id": self.generate_unique_id(),
+                                    "elType": "widget",
+                                    "settings": {
+                                        "icon": "fa fa-child",
+                                        "title_text_margin": {"unit": "px", "size": 50, "sizes": []},
+                                        "title": card_config.get('title', ''),
+                                        "title_typography_typography": "custom",
+                                        "title_typography_font_size": {"unit": "px", "size": 28, "sizes": []},
+                                        "title_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 15, "left": 0, "isLinked": False},
+                                        "subtitle_typography_typography": "custom",
+                                        "subtitle_typography_font_size": {"unit": "px", "size": 13, "sizes": []},
+                                        "subtitle_typography_font_weight": "700",
+                                        "subtitle_typography_text_transform": "uppercase",
+                                        "subtitle_typography_letter_spacing": {"unit": "px", "size": 1, "sizes": []},
+                                        "sb_padding": {"unit": "%", "top": "", "right": "", "bottom": "", "left": "", "isLinked": False},
+                                        "sb_margin": {"unit": "px", "top": 0, "right": 0, "bottom": -15, "left": 0, "isLinked": False},
+                                        "subtitle_color": "#b68c2f",
+                                        "icon_size": {"unit": "px", "size": 20, "sizes": []},
+                                        "icon_bg_size": {"unit": "px", "size": 72, "sizes": []},
+                                        "icon_margin_left": {"unit": "%", "top": 1, "right": 0, "bottom": 0, "left": 0, "isLinked": False},
+                                        "selected_icon": {"value": card_config.get('icon', 'fas fa-shield-alt'), "library": "fa-solid"},
+                                        "__fa4_migrated": {"selected_icon": True},
+                                        "text": f"<p>{card_config.get('description', '')}</p>",
+                                        "text_typography_font_size": {"unit": "px", "size": 15, "sizes": []},
+                                        "text_typography_font_style": "italic",
+                                        "text_margin": {"unit": "px", "top": 15, "right": 0, "bottom": -30, "left": 0, "isLinked": False},
+                                        "icon_color": "#ffffff",
+                                        "iconbg_color": "#b68c2f",
+                                        "icon_bordering_border": "solid",
+                                        "icon_bordering_color": "#fafafa",
+                                        "_padding": {"unit": "px", "top": 30, "right": 30, "bottom": 30, "left": 30, "isLinked": True},
+                                        "_border_width": {"unit": "px", "top": 0, "right": 1, "bottom": 1, "left": 1, "isLinked": False},
+                                        "_border_color": "#b68c2f",
+                                        "_border_border": "dashed",
+                                        "icon_margin": {"unit": "px", "top": -27, "right": 0, "bottom": 0, "left": 0, "isLinked": False},
+                                        "icon_bordering_width": {"unit": "px", "top": 7, "right": 7, "bottom": 7, "left": 7, "isLinked": True},
+                                        "subtitle": card_config.get('subtitle', ''),
+                                        "btn_margin": {"unit": "%", "top": "", "right": "", "bottom": "", "left": "", "isLinked": False},
+                                        "icon_lheight": {"unit": "px", "size": 58, "sizes": []}
+                                    },
+                                    "elements": [],
+                                    "widgetType": "cholot-texticon"
+                                }
+                            ],
+                            "isInner": True
+                        }
+                    ],
+                    "isInner": True
                 }
-            ]
+            ],
+            "isInner": False
         }
         
         return card
